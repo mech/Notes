@@ -17,15 +17,21 @@
    
        git config --global user.name "mech"
        git config --global user.email "mech@me.com"
+       
        git config --global alias.co checkout
        git config --global alias.st status
        git config --global alias.br branch
+       
        git config --global apply.whitespace nowarn
+       
        git config --global color.branch auto
        git config --global color.diff auto
        git config --global color.interactive auto
        git config --global color.status auto
+       
        git config --global core.editor "vim"
+       
+       git config --global push.default simple
        git config --global --bool pull.rebase true
 
 9. Includes these at `.zshrc`
