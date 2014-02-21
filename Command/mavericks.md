@@ -4,46 +4,47 @@
 2. `xcode-select --install` to install Xcode Command Line Tools
 3. To make sure, type `gcc --version`
 4. Install `oh-my-zsh` via `curl`
-5. Install Homebrew. `brew update` and `brew doctor` first6.
+5. Install Homebrew. `brew update` and `brew doctor` first.
 6. Because we still have Ruby 1.8 application, we need to use GCC 4.2.
 
-       brew tap homebrew/dupes
-       brew install autoconf automake apple-gcc42
-       sudo ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc-4.2
+	```
+   brew tap homebrew/dupes
+   brew install autoconf automake apple-gcc42
+   sudo ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc-4.2
+   ```
 
 7. If you need X11, you can install it [here](http://xquartz.macosforge.org/landing/). You will want to `sudo ln -s /opt/X11 /usr/X11` also.
 8. Preparing for Git installation. Mavericks come with git, but we want to install it via `brew install git` which will reside at `/usr/local/bin/git`. Edit `.zshrc` to move that path forward: `export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"`
 
    Configure git with:
-
-       git config --global user.name "mech"
-       git config --global user.email "mech@me.com"
-
-       git config --global alias.co checkout
-       git config --global alias.st status
-       git config --global alias.br branch
-
-       git config --global apply.whitespace nowarn
-
-       git config --global color.branch auto
-       git config --global color.diff auto
-       git config --global color.interactive auto
-       git config --global color.status auto
-
-       git config --global core.editor "vim"
-
-       git config --global push.default simple
-       git config --global --bool pull.rebase true
+	
+	```
+   git config --global user.name "mech"
+   git config --global user.email "mech@me.com"
+   git config --global alias.co checkout
+   git config --global alias.st status
+   git config --global alias.br branch
+   git config --global apply.whitespace nowarn
+   git config --global color.branch auto
+   git config --global color.diff auto
+   git config --global color.interactive auto
+   git config --global color.status auto
+   git config --global core.editor "vim"
+   git config --global push.default simple
+   git config --global --bool pull.rebase true
+   ```
 
 9. Includes these at `.zshrc`
 
-       export EDITOR=vi
-       export LC_CTYPE=en_US.UTF-8
-       export LC_ALL=en_US.UTF-8
-       export LANG=en_US.UTF-8
-       export CPPFLAGS=-I/opt/X11/include
-       
-       RPROMPT='%{$fg[white]%} $(rbenv version | sed -e "s/ (set.*$//")%{$reset_color%}'
+	```
+   export EDITOR=vi
+   export LC_CTYPE=en_US.UTF-8
+   export LC_ALL=en_US.UTF-8
+   export LANG=en_US.UTF-8
+   export CPPFLAGS=-I/opt/X11/include
+   
+   RPROMPT='%{$fg[white]%} $(rbenv version | sed -e "s/ (set.*$//")%{$reset_color%}'
+   ```
 
 10. Now is time to generate SSH, and always give a passphrase!
 
