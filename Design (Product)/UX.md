@@ -3,6 +3,12 @@
 ## Process and Methods
 
 * [Empathy Maps for UX (Say, Think, Do, Feel)](http://www.tadpull.com/usability-tools/how-to-use-empathy-map-for-user-experience-mapping)
+* [Design process - Series](http://www.lurkmoophy.com/2014/an-actual-design-process-research-planning/)
+
+## Interviews
+
+* [Interview with Twitter's Cennydd Bowles](http://www.northerndiv.com/interview-twitters-cennydd-bowles/)
+
 
 ## Quotes
 
