@@ -339,7 +339,15 @@ Use https://github.com/jimbojsb/launchrocket at the PreferencePane.
     update users set email=CONCAT("jlxyz_", email) where type='Employer';
     
     mongorestore --db jobline_dev --drop ~/Desktop/mongodb_bak_with_timestamp/jobline_pro
+    
+# FileMaker and VMWare Fusion
+
+* [Change VMWare Fusion 6 NAT IP space](https://coderwall.com/p/mjbryq)
+
+Go to `/Library/Preferences/VMware Fusion` and look for `vmnet8/dhcpd.conf` and `vmnet8/nat.conf`.
+
 
 # Resources
 
 * http://robots.thoughtbot.com/the-hitchhikers-guide-to-riding-a-mountain-lion
+* http://blog.55minutes.com/2013/09/rails-os-x-install-guide/

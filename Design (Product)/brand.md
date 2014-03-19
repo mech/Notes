@@ -1,0 +1,13 @@
+# Brand
+
+* [Designing a brand identity](https://creativemarket.com/blog/2013/07/23/designing-a-brand-identity)
+* [Brand New](http://www.underconsideration.com/brandnew/)
+* [Rebrand](http://www.rebrand.com/)
+* [Landor - Case studies](http://landor.com/#!/work/case-studies/)
+* [Fi case studies](http://www.f-i.com/work/all)
+* [Business card gallery](http://parklifepress.com/business/gallery/)
+* [Card Faves](http://www.cardfaves.com/)
+* [Card Nerd](http://www.cardnerd.com/)
+* [Business card from Designspiration](http://designspiration.net/tag/business%20card/)
+* [Khoi Vinh's take on business card inspiration](http://www.subtraction.com/2014/02/24/inspiration-for-business-card-design)
+* [Facebook PR advice](http://firstround.com/article/The-Best-PR-Advice-Youve-Never-Heard-from-Facebooks-Head-of-Tech-Communications)

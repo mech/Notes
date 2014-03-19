@@ -2,11 +2,20 @@
 
 * [Concept Art](http://www.conceptart.org/forums/)
 
-## Inspiration
+## Color
 
-* [Geisha](http://geisha.io/app/)
-* [Designspiration](http://designspiration.net/)
+* **Color Mode** - A way to describe color with numbers. RGB, CMYK, Lab, HSL
+* **Color Space** - A range of colors. Adobe RGB, sRGB, ProPhoto RGB (BIG), monitor, inkjet printer.
+* **Profile** - Save color space as document, then you need a file format called color profile. A document that records a color space.
 
-## Icons
+* [color.hailpixel.com](http://color.hailpixel.com/)
+* [colourco.de](http://colourco.de/)
+
+## Icon
 
 * [Iconjar](http://geticonjar.com/)
+* [ICONIC](https://useiconic.com)
+
+## Golden Ratio
+
+* [Golden ratio in web design](http://www.pencilscoop.com/2014/03/understanding-and-using-the-golden-ratio-in-web-design/)
