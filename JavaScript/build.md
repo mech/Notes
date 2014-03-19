@@ -22,8 +22,8 @@ Gulp has built-in watcher.
 Grunt uses JSON-like data configuration files; Gulp uses leaner, simpler JavaScript code.
 
 ```
-gulp.src(glob) 	/* Returns a readable stream */
-gulp.dist(glob) 	/* Returns a writable stream */
+gulp.src(glob)   /* Returns a readable stream */
+gulp.dist(glob)  /* Returns a writable stream */
 ```
 
 * [A blank project with Gulp.js as build system](https://github.com/kyleconrad/blank-gulp)
@@ -43,7 +43,6 @@ gulp.dist(glob) 	/* Returns a writable stream */
 * [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin)
 * [gulp-cssmin](https://github.com/chilijung/gulp-cssmin)
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
-
 * [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
 
 
