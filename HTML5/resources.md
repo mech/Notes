@@ -5,6 +5,7 @@
 * [The Art of HTML Semantics](http://kevinsuttle.com/posts/the-art-of-html-semantics-pt1/)
 * [Need for speed - Some nice nginx config](http://jonsuh.com/blog/need-for-speed/)
 * [Landscaping with front-end development tools](https://github.com/codylindley/frontend-tools)
+* [Make the web accessible](http://thechangelog.com/we-make-the-web-lets-make-it-accessible/)
 
 ## HTML/CSS/JavaScript Style Guide
 
@@ -14,6 +15,8 @@
 * [SHORTTAG NETENABL IMMEDNET or whatever](http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html)
 * [Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 * [CSS and SASS styleguide](http://www.sitepoint.com/css-sass-styleguide/)
+* [Monterail.com guidelines](https://github.com/monterail/guidelines)
+* [JavaScript style guide - The Zen Approach](https://github.com/Nijikokun/the-zen-approach)
 
 ## HTML Boilerplate
 

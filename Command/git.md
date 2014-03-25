@@ -17,6 +17,8 @@ To delete your branch locally and then remotely:
     git branch -d <branch_name>
     git push origin :<branch_name>
 
+* [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+
 ## Stashing
 
 1. Stash away your changes: `git stash`

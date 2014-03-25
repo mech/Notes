@@ -8,6 +8,7 @@ Notable companies in HR domain.
 * [Staffing Industry Analysts](http://www.staffingindustry.com/)
 * [Advantage Resourcing](http://www.advantageresourcing.com/services/default/opcoid/25230/)
 * [Smart Recruiters](https://www.smartrecruiters.com/)
+* [HIRED](https://hired.com/)
 
 ## Executive Search
 

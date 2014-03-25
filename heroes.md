@@ -7,3 +7,7 @@
 
 ## Rich Hickey
 * [Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)
+
+## Wilson Page
+
+* [Blog](http://wilsonpage.co.uk/)

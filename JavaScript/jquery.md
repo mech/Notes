@@ -1,6 +1,7 @@
 # jQuery
 
 * [You might not need jQuery](http://youmightnotneedjquery.com/)
+* [Coding standards & best practices](http://lab.abhinayrathore.com/jquery-standards/)
 
 ## Plugins and Libraries
 

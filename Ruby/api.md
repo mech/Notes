@@ -1,6 +1,7 @@
 # API
 
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
+* [Useful tricks & tips for Grape and Rails APIs](http://codetunes.com/2014/grape-part-II/)
 
 ## Ruby Libraries
 

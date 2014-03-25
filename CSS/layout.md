@@ -1,11 +1,44 @@
 # Layout
 
+Steps to do layout:
+
+1. Do semantic HTML outline first.
+2. Mindful of margin, padding and their collapsing behavior.
+3. em and percentage and their containing parent.
+4. Any extra wrapper/grouping to use or not.
+5. Always use normal document flow to layout and only use float when necessary.
+
+Types of layout: Fixed, Fluid, Elastic, Hybrid, Responsive.
+
+* [Learn CSS Layout](http://learnlayout.com/)
+
+## Flexible Layout
+
+Remember margins and padding calculate their value as a percentage of the PARENT element! Especially for nested container.
+
+Use of `min-width` and `max-width` common.
+
+* [FlexGRID](http://www.volumethemes.com/flexgrid)
+
 ## Grids
 
 * [Responsive Dirty Little Secret](http://www.palantir.net/blog/responsive-design-s-dirty-little-secret)
 * [Grid stylesheets](http://gridstylesheets.org/)
 * [Susy](http://susy.oddbird.net/)
 * [Breakpoint](http://breakpoint-sass.com/)
+* [The Grid System](http://www.thegridsystem.org/)
+* [Design by Grid](http://www.designbygrid.com/)
+* [Inspiration for grids](http://grid-based.com/)
+* [Building your own fluid grid](http://designshack.net/articles/css/rolling-your-own-grid-layouts-on-the-fly-without-a-framework/)
+* [Grid calculator?](http://instacalc.com/?d=&c=NCAvL251bWJlciBvZiBjb2x1bW5zfDQgLy9tYXJnaW4gfChSMS0xKSpSMiAvL3RvdGFsIG1hcmdpbiB8KDEwMC1SMykvUjEgLy9jb2x1bW4gd2lkdGh8fChSNCoyKSsoUjIqMSkgLy8gY29tYmluZSB0d28gY29sdW1uc3woUjQqMykrKFIyKjIpIC8vY29tYmluZSB0aHJlZSBjb2x1bW5zfHx8fHx8fHw&s=sssssssssssssss&v=0.9)
+* [Web Typography](http://webtypography.net/intro/)
+
+
+## Flexbox
+
+Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blackberry 10+.
+
+* [Flexgrid](http://ptb2.me/flexgrid/)
 
 ## Masonry
 
@@ -14,6 +47,81 @@
 ## Collapsing Margins
 
 * [SitePoint's collapsing margins](http://reference.sitepoint.com/css/collapsingmargins)
+
+These are some cases where margins do not collapsed:
+
+* Floated elements
+* Absolutely positioned elements
+* `inline-block` elements
+* Elements with `overflow` set to anything other than `visible`
+* Cleared elements (they do not collapse their top margins with their parent block's bottom margin)
+* The root element
+
+Margins only collapse vertically. Horizontal margins will just combined.
+
+A simple `border` or `padding` on the parent block is enough to prevent collapsing. You can use `1px` padding and `9px` margin for a effect of `10px` margin.
+
+In IE7 and below, no margin will collapse if the element `hasLayout`.
+
+But why collapsing margins? It does make life easier in the case of multiple nested elements, where the behavior is often desirable. Take for example this `<p>` style:
+
+```
+p { margin: 10px 0; }
+```
+
+The top and bottom margins will combine give `20px`, but because of collapsing, the paragraph will look ok with just `10px`.
+
+## Float
+
+* [PPK's clearing float using `overflow:auto`](http://www.quirksmode.org/css/clearing.html)
+* [The very latest new new way to do clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)
+* [Which method of clearfix is best? - SO](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)
+
+If you don't support IE6/7, then don't bother clearing floats in these browsers. `zoom: 1` is only for IE6, so don't bother.
+
+Floating elements mean they are remove from *normal document flow*, so their containing parent thinks they are not there and so collapses itself. The problem you get will be disappearing background and overlapping content.
+
+```
+<!--[if lt IE 8]>
+<style>
+  .clearfix { zoom: 1; }
+</style>
+<![endif]-->
+```
+
+Using SASS placeholder to `extend` clearfix.
+
+```
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+```
+
+## Positioning
+
+`static` and `relative` are considered to be in normal document flow.
+
+`relative` - can be offset and following elements react as if the element were not offset. They think it is still there. So why would you want to use `relative`?:
+
+1. For slight tweaking, to move something up a little bit here and there.
+2. To provide positioning value for container elements, more for `absolute` positioning. Serve as the offset point.
+
+`absolute` - Removed from normal flow. Absolute also allow clipping like `clip: rect(50px, 200px, 150px, 50px)`
+
+## Overflow
+
+`overflow` only ever work with a defined `width` and `height`.
+
+
+## List
+
+List are block by default. Use it as inline.
+
+    li { display: inline; }
 
 
 ## Hacks

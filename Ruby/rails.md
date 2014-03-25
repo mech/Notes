@@ -1,5 +1,9 @@
 # Rails
 
+## Build
+
+* [Goodbye, Sprockets! A Grunt-based Rails asset pipeline](http://blog.pedago.com/2014/01/21/goodbye-sprockets-a-grunt-based-rails-asset-pipeline/)
+
 ## 4.0
 
 Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensure your application (and its dependencies) are thread-safe, which means avoiding global state. See [here](http://tenderlovemaking.com/2012/06/18/removing-config-threadsafe.html)
