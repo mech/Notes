@@ -9,3 +9,5 @@
 * [Animated sorting and filtering of list](https://mixitup.kunkalabs.com/)
 * [Stripe's credit card payment](https://github.com/stripe/jquery.payment)
 * [jQuery++](http://jquerypp.com/)
+* [iCheck - custom checkboxes](http://fronteed.com/iCheck/)
+* [jQuery input mask](https://github.com/RobinHerbots/jquery.inputmask)

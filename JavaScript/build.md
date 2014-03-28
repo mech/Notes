@@ -16,6 +16,10 @@ Bower is not built with opinions on scripting loader or modular loading. It is n
 * `!name` - Matches any single character not in `name`
 * `{s1, s2, s3}` - Matches any of the strings given (separated by commas)
 
+## Browser Sync
+
+* [Cross browser CSS injection](http://css-tricks.com/cross-browser-css-injection/)
+
 ## Gulp
 
 Gulp has built-in watcher.
@@ -33,6 +37,7 @@ gulp.dist(glob)  /* Returns a writable stream */
 
 ### Plugins
 
+* [gulp-browser-sync](https://github.com/shakyShane/gulp-browser-sync)
 * [gulp-jshint](https://github.com/wearefractal/gulp-jshint)
 * [gulp-autoprefixer](https://github.com/Metrime/gulp-autoprefixer)
 * [gulp-changed](https://github.com/sindresorhus/gulp-changed)

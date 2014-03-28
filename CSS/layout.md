@@ -12,9 +12,18 @@ Types of layout: Fixed, Fluid, Elastic, Hybrid, Responsive.
 
 * [Learn CSS Layout](http://learnlayout.com/)
 
+Purpose of layouts:
+
+1. **Sequential Order**. What user want to do first, and next. Business goals.
+2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
+3. **Associative Connection**. What goes with what?
+
 ## Flexible Layout
 
 Remember margins and padding calculate their value as a percentage of the PARENT element! Especially for nested container.
+
+* Percent: relative to the containing block.
+* Em: relative to the containing block's font size.
 
 Use of `min-width` and `max-width` common.
 
@@ -39,6 +48,8 @@ Use of `min-width` and `max-width` common.
 Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blackberry 10+.
 
 * [Flexgrid](http://ptb2.me/flexgrid/)
+* [Dive into flexbox](http://weblog.bocoup.com/dive-into-flexbox/)
+* [Design flexible layouts](http://www.wpmemorize.com/2013/css-flexbox-to-design-flexible-layouts/)
 
 ## Masonry
 
@@ -122,6 +133,23 @@ Using SASS placeholder to `extend` clearfix.
 List are block by default. Use it as inline.
 
     li { display: inline; }
+
+## inline-block
+
+* [For IE6/IE7](http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/)
+
+This is what Compass will give you:
+
+```
+.incline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+```
 
 
 ## Hacks

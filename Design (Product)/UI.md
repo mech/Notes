@@ -12,6 +12,7 @@
 * [Landing page design - Think conversion](http://webdesign.tutsplus.com/articles/how-to-become-a-conversion-centered-designer--cms-19664)
 * [What part of overview item should be clickable?](http://ux.stackexchange.com/questions/53309/what-part-of-overview-item-should-be-clickable)
 * [Information wayfinding by UX Matters. Berrypicking, information foraging, information scent, etc.](http://www.uxmatters.com/mt/archives/2014/03/information-wayfinding-part-3-designing-for-wayfinding-1.php)
+* [Should yes/delete be red or green ](http://ux.stackexchange.com/questions/49991/should-yes-delete-it-be-red-or-green/)
 
 ## Sound UI
 

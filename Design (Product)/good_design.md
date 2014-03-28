@@ -2,6 +2,8 @@
 
 * [Principles of Good Design](http://iandanielstewart.com/2014/02/20/principles-of-good-design/)
 * [Google's re-design](http://www.fastcodesign.com/3016268/google-the-redesign)
+* [How do you know when a design is really done?](http://www.fastcodesign.com/3028076/how-do-you-know-when-a-design-is-really-done)
+* [Whatever's best for the people, that's what we do](https://medium.com/p/ed75a0ee7641)
 
 ---
 1. **Good design is simple.** When you're forced to be simple, you're forced to face the real problem. When you can't deliver ornament, you have to deliver substance.

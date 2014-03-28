@@ -2,6 +2,13 @@
 
 * [Adapting ourselves to adaptive content](http://karenmcgrane.com/2012/09/04/adapting-ourselves-to-adaptive-content-video-slides-and-transcript-oh-my/)
 * [Adapting ourselves to adaptive content - An Event Apart](https://vimeo.com/56705945)
+* [Content-out layout](http://alistapart.com/article/content-out-layout)
+
+Purpose of layouts:
+
+1. **Sequential Order**. What user want to do first, and next. Business goals.
+2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
+3. **Associative Connection**. What goes with what?
 
 ## Modular Content
 
