@@ -8,14 +8,17 @@
 
 ## Files
 
-* [.sketch files from the design community](http://sketchmine.co/)
+* [Sketch Mine](http://sketchmine.co/)
+* [Sketch App Sources](http://www.sketchappsources.com/)
 
 
 ## Plugins
 
 * [Dynamic Button](https://github.com/ddwht/sketch-dynamic-button)
 * [List of Sketch plugins](https://gist.github.com/bomberstudios/7694497)
+* [Sketch Measure](https://github.com/utom/sketch-measure)
 
 ## Gallery
 
 * [Mikuloctopus](http://mikuloctopus.tumblr.com/)
+* [SHAPE - The film](http://makeshapechange.com/)

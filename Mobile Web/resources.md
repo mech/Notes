@@ -6,8 +6,15 @@
 ## Process and Workflow
 
 * [Content Structure - Source Order](https://vimeo.com/89535832)
+* [A matter of workflow - Nathan Ford](http://www.iaskyouanswer.co.uk/nathan-ford.php)
 
 > You can't design a good layout if you don't know the content.
+
+> Introducing new layouts for screen sizes where the content loses it's integrity.
+
+> An early trap for us that I see many other falling into is the idea of "screen size" targeting. Setting breakpoints before you build can lead to some real pain when trying to squeeze in content later.
+
+
 
 ## Responsive Typography
 
@@ -27,6 +34,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 
 * [Retina for web workflow](http://michieldegraaf.com/post/retina-for-web-workflow/)
 * [Optimizing graphics for retina display](http://www.studiopress.com/design/css-background-size-graphics.htm)
+* [WWDC - Delivering web content on high resolution displays](https://developer.apple.com/videos/wwdc/2012/?id=602)
 
 ```
 .logo {

@@ -1,6 +1,7 @@
 # Resources
 
 * [Concept Art](http://www.conceptart.org/forums/)
+* [Design principles: Visual perception and the principles of Gestalt](http://www.smashingmagazine.com/2014/03/28/design-principles-visual-perception-and-the-principles-of-gestalt/)
 
 ## Color
 

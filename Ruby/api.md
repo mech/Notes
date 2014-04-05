@@ -10,6 +10,7 @@
 * [Httparty](https://github.com/jnunemaker/httparty)
 * [Ox - Fast SAX XML parser](https://github.com/ohler55/ox)
 * [Hashie](https://github.com/intridea/hashie)
+* [JSON generator - if you want some sample](http://www.json-generator.com/)
 
 
 ## Authentication
@@ -24,3 +25,5 @@
 * [GitHub API v3](http://developer.github.com/v3/)
 * [Smart Recruiters API - Good for HR](http://dev.smartrecruiters.com/)
 * [Trello API](https://trello.com/docs/)
+* [Uploadcare](https://uploadcare.com/documentation/rest/)
+* [Hull](http://hull.io/docs/references/api)

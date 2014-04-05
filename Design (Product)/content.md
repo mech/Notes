@@ -3,6 +3,9 @@
 * [Adapting ourselves to adaptive content](http://karenmcgrane.com/2012/09/04/adapting-ourselves-to-adaptive-content-video-slides-and-transcript-oh-my/)
 * [Adapting ourselves to adaptive content - An Event Apart](https://vimeo.com/56705945)
 * [Content-out layout](http://alistapart.com/article/content-out-layout)
+* [Let's define the damn thing and move on](http://eatingelephant.com/2011/06/thoughts-on-defining-the-damn-thing/)
+* [Craft - a powerful CMS](http://buildwithcraft.com/)
+* [Another CMS](http://statamic.com/)
 
 Purpose of layouts:
 

@@ -5,6 +5,8 @@
 * [Designer Fund's blog](http://designerfund.com/bridge/blog/)
 * [Design Mind - Frog](http://designmind.frogdesign.com/)
 * [IDEO's Made in the Future!](http://madeinthefuture.co/)
+* [Using Peek to find lost customer](http://blog.ramen.is/design/we-lost-a-customer-this-is-how-we-found-out/)
+* [Leisa Reichelt](http://www.disambiguity.com/)
 
 ## Behaviorism
 
@@ -22,6 +24,7 @@
 
 * [Interview with Twitter's Cennydd Bowles](http://www.northerndiv.com/interview-twitters-cennydd-bowles/)
 * [Steph Bain. AirBnB's UI Design Manager](http://designerfund.com/bridge/day-in-the-life-at-airbnb-steph-bain/)
+* [UX design interviews](https://medium.com/ux-design-interviews)
 
 ## Podcasts
 
@@ -48,8 +51,13 @@
 ---
 > It's true, nothing lasts. But no matter. That's the nature of the design work we do. - [Marcos Weskamp's Flipboard](http://www.fastcompany.com/3017867/most-creative-people/how-flipboards-head-designer-grapples-with-the-webs-manic-pace-of-chang)
 
+---
+> Just executing - making things that actually live out the strategy and giving the higher ups a better choice to make. Make it and then iterate. "Show, don't tell". It's not enough to know the right answers, the real design challenge is in getting the organisation to adopt and implement and maintain good design. - [Design is the easy part...](http://www.disambiguity.com/design-is-the-easy-part/)
 
+---
+> Indifference towards people and the reality in which they live is actually the one and only cardinal sin in design - Dieter Rams
 
-
+---
+> But slowly, like ocean tides whittling away a rocky cliff, these additions add up until one day, your users see your site as cluttered. Then, some other app will come along that seems fresh and simple and tackles the same problem as your app. And at that point, it is already too late. - [Julie Zhuo](https://medium.com/the-year-of-the-looking-glass/6c975dede146)
 
 

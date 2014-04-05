@@ -58,3 +58,8 @@ Apache config file is at:
 ## Performance
 
 * [Solving performance emergencies with FileMaker Server](http://www.briandunning.com/browse/browse0110.shtml)
+
+## Mac Pro Issues
+
+* [502 Bad Gateway error with FM Server 13](http://forums.filemaker.com/posts/95047d15f3)
+* [Brand new Mac Pro install of FM Server 13 always "Not Responding"](https://fmdev.filemaker.com/message/142858)

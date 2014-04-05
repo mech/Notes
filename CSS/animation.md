@@ -2,6 +2,7 @@
 
 * [Interaction ProTip](http://aerotwist.com/tutorials/)
 * [All the right moves tutorial series](https://vimeo.com/channels/alltherightmoves/)
+* * [Web apps deserve sexy transitions too!](https://medium.com/design-ux/8068a5e4cb82)
 
 ## Tools
 

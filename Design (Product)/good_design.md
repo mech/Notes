@@ -4,6 +4,9 @@
 * [Google's re-design](http://www.fastcodesign.com/3016268/google-the-redesign)
 * [How do you know when a design is really done?](http://www.fastcodesign.com/3028076/how-do-you-know-when-a-design-is-really-done)
 * [Whatever's best for the people, that's what we do](https://medium.com/p/ed75a0ee7641)
+* [Jay Doblin's 7 level of design - From object to system](http://www.thoughtyoushouldseethis.com/post/21860352429/jay-doblins-seven-levels-of-design)
+* [Slow Ideas - Some innovations spread fast. How do you speed the ones that don't?](http://www.newyorker.com/reporting/2013/07/29/130729fa_fact_gawande)
+* [Craigslist made it with crappy design. iPod was high on "personal closeness"](http://us1.campaign-archive1.com/?u=836dc9c64862f158af8a31e20&id=d2dcae3448&e=e02d2860e9)
 
 ---
 1. **Good design is simple.** When you're forced to be simple, you're forced to face the real problem. When you can't deliver ornament, you have to deliver substance.

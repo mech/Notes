@@ -27,3 +27,7 @@ To delete your branch locally and then remotely:
 4. Clear stash: `git stash clear`
 
 ## Pull Request
+
+## Fork
+
+* [Syncing a fork](https://help.github.com/articles/syncing-a-fork)

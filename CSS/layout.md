@@ -41,6 +41,8 @@ Use of `min-width` and `max-width` common.
 * [Building your own fluid grid](http://designshack.net/articles/css/rolling-your-own-grid-layouts-on-the-fly-without-a-framework/)
 * [Grid calculator?](http://instacalc.com/?d=&c=NCAvL251bWJlciBvZiBjb2x1bW5zfDQgLy9tYXJnaW4gfChSMS0xKSpSMiAvL3RvdGFsIG1hcmdpbiB8KDEwMC1SMykvUjEgLy9jb2x1bW4gd2lkdGh8fChSNCoyKSsoUjIqMSkgLy8gY29tYmluZSB0d28gY29sdW1uc3woUjQqMykrKFIyKjIpIC8vY29tYmluZSB0aHJlZSBjb2x1bW5zfHx8fHx8fHw&s=sssssssssssssss&v=0.9)
 * [Web Typography](http://webtypography.net/intro/)
+* [Layers](http://eiskis.net/layers/)
+* [Unit Grid System](http://unit.gs/)
 
 
 ## Flexbox
