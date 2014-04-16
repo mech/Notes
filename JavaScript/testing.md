@@ -1,5 +1,8 @@
 # Testing
 
+* [spy-js](http://spy-js.com/)
+* [TraceGL](http://badassjs.com/post/48702496345/tracegl-a-javascript-codeflow-visualization-and)
+
 ## karma
 
 * [karma-browserify](https://github.com/xdissent/karma-browserify)

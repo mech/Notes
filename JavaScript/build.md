@@ -1,5 +1,20 @@
 # Build
 
+People suck at repetitive tasks.
+
+* Linting
+* Transpiling
+* Minifying
+* Combining (concat)
+
+* [Goodbye Compass](http://bensmithett.com/goodbye-compass/)
+
+## Make?
+
+* [Tim Lucas's approach](https://gist.github.com/toolmantim/6200029)
+* [The ultimate fronted build tool: `make`](https://algorithms.rdio.com/post/make/)
+* [I love the Unix philosophy, but...](http://mntr.dk/2014/i-love-the-unix-philisophy-but/)
+
 ## package.json
 
 * [Cheatsheet](http://package.json.jit.su/)
@@ -49,9 +64,15 @@ gulp.dist(glob)  /* Returns a writable stream */
 * [gulp-cssmin](https://github.com/chilijung/gulp-cssmin)
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 * [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
+* [grunt-montage](https://github.com/globaldev/grunt-montage)
 
 
 ## Grunt
+
+### Plugins
+
+* [grunt-uncss](https://github.com/addyosmani/grunt-uncss)
+* [grunt-spritesmith](https://github.com/Ensighten/grunt-spritesmith)
 
 ## Broccoli
 

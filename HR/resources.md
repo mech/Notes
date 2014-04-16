@@ -21,3 +21,5 @@
 # Wild Ideas
 
 * [Drag and drop things!](https://dragdis.com/)
+* [Great-looking resume using simple Markdown files](http://www.decksetapp.com/)
+* [Make telling your resume story beautifully](http://www.haikudeck.com/)

@@ -1,5 +1,8 @@
 # Git
 
+* [GitHub flow for rapid deployment and web project](http://scottchacon.com/2011/08/31/github-flow.html)
+* [GitFlow for infrequent library releases](http://nvie.com/posts/a-successful-git-branching-model/)
+
 ## Branching
 
 1. At your local machine: `git branch <branch_name>`
@@ -18,6 +21,12 @@ To delete your branch locally and then remotely:
     git push origin :<branch_name>
 
 * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+
+If the remote already has the branch and your local do not have it, just use:
+
+    git branch --track staging origin/staging
+    
+
 
 ## Stashing
 

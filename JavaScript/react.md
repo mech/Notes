@@ -2,6 +2,8 @@
 
 http://facebook.github.io/react/index.html
 
+DOM insertion is painful!
+
 The initial HTML can be generated on the server. React handles the "view" but not with templates in the usual sense. React views are not dumb, they are "virtual DOM".
 
 Using a [difference algorithm](http://calendar.perfplanet.com/2013/diff/) to calculate the fewest number of steps required to render each state.
@@ -10,6 +12,8 @@ Using a [difference algorithm](http://calendar.perfplanet.com/2013/diff/) to cal
 * [Using react with browserify](https://medium.com/publish-what-you-learn/a1ea2dd606b)
 * [Example](https://github.com/aslansky/react-stack-playground)
 * [Gulpfile example for reactify](https://github.com/callum/tool-test/blob/master/gulpfile.js)
+* [Client side layout engines: React vs FruitMachine](http://labs.ft.com/2013/10/client-side-layout-engines-react-vs-fruitmachine/)
+* [React vs Angular](http://stackoverflow.com/questions/21111217/react-vs-angular)
 
 ```
 var gulp = require('gulp');

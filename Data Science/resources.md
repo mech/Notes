@@ -31,6 +31,8 @@ Raw Data -- Data Structure -- Algorithm -- Insight
 ## Why predict?
 
 * To prevent bad outcome
+* Recommendations for cross-selling
+* Targeted marketing
 
 ## Statistic
 

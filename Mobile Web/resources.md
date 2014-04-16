@@ -25,6 +25,7 @@
 Style sheets with media queries attached to their `<link>` tags will still download even if it evaluate to `false`.
 
 * [Good resource for knowing the logical operators of media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+* [Responsive JavaScript](http://www.csskarma.com/blog/responsive-javascript/)
 
 ## Meta Viewport
 
@@ -35,6 +36,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 * [Retina for web workflow](http://michieldegraaf.com/post/retina-for-web-workflow/)
 * [Optimizing graphics for retina display](http://www.studiopress.com/design/css-background-size-graphics.htm)
 * [WWDC - Delivering web content on high resolution displays](https://developer.apple.com/videos/wwdc/2012/?id=602)
+* [json2css-sprite-mixins](https://github.com/bensmithett/json2css-sprite-mixins)
 
 ```
 .logo {

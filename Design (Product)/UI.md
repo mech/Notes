@@ -14,6 +14,8 @@
 * [Information wayfinding by UX Matters. Berrypicking, information foraging, information scent, etc.](http://www.uxmatters.com/mt/archives/2014/03/information-wayfinding-part-3-designing-for-wayfinding-1.php)
 * [Should yes/delete be red or green ](http://ux.stackexchange.com/questions/49991/should-yes-delete-it-be-red-or-green/)
 
+> Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
+
 ## Sound UI
 
 * [Delightful ringtones](http://unton.es/)

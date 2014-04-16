@@ -13,6 +13,20 @@
 * [ICONIC](https://useiconic.com)
 * [Adaptive SVG](http://w3.eleqtriq.com/2014/02/everything-is-relative-the-art-of-the-adaptive-image/)
 
+## SVG animation
+
+The easiest way to animate SVG is using CSS animations or transitions, but does not work in IE (unless using `requestAnimationFrame`).
+
+The act of "drawing" in an SVG is optical trick caused by manipulating 2 SVG `path` properties: `stroke-dasharray` and `stroke-dashoffset`.
+
+Make the `stroke-dasharray` as long as the path to make it visually invisible. Then use `stroke-dashoffset` to gradually reveal it.
+
+* [Snap.svg](http://snapsvg.io/)
+* [Lazy line painter](http://lazylinepainter.info/)
+* [Animated SVGs: Custom easing and timing](http://oak.is/thinking/animated-svgs/)
+* [Not SVG, but related](http://coding.smashingmagazine.com/2013/03/04/animating-web-gonna-need-bigger-api/)
+* [d3 and SVG](http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html)
+
 ## d3.js
 
 ```

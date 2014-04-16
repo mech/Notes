@@ -63,3 +63,4 @@ Apache config file is at:
 
 * [502 Bad Gateway error with FM Server 13](http://forums.filemaker.com/posts/95047d15f3)
 * [Brand new Mac Pro install of FM Server 13 always "Not Responding"](https://fmdev.filemaker.com/message/142858)
+* [FM Forums - Encounter crash on new Mac Pro](http://fmforums.com/forum/topic/91513-encounter-crash-on-new-mac-pro-graphics-issues/)

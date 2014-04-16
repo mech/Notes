@@ -4,14 +4,20 @@
 * [Adapting ourselves to adaptive content - An Event Apart](https://vimeo.com/56705945)
 * [Content-out layout](http://alistapart.com/article/content-out-layout)
 * [Let's define the damn thing and move on](http://eatingelephant.com/2011/06/thoughts-on-defining-the-damn-thing/)
-* [Craft - a powerful CMS](http://buildwithcraft.com/)
-* [Another CMS](http://statamic.com/)
+
 
 Purpose of layouts:
 
 1. **Sequential Order**. What user want to do first, and next. Business goals.
 2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
 3. **Associative Connection**. What goes with what?
+
+## CMS Products
+
+* [contentful](https://www.contentful.com/)
+* [prismic.io](https://prismic.io/)
+* [Craft - a powerful CMS](http://buildwithcraft.com/)
+* [Another CMS](http://statamic.com/)
 
 ## Modular Content
 

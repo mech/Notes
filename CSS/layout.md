@@ -43,6 +43,7 @@ Use of `min-width` and `max-width` common.
 * [Web Typography](http://webtypography.net/intro/)
 * [Layers](http://eiskis.net/layers/)
 * [Unit Grid System](http://unit.gs/)
+* [Flow](http://flow.gs/)
 
 
 ## Flexbox
@@ -52,6 +53,7 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 * [Flexgrid](http://ptb2.me/flexgrid/)
 * [Dive into flexbox](http://weblog.bocoup.com/dive-into-flexbox/)
 * [Design flexible layouts](http://www.wpmemorize.com/2013/css-flexbox-to-design-flexible-layouts/)
+* [Flexbox example](http://devbryce.com/site/flexbox/)
 
 ## Masonry
 

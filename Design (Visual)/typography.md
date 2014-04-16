@@ -11,6 +11,8 @@
 * [Raster Tragedy](http://www.rastertragedy.com/)
 * [The 10 most popular web fonts of 2013](http://www.typeandgrids.com/blog/the-ten-most-popular-web-fonts-of-2013)
 * [The Style Manual](http://stylemanual.org/)
+* [Problem with baseline grids on the web](http://jasonsantamaria.com/articles/baseline-grids-on-the-web)
+* [Short introduction to geometric sans](http://next.fontshop.com/content/short-intro-to-geometric-sans)
 
 ## Tools
 

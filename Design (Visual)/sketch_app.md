@@ -6,6 +6,11 @@
 * [Speed Design with Illustrator](http://www.designsprint.net/)
 * [Design Tutsplus](http://design.tutsplus.com/)
 
+## Sketch 3
+
+* [What is new in Sketch 3](https://medium.com/p/4b92d8b25f3)
+
+
 ## Files
 
 * [Sketch Mine](http://sketchmine.co/)
@@ -17,6 +22,7 @@
 * [Dynamic Button](https://github.com/ddwht/sketch-dynamic-button)
 * [List of Sketch plugins](https://gist.github.com/bomberstudios/7694497)
 * [Sketch Measure](https://github.com/utom/sketch-measure)
+* [Awesome Sketch plugins](http://awesome-sket.ch/)
 
 ## Gallery
 

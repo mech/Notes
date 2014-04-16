@@ -6,10 +6,12 @@
 * [Need for speed - Some nice nginx config](http://jonsuh.com/blog/need-for-speed/)
 * [Landscaping with front-end development tools](https://github.com/codylindley/frontend-tools)
 * [Make the web accessible](http://thechangelog.com/we-make-the-web-lets-make-it-accessible/)
+* [Big background video popular on Facebook Paper](https://news.layervault.com/stories/19508-fullscreen-background-html5-video-best-practices)
+* [Detect bandwidth using Networking API](http://www.csskarma.com/blog/detecting-for-bandwidth/)
 
 ## HTML/CSS/JavaScript Style Guide
 
-* [Code Guide](http://mdo.github.io/code-guide/)
+* [@mod Code Guide](http://mdo.github.io/code-guide/)
 * [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
 * [GitHub Style Guide](https://github.com/styleguide)
 * [SHORTTAG NETENABL IMMEDNET or whatever](http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html)
