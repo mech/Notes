@@ -114,9 +114,9 @@ angular.module('ats.pipeline').directive('ats:stage', function() {
     replace: true,
     restrict: 'E',
     scope: {
-      type: '@stageType',			// interpolated
-      currentStage: '=active', 	// data bind
-      onNextStage: '&'				// pass a function (callback)
+      type: '@stageType',      // interpolated
+      currentStage: '=active', // data bind
+      onNextStage: '&'         // pass a function (callback)
     },
     link: function() {
     }
