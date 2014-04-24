@@ -4,10 +4,22 @@
 
 ## ES6 Module Transpiler
 
+ES6 Module specification has 2 things:
+
+* Module syntax
+* Module loader
+
+Traceur is a Google's ambitious project.
+
 * [Using Grunt and the ES6 Module Transpiler](http://www.thomasboyt.com/2013/06/21/es6-module-transpiler)
 * [Square's ES6 module transpiler](https://github.com/square/es6-module-transpiler)
 * [Some deep discussion on interop](https://github.com/square/es6-module-transpiler/issues/85)
 * [ES6 Tools](https://github.com/addyosmani/es6-tools)
+* [es6-module-loader](https://github.com/ModuleLoader/es6-module-loader)
+* [systemjs](https://github.com/systemjs/systemjs)
+* [estraverse](https://github.com/Constellation/estraverse)
+* [esprima](http://esprima.org/)
+* [Choc](http://www.fullstack.io/choc/)
 
 ## Browserify
 
@@ -25,3 +37,55 @@
 ## uRequire
 
 * [uRequire home page](http://urequire.org/)
+
+# Some ES 6
+
+```
+[3, 1, 10].sort((a, b) => a - b);
+
+[3, 1, 10].sort(function(a, b) {
+  return a - b;
+}.bind(this));
+
+function max(a, ...rest) {
+  rest.forEach(x => { if (x > a) a = x; });
+  return a;
+}
+
+function max(a) {
+  var rest = Array.prototype.slice.call(argument, 1);
+  rest.forEach(function(x) { if (x > a) a = x; }.bind(this));
+  return a;
+}
+
+domNode.addEventListener('click', () => {
+  this.handleClick(); // `this` not shadowed
+});
+```
+
+### Class
+
+```
+function ColorPoint(x, y, color) {
+  Point.call(this, x, y);
+  this.color = color;
+}
+ColorPoint.prototype = Object.create(Point.prototype);
+ColorPoint.prototype.constructor = ColorPoint;
+ColorPoint.prototype.toString = function() {
+  return this.color + ' ' + Point.prototype.toString.call(this);
+};
+
+// In ES6, it will simply be:
+
+class ColorPoint extend Point {
+  constructor(x, y, color) {
+    super(x, y);
+    this.color = color;
+  }
+  
+  toString() {
+    return this.color + ' ' + super();
+  }
+}
+```

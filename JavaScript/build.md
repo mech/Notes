@@ -43,6 +43,16 @@ Grunt uses JSON-like data configuration files; Gulp uses leaner, simpler JavaScr
 ```
 gulp.src(glob)   /* Returns a readable stream */
 gulp.dist(glob)  /* Returns a writable stream */
+
+// 1 read and 2 writes
+gulp.task('build-stuff', function() {
+  return gulp.src('js/**/*.js')
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('build'))
+    .pipe(uglify())
+    .pipe(rename('all.min.js'))
+    .pipe(gulp.dest('build'))
+});
 ```
 
 * [A blank project with Gulp.js as build system](https://github.com/kyleconrad/blank-gulp)
@@ -69,6 +79,8 @@ gulp.dist(glob)  /* Returns a writable stream */
 
 ## Grunt
 
+No context between transformations. More tasks, more slow-down. TMP file hell!
+
 ### Plugins
 
 * [grunt-uncss](https://github.com/addyosmani/grunt-uncss)
@@ -78,3 +90,16 @@ gulp.dist(glob)  /* Returns a writable stream */
 
 * [Broccoli - A fast, reliable asset pipeline](https://github.com/joliss/broccoli)
 * [Architecture of Broccoli](http://www.solitr.com/blog/2014/02/broccoli-first-release/)
+
+## JSHint
+
+* [Plato.js](https://github.com/es-analysis/plato)
+* [JavaScript Code Style Checker](https://github.com/mdevils/node-jscs)
+
+```
+"maxparams": 4
+"maxdepth": 4
+"maxstatements": 20
+"maxlen": 100
+"maxcomplexity": 7
+```

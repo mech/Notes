@@ -2,6 +2,15 @@
 
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
 * [Useful tricks & tips for Grape and Rails APIs](http://codetunes.com/2014/grape-part-II/)
+* [Effective developer experience](https://uxmag.com/articles/effective-developer-experience)
+
+API design (UX)
+
+* Persona - Who are my API users?
+* Passive usability testing - You may already have the metrics. API usage. Examine support requests.
+
+## Error Messages
+
 
 ## Ruby Libraries
 

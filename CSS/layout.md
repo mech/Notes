@@ -18,6 +18,52 @@ Purpose of layouts:
 2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
 3. **Associative Connection**. What goes with what?
 
+## GSS (Re-thinking CSS Layout - Math heavy)
+
+* [Grid Style Sheet](http://gridstylesheets.org/)
+
+Using Solver to compute layout.
+
+Cassowary Linear Arithmetic Constraint Solver - Resolves cyclic dependencies in layout arithmetic.
+
+Greg Badros - Constraint CSS
+
+Constraint programming. I strong want this.
+Constraints are 2-way. Takes practice thinking in constraints.
+
+VFL - Visual Format Language
+
+https://github.com/slightlyoff/cassowary.js
+
+
+## Media Queries
+
+```
+// Mobile first
+article, aside { width: 100%; }
+@media screen and (min-wdith: 480px) {
+  article { float: left; width: 68%; }
+  aside { float: right; width: 30%; }
+}
+@media screen and (min-wdith: 800px) {
+  article { padding: 20px; }
+}
+```
+
+### Resolution media queries
+
+```
+1 device pixel == 1dppx
+4 device pixel (iPhone4) == 2dppx
+9 device pixel (HTC One) == 3dppx
+
+@media (screen and min-resolution: 2dppx) {
+  body {
+    background-size: 50% !important;
+  }
+}
+```
+
 ## Flexible Layout
 
 Remember margins and padding calculate their value as a percentage of the PARENT element! Especially for nested container.

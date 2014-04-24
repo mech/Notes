@@ -9,6 +9,28 @@
 * [Big background video popular on Facebook Paper](https://news.layervault.com/stories/19508-fullscreen-background-html5-video-best-practices)
 * [Detect bandwidth using Networking API](http://www.csskarma.com/blog/detecting-for-bandwidth/)
 
+## Videos
+
+* [A rendering performance guide](http://www.youtube.com/watch?v=9xjpmpX4NJE)
+
+```
+function onScroll(evt) {
+  // Store the scroll value for later
+  lastScrollY = window.scrollY;
+  
+  // Prevent multiple rAF callbacks
+  if (scheduledAnimationFrame)
+    return;
+    
+  scheduledAnimationFrame = true;
+  requestAnimationFrame(updatePage);
+}
+
+window.addEventListener('scroll', onScroll, false);
+```
+
+
+
 ## HTML/CSS/JavaScript Style Guide
 
 * [@mod Code Guide](http://mdo.github.io/code-guide/)
@@ -19,6 +41,10 @@
 * [CSS and SASS styleguide](http://www.sitepoint.com/css-sass-styleguide/)
 * [Monterail.com guidelines](https://github.com/monterail/guidelines)
 * [JavaScript style guide - The Zen Approach](https://github.com/Nijikokun/the-zen-approach)
+* [Styleguide Driven Development](http://getflexin.com/styleguide-driven-development/)
+* [Popular coding convention on GitHub](http://sideeffect.kr/popularconvention)
+* [JavaScript, the winning style](https://github.com/Seravo/js-winning-style)
+* [Idiomatic JS](https://github.com/rwaldron/idiomatic.js)
 
 ## HTML Boilerplate
 

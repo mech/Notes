@@ -1,6 +1,7 @@
-# Resource
+# Resources
 
 * [Crazy CSS](http://give-n-go.co/)
+* [CSS3 Geometry](http://css3geometrydaily.tumblr.com/)
 
 ## Style Guide
 

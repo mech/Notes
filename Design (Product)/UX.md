@@ -7,6 +7,7 @@
 * [IDEO's Made in the Future!](http://madeinthefuture.co/)
 * [Using Peek to find lost customer](http://blog.ramen.is/design/we-lost-a-customer-this-is-how-we-found-out/)
 * [Leisa Reichelt](http://www.disambiguity.com/)
+* [Replacing personas with characters](https://medium.com/p/aa72d3cf6c69)
 
 ## Behaviorism
 

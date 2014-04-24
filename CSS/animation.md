@@ -5,10 +5,12 @@
 * [Web apps deserve sexy transitions too!](https://medium.com/design-ux/8068a5e4cb82)
 * [Progress button loading animation](http://tympanus.net/Development/ProgressButtonStyles/)
 * [CSS3 animation cheat sheet](http://www.justinaguilar.com/animations/)
+* [Improve Stripe payment experience with animations](https://medium.com/p/3d1b0a9b810e)
+* [Greensock](http://www.greensock.com/)
 
 ## Famo.us
 
-* [](http://blog.percolatestudio.com/engineering/the-future-of-javascript-animation-with-famous/)
+* [Future of JavaScript animation](http://blog.percolatestudio.com/engineering/the-future-of-javascript-animation-with-famous/)
 
 
 ## Animate as you scroll

@@ -38,10 +38,13 @@ OWASP
 * DO consider using OAuth
 * DO reject weak passwords during signup
 * DO hash and salt passwords
+* Or use token and store in `localStorage`. No CSRF attack?
 
 ## Cross-site scripting (XSS)
 
 Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
+
+* [Using CSP with Rails](https://github.com/blog/1477-content-security-policy)
 
 ## Security misconfiguration
 
@@ -61,3 +64,7 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 
 
 ## Unvalidated redirects and forwards
+
+## Content-Security Policy
+
+Enforced by the browser.

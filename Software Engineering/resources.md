@@ -45,3 +45,7 @@ Don't let people "gain metric" through over-reaction.
 * Vuze - Quality pyramid
 * Efferent coupling
 * Afferent coupling
+
+## API Design
+
+* [API design principles](http://qt-project.org/wiki/API-Design-Principles)

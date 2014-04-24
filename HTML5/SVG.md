@@ -1,5 +1,9 @@
 # SVG
 
+HTML for graphics! SVG has a DOM structure and you can even use CSS3 and JavaScript!
+
+JavaScript inside SVG is disabled for image-based SVG.
+
 * [Awesome light ray](http://ncase.github.io/sight-and-light/)
 * [Control and filter settings using SVG and JavaScript](http://selfiecity.net/selfiexploratory/)
 * [Lonely Planet's switch from icon font to SVG](http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/)
@@ -12,6 +16,20 @@
 * [List animation](http://tympanus.net/Tutorials/ShapeHoverEffectSVG/index.html)
 * [ICONIC](https://useiconic.com)
 * [Adaptive SVG](http://w3.eleqtriq.com/2014/02/everything-is-relative-the-art-of-the-adaptive-image/)
+
+```
+<text>
+<circle cx="" xy="">
+<ellipse rx="" ry="" fill=""/>
+<line>
+<polygon fill="" points="350,75 379,161 ...">
+<polyline>
+<path d="M100,200 C100,100 250,100..."/>
+<g fill="rgba(0,0,0,0.3)" transform="rotate()">
+  <rect />
+</g>
+```
+
 
 ## SVG animation
 
