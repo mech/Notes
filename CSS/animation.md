@@ -7,6 +7,8 @@
 * [CSS3 animation cheat sheet](http://www.justinaguilar.com/animations/)
 * [Improve Stripe payment experience with animations](https://medium.com/p/3d1b0a9b810e)
 * [Greensock](http://www.greensock.com/)
+* [Dudley Storey's blog](http://demosthenes.info/blog)
+* [CSS animation screencast](https://vimeo.com/channels/alltherightmoves/)
 
 ## Famo.us
 

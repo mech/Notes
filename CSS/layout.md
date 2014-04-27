@@ -21,6 +21,7 @@ Purpose of layouts:
 ## GSS (Re-thinking CSS Layout - Math heavy)
 
 * [Grid Style Sheet](http://gridstylesheets.org/)
+* [Cassowary, Cocoa Autolayout, and enaml constraints](http://stacks.11craft.com/cassowary-cocoa-autolayout-and-enaml-constraints.html)
 
 Using Solver to compute layout.
 

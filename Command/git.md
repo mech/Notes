@@ -26,7 +26,8 @@ If the remote already has the branch and your local do not have it, just use:
 
     git branch --track staging origin/staging
     
-
+Beware of merge ambush on feature branch.
+Trunk-based development.
 
 ## Stashing
 

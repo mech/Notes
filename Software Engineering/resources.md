@@ -4,8 +4,10 @@
 * Software always becomes iterative. Architecture also becomes iterative.
 * Architecture is a snapshot of a process.
 * Architecture is coupled to process (esp. continuous delivery).
+* [Sorting - Visualized](http://sorting.at/)
 
 * [What is Software Design?](http://www.developerdotstar.com/mag/articles/reeves_design.html)
+* [Imperative vs Declarative](http://latentflip.com/imperative-vs-declarative/)
 
 ## Architect (Feasibility)
 

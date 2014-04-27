@@ -3,6 +3,7 @@
 Ember is Cocoa and Angular is JSF?
 
 * [Robin Ward's AngularJS vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
+* [Instructure](http://instructure.github.io/blog/)
 
 ## URLs and Routing
 
@@ -25,9 +26,19 @@ The places your data will go!
 * Caching (Redis)
 * Mobile (API endpoints)
 
+## Container and Resolver
+
+
+
+
 ## Ember Components, Web Components, Angular Directives
 
 * [Ember widgets](http://addepar.github.io/#/ember-widgets/overview)
+* [ic-ember](http://instructure.github.io/ic-ember/)
+
+## Videos
+
+* [Ember Watch: Screencasts](http://emberwatch.com/screencasts.html)
 
 ## People
 

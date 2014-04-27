@@ -44,5 +44,27 @@ indexOfAny(str, searchChars) {
 * **Command** - Encapsulate a request as an object, thereby letting you parameterise clients with different requests, queue or log requests, and support undoable operations. No reason to use command as a transport in higher-order function language.
 * ??
 
-
 ## Business Driven. Industry Trends
+
+## Anti-Patterns
+
+* Architecture by implication - Be careful of over-confidence. Agile is not a substitute.
+* Cover your assets
+* Witches brew - Design by committee
+* Gold plating - It just hide the real details.
+* Vendor king - Product-dependent architectures or lock-in
+* Big bang architecture - BDUF
+* Armchair architecture - Whiteboard sketches without proving the design. Also known as Paper Architecture.
+* Playing with new toy - Is it feasible?
+* Spider Web Architecture
+* Infinity Architecture - Too flexible. Instead do a Domain-specific architecture.
+* Groundhog day - Email driven architecture
+* Stovepipe Architecture - Lack of proper abstraction. Lack of an integration solution.
+
+
+
+
+
+
+
+

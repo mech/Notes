@@ -42,6 +42,7 @@ window.addEventListener('scroll', onScroll, false);
 * [Monterail.com guidelines](https://github.com/monterail/guidelines)
 * [JavaScript style guide - The Zen Approach](https://github.com/Nijikokun/the-zen-approach)
 * [Styleguide Driven Development](http://getflexin.com/styleguide-driven-development/)
+* [Styleguide Driven Development - Video](http://www.stubbornella.org/content/2014/04/09/style-guide-driven-development/)
 * [Popular coding convention on GitHub](http://sideeffect.kr/popularconvention)
 * [JavaScript, the winning style](https://github.com/Seravo/js-winning-style)
 * [Idiomatic JS](https://github.com/rwaldron/idiomatic.js)

@@ -11,3 +11,5 @@
 * [Business card from Designspiration](http://designspiration.net/tag/business%20card/)
 * [Khoi Vinh's take on business card inspiration](http://www.subtraction.com/2014/02/24/inspiration-for-business-card-design)
 * [Facebook PR advice](http://firstround.com/article/The-Best-PR-Advice-Youve-Never-Heard-from-Facebooks-Head-of-Tech-Communications)
+* [Codecademy Reimagined](http://www.codecademy.com/blog/141-codecademy-reimagined)
+* [New Codecademy](http://new.pentagram.com/2014/04/new-work-codecademy/)

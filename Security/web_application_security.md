@@ -13,8 +13,14 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [zANTI]
 * [Hash cracker for password](http://www.hash-cracker.com/)
 * [Have I been pwned](https://haveibeenpwned.com/)
+* [Node Goat](https://github.com/OWASP/NodeGoat)
+* [Automated security testing of web applications using OWASP Zed Attack Proxy](https://blog.codecentric.de/en/2013/10/automated-security-testing-web-applications-using-owasp-zed-attack-proxy/)
 
 OWASP
+
+## Headers
+
+Get rid of X-Powered-By headers or any sessionID common name.
 
 ## Injection
 
@@ -41,6 +47,18 @@ OWASP
 * Or use token and store in `localStorage`. No CSRF attack?
 
 ## Cross-site scripting (XSS)
+
+Untrusted and unsanitized input.
+
+```
+<div>[Untrusted Data]</div>
+```
+
+OWASP ESAPI is on such encoding.
+
+Input fuzzing?
+ReDoS - Regular Expression Denial of Service
+http://taylor.fausak.me/2013/02/10/redos-regular-expression-denial-of-service/
 
 Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 

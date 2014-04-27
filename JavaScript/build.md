@@ -75,6 +75,7 @@ gulp.task('build-stuff', function() {
 * [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 * [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
 * [grunt-montage](https://github.com/globaldev/grunt-montage)
+* [gulp-if](https://github.com/robrich/gulp-if)
 
 
 ## Grunt
