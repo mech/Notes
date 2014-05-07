@@ -50,6 +50,8 @@ Usually user events that will trigger run loop.
 
 ## Naming Convention
 
+|    Name    |                     Object                    |
+| ---------- | --------------------------------------------- |
 | Router     | `this.resource('tables')` and App.TablesRoute |
 | Controller | `App.TablesController`                        |
 | Model      | `App.Table`                                   |
