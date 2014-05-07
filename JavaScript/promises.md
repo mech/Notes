@@ -2,6 +2,8 @@
 
 A promise is a proxy for a value from another time or place. The promise interface allows us to interact with that value consistently, regardless of whether the value comes from the past or the future, whether that value is near by or far away, or even if the value is demonstrably unavailable.
 
+User uncertainty. Promises is not for async only. It is good to model user flow also. API for all your async.
+
 The point of promises:
 
 * Implicit exception propagation
@@ -23,6 +25,12 @@ The point of promises:
 * Reactive bindings
 
 * [Promises, promises](http://wibblycode.wordpress.com/2012/11/21/promises-promises/)
+
+```
+// Composition with promises - Parallelism
+$Q.all([step1, step2, step3]).then(step4);
+```
+
 
 ```
 function getProfileImage(username) {

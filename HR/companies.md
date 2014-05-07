@@ -14,6 +14,10 @@ Notable companies in HR domain.
 
 * [Kin HR Software](http://kinhr.com/)
 * [Harvest - Timesheet](http://www.getharvest.com/)
+* [Open Recruiters - Local started in July 2013](http://openrecruiters.com/)
+* [Interview with Open Recruiters CEO](http://www.hrinasia.com/recruitment/openrecruiters-a-transparent-and-open-recruiting-portal/)
+* [Hire Vue](http://hirevue.com/)
+* [eVantage-HR?](http://www.evantage-hr.com/)
 
 ## Executive Search
 

@@ -30,6 +30,9 @@
 12. **Good design is often daring.** Today's experimental error is tomorrow's new theory.
 13. [Don't give your users shit work - Zach Holman](http://zachholman.com/posts/shit-work/)
 14. Let's talk about making tools. The things we make should either reduce pain, increase pleasure, or do some mix of the two - [No New Tools](http://frankchimero.com/blog/no-new-tools/)
+15. Good design is motivated by use cases, workflows.
+16. Good design is built from small, orthogonal, and com posable primitives.
+17. 
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

@@ -5,6 +5,13 @@
 * [Start small!](http://justinjackson.ca/how-to-start/)
 * [Stop making users explore](https://medium.com/on-startups/33c45bd1f465)
 * [Often be coding](https://medium.com/p/4307921a88a0)
+* [Do lots of crap and you are 1 step closely to your answer](http://www.stellargirl.com/dont-get-attached-to-ideas/)
+* [Austin Kleon](http://tumblr.austinkleon.com/)
+* [Behavior Design](https://medium.com/ux-ui-design/be9d48aefeb0)
+
+## A/B
+
+* [The complete guide to A/B testing](https://visualwebsiteoptimizer.com/ab-testing/)
 
 ## On-boarding
 

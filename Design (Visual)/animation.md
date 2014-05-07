@@ -11,6 +11,7 @@
 ## Framer
 
 * [Framer templates](https://github.com/tisho/framer-templates)
+* [Why Framer.js matters](https://medium.com/framer-js/93eb1206e606)
 
 ## After  Effect
 

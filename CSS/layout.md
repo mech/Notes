@@ -101,6 +101,7 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 * [Dive into flexbox](http://weblog.bocoup.com/dive-into-flexbox/)
 * [Design flexible layouts](http://www.wpmemorize.com/2013/css-flexbox-to-design-flexible-layouts/)
 * [Flexbox example](http://devbryce.com/site/flexbox/)
+* [Flexbox - Next-generation CSS Layout has arrived](http://blog.teamtreehouse.com/flexbox-next-generation-css-layout-arrived)
 
 ## Masonry
 

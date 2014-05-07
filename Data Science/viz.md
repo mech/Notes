@@ -10,7 +10,9 @@ Why visualize? Make it compelling and compact way to see.
 
 * [Lithium Labs - with sentiment wave?](https://github.com/lithiumtech/li-visualizations)
 * [Contour](http://forio.com/contour/index.html)
-
+* [The Monty Hall Problem](http://blog.vctr.me/monty-hall/)
+* [Simpson's Paradox](http://vudlab.com/simpsons/)
+* [AngularJS and Directives](https://www.youtube.com/watch?v=aqHBLS_6gF8)
 
 ## Graphite
 

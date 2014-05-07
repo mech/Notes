@@ -2,6 +2,42 @@
 
 * [Skewed hit boxes with CSS transforms](http://viget.com/inspire/skewed-hit-boxes-with-css-transforms)
 
+## Sites with tricks to learn
+
+[Sign up shake page](http://www.emojiweather.com/)
+
+```
+form.shake-me {
+  animation: formShakeAnimation 400ms ease-in-out
+}
+
+@keyframes formShakeAnimation {
+  0% {
+    transform: translateX(0)
+  }
+
+  12.5% {
+    transform: translateX(-6px) rotateY(-5deg)
+  }
+
+  37.5% {
+    transform: translateX(5px) rotateY(4deg)
+  }
+
+  62.5% {
+    transform: translateX(-3px) rotateY(-2deg)
+  }
+
+  87.5% {
+    transform: translateX(2px) rotateY(1deg)
+  }
+
+  100% {
+    transform: translateX(0)
+  }
+}
+```
+
 ## Border radius
 
 * [CSS arrow](http://cssarrowplease.com/)

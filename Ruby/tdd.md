@@ -17,3 +17,8 @@
 * [Rails testing anti-patterns: fixtures and factories](https://semaphoreapp.com/blog/2014/01/14/rails-testing-antipatterns-fixtures-and-factories.html)
 
 Factories are slow! They're slow by design.
+
+## Videos
+
+* [Jim Weirich on Decoupling from Rails](https://www.youtube.com/watch?v=tg5RFeSfBM4)
+* [Sandi Metz The Magic Tricks of Testing](http://www.youtube.com/watch?v=URSWYvyc42M)

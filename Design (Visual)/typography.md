@@ -14,6 +14,13 @@
 * [Problem with baseline grids on the web](http://jasonsantamaria.com/articles/baseline-grids-on-the-web)
 * [Short introduction to geometric sans](http://next.fontshop.com/content/short-intro-to-geometric-sans)
 
+```
+// New for Firefox 25
+-moz-osx-font-smoothing: grayscale;
+-moz-osx-font-smoothing: auto;
+```
+
+
 ## Tools
 
 * [Glyphr - Online font editor](http://glyphrstudio.com/)

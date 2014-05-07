@@ -1,5 +1,6 @@
 # Animation
 
+* [The 12 principles of animation](http://the12principles.tumblr.com/)
 * [Interaction ProTip](http://aerotwist.com/tutorials/)
 * [All the right moves tutorial series](https://vimeo.com/channels/alltherightmoves/)
 * [Web apps deserve sexy transitions too!](https://medium.com/design-ux/8068a5e4cb82)
@@ -9,6 +10,7 @@
 * [Greensock](http://www.greensock.com/)
 * [Dudley Storey's blog](http://demosthenes.info/blog)
 * [CSS animation screencast](https://vimeo.com/channels/alltherightmoves/)
+* [Velocity.js - a more performant jQuery replacement for `.animate()`](http://css-tricks.com/improving-ui-animation-workflow-velocity-js/)
 
 ## Famo.us
 

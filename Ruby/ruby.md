@@ -53,3 +53,6 @@ FmStore.hostname # Notice the use of include in this way is equivalent to extend
 
 See http://stackoverflow.com/questions/10039039/why-self-method-of-module-cannot-become-a-singleton-method-of-class
 
+## Service
+
+* [Gourmet Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)

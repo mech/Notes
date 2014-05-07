@@ -1,5 +1,6 @@
 # Resources
 
+* [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
 * [Design System](http://css-tricks.com/design-systems-building-future/)
 * [Build flexible modules, not pages. Design a system. Make it modular.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 * [The Art of HTML Semantics](http://kevinsuttle.com/posts/the-art-of-html-semantics-pt1/)
@@ -46,6 +47,12 @@ window.addEventListener('scroll', onScroll, false);
 * [Popular coding convention on GitHub](http://sideeffect.kr/popularconvention)
 * [JavaScript, the winning style](https://github.com/Seravo/js-winning-style)
 * [Idiomatic JS](https://github.com/rwaldron/idiomatic.js)
+* [Mailchimp Pattern Library](https://ux.mailchimp.com/patterns)
+* [Brad Frost Atomic Web Design](http://bradfrostweb.com/blog/post/atomic-web-design/)
+* [Barebones](http://barebones.paulrobertlloyd.com/)
+* [Some example of style guides](https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides-and-pattern-libraries)
+* [Rock Hammer](http://malarkey.github.io/Rock-Hammer)
+* [CSS Components](http://www.felipefialho.com/css-components)
 
 ## HTML Boilerplate
 

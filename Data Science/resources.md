@@ -38,8 +38,14 @@ Raw Data -- Data Structure -- Algorithm -- Insight
 
 * [Power law distribution](http://data.heapanalytics.com/your-average-revenue-per-customer-is-meaningless/)
 
+## Videos
+
+* [Hilary Mason keynote on FutureStack 2013](http://www.youtube.com/watch?v=LXJgQalT1LU)
+* [FutureStack](http://futurestack.io/videos)
+
 ## People
 
 * Alexander Gray - Skytree
+* [Hilary Mason](http://www.hilarymason.com/)
 
 > More data beats clever algorithms but better data beats more data - Peter Norvig

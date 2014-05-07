@@ -1,10 +1,18 @@
 # Angular
 
+Think of Angular as a Model View View Model.
+
+* Model - The services (business logics and domain models)
+* View - HTML template
+* View Model - $scope + controller
+
 * [Angular Gap](http://angulargap.github.io/)
 * [Angular vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
 * [John Lindquist](http://johnlindquist.com/)
 * [AngularJS is too humble to say you're doing it wrong](http://thesmithfam.org/blog/2012/12/02/angularjs-is-too-humble-to-say-youre-doing-it-wrong/)
 * [Introduction to Angular in 50 examples](https://github.com/curran/screencasts/tree/gh-pages/introToAngular)
+* [AngularJS and D3](http://vicapow.github.io/angular-d3-talk/slides/#/1)
+* [Make your own AngularJS](http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html)
 
 List of books
 
@@ -12,7 +20,6 @@ List of books
 * [D3 on Angular](https://leanpub.com/d3angularjs)
 * [ng-book](https://www.ng-book.com/)
 * [Recipes with Angular](https://leanpub.com/recipes-with-angular-js)
-
 
 Features of Angular:
 
@@ -26,6 +33,44 @@ Features of Angular:
 * jqLite? jQuery built in?
 * jQuery plugins require custom directives (cons)
 * Large apps requiring self-imposed structure (cons)
+
+## Module Array Syntax
+
+
+## Module.run
+
+Executed when all modules have been loaded.
+
+```
+angular.module('MyApp', [])
+  .constant('VERSION', '1.0')
+  .run(['VERSION', '$rootScope', function(VERSION, $rootScope) {
+  }]);
+```
+
+## Models
+
+* [Universal Access Principle, Identity Map, Memoization](https://www.youtube.com/watch?v=JfykD-0tpjI)
+
+Decorating function.
+
+```
+angular.module('myPlane.models')
+  .factory('Proposal', function(Model) {
+    return Model.extend({
+      memoize: ['revenue', 'cost'],
+      
+      get profit() {
+        return this.revenue.minus(this.cost);
+      },
+      
+      get revenue() {
+        return this.price.convertTo(this.internalCurrency);
+      }
+    });
+  });
+```
+
 
 ## Leveling Up
 
@@ -45,6 +90,10 @@ Services is where most of your code are.
 
 * Factory
 * Provider
+* Services carry out common tasks specific to the web application
+* Services are consumed via Dependency Injection
+* Services are application singletons. One service per application.
+* Services are instantiated lazily
 
 ## Asynchronous Events
 
@@ -58,11 +107,23 @@ $scope.$on(EVENT_NAME, fn);
 Or use promises instead of `$rootScope`. Use interceptors for global-level events.
 
 
-## ngRoute (Very limited)
+## ngRoute (Very limited using ng-view)
 
 1 route to 1 controller to 1 view. Or use AngularUI Router to have master-detail case.
 
 http://joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-router-with-angularjs/
+
+```
+angular.module('MyApp', [])
+  .constant('VERSION', '1.0')
+  
+  .config(['$routeProvider', function($routeProvider) {
+    $routeProvider.when('/', {
+      controller: 'HomeController',
+      templateUrl: './home.html'
+    });
+  }]);
+```
 
 ## ngResource
 
@@ -73,11 +134,20 @@ http://joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-router-with-angularj
 Don't use `ng-init` if you can. Better to use true controller.
 
 ```
-PipelineApp.controller('KanbanController', function($scope, $http, $routeParams) {
-});
+PipelineApp.controller('KanbanController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+}]);
 ```
-
 Controller don't know about the view.
+
+Controllers should not talk to each other. But in rare cases where you need to, what can you do?
+
+Use a service to facilitate communication. `$scope` has events built in after the compilation cycle complete.
+
+- `$broadcast` - sends events downward from parent to children
+- `$emit` sends events upwards
+- `$on` listens for events
+
+One of the few acceptable time where you can use `$rootScope` as an event bus.
 
 ## Templates
 
@@ -85,7 +155,34 @@ How do we connect template to controller. We do it through `$scope`. `$scope` wi
 
 ## Scope
 
-## Directives
+`$scope` is the glue between the Controller and the View.
+`$scope` also provide context.
+
+`$rootScope` is the topmost Scope object with all other children `$scope`
+
+## View
+
+View = $compile(HTML, $scope)
+
+## Directives (Extend HTML to do new thing)
+
+When to use directives?
+
+Domain Specific Languages.
+
+* If you want a reusable HTML component like `<my-widget>`
+* If you want reusable HTML behavior like `ng-click`
+* If you want to wrap a jQuery plugin `<div ui-date>`
+* Almost any time you need to interface with the DOM. Don't interact with the DOM in controller, service or anywhere except in directive.
+
+```
+angular.module('CpDirectives', []); // It's own directive module
+angular.module('CpApp', ['CpDirectives']); // Load the directives in your app
+
+// Code the directive
+angular.module('CpDirectives')
+  .directive();
+```
 
 Don't use jQuery, but rather just use directive.
 
@@ -163,6 +260,103 @@ The `link` function is where DOM manipulation happens. Linker can know about con
 Isolated scope is important in directive. Prevent you to modify your parent scope's data.
 You probably do not need compile in directive.
 
+### Link
+
+The `link` function is where DOM manipulation happens.
+
+* The `scope` is the same `$scope` in the controller function
+* `element` is a jQuery instance of the DOM element where the directive is declared on
+* `attrs` is a list of attributes (normalized array) declared on the element
+
+```
+.directive('myCircle', function() {
+  return {
+    templateUrl: './circle.html',
+    link: function(scope, element) {
+      element.on('click', function() {});
+    }
+  };
+});
+```
+
+
+### Controller
+
+The controller is constructed during the pre-linking phase. It receives `$scope` which is the current scope for the element.
+
+The setup of the event is still best done at the `link` function, but any other logics can be inside this `controller` function.
+
+```
+.directive('myCircle', function() {
+  return {
+    templateUrl: './circle.html',
+    
+    controller: ['$scope', '$rootScope', function($scope, $rootScope) {
+      $scope.afterClick = function() {
+        $rootScope.$broadcast('clicked');
+      };
+    }],
+    
+    link: function(scope, element) {
+      element.on('click', function() {
+        scope.$apply(function() {
+          scope.afterClick(); // ask the controller for help
+        });
+      });
+    }
+  };
+});
+```
+
+### More directive examples
+
+```
+// Directive call one time, and link call multiple times depending on how many inputs you have.
+
+<input type="text" form-select-all-on-focus />
+
+angular.module('CpDirectives')
+  .directive('formSelectAllOnFocus', function() {
+    return {
+      restrict: 'A',
+      link: function(scope, element) {
+        element.mouseup(function(event) {
+          event.preventDefault();
+        });
+        
+        element.focus(function() {
+          element.select();
+        });
+      }
+    };
+  });
+```
+
+### Layout Directives
+
+* ngIf
+* ngShow / ngHide
+* ngRepeat
+* ngSwitch
+* ngInclude
+
+### Interaction Directives
+
+Directives that call methods and provide data to controller.
+
+* ngModel - attach properties to `$scope`
+* ngBlur / ngFocus
+* ngClick
+* ngSubmit
+
+### Styling Directives
+
+* ngClass
+
+```
+ng-class="{'label-success':focus}"
+```
+
 ## Filters
 
 Like Unix's pipe. Output of one expression and pipe it into another.
@@ -197,11 +391,56 @@ App.filter("salaryRange", function() {
 * angular-ui-utils
 * angular-bootstrap (learn the testing of directives?)
 
+## Authentication / Bootstrapping
+
+```
+<html ng-app="myApp">
+  <script>
+  // The active profile is populated using server side rendering
+  var myActiveProfile = { "id": 123, "name": "Ido", "language": "en" };
+  </script>
+</html>
+
+// Later
+angular.module('myApp', []).config(['$provide', function($provide) {
+  var profile = angular.copy(window.myActiveProfile);
+  
+  profile.canEditAccount = function() {
+    return profile.isAccountManager || profile.permissions.editAccount;
+  };
+  
+  // Provide the active profile as an injectible constant.
+  $provide.constant('activeProfile', profile);
+}]);
+```
+
+## Testing
+
+Testing filter
+
+```
+describe('filter', function() {
+  beforeEach(module('phonecatFilter'));
+  
+  describe('checkmark', function() {
+    
+    it('should convert boolean value to unicode checkmark or cross', inject(function(checkmarkFilter) {
+      expect(checkmarkFilter(true)).toBe('\u2713');
+      expect(checkmarkFilter(false)).toBe('\u2718');
+    }));
+  });
+});
+```
 
 ## Video Resources
 
 * [AngularJS + REST Made Simple](https://www.youtube.com/watch?v=aGHzqwQU06g)
 * [Introduction to Angular in 50 examples](http://www.youtube.com/watch?v=TRrL5j3MIvo)
+
+### Paid
+
+* [egghead.io - Paid Angular.js, Node.js, D3.js resources](https://egghead.io/)
+
 
 ## People
 

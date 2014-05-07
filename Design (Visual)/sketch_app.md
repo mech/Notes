@@ -23,6 +23,7 @@
 * [List of Sketch plugins](https://gist.github.com/bomberstudios/7694497)
 * [Sketch Measure](https://github.com/utom/sketch-measure)
 * [Awesome Sketch plugins](http://awesome-sket.ch/)
+* [Content generator](https://github.com/timuric/Content-generator-sketch-plugin)
 
 ## Gallery
 
