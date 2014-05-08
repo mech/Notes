@@ -1,5 +1,7 @@
 # Ember
 
+Use ember-cli instead of starter kit.
+
 Ember is Cocoa and Angular is JSF?
 
 * [Robin Ward's AngularJS vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
@@ -7,11 +9,38 @@ Ember is Cocoa and Angular is JSF?
 * [Ember vs Angular - Templates](http://pivotallabs.com/ember-vs-angular-templates/)
 * [ember-appkit-rails using ES6 module but testing is QUnit](https://github.com/dockyard/ember-appkit-rails)
 * [A series to compare Angular with Ember](http://www.benlesh.com/2014/04/embular-part-2-whats-great-about-angular.html)
+* [ic-ajax](https://github.com/instructure/ic-ajax)
+* [EmberScript](http://emberscript.com/)
+* [Ember ListView](http://emberjs.com/list-view/)
+* [Build your own Ember app kit lite](http://toranbillups.com/blog/archive/2014/04/07/Building-your-own-ember-app-kit-lite-part-1/)
+* [ES6 modules, build tools and browser app delivery](http://ryanflorence.com/2013/es6-modules-and-browser-app-delivery/)
 
 ```
 Ember.run.once();
 
 setProperties({});
+```
+
+## Ember and Browserify?
+
+* https://gist.github.com/simme/8931006
+
+## ember-cli
+
+* [Broccoli: First beta release](http://www.solitr.com/blog/2014/02/broccoli-first-release/)
+* [Building an Ember app with Rails](http://reefpoints.dockyard.com/2014/05/07/building-an-ember-app-with-rails-part-1.html)
+* [Building an Ember.js production application with ember-cli](http://edgycircle.com/blog/2014-building-an-emberjs-production-application-with-ember-cli/)
+
+## Application
+
+```
+// See what object in memory is being created
+App = Ember.Application.create({
+  LOG_ACTIVE_GENERATION: true,
+  LOG_TRANSITIONS: true,
+  LOG_TRANSITIONS_INTERNAL: true,
+  LOG_VIEW_LOOKUPS: true
+});
 ```
 
 ## Run Loop (backburner.js)
@@ -21,6 +50,8 @@ setProperties({});
 * [backburner is a rewrite of the run loop](https://github.com/ebryn/backburner.js)
 
 Not a loop like programmers might think. It is an "aggregate changes over time" mechanism. Used to batch, and order (or reorder) work in a way that is most efficient by scheduling work on specific queues. These queues have a priority, and are processed to completion in priority order.
+
+The run loop is not constantly running!
 
 Some things 'cost' more than others:
 
@@ -44,19 +75,21 @@ Ember.run(function() {
 * `Ember.run.later` - Use this instead of `setTimeout`
 * `Ember.run.next` - Next tick, consider `schedule`
 * `Ember.run.schedule` - Push to queue
+* `Ember.run.scheduleOnce`
+* `Ember.run.debounce`
 * `Ember.run.throttle`
 
 Usually user events that will trigger run loop.
 
 ## Naming Convention
 
-|    Name    |                     Object                    |
-| ---------- | --------------------------------------------- |
-| Router     | `this.resource('tables')` and App.TablesRoute |
-| Controller | `App.TablesController`                        |
-| Model      | `App.Table`                                   |
-| View       | `App.TablesView`                              |
-| Template   | `tables`                                      |
+|    Name    |                      Object                     |
+| ---------- | ----------------------------------------------- |
+| Router     | `this.resource('tables')` and `App.TablesRoute` |
+| Controller | `App.TablesController`                          |
+| Model      | `App.Table`                                     |
+| View       | `App.TablesView`                                |
+| Template   | `tables`                                        |
 
 ## URLs and Routing
 
@@ -71,6 +104,36 @@ Action routes (I like verb):
 
 - /login/one-time-password/authenticate
 - /recover-username
+
+```
+// If your developing and when to change index to other module
+App.IndexRoute = Ember.Route.extend({
+  redirect: function() {
+    this.transitionTo('pipelines');
+  }
+});
+```
+
+### State
+
+State is collection of active objects in memory.
+
+Your route prepare state, fetch model data from API and setup controller state. The controller state is where all state change happen (long-living State). The view presents the state.
+
+```
+App.SearchRoute = Ember.Route.extend({
+  model: function() { /* models for state */ },
+  setupController: function(controller, model) {
+    controller.set('content', model);
+    // other initial state
+  },
+  renderTemplate: function() {
+    this.render();
+  }
+});
+
+<button {{ action 'search' }}>Search</button>
+```
 
 ## Route
 
@@ -90,6 +153,11 @@ Can we have more than one model in a route?
 
 ## Controller
 
+Delivers model data to views and templates.
+Array and Object controllers manage a `model` property. They act as proxy to the model's attributes and methods, sending them along if asked.
+
+In a single UI view, you will have many controllers at one go. They are all instantiated by Ember and stay on the screen for as long as the UI need it to. So 1 page does not mean you have only 1 controller.
+
 3 types:
 
 * `Controller`
@@ -100,7 +168,36 @@ Extend `Ember.Evented` for your controller if you want event bus.
 
 How controller talk to view? `Ember.View.views.XX`
 
-## Query Params
+```
+// Some validation example for controller. isValid state is available to you all the time
+App.SearchController = Ember.Controller.extend({
+  actions: {
+    search: function() {
+      if (this.get('isValid')) {
+        this.transitionToRoute('search.index', keyword);
+      }
+    }
+  },
+  
+  isValid: function() {
+    return !Ember.isEmpty(this.get('keyword'));
+  }.property('keyword'),
+  
+  isNotValid: Ember.computed.not('isValid')
+});
+
+<button {{ action='search' }} {{ bind-attr disabled=isNotValid }}>Search</button>
+```
+
+### ArrayController
+
+Sortable mix-in. 
+
+* [Sorting array using `Ember.computed.sort`](http://balinterdi.com/2014/03/05/sorting-arrays-in-ember-dot-js-by-various-criteria.html)
+
+## Partial and Render
+
+## Query Params (a new primitive)
 
 `/?query=params`
 
@@ -110,6 +207,8 @@ App.ArticlesController = Ember.ArrayController.extend({
   page: 1
 });
 ```
+
+> Model-dependent state! - Alex Matchneer
 
 What's the job of a controller anyway?
 
@@ -154,11 +253,26 @@ App.MyView = Ember.View.extend({
 });
 ```
 
-## Ember Run Loop
+## HTMLBars
+
+* HTML-aware
+* Context-specific helpers/bindings
+* No more `bind-attr`
+* Validate HTML
+* No more metamorphs
+* No more DOM pollution
+* Use DOM fragment and deep clone
+
+```
+{{#link-to 'articles' (query-params sort='ASC')}}
+
+// s-expressions
+{{capitalize (reverse foo)}}
+{{reverse (capitalize foo)}}
+```
+
 
 ## Lifecycle Hooks
-
-## Register and Inject (Resolver)
 
 ## Animations and Transitions
 
@@ -176,6 +290,9 @@ The places your data will go!
 * [wycats's app.js example](https://gist.github.com/wycats/8129945)
 
 ## Authentication and Session
+
+* [Ember.SimpleAuth](https://github.com/simplabs/ember-simple-auth)
+* [End-to-end security](http://apigee.com/about/products/apis/edge-secure-enterprise-apis)
 
 ```
 // Vine's CurrentUserController
@@ -195,8 +312,12 @@ TimelineIndexController = Ember.ArrayController.extend({
 });
 ```
 
-## Container and Resolver
+## Container and Resolver (Register and Inject)
 
+* [Containers and Dependency Injection in Ember by Matthew Beale](http://www.youtube.com/watch?v=6FlWyOoo6hQ)
+* [How to call A from B in Ember](http://www.youtube.com/watch?v=VdQfNIm2-g0)
+
+The entire Ember framework go through an object called the *resolver*. The resolver is the part of Ember's dependency injection system that is responsible for determining naming conventions.
 
 ## Ember Components, Web Components, Angular Directives
 
@@ -236,8 +357,13 @@ App.Router.reopen({location: 'none'});
 ## Example Apps
 
 * [phaserapp](http://phaserapp.com/)
-
+* [GroupTalent](https://grouptalent.com/)
 
 ## Libraries
 
 * ember-cloaking
+
+## Deprecations and Changes
+
+* `linkTo` is `link-to` now, see [here](http://stackoverflow.com/questions/20291475/ember-handlebars-link-to-vs-linkto)
+* 

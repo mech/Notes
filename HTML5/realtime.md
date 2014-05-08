@@ -1,6 +1,7 @@
 # Realtime Web
 
 * [Firebase - Realtime apps](https://www.firebase.com/)
+* [Lessons learned architecting realtime applications](http://lincolnloop.com/blog/architecting-realtime-applications/)
 
 ## WebSocket
 

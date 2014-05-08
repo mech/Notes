@@ -8,6 +8,8 @@ People suck at repetitive tasks.
 * Combining (concat)
 
 * [Goodbye Compass](http://bensmithett.com/goodbye-compass/)
+* [Goodbye, Sprockets! A Grunt-based Rails Asset Pipeline](http://blog.pedago.com/2014/01/21/goodbye-sprockets-a-grunt-based-rails-asset-pipeline/)
+* [Taking the asset pipeline out of Rails](http://pivotallabs.com/taking-asset-pipeline-rails/)
 
 ## Make?
 

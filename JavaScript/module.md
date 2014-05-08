@@ -9,7 +9,7 @@ ES6 Module specification has 2 things:
 * Module syntax
 * Module loader
 
-Traceur is a Google's ambitious project.
+Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 
 * [Using Grunt and the ES6 Module Transpiler](http://www.thomasboyt.com/2013/06/21/es6-module-transpiler)
 * [Square's ES6 module transpiler](https://github.com/square/es6-module-transpiler)

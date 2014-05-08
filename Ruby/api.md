@@ -18,6 +18,40 @@ API design (UX)
 * Don't let implementation details leak into your API.
 * Document your API
 
+## Hypermedia
+
+* Application state
+* State transfer
+* [Glenn Block on Hypermedia](https://www.youtube.com/watch?v=vp-Na5wKlig)
+* [HAL: Building hypermedia APIs in Rails](http://devblog.reverb.com/post/47197560134/hal-siren-rabl-roar-garner-building-hypermedia)
+* [DHH's getting hyper about hypermedia](http://signalvnoise.com/posts/3373-getting-hyper-about-hypermedia-apis)
+
+Links to go to other resource for navigation.
+
+Think of your client as not a browser. How do you design an extensible system of navigation for your application?
+
+Don't hardcode workflow. Twitter API is not a hypermedia API because there is no links.
+
+"approve": "https://host/leaves/:leave_id/approve"
+
+```
+{
+  "id": "UUID",
+  "state": "draft",
+  "links": [
+    {
+      "href": "https://www.jobline.com.sg/api/v1/leaves/UUID/approve",
+      "del": "approve",
+      "method": "POST"
+    }
+  ]
+}
+```
+
+When approve is no longer valid for this resource, then you won't find it at the JSON file.
+
+Client is reactive to the changes.
+
 ## Error Messages
 
 Throw exception at the same level of abstraction. Don't throw SQLException. What happen if you change your data store?
@@ -49,6 +83,7 @@ Throw exception at the same level of abstraction. Don't throw SQLException. What
 * [Trello API](https://trello.com/docs/)
 * [Uploadcare](https://uploadcare.com/documentation/rest/)
 * [Hull](http://hull.io/docs/references/api)
+* [PayPal hypermedia](https://developer.paypal.com/docs/api)
 
 ## Videos
 
