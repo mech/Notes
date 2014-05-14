@@ -3,6 +3,17 @@
 * [GitHub flow for rapid deployment and web project](http://scottchacon.com/2011/08/31/github-flow.html)
 * [GitFlow for infrequent library releases](http://nvie.com/posts/a-successful-git-branching-model/)
 
+## Workflow
+
+Establish version control practices. There are myriad workflows in git. Find one that works for you and stick to it. This will help you plan how you will do releases and handle sticky situations.
+
+Ask yourself questions like — will you tag? If so what is the tag naming convention?
+
+Do you do rebase when you pull or merge when you pull? When you merge branches back into master do you `--squash` or not? 
+
+Do you merge to master with the `--no-ff` flag? What is your method for handling nasty merge conflicts (they will happen and they will happen at the worst time possible)? If you establish all this at the start things will go much more smoothly as you introduce new people to the team - each with their own version control histories and preferences. You don't want a master log full of squashed commits, merge commit from other branches, and rebasing conflict resolution commits. This is terrible. Enforce consistency.
+
+
 ## Branching
 
 1. At your local machine: `git branch <branch_name>`

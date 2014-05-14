@@ -13,6 +13,8 @@
 * [The Style Manual](http://stylemanual.org/)
 * [Problem with baseline grids on the web](http://jasonsantamaria.com/articles/baseline-grids-on-the-web)
 * [Short introduction to geometric sans](http://next.fontshop.com/content/short-intro-to-geometric-sans)
+* [Tips on kerning](http://learn.scannerlicker.net/2014/05/02/tips-on-kerning/)
+* [Futura alternatives](http://next.fontshop.com/people/stephen-coles/fontlists/futura-alternatives)
 
 ```
 // New for Firefox 25
@@ -32,3 +34,6 @@
 * [RM Regular](http://www.hypefortype.com/rm-regular.html)
 * [Mash Creative - Maker of RM Regular](http://mashcreative.co.uk/project/rm-regular/)
 * [Hand of Sean](http://www.niceandripe.com/fonts/hand-of-sean/)
+* [Fonts in use - A collection of fonts combination](http://fontsinuse.com/)
+* [Typewolf - Web fonts in the wild](http://www.typewolf.com/)
+* [Some fonts](http://www.webdesignerdepot.com/2014/05/typecache-reveals-the-best-typefaces-of-2013/)

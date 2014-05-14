@@ -4,6 +4,7 @@
 * [The natural evolution of UI design](https://medium.com/philosophy-logic/fe76f0355c75)
 * [Google's infinite scroll](http://googlewebmastercentral.blogspot.sg/2014/02/infinite-scroll-search-friendly.html)
 * [Chromeless: The content is the interface. #NoUI](http://designmind.frogdesign.com/blog/chromeless-the-content-is-the-interface.html)
+* [destroytoday - Deconstruct sites](http://destroytoday.com/)
 
 ## UI Design Tips
 
@@ -13,6 +14,10 @@
 * [What part of overview item should be clickable?](http://ux.stackexchange.com/questions/53309/what-part-of-overview-item-should-be-clickable)
 * [Information wayfinding by UX Matters. Berrypicking, information foraging, information scent, etc.](http://www.uxmatters.com/mt/archives/2014/03/information-wayfinding-part-3-designing-for-wayfinding-1.php)
 * [Should yes/delete be red or green ](http://ux.stackexchange.com/questions/49991/should-yes-delete-it-be-red-or-green/)
+* Good interaction design makes the user feel like they're in control. It doesn't change up behaviours, especially default behaviours, just because it "looks cool".
+* [Writing for Interfaces](http://www.subtraction.com/2014/05/09/writing-for-interfaces/)
+* [5 principles for great interface copywriting](http://www.gv.com/lib/5-principles-for-great-interface-copywriting)
+* [Common UX mistakes](http://common-ux-mistakes.tumblr.com/)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 

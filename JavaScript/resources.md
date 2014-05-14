@@ -4,6 +4,7 @@ JavaScript dynamic duo (static type is overrated):
 
 * Loose typing
 * Object extension
+* [globtester](http://www.globtester.com/)
 
 ## People
 

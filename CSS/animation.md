@@ -11,6 +11,13 @@
 * [Dudley Storey's blog](http://demosthenes.info/blog)
 * [CSS animation screencast](https://vimeo.com/channels/alltherightmoves/)
 * [Velocity.js - a more performant jQuery replacement for `.animate()`](http://css-tricks.com/improving-ui-animation-workflow-velocity-js/)
+* [Pretty nice animation library](http://anijs.github.io/)
+* [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
+
+## Demo
+
+* [Morphing buttons](http://tympanus.net/codrops/2014/05/12/morphing-buttons-concept/)
+
 
 ## Famo.us
 

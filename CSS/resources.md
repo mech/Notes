@@ -2,6 +2,9 @@
 
 * [Crazy CSS](http://give-n-go.co/)
 * [CSS3 Geometry](http://css3geometrydaily.tumblr.com/)
+* [DynCSS](http://www.vittoriozaccaria.net/dyn-css/)
+* [Style Stats](https://github.com/t32k/stylestats)
+* [Parallax done right - lots of animation tips](https://medium.com/@dhg/82ced812e61c)
 
 ## Style Guide
 

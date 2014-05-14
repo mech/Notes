@@ -8,6 +8,25 @@
 * [Do lots of crap and you are 1 step closely to your answer](http://www.stellargirl.com/dont-get-attached-to-ideas/)
 * [Austin Kleon](http://tumblr.austinkleon.com/)
 * [Behavior Design](https://medium.com/ux-ui-design/be9d48aefeb0)
+* [Open letter to a Product Person](https://medium.com/great-reading-for-startup-founders/21004e9732fb)
+* [Feature request vs business problems](http://jonathancutrell.com/feature-requests-vs-business-problems)
+* [You're a designer. Not the CEO.](https://medium.com/p/173226d042ff)
+* [What we can learn from Google+](http://insideintercom.io/what-we-can-learn-from-google-plus/)
+* [Product strategy means saying no](http://insideintercom.io/product-strategy-means-saying-no/)
+* [What happens next?](https://medium.com/p/b6de25aa972d)
+* [The seduction of the superficial in digital production design](http://www.peterme.com/2014/05/06/1416/)
+* [Questions I ask when reviewing a design](http://signalvnoise.com/posts/3024-questions-i-ask-when-reviewing-a-design)
+* [See, Think, Design](http://daneden.me/2014/05/06/see-think-design-produce/)
+* [Asking why is not always the best strategy](http://insideintercom.io/asking-why-is-not-always-the-best-strategy/)
+* ["Of Course" design](https://medium.com/what-i-learned-building/ed6d5298ae0e)
+
+## Quotes
+
+* Solve real problem
+* Business impact
+* Optimize for feedback
+* If it ain't broke, fix it anyway
+* Learn how you learn
 
 ## A/B
 

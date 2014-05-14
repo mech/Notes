@@ -16,6 +16,8 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [List animation](http://tympanus.net/Tutorials/ShapeHoverEffectSVG/index.html)
 * [ICONIC](https://useiconic.com)
 * [Adaptive SVG](http://w3.eleqtriq.com/2014/02/everything-is-relative-the-art-of-the-adaptive-image/)
+* [Leaving pixels behind](https://docs.google.com/presentation/d/1CNQLbqC0krocy_fZrM5fZ-YmQ2JgEADRh3qR6RbOOGk/preview#slide=id.p)
+* [Trianglify - SVG background](https://github.com/qrohlf/trianglify)
 
 ```
 <text>

@@ -4,6 +4,7 @@
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
 * [Useful tricks & tips for Grape and Rails APIs](http://codetunes.com/2014/grape-part-II/)
 * [Effective developer experience](https://uxmag.com/articles/effective-developer-experience)
+* [Microservice?](http://www.infoq.com/news/2014/05/nano-services)
 
 API design (UX)
 
@@ -17,6 +18,13 @@ API design (UX)
 * API should do one thing and do it well.
 * Don't let implementation details leak into your API.
 * Document your API
+
+## API and Rails
+
+* [Token based authentication in Rails](http://blog.envylabs.com/post/75521798481/token-based-authentication-in-rails)
+* [simple_token_authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
+* [Is Devise's token safe?](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
+
 
 ## Hypermedia
 

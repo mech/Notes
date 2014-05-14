@@ -1,5 +1,12 @@
 # Rails
 
+* [Favorite Ruby gems and services](https://medium.com/@riklomas/89fb47341c05)
+* [Infinite scrolling in Rails](http://www.sitepoint.com/infinite-scrolling-rails-practice/)
+
+## Object-Oriented Rails
+
+* [Rails - The Missing Parts - Interactors](http://eng.joingrouper.com/blog/2014/03/03/rails-the-missing-parts-interactors)
+
 ## Build
 
 * [Goodbye, Sprockets! A Grunt-based Rails asset pipeline](http://blog.pedago.com/2014/01/21/goodbye-sprockets-a-grunt-based-rails-asset-pipeline/)

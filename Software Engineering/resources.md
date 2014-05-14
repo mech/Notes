@@ -8,6 +8,7 @@
 
 * [What is Software Design?](http://www.developerdotstar.com/mag/articles/reeves_design.html)
 * [Imperative vs Declarative](http://latentflip.com/imperative-vs-declarative/)
+* [Your syntax highlighter is wrong](https://medium.com/web-dev/6f83add748c9)
 
 ## Architect (Feasibility)
 

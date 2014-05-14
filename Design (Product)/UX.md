@@ -8,6 +8,8 @@
 * [Using Peek to find lost customer](http://blog.ramen.is/design/we-lost-a-customer-this-is-how-we-found-out/)
 * [Leisa Reichelt](http://www.disambiguity.com/)
 * [Replacing personas with characters](https://medium.com/p/aa72d3cf6c69)
+* [Gibbon on UX design](https://gibbon.co/maximebodereau/ux-design)
+* [UX gap](http://www.100shapes.com/blog/ux-gap-where-user-experience-begins-ends/)
 
 ## Behaviorism
 

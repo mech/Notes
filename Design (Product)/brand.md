@@ -13,3 +13,4 @@
 * [Facebook PR advice](http://firstround.com/article/The-Best-PR-Advice-Youve-Never-Heard-from-Facebooks-Head-of-Tech-Communications)
 * [Codecademy Reimagined](http://www.codecademy.com/blog/141-codecademy-reimagined)
 * [New Codecademy](http://new.pentagram.com/2014/04/new-work-codecademy/)
+* [A fresh look for betaworks](https://medium.com/p/89b85413771)

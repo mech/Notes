@@ -9,6 +9,7 @@
 * [Make the web accessible](http://thechangelog.com/we-make-the-web-lets-make-it-accessible/)
 * [Big background video popular on Facebook Paper](https://news.layervault.com/stories/19508-fullscreen-background-html5-video-best-practices)
 * [Detect bandwidth using Networking API](http://www.csskarma.com/blog/detecting-for-bandwidth/)
+* [Application Cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
 
 ## Videos
 
@@ -69,6 +70,10 @@ Provides better cross-browser consistency in the default styling of HTML element
 * No large inheritance chain displayed in Chrome dev tool.
 * More modular. You can remove sections (like the form normalizations) if you know they will never be needed by your website.
 
+## Form
+
+* [WTF Forms](http://wtfforms.com/)
+* [Placeholders](http://www.nngroup.com/articles/form-design-placeholders/)
 
 ## Content Strategy
 

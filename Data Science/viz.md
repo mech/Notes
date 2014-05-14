@@ -21,3 +21,4 @@ Why visualize? Make it compelling and compact way to see.
 ## Google Maps
 
 * [Google Map Builder](http://googlemapbuilder.mynameisdonald.com/)
+* [Bubble map](http://bost.ocks.org/mike/bubble-map/)

@@ -2,8 +2,10 @@
 
 Use ember-cli instead of starter kit.
 
-Ember is Cocoa and Angular is JSF?
+Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 
+* [Ember Weekly](http://emberweekly.com/issues.html)
+* [Want to learn Ember.js? Start here!](http://elweb.co/want-to-learn-ember-js-start-here/)
 * [Robin Ward's AngularJS vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
 * [Instructure](http://instructure.github.io/blog/)
 * [Ember vs Angular - Templates](http://pivotallabs.com/ember-vs-angular-templates/)
@@ -39,7 +41,13 @@ App = Ember.Application.create({
   LOG_ACTIVE_GENERATION: true,
   LOG_TRANSITIONS: true,
   LOG_TRANSITIONS_INTERNAL: true,
-  LOG_VIEW_LOOKUPS: true
+  LOG_VIEW_LOOKUPS: true,
+  
+  modulePrefix: 'CP',
+  
+  ready: function() {
+    // jQuery ready hook
+  }
 });
 ```
 
@@ -82,6 +90,9 @@ Ember.run(function() {
 Usually user events that will trigger run loop.
 
 ## Naming Convention
+
+Every ember has a default top-level `ApplicationRoute` with a first nested `IndexRoute`. Think of it this way, at your `application.hbs` template, you will have an `{{outlet}}` where the `index.hbs` can reside when the `IndexRoute` is being visited.
+
 
 |    Name    |                      Object                     |
 | ---------- | ----------------------------------------------- |
@@ -135,11 +146,24 @@ App.SearchRoute = Ember.Route.extend({
 <button {{ action 'search' }}>Search</button>
 ```
 
+## Router
+
+Only ever one instance.
+
+Router has a map to find our route.
+
 ## Route
 
 You'll spend most time on the route than any other Ember's parts. In Rails, you use Controller to load data, but in Ember, you do it at Route. Route loads data and assigns it to a controller using `setupController()`. Controller in Ember rarely has the job to load data!
 
 When `/tables` is visited, Ember calls the `App.TablesRoute` object, which finds the list of tables and assigns it to the `App.TablesController`.
+
+Routes manage state, including serialisation and de-serialisation.
+
+```
+// search-results makes a better class name than it does a URL
+this.route('search-results', { path: 'search/:term' });
+```
 
 Route hooks:
 
@@ -151,7 +175,26 @@ Route hooks:
 
 Can we have more than one model in a route?
 
+```
+App.IndexRoute = Ember.Route.extend({
+  actions: {
+    didTransition: function() {
+      Ember.run.once(this, function() {
+        trackAnalytics(this.get('router.url'));
+      });
+    }
+  }
+});
+```
+
 ## Controller
+
+* Model - All sessions. Represent long-term state that persists from session to session.
+* Controller - Just this session
+* Template/View - What is currently visible. Are transient, responsible for little or no state.
+
+> Ember's controllers are mediating controllers and route objects are coordinating controllers - [Tom Dale on services](http://discuss.emberjs.com/t/services-a-rumination-on-introducing-a-new-role-into-the-ember-programming-model/4947/56)
+
 
 Delivers model data to views and templates.
 Array and Object controllers manage a `model` property. They act as proxy to the model's attributes and methods, sending them along if asked.
@@ -195,6 +238,16 @@ Sortable mix-in.
 
 * [Sorting array using `Ember.computed.sort`](http://balinterdi.com/2014/03/05/sorting-arrays-in-ember-dot-js-by-various-criteria.html)
 
+### Managing transient state
+
+Controller is also the place where you hold UI temporary state like checkbox status, etc.
+
+```
+{{ view Ember.Checkbox checkedBinding="artistIsChecked" }}
+```
+
+The `artistIsChecked` resides at the controller and make the UI show or hide with ease.
+
 ## Partial and Render
 
 ## Query Params (a new primitive)
@@ -237,6 +290,27 @@ this.resource('project', { path: '/projects/:projectId' }, function() {
 });
 ```
 
+## Computed Properties
+
+* Transforms an object property defined as a function into a value
+* The function will only be called once and the returned value will be cached, so they are efficient
+* Can specify properties that your computed property depends on
+* The cached result will be recomputed if the dependencies are modified
+
+Check out the source at `computed.js`
+
+* Consider data as flowing in 2 different directions from a computed property
+* A `.get()` flows down, while a `.set()` flows up
+
+```
+// Array CP
+.property('activeSquares.@each')
+```
+
+## Component
+
+> For you Angular peeps, an Ember.js component is roughly equivalent to an E restricted, transcluded, isolate-scoped directive. - [https://twitter.com/tomdale/status/361288660240441344](Tom Dale)
+
 ## View
 
 * [Difference between views and components](http://stackoverflow.com/questions/18593424/views-vs-components-in-ember-js)
@@ -251,6 +325,15 @@ App.MyView = Ember.View.extend({
     this.$().css(left: 200);
   }
 });
+```
+
+```
+// Possible future for Ember.View?
+class View extends HTMLElement {
+  hide() {
+    this.isVisible = false;
+  }
+}
 ```
 
 ## HTMLBars
@@ -288,6 +371,14 @@ The places your data will go!
 * Mobile (API endpoints)
 * [Transition for ember-data?](https://github.com/emberjs/data/blob/master/TRANSITION.md)
 * [wycats's app.js example](https://gist.github.com/wycats/8129945)
+* [EPF - Ember.js Persistence Foundation by GroupTalent](http://epf.io/)
+
+## Model
+
+Model can be used for transient data (data we don't plan to store to a database) as well as persistence data.
+
+Models are good for defining structured data.
+
 
 ## Authentication and Session
 
@@ -316,8 +407,24 @@ TimelineIndexController = Ember.ArrayController.extend({
 
 * [Containers and Dependency Injection in Ember by Matthew Beale](http://www.youtube.com/watch?v=6FlWyOoo6hQ)
 * [How to call A from B in Ember](http://www.youtube.com/watch?v=VdQfNIm2-g0)
+* [Containers and DI by @mixonic](https://www.youtube.com/watch?v=iCZUKFNXA0k)
+* [Dependency Injection in Ember.js - First Steps](http://balinterdi.com/2014/05/01/dependency-injection-in-ember-dot-js.html)
 
 The entire Ember framework go through an object called the *resolver*. The resolver is the part of Ember's dependency injection system that is responsible for determining naming conventions.
+
+The container organises new building blocks.
+
+```
+var container = new Ember.Container();
+container.register('workerPool:main', workerPool);
+container.lookup('workerPool:main'); // Instance of workerPool
+```
+
+Don't ever use `App.__container__`
+
+## Each
+
+* [Hidden features of the `#each` helper](http://ember.guru/2014/hidden-features-of-the-each-aka-loopedy-loop-helper)
 
 ## Ember Components, Web Components, Angular Directives
 
@@ -346,6 +453,19 @@ App.Router.reopen({location: 'none'});
 
 * [Ember Watch: Screencasts](http://emberwatch.com/screencasts.html)
 * [Hashrocket's Introduction to Ember.js](http://www.youtube.com/watch?v=_lubCRPw17s)
+* [Bosten Ember - April 2014](https://www.youtube.com/watch?v=ceFNLdswFxs&t=1h8m20s)
+* [Testing your Ember applications](https://www.youtube.com/watch?v=GRT5YcXmm7E)
+* [Building an Ember application](https://www.youtube.com/watch?v=1QHrlFlaXdI)
+* [Building web applications with Ember.js and Rails](https://vimeo.com/78847391)
+* [How to call A from B in Ember?](http://www.youtube.com/watch?v=VdQfNIm2-g0)
+* [The Promise Land by Stefan Penner](http://www.youtube.com/watch?v=eHomHs3PrP8)
+* [Ember Sherpa YouTube channel](http://www.youtube.com/user/EmberSherpa)
+* [Ember NYC YouTube channel](https://www.youtube.com/user/EmberNYC)
+
+### Watched
+
+* Ember.js NYC - [Apr 14, Mar 14, Feb 14, Jan 14]
+
 
 ## People
 
@@ -362,6 +482,25 @@ App.Router.reopen({location: 'none'});
 ## Libraries
 
 * ember-cloaking
+* [ember-responsive](https://freshbooks.github.io/ember-responsive/)
+
+## Tips and Tricks
+
+* [Progress bar](http://emberjs.jsbin.com/keduxelu/1/edit)
+
+## Debugging
+
+* Be aware promises swallowing your rejection. Router promises may swallow.
+* jQuery throws exception on certain places, so be careful when doing TDD.
+
+```
+// Error sub-state
+<pre>
+{{message}}
+
+{{stack}}
+</pre>
+```
 
 ## Deprecations and Changes
 

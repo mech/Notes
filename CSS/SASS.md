@@ -8,3 +8,5 @@
 * [Out CSS/Sass Project Architecture and Styleguide](http://blog.groupbuddies.com/posts/32-our-css-sass-project-architecture-and-styleguide)
 * [DRY Sass mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins)
 * [Bourbon 4](https://news.layervault.com/stories/21801-bourbon-4-differences)
+* [Sass and partials](http://zurb.com/university/library/35)
+* [Color variables that don't suck](http://davidwalsh.name/sass-color-variables-dont-suck)

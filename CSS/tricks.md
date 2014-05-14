@@ -1,6 +1,16 @@
 # Tricks
 
 * [Skewed hit boxes with CSS transforms](http://viget.com/inspire/skewed-hit-boxes-with-css-transforms)
+* [7 things your didn't know you could do with CSS](http://davidwalsh.name/css-facts)
+* [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
+* [Useful?](http://snippetrepo.com/)
+* [Reading position indicator](http://css-tricks.com/reading-position-indicator/)
+
+```
+/* do nothing when clicked even through JavaScript */
+.disabled { pointer-events: none; }
+```
+
 
 ## Sites with tricks to learn
 

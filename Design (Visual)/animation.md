@@ -7,6 +7,8 @@
 * [How to get animations out of your head](http://scotthurff.com/posts/how-to-get-animations-out-of-your-head)
 * [Web apps deserve sexy transitions too!](https://medium.com/design-ux/8068a5e4cb82)
 * [Motion Ui Design Principles](http://www.beyondkinetic.com/motion-ui-design-principles/)
+* [Skip Hursh - Very nice animation](http://skiphursh.com/)
+* [James Curran](http://slimjimstudios.tumblr.com/)
 
 ## Framer
 

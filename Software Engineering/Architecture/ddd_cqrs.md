@@ -10,3 +10,10 @@
 * [Relevance Blog](http://thinkrelevance.com/blog)
 * [CQRS à la Greg Young](http://cre8ivethought.com/blog/2009/11/12/cqrs--la-greg-young)
 * https://github.com/MarkNijhof/Fohjin
+
+Where does the behavior go?
+
+* Value Objects - None, they are immutable!
+* Entities - State modification logic
+* Repositories - CRUD, simple queries, schema versioning
+* Services - Complex behavior related to multiple entities or other systems
