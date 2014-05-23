@@ -72,6 +72,15 @@
         
         rbenv shell system => If you need to have system Ruby
         
+In case you want to upgrade Ruby version, you need to:
+
+```
+brew upgrade rbenv ruby-build
+rbenv install 2.2.2
+rbenv rehash
+rbenv uninstall 2.2.1
+rbenv global 2.2.2
+```
 
 If you have RVM already, you can remove it as such:
 
@@ -79,8 +88,6 @@ If you have RVM already, you can remove it as such:
     rvm implode           => Remove RVM
     which -a ruby         => Test to see if there is any Rubies left
     yes | sudo gem uninstall -a --ignore-dependencies `gem list --no-versions` => Uninstall all gems from system ruby
-
-
 
 # oh-my-zsh
 
@@ -351,3 +358,4 @@ Go to `/Library/Preferences/VMware Fusion` and look for `vmnet8/dhcpd.conf` and 
 
 * http://robots.thoughtbot.com/the-hitchhikers-guide-to-riding-a-mountain-lion
 * http://blog.55minutes.com/2013/09/rails-os-x-install-guide/
+* http://www.mitchchn.me/2014/os-x-terminal/

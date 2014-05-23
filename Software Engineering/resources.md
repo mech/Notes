@@ -10,6 +10,19 @@
 * [Imperative vs Declarative](http://latentflip.com/imperative-vs-declarative/)
 * [Your syntax highlighter is wrong](https://medium.com/web-dev/6f83add748c9)
 
+## Abstraction
+
+* Visual/Spatial reasoning - Squint test, boxes and arrows
+* Linguistic reasoning - Rubber duck on your desk
+* Sequence diagram - Find out which class is bossy
+* Metaphor - Body syntonic reasoning, East-oriented code (Tell, don't ask), Code smells
+* Feature envy, refused bequest, primitive obsession, duplicated code, long method, large class, too many parameters.
+
+Always look for first-try, first-reaction bias.
+
+See [Cognitive shortcuts: Models, Visualization, Metaphors, and other lies](http://www.youtube.com/watch?v=__qEkyJipX0)
+
+
 ## Architect (Feasibility)
 
 1. **Leadership and communication** - Effective communication. Collaboration. Clarity. Listen to business and translate.

@@ -9,6 +9,9 @@
 
 * [How to interpret ridiculous web design job posts](http://blog.teamtreehouse.com/how-to-interpret-ridiculous-web-design-job-posts)
 
+## Salary
+
+* [JobsDB's Search by Salary promo](http://sg.jobsdb.com/sg/en/staticcontent/search-by-salary/index.html)
 
 ## Tools
 
@@ -20,6 +23,10 @@
 * Industry
 * Function / Domain
 * Paid time off (PTO)
+
+## Graph
+
+* Heatmap
 
 ## Wild Ideas
 
@@ -41,4 +48,4 @@
 ### UI Ideas
 
 * Make use of pop-up like PaintCode interface and Basecamp's Calendar.
-* 
+* [Some search ideas](https://medium.com/@chadengle/3c4d2d345031)

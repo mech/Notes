@@ -2,6 +2,9 @@
 
 * [Favorite Ruby gems and services](https://medium.com/@riklomas/89fb47341c05)
 * [Infinite scrolling in Rails](http://www.sitepoint.com/infinite-scrolling-rails-practice/)
+* [Reading Rails series!](http://monkeyandcrow.com/blog/reading_rails_how_does_message_verifier_work/)
+* [Some nice gems here](http://www.22ideastreet.com/blog/2014/04/30/starting-on-an-existing-rails-project/)
+* [Rails idioms considered harmful](http://jgaskins.org/blog/2014/5/18/rails-idioms-considered-harmful)
 
 ## Object-Oriented Rails
 
@@ -27,9 +30,26 @@ Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensu
 
 * [7 patterns to refactor fat ActiveRecord models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/)
 
+## Caching
+
+* [Advanced caching in Rails](http://hawkins.io/2012/07/advanced_caching_revised/)
+
+## Controller
+
+* [Callbacks on success and failure like Jim Weirich](http://janjiss.github.io/blog/2014/05/14/callbacks-and-ruby/)
+
+
 ## Notable Gems
 
 See [Monterail's list of useful gems](https://github.com/monterail/guidelines/blob/master/gems.md)
 
 * [Lograge - Taming Rails' default request logging](https://github.com/roidrage/lograge)
 * [Figaro - For configuring Rails application like ENV settings](https://github.com/laserlemon/figaro)
+
+## Tips
+
+```
+def initialize(attributes={})
+  @user = User.new(attributes.slice(:name, :email))
+end
+```

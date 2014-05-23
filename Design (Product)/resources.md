@@ -19,6 +19,9 @@
 * [See, Think, Design](http://daneden.me/2014/05/06/see-think-design-produce/)
 * [Asking why is not always the best strategy](http://insideintercom.io/asking-why-is-not-always-the-best-strategy/)
 * ["Of Course" design](https://medium.com/what-i-learned-building/ed6d5298ae0e)
+* [Simple design is what you need not what you want](http://firstround.com/article/Simple-Design-is-What-You-Need-Not-What-You-Want-1)
+* [Only openings](http://frankchimero.com/talks/only-openings/transcript/)
+* [Slack's product design](https://medium.com/medium-long/4c59524d650d)
 
 ## Quotes
 

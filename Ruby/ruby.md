@@ -1,5 +1,7 @@
 # Ruby
 
+* Don't mutate state unnecessarily. It will lead to bugs.
+
 ## Gem Authoring
 
 Short story: `bundle gem gem_name`
@@ -7,6 +9,13 @@ Short story: `bundle gem gem_name`
 ## `require` and `autoload` and `const_missing`
 
 * [Matz announced `autoload` is dead](https://www.ruby-forum.com/topic/3036681)
+
+## Block
+
+* [Why Ruby blocks exist Part 1](http://programming.oreilly.com/2014/02/why-ruby-blocks-exist.html)
+* [Why Ruby blocks exist Part 2](http://programming.oreilly.com/2014/03/why-ruby-blocks-exist-part-ii.html)
+* [Why Ruby blocks exist Part 3](http://programming.oreilly.com/2014/05/why-ruby-blocks-exist-part-iii.html)
+* [Callbacks and Ruby](http://janjiss.github.io/blog/2014/05/14/callbacks-and-ruby/)
 
 ## Hash
 
@@ -56,3 +65,9 @@ See http://stackoverflow.com/questions/10039039/why-self-method-of-module-cannot
 ## Service
 
 * [Gourmet Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
+
+## Optimize Memory
+
+1. Tune GC. `GC.stat[:minor_gc_count]`, `RUBY_GC_HEAP_GROWTH_FACTOR`, `RUBY_GC_MALLOC_LIMIT`
+2. OobGC for unicorn
+3. valgrind.org

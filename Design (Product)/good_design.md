@@ -9,6 +9,8 @@
 * [Craigslist made it with crappy design. iPod was high on "personal closeness"](http://us1.campaign-archive1.com/?u=836dc9c64862f158af8a31e20&id=d2dcae3448&e=e02d2860e9)
 * [Filling the gap between intention and actions](https://medium.com/ux-design-1/fa95d615df7c)
 * [Designer Duds: Losing Our Seat at the Table](http://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table)
+* [Making good design decisions](http://blog.getprismatic.com/making-good-design-decisions/)
+* [There is only careless design or thoughtful design. Choose to design thoughtfully](https://medium.com/@ireneau/5b867e9f2614)
 
 ## Design Videos
 

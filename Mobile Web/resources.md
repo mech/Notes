@@ -3,6 +3,7 @@
 * [Brad Frost responsive pattern library](http://bradfrost.github.io/this-is-responsive/patterns.html)
 * [BBC Responsive News](http://responsivenews.co.uk/)
 * [Tool: Responsive viewport](http://cobyism.com/shapeshifter/)
+* [Make your site work on touch devices](http://www.creativebloq.com/javascript/make-your-site-work-touch-devices-51411644)
 
 ## Process and Workflow
 
@@ -70,6 +71,10 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
        (min-resolution: 1.5dppx) {
 }
 ```
+
+## Responsive Images
+
+* [Figuring responsive images](http://css-tricks.com/video-screencasts/133-figuring-responsive-images/)
 
 ## Favicon
 

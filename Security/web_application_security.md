@@ -14,7 +14,13 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [Hash cracker for password](http://www.hash-cracker.com/)
 * [Have I been pwned](https://haveibeenpwned.com/)
 * [Node Goat](https://github.com/OWASP/NodeGoat)
+
+
+## Tools
+
+* [OpenVAS](http://www.openvas.org/)
 * [Automated security testing of web applications using OWASP Zed Attack Proxy](https://blog.codecentric.de/en/2013/10/automated-security-testing-web-applications-using-owasp-zed-attack-proxy/)
+* [List of testing tools](https://www.owasp.org/index.php/Appendix_A:_Testing_Tools)
 
 OWASP
 

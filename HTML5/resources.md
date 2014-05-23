@@ -10,6 +10,7 @@
 * [Big background video popular on Facebook Paper](https://news.layervault.com/stories/19508-fullscreen-background-html5-video-best-practices)
 * [Detect bandwidth using Networking API](http://www.csskarma.com/blog/detecting-for-bandwidth/)
 * [Application Cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
+* [Web Field Manual](http://webfieldmanual.com/)
 
 ## Videos
 
@@ -35,6 +36,7 @@ window.addEventListener('scroll', onScroll, false);
 
 ## HTML/CSS/JavaScript Style Guide
 
+* [List of styleguide generator](http://vinspee.me/style-guide-guide/)
 * [@mod Code Guide](http://mdo.github.io/code-guide/)
 * [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
 * [GitHub Style Guide](https://github.com/styleguide)

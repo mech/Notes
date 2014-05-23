@@ -61,6 +61,7 @@ gulp.task('build-stuff', function() {
 * [Presentation on Gulp](http://slid.es/contra/gulp)
 * [Gulp - The streaming build system](http://www.bram.us/2014/01/20/gulp-the-streaming-build-system/)
 * https://www.youtube.com/watch?v=Blqaio9HaHA
+* [Error management in gulp](https://gist.github.com/floatdrop/8269868)
 
 ### Plugins
 

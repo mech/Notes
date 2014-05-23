@@ -5,7 +5,15 @@
 * [Rails testing anti-patterns: Controllers](https://semaphoreapp.com/blog/2014/02/11/rails-testing-antipatterns-controllers.html)
 * [Managing externals in Ruby tests](https://semaphoreapp.com/blog/2014/03/18/managing-externals-in-ruby-tests.html)
 
+## Is TDD Dead?
+
+* [Test isolation is about avoiding mocks](https://www.destroyallsoftware.com/blog/2014/test-isolation-is-about-avoiding-mocks)
+* [Hexagonal Rails and the ludicrous terminal application](http://pivotallabs.com/hexagonal-rails-and-the-ludicrous-terminal-application/)
+
+
 ## Minitest
+
+* [Shared example in Minitest is just Ruby](https://canaryup.com/blog/shared-examples-with-minitest)
 
 ## RSpec
 

@@ -5,6 +5,7 @@
 * [Google's infinite scroll](http://googlewebmastercentral.blogspot.sg/2014/02/infinite-scroll-search-friendly.html)
 * [Chromeless: The content is the interface. #NoUI](http://designmind.frogdesign.com/blog/chromeless-the-content-is-the-interface.html)
 * [destroytoday - Deconstruct sites](http://destroytoday.com/)
+* [Interactive Design Gallery](http://interactive-design.co.il/)
 
 ## UI Design Tips
 
@@ -18,6 +19,7 @@
 * [Writing for Interfaces](http://www.subtraction.com/2014/05/09/writing-for-interfaces/)
 * [5 principles for great interface copywriting](http://www.gv.com/lib/5-principles-for-great-interface-copywriting)
 * [Common UX mistakes](http://common-ux-mistakes.tumblr.com/)
+* [Why and how to avoid hamburger menus](http://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 
@@ -29,3 +31,4 @@
 ## Tools
 
 * [Facebook Origami](http://facebook.github.io/origami/)
+* [Mitya App](http://www.mitya-app.com/)

@@ -37,3 +37,4 @@
 * [Fonts in use - A collection of fonts combination](http://fontsinuse.com/)
 * [Typewolf - Web fonts in the wild](http://www.typewolf.com/)
 * [Some fonts](http://www.webdesignerdepot.com/2014/05/typecache-reveals-the-best-typefaces-of-2013/)
+* [Urban Grotesk](http://www.myfonts.com/fonts/suitcase/urban-grotesk/)

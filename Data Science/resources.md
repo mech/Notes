@@ -21,6 +21,14 @@ Fuel Band - People don't like number, it's time to translate into something else
 
 Treat *machine learning deployment* as you would software like using continuous deployment, RESTful API, language bindings, security and SLA.
 
+## Tools
+
+Real-time analytics stack. Real-time ingestion and flexible, low-latency queries.
+
+* [Druid - Hadoop is slow, so need a query layer](http://druid.io/)
+* [Kafka](http://kafka.apache.org/)
+* [Storm](http://storm.incubator.apache.org/)
+
 ## Data Structure
 
 Raw Data -- Data Structure -- Algorithm -- Insight

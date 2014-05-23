@@ -5,6 +5,7 @@ Use ember-cli instead of starter kit.
 Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 
 * [Ember Weekly](http://emberweekly.com/issues.html)
+* [An in-depth introduction to Ember.js (Smashing Magazine)](http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 * [Want to learn Ember.js? Start here!](http://elweb.co/want-to-learn-ember-js-start-here/)
 * [Robin Ward's AngularJS vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
 * [Instructure](http://instructure.github.io/blog/)
@@ -16,6 +17,8 @@ Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 * [Ember ListView](http://emberjs.com/list-view/)
 * [Build your own Ember app kit lite](http://toranbillups.com/blog/archive/2014/04/07/Building-your-own-ember-app-kit-lite-part-1/)
 * [ES6 modules, build tools and browser app delivery](http://ryanflorence.com/2013/es6-modules-and-browser-app-delivery/)
+* [Sketches from EmberConf 2014](http://chantastic.io/emberconf2014/)
+* [Drag and drop image upload with Ember.js](https://medium.com/ember-js-framework/c19e99f9823c)
 
 ```
 Ember.run.once();
@@ -32,6 +35,7 @@ setProperties({});
 * [Broccoli: First beta release](http://www.solitr.com/blog/2014/02/broccoli-first-release/)
 * [Building an Ember app with Rails](http://reefpoints.dockyard.com/2014/05/07/building-an-ember-app-with-rails-part-1.html)
 * [Building an Ember.js production application with ember-cli](http://edgycircle.com/blog/2014-building-an-emberjs-production-application-with-ember-cli/)
+* [From gulp.js to ember-cli](https://medium.com/ember-js-framework/450f1ffb1967)
 
 ## Application
 
@@ -104,7 +108,11 @@ Every ember has a default top-level `ApplicationRoute` with a first nested `Inde
 
 ## URLs and Routing
 
-The shareable part.
+The shareable part. Ember router presents a DSL that helps bridge user-readable URLs with an *application-level state machine*. **As you enter or exit URLs, the router signals to routes that they should configure or cleanup.**
+
+If you have `this.resource('tickets')`, you will have 2 routes automatically like `TicketsRoute` and `TicketsIndexRoute`. The route name will be `tickets.index`.
+
+Index routes provide the default route where another may be nested.
 
 ```
 // Detect the '/' path and render the todos template
@@ -152,6 +160,8 @@ Only ever one instance.
 
 Router has a map to find our route.
 
+Besides generating route classes, router also generates controllers and templates. The router *wires* them together when entering a route.
+
 ## Route
 
 You'll spend most time on the route than any other Ember's parts. In Rails, you use Controller to load data, but in Ember, you do it at Route. Route loads data and assigns it to a controller using `setupController()`. Controller in Ember rarely has the job to load data!
@@ -165,13 +175,20 @@ Routes manage state, including serialisation and de-serialisation.
 this.route('search-results', { path: 'search/:term' });
 ```
 
+Route has a entrance or exit and the following are the lifecycle hooks (asynchronous or synchronous).
+
 Route hooks:
 
-* `beforeModel`
-* `model`
-* `afterModel`
-* `setupController`
-* `deactivate`
+* `beforeModel` - (Async) intended for rejecting entrance to a route or redirecting away to another route (permission maybe)
+* `model` - (Async) is expected to return a promise that will be set as the model presented to the template
+* `afterModel` - (Async) can reject proceeding into a route based on the content of the model or fetch additional data
+* `activate` (Sync) is called when a route is first entered
+* `setupController` - (Sync) set the model on the controller
+* `renderTemplate` - (Sync)
+* `serialize` - (Sync) formats an object or collection passed as the model into parameters for building the route's URL segment
+* `deactivate` - (Sync) called when exiting a route
+* `willTransition`
+* `didTransition`
 
 Can we have more than one model in a route?
 
@@ -187,6 +204,22 @@ App.IndexRoute = Ember.Route.extend({
 });
 ```
 
+Asynchronous promises `getJSON`
+
+```
+App.IndexRoute = Ember.Route.extend({
+  model: function() {
+    return new Ember.RSVP.Promise(function(resolve, reject) {
+      $.getJSON('/tickets.json').then(function(data) {
+        Ember.run(null, resolve, data);
+      }, function(error) {
+        Ember.run(null, reject, error);
+      });
+    });
+  }
+});
+```
+
 ## Controller
 
 * Model - All sessions. Represent long-term state that persists from session to session.
@@ -195,6 +228,10 @@ App.IndexRoute = Ember.Route.extend({
 
 > Ember's controllers are mediating controllers and route objects are coordinating controllers - [Tom Dale on services](http://discuss.emberjs.com/t/services-a-rumination-on-introducing-a-new-role-into-the-ember-programming-model/4947/56)
 
+Controllers have 2 responsibilities in Ember:
+
+* Manage transient state for sections of the running application. This involves setting properties on the controller, and having the controller handle some actions.
+* Decorate models for presentation.
 
 Delivers model data to views and templates.
 Array and Object controllers manage a `model` property. They act as proxy to the model's attributes and methods, sending them along if asked.
@@ -234,7 +271,9 @@ App.SearchController = Ember.Controller.extend({
 
 ### ArrayController
 
-Sortable mix-in. 
+Sortable mix-in.
+
+An `ArrayController` could manage the knowledge about which item in an array is selected.
 
 * [Sorting array using `Ember.computed.sort`](http://balinterdi.com/2014/03/05/sorting-arrays-in-ember-dot-js-by-various-criteria.html)
 
@@ -248,9 +287,29 @@ Controller is also the place where you hold UI temporary state like checkbox sta
 
 The `artistIsChecked` resides at the controller and make the UI show or hide with ease.
 
+Controllers can share their state with other controllers, and have parent-child relationships. Actions can bubble up through these relationships, making them a powerful and important part of how complex applications are structured.
+
+### Decorating models
+
+### Actions
+
+To cause an action to keep bubbling even though it was handled, return `true` from the handler.
+
+### Communicating between controllers
+
+The `itemController` of an `{{#each` helper can access its parent via `parentController` to access maybe toggle, filter states, or search query etc.
+
+You can also use `needs` which is good for placing `currentUser` information.
+
+Always consider the tradeoffs inherent in coupling controllers to each other. Good alternatives to `needs` include use of `controllerFor` on routes to access controller instances and send messages, and the `register/inject` dependency injection of Ember containers.
+
 ## Partial and Render
 
 ## Query Params (a new primitive)
+
+* [Ember Query Parameters - Elte Hupkes](https://www.youtube.com/watch?v=nyD7CRuA-PU)
+
+Why it took so long? Model (Route) vs Controller are two equally good place for Query Params? But now, it is the controller's job.
 
 `/?query=params`
 
@@ -267,6 +326,8 @@ What's the job of a controller anyway?
 
 * Manage application state
 * Wrap the model with additional information to present to the template (also application state)
+
+Query params will be on the controller state.
 
 ## Screens and Flows
 
@@ -311,9 +372,43 @@ Check out the source at `computed.js`
 
 > For you Angular peeps, an Ember.js component is roughly equivalent to an E restricted, transcluded, isolate-scoped directive. - [https://twitter.com/tomdale/status/361288660240441344](Tom Dale)
 
-## View
+Followed closely to Web Component standard.
+
+If you just want some static HTML and pass in simple properties, you do not need to extend `Ember.Component`, but if you need to change the wrapped element, integrating with third-party library like D3, or handle actions, then you need to extend `Ember.Component` class to better manage things.
+
+```
+App.HeatMapComponent = Ember.Component.extend({
+  width: 900,
+  height: 280,
+  margin: { top: 50, right: 0, bottom: 100, left: 30 },
+  colors: [ '#2F0000', '#661201' ],
+  
+  draw: function(data) {
+    // draw the heat map using D3
+    this.set('data', data);
+    var svg = d3.select('#' + this.get('elementId'));
+  },
+  
+  didInsertElement: function() {
+    var data = this.get('controller.data.content');
+    // You can prepare the data here and do anything initial
+    // data massaging here
+    this.draw(data);
+  }
+});
+```
+
+## Ember.View
 
 * [Difference between views and components](http://stackoverflow.com/questions/18593424/views-vs-components-in-ember-js)
+
+The `Ember.View` is the Ember object responsible for pushing the HTML into the DOM, updating the DOM as the bound object's values are modified, and then responding to user interaction such as clicks.
+
+Views only manage DOM and rendering concerns and you don't typically need to create them.
+
+`Ember.View` manages DOM lifecycle and events, but is not responsible for decorating models or managing state. For that you need a controller.
+
+Views are normally quite temporary instances, and ill suited for keeping track of application state. Once a view is no longer displayed its `Ember.View` instance is destroyed, losing any state. So if you want application state, do it are controller!
 
 ```
 App.MyView = Ember.View.extend({
@@ -354,12 +449,25 @@ class View extends HTMLElement {
 {{reverse (capitalize foo)}}
 ```
 
+## Ember.Handlebars
+
+If you use `Handlebars.SafeString`, be sure to escape any user input with `Handlebars.Utils.escapeExpression`
 
 ## Lifecycle Hooks
 
 ## Animations and Transitions
 
 * [ember-animation-demo](https://github.com/ef4/ember-animation-demo)
+* [ember-animate](https://github.com/gigafied/ember-animate)
+
+With `Ember.View`, we can use the hooks:
+
+* Animate in using `willInsertElement/didInsertElement`
+* Swap? Maybe `willClearRender`??
+* Animate out using `willDestroyElement`
+* `parentViewDidChange`?
+
+No animation story in Ember, is it because need to wait for HTMLBars?
 
 ## Data
 
@@ -428,9 +536,65 @@ Don't ever use `App.__container__`
 
 ## Ember Components, Web Components, Angular Directives
 
+In some places where you may imagine `{{render` is the best solution, a component could be a better and more re-usable tool.
+
+MUST include hyphen in the component name!
+
 * [Ember widgets](http://addepar.github.io/#/ember-widgets/overview)
 * [ic-ember](http://instructure.github.io/ic-ember/)
 * [Angular vs Ember star rating component comparison](http://wintellect.com/blogs/nstieglitz/angular.js-vs-ember.js-star-rating-component-comparison)
+
+```
+App.LeafletMapComponent = Ember.Component.extend({
+  attributeBindings: ['style'],
+  
+  width: '600px',
+  height: '400px',
+  
+  style: function() {
+    return [
+      'width:' + this.get('width'),
+      'height:' + this.get('height')\
+    ].join(';');
+  }.property('width', 'height'),
+  
+  didInsertElement: function() {
+    var map = L.map(this.get('element'));
+    this.set('map', map);
+    
+    map.setView([0, 0], 1);
+    
+    L.tileLayer('http://{s}.title.osm.org/{z}/{x}/{y}.png', { attribution: '&copy' }).addTo(map);
+    
+    map.on('move', this.mapDidMove, this);
+  },
+  
+  mapDidMove: function() {
+    Ember.run(this, function() {
+      var map = this.get('map'),
+          centre = map.getCenter(),
+          zoom = map.getZoom();
+      
+      this.setProperties({
+        latitude: center.lat,
+        longitude: center.lng,
+        zoom: zoom
+      });
+    });
+  },
+  
+  willRemoveElement: function() {
+    var map = this.get('map');
+    if (map) map.remove();
+  }
+});
+```
+
+`Components` differ from `View` in the way they isolate behavior and data.
+
+### Component Actions
+
+There is no bubbling to the route. Actions are sent only to the component itself.
 
 ## Ember with D3
 
@@ -473,6 +637,8 @@ App.Router.reopen({location: 'none'});
 * [simplereach](http://www.simplereach.com/blog/)
 * [Eric Berry](http://coderberry.me/)
 * [Dan Gebhardt](http://www.cerebris.com/blog/)
+* [Adam Hawkins](http://hawkins.io/)
+* [Balint Erdi](http://balinterdi.com/)
 
 ## Example Apps
 
