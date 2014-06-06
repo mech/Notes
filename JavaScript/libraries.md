@@ -8,6 +8,10 @@
 * [jquery.lookingfor - Searches text in list items](https://github.com/albburtsev/jquery.lookingfor/)
 * [Text editor?](http://quilljs.com/docs/editor/)
 * [Title notifier on your browser tab](http://roshiro.github.io/TitleNotifier.js/)
+* [randomColor](http://llllll.li/randomColor/)
+* [vanilla-js](http://vanilla-js.com/)
+* [JSCapture - using `getUserMedia` to capture and record screen](https://mgechev.github.io/jscapture/)
+* [Headroom.js](http://wicky.nillia.ms/headroom.js/)
 
 ## Auto-complete
 
@@ -16,3 +20,7 @@
 ## Gesture
 
 * [Quo.js](http://quojs.tapquo.com/)
+
+## Internationalization
+
+* [messageFormat.js](https://github.com/SlexAxton/messageformat.js)

@@ -50,6 +50,10 @@ var pipeline = [
 ];
 ```
 
+## Production
+
+* [10 Things you should know about running MongoDB at scale](http://highscalability.com/blog/2014/3/5/10-things-you-should-know-about-running-mongodb-at-scale.html)
+
 ## Replication
 
 Is bad. Not worth it.

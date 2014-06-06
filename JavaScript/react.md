@@ -8,6 +8,12 @@ The initial HTML can be generated on the server. React handles the "view" but no
 
 Using a [difference algorithm](http://calendar.perfplanet.com/2013/diff/) to calculate the fewest number of steps required to render each state.
 
+Render (and re-render) a view hierarchy to any sort of backend you want. It is DOM agnostic.
+
+What makes UI so hard? State changing over time is evil.
+Model your UI as pure function.
+
+* [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
 * [Building robust web apps with React](http://maketea.co.uk/2014/03/05/building-robust-web-apps-with-react-part-1.html)
 * [Using react with browserify](https://medium.com/publish-what-you-learn/a1ea2dd606b)
 * [Example](https://github.com/aslansky/react-stack-playground)
@@ -32,6 +38,17 @@ gulp.task('scripts', function() {
 });
 ```
 
+## Composition
+
+Combine *simple* functions to build more *complicated* ones. One way to manage complexity.
+
+Just build simple interfaces. Makes it easier to predict what will happen.
+
+## Idempotence
+
+Certain operations that can be applied multiple times without changing the result beyond the initial application.
+
+Easy to predict output for a given input. Immutability gets you idempotence for free.
 
 ## Virtual DOM
 

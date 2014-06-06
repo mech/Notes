@@ -22,6 +22,10 @@
 * [Why and how to avoid hamburger menus](http://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
+>
+> The interface design comes first because I want the design to drive the decision tree, not programmer convenience - [Ryan Singer](http://feltpresence.com/articles/16-managing-product-development-by-integrating-around-concerns)
+>
+> Whatever your domain is, they didn't come for the drop-shadows or gradients. They came for the capability. The interface "affords" the capability to the user. - [Ryan Singer](http://feltpresence.com/articles/18-ui-and-capability)
 
 ## Sound UI
 

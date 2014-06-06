@@ -3,7 +3,15 @@
 * [GitHub flow for rapid deployment and web project](http://scottchacon.com/2011/08/31/github-flow.html)
 * [GitFlow for infrequent library releases](http://nvie.com/posts/a-successful-git-branching-model/)
 
+```
+git add -u
+git add -A
+```
+
+
 ## Workflow
+
+Workspace -> Index -(commit)-> Local Repo -(push)-> Remote Repo
 
 Establish version control practices. There are myriad workflows in git. Find one that works for you and stick to it. This will help you plan how you will do releases and handle sticky situations.
 

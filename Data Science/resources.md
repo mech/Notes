@@ -14,6 +14,7 @@ Signal in the data is very subtle.
 
 * [Emotional data storytelling](https://www.youtube.com/watch?v=ZT4RaDHoIpE)
 * [Amik Ahmad](http://amikahmad.com/)
+* [Course note?](http://newdatascientist.blogspot.in/search/label/Online%20course%20reviews#sthash.NXw6TjJY.QLHIGtFf.dpbs)
 
 Storytelling give memory, memory shape behavior. Story is what change people's behavior.
 
@@ -55,5 +56,9 @@ Raw Data -- Data Structure -- Algorithm -- Insight
 
 * Alexander Gray - Skytree
 * [Hilary Mason](http://www.hilarymason.com/)
+* Daryl Moery
+* Daphne Koller
+* Nate Silver
+* Drew Conway
 
 > More data beats clever algorithms but better data beats more data - Peter Norvig

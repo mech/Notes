@@ -10,3 +10,4 @@
 * [Bourbon 4](https://news.layervault.com/stories/21801-bourbon-4-differences)
 * [Sass and partials](http://zurb.com/university/library/35)
 * [Color variables that don't suck](http://davidwalsh.name/sass-color-variables-dont-suck)
+* [Organizing z-index](http://jonsuh.com/blog/organizing-z-index-with-sass/)

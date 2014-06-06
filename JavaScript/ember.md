@@ -4,7 +4,10 @@ Use ember-cli instead of starter kit.
 
 Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 
+Don't operating on wrong assumption. Expose your ignorance.
+
 * [Ember Weekly](http://emberweekly.com/issues.html)
+* [Ghost using Ember.js](https://github.com/TryGhost/Ghost/issues/2144)
 * [An in-depth introduction to Ember.js (Smashing Magazine)](http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 * [Want to learn Ember.js? Start here!](http://elweb.co/want-to-learn-ember-js-start-here/)
 * [Robin Ward's AngularJS vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
@@ -19,12 +22,16 @@ Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 * [ES6 modules, build tools and browser app delivery](http://ryanflorence.com/2013/es6-modules-and-browser-app-delivery/)
 * [Sketches from EmberConf 2014](http://chantastic.io/emberconf2014/)
 * [Drag and drop image upload with Ember.js](https://medium.com/ember-js-framework/c19e99f9823c)
+* [Ember and Web Components](https://gist.github.com/wycats/9144666b0c606d1838be)
+* [Ember.js with Ruby on Rails](http://blog.abuiles.com/ember-js-with-ruby-on-rails/)
 
 ```
 Ember.run.once();
 
 setProperties({});
 ```
+
+Since there is no round-trip, just pass real object in parameters, and no need for String.
 
 ## Ember and Browserify?
 
@@ -36,6 +43,30 @@ setProperties({});
 * [Building an Ember app with Rails](http://reefpoints.dockyard.com/2014/05/07/building-an-ember-app-with-rails-part-1.html)
 * [Building an Ember.js production application with ember-cli](http://edgycircle.com/blog/2014-building-an-emberjs-production-application-with-ember-cli/)
 * [From gulp.js to ember-cli](https://medium.com/ember-js-framework/450f1ffb1967)
+* [Deploying ember-cli and Rails to Heroku](http://blog.abuiles.com/blog/2014/05/21/deploying-ember-cli-and-rails-to-heroku/)
+* [ember-cli-plus-backend](https://github.com/dockyard/ember-cli-plus-backend)
+
+## Broccoli
+
+![Broccoli trees](https://dl.dropboxusercontent.com/u/6815194/Notes/broccoli.png)
+
+Broccoli is all about trees. Take the 'lib' tree, concat it into a single `app.js`.
+
+```
+var concat = require('broccoli-concat');
+var compileSass = require('broccoli-sass');
+var autoprefixer = require('broccoli-autoprefixer');
+var mergeTrees = require('broccoli-merge-trees');
+
+var appJs = concat('lib', {
+  inputFiles: ['jquery.js', '**/*.js'],
+  outputFile: '/assets/app.js'
+});
+
+var appCss = compileSass(['styles'], 'app.scss', '/assets/app.css');
+
+module.exports = mergeTrees([appJs, appCss, 'public']);
+```
 
 ## Application
 
@@ -164,6 +195,8 @@ Besides generating route classes, router also generates controllers and template
 
 ## Route
 
+* [Tom Dale: Building URL-driven apps with Ember.js](https://vimeo.com/68390483)
+
 You'll spend most time on the route than any other Ember's parts. In Rails, you use Controller to load data, but in Ember, you do it at Route. Route loads data and assigns it to a controller using `setupController()`. Controller in Ember rarely has the job to load data!
 
 When `/tables` is visited, Ember calls the `App.TablesRoute` object, which finds the list of tables and assigns it to the `App.TablesController`.
@@ -221,6 +254,26 @@ App.IndexRoute = Ember.Route.extend({
 ```
 
 ## Controller
+
+One Page != One Controller. This is almost always wrong in Ember.js. Don't give a controller too many responsibilities. Break it up into tiny pieces of UI functionalities. Just introduce more controllers. They are free on client-side :)
+
+```
+App.ListsController = Ember.ArrayController.extend({
+  needs: ['snapshot'], // use more controllers
+  
+  selected: -> {
+    this.get('model').findBy('selected')
+  }.property('model.@each.selected'),
+  
+  hovering: -> {
+    this.get('model').findBy('hovering')
+  }.property('model.@each.hovering')
+});
+```
+
+**Controller is not the place to LOAD data as in Rails. Instead make use of Route's hook and promises to load data.**
+
+[Controller in Ember is just ViewModel](http://www.wekeroad.com/2014/05/28/the-frustratingly-lovable-crazy-making-huggable-ball-of-whack-that-is-ember-js/). In Cocoa iOS, every View is backed by a Controller, which may or may not have some data.
 
 * Model - All sessions. Represent long-term state that persists from session to session.
 * Controller - Just this session
@@ -303,7 +356,15 @@ You can also use `needs` which is good for placing `currentUser` information.
 
 Always consider the tradeoffs inherent in coupling controllers to each other. Good alternatives to `needs` include use of `controllerFor` on routes to access controller instances and send messages, and the `register/inject` dependency injection of Ember containers.
 
+[See how itemController come about](https://github.com/emberjs/ember.js/issues/1637#issuecomment-11785445)
+
 ## Partial and Render
+
+    <script type="text/x-handlebars" data-template-name="_map">
+      <div id="map"></div>
+    </script>
+    
+    {{ partial 'map' }}
 
 ## Query Params (a new primitive)
 
@@ -345,13 +406,20 @@ See http://www.youtube.com/watch?v=iFBOYMxDl40
 
 ## Nested Routes means Nested UI
 
+Nesting in Ember.js is visual (rendering views inside views). It is not like in Rails, which is nested resources for scoped access.
+
 ```
 this.resource('project', { path: '/projects/:projectId' }, function() {
   this.route('story', { path: '/stories/:storyId' });
 });
 ```
 
-## Computed Properties
+## Object Model, KVO and Computed Properties
+
+* [KVO in Apple](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/KeyValueObserving/KeyValueObserving.html)
+* [Ember.js Object Model](http://emberjs.com/guides/object-model/classes-and-instances/)
+
+CP
 
 * Transforms an object property defined as a function into a value
 * The function will only be called once and the returned value will be cached, so they are efficient
@@ -363,10 +431,30 @@ Check out the source at `computed.js`
 * Consider data as flowing in 2 different directions from a computed property
 * A `.get()` flows down, while a `.set()` flows up
 
+Element attributes in views can be bound to objects' properties.
+
 ```
-// Array CP
+<button {{ bind-attr disabled=isNotValid }}>Search</button>
+```
+
+## Array Computed Properties (reduce)
+
+```
+.property('names.[]') // bad?
+
 .property('activeSquares.@each')
+
+// Or use Ember.arrayComputed using Ember.computed.map
+names: map('people.@each.name', function(person) {
+  return person.get('name').toUpperCase();
+})
 ```
+
+```
+@this!!!!!
+```
+
+[Array Computing Properties](http://www.youtube.com/watch?v=v6Q7vSwNNz4)
 
 ## Component
 
@@ -402,6 +490,8 @@ App.HeatMapComponent = Ember.Component.extend({
 
 * [Difference between views and components](http://stackoverflow.com/questions/18593424/views-vs-components-in-ember-js)
 
+One of the major reasons an Ember.View exists is to translate browser events into application events. That's why it captures all browser events in functions like `dragStart`, `click`, etc. It's also why Ember.View emits application events to Controllers. Browser events come in, application events go out.
+
 The `Ember.View` is the Ember object responsible for pushing the HTML into the DOM, updating the DOM as the bound object's values are modified, and then responding to user interaction such as clicks.
 
 Views only manage DOM and rendering concerns and you don't typically need to create them.
@@ -429,6 +519,57 @@ class View extends HTMLElement {
     this.isVisible = false;
   }
 }
+```
+
+Separate row, cell into view.
+
+```
+App.RowView = Ember.View.extend({
+  templateName: 'row',
+  tagName: 'tr',
+  classNames: ['board-row']
+});
+
+App.CellView = Ember.View.extend({
+  templateName: 'cell',
+  tagName: 'td',
+  classNameBindings: ['color', 'piece'],
+  attributeBindings: 'draggable',
+  draggable: 'true',
+  
+  dragOver: function(e) {
+    e.preventDefault();
+  },
+  
+  dragLeave: function(e) {
+    e.preventDefault();
+  },
+  
+  dragStart: function(e) {
+    e.dataTransfer.setData('text/text', 'data');
+  },
+  
+  drop: function(e) {
+    this.get('controller').send('gameChanged');
+  }
+});
+
+// Create a new App.RowView for each row...
+{{ #each rows }}
+  {{ view App.RowView }}
+{{ /each }}
+
+// And the RowView itself will in turn create a new CellView for each cell...
+<tr class="board-row">
+  {{ #each this }}
+    {{ view App.CellView }}
+  {{ /each }}
+</tr>
+
+// If we use tagName and classNames, we can simplify it:
+{{ #each this }}
+  {{ view App.CellView colorBinding=color pieceBinding=piece }}
+{{ /each }}
 ```
 
 ## HTMLBars
@@ -480,6 +621,10 @@ The places your data will go!
 * [Transition for ember-data?](https://github.com/emberjs/data/blob/master/TRANSITION.md)
 * [wycats's app.js example](https://gist.github.com/wycats/8129945)
 * [EPF - Ember.js Persistence Foundation by GroupTalent](http://epf.io/)
+* [Model maker](http://andycrum.github.io/ember-data-model-maker/)
+* [ember-cli + ic-ajax](https://www.youtube.com/watch?v=7twifrxOTQY)
+
+All you need to do is implement the `find` and `findAll` methods.
 
 ## Model
 
@@ -487,11 +632,17 @@ Model can be used for transient data (data we don't plan to store to a database)
 
 Models are good for defining structured data.
 
+## Bootstrap
+
+Pre-render data server-side rather than calling 50+ Ajax on boot-time. Use server-side rendering.
 
 ## Authentication and Session
 
 * [Ember.SimpleAuth](https://github.com/simplabs/ember-simple-auth)
 * [End-to-end security](http://apigee.com/about/products/apis/edge-secure-enterprise-apis)
+* [How Zendesk use ember-resource for authentication token? At the initializer?](https://github.com/zendesk/ember-resource)
+* [Ember add-on to track of Rails CSRF](https://github.com/abuiles/rails-csrf)
+* [AI auth using Angular](http://engineering.talis.com/articles/elegant-api-auth-angular-js/)
 
 ```
 // Vine's CurrentUserController
@@ -532,11 +683,18 @@ Don't ever use `App.__container__`
 
 ## Each
 
-* [Hidden features of the `#each` helper](http://ember.guru/2014/hidden-features-of-the-each-aka-loopedy-loop-helper)
+* [Hidden features of the `#each` helper](http://ember.guru/2014/hidden-features-of-the-each-aka-loopedy-loop-helper) 
+* [Ember Arrays and 'observable' state](https://docs.google.com/presentation/d/1dVPWiB7OvimNUSJv8JF0u87LlzIq9_JLz9P5H5vTJrM/edit#slide=id.p)
+* [Observers and object initialization](http://emberjs.com/guides/object-model/observers/#toc_observers-and-object-initialization)
+* [CP is lazy and do not trigger observers](http://emberjs.com/guides/object-model/observers/#toc_unconsumed-computed-properties-do-not-trigger-observers)
+
+"What the hell" API driven design.
 
 ## Ember Components, Web Components, Angular Directives
 
 In some places where you may imagine `{{render` is the best solution, a component could be a better and more re-usable tool.
+
+[See Instructure's component examples](https://github.com/instructure)
 
 MUST include hyphen in the component name!
 
@@ -601,6 +759,10 @@ There is no bubbling to the route. Actions are sent only to the component itself
 * [Reusable D3 charts with Ember.js components](http://heyjinjs.us/post/57158250642/reusable-d3-charts-with-ember-js-components)
 * [Ember charts](http://addepar.github.io/)
 
+## Search
+
+* [Searching on Ember.js](http://blog.balancedpayments.com/ember-building-search/)
+
 ## Testing
 
 ```
@@ -615,6 +777,8 @@ App.Router.reopen({location: 'none'});
 
 ## Videos
 
+* [SparkCasts](http://www.sparkcasts.net/)
+* [EmpireJS Videos](http://2014.empirejs.org/#/videos)
 * [Ember Watch: Screencasts](http://emberwatch.com/screencasts.html)
 * [Hashrocket's Introduction to Ember.js](http://www.youtube.com/watch?v=_lubCRPw17s)
 * [Bosten Ember - April 2014](https://www.youtube.com/watch?v=ceFNLdswFxs&t=1h8m20s)
@@ -625,11 +789,13 @@ App.Router.reopen({location: 'none'});
 * [The Promise Land by Stefan Penner](http://www.youtube.com/watch?v=eHomHs3PrP8)
 * [Ember Sherpa YouTube channel](http://www.youtube.com/user/EmberSherpa)
 * [Ember NYC YouTube channel](https://www.youtube.com/user/EmberNYC)
+* [Modern build workflows with Broccoli](https://vimeo.com/96431267)
+* [Modern build workflows with Broccoli @Scotland.js](https://vimeo.com/96508134)
+* [Building URL-driven web-apps with Ember.js](http://www.infoq.com/presentations/emberjs-url)
 
 ### Watched
 
 * Ember.js NYC - [Apr 14, Mar 14, Feb 14, Jan 14]
-
 
 ## People
 
@@ -639,6 +805,8 @@ App.Router.reopen({location: 'none'});
 * [Dan Gebhardt](http://www.cerebris.com/blog/)
 * [Adam Hawkins](http://hawkins.io/)
 * [Balint Erdi](http://balinterdi.com/)
+* [Igor Terzic](http://terzicigor.com/)
+* [Matthew Beale](http://madhatted.com/)
 
 ## Example Apps
 
@@ -653,6 +821,29 @@ App.Router.reopen({location: 'none'});
 ## Tips and Tricks
 
 * [Progress bar](http://emberjs.jsbin.com/keduxelu/1/edit)
+* [Ember Table](https://github.com/Addepar/ember-table)
+
+## Analytics
+
+What to track?
+
+* Page views: `link-to`, `this.transitionTo()`, `this.replaceWith()`, URL
+* Actions: `{{action}}`, `this.send()`, `this.triggerAction()`, `this.sendAction()`
+
+[Extending Ember with Analytics](http://www.youtube.com/watch?
+v=G0de3zNEkC4)
+
+```
+App.ApplicationRoute = Ember.Route.extend({
+  actions: {
+    didTransition: function() {
+      Ember.run.once(this, function() {
+        ga('send', 'page view', this.router.get('url'));
+      });
+    }
+  }
+});
+```
 
 ## Debugging
 
@@ -661,14 +852,11 @@ App.Router.reopen({location: 'none'});
 
 ```
 // Error sub-state
-<pre>
 {{message}}
 
 {{stack}}
-</pre>
 ```
 
 ## Deprecations and Changes
 
 * `linkTo` is `link-to` now, see [here](http://stackoverflow.com/questions/20291475/ember-handlebars-link-to-vs-linkto)
-* 

@@ -35,6 +35,8 @@
 15. Good design is motivated by use cases, workflows.
 16. Good design is built from small, orthogonal, and com posable primitives.
 17. [Designing is editing](http://blog.simplease.at/2014/05/designing-is-editing/)
+18. **Good design is about taking things apart.** Module, components, etc.
+19. Simplicity is actual work.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

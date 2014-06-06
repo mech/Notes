@@ -10,9 +10,14 @@
 * [Greensock](http://www.greensock.com/)
 * [Dudley Storey's blog](http://demosthenes.info/blog)
 * [CSS animation screencast](https://vimeo.com/channels/alltherightmoves/)
-* [Velocity.js - a more performant jQuery replacement for `.animate()`](http://css-tricks.com/improving-ui-animation-workflow-velocity-js/)
 * [Pretty nice animation library](http://anijs.github.io/)
 * [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
+
+## Velocity.js
+
+* [Velocity.js - a more performant jQuery replacement for `.animate()`](http://css-tricks.com/improving-ui-animation-workflow-velocity-js/)
+* [UI pack overview](https://www.youtube.com/watch?v=CdwvR6a39Tg&hd=1)
+
 
 ## Demo
 

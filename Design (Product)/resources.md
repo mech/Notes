@@ -22,6 +22,18 @@
 * [Simple design is what you need not what you want](http://firstround.com/article/Simple-Design-is-What-You-Need-Not-What-You-Want-1)
 * [Only openings](http://frankchimero.com/talks/only-openings/transcript/)
 * [Slack's product design](https://medium.com/medium-long/4c59524d650d)
+* [Principles of product design](http://bokardo.com/principles-of-product-design/)
+* [Observe your user](http://blog.simplease.at/2014/05/the-user-is-always-right-wrong/)
+* [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
+* [UXCEO](http://uxceo.com/)
+* [Balance in all](http://www.hxa.name/notes/note-hxa7241-20091025T2123.html)
+
+## Card-based Design
+
+* [**Creating SYSTEMS not destinations**](http://insideintercom.io/design-futures-1-creating-systems-not-products/)
+* [Why cards are the future of the web](http://insideintercom.io/why-cards-are-the-future-of-the-web/)
+* [Tom Dale's Cards are the future of the web](http://www.youtube.com/watch?v=pwYwLBWvy7Q)
+* [Mobile UI with cards](https://medium.com/ux-ui-design/redefining-mobile-user-interfaces-with-cards-3ba4ed42c965)
 
 ## Quotes
 
@@ -34,6 +46,9 @@
 ## A/B
 
 * [The complete guide to A/B testing](https://visualwebsiteoptimizer.com/ab-testing/)
+* [Etsy's A/B API](https://github.com/etsy/feature)
+* [Facebook's PlanOut](http://facebook.github.io/planout/)
+* [A/B at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
 
 ## On-boarding
 
@@ -49,6 +64,11 @@
 
 * [Writing terms and conditions](http://www.docracy.com/)
 * [Web designer's guide to presenting legal stuff](http://www.webdesignerdepot.com/2014/04/the-web-designers-guide-to-presenting-legal-stuff/)
+
+## Design Studio
+
+* [Focus Lab](http://focuslabllc.com/)
+* [teehan+lax](http://www.teehanlax.com/)
 
 ## Product News
 

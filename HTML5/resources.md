@@ -12,6 +12,10 @@
 * [Application Cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
 * [Web Field Manual](http://webfieldmanual.com/)
 
+## IE
+
+* [IE status](http://status.modern.ie/)
+
 ## Videos
 
 * [A rendering performance guide](http://www.youtube.com/watch?v=9xjpmpX4NJE)
@@ -56,6 +60,7 @@ window.addEventListener('scroll', onScroll, false);
 * [Some example of style guides](https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides-and-pattern-libraries)
 * [Rock Hammer](http://malarkey.github.io/Rock-Hammer)
 * [CSS Components](http://www.felipefialho.com/css-components)
+* [Suit CSS](http://suitcss.github.io/)
 
 ## HTML Boilerplate
 
@@ -76,6 +81,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 
 * [WTF Forms](http://wtfforms.com/)
 * [Placeholders](http://www.nngroup.com/articles/form-design-placeholders/)
+* [Advanced styling for HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)
 
 ## Content Strategy
 

@@ -10,10 +10,18 @@
 * [Skip Hursh - Very nice animation](http://skiphursh.com/)
 * [James Curran](http://slimjimstudios.tumblr.com/)
 
+## Quartz Composer
+
+* [Avocado - Patch for QC from IDEO Labs](http://labs.ideo.com/2014/05/27/avocado/)
+
+
 ## Framer
 
+* [The introduction video](https://vimeo.com/74712901)
 * [Framer templates](https://github.com/tisho/framer-templates)
 * [Why Framer.js matters](https://medium.com/framer-js/93eb1206e606)
+* [Framer.js tips](https://medium.com/framer-js/framer-js-tips-ca55fc7cfc61)
+* [Prototyping swipe and drag gestures with Framer 3](https://medium.com/building-potluck/prototyping-swipe-and-drag-gestures-with-framer-3-2e405d50b600)
 
 ## After  Effect
 

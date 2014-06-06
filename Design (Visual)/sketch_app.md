@@ -27,6 +27,7 @@
 
 ## Plugins
 
+* [List of plugins](https://news.layervault.com/stories/24626-ask-dn-what-are-your-favourite-sketch-plugins)
 * [Dynamic Button](https://github.com/ddwht/sketch-dynamic-button)
 * [List of Sketch plugins](https://gist.github.com/bomberstudios/7694497)
 * [Sketch Measure](https://github.com/utom/sketch-measure)

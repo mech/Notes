@@ -18,25 +18,6 @@ Purpose of layouts:
 2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
 3. **Associative Connection**. What goes with what?
 
-## GSS (Re-thinking CSS Layout - Math heavy)
-
-* [Grid Style Sheet](http://gridstylesheets.org/)
-* [Cassowary, Cocoa Autolayout, and enaml constraints](http://stacks.11craft.com/cassowary-cocoa-autolayout-and-enaml-constraints.html)
-
-Using Solver to compute layout.
-
-Cassowary Linear Arithmetic Constraint Solver - Resolves cyclic dependencies in layout arithmetic.
-
-Greg Badros - Constraint CSS
-
-Constraint programming. I strong want this.
-Constraints are 2-way. Takes practice thinking in constraints.
-
-VFL - Visual Format Language
-
-https://github.com/slightlyoff/cassowary.js
-
-
 ## Media Queries
 
 ```
@@ -92,6 +73,7 @@ Use of `min-width` and `max-width` common.
 * [Unit Grid System](http://unit.gs/)
 * [Flow](http://flow.gs/)
 * [Jeet](http://jeet.gs/)
+* [Responcss](http://responcss.com/)
 
 ## Flexbox
 
@@ -167,6 +149,9 @@ Using SASS placeholder to `extend` clearfix.
 
 ## Positioning
 
+* [Why use absolute positioning for web UI](http://wiki.sproutcore.com/w/page/12412895/FAQ-AbsolutePositioning)
+* [Full-height app layouts](http://blog.stevensanderson.com/2011/10/05/full-height-app-layouts-a-css-trick-to-make-it-easier/)
+
 `static` and `relative` are considered to be in normal document flow.
 
 `relative` - can be offset and following elements react as if the element were not offset. They think it is still there. So why would you want to use `relative`?:
@@ -204,6 +189,23 @@ This is what Compass will give you:
 }
 ```
 
+## GSS (Re-thinking CSS Layout - Math heavy)
+
+* [Grid Style Sheet](http://gridstylesheets.org/)
+* [Cassowary, Cocoa Autolayout, and enaml constraints](http://stacks.11craft.com/cassowary-cocoa-autolayout-and-enaml-constraints.html)
+
+Using Solver to compute layout.
+
+Cassowary Linear Arithmetic Constraint Solver - Resolves cyclic dependencies in layout arithmetic.
+
+Greg Badros - Constraint CSS
+
+Constraint programming. I strong want this.
+Constraints are 2-way. Takes practice thinking in constraints.
+
+VFL - Visual Format Language
+
+https://github.com/slightlyoff/cassowary.js
 
 ## Hacks
 

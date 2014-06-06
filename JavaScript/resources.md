@@ -5,6 +5,7 @@ JavaScript dynamic duo (static type is overrated):
 * Loose typing
 * Object extension
 * [globtester](http://www.globtester.com/)
+* [FPS engine](http://www.playfuljs.com/a-first-person-engine-in-265-lines/)
 
 ## People
 
@@ -12,6 +13,47 @@ JavaScript dynamic duo (static type is overrated):
 * [Axel Rauschmayer](http://www.2ality.com/)
 * [Kyle Simpson](http://blog.getify.com/)
 * [Rob Richardson](http://robrich.org/)
+
+## Macros
+
+* [Writing your first Sweet.js macro](http://jlongster.com/Writing-Your-First-Sweet.js-Macro)
+* [es6-macros](https://github.com/jlongster/es6-macros)
+
+```
+macro foo {
+  rule { $x plus $y } => {
+    $x + $y
+  }
+}
+
+foo 5 plus 6 // -> 5 + 6
+```
+
+```
+// ES6 Fat arrow
+macro => {
+  rule infix { ($value (,) ...) | ($body ...) } => {
+    function($value (,) ...) {
+      $body ...
+    }.bind(this)
+  }
+  rule infix { ($value (,) ...) | $guard:expr } => {
+    function($value (,) ...) {
+      return $guard;
+    }.bind(this)
+  }
+  rule infix { $param:ident | $guard:expr } => {
+    function($param) {
+      return $guard;
+    }.bind(this)
+  }
+}
+
+// To use it
+(x, y, z) => {
+  return x * y * z;
+}
+```
 
 ## Isomorphic
 

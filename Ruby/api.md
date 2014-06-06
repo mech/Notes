@@ -1,5 +1,6 @@
 # API
 
+* [API Evangelist](http://apievangelist.com/)
 * [How to design a good API and why it matters](http://www.youtube.com/watch?gl=SG&hl=en-GB&v=aAb7hSCtvGw)
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
 * [Useful tricks & tips for Grape and Rails APIs](http://codetunes.com/2014/grape-part-II/)
@@ -7,11 +8,15 @@
 * [Microservice?](http://www.infoq.com/news/2014/05/nano-services)
 * [Scalable Internet Architectures](http://www.infoq.com/presentations/Scalable-Internet-Architectures)
 
+For timestamp only use ISO 8601. And use UTC!
+
 API design (UX)
 
 * Persona - Who are my API users?
 * Affordance
 * Utilitarian
+* Less is more, always start with the least functionality
+* Find API use cases
 * Passive usability testing - You may already have the metrics. API usage. Examine support requests.
 * A great API can be among a company's greatest assets or liabilities.
 * Good API tends to get reuse and is modular.
@@ -23,6 +28,7 @@ API design (UX)
 * Document your API
 * Don't do method-driven API like verbs all over the place
 * World is big, don't look at thing in isolation
+* Security, rate limiting, routing, and so on can and should be hidden in the HTTP headers
 
 ```
 // Good - using noun
@@ -32,9 +38,52 @@ API design (UX)
 // Bad - using verbs
 /getAllPayslips
 /getAllPayslipsByYear/2014
+/insertNewItem
+/insertNewItemIntoWishList
 ```
 
 You use verb only if it is non-resource API like in finance industry like `/convert?SGD-USD`
+
+## API Vision
+
+* What's your end-state, business objectives?
+* What are you delivering?
+* Foster innovation?
+* What's your key metrics?
+* Expose job posting API so customer can use it for their own career site
+* Expose job application API so customer can pull in candidate to their own list comparison view
+
+> A platform for recruiter
+>
+> Delivering talents
+
+We have standard API for resume viewer, candidate profile API, etc. Stabilize those API modules and we can tweak the UI and delivery platform how we like it (through web or mobile). 
+
+## Base URL and Versioning
+
+To achieve a versionless API, a significant discipline and foresight is required.
+
+If you choose to go versionless, you need to be careful with your JSON format and be generic and flexible, like
+
+```
+// Use this format for versionless API
+{
+  "phone_number": [
+    { type: "Mobile", number: "98787675" }
+  ]
+}
+
+// Rather than this inflexible format:
+{
+  "mobile_phone_number": "98787675"
+}
+```
+
+```
+https://api.jobline.com.sg/v1
+https://apidev.jobline.com.sg/v1
+application/jobline+json;application&v=1
+```
 
 ## Application State (Client) and Resource State (Server)
 
@@ -44,11 +93,34 @@ Understanding these 2 states is the key to understand REST's statelessness conce
 
 The notion of statelessness is defined from the perspective of the server. The constraint says that the server should not remember the state of the application. As a consequence, the client should send all information necessary for execution along with each request.
 
+The server sends a representation describing the state of a resource. The client sends a representation describing the state it would like the resource to have. That's representational state transfer.
+
+## Behavior
+
+* GET - Give me a *representation* of this *resource*
+* PUT - Is idempotent, so you need to do full replacement. Must include all the data!
+* POST - If successfully, `201 Created` + Location. For update, return `200 OK`. Not idempotent.
+* DELETE - `204 No Content`, `200 OK`, `202 Accepted`. Not safe method but is idempotence.
+* HEAD
+* PATCH - RFC 5789
+* LINK
+* UNLINK
+
+* Collection Resource
+* Instance Resource
+
+POST, GET, PUT and DELETE do not have 1:1 with CRUD
+
+GET request is a request for a representation. It's not intended to change any resource state on the server.
 
 ## Partial Response
 
 ```
 /payslips?fields=id,amount,timestamp
+
+GET /accounts/x7y8z9?expand=directory
+
+GET /accounts/x7y8z9?fields=givenName,directory(name)
 ```
 
 ## API and Rails
@@ -56,22 +128,59 @@ The notion of statelessness is defined from the perspective of the server. The c
 * [Token based authentication in Rails](http://blog.envylabs.com/post/75521798481/token-based-authentication-in-rails)
 * [simple_token_authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
 * [Is Devise's token safe?](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
+* [Minimal API authentication on Rails](http://resistor.io/blog/2013/08/07/mimimal-api-authentication-on-rails/)
+* [Timing attack on API token?](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
+* [Timing attack](http://codahale.com/a-lesson-in-timing-attacks/)
+
+## JSON API
+
+* [URI Template](https://tools.ietf.org/html/rfc6570)
+* [Restpack serializer example](https://github.com/RestPack/restpack_serializer)
+* [HAL - Hypertext Application Language](http://stateless.co/hal_specification.html)
+* [Oat](https://github.com/ismasan/oat)
 
 ## Caching
 
-* [Fast JSON APIs](http://hawkins.io/2012/07/advanced_caching_part_6-fast_json_apis/)
+API caching is not the same as asset caching as it involve dynamic content and HTTPS sensitive data. You really need to plan what API data can or can't be cached.
 
+Private content that need to be authenticated requires even more assessment for caching. When in doubt, it is safe to not cache these API items at all.
+
+There are 2 primary cache headers, `Cache-Control` and `Expires`. They tell the browser **when** to retrieve the resource. Other headers specify **how** to retrieve like the `ETag` (Content-based) and `Last-Modified` (Time-based).
+
+* Response `Last-Modified` => Request `If-Modified-Since`
+* Response `ETag` =>  Request `If-None-Match`
+
+For all assets just cache to 1 year = 31536000 seconds
+
+```
+Cache-Control: public; max-age=31536000
+Expires: Mon, 1 Jan 2014 00:00:00 GMT
+```
+
+* [Fast JSON APIs](http://hawkins.io/2012/07/advanced_caching_part_6-fast_json_apis/)
+* [HTTP caching](https://devcenter.heroku.com/articles/http-caching-ruby-rails)
+* [HTTP cache header](https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers)
+* Cache API that are the slowest, most frequently accessed and does not change very often. To do that you need to measure first!
+* Don't forget invalidation when `PUT` or `DELETE`.
+* A cache with a low hit rate does nothing for performance and might even make it worse.
+* Incorrect caching can cause users to see out-of-date content and hard to debug issues. So plan your caching!
+* Use private caching: `Cache-Control: private` for APIs
+* Explicit no caching: `Cache-Control: no-cache, no-store`
+* [Using `Rack::Cache` with memcached in Rails 4](https://devcenter.heroku.com/articles/rack-cache-memcached-rails31)
 
 ## Hypermedia
 
 * Application state
 * State transfer
+* [Designing Hypermedia APIs](http://www.designinghypermediaapis.com/)
 * [Glenn Block on Hypermedia](https://www.youtube.com/watch?v=vp-Na5wKlig)
 * [HAL: Building hypermedia APIs in Rails](http://devblog.reverb.com/post/47197560134/hal-siren-rabl-roar-garner-building-hypermedia)
 * [DHH's getting hyper about hypermedia](http://signalvnoise.com/posts/3373-getting-hyper-about-hypermedia-apis)
 * [REST APIs must be hypertext driven](http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
 
 Links to go to other resource for navigation.
+
+Hypermedia is a strategy. Hypermedia is a way for the server to tell the client what HTTP requests the client might want to make in the future.
 
 Think of your client as not a browser. How do you design an extensible system of navigation for your application?
 
@@ -80,13 +189,14 @@ Don't hardcode workflow. Twitter API is not a hypermedia API because there is no
 "approve": "https://host/leaves/:leave_id/approve"
 
 ```
+// Conveying application semantic of 'approve'
 {
   "id": "UUID",
   "state": "draft",
   "links": [
     {
       "href": "https://www.jobline.com.sg/api/v1/leaves/UUID/approve",
-      "del": "approve",
+      "rel": "approve",
       "method": "POST"
     }
   ]
@@ -97,11 +207,36 @@ When approve is no longer valid for this resource, then you won't find it at the
 
 Client is reactive to the changes.
 
+### HATEOAS
+
+Most of today's API once deployed, can't be changed. But RESTful architectures are *designed for managing change*.
+
+![Media-type](https://dl.dropboxusercontent.com/u/6815194/Notes/hypermedia.png)
+
+### Link Relation
+
+By themselves, `rel="east"` don't mean anything. But Maze+XML standard defines meaning for "east" and developers can program those definitions into their clients.
+
+A link relation is a magical string associated with a hypermedia control. It explains the change in application state (for safe requests) or resource state (for unsafe requests) that will happen if the client triggers the control.
+
+See [IANA registry](http://www.iana.org/assignments/link-relations/link-relations.xhtml) for a list of link relations.
+
 ## Error Messages
 
 Throw exception at the same level of abstraction. Don't throw SQLException. What happen if you change your data store?
 
 Think of TDD, consumer developer try out your API through error message (failed test), so design it.
+
+```
+409 Conflict
+{
+  "status": 409,
+  "code": 40924,
+  "property": "name",
+  "message": "A directory named '' already exists.",
+  "moreInfo": "https://host/docs/api/errors/40924"
+}
+```
 
 ## Ruby Libraries
 
@@ -114,15 +249,24 @@ Think of TDD, consumer developer try out your API through error message (failed 
 
 ## Authentication
 
-* API Key
+Give your application an API key, even if it is for internal private API, so that we can track API usage.
+
+* Avoid sessions when possible. Authenticate every request if necessary. Stateless!
+* Authorize based on resource content, not URL!
+* OAuth 2, Basic over SSL only!
+* Use API keys instead of username/passwords
+* API Key - API key is not an authentication tool? Think of the Google Maps use-case. Google give application developer API key, but the end-user of the application is not known to Google. Google only know the application developer.
+* 401 (unauthenticated) vs 403 (unauthorized)
+* Challenge-response?
 * Token
 * JWT - JSON Web Token
+* Do content transformation based on authorization
 * [Cookies vs Tokens](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
 * [Authentication with Ember.js](http://coderberry.me/blog/2013/07/08/authentication-with-emberjs-part-1/)
 * [Ember auth?](http://ember-auth.herokuapp.com/docs)
-* [Secure your REST API](https://stormpath.com/blog/secure-your-rest-api-right-way/)
 * [Two-factor authentication in Rails](https://coderwall.com/p/qw7hwq)
 * [And how you can screw up 2FA](http://blog.meldium.com/home/2013/8/23/screw-up-two-factor-authentication)
+* [rails-csrf](https://github.com/abuiles/rails-csrf)
 
 ```
 curl -X PUT \
@@ -131,19 +275,54 @@ curl -X PUT \
   https://host/api/score
 ```
 
+## Security
+
+Do not trust incoming JSON input for Writable APIs! If your API accepts incoming parameters via HTTP POST, you must defend against many types of data attacks, including large inputs, payloads or attachments, header bombs, replay attacks, message tampering and more.
+
+* [Secure your REST API](https://stormpath.com/blog/secure-your-rest-api-right-way/)
+
+## Metrics (Operational)
+
+If you serve API, it makes sense to capture usage patterns and provide metrics around them.
+
+After that, feed the data to production management, sales, and performance tuning to make the product better.
+
+You must capture granular metrics and you co-relate them later through various graphs like a scatterplot. For example, co-relate page views with other metrics like job applications on the same timescale.
+
+You can ask:
+
+* What function is the most used in which platform device? Mobile or desktop? (e.g. search for job on mobile at 6pm after office hours or 1pm during lunch-break?)
+* Error rates, types of errors, system performance, latencies in request handling, timeouts, etc.
+* Latencies break down by regions?
+* Audit trails
+* Metering reports
+* Adoption rate (members)
+
+**Ultimately, you want to know: What the numbers really meant?**
+
+Track user interaction flow. For example, CA_A's action will be logged and we can grep their supposed user_id or IP to construct a user journey and display it to out customer support staffs. Use Ember Table to display hierarchical logs sort of like the Console syslog of Mac OS X :)
 
 ## API Examples
 
+Look at their Content Model. What is their Content System?
+
+API is all about data. It is essential data sharing. Think of your data first.
+
 * [Dribbble API](http://dribbble.com/api)
+* [Basecamp API](https://github.com/basecamp/bcx-api/)
 * [Xero API](http://developer.xero.com/documentation/api/)
-* [GitHub API v3](http://developer.github.com/v3/)
+* [GitHub API v3](http://developer.github.cnom/v3/)
 * [Smart Recruiters API - Good for HR](http://dev.smartrecruiters.com/)
 * [Trello API](https://trello.com/docs/)
 * [Uploadcare](https://uploadcare.com/documentation/rest/)
 * [Hull](http://hull.io/docs/references/api)
 * [PayPal hypermedia](https://developer.paypal.com/docs/api)
+* [AccuWeather API](http://api.accuweather.com/)
+* [The New York Times API](http://developer.nytimes.com/docs)
 
 ## Videos
 
 * [Designing a beautiful REST+JSON API](http://www.youtube.com/watch?v=5WXYw4J4QOU)
 * [How to design great APIs - Parse Developer Day 2013](http://www.youtube.com/watch?v=qCdpTji8nxo)
+* [Beautiful REST and JSON APIs](https://www.youtube.com/watch?v=ItXLn7diNAk)
+

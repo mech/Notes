@@ -1,5 +1,7 @@
 # TDD
 
+The reason to test is a new behaviour or new use-case, not because of a new method on a class.
+
 * Override `Net::HTTP#start` to make sure it's never called by any test, because testing through network is slow and wrong.
 * [Rails testing anti-patterns: Models](https://semaphoreapp.com/blog/2014/01/21/rails-testing-antipatterns-models.html)
 * [Rails testing anti-patterns: Controllers](https://semaphoreapp.com/blog/2014/02/11/rails-testing-antipatterns-controllers.html)
@@ -7,9 +9,13 @@
 
 ## Is TDD Dead?
 
+* [Martin Fowler's Is TDD Dead links](http://martinfowler.com/articles/is-tdd-dead/)
 * [Test isolation is about avoiding mocks](https://www.destroyallsoftware.com/blog/2014/test-isolation-is-about-avoiding-mocks)
 * [Hexagonal Rails and the ludicrous terminal application](http://pivotallabs.com/hexagonal-rails-and-the-ludicrous-terminal-application/)
 
+## Case Studies
+
+* When a staff has resigned and took leaves, the "who-is-on-leave" email still include that staff. No test or edge case study was done on that. If we've written the test, we would have slow down and think of edge cases.
 
 ## Minitest
 

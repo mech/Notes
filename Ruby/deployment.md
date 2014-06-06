@@ -15,6 +15,20 @@ git push heroku master
 rake smoke:production
 ```
 
+## Web Server
+
+```
+wget -S -O - www.jobline.com.sg
+```
+
+```
+Server: jobline_web
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+```
+
+* [SPDY on Rails](https://bugsnag.com/blog/spdy-on-rails/)
+
 ## Capistrano
 
 * [Capistrano Version 3](https://medium.com/p/ba896a142ac)

@@ -97,3 +97,27 @@ background-position: top left, top right,
 background-size: 50% 50%;
 background-repeat: no-repeat;
 ```
+
+## Input
+
+```
+// See search input from https://slack.zendesk.com/hc/en-us/articles/201723133-Billing-FAQ
+input {
+  border: 1px solid #CCC;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  transition: border linear .2s,box-shadow linear .2s;
+  border-radius: 2rem;
+  padding: 10px;
+}
+```
+
+## Drag and Drop
+
+```
+[draggable] {
+  user-select: none;
+  // Required to make elements draggable in old WebKit
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+```

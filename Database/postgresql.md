@@ -5,6 +5,7 @@
 * [Sentiment analysis on GitHub commit messages](http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/)
 * [A love affair with PostgreSQL and Rails 4](http://blog.remarkablelabs.com/2012/12/a-love-affair-with-postgresql-rails-4-countdown-to-2013)
 * [UPSERT (SQL MERGE) using Ruby](https://github.com/seamusabshere/upsert)
+* [HperLogLog in Postgres](http://tapoueh.org/blog/2013/02/25-postgresql-hyperloglog.html)
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!

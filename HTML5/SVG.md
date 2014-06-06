@@ -46,6 +46,7 @@ Make the `stroke-dasharray` as long as the path to make it visually invisible. T
 * [Animated SVGs: Custom easing and timing](http://oak.is/thinking/animated-svgs/)
 * [Not SVG, but related](http://coding.smashingmagazine.com/2013/03/04/animating-web-gonna-need-bigger-api/)
 * [d3 and SVG](http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html)
+* [Animation path](http://blog.legomushroom.com/2014/03/defining-advanced-animation-path/)
 
 ## d3.js
 

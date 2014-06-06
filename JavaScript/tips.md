@@ -9,3 +9,23 @@ var nodes = document.querySelectorAll('a');
 });
 ```
 
+## Netflix autocomplete search
+
+http://www.youtube.com/watch?v=XRYN2xt11Ek
+
+* [Learn RX](http://jhusain.github.io/learnrx/)
+* [RxJava](https://github.com/Netflix/RxJava/wiki/Observable)
+* [RxJS](https://github.com/Reactive-Extensions/RxJS)
+
+```
+var searchResultSets = keyPresses
+  .throttle(250)
+  .map(function(key) {
+    getJSON("/searchResults?q=" + input.value).retry(3)
+      .takeUtil(keyPresses)
+  }).concatAll();
+  
+searchResultSets.forEach(function(resultSet) {
+  updateSearchResults(resultSet);
+});
+```

@@ -40,6 +40,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 * [WWDC - Delivering web content on high resolution displays](https://developer.apple.com/videos/wwdc/2012/?id=602)
 * [json2css-sprite-mixins](https://github.com/bensmithett/json2css-sprite-mixins)
 * [How I design for retina](https://medium.com/p/e905c9106a56)
+* [Responsive retina blog design](http://paulstamatiou.com/responsive-retina-blog-design/)
 
 ```
 .logo {

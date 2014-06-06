@@ -1,11 +1,14 @@
-# Promises
+# Async and Promises
 
 A promise is a proxy for a value from another time or place. The promise interface allows us to interact with that value consistently, regardless of whether the value comes from the past or the future, whether that value is near by or far away, or even if the value is demonstrably unavailable.
 
 User uncertainty. Promises is not for async only. It is good to model user flow also. API for all your async.
 
+Promises is write-once. Once it is resolved, it cannot be resolved again. But for event stream, you can.
+
 The point of promises:
 
+* Eventual value
 * Implicit exception propagation
 * Control flow correspondence
 * Decoupling space and time
@@ -25,6 +28,9 @@ The point of promises:
 * Reactive bindings
 
 * [Promises, promises](http://wibblycode.wordpress.com/2012/11/21/promises-promises/)
+* [Task.js](http://taskjs.org/)
+
+![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 
 ```
 // Composition with promises - Parallelism
@@ -103,3 +109,58 @@ return getUsername()
   });
 });
 ```
+
+ES6
+
+```
+import {denodeify} from 'rsvp'
+module fs from 'fs'
+
+var writeFile = denodeify(fs.writeFile)
+
+writeFile('file.txt', 'content!')
+  .then(() => {
+    console.log('done!');
+  });
+```
+
+## Functional Reactive Programming
+
+Imperative - OOP
+
+Spreadsheet is FRP already. You declare the formula, and you change the data to see the result.
+
+* [Netflix JavaScript - Async JavaScript with Reactive Extensions](http://www.youtube.com/watch?v=XRYN2xt11Ek)
+* [RxJS](https://github.com/Reactive-Extensions/RxJS)
+* [Bacon.js](https://github.com/baconjs/bacon.js)
+* [JavaScript Jabber recording of FRP](http://javascriptjabber.com/061-jsj-functional-reactive-programming-with-juha-paananen-and-joe-fiorini/)
+* [mercury.js - An interesting framework](https://github.com/Raynos/mercury)
+
+RX:
+
+* Map - Transforms data. Replace loop.
+* Filter - Narrows collections. Boolean comparison. Replace `if`.
+* Reduce - Turns a collection into a single value.
+* Zip - Combines two collections.
+* merge - combines items in a collection as each item arrives
+* concat - combines collections in the order they arrived
+* switchLatest - switches to the latest collection
+
+### Autocomplete in Netflix
+
+[Adding even more fun to functional programming with RXJS](http://www.youtube.com/watch?v=8EExNfm0gt4)
+
+```
+var keyups = Observable.fromEvent(searchInput, 'keypress');
+
+var searchResultsSets = keyups
+  .filter(function(e) {
+    return input.value.length > 1;
+  })
+  .map(function(e) {
+    return Observable.getJSON('/search?' + input.values);
+  }).
+  switchLatest();
+```
+
+

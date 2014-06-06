@@ -8,6 +8,7 @@
 
 * [Flux - iOS transition designer](http://www.nthstate.com/Flux)
 * [Animation explained](http://www.objc.io/issue-12/animations-explained.html)
+* [popping](https://github.com/schneiderandre/popping)
 
 ## Quartz Composer and Origami
 
