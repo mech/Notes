@@ -37,6 +37,12 @@
 17. [Designing is editing](http://blog.simplease.at/2014/05/designing-is-editing/)
 18. **Good design is about taking things apart.** Module, components, etc.
 19. Simplicity is actual work.
+20. Understanding, not simplicity
+21. Complex, but understandable
+22. Complicated == Confusing
+23. Complex == Life!
+24. If it is too simple, it is dull, boring. If it is too complex, it is confusing. We like intermediate which is a moving target! Expert mode, see game designer.
+25. Design is Social Science, Art, Technology and Engineering.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

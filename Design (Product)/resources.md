@@ -27,10 +27,29 @@
 * [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)
 * [UXCEO](http://uxceo.com/)
 * [Balance in all](http://www.hxa.name/notes/note-hxa7241-20091025T2123.html)
+* [Ways to fuck up your startup](http://www.leantohappy.com/post/88300830980/10-ways-youll-probably-f-k-up-your-startup)
+
+## Storyboard
+
+* [Drawing a story](http://setpixel.com/tools/drawing-a-story/)
+
+## Lean and MVP
+
+Laser printer - Xerox trying to do too much and missed the boat. IBM beat them?
+
+Intermingle with business and marketplace.
+
+90% of startups failed.
+
+## Behavioural
+
+* [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
+
 
 ## Card-based Design
 
 * [**Creating SYSTEMS not destinations**](http://insideintercom.io/design-futures-1-creating-systems-not-products/)
+* [Part 2 of creating system not destinations](http://insideintercom.io/design-futures-2-personalization-and-the-new-product-canvas/)
 * [Why cards are the future of the web](http://insideintercom.io/why-cards-are-the-future-of-the-web/)
 * [Tom Dale's Cards are the future of the web](http://www.youtube.com/watch?v=pwYwLBWvy7Q)
 * [Mobile UI with cards](https://medium.com/ux-ui-design/redefining-mobile-user-interfaces-with-cards-3ba4ed42c965)

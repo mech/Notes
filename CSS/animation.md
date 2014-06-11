@@ -12,6 +12,8 @@
 * [CSS animation screencast](https://vimeo.com/channels/alltherightmoves/)
 * [Pretty nice animation library](http://anijs.github.io/)
 * [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
+* [bounce.js](http://bouncejs.com/)
+* [`will-change`](http://dev.opera.com/articles/css-will-change-property/)
 
 ## Velocity.js
 
@@ -34,6 +36,7 @@
 * [WOW.js - Reveal CSS animation as you scroll down a page](https://github.com/matthieua/WOW)
 * [Slide in as you scroll like Google+ app](http://css-tricks.com/slide-in-as-you-scroll-down-boxes/)
 * [Case study](http://www.justinaguilar.com/)
+* [Steady.js](http://lafikl.github.io/steady.js/)
 
 ## Examples
 

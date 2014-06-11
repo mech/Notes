@@ -4,6 +4,7 @@
 * [BBC Responsive News](http://responsivenews.co.uk/)
 * [Tool: Responsive viewport](http://cobyism.com/shapeshifter/)
 * [Make your site work on touch devices](http://www.creativebloq.com/javascript/make-your-site-work-touch-devices-51411644)
+* [Responsive design signals larger change](http://www.vanseodesign.com/web-design/responsive-design-signals-larger-change/)
 
 ## Process and Workflow
 
@@ -16,7 +17,9 @@
 
 > An early trap for us that I see many other falling into is the idea of "screen size" targeting. Setting breakpoints before you build can lead to some real pain when trying to squeeze in content later.
 
+## Touch Events
 
+* [Custom gesture](https://developers.google.com/web/fundamentals/input/touch-input/touchevents/)
 
 ## Responsive Typography
 

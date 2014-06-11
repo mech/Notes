@@ -9,6 +9,7 @@ Use R as your calculator and spreadsheet. Anything you can do it in spreadsheet,
 * [R-Bloggers](http://www.r-bloggers.com/)
 * [Quick-R](http://www.statmethods.net/)
 * [Public heath with R](https://www.youtube.com/watch?v=m3vJJHyL2Os)
+* [NYT](https://github.com/TheUpshot/leo-senate-model)
 
 ```
 // If you encounter LC_CTYPE error
@@ -48,7 +49,7 @@ Array-like. Container to store same type. Only `list` can contain objects of dif
 
 ```
 x <- c(1, 2, 3, 4) # c() is concatenate
-x <- 1:10
+x <- 1:10 ## Sequence
 x <- 5:-7
 length(x)
 c(One="a", Two="y", Last="r")
@@ -56,6 +57,14 @@ names(x) <- c("a", "b", "c", "d")
 x[c(2,4)] <- NA
 x <- vector("numeric", length=10)
 x <- c(1.7, "a") ## coerce to character
+```
+
+```
+// Removing NA value
+
+x <- c(1, 2, NA, 4, NA, 5)
+bad <- is.na(x) ## logical vector
+x[!bad]
 ```
 
 ## Lists
@@ -77,14 +86,38 @@ unclass(x)
 attr(,"levels")
 ```
 
+## Loop
+
+```
+for (i in seq_along(x)) {}
+
+for (letter in x) {}
+
+for (i in seq_len(nrow(x))) {}
+```
+
 ## Reading
 
 ```
 income <- read.csv("income.csv")
 con <- url("http://www.", "r")
 x <- readLines(con)
+
+data <- read.table("foo.txt")"
 ```
 
+## Subsetting (Matrix/List)
+
+Extract subsets of R objects.
+
+```
+x <- c("a", "b", "c", "c", "d", "a")
+x[1]       ## Numeric index
+x[1:4]
+x[x > "a"] ## Logical index
+u <- x > "a"
+x[u]
+```
 
 ## Data Frame
 
@@ -119,7 +152,6 @@ df["Sport"]   // return a data frame that just show a column
 df[["Sport"]] // return a vector instead!
 df[c("First, Sport")] // return a data frame with 2 columns
 ```
-
 
 ## Ragged Array
 

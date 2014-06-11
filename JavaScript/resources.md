@@ -6,6 +6,7 @@ JavaScript dynamic duo (static type is overrated):
 * Object extension
 * [globtester](http://www.globtester.com/)
 * [FPS engine](http://www.playfuljs.com/a-first-person-engine-in-265-lines/)
+* [JSNice - deobfuscation](http://jsnice.org/)
 
 ## People
 

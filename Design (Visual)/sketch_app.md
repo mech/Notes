@@ -8,6 +8,7 @@
 * [Design Tutsplus](http://design.tutsplus.com/)
 * [Import web page into Sketch](https://medium.com/p/6681ae0b118a)
 * [Gibbon on Illustrator](https://gibbon.co/maximebodereau/illustrator)
+* [Tutorial 01](https://medium.com/@KounterB/sketch-tutorial_01-b76271a095e3)
 
 ## Bezier
 

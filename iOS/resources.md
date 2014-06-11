@@ -14,6 +14,7 @@
 
 * [Simple button animation](http://www.punchkickinteractive.com/blog/2014/04/01/quartz-composer-and-origami-tutorial-button-animation)
 * [Quartz Composer Diary](http://qc.prabros.com/primer1.html)
+* [UI prototyping with QC and Origami](http://www.pasanpremaratne.com/2014/03/15/UI-Prototyping-with-Quartz-Composer-and-Origami/)
 
 ## Tools
 
@@ -22,3 +23,7 @@
 ## Case Studies
 
 * [Monument Valley development blog](http://monumentvalleygame.squarespace.com/blog)
+
+## Videos
+
+* [NSScreencast](http://nsscreencast.com/)

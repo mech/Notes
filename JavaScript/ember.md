@@ -581,6 +581,7 @@ App.CellView = Ember.View.extend({
 * No more metamorphs
 * No more DOM pollution
 * Use DOM fragment and deep clone
+* String manipulations increase the pressure on the GC
 
 ```
 {{#link-to 'articles' (query-params sort='ASC')}}
@@ -643,6 +644,48 @@ Pre-render data server-side rather than calling 50+ Ajax on boot-time. Use serve
 * [How Zendesk use ember-resource for authentication token? At the initializer?](https://github.com/zendesk/ember-resource)
 * [Ember add-on to track of Rails CSRF](https://github.com/abuiles/rails-csrf)
 * [AI auth using Angular](http://engineering.talis.com/articles/elegant-api-auth-angular-js/)
+* [OAuth with Ember and Rails](http://www.youtube.com/watch?v=q_gy8EgN8FE)
+* [SOA in Rails](http://www.youtube.com/watch?v=L1B_HpCW8bs)
+* [OAuth for Rails](http://www.octolabs.com/blogs/octoblog/2014/04/22/service-oriented-authentication-railsconf/)
+* [OAuth provider](https://github.com/doorkeeper-gem/doorkeeper)
+
+`Access-Control-Allow-Origin` with CORS (Cross Origin Resource Sharing). Use `rack-cors` gem.
+
+By default, jQuery does not send cookies with Ajax requests, so session-based authentication may not be working! `withCredentials` to the rescue!
+
+```
+$.ajaxPrefilter(function(options, originalOptions, jqXHR) {
+  options.xhrFields = { withCredentials: true };
+});
+```
+
+```
+// OAuth?
+App = Ember.Application.create({
+  ready: function() {
+    var store = App.__container__.lookup('store:main');
+    var id = 'me?_=' + (new Date()).getTime();
+    store.find('user', id).then(function(user) {
+      App.currentUser = user;
+    });
+  }
+});
+
+// Custom 401 error handler
+App.ApplicationAdapter = DS.RESTAdapter.extend({
+  ajaxError: function(jqXHR) {
+    var error = this._super(jqXHR);
+    if (jqXHR && jqXHR.status === 401) {
+      var newLocation = 'https://host.com/auth?return="xxx"';
+      newLocation += encodeURIComponent(document.location.toString());
+      document.location = newLocation;
+    } else {
+      return error;
+    }
+  }
+});
+```
+
 
 ```
 // Vine's CurrentUserController

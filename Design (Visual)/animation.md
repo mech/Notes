@@ -13,6 +13,7 @@
 ## Quartz Composer
 
 * [Avocado - Patch for QC from IDEO Labs](http://labs.ideo.com/2014/05/27/avocado/)
+* [Crash course for QC and Origami](http://scotthurff.com/qc/email/tk421/index.html)
 
 
 ## Framer

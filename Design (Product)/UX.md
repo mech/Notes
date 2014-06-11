@@ -63,4 +63,9 @@
 ---
 > But slowly, like ocean tides whittling away a rocky cliff, these additions add up until one day, your users see your site as cluttered. Then, some other app will come along that seems fresh and simple and tackles the same problem as your app. And at that point, it is already too late. - [Julie Zhuo](https://medium.com/the-year-of-the-looking-glass/6c975dede146)
 
+---
+> But it's magic when the software generates a disproportionately meaningful output from that minimised input. - Khoi Vinh
+
+
+
 

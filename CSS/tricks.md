@@ -5,6 +5,7 @@
 * [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
 * [Useful?](http://snippetrepo.com/)
 * [Reading position indicator](http://css-tricks.com/reading-position-indicator/)
+* [Some components to learn from](http://goratchet.com/components/)
 
 ```
 /* do nothing when clicked even through JavaScript */

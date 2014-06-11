@@ -7,6 +7,9 @@
 * [destroytoday - Deconstruct sites](http://destroytoday.com/)
 * [Interactive Design Gallery](http://interactive-design.co.il/)
 
+Interaction design begin with computer. The need for feedback loop and mental model.
+
+
 ## UI Design Tips
 
 * [Google UX design with heart](https://medium.com/ux-user-interface/c2b56d467913)
@@ -20,6 +23,7 @@
 * [5 principles for great interface copywriting](http://www.gv.com/lib/5-principles-for-great-interface-copywriting)
 * [Common UX mistakes](http://common-ux-mistakes.tumblr.com/)
 * [Why and how to avoid hamburger menus](http://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/)
+* Living with Complexity - Signifier
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 >

@@ -8,6 +8,8 @@
 * [You're a designer. And you work well with the CEO.](https://medium.com/p/6f917ba859af)
 * [Design thinking](http://www.huffingtonpost.com/soren-petersen/design-thinking---what-is_b_5420887.html)
 * [K12 Lab from d.school](https://dschool.stanford.edu/groups/k12/wiki/332ff/Curriculum_Home_Page.html)
+* [9-weeks to launch Vox](http://product.voxmedia.com/2014/6/6/5673934/nine-weeks-to-launch-vox)
+* [Design process Part 1?](http://blog.capwatkins.com/my-design-process-part-1)
 
 > Jony's team apparently documents everything they do through sketching. In that sense, I think writing is particularly useful to design. I don't like to write about generic guidelines, but I do love to write about ideas, design processes and inspirations. It deepens the craft. - Meng To
 >

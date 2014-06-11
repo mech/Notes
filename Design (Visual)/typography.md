@@ -14,6 +14,7 @@
 * [Problem with baseline grids on the web](http://jasonsantamaria.com/articles/baseline-grids-on-the-web)
 * [Short introduction to geometric sans](http://next.fontshop.com/content/short-intro-to-geometric-sans)
 * [Tips on kerning](http://learn.scannerlicker.net/2014/05/02/tips-on-kerning/)
+* [Kerning on the web](http://blog.typekit.com/2014/02/05/kerning-on-the-web/)
 * [Futura alternatives](http://next.fontshop.com/people/stephen-coles/fontlists/futura-alternatives)
 
 ```

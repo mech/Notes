@@ -61,10 +61,13 @@ window.addEventListener('scroll', onScroll, false);
 * [Rock Hammer](http://malarkey.github.io/Rock-Hammer)
 * [CSS Components](http://www.felipefialho.com/css-components)
 * [Suit CSS](http://suitcss.github.io/)
+* [Find Guidelines on the Web](http://findguidelin.es/)
+* [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
 
 ## HTML Boilerplate
 
 * [HTML5 Bones](http://html5bones.com/)
+* [Initializr](http://www.initializr.com/)
 
 ## Normalize.css
 

@@ -1,5 +1,7 @@
 # API
 
+API driven. Treat data as content package and not as rows in a spreadsheet. Make it testable. Make it trackable.
+
 * [API Evangelist](http://apievangelist.com/)
 * [How to design a good API and why it matters](http://www.youtube.com/watch?gl=SG&hl=en-GB&v=aAb7hSCtvGw)
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
@@ -131,6 +133,10 @@ GET /accounts/x7y8z9?fields=givenName,directory(name)
 * [Minimal API authentication on Rails](http://resistor.io/blog/2013/08/07/mimimal-api-authentication-on-rails/)
 * [Timing attack on API token?](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
 * [Timing attack](http://codahale.com/a-lesson-in-timing-attacks/)
+* [rack-attack for blocking and throttling API](https://github.com/kickstarter/rack-attack#how-it-works)
+* [SOA in Rails](http://www.youtube.com/watch?v=L1B_HpCW8bs)
+* [OAuth for Rails](http://www.octolabs.com/blogs/octoblog/2014/04/22/service-oriented-authentication-railsconf/)
+* [OAuth provider](https://github.com/doorkeeper-gem/doorkeeper)
 
 ## JSON API
 
@@ -319,6 +325,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [PayPal hypermedia](https://developer.paypal.com/docs/api)
 * [AccuWeather API](http://api.accuweather.com/)
 * [The New York Times API](http://developer.nytimes.com/docs)
+* [Kanbanize](https://kanbanize.com/ctrl_integration)
 
 ## Videos
 

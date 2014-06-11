@@ -5,7 +5,8 @@
 * [Content-out layout](http://alistapart.com/article/content-out-layout)
 * [Let's define the damn thing and move on](http://eatingelephant.com/2011/06/thoughts-on-defining-the-damn-thing/)
 * [Why is business writing so awful](http://www.inc.com/magazine/20100501/why-is-business-writing-so-awful.html)
-
+* [Content is design!](http://www.uie.com/articles/content_and_design/)
+* [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
 
 Purpose of layouts:
 

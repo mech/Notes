@@ -4,6 +4,7 @@
 * [Logo - Brand of the World](http://www.brandsoftheworld.com/)
 * [HR in Asia](http://www.hrinasia.com/)
 * [Hiring plan](http://hunterwalk.com/2014/05/07/when-the-vc-asks-about-your-hiring-plan/)
+* [use recruiting data for good](https://grouptalent.com/blog/use-recruiting-data-for-good/)
 
 ## Problem
 

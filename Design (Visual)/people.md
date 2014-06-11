@@ -5,3 +5,4 @@
 * [Courtney Eliseo](http://www.designworklife.com/)
 * [Roger Dario](http://rogerdario.com/)
 * [Cemre - Branch.com founder](http://cem.re/cemre-gungor/index.html)
+* [Paul Stamatiou](http://paulstamatiou.com/)

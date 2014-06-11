@@ -17,6 +17,7 @@
 
 * [Iconjar](http://geticonjar.com/)
 * [ICONIC](https://useiconic.com)
+* [Rejected logo](http://rejectedlogocompetition.com/)
 
 ## Golden Ratio
 

@@ -8,3 +8,4 @@
 
 * [Check your SSL](https://sslcheck.globalsign.com/en_US)
 * [Heartbleed bug](http://heartbleed.com/)
+* [A basic guide to when and how to deploy HTTPS](http://erik.io/blog/2013/06/08/a-basic-guide-to-when-and-how-to-deploy-https/)

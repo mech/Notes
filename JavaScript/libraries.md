@@ -12,6 +12,7 @@
 * [vanilla-js](http://vanilla-js.com/)
 * [JSCapture - using `getUserMedia` to capture and record screen](https://mgechev.github.io/jscapture/)
 * [Headroom.js](http://wicky.nillia.ms/headroom.js/)
+* [Simple full-text search in your browser](http://lunrjs.com/)
 
 ## Auto-complete
 
