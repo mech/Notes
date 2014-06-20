@@ -10,6 +10,7 @@
 * [Replacing personas with characters](https://medium.com/p/aa72d3cf6c69)
 * [Gibbon on UX design](https://gibbon.co/maximebodereau/ux-design)
 * [UX gap](http://www.100shapes.com/blog/ux-gap-where-user-experience-begins-ends/)
+* [UX Beginner](http://www.uxbeginner.com/)
 
 ## Behaviorism
 
@@ -66,6 +67,8 @@
 ---
 > But it's magic when the software generates a disproportionately meaningful output from that minimised input. - Khoi Vinh
 
+---
+> If customers say they want faster horses, what you should hear is that getting around is too slow. It's the team's job to take all that raw input and build products to delight customers.
 
 
 

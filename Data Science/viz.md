@@ -14,6 +14,8 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [512 paths to the White House](http://chartsnthings.tumblr.com/post/35616801795/some-sketches-from-the-times-scenario-builder)
 * [Path to White House, how was it done?](http://markmarkoh.com/jsconf2014/assets/player/KeynoteDHTMLPlayer.html)
 * [rCharts](http://timelyportfolio.github.io/rCharts_512paths/)
+* [Amazing train graph](http://mbtaviz.github.io/)
+* [FF Chart](https://www.fontfont.com/how-to-use-ff-chartwell)
 
 ## d3.js
 
@@ -24,6 +26,8 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Simpson's Paradox](http://vudlab.com/simpsons/)
 * [AngularJS and Directives](https://www.youtube.com/watch?v=aqHBLS_6gF8)
 * [r2d3](https://github.com/hadley/r2d3)
+* [Design is a Search Problem - NYT](https://www.youtube.com/watch?v=fThhbt23SGM)
+* [Mike Bostock - Creator of d3.js](http://bost.ocks.org/mike/)
 
 ## Graphite
 

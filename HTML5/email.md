@@ -10,6 +10,9 @@
 * [A guide to animated GIFs in email](https://litmus.com/blog/a-guide-to-animated-gifs-in-email)
 * [Gallery - Really Good Emails](http://reallygoodemails.com/)
 * [Favourite hack](https://litmus.com/community/discussions/84-what-s-your-favorite-hack)
+* [Subscribe UX](http://blog.usabilla.com/6-ways-improve-ux-email-unsubscribe-page/)
+* [Ultimate guide to email design?](http://www.webdesignerdepot.com/2014/06/the-ultimate-guide-to-email-design/)
+* [HTML email with Grunt.js](http://www.leemunroe.com/html-email-design-workflow/)
 
 ## Tools
 

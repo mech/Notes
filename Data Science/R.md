@@ -21,6 +21,12 @@ install.packages("lattice")
 install.packages(c("lattice", "ggplot2"))
 ```
 
+## Environment
+
+`search()` the global environment.
+
+Exploring a function closure: `ls(environment(<function_name>))`
+
 ## Objects
 
 R objects can have attributes, like `names`, `dimnames`, `length`. Attributes of an object can be accessed using the `attributes()` function.
@@ -165,6 +171,33 @@ plot(weight[Diet==2]~Time[Diet==2],
   xlab="Time",
   ylab="Weight")
 ```
+
+## Function
+
+Put your functions into a separate file or package.
+
+```
+f <- function(x, y, type = "1", ...) {
+  formals
+}
+
+// named argument
+sd(x = mydata, na.rm = FALSE)
+
+above10 <- function(x) {
+  use <- x > 10
+  x[use]
+}
+
+above <- function(x, n = 10) {
+  use <- x > n
+  x[use]
+}
+```
+
+### Generic Functions
+
+
 
 ## ggplot2
 

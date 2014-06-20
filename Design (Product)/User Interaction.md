@@ -6,9 +6,19 @@
 * [Chromeless: The content is the interface. #NoUI](http://designmind.frogdesign.com/blog/chromeless-the-content-is-the-interface.html)
 * [destroytoday - Deconstruct sites](http://destroytoday.com/)
 * [Interactive Design Gallery](http://interactive-design.co.il/)
+* [Effective web navigation](http://www.uxbooth.com/articles/effective-presentation-of-a-websites-navigation/)
+* [Keyboard shortcuts for pagination](http://osvaldas.info/keyboard-shortcuts-for-pagination)
+* [What screens want](http://frankchimero.com/talks/what-screens-want/transcript/)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 
+There is no intuitive interface, just "easy-to-learn" interface.
+
+## Micro-interactions
+
+* [Shots of things that work](http://thegodfounder.com/)
+* [Little Big Details](http://littlebigdetails.com/)
+* [First time UX - On-boarding](http://firsttimeux.tumblr.com/)
 
 ## UI Design Tips
 
@@ -24,6 +34,7 @@ Interaction design begin with computer. The need for feedback loop and mental mo
 * [Common UX mistakes](http://common-ux-mistakes.tumblr.com/)
 * [Why and how to avoid hamburger menus](http://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/)
 * Living with Complexity - Signifier
+* [Learning from each other](http://uxmag.com/articles/learning-from-each-other)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 >

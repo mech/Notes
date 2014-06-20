@@ -10,6 +10,7 @@
 * [K12 Lab from d.school](https://dschool.stanford.edu/groups/k12/wiki/332ff/Curriculum_Home_Page.html)
 * [9-weeks to launch Vox](http://product.voxmedia.com/2014/6/6/5673934/nine-weeks-to-launch-vox)
 * [Design process Part 1?](http://blog.capwatkins.com/my-design-process-part-1)
+* [I don't know how to design](https://medium.com/@jxnblk/i-dont-know-how-to-design-ff8d85e2e862)
 
 > Jony's team apparently documents everything they do through sketching. In that sense, I think writing is particularly useful to design. I don't like to write about generic guidelines, but I do love to write about ideas, design processes and inspirations. It deepens the craft. - Meng To
 >
@@ -29,3 +30,8 @@
 
 * [Why good storytelling helps you design great products](http://www.gv.com/lib/why-good-storytelling-helps-you-design-great-products)
 * [Google Ventures - How to set up your war room](http://www.fastcodesign.com/3028471/google-ventures-your-design-team-needs-a-war-room-heres-how-to-set-one-up)
+* [Product Design Sprints - QCon 2014](http://alexbaldwin.com/qcon-2014/)
+* [Startup Lab Workshop: User Research](http://www.youtube.com/watch?v=WpzmOH0hrEM)
+
+---
+> Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

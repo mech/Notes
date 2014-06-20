@@ -4,6 +4,10 @@ Swift makes your code SAFE, MODERN, and POWER.
 
 * [All the Swift things](http://thechangelog.com/all-the-swift-things/)
 * [Learn Swift](http://www.learnswift.tips/)
+* [Twitter bird zoom animation in Swift](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation)
+* [Inside Swift](http://www.eswick.com/2014/06/inside-swift/)
+* [Developing iOS apps using Swift - Part 1](http://ios-blog.co.uk/tutorials/developing-ios-apps-using-swift-part-1/)
+* [Cheat Sheet](http://grant.github.io/swift-cheat-sheet/)
 
 ## Variables
 

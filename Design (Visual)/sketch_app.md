@@ -9,6 +9,11 @@
 * [Import web page into Sketch](https://medium.com/p/6681ae0b118a)
 * [Gibbon on Illustrator](https://gibbon.co/maximebodereau/illustrator)
 * [Tutorial 01](https://medium.com/@KounterB/sketch-tutorial_01-b76271a095e3)
+* [Vector workflow with Illustrator](https://medium.com/@janoskoos/my-vector-workflow-dd1357d28d7c)
+* [Android Kit](https://github.com/wikichen/sketch-android-kit)
+* [Vectips](http://vectips.com/)
+* [Spoon Graphics - Tips](http://blog.spoongraphics.co.uk/)
+* [design.tutsplus](http://design.tutsplus.com/)
 
 ## Bezier
 
@@ -35,6 +40,7 @@
 * [Awesome Sketch plugins](http://awesome-sket.ch/)
 * [Content generator](https://github.com/timuric/Content-generator-sketch-plugin)
 * [Symbols for Sketch](https://github.com/cognitom/symbols-for-sketch)
+* [Sketch Framer 3](https://github.com/bomberstudios/sketch-framer-3)
 
 ## Gallery
 

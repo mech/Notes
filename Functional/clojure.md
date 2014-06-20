@@ -1,5 +1,7 @@
 # Clojure
 
+* [flatmap](http://2014.flatmap.no/)
+
 Clojure is:
 
 * Functional, but not as pure like Haskell

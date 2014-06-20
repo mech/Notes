@@ -13,6 +13,9 @@
 * [JSCapture - using `getUserMedia` to capture and record screen](https://mgechev.github.io/jscapture/)
 * [Headroom.js](http://wicky.nillia.ms/headroom.js/)
 * [Simple full-text search in your browser](http://lunrjs.com/)
+* [Full-size drag and drop calendar](https://github.com/arshaw/fullcalendar)
+* [JavaScript library for Google Analytics](http://boba.space150.com/)
+* [Hides top bar when scrolling down](https://github.com/eduardomb/scroll-up-bar)
 
 ## Auto-complete
 

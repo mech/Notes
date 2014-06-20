@@ -20,6 +20,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [Trianglify - SVG background](https://github.com/qrohlf/trianglify)
 * [SVG workflow for designers](http://danielmall.com/articles/svg-workflow-for-designers/)
 * [SVG4everybody](https://github.com/jonathantneal/svg4everybody)
+* [export-svg](https://github.com/mtreik/export-svg)
 
 ```
 <text>

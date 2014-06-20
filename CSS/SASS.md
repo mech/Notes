@@ -11,3 +11,5 @@
 * [Sass and partials](http://zurb.com/university/library/35)
 * [Color variables that don't suck](http://davidwalsh.name/sass-color-variables-dont-suck)
 * [Organizing z-index](http://jonsuh.com/blog/organizing-z-index-with-sass/)
+* [Inverse trigonometric function with Sass](http://thesassway.com/advanced/inverse-trigonometric-functions-with-sass)
+* [List-maps](https://www.codefellows.org/blog/so-you-want-to-play-with-list-maps)

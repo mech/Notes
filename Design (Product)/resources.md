@@ -28,10 +28,30 @@
 * [UXCEO](http://uxceo.com/)
 * [Balance in all](http://www.hxa.name/notes/note-hxa7241-20091025T2123.html)
 * [Ways to fuck up your startup](http://www.leantohappy.com/post/88300830980/10-ways-youll-probably-f-k-up-your-startup)
+* [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)
+* [Building a community to build a product](https://medium.com/@vocino/building-a-community-to-build-a-product-481b6fbc984e)
+* [Required reading for product designer](http://www.robertlenne.com/requiredreading/)
+* [What shapes are you?](http://madeofmetaphors.com/shapes/)
+* [What product designers can learn from iOS 8's iMessage changes](http://scotthurff.com/posts/what-we-can-learn-from-apples-imessage-changes-in-ios-8)
+* [Aligning intention](https://medium.com/@chep2m/intention-or-in-tension-d39571a2e1f1)
+* [Harry's shaving brand](http://firstround.com/article/This-Startup-Cracked-a-24-Billion-Market-with-Branding-Heres-Their-Formula)
+* [How to do a product critique](https://medium.com/the-year-of-the-looking-glass/how-to-do-a-product-critique-98b657050638)
+
+User research == Customer development
+
+## Wireframe and Prototyping
+
+* [Wireframe showcase](http://www.wireframeshowcase.com/)
+* [Prototyping your workflow](http://alistapart.com/article/prototyping-your-workflow)
 
 ## Storyboard
 
+Stories are broken into Epics. Epics has their main flow. Design the task flow with boxes and arrow? Then visualize the flow with prototypes/wireframes. Low-fidelity wireframes, then high-fidelity interactive prototype.
+
 * [Drawing a story](http://setpixel.com/tools/drawing-a-story/)
+* [Writing a screenplay in Fountain](http://setpixel.com/writing/writing-a-screenplay-in-fountain/)
+* [Telling stories](http://www.webdesignerdepot.com/2014/06/telling-stories-on-the-web-the-hottest-way-to-engage-your-users/)
+* [Design stories](https://medium.com/@garyitsyu/my-design-process-square-cash-recurring-payments-5cba47bb6f3c)
 
 ## Lean and MVP
 
@@ -44,6 +64,7 @@ Intermingle with business and marketplace.
 ## Behavioural
 
 * [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
+* [Asking users to adopt new behaviors or even modify their existing behaviors is very hard](http://www.subtraction.com/2014/06/12/designing-products-for-existing-behaviors/)
 
 
 ## Card-based Design
@@ -77,17 +98,19 @@ Intermingle with business and marketplace.
 * Value Proposition
 * Benefits vs Features
 * Positive Encouragement
-
+* [First time UX](http://firsttimeux.tumblr.com/)
+* [Stop asking me to sign up](http://www.gkogan.co/blog/stop-asking-me-to-sign-up/)
 
 ## Legal
 
 * [Writing terms and conditions](http://www.docracy.com/)
 * [Web designer's guide to presenting legal stuff](http://www.webdesignerdepot.com/2014/04/the-web-designers-guide-to-presenting-legal-stuff/)
 
-## Design Studio
+## Design Studio with Case Studies
 
 * [Focus Lab](http://focuslabllc.com/)
 * [teehan+lax](http://www.teehanlax.com/)
+* [MikeShakes](http://milkshak.es/)
 
 ## Product News
 

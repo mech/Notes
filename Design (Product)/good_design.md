@@ -11,11 +11,13 @@
 * [Designer Duds: Losing Our Seat at the Table](http://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table)
 * [Making good design decisions](http://blog.getprismatic.com/making-good-design-decisions/)
 * [There is only careless design or thoughtful design. Choose to design thoughtfully](https://medium.com/@ireneau/5b867e9f2614)
+* [Shots of things that work](http://thegodfounder.com/)
+* [Some design principles that never change](http://boagworld.com/design/some-design-principles-never-change/)
 
 ## Design Videos
 
 * [Arrogance and confidence in design - Generate Conference](https://www.youtube.com/watch?v=ngQnoBWsFfc)
-
+* [Good talks about design](https://news.layervault.com/stories/25939-ask-dn-good-talks-about-design)
 
 ---
 1. **Good design is simple.** When you're forced to be simple, you're forced to face the real problem. When you can't deliver ornament, you have to deliver substance.

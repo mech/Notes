@@ -1,6 +1,6 @@
 # Resources
 
-* [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
+* [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
 * [Design System](http://css-tricks.com/design-systems-building-future/)
 * [Build flexible modules, not pages. Design a system. Make it modular.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 * [The Art of HTML Semantics](http://kevinsuttle.com/posts/the-art-of-html-semantics-pt1/)
@@ -11,6 +11,7 @@
 * [Detect bandwidth using Networking API](http://www.csskarma.com/blog/detecting-for-bandwidth/)
 * [Application Cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
 * [Web Field Manual](http://webfieldmanual.com/)
+* [Image sizes for web branding](https://github.com/waako/web-brand-images)
 
 ## IE
 

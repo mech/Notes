@@ -9,6 +9,7 @@
 * [Motion Ui Design Principles](http://www.beyondkinetic.com/motion-ui-design-principles/)
 * [Skip Hursh - Very nice animation](http://skiphursh.com/)
 * [James Curran](http://slimjimstudios.tumblr.com/)
+* [Photoshop Animation](http://photoshopanimation.com/)
 
 ## Quartz Composer
 

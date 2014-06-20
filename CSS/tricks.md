@@ -6,6 +6,7 @@
 * [Useful?](http://snippetrepo.com/)
 * [Reading position indicator](http://css-tricks.com/reading-position-indicator/)
 * [Some components to learn from](http://goratchet.com/components/)
+* [Vertical align](http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/)
 
 ```
 /* do nothing when clicked even through JavaScript */

@@ -7,6 +7,8 @@
 * [Why is business writing so awful](http://www.inc.com/magazine/20100501/why-is-business-writing-so-awful.html)
 * [Content is design!](http://www.uie.com/articles/content_and_design/)
 * [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
+* [Capture attention](http://alyssamartin.me/blog/5-words-you-need-to-use-on-your-website-to-capture-attention)
+* [NYTimes's CMS](http://open.blogs.nytimes.com/2014/06/17/scoop-a-glimpse-into-the-nytimes-cms/)
 
 Purpose of layouts:
 

@@ -18,6 +18,7 @@
 * [Iconjar](http://geticonjar.com/)
 * [ICONIC](https://useiconic.com)
 * [Rejected logo](http://rejectedlogocompetition.com/)
+* [Understanding the pixel grid](http://blog.symbolset.com/understanding-the-pixel-grid)
 
 ## Golden Ratio
 

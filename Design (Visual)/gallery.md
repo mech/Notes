@@ -6,6 +6,9 @@
 
 * [Geisha](http://geisha.io/app/)
 * [Designspiration](http://designspiration.net/)
+* [Frank Chimero](http://ofanother.com/)
+* [Designboom](http://www.designboom.com/)
+* [Webdesign Inspiration](http://www.webdesign-inspiration.com/)
 
 ## Mobile
 

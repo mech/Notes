@@ -3,6 +3,7 @@
 * [Typoguide](http://www.typogui.de/)
 * [Combining Typefaces - Book](http://www.fivesimplesteps.com/products/combining-typefaces)
 * [Hyphens, en-dashes and em-dashes](http://www.fonts.com/content/learning/fyti/glyphs/hyphens-and-dashes)
+* [Punctuation tips](https://medium.com/@wwnorton/punctuation-tips-a5e0d4a5e990)
 * [Debunking the myths of web typography](http://www.webdesignerdepot.com/2014/03/debunking-the-myths-of-web-typography/)
 * [Crafting link underlines on Medium](https://medium.com/designing-medium/7c03a9274f9)
 * [Materials for the typographically inclined](http://raggedwrite.net/)
@@ -16,6 +17,7 @@
 * [Tips on kerning](http://learn.scannerlicker.net/2014/05/02/tips-on-kerning/)
 * [Kerning on the web](http://blog.typekit.com/2014/02/05/kerning-on-the-web/)
 * [Futura alternatives](http://next.fontshop.com/people/stephen-coles/fontlists/futura-alternatives)
+* [Type resources](http://www.typewolf.com/resources)
 
 ```
 // New for Firefox 25

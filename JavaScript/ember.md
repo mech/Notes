@@ -24,6 +24,7 @@ Don't operating on wrong assumption. Expose your ignorance.
 * [Drag and drop image upload with Ember.js](https://medium.com/ember-js-framework/c19e99f9823c)
 * [Ember and Web Components](https://gist.github.com/wycats/9144666b0c606d1838be)
 * [Ember.js with Ruby on Rails](http://blog.abuiles.com/ember-js-with-ruby-on-rails/)
+* [Shared terminology yet different concepts between Ember.js and Rails](http://robots.thoughtbot.com/shared-terminology-yet-different-concepts-between-emberjs-and-rails)
 
 ```
 Ember.run.once();
@@ -648,6 +649,7 @@ Pre-render data server-side rather than calling 50+ Ajax on boot-time. Use serve
 * [SOA in Rails](http://www.youtube.com/watch?v=L1B_HpCW8bs)
 * [OAuth for Rails](http://www.octolabs.com/blogs/octoblog/2014/04/22/service-oriented-authentication-railsconf/)
 * [OAuth provider](https://github.com/doorkeeper-gem/doorkeeper)
+* [Minimal API Authentication on Rails ](http://resistor.io/blog/2013/08/07/mimimal-api-authentication-on-rails/)
 
 `Access-Control-Allow-Origin` with CORS (Cross Origin Resource Sharing). Use `rack-cors` gem.
 

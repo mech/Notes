@@ -1,5 +1,6 @@
 # Resources
 
+* [**Google Web Starter Kit for multi-device development**](https://developers.google.com/web/starter-kit/)
 * [Brad Frost responsive pattern library](http://bradfrost.github.io/this-is-responsive/patterns.html)
 * [BBC Responsive News](http://responsivenews.co.uk/)
 * [Tool: Responsive viewport](http://cobyism.com/shapeshifter/)
@@ -31,6 +32,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 
 * [Good resource for knowing the logical operators of media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 * [Responsive JavaScript](http://www.csskarma.com/blog/responsive-javascript/)
+* [Responsive design tool for Brackets](http://www.leebrimelow.com/responsive-design-with-adobe-brackets/)
 
 ## Meta Viewport
 

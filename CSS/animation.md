@@ -24,6 +24,7 @@
 ## Demo
 
 * [Morphing buttons](http://tympanus.net/codrops/2014/05/12/morphing-buttons-concept/)
+* [Hover effect ideas](http://tympanus.net/Development/HoverEffectIdeas/)
 
 
 ## Famo.us
