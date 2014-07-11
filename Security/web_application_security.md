@@ -14,6 +14,7 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [Hash cracker for password](http://www.hash-cracker.com/)
 * [Have I been pwned](https://haveibeenpwned.com/)
 * [Node Goat](https://github.com/OWASP/NodeGoat)
+* [Small Improvements's security docs](https://www.small-improvements.com/documentation/security)
 
 
 ## Tools

@@ -5,10 +5,15 @@
 * [Reading Rails series!](http://monkeyandcrow.com/blog/reading_rails_how_does_message_verifier_work/)
 * [Some nice gems here](http://www.22ideastreet.com/blog/2014/04/30/starting-on-an-existing-rails-project/)
 * [Rails idioms considered harmful](http://jgaskins.org/blog/2014/5/18/rails-idioms-considered-harmful)
+* [ActiveSupport::Notifications, statistics and using facts to improve your site](http://www.reinteractive.net/posts/141-activesupport-notifications-statistics-and-using-facts-to-improve-your-site)
 
 ## Object-Oriented Rails
 
 * [Rails - The Missing Parts - Interactors](http://eng.joingrouper.com/blog/2014/03/03/rails-the-missing-parts-interactors)
+* [Don't just dump code into your models](http://blog.sensible.io/2014/04/19/don-t-just-dump-code-into-your-models.html)
+* [Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
+* [Bus](https://github.com/minio-sk/bus)
+* [The right way to code DCI in Ruby](http://mikepackdev.com/blog_posts/24-the-right-way-to-code-dci-in-ruby)
 
 ## Build
 
@@ -24,7 +29,7 @@ Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensu
 ## 4.1
 
 * [ActiveRecord enum vs PostgreSQL's enum](http://www.postgresql.org/docs/9.2/static/datatype-enum.html)
-
+* [Favourite things about Rails 4.1](http://www.reinteractive.net/posts/177-my-favourite-things-about-rails-4-1)
 
 ## ActiveRecord
 

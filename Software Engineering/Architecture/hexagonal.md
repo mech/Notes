@@ -8,6 +8,7 @@
 * [Clean Architecture for Rails](http://blog.zamith.pt/blog/2014/02/10/clean-architecture/)
 * [Systems and Domains. Triplet.](https://skillsmatter.com/skillscasts/4207-uncle-bob)
 * [Hexagonal Rails and the ludicrous terminal application](http://pivotallabs.com/hexagonal-rails-and-the-ludicrous-terminal-application/)
+* [Lotus](http://lotusrb.org/)
 
 ## Objects
 
@@ -15,3 +16,4 @@
 * Request Object
 * Service Object
 * Value Object
+* Action Object? Controller action.

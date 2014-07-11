@@ -11,6 +11,8 @@
 * [Gibbon on UX design](https://gibbon.co/maximebodereau/ux-design)
 * [UX gap](http://www.100shapes.com/blog/ux-gap-where-user-experience-begins-ends/)
 * [UX Beginner](http://www.uxbeginner.com/)
+* [UX Metrics](http://www.dtelepathy.com/ux-metrics)
+* [Google UXD](http://developerlife.com/ux/)
 
 ## Behaviorism
 

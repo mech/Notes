@@ -16,6 +16,9 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [rCharts](http://timelyportfolio.github.io/rCharts_512paths/)
 * [Amazing train graph](http://mbtaviz.github.io/)
 * [FF Chart](https://www.fontfont.com/how-to-use-ff-chartwell)
+* [Simply amazing - How to fold a Julia fractal](http://acko.net/blog/how-to-fold-a-julia-fractal/)
+* [Visualizing algorithms](http://bost.ocks.org/mike/algorithms/)
+* [Devoted to telling stories in Asia with hard numbers](http://www.binaryabacus.io/)
 
 ## d3.js
 
@@ -28,6 +31,11 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [r2d3](https://github.com/hadley/r2d3)
 * [Design is a Search Problem - NYT](https://www.youtube.com/watch?v=fThhbt23SGM)
 * [Mike Bostock - Creator of d3.js](http://bost.ocks.org/mike/)
+* [By Mike](http://bost.ocks.org/mike/algorithms/)
+* [Christophe Viau](http://www.biovisualize.com/)
+* [Learn data visualisations with D3.js](https://www.dashingd3js.com/)
+* [HK LegCo](http://inside-hk-legco.herokuapp.com/)
+* [How we made Human Cities](http://blog.human.co/posts/human-cities.html)
 
 ## Graphite
 

@@ -26,7 +26,6 @@ The point of promises:
 * State machine
 * Streaming parsers
 * Reactive bindings
-
 * [Promises, promises](http://wibblycode.wordpress.com/2012/11/21/promises-promises/)
 * [Task.js](http://taskjs.org/)
 

@@ -3,6 +3,8 @@
 * [iOS touch visualizer](http://blog.joeblau.com/ios-touch-visualizer)
 * [Incredible web replication of iOS UI](https://github.com/nolimits4web/Framework7)
 * [iOS UI - Storyboards vs NIBs vs custom code](http://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
+* [The state of hybrid mobile development](http://developer.telerik.com/featured/the-state-of-hybrid-mobile-development/)
+* [iOS 8 Privacy](http://lmjabreu.com/post/ios-8-privacy-updates/)
 
 ## Animation
 
@@ -15,6 +17,7 @@
 * [Simple button animation](http://www.punchkickinteractive.com/blog/2014/04/01/quartz-composer-and-origami-tutorial-button-animation)
 * [Quartz Composer Diary](http://qc.prabros.com/primer1.html)
 * [UI prototyping with QC and Origami](http://www.pasanpremaratne.com/2014/03/15/UI-Prototyping-with-Quartz-Composer-and-Origami/)
+* [Path's button](http://www.punchkickinteractive.com/blog/2014/04/01/quartz-composer-and-origami-tutorial-button-animation)
 
 ## Tools
 

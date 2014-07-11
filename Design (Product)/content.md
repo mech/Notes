@@ -9,6 +9,8 @@
 * [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
 * [Capture attention](http://alyssamartin.me/blog/5-words-you-need-to-use-on-your-website-to-capture-attention)
 * [NYTimes's CMS](http://open.blogs.nytimes.com/2014/06/17/scoop-a-glimpse-into-the-nytimes-cms/)
+* [How to write for the web](http://demosthenes.info/blog/531/How-To-Write-For-The-Web-Murder-Your-Darlings)
+* [Readability score](https://readability-score.com/)
 
 Purpose of layouts:
 

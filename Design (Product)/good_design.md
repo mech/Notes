@@ -13,11 +13,15 @@
 * [There is only careless design or thoughtful design. Choose to design thoughtfully](https://medium.com/@ireneau/5b867e9f2614)
 * [Shots of things that work](http://thegodfounder.com/)
 * [Some design principles that never change](http://boagworld.com/design/some-design-principles-never-change/)
+* [Why you should care about design](http://blog.groupbuddies.com/posts/41-why-you-should-care-about-design)
+* [Design elitism](http://daneden.me/2014/06/28/design-elitism/)
+* USE Paradigm - Usable, Scalable, Evolvable.
 
 ## Design Videos
 
 * [Arrogance and confidence in design - Generate Conference](https://www.youtube.com/watch?v=ngQnoBWsFfc)
 * [Good talks about design](https://news.layervault.com/stories/25939-ask-dn-good-talks-about-design)
+* [The Creative Class](http://thecreativeclass.tv/)
 
 ---
 1. **Good design is simple.** When you're forced to be simple, you're forced to face the real problem. When you can't deliver ornament, you have to deliver substance.
@@ -45,6 +49,8 @@
 23. Complex == Life!
 24. If it is too simple, it is dull, boring. If it is too complex, it is confusing. We like intermediate which is a moving target! Expert mode, see game designer.
 25. Design is Social Science, Art, Technology and Engineering.
+26. The idea of a design driven company is that design is for the entire company, not just designers but for engineers also. Cautioned the overuse of the term "design driven" so as not to exclude other key players necessary to build a user-centered product and successful company.
+27. Making something helps remove the rust.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

@@ -12,6 +12,9 @@
 * [Application Cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
 * [Web Field Manual](http://webfieldmanual.com/)
 * [Image sizes for web branding](https://github.com/waako/web-brand-images)
+* [Backbone responsive framework](http://www.cloud-eight.com/github/backbone/)
+* [What every frontend developer should know about webpage rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
+* [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
 
 ## IE
 
@@ -64,11 +67,13 @@ window.addEventListener('scroll', onScroll, false);
 * [Suit CSS](http://suitcss.github.io/)
 * [Find Guidelines on the Web](http://findguidelin.es/)
 * [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
+* [All the style guides](http://allthestyleguides.tumblr.com/)
 
 ## HTML Boilerplate
 
 * [HTML5 Bones](http://html5bones.com/)
 * [Initializr](http://www.initializr.com/)
+* [Use `<!doctype html>` and not <!DOCTYPE html> as it compresses better](http://encode.ru/threads/1889-gzthermal-pseudo-thermal-view-of-Gzip-Deflate-compression-efficiency)
 
 ## Normalize.css
 

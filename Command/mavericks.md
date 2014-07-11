@@ -353,9 +353,53 @@ Use https://github.com/jimbojsb/launchrocket at the PreferencePane.
 
 Go to `/Library/Preferences/VMware Fusion` and look for `vmnet8/dhcpd.conf` and `vmnet8/nat.conf`.
 
+## .railsrc
+
+```
+--skip-bundle
+--skip-test-unit
+--database=postgresql
+```
+
+## .irbrc
+
+```
+require 'rubygems'
+require 'awesome_print'
+
+AwesomePrint.irb!
+
+IRB.conf[:AUTO_INDENT] = true
+IRB.conf[:SAVE_HISTORY] = 1000
+IRB.conf[:EVAL_HISTORY] = 200
+
+class Object
+  def local_methods
+    (methods - Object.instance_methods).sort
+  end
+end
+
+alias q exit
+```
+
+## .gemrc
+
+```
+---
+:backtrace: false
+:benchmark: false
+:sources:
+- https://rubygems.org
+:update_sources: true
+:verbose: true
+install: --no-ri --no-rdoc
+update: --no-ri --no-rdoc
+```
 
 # Resources
 
 * http://robots.thoughtbot.com/the-hitchhikers-guide-to-riding-a-mountain-lion
 * http://blog.55minutes.com/2013/09/rails-os-x-install-guide/
 * http://www.mitchchn.me/2014/os-x-terminal/
+* http://antigen.sharats.me/
+* http://shvets.github.io/blog/2014/04/19/configure_macbook.html

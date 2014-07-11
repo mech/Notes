@@ -1,6 +1,19 @@
 # Layout
 
+Key things to Web UI:
+
+* Layout
+* Color
+* Typography
+* Motion/Animation/Transition
+* Content/Copywriting
+* Hierarchy/Alignment/Proportion
+
+---
+
 * [Example to see for layout](http://cssdeck.com/labs/css-switchboard)
+
+Rather than designing pages, which will inevitably break as our canvas shrinks and grows, we should design modules that can be reconfigured and remixed into various layouts. Create a system rather than treating the layout as a discrete unit. See [Atomic Web Design](http://bradfrostweb.com/blog/post/atomic-web-design/)
 
 Steps to do layout:
 
@@ -9,10 +22,12 @@ Steps to do layout:
 3. em and percentage and their containing parent.
 4. Any extra wrapper/grouping to use or not.
 5. Always use normal document flow to layout and only use float when necessary.
+6. Always have grid system. Think of it as your shelves. You put up your shelves then fill them with your stuff. By setting up our grids separately to our components you can move components around a lot more easily then if they had dimensions applied to them.
 
 Types of layout: Fixed, Fluid, Elastic, Hybrid, Responsive.
 
 * [Learn CSS Layout](http://learnlayout.com/)
+* [Harry's advice on layout](https://github.com/csswizardry/CSS-Guidelines#layout)
 
 Purpose of layouts:
 
@@ -86,12 +101,25 @@ Use of `min-width` and `max-width` common.
 
 Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blackberry 10+.
 
+* [Video - Putting flexbox into practice](https://vimeo.com/77176313)
+* [Putting flexbox into practice - blog](http://zomigi.com/blog/flexbox-presentation/)
+* [Flexy Boxes code generator](http://the-echoplex.net/flexyboxes/)
 * [Complete guide to flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexgrid](http://ptb2.me/flexgrid/)
 * [Dive into flexbox](http://weblog.bocoup.com/dive-into-flexbox/)
 * [Design flexible layouts](http://www.wpmemorize.com/2013/css-flexbox-to-design-flexible-layouts/)
 * [Flexbox example](http://devbryce.com/site/flexbox/)
 * [Flexbox - Next-generation CSS Layout has arrived](http://blog.teamtreehouse.com/flexbox-next-generation-css-layout-arrived)
+
+`flex-wrap` not supported in Firefox, so be careful.
+
+Steps for flexbox:
+
+1. Create flex container using `display:flex`
+2. Set its `flex-direction` to control orientation
+3. Set its `flex-wrap` to control whether and in which direction to wrap (or `flex-flow` as shorthand for `flex-direction` and `flex-wrap`)
+
+`box-sizing` only takes care of padding and border added on to width, not margin! But with flexbox, it is taken into account.
 
 ## Masonry
 
@@ -126,9 +154,20 @@ The top and bottom margins will combine give `20px`, but because of collapsing, 
 
 ## Float
 
+So what's the limitations of float-based layout?
+
+* Difficulty with containment
+* Unwanted wrapping, a.k.a. "float drop"
+* Visual location tied to HTML order
+* No built-in equal height columns
+* No `float:center`
+
+---
+
 * [PPK's clearing float using `overflow:auto`](http://www.quirksmode.org/css/clearing.html)
 * [The very latest new new way to do clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)
 * [Which method of clearfix is best? - SO](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)
+* [**Give floats the flick in CSS layouts**](http://www.sitepoint.com/give-floats-the-flick-in-css-layouts/)
 
 If you don't support IE6/7, then don't bother clearing floats in these browsers. `zoom: 1` is only for IE6, so don't bother.
 

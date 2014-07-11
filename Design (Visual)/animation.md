@@ -10,11 +10,15 @@
 * [Skip Hursh - Very nice animation](http://skiphursh.com/)
 * [James Curran](http://slimjimstudios.tumblr.com/)
 * [Photoshop Animation](http://photoshopanimation.com/)
+* [Provide meaning with motion](http://paulstamatiou.com/design-provide-meaning-with-motion/)
+* [Polymer Web Animation](http://www.polymer-project.org/platform/web-animations.html)
+* [Dribbble for motion?](http://rndr.co/)
 
 ## Quartz Composer
 
 * [Avocado - Patch for QC from IDEO Labs](http://labs.ideo.com/2014/05/27/avocado/)
 * [Crash course for QC and Origami](http://scotthurff.com/qc/email/tk421/index.html)
+* [QC Noodling](http://qcnoodling.com/)
 
 
 ## Framer
@@ -28,3 +32,4 @@
 ## After  Effect
 
 * [UX in Motion - $500](http://uxinmotion.net/rapid-protoyping-with-after-effects/)
+* [AE script - $25](http://www.mtmograph.com/motion/)

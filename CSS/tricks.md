@@ -7,6 +7,11 @@
 * [Reading position indicator](http://css-tricks.com/reading-position-indicator/)
 * [Some components to learn from](http://goratchet.com/components/)
 * [Vertical align](http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/)
+* [Useful UI ideas from codrops](https://medium.com/@DavidBenPark/the-most-delightful-and-useful-ui-ideas-from-codrops-b7d469026acb)
+* [The shapes of CSS](http://css-tricks.com/examples/ShapesOfCSS/)
+* [Characters using box-shadow](http://blog.codeschool.com/post/89758324803/designing-characters-with-box-shadow)
+* [Simpsons in CSS](https://pattle.github.io/simpsons-in-css/)
+* [Responsive background image](http://sixrevisions.com/css/responsive-background-image/)
 
 ```
 /* do nothing when clicked even through JavaScript */
@@ -122,4 +127,25 @@ input {
   -khtml-user-drag: element;
   -webkit-user-drag: element;
 }
+```
+
+## Drop-down
+
+```
+// See https://vimeo.com/99877232
+.nav > li:hover > .nav-dropdown { display: block; }
+.nav-dropdown { display: none; }
+```
+
+## Interesting Class Names
+
+```
+.wide-hero
+.entry-header
+.item-summary
+.promo-holder
+.deck-inner
+.sponsor-intro
+.sponsor-name
+.sponsor-url
 ```

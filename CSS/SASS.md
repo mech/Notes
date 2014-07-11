@@ -1,5 +1,7 @@
 # Sass
 
+* [Are we getting too sassy](http://ashleynolan.co.uk/blog/are-we-getting-too-sassy)
+* [Tips](http://csspre.com/)
 * [Understanding SASS lists](http://hugogiraudel.com/2013/07/15/understanding-sass-lists/)
 * [A SASS type toolkit](http://ianrose.me/typesettings/)
 * [Error handling in SASS](http://webdesign.tutsplus.com/tutorials/an-introduction-to-error-handling-in-sass--cms-19996)
@@ -13,3 +15,48 @@
 * [Organizing z-index](http://jonsuh.com/blog/organizing-z-index-with-sass/)
 * [Inverse trigonometric function with Sass](http://thesassway.com/advanced/inverse-trigonometric-functions-with-sass)
 * [List-maps](https://www.codefellows.org/blog/so-you-want-to-play-with-list-maps)
+* [Mini Sass mixins](http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like)
+* [A Sass component in 10 minutes](http://www.sitepoint.com/sass-component-10-minutes/)
+* [Using Sass maps to manage color schemes](http://now.violet.is/color-scheming)
+* [Handy Sass mixins](http://web-design-weekly.com/2013/05/12/handy-sass-mixins/)
+* [Ampersand](http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/)
+
+
+## Placeholder
+
+* [Mixin or Placeholder](http://www.sitepoint.com/sass-mixin-placeholder/)
+
+```
+@mixin center { display: block; margin-left: auto; margin-right: auto; }
+
+.container { @include center; }
+.image-cover { @include center; }
+
+// Using mixin will result in duplicate styles! We should use placeholder instead
+.container {
+	display: block; margin-left: auto; margin-right: auto;}
+
+.image-cover {
+	display: block; margin-left: auto; margin-right: auto;}
+```
+
+## Map
+
+```
+$message-types: (
+	error: #b94a48,
+	valid: #468847) !default;
+
+@each $type, $color in $message-types {
+	.message-#{$type} {
+		@include message($color);	}}
+```
+
+## Tips
+
+```
+// Tire of writing width and height?
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;}
+```

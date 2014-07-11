@@ -16,6 +16,9 @@
 * [Full-size drag and drop calendar](https://github.com/arshaw/fullcalendar)
 * [JavaScript library for Google Analytics](http://boba.space150.com/)
 * [Hides top bar when scrolling down](https://github.com/eduardomb/scroll-up-bar)
+* [Hood.ie - Offline](http://hood.ie/)
+* [Side comment like Medium](http://aroc.github.io/side-comments-demo/)
+* [Background cover image with video](https://github.com/stefanerickson/covervid/)
 
 ## Auto-complete
 

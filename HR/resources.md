@@ -4,7 +4,14 @@
 * [Logo - Brand of the World](http://www.brandsoftheworld.com/)
 * [HR in Asia](http://www.hrinasia.com/)
 * [Hiring plan](http://hunterwalk.com/2014/05/07/when-the-vc-asks-about-your-hiring-plan/)
-* [use recruiting data for good](https://grouptalent.com/blog/use-recruiting-data-for-good/)
+* [Use recruiting data for good](https://grouptalent.com/blog/use-recruiting-data-for-good/)
+* [The future of recruiting and hiring technologies](http://www.inc.com/adam-vaccaro/the-future-of-recruiting-automation.html)
+* [Culture Hacking](https://culture-hacking.squarespace.com/)
+* [Automating HR](https://culture-hacking.squarespace.com/blog/2012/12/20/automating-hr)
+* [Stop applying to jobs like its 1990](http://99u.com/workbook/27953/stop-applying-to-jobs-like-its-1990)
+* [Information Age vs Networked Age](https://www.linkedin.com/today/post/article/20140604152945-1213-the-information-age-to-the-networked-age-are-you-network-literate)
+* [Market yourself](https://medium.com/@rhysfisher1/winning-in-the-current-job-market-fb45943fdc2c)
+* [Future of recruiting?](http://www.ere.net/2012/10/12/recruitment-5-0-the-future-of-recruiting-the-final-chapter/)
 
 ## Problem
 
@@ -27,6 +34,10 @@ Categories must not be 3 level deep. The Inception Rule.
 ## Salary
 
 * [JobsDB's Search by Salary promo](http://sg.jobsdb.com/sg/en/staticcontent/search-by-salary/index.html)
+
+## KPI
+
+* [Rise of collaboration KPIs](http://www.brittanymlaughlin.com/post/89646198534/rise-of-collaboration-kpis)
 
 ## Tools
 

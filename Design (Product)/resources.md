@@ -36,6 +36,11 @@
 * [Aligning intention](https://medium.com/@chep2m/intention-or-in-tension-d39571a2e1f1)
 * [Harry's shaving brand](http://firstround.com/article/This-Startup-Cracked-a-24-Billion-Market-with-Branding-Heres-Their-Formula)
 * [How to do a product critique](https://medium.com/the-year-of-the-looking-glass/how-to-do-a-product-critique-98b657050638)
+* [The anatomy of a winning product critique](http://www.fastcodesign.com/3032051/the-anatomy-of-a-winning-product-critique)
+* [The finer points of shipping](https://medium.com/@ienjoy/designing-while-shipping-1ed17f9200ca)
+* [The disciplined pursuit of less](http://blogs.hbr.org/2012/08/the-disciplined-pursuit-of-less/)
+* [Keep your product healthy everyday](http://developers.livechatinc.com/blog/keep-your-product-healthy-everyday/)
+* [Stupid side projects](http://firstround.com/article/Spotifys-Design-Lead-on-Why-Side-Projects-Should-be-Stupid)
 
 User research == Customer development
 
@@ -65,6 +70,8 @@ Intermingle with business and marketplace.
 
 * [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
 * [Asking users to adopt new behaviors or even modify their existing behaviors is very hard](http://www.subtraction.com/2014/06/12/designing-products-for-existing-behaviors/)
+* [Persuasion: Applying the elaboration likelihood model to design](http://alistapart.com/article/persuasion-applying-the-elaboration-likelihood-model-to-design)
+* [How to use persona empathy mapping](http://uxmag.com/articles/how-to-use-persona-empathy-mapping)
 
 
 ## Card-based Design
@@ -74,6 +81,7 @@ Intermingle with business and marketplace.
 * [Why cards are the future of the web](http://insideintercom.io/why-cards-are-the-future-of-the-web/)
 * [Tom Dale's Cards are the future of the web](http://www.youtube.com/watch?v=pwYwLBWvy7Q)
 * [Mobile UI with cards](https://medium.com/ux-ui-design/redefining-mobile-user-interfaces-with-cards-3ba4ed42c965)
+* [A serious look at card based design](http://webdesignledger.com/trends-2/cardbaseddesign)
 
 ## Quotes
 
@@ -111,6 +119,13 @@ Intermingle with business and marketplace.
 * [Focus Lab](http://focuslabllc.com/)
 * [teehan+lax](http://www.teehanlax.com/)
 * [MikeShakes](http://milkshak.es/)
+* [Harvard Law Review case study](http://upstatement.com/portfolio/harvard-law-review/)
+* [Kevin Schaefer](http://www.kjschaef.com/)
+* [Ed Lea](http://edlea.com/)
+* [MLB Victis by Metalab](http://www.metalabdesign.com/projects/victis/)
+* [The future of the airline website by f-i](http://www.f-i.com/fi/airlines/)
+* [Slack by Metalab](http://www.metalabdesign.com/projects/slack/)
+* [Harmonia team tasks](http://harmonia.io/blog/the-secret-to-successful-team-tasks/)
 
 ## Product News
 

@@ -14,6 +14,10 @@
 * [Vectips](http://vectips.com/)
 * [Spoon Graphics - Tips](http://blog.spoongraphics.co.uk/)
 * [design.tutsplus](http://design.tutsplus.com/)
+* [Fav illustrators](https://news.layervault.com/stories/27329-ask-dn-favorite-illustrators)
+* [**Harnessing vector awesomeness in Sketch**](https://medium.com/@pnowelldesign/harnessing-vector-awesomeness-in-sketch-3c9621408138)
+* [Sketch chinese resources](http://sketchcn.com/)
+* [Export SVG](http://hackingui.com/design/my-workflow-to-export-svgs-out-of-my-photoshop-design-files/)
 
 ## Bezier
 

@@ -6,6 +6,22 @@
 * [Style Stats](https://github.com/t32k/stylestats)
 * [Parallax done right - lots of animation tips](https://medium.com/@dhg/82ced812e61c)
 * [Some libs and frameworks to consider](http://speckyboy.com/2014/06/02/css-libraries-frameworks-tools/)
+* [CSS naming conventions - Less rules more fun](https://medium.com/@drublic/css-naming-conventions-less-rules-more-fun-12af220e949b)
+* [Polymer paper elements](http://www.polymer-project.org/components/paper-elements/demo.html#paper-shadow)
+
+## line-height
+
+* [Molten leading](http://demosthenes.info/blog/606/Molten-Leading-Exploring-The-CSS-Relationship-Between-Font-Size-Line-Height-and-Margin)
+* [Refine your web type](http://thenextweb.com/dd/2012/10/14/refine-your-web-type-with-this-crash-course-on-the-css-line-height-property/)
+
+![line-height-and-input](https://dl.dropboxusercontent.com/u/6815194/Notes/line_height_and_input.png)
+
+4 boxes
+
+* Containing box
+* Inline box
+* Line box
+* Content area
 
 ## Style Guide
 

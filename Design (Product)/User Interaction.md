@@ -35,6 +35,9 @@ There is no intuitive interface, just "easy-to-learn" interface.
 * [Why and how to avoid hamburger menus](http://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/)
 * Living with Complexity - Signifier
 * [Learning from each other](http://uxmag.com/articles/learning-from-each-other)
+* [Epicenter design first](http://jordankoschei.com/interface-design-non-interface-designers/)
+* [Designing screens using cores and paths](http://boxesandarrows.com/designing-screens-using-cores-and-paths/)
+* [The User is Drunk](https://www.youtube.com/watch?v=r2CbbBLVaPk)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 >

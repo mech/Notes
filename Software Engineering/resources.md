@@ -5,10 +5,11 @@
 * Architecture is a snapshot of a process.
 * Architecture is coupled to process (esp. continuous delivery).
 * [Sorting - Visualized](http://sorting.at/)
-
 * [What is Software Design?](http://www.developerdotstar.com/mag/articles/reeves_design.html)
 * [Imperative vs Declarative](http://latentflip.com/imperative-vs-declarative/)
 * [Your syntax highlighter is wrong](https://medium.com/web-dev/6f83add748c9)
+* [Technical debt 101](https://medium.com/@joaomilho/festina-lente-e29070811b84)
+* [The big rewrite](http://chadfowler.com/blog/2006/12/27/the-big-rewrite/)
 
 ## Abstraction
 

@@ -1,5 +1,7 @@
 # Ember
 
+STOP: http://emberjs.com/guides/components/
+
 Use ember-cli instead of starter kit.
 
 Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
@@ -25,6 +27,7 @@ Don't operating on wrong assumption. Expose your ignorance.
 * [Ember and Web Components](https://gist.github.com/wycats/9144666b0c606d1838be)
 * [Ember.js with Ruby on Rails](http://blog.abuiles.com/ember-js-with-ruby-on-rails/)
 * [Shared terminology yet different concepts between Ember.js and Rails](http://robots.thoughtbot.com/shared-terminology-yet-different-concepts-between-emberjs-and-rails)
+* [Ember and Polymer](https://news.ycombinator.com/item?id=7945084)
 
 ```
 Ember.run.once();
@@ -41,11 +44,17 @@ Since there is no round-trip, just pass real object in parameters, and no need f
 ## ember-cli
 
 * [Broccoli: First beta release](http://www.solitr.com/blog/2014/02/broccoli-first-release/)
+* [From gulp.js to ember-cli](https://medium.com/ember-js-framework/450f1ffb1967)
+* [ember-cli-plus-backend](https://github.com/dockyard/ember-cli-plus-backend)
+
+
+### ember-cli with Rails
+
 * [Building an Ember app with Rails](http://reefpoints.dockyard.com/2014/05/07/building-an-ember-app-with-rails-part-1.html)
 * [Building an Ember.js production application with ember-cli](http://edgycircle.com/blog/2014-building-an-emberjs-production-application-with-ember-cli/)
-* [From gulp.js to ember-cli](https://medium.com/ember-js-framework/450f1ffb1967)
 * [Deploying ember-cli and Rails to Heroku](http://blog.abuiles.com/blog/2014/05/21/deploying-ember-cli-and-rails-to-heroku/)
-* [ember-cli-plus-backend](https://github.com/dockyard/ember-cli-plus-backend)
+* [ember-cli-rails?](https://github.com/knomedia/ember-cli-rails)
+* [Deploying ember-cli to Amazon S3 with Grunt](http://www.octolabs.com/blogs/octoblog/2014/05/24/deploying-ember-cli-to-amazon-s3-with-grunt/)
 
 ## Broccoli
 
@@ -415,6 +424,19 @@ this.resource('project', { path: '/projects/:projectId' }, function() {
 });
 ```
 
+If you want to render into other named outlet, you can:
+
+```
+{{outlet toolbar}}
+{{outlet inspector}}
+
+export default Ember.Route.extend({
+  renderTemplate: function() {
+    this.render({outlet: 'inspector'});
+  }
+});
+```
+
 ## Object Model, KVO and Computed Properties
 
 * [KVO in Apple](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/KeyValueObserving/KeyValueObserving.html)
@@ -641,6 +663,7 @@ Pre-render data server-side rather than calling 50+ Ajax on boot-time. Use serve
 ## Authentication and Session
 
 * [Ember.SimpleAuth](https://github.com/simplabs/ember-simple-auth)
+* [ember-devise-simple-auth](https://github.com/d-i/ember-devise-simple-auth)
 * [End-to-end security](http://apigee.com/about/products/apis/edge-secure-enterprise-apis)
 * [How Zendesk use ember-resource for authentication token? At the initializer?](https://github.com/zendesk/ember-resource)
 * [Ember add-on to track of Rails CSRF](https://github.com/abuiles/rails-csrf)
@@ -650,6 +673,19 @@ Pre-render data server-side rather than calling 50+ Ajax on boot-time. Use serve
 * [OAuth for Rails](http://www.octolabs.com/blogs/octoblog/2014/04/22/service-oriented-authentication-railsconf/)
 * [OAuth provider](https://github.com/doorkeeper-gem/doorkeeper)
 * [Minimal API Authentication on Rails ](http://resistor.io/blog/2013/08/07/mimimal-api-authentication-on-rails/)
+* [Authentication options in Rails](http://everydayrails.com/2011/09/21/rails-authentication.html)
+
+
+```
+App.SecretArticlesRoute = Ember.Route.extend({
+  beforeModel: function() {
+    if (!this.controllerFor('auth').get('isLoggedIn')) {
+      this.transitionTo('login');
+    }  
+  }
+});
+```
+
 
 `Access-Control-Allow-Origin` with CORS (Cross Origin Resource Sharing). Use `rack-cors` gem.
 
@@ -798,6 +834,10 @@ App.LeafletMapComponent = Ember.Component.extend({
 ### Component Actions
 
 There is no bubbling to the route. Actions are sent only to the component itself.
+
+## Ember-cli Add-on
+
+* [The add-on story](http://reefpoints.dockyard.com/2014/06/24/introducing_ember_cli_addons.html)
 
 ## Ember with D3
 

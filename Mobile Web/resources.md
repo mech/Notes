@@ -7,6 +7,11 @@
 * [Make your site work on touch devices](http://www.creativebloq.com/javascript/make-your-site-work-touch-devices-51411644)
 * [Responsive design signals larger change](http://www.vanseodesign.com/web-design/responsive-design-signals-larger-change/)
 
+## Frameworks for Mobile Web
+
+* [App.js](http://code.kik.com/app/2/index.html)
+* [Ionic](http://ionicframework.com/)
+
 ## Process and Workflow
 
 * [Content Structure - Source Order](https://vimeo.com/89535832)
@@ -25,6 +30,7 @@
 ## Responsive Typography
 
 * [FitText](http://fittextjs.com/)
+* [Responsive line height](http://viljamis.com/blog/2014/responsive-line-height/)
 
 ## Media Queries
 

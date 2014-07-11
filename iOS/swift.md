@@ -8,6 +8,7 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [Inside Swift](http://www.eswick.com/2014/06/inside-swift/)
 * [Developing iOS apps using Swift - Part 1](http://ios-blog.co.uk/tutorials/developing-ios-apps-using-swift-part-1/)
 * [Cheat Sheet](http://grant.github.io/swift-cheat-sheet/)
+* [How to build a nice hamburger button transition in Swift](http://robb.is/working-on/a-hamburger-button-transition/)
 
 ## Variables
 

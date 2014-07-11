@@ -21,6 +21,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [SVG workflow for designers](http://danielmall.com/articles/svg-workflow-for-designers/)
 * [SVG4everybody](https://github.com/jonathantneal/svg4everybody)
 * [export-svg](https://github.com/mtreik/export-svg)
+* [Workflow to export SVG](http://hackingui.com/design/my-workflow-to-export-svgs-out-of-my-photoshop-design-files/)
 
 ```
 <text>

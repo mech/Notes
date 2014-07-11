@@ -1,5 +1,7 @@
 # Tips
 
+* [Drops](https://kickdrop.me/drops)
+
 ```
 // querySelectorAll return a NodeList, an array-like list
 var nodes = document.querySelectorAll('a');

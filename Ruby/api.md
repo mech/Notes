@@ -31,6 +31,7 @@ API design (UX)
 * Don't do method-driven API like verbs all over the place
 * World is big, don't look at thing in isolation
 * Security, rate limiting, routing, and so on can and should be hidden in the HTTP headers
+* Actions are cheap, vocabulary is expensive.
 
 ```
 // Good - using noun
@@ -107,7 +108,6 @@ The server sends a representation describing the state of a resource. The client
 * PATCH - RFC 5789
 * LINK
 * UNLINK
-
 * Collection Resource
 * Instance Resource
 
@@ -173,6 +173,8 @@ Expires: Mon, 1 Jan 2014 00:00:00 GMT
 * Use private caching: `Cache-Control: private` for APIs
 * Explicit no caching: `Cache-Control: no-cache, no-store`
 * [Using `Rack::Cache` with memcached in Rails 4](https://devcenter.heroku.com/articles/rack-cache-memcached-rails31)
+* [Fast JSON APIs in Rails](http://robots.thoughtbot.com/fast-json-apis-in-rails-with-key-based-caches-and)
+* [Evaluate your JSON API for performance improvements](http://robots.thoughtbot.com/how-to-evaluate-your-rails-json-api-for-performance-improvements)
 
 ## Hypermedia
 
@@ -183,6 +185,10 @@ Expires: Mon, 1 Jan 2014 00:00:00 GMT
 * [HAL: Building hypermedia APIs in Rails](http://devblog.reverb.com/post/47197560134/hal-siren-rabl-roar-garner-building-hypermedia)
 * [DHH's getting hyper about hypermedia](http://signalvnoise.com/posts/3373-getting-hyper-about-hypermedia-apis)
 * [REST APIs must be hypertext driven](http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
+* Focus on tasks and not objects
+* Expose tasks/use cases rather than objects and functions
+* Favors evolvability
+* WebAPI
 
 Links to go to other resource for navigation.
 

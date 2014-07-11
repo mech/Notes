@@ -1,6 +1,7 @@
 # Module
 
 * [Library best practices](https://github.com/volojs/volo/wiki/Library-best-practices)
+* [JavaScript Modules](http://jsmodules.io/)
 
 ## ES6 Module Transpiler
 

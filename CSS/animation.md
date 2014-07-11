@@ -13,7 +13,12 @@
 * [Pretty nice animation library](http://anijs.github.io/)
 * [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
 * [bounce.js](http://bouncejs.com/)
+* [Giving animation life using bounce](https://medium.com/tictail-makers/giving-animations-life-8b20165224c5)
+* [Theatre.js](https://github.com/AriaMinaei/theatrejs)
 * [`will-change`](http://dev.opera.com/articles/css-will-change-property/)
+* Only 3D transforms qualify for their own layer; 2D transforms don't.
+* [Capture CSS3 animation in JavaScript](http://www.sitepoint.com/css3-animation-javascript-event-handlers/)
+* [Controlling CSS animations and transitions with JavaScript](http://css-tricks.com/controlling-css-animations-transitions-javascript/)
 
 ## Velocity.js
 

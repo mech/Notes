@@ -1,6 +1,8 @@
 # Ruby
 
 * Don't mutate state unnecessarily. It will lead to bugs.
+* [Polymorphism and Ruby](http://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby)
+* [Scrape data](http://www.youtube.com/watch?v=eumekfP4IKQ)
 
 ## Gem Authoring
 

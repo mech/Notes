@@ -2,6 +2,7 @@
 
 JavaScript dynamic duo (static type is overrated):
 
+* [ES Discuss](http://esdiscuss.org/)
 * Loose typing
 * Object extension
 * [globtester](http://www.globtester.com/)
@@ -14,6 +15,8 @@ JavaScript dynamic duo (static type is overrated):
 * [Axel Rauschmayer](http://www.2ality.com/)
 * [Kyle Simpson](http://blog.getify.com/)
 * [Rob Richardson](http://robrich.org/)
+* [Hugo Giraudel](http://hugogiraudel.com/)
+* [Sam Dutton](http://simpl.info/)
 
 ## Macros
 
