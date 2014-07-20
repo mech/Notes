@@ -16,6 +16,8 @@
 * [Why you should care about design](http://blog.groupbuddies.com/posts/41-why-you-should-care-about-design)
 * [Design elitism](http://daneden.me/2014/06/28/design-elitism/)
 * USE Paradigm - Usable, Scalable, Evolvable.
+* [When you know everything about an industry, you don't know what's good for it](https://medium.com/@NilsSkold/experience-slows-you-down-9b25a4153669)
+* [The next time we talk about design, let's go beyond visual design. See Gov.uk example where the site is not visually outstanding, but solve so many experience problem](https://medium.com/@tinkadoic/design-is-the-experience-7b4339021e41)
 
 ## Design Videos
 
@@ -51,6 +53,8 @@
 25. Design is Social Science, Art, Technology and Engineering.
 26. The idea of a design driven company is that design is for the entire company, not just designers but for engineers also. Cautioned the overuse of the term "design driven" so as not to exclude other key players necessary to build a user-centered product and successful company.
 27. Making something helps remove the rust.
+28. Design is rendering intention. Design is about intention. We can choose to imitate or innovate.
+29. Experiences can be designed. It is within our control.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

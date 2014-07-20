@@ -16,6 +16,13 @@ git push heroku master
 rake smoke:production
 ```
 
+## Boxen
+
+* [Puppets + Github](http://garylarizza.com/blog/2013/02/15/puppet-plus-github-equals-laptop-love/)
+* [Configuring Mavericks dev machine](http://www.mayerdan.com/programming/2013/12/01/configuring-osx-mavericks-dev-machine/)
+* [Quit worrying about your tools](http://www.sitepoint.com/boxen-quit-worrying-tools/)
+* [Introduction to Boxen](https://vimeo.com/61172067)
+
 ## Web Server
 
 ```

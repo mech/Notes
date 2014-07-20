@@ -14,3 +14,5 @@
 * [Codecademy Reimagined](http://www.codecademy.com/blog/141-codecademy-reimagined)
 * [New Codecademy](http://new.pentagram.com/2014/04/new-work-codecademy/)
 * [A fresh look for betaworks](https://medium.com/p/89b85413771)
+* [Crafting the Carousel Story](https://blog.carousel.com/2014/07/crafting-the-carousel-story/)
+* [Live Surface's Context is a Mac application to visualize branding](http://www.livesurface.com/)

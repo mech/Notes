@@ -79,11 +79,16 @@ gulp.task('build-stuff', function() {
 * [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
 * [grunt-montage](https://github.com/globaldev/grunt-montage)
 * [gulp-if](https://github.com/robrich/gulp-if)
+* [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins)
+* [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
 
 
 ## Grunt
 
 No context between transformations. More tasks, more slow-down. TMP file hell!
+
+* [Grunt plugins reviewed](http://cognition.happycog.com/article/grunt-plugins-reviewed)
+* [grunt-pagespeed](https://github.com/jrcryer/grunt-pagespeed)
 
 ### Plugins
 

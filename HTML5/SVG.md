@@ -22,6 +22,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [SVG4everybody](https://github.com/jonathantneal/svg4everybody)
 * [export-svg](https://github.com/mtreik/export-svg)
 * [Workflow to export SVG](http://hackingui.com/design/my-workflow-to-export-svgs-out-of-my-photoshop-design-files/)
+* [SVG workflow](https://news.layervault.com/stories/28025-ask-dn-switching-from-icon-fonts-to-svg-whats-your-workflow)
 
 ```
 <text>

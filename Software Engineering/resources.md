@@ -10,6 +10,7 @@
 * [Your syntax highlighter is wrong](https://medium.com/web-dev/6f83add748c9)
 * [Technical debt 101](https://medium.com/@joaomilho/festina-lente-e29070811b84)
 * [The big rewrite](http://chadfowler.com/blog/2006/12/27/the-big-rewrite/)
+* [Quality Assurance tools](https://sifterapp.com/academy/resources/tools/)
 
 ## Abstraction
 

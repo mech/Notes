@@ -1,5 +1,8 @@
 # Photoshop
 
+* [Some nice free works](http://www.bestpsdfreebies.com/)
+* [State](https://medium.com/@bradee/layer-comps-and-place-linked-smart-objects-6feb574963ef)
+
 ## Tips and Tricks
 
 * [Text swap](http://aenism.com/photoshop-text-swap-trick/)

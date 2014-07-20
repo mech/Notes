@@ -9,6 +9,9 @@
 * [Effective web navigation](http://www.uxbooth.com/articles/effective-presentation-of-a-websites-navigation/)
 * [Keyboard shortcuts for pagination](http://osvaldas.info/keyboard-shortcuts-for-pagination)
 * [What screens want](http://frankchimero.com/talks/what-screens-want/transcript/)
+* [Keyboard shortcut is also interaction](http://spaceandtim.es/posts/the-invisible-interface)
+* [Human Interface Guidelines](http://humaninterfaceguidelines.tumblr.com/)
+* [Creating distraction free reading experiences](http://azumbrunnen.me/blog/creating-distraction-free-reading-experiences/)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 
@@ -38,6 +41,7 @@ There is no intuitive interface, just "easy-to-learn" interface.
 * [Epicenter design first](http://jordankoschei.com/interface-design-non-interface-designers/)
 * [Designing screens using cores and paths](http://boxesandarrows.com/designing-screens-using-cores-and-paths/)
 * [The User is Drunk](https://www.youtube.com/watch?v=r2CbbBLVaPk)
+* [Test for color blind](http://blog.venn.lc/designing-for-the-color-blind/)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 >

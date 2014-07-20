@@ -11,6 +11,8 @@
 * [NYTimes's CMS](http://open.blogs.nytimes.com/2014/06/17/scoop-a-glimpse-into-the-nytimes-cms/)
 * [How to write for the web](http://demosthenes.info/blog/531/How-To-Write-For-The-Web-Murder-Your-Darlings)
 * [Readability score](https://readability-score.com/)
+* [Longform content with craft matrix](http://alistapart.com/blog/post/longform-content-with-craft-matrix/)
+* [Pacing content](https://the-pastry-box-project.net/jason-santa-maria/2014-june-15)
 
 Purpose of layouts:
 

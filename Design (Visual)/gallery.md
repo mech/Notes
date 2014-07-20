@@ -18,6 +18,10 @@
 * [Call to Idea](http://www.calltoidea.com/)
 * [Use your Interface](http://useyourinterface.com/)
 * [Brian Lovin](http://blog.brianlovin.com/)
+* [Collate](http://www.thisiscollate.com/)
+* [It's Nice That](http://itsnicethat.com/)
+* [httpster](http://httpster.net/)
+* [A lot more here](https://news.layervault.com/stories/28423-ask-dn-what-websites-do-you-visit-for-inspiration)
 
 ## Mobile
 
@@ -25,3 +29,4 @@
 * [Android Niceties](http://androidniceties.tumblr.com/)
 * [pttrns](http://pttrns.com/)
 * [app.itize](http://app.itize.us/)
+* [hoverstat](http://hoverstat.es/)

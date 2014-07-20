@@ -6,6 +6,8 @@
 * [Some nice gems here](http://www.22ideastreet.com/blog/2014/04/30/starting-on-an-existing-rails-project/)
 * [Rails idioms considered harmful](http://jgaskins.org/blog/2014/5/18/rails-idioms-considered-harmful)
 * [ActiveSupport::Notifications, statistics and using facts to improve your site](http://www.reinteractive.net/posts/141-activesupport-notifications-statistics-and-using-facts-to-improve-your-site)
+* [Geo pinpoint IP](http://voiceofchunk.com/2014/07/12/getting-geolocal-with-pointpin/)
+* [Nice blog on Rails](http://dev.mensfeld.pl/)
 
 ## Object-Oriented Rails
 
@@ -25,6 +27,7 @@ Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensu
 
 * [Digging into Rails 4](http://code.tutsplus.com/tutorials/digging-into-rails-4--net-31255)
 * [What's new in ActiveRecord](http://blog.remarkablelabs.com/2012/12/what-s-new-in-active-record-rails-4-countdown-to-2013)
+* [Upgrading from Rails 3.2 to Rails 4.0](http://dev.mensfeld.pl/2013/07/upgrading-to-rails-4-0-from-rails-3-2-test-case-part-ii-assets-models/#initialize)
 
 ## 4.1
 
@@ -34,6 +37,13 @@ Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensu
 ## ActiveRecord
 
 * [7 patterns to refactor fat ActiveRecord models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/)
+
+## Arel
+
+```
+User.find_or_initialize_by_email('mech@me.com')  # Rails 3.2
+User.find_or_initialize_by(email: 'mech@me.com') # Rails 4.0
+```
 
 ## Caching
 
@@ -50,6 +60,10 @@ See [Monterail's list of useful gems](https://github.com/monterail/guidelines/bl
 
 * [Lograge - Taming Rails' default request logging](https://github.com/roidrage/lograge)
 * [Figaro - For configuring Rails application like ENV settings](https://github.com/laserlemon/figaro)
+
+## Security
+
+* [OWASP's cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
 
 ## Tips
 

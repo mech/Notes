@@ -2,6 +2,7 @@
 
 Swift makes your code SAFE, MODERN, and POWER.
 
+* [Official Apple's Swift blog](https://developer.apple.com/swift/blog/)
 * [All the Swift things](http://thechangelog.com/all-the-swift-things/)
 * [Learn Swift](http://www.learnswift.tips/)
 * [Twitter bird zoom animation in Swift](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation)

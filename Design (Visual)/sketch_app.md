@@ -18,6 +18,9 @@
 * [**Harnessing vector awesomeness in Sketch**](https://medium.com/@pnowelldesign/harnessing-vector-awesomeness-in-sketch-3c9621408138)
 * [Sketch chinese resources](http://sketchcn.com/)
 * [Export SVG](http://hackingui.com/design/my-workflow-to-export-svgs-out-of-my-photoshop-design-files/)
+* [10 reason to use illustration](http://bluegg.co.uk/10-reasons-to-use-illustration/)
+* [10 tips](http://saloon.io/10-tips-tricks-for-sketch/)
+* [Capture your work in time-lapse mode](http://schnappsformac.com/)
 
 ## Bezier
 
@@ -45,6 +48,9 @@
 * [Content generator](https://github.com/timuric/Content-generator-sketch-plugin)
 * [Symbols for Sketch](https://github.com/cognitom/symbols-for-sketch)
 * [Sketch Framer 3](https://github.com/bomberstudios/sketch-framer-3)
+* [Sketch Framer](https://github.com/bomberstudios/sketch-framer/)
+* [WCAG AAA color contrast](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
+* [Random opacity](https://github.com/adamhowell/random-opacity-sketch-plugin)
 
 ## Gallery
 

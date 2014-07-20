@@ -5,7 +5,6 @@ Think of Angular as a Model View View Model.
 * Model - The services (business logics and domain models)
 * View - HTML template
 * View Model - $scope + controller
-
 * [Angular Gap](http://angulargap.github.io/)
 * [Angular vs Ember](http://eviltrout.com/2013/06/15/ember-vs-angular.html)
 * [John Lindquist](http://johnlindquist.com/)
@@ -13,6 +12,7 @@ Think of Angular as a Model View View Model.
 * [Introduction to Angular in 50 examples](https://github.com/curran/screencasts/tree/gh-pages/introToAngular)
 * [AngularJS and D3](http://vicapow.github.io/angular-d3-talk/slides/#/1)
 * [Make your own AngularJS](http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html)
+* [Angular for beginner](https://news.layervault.com/stories/28546-angularjs--how-to-start-)
 
 List of books
 

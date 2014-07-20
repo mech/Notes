@@ -19,6 +19,7 @@
 * Only 3D transforms qualify for their own layer; 2D transforms don't.
 * [Capture CSS3 animation in JavaScript](http://www.sitepoint.com/css3-animation-javascript-event-handlers/)
 * [Controlling CSS animations and transitions with JavaScript](http://css-tricks.com/controlling-css-animations-transitions-javascript/)
+* [May not be good code examples](http://jackonthe.net/css3animateit/examples)
 
 ## Velocity.js
 
@@ -43,6 +44,8 @@
 * [Slide in as you scroll like Google+ app](http://css-tricks.com/slide-in-as-you-scroll-down-boxes/)
 * [Case study](http://www.justinaguilar.com/)
 * [Steady.js](http://lafikl.github.io/steady.js/)
+* [The guide to scrolling animation](http://ihatetomatoes.net/guide-scrolling-animation-libraries/)
+* [Scrolling progress bar](http://www.webdesigncrowd.com/scrolling-progress-bar/)
 
 ## Examples
 
@@ -85,3 +88,4 @@ p {
 ## Tools
 
 * [Animatron - an online tool to create HTML5 animations](http://animatron.com/)
+* [Outracks](http://www.outracks.com/realtime_studio.html)

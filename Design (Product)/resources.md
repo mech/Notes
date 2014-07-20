@@ -41,6 +41,8 @@
 * [The disciplined pursuit of less](http://blogs.hbr.org/2012/08/the-disciplined-pursuit-of-less/)
 * [Keep your product healthy everyday](http://developers.livechatinc.com/blog/keep-your-product-healthy-everyday/)
 * [Stupid side projects](http://firstround.com/article/Spotifys-Design-Lead-on-Why-Side-Projects-Should-be-Stupid)
+* [Simple design is what you need](http://firstround.com/article/Simple-Design-is-What-You-Need-Not-What-You-Want-1)
+* [The Product Spectrum](https://medium.com/my-thoughts-7/the-product-spectrum-bb2084b6f5b3)
 
 User research == Customer development
 
@@ -66,12 +68,28 @@ Intermingle with business and marketplace.
 
 90% of startups failed.
 
+Don't ask "Can you build it"! Ask "should you build it"!
+
+Validate these:
+
+* Problem - Is there a problem your app is solving? Is anyone care about that problem even? If so, validate it!
+* Market - Are there enough people who have this problem and care about this problem?
+* Product - Is our product solving this problem for this market?
+
+Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questions. You won't learn much. Ask behavioral questions.
+
 ## Behavioural
 
 * [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
 * [Asking users to adopt new behaviors or even modify their existing behaviors is very hard](http://www.subtraction.com/2014/06/12/designing-products-for-existing-behaviors/)
 * [Persuasion: Applying the elaboration likelihood model to design](http://alistapart.com/article/persuasion-applying-the-elaboration-likelihood-model-to-design)
 * [How to use persona empathy mapping](http://uxmag.com/articles/how-to-use-persona-empathy-mapping)
+* [Guide to networking](http://blog.pickcrew.com/a-guide-to-networking-for-people-who-suck-at-networking/)
+* [Google IO 2014 - Perfectly executing the wrong plan](https://www.youtube.com/watch?v=9TJTbRw4ri8)
+
+> Don't listen to user. Observe their behaviors.
+
+> We are having trouble predicting our behavior
 
 
 ## Card-based Design
@@ -126,6 +144,10 @@ Intermingle with business and marketplace.
 * [The future of the airline website by f-i](http://www.f-i.com/fi/airlines/)
 * [Slack by Metalab](http://www.metalabdesign.com/projects/slack/)
 * [Harmonia team tasks](http://harmonia.io/blog/the-secret-to-successful-team-tasks/)
+* [Threes](http://www.wired.com/2014/05/threes-game-design/)
+* [Threes development](http://asherv.com/threes/threemails/#letter)
+* [Making of Aprilzero](http://aprilzero.com/journal/making-of-aprilzero/)
+* [Airbnb process](http://www.wearedesignstudio.com/works/airbnb-process/)
 
 ## Product News
 

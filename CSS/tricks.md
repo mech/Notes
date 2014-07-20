@@ -12,6 +12,8 @@
 * [Characters using box-shadow](http://blog.codeschool.com/post/89758324803/designing-characters-with-box-shadow)
 * [Simpsons in CSS](https://pattle.github.io/simpsons-in-css/)
 * [Responsive background image](http://sixrevisions.com/css/responsive-background-image/)
+* [Paper shadow](http://codepen.io/ashleynolan/pen/djpCG/?editors=110)
+* [Fading effect using blend modes](http://blogs.adobe.com/webplatform/2014/07/09/fade-transition-effects-using-blend-modes/)
 
 ```
 /* do nothing when clicked even through JavaScript */
@@ -148,4 +150,10 @@ input {
 .sponsor-intro
 .sponsor-name
 .sponsor-url
+.byline
+.quick-summary
+.feature-grid
+.hero
+.colored
+.stripe
 ```

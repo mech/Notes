@@ -5,6 +5,10 @@
 * [Design Resources](https://medium.com/design-ux/799d16952a56)
 * [Emoji spec](http://www.unicode.org/reports/tr51/full-emoji-list.html)
 
+## Videos
+
+* [Documentaries](https://news.layervault.com/stories/28774-7-graphic-design-documentary-you-should-be-watching)
+
 ## Color
 
 * **Color Mode** - A way to describe color with numbers. RGB, CMYK, Lab, HSL
@@ -25,6 +29,7 @@
 * [Understanding the pixel grid](http://blog.symbolset.com/understanding-the-pixel-grid)
 * [Icon design resources](http://www.madebyollin.com/blog.html#icon_design_resources)
 * [Inspecting Yosemite icons](http://martiancraft.com/blog/2014/07/inspecting-yosemite-icons/)
+* [2013 Logo Trends](http://www.logolounge.com/article/2013logotrends/#.U8pRBICSzyA)
 
 ## Logo
 

@@ -1,6 +1,7 @@
 # Web Components
 
 * [Shadow DOM](http://acko.net/blog/shadow-dom/)
+* [Custom Elements - A Web Components gallery](http://customelements.io/)
 
 ## Components
 

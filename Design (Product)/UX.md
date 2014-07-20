@@ -13,6 +13,8 @@
 * [UX Beginner](http://www.uxbeginner.com/)
 * [UX Metrics](http://www.dtelepathy.com/ux-metrics)
 * [Google UXD](http://developerlife.com/ux/)
+* [It's a great time to be a UX designer](http://aneventapart.com/news/post/its-a-great-time-to-be-a-ux-designer-by-jared-spool-an-event-apart-video/)
+* [Rapid user testing](http://fakecrow.com/rapid-user-testing/)
 
 ## Behaviorism
 

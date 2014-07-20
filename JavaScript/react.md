@@ -22,6 +22,7 @@ Model your UI as pure function.
 * [React vs Angular](http://stackoverflow.com/questions/21111217/react-vs-angular)
 * [The question of having DOM in JavaScript](https://twitter.com/jo_liss/status/459101670656708608)
 * [Faster AngularJS rendering with ReactJS](http://www.williambrownstreet.net/blog/2014/04/faster-angularjs-rendering-angularjs-and-reactjs/)
+* [Quickcoin nice React programming](http://quickcoin.co/tech/responsive-design-and-multi-platform-live-coding/)
 
 ```
 var gulp = require('gulp');

@@ -13,6 +13,8 @@
 * [Provide meaning with motion](http://paulstamatiou.com/design-provide-meaning-with-motion/)
 * [Polymer Web Animation](http://www.polymer-project.org/platform/web-animations.html)
 * [Dribbble for motion?](http://rndr.co/)
+* [Motion study.. hmmms](http://justinmezzell.tumblr.com/)
+* [Skeuomorphic motion](http://brolik.com/blog/motion-new-skeuomorphism/)
 
 ## Quartz Composer
 
@@ -29,7 +31,7 @@
 * [Framer.js tips](https://medium.com/framer-js/framer-js-tips-ca55fc7cfc61)
 * [Prototyping swipe and drag gestures with Framer 3](https://medium.com/building-potluck/prototyping-swipe-and-drag-gestures-with-framer-3-2e405d50b600)
 
-## After  Effect
+## After Effect
 
 * [UX in Motion - $500](http://uxinmotion.net/rapid-protoyping-with-after-effects/)
 * [AE script - $25](http://www.mtmograph.com/motion/)

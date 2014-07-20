@@ -73,3 +73,7 @@ See http://stackoverflow.com/questions/10039039/why-self-method-of-module-cannot
 1. Tune GC. `GC.stat[:minor_gc_count]`, `RUBY_GC_HEAP_GROWTH_FACTOR`, `RUBY_GC_MALLOC_LIMIT`
 2. OobGC for unicorn
 3. valgrind.org
+
+## CSV
+
+* [Parsing CSV with Ruby](http://technicalpickles.com/posts/parsing-csv-with-ruby/)

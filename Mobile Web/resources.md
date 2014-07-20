@@ -7,6 +7,22 @@
 * [Make your site work on touch devices](http://www.creativebloq.com/javascript/make-your-site-work-touch-devices-51411644)
 * [Responsive design signals larger change](http://www.vanseodesign.com/web-design/responsive-design-signals-larger-change/)
 
+## List of screen resolution
+
+|   Device  |       Resolution       |  DPI   |
+| --------- | ---------------------- | ------ |
+| iPhone    | 320 x 480              | 163dpi |
+| iPhone 4  | 640 x 960              | 326dpi |
+| iPhone 5  | 640 x 1136 (320 x 568) | 326dpi |
+|           |                        |        |
+| iPad      | 768 x 1024             | 132dpi |
+| iPad 3    | 1536 x 2048            | 264dpi |
+| iPad Mini | 768 x 1024             |        |
+|           |                        |        |
+| Nexus 7   | 600 x 960              | 323dpi |
+| Nexus 10  | 800 x 1280             | 300dpi |
+| Nexus 5   | 360 x 598              | 445dpi |
+
 ## Frameworks for Mobile Web
 
 * [App.js](http://code.kik.com/app/2/index.html)
@@ -39,6 +55,47 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 * [Good resource for knowing the logical operators of media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 * [Responsive JavaScript](http://www.csskarma.com/blog/responsive-javascript/)
 * [Responsive design tool for Brackets](http://www.leebrimelow.com/responsive-design-with-adobe-brackets/)
+* [Essential considerations for crafting quality media queries](http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/)
+
+Use [Respond.js](https://github.com/scottjehl/Respond) for IE6-8. It supports only `min-width` and `max-width`, but that is enough to kick started.
+
+```
+<!--[if (lt IE 9)&(!IEMobile 7)]>
+<script src="respond.min.js"></script>
+<![endif]-->
+```
+
+```
+if (window.matchMedia("(min-width: 40em)").matches) {
+	// load stuff}
+```
+
+### Mobile-first
+
+```
+// Mobile-first style
+@media screen and (min-width: 50em) {
+	.col {
+		float: left;
+		width: 50%;
+	}
+}
+
+// Do not do desktop-first
+.col {
+	float: left;
+	width: 50%;
+}
+
+@media screen and (max-width: 50em) {
+	.col {
+		float: none;
+		width: auto;
+	}
+}
+```
+
+Get your thinking right first. Just because you develop using a desktop browser does not mean you need to think desktop-first!
 
 ## Meta Viewport
 
@@ -59,7 +116,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
   height: 60px;
   background-image: url(logo.png) no-repeat;
   background-size: 100% 100%;
-  
+
   // Or half it
   background-size: 100px 100px, 100% 100%;
 }
@@ -67,7 +124,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .logo {
     background-image: url(logo@2x.png) no-repeat;
-    
+
     // Or half it
     background-size: 50px 50px;
   }

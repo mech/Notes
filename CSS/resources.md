@@ -8,6 +8,7 @@
 * [Some libs and frameworks to consider](http://speckyboy.com/2014/06/02/css-libraries-frameworks-tools/)
 * [CSS naming conventions - Less rules more fun](https://medium.com/@drublic/css-naming-conventions-less-rules-more-fun-12af220e949b)
 * [Polymer paper elements](http://www.polymer-project.org/components/paper-elements/demo.html#paper-shadow)
+* [Guard against color misuse](https://github.com/SlexAxton/css-colorguard)
 
 ## line-height
 

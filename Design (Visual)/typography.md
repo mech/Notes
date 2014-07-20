@@ -21,6 +21,7 @@
 * [`font-feature-settings` CSS property](http://kennethormandy.com/journal/normalize-opentype-css)
 * [Subsetting CSS font to load page fast](http://demosthenes.info/blog/878/Slash-Page-Load-Times-With-CSS-Font-Subsetting)
 * [Type rendering on the web](http://blog.typekit.com/2010/10/05/type-rendering-on-the-web/)
+* [Better font rendering on OS-X](http://maximilianhoffmann.com/posts/better-font-rendering-on-osx)
 
 ```
 // New for Firefox 25
@@ -45,3 +46,5 @@
 * [Urban Grotesk](http://www.myfonts.com/fonts/suitcase/urban-grotesk/)
 * [Some great choices](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-june-2014)
 * [Beautiful Google type](http://hellohappy.org/beautiful-web-type/?1)
+* [Noto](http://www.google.com/get/noto/#/)
+* [FF Franziska](http://fffranziska.com/)

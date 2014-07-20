@@ -64,6 +64,41 @@ Something to break the ICE:
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)
 
+## Lean UX
+
+MVP - The smallest amount of work necessary to start learning!
+
+* Cross-functional
+* Design and development in parallel. Informs each other.
+* From doubt to certainty. Risk you are taking is tiny. The paper prototype is cheap. If it doesn't work out, throw away it quick.
+* Generating many options and decide quickly what to pursue.
+* Recognize hypotheses and validate them.
+* Goal driven
+* Outcome focused
+* Think/Make/Check
+* State your desired outcomes - What success looked like?
+* Declare your assumptions and then hypothesize: Write the test first (TDD in product)
+* Get out of the building
+* De-risking gradually by moving from doubt to certainty (concrete)
+* Business is an assumption. If market does not validate, your guess (no matter how smart and beautiful) will be wrong.
+* Discovery approach
+* Learning as the unit of progress
+
+What assumptions do you have about your customers that if proven false, will cause you to fail? In other words: what do you need to know in order to move forward successfully?
+
+Every design decision is a hypothesis. Declare your assumptions and test them. Evaluate your results ruthlessly, and be prepared to change course.
+
+* Prioritize learning over growth
+* Prioritize making over analysis
+* Reality testing
+
+> We believe that [doing this] for [these people] will achieve [this outcome]
+> We'll know this is true when we see [this market feedback]
+
+Change in behavior = Our KPI
+
+**Features** achieve our **outcome** (change in behavior).
+
 ## Mech's Process
 
 * Collect phase (Diverge) - Don't evaluate, just collect. Don't edit. Use "echo technique" to talk back and reaffirm with stakeholder. Moderate, don't edit. Take pictures. Share result.
@@ -74,7 +109,7 @@ Something to break the ICE:
 
 ---
 
-1. Know your personas
+1. Know your (lightweight) personas. Who we believed we're building our product for. Perceived target audience. Personas drive **outcome**.
 2. Measure and iterate
 3. Scale out (more machines) is better
 4. Share as soon as possible
@@ -86,3 +121,12 @@ Something to break the ICE:
 10. Win or learn. There is no loser in a design sprint.
 11. Solving the right problem first.
 12. Make great things. Fast.
+13. Customer journey for XXX
+14. Paper prototype (you always forget this!)
+15. Small chunk of risk. An app that do 1 thing. Then learn and grow.
+16. Time-box. You know you're done when you run out of time.
+
+---
+
+> **How often should you iterate a design?**
+> Identifying elements that require investigation vs those that are good already is more important than trying to apply a single rule to everything. - @bjango

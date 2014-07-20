@@ -28,6 +28,7 @@ Don't operating on wrong assumption. Expose your ignorance.
 * [Ember.js with Ruby on Rails](http://blog.abuiles.com/ember-js-with-ruby-on-rails/)
 * [Shared terminology yet different concepts between Ember.js and Rails](http://robots.thoughtbot.com/shared-terminology-yet-different-concepts-between-emberjs-and-rails)
 * [Ember and Polymer](https://news.ycombinator.com/item?id=7945084)
+* [Tuts+ Let's Learn Ember](http://courses.tutsplus.com/courses/lets-learn-ember)
 
 ```
 Ember.run.once();
@@ -148,6 +149,8 @@ Every ember has a default top-level `ApplicationRoute` with a first nested `Inde
 | Template   | `tables`                                        |
 
 ## URLs and Routing
+
+* [What should my Rails routes look like to work with pushState](http://stackoverflow.com/questions/12116804/what-should-my-rails-routes-look-like-to-work-with-pushstate-ember-js-routes)
 
 The shareable part. Ember router presents a DSL that helps bridge user-readable URLs with an *application-level state machine*. **As you enter or exit URLs, the router signals to routes that they should configure or cleanup.**
 

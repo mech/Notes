@@ -12,6 +12,8 @@
 * [Writing fast memory efficient JavaScript](http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/)
 * [Paul Lewis](http://aerotwist.com/blog/)
 * [How the browser preloader makes pages load faster](http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/)
+* [Optimizing 60fps everywhere in JavaScript](https://engineering.gosquared.com/optimising-60fps-everywhere-in-javascript)
+* [High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545/ch02.html#OPTIMIZING_TCP)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

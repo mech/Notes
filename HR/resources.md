@@ -12,6 +12,11 @@
 * [Information Age vs Networked Age](https://www.linkedin.com/today/post/article/20140604152945-1213-the-information-age-to-the-networked-age-are-you-network-literate)
 * [Market yourself](https://medium.com/@rhysfisher1/winning-in-the-current-job-market-fb45943fdc2c)
 * [Future of recruiting?](http://www.ere.net/2012/10/12/recruitment-5-0-the-future-of-recruiting-the-final-chapter/)
+* [Can't get a job from an algorithm](http://www.bloomberg.com/news/2014-07-14/algorithms-cull-prospects-in-slow-u-s-jobs-recovery.html)
+
+## PDPA
+
+* [FAQ](https://www.pdpc.gov.sg/faqs/faqs-for-individuals)
 
 ## Problem
 
@@ -26,6 +31,15 @@ Categories must not be 3 level deep. The Inception Rule.
 ## Resume CV
 
 * [What does your CV look like?](https://news.layervault.com/stories/24671-ask-dn-what-does-your-rsum-cv-look-like)
+* [JSON Resume](http://jsonresume.org/)
+* [JSON Resume github](https://github.com/jsonresume)
+* [Creative CV inspiration](http://uk.pinterest.com/giveagradago/creative-cv-inspiration/)
+* [Visual CV gallery](http://uk.pinterest.com/webrecruit/visual-cv-gallery/)
+* [Info CV](http://uk.pinterest.com/rtkrum/infographic-visual-resumes/)
+* [Guide to UX resume](http://www.uxbeginner.com/complete-guide-to-ux-resumes-and-a-free-template/)
+* [Great looking CV from the power of Markdown](http://decksetapp.com/)
+
+Using themes examples from Deckset app, we can convert each candidate's CV into beautiful on-screen presentation. Recruiters or hiring managers can swipe left to reveal their CV like interest, photos, past works/achievements, educations, etc.
 
 ## Job Description
 
@@ -50,6 +64,10 @@ Categories must not be 3 level deep. The Inception Rule.
 * Function / Domain
 * Paid time off (PTO)
 
+## Skills
+
+* [A nice chart on skills instead of using percentage](http://jsfiddle.net/3jVFu/3/)
+
 ## Graph
 
 * Heatmap
@@ -68,6 +86,7 @@ Categories must not be 3 level deep. The Inception Rule.
 * Leaderboard for recruiter - hotness/goodness (aggregate of things), decay function
 * [Sharing economy? Sharing resume?](https://medium.com/the-nib/the-case-against-sharing-9ea5ba3d216d)
 * [Can CP be the Airbnb of HR? 2-sided marketplace. Host == Client and Guest == Candidate](http://nerds.airbnb.com/experiments-at-airbnb/)
+* [Many card based design case studies](http://liftux.com/posts/using-github-issues-project-management/)
 
 ### Workflow Ideas
 

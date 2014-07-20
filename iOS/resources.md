@@ -5,6 +5,12 @@
 * [iOS UI - Storyboards vs NIBs vs custom code](http://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
 * [The state of hybrid mobile development](http://developer.telerik.com/featured/the-state-of-hybrid-mobile-development/)
 * [iOS 8 Privacy](http://lmjabreu.com/post/ios-8-privacy-updates/)
+* [Great resource for iOS](http://www.raywenderlich.com/)
+* [iOS Design Cheat Sheet](https://www.drawar.com/ios/cheat-sheet)
+* [NSHipster](http://nshipster.com/)
+* [Nice CFHipsterRef book](https://gumroad.com/l/cfhipsterref)
+* [NSHipster Fake Book](https://gumroad.com/l/the-nshipster-fake-book)
+* [Subscription model - Pricing!](http://latticelabs.com/blog/2013/09/premium-freemium-subscription/)
 
 ## Animation
 

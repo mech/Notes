@@ -19,6 +19,8 @@
 * [Hood.ie - Offline](http://hood.ie/)
 * [Side comment like Medium](http://aroc.github.io/side-comments-demo/)
 * [Background cover image with video](https://github.com/stefanerickson/covervid/)
+* [Cache scripts in LocalStorage](http://addyosmani.github.io/basket.js/)
+* [Validator using Bootstrap 3?](http://bootstrapvalidator.com/)
 
 ## Auto-complete
 

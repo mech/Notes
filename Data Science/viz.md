@@ -7,7 +7,7 @@ From tables to graphs. From CSV to plot. Numbers are central to our understandin
 Numbers have an important story to tell, and it is up to us to help them tell it.
 
 * [The Data Visualisation Catalogue](http://www.datavizcatalogue.com/)
-* [Dataveyes](http://dataveyes.com/#!/en/works)
+* [**Dataveyes**](http://dataveyes.com/#!/en/works)
 * [When data is simple, visualising it improve intuition](http://minuum.com/taps-and-swipes/)
 * [How to lie with data visualization](http://data.heapanalytics.com/how-to-lie-with-data-visualization/)
 * [Hello Processing](http://hello.processing.org/)
@@ -19,6 +19,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Simply amazing - How to fold a Julia fractal](http://acko.net/blog/how-to-fold-a-julia-fractal/)
 * [Visualizing algorithms](http://bost.ocks.org/mike/algorithms/)
 * [Devoted to telling stories in Asia with hard numbers](http://www.binaryabacus.io/)
+* [A visual approach to scientific communication](https://medium.com/@siranachronist/a-visual-approach-to-scientific-communication-68c868b69d6b)
 
 ## d3.js
 

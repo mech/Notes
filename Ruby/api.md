@@ -332,6 +332,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [AccuWeather API](http://api.accuweather.com/)
 * [The New York Times API](http://developer.nytimes.com/docs)
 * [Kanbanize](https://kanbanize.com/ctrl_integration)
+* [Yelp](http://www.yelp.com/developers/documentation)
 
 ## Videos
 

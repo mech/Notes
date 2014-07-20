@@ -23,6 +23,7 @@ Steps to do layout:
 4. Any extra wrapper/grouping to use or not.
 5. Always use normal document flow to layout and only use float when necessary.
 6. Always have grid system. Think of it as your shelves. You put up your shelves then fill them with your stuff. By setting up our grids separately to our components you can move components around a lot more easily then if they had dimensions applied to them.
+7. Find the content constraint and then use it to determine the grid.
 
 Types of layout: Fixed, Fluid, Elastic, Hybrid, Responsive.
 
@@ -97,6 +98,20 @@ Use of `min-width` and `max-width` common.
 * [Responcss](http://responcss.com/)
 * [Discover the perfect grid](http://www.webdesignerdepot.com/2014/06/grid-systems-discover-the-perfect-building-blocks-for-your-website-design/)
 
+Don't be afraid to mix it up and implement a 3 or 5 column grid. No need to always use 12-column layout. Sometimes, simpler really is better.
+
+Because the web is unlike print, you don't have pre-determine dimension. You need to work **content-out**: let the content define the grid.
+
+* Mobile-First
+* Content-Out
+* Future-Friendly
+* System Design
+* Offline-First
+
+## display: table
+
+* [Nice introduction to `display: table`](http://www.digital-web.com/articles/everything_you_know_about_CSS_Is_wrong/)
+
 ## Flexbox
 
 Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blackberry 10+.
@@ -110,6 +125,7 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 * [Design flexible layouts](http://www.wpmemorize.com/2013/css-flexbox-to-design-flexible-layouts/)
 * [Flexbox example](http://devbryce.com/site/flexbox/)
 * [Flexbox - Next-generation CSS Layout has arrived](http://blog.teamtreehouse.com/flexbox-next-generation-css-layout-arrived)
+* [Flexbox based responsive equal height](http://osvaldas.info/flexbox-based-responsive-equal-height-blocks-with-javascript-fallback)
 
 `flex-wrap` not supported in Firefox, so be careful.
 
@@ -164,6 +180,7 @@ So what's the limitations of float-based layout?
 
 ---
 
+* [The secret to designing layouts without CSS floats](http://www.webdesignerdepot.com/2014/07/the-secret-to-designing-website-layouts-without-css-floats/)
 * [PPK's clearing float using `overflow:auto`](http://www.quirksmode.org/css/clearing.html)
 * [The very latest new new way to do clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)
 * [Which method of clearfix is best? - SO](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)

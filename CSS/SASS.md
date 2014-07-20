@@ -20,6 +20,7 @@
 * [Using Sass maps to manage color schemes](http://now.violet.is/color-scheming)
 * [Handy Sass mixins](http://web-design-weekly.com/2013/05/12/handy-sass-mixins/)
 * [Ampersand](http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/)
+* [Sass tooltips](http://hackingui.com/front-end/scss-tooltips/)
 
 
 ## Placeholder
@@ -42,6 +43,9 @@
 
 ## Map
 
+* [Play with list-maps](http://anotheruiguy.roughdraft.io/10302472-so-you-want-to-play-with-list-maps)
+
+
 ```
 $message-types: (
 	error: #b94a48,
@@ -59,4 +63,37 @@ $message-types: (
 @mixin size($width, $height: $width) {
 	width: $width;
 	height: $height;}
+```
+
+Variables for various font-weight
+
+```
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+```
+
+z-index organisation
+
+```
+$z-index: (
+  modal:      200,
+  navigation: 100,
+  triangle:   60
+);
+
+@function z-index($key) {
+	@return map-get($z-index, $key)}
+
+@mixin z-index($key) {
+	z-index: z-index($key);}
+
+.navigation {
+	@include z-index(navigation);}
 ```

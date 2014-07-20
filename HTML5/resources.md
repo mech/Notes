@@ -15,6 +15,7 @@
 * [Backbone responsive framework](http://www.cloud-eight.com/github/backbone/)
 * [What every frontend developer should know about webpage rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
+* [:focus accessibility](http://viget.com/inspire/managing-focus-styles-without-breaking-accessibility)
 
 ## IE
 
@@ -68,6 +69,7 @@ window.addEventListener('scroll', onScroll, false);
 * [Find Guidelines on the Web](http://findguidelin.es/)
 * [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
 * [All the style guides](http://allthestyleguides.tumblr.com/)
+* [List of brand guidelines](http://findguidelin.es/)
 
 ## HTML Boilerplate
 
@@ -109,3 +111,4 @@ It would be a shame to come up with all these fancy layouts if it turns out ther
 * [I Want to Use - Powered by caniuse.com](http://www.iwanttouse.com/)
 * [Rails and Livereload or Codekit](http://blog.55minutes.com/2013/01/lightning-fast-sass-reloading-in-rails-32/)
 * [Fireshell - like Yeoman](http://getfireshell.com/)
+* [DOMLint](http://kangax.github.io/domlint/)
