@@ -279,12 +279,27 @@ Give your application an API key, even if it is for internal private API, so tha
 * [Two-factor authentication in Rails](https://coderwall.com/p/qw7hwq)
 * [And how you can screw up 2FA](http://blog.meldium.com/home/2013/8/23/screw-up-two-factor-authentication)
 * [rails-csrf](https://github.com/abuiles/rails-csrf)
+* [API Security](http://devcenter.kinvey.com/rest/guides/security)
 
 ```
 curl -X PUT \
   -H "X-CP-REST-API-Key: ABC" \
   -d '{"score":123}' \
   https://host/api/score
+```
+
+## Faraday
+
+* [Faraday: Advanced HTTP requests made easy](http://mislav.uniqpath.com/2011/07/faraday-advanced-http/)
+* [multi_xml](https://github.com/sferik/multi_xml)
+* [`SSLError`](http://mislav.uniqpath.com/2013/07/ruby-openssl/)
+
+Can we write a Faraday middleware that parse XML coming from FileMaker's `fmresultset`?
+
+```
+FaradayMiddleware::ParseFileMakerXml
+
+response.body['metadata']
 ```
 
 ## Security

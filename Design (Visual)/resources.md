@@ -23,6 +23,7 @@
 
 ## Icon
 
+* [Ask Symbolset to help us design icon?](http://blog.symbolset.com/symbolset-for-brands)
 * [Iconjar](http://geticonjar.com/)
 * [ICONIC](https://useiconic.com)
 * [Rejected logo](http://rejectedlogocompetition.com/)
@@ -34,6 +35,7 @@
 ## Logo
 
 * [Logo validator](https://brandisty.com/validate)
+* [Helvetic Brands](http://www.helveticbrands.ch/work/)
 
 ## Golden Ratio
 

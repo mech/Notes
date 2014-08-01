@@ -8,6 +8,7 @@
 * [ActiveSupport::Notifications, statistics and using facts to improve your site](http://www.reinteractive.net/posts/141-activesupport-notifications-statistics-and-using-facts-to-improve-your-site)
 * [Geo pinpoint IP](http://voiceofchunk.com/2014/07/12/getting-geolocal-with-pointpin/)
 * [Nice blog on Rails](http://dev.mensfeld.pl/)
+* [Nice blog on Rails - ninefold](https://ninefold.com/blog/)
 
 ## Object-Oriented Rails
 

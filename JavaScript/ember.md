@@ -8,6 +8,7 @@ Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 
 Don't operating on wrong assumption. Expose your ignorance.
 
+* [Twitter search for Ember.js news](https://twitter.com/search?q=emberjs&src=typd)
 * [Ember Weekly](http://emberweekly.com/issues.html)
 * [Ghost using Ember.js](https://github.com/TryGhost/Ghost/issues/2144)
 * [An in-depth introduction to Ember.js (Smashing Magazine)](http://www.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
@@ -29,6 +30,7 @@ Don't operating on wrong assumption. Expose your ignorance.
 * [Shared terminology yet different concepts between Ember.js and Rails](http://robots.thoughtbot.com/shared-terminology-yet-different-concepts-between-emberjs-and-rails)
 * [Ember and Polymer](https://news.ycombinator.com/item?id=7945084)
 * [Tuts+ Let's Learn Ember](http://courses.tutsplus.com/courses/lets-learn-ember)
+* [Some nice things to learn from iOS MVVM](https://medium.com/@ramshandilya/lets-discuss-mvvm-for-ios-a7960c2f04c7)
 
 ```
 Ember.run.once();
@@ -625,6 +627,7 @@ If you use `Handlebars.SafeString`, be sure to escape any user input with `Handl
 
 ## Animations and Transitions
 
+* [Liquid Fire: Animations and Transitions for Ember Apps](http://ef4.github.io/liquid-fire/#/)
 * [ember-animation-demo](https://github.com/ef4/ember-animation-demo)
 * [ember-animate](https://github.com/gigafied/ember-animate)
 
@@ -665,6 +668,7 @@ Pre-render data server-side rather than calling 50+ Ajax on boot-time. Use serve
 
 ## Authentication and Session
 
+* [Torii - Best one to use?](https://github.com/vestorly/torii)
 * [Ember.SimpleAuth](https://github.com/simplabs/ember-simple-auth)
 * [ember-devise-simple-auth](https://github.com/d-i/ember-devise-simple-auth)
 * [End-to-end security](http://apigee.com/about/products/apis/edge-secure-enterprise-apis)

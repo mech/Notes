@@ -6,6 +6,9 @@
 * [Tool: Responsive viewport](http://cobyism.com/shapeshifter/)
 * [Make your site work on touch devices](http://www.creativebloq.com/javascript/make-your-site-work-touch-devices-51411644)
 * [Responsive design signals larger change](http://www.vanseodesign.com/web-design/responsive-design-signals-larger-change/)
+* [Like fastclick.js?](http://filamentgroup.com/lab/tappy.html)
+* [Designing Multi-Device Experiences](http://www.nirandfar.com/2014/07/how-successful-companies-design-for-users-multi-device-lives.html)
+* [Performance is the key for RWD](http://www.smashingmagazine.com/2014/07/22/responsive-web-design-should-not-be-your-only-mobile-strategy/)
 
 ## List of screen resolution
 
@@ -56,6 +59,8 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 * [Responsive JavaScript](http://www.csskarma.com/blog/responsive-javascript/)
 * [Responsive design tool for Brackets](http://www.leebrimelow.com/responsive-design-with-adobe-brackets/)
 * [Essential considerations for crafting quality media queries](http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/)
+* [Logic in media queries](http://css-tricks.com/logic-in-media-queries/)
+* [Another take](http://sassmeister.com/gist/1a0a43f1511b9bd75adf)
 
 Use [Respond.js](https://github.com/scottjehl/Respond) for IE6-8. It supports only `min-width` and `max-width`, but that is enough to kick started.
 

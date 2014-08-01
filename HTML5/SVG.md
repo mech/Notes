@@ -4,6 +4,7 @@ HTML for graphics! SVG has a DOM structure and you can even use CSS3 and JavaScr
 
 JavaScript inside SVG is disabled for image-based SVG.
 
+* [Lots of SVG information](http://css-tricks.com/mega-list-svg-information/)
 * [Awesome light ray](http://ncase.github.io/sight-and-light/)
 * [Control and filter settings using SVG and JavaScript](http://selfiecity.net/selfiexploratory/)
 * [Lonely Planet's switch from icon font to SVG](http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/)
@@ -23,6 +24,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [export-svg](https://github.com/mtreik/export-svg)
 * [Workflow to export SVG](http://hackingui.com/design/my-workflow-to-export-svgs-out-of-my-photoshop-design-files/)
 * [SVG workflow](https://news.layervault.com/stories/28025-ask-dn-switching-from-icon-fonts-to-svg-whats-your-workflow)
+* [Snippet expansion for Sublime Text](http://codepen.io/jorgeatgu/blog/svg-snippets)
 
 ```
 <text>

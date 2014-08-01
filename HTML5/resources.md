@@ -70,6 +70,7 @@ window.addEventListener('scroll', onScroll, false);
 * [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs/)
 * [All the style guides](http://allthestyleguides.tumblr.com/)
 * [List of brand guidelines](http://findguidelin.es/)
+* [Design Principles from GOV.uk](https://www.gov.uk/design-principles)
 
 ## HTML Boilerplate
 
@@ -93,6 +94,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [WTF Forms](http://wtfforms.com/)
 * [Placeholders](http://www.nngroup.com/articles/form-design-placeholders/)
 * [Advanced styling for HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)
+* [Placeholders or Labels](https://news.layervault.com/stories/29681-ask-dn-placeholders-or-labels)
 
 ## Content Strategy
 

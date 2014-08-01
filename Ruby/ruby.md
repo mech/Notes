@@ -64,6 +64,20 @@ FmStore.hostname # Notice the use of include in this way is equivalent to extend
 
 See http://stackoverflow.com/questions/10039039/why-self-method-of-module-cannot-become-a-singleton-method-of-class
 
+```
+module Faraday
+  # These are all utility class methods
+  class << self
+    attr_accessor :root_path
+    
+    def new(url = nil, options = nil)
+    end
+  end
+end
+```
+
+Prefer `module_function` over `extend self`.
+
 ## Service
 
 * [Gourmet Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
@@ -74,6 +88,20 @@ See http://stackoverflow.com/questions/10039039/why-self-method-of-module-cannot
 2. OobGC for unicorn
 3. valgrind.org
 
+## Performance
+
+* Benchmark/ips
+* stackprof
+* GC.stat() - how many objects do we allocate.
+* allocation_tracer
+* '<tr></tr>'.freeze
+
 ## CSV
 
 * [Parsing CSV with Ruby](http://technicalpickles.com/posts/parsing-csv-with-ruby/)
+
+## Strange looking code
+
+```
+article = Article.new.tap(&:save!)
+```

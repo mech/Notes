@@ -15,6 +15,12 @@
 * [Dribbble for motion?](http://rndr.co/)
 * [Motion study.. hmmms](http://justinmezzell.tumblr.com/)
 * [Skeuomorphic motion](http://brolik.com/blog/motion-new-skeuomorphism/)
+* [Layered animation](https://vimeo.com/101885482)
+
+## Famo.us
+
+* [Report from the famo.us private beta](http://differential.io/blog/report-from-the-famous-private-beta)
+* [Famo.us breaks down barriers](http://www.forbes.com/sites/anthonykosner/2014/05/30/famo-us-part-ii-javascript-platform-breaks-down-barriers-for-web-3-0-app-makers/)
 
 ## Quartz Composer
 
@@ -30,6 +36,8 @@
 * [Why Framer.js matters](https://medium.com/framer-js/93eb1206e606)
 * [Framer.js tips](https://medium.com/framer-js/framer-js-tips-ca55fc7cfc61)
 * [Prototyping swipe and drag gestures with Framer 3](https://medium.com/building-potluck/prototyping-swipe-and-drag-gestures-with-framer-3-2e405d50b600)
+* [Prototyping with Framer.js](http://blog.tackmobile.com/article/prototyping-framer-js/)
+* [Tumblr examples](http://framerjs.tumblr.com/)
 
 ## After Effect
 

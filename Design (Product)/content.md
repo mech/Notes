@@ -20,6 +20,8 @@ Purpose of layouts:
 2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
 3. **Associative Connection**. What goes with what?
 
+In the direct access world of the Web, it's the content itself (and not the gateway to that content) that often matters most.
+
 ## CMS Products
 
 * [contentful](https://www.contentful.com/)

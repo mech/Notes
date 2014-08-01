@@ -20,6 +20,9 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Visualizing algorithms](http://bost.ocks.org/mike/algorithms/)
 * [Devoted to telling stories in Asia with hard numbers](http://www.binaryabacus.io/)
 * [A visual approach to scientific communication](https://medium.com/@siranachronist/a-visual-approach-to-scientific-communication-68c868b69d6b)
+* [Iron Man](http://jayse.tv/v2/)
+* [GOV.uk](https://www.gov.uk/service-manual/user-centred-design/data-visualisation.html)
+* [BI tools using dark background](http://vpj.svbtle.com/black-or-white)
 
 ## d3.js
 

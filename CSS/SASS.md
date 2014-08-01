@@ -1,5 +1,6 @@
 # Sass
 
+* [SassDoc](https://github.com/SassDoc/sassdoc)
 * [Are we getting too sassy](http://ashleynolan.co.uk/blog/are-we-getting-too-sassy)
 * [Tips](http://csspre.com/)
 * [Understanding SASS lists](http://hugogiraudel.com/2013/07/15/understanding-sass-lists/)
@@ -26,6 +27,7 @@
 ## Placeholder
 
 * [Mixin or Placeholder](http://www.sitepoint.com/sass-mixin-placeholder/)
+* [Cross-media query @extend directives in Sass](http://www.sitepoint.com/cross-media-query-extend-sass/)
 
 ```
 @mixin center { display: block; margin-left: auto; margin-right: auto; }

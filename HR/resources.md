@@ -13,6 +13,8 @@
 * [Market yourself](https://medium.com/@rhysfisher1/winning-in-the-current-job-market-fb45943fdc2c)
 * [Future of recruiting?](http://www.ere.net/2012/10/12/recruitment-5-0-the-future-of-recruiting-the-final-chapter/)
 * [Can't get a job from an algorithm](http://www.bloomberg.com/news/2014-07-14/algorithms-cull-prospects-in-slow-u-s-jobs-recovery.html)
+* [Great Place to Work](http://www.greatplacetowork.com/2014-conference)
+* [Working from home alone is the real culprit](http://fortune.com/2013/03/19/working-from-home-alone-is-the-real-culprit/)
 
 ## PDPA
 
@@ -56,6 +58,7 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 ## Tools
 
 * [Natural language processing](http://orbitapi.com/)
+* [Eye tracking - Heatmap](http://www.eyequant.com/)
 
 ## Terms
 

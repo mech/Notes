@@ -31,12 +31,22 @@ To debug, we can:
 
 Ensure any objects or abstractions are very vaguely named to allow for greater reuse. Like `.ui-list` or `.media`. Extensions of objects should be much more explicitly named like `.user-avatar-link`.
 
+## OOCSS
+
+Based on 2 main principles:
+
+* Separate structure (functional style) and skin (visual style). Find visual patterns.
+* Separate container and content. Prevent location dependent styles.
+
+OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML and CSS.
+
 ## BEM
 
 * Block - The declaration of independence.
 * Element (sub-component) - Element cannot exist outside of its parent block's context. Detachable elements should become blocks instead.
-* Modifier (sub-module)
+* Modifier (sub-module) - A modifier is a property of a block or element that alters its look or behavior.
 * [CSSWizardry introducing BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+* [multiple classes vs `@extend`](http://bensmithett.com/bem-modifiers-multiple-classes-vs-extend/)
 
 The trick with BEM is knowing when something falls into a relevant category. One of the hardest parts of BEM is deciding when to start and stop scope, and when (or not) to use it. It's a case of 'you'll just know when you know'.
 

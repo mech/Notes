@@ -14,12 +14,29 @@
 * [Responsive background image](http://sixrevisions.com/css/responsive-background-image/)
 * [Paper shadow](http://codepen.io/ashleynolan/pen/djpCG/?editors=110)
 * [Fading effect using blend modes](http://blogs.adobe.com/webplatform/2014/07/09/fade-transition-effects-using-blend-modes/)
+* [Notification styles inspiration](http://tympanus.net/codrops/2014/07/23/notification-styles-inspiration/)
+* [Before:After image comparison slider](http://lea.verou.me/2014/07/image-comparison-slider-with-pure-css/#)
 
 ```
 /* do nothing when clicked even through JavaScript */
 .disabled { pointer-events: none; }
 ```
 
+```
+* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+```
+
+## Off-Canvas
+
+* [Secondary expandable navigation](http://codyhouse.co/gem/secondary-expandable-navigation/)
+* [Off canvas menus with CSS3 transitions and transforms](http://scotch.io/tutorials/off-canvas-menus-with-css3-transitions-and-transforms)
+* [Off screen menus transition](http://speckyboy.com/2014/03/28/off-screen-menus-transition-css3/)
+* [Off canvas menu animated links](http://thecodeplayer.com/walkthrough/off-canvas-menu-animated-links)
 
 ## Sites with tricks to learn
 

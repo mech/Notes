@@ -16,11 +16,12 @@ Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 * [Square's ES6 module transpiler](https://github.com/square/es6-module-transpiler)
 * [Some deep discussion on interop](https://github.com/square/es6-module-transpiler/issues/85)
 * [ES6 Tools](https://github.com/addyosmani/es6-tools)
-* [es6-module-loader](https://github.com/ModuleLoader/es6-module-loader)
+* [**es6-module-loader**](https://github.com/ModuleLoader/es6-module-loader)
 * [systemjs](https://github.com/systemjs/systemjs)
 * [estraverse](https://github.com/Constellation/estraverse)
 * [esprima](http://esprima.org/)
 * [Choc](http://www.fullstack.io/choc/)
+* [**es6-promise**](https://github.com/jakearchibald/es6-promise)
 
 ## Browserify
 

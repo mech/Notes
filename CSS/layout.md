@@ -36,9 +36,21 @@ Purpose of layouts:
 2. **Visual Hierarchy**. Guide the eye. Size, color, spacing, etc.
 3. **Associative Connection**. What goes with what?
 
+These are the options for layout:
+
+1. Flexbox
+2. `display: table`
+3. `inline-block` grid
+4. `float` grid
+
+---
+
+* [Web Fundamentals - Multi-device layouts](https://developers.google.com/web/fundamentals/layouts/)
+
 ## Scroll
 
 * [Rise of overflow scroll](http://www.northerndiv.com/hamburger-menu-rise-overflow-scroll/)
+* [`UITableView` in JavaScript](http://www.thecssninja.com/javascript/scrolllistview)
 
 ## Media Queries
 
@@ -75,12 +87,16 @@ Remember margins and padding calculate their value as a percentage of the PARENT
 * Percent: relative to the containing block.
 * Em: relative to the containing block's font size.
 
+If you put `em` at `margin`, `padding`, `width`, or `height`, the value will be multiply by the `font-size` of the element itself, and not the parent!
+
 Use of `min-width` and `max-width` common.
 
 * [FlexGRID](http://www.volumethemes.com/flexgrid)
 
 ## Grids
 
+* [Nicolas Gallagher's `inline-block` grid system](http://necolas.github.io/griddle/)
+* [Don't overthink grids](http://css-tricks.com/dont-overthink-it-grids/)
 * [Responsive Dirty Little Secret](http://www.palantir.net/blog/responsive-design-s-dirty-little-secret)
 * [Grid stylesheets](http://gridstylesheets.org/)
 * [Susy](http://susy.oddbird.net/)
@@ -97,6 +113,13 @@ Use of `min-width` and `max-width` common.
 * [Jeet](http://jeet.gs/)
 * [Responcss](http://responcss.com/)
 * [Discover the perfect grid](http://www.webdesignerdepot.com/2014/06/grid-systems-discover-the-perfect-building-blocks-for-your-website-design/)
+* [Using inline-block for grid](http://codepen.io/davidicus/pen/vxIra?editors=110)
+* [Concise Grid](http://concisecss.com/get-started/getting-started.php)
+* [Scut Grid](http://css-tricks.com/introducing-scut-new-sass-utility-library/)
+* [flexible.gs](http://flexible.gs/)
+* [Griddle - Nicolas Gallagher's grid](http://necolas.github.io/griddle/)
+* [Louder than Ten Layout](http://manual.louderthanten.com/layout)
+* [ungrid](http://chrisnager.github.io/ungrid/)
 
 Don't be afraid to mix it up and implement a 3 or 5 column grid. No need to always use 12-column layout. Sometimes, simpler really is better.
 
@@ -107,6 +130,8 @@ Because the web is unlike print, you don't have pre-determine dimension. You nee
 * Future-Friendly
 * System Design
 * Offline-First
+
+Grids work on two levels: first perception, then experience. That is, a user feels the grid, then he uses it.
 
 ## display: table
 
@@ -170,6 +195,8 @@ The top and bottom margins will combine give `20px`, but because of collapsing, 
 
 ## Float
 
+Because block elements typically span 100% of their parent container's width, floating an element **to the right** knocks it down to the next line. To fix it, just reverse the source order.
+
 So what's the limitations of float-based layout?
 
 * Difficulty with containment
@@ -185,6 +212,8 @@ So what's the limitations of float-based layout?
 * [The very latest new new way to do clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)
 * [Which method of clearfix is best? - SO](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)
 * [**Give floats the flick in CSS layouts**](http://www.sitepoint.com/give-floats-the-flick-in-css-layouts/)
+* [CSS float theory](http://www.smashingmagazine.com/2007/05/01/css-float-theory-things-you-should-know/)
+* [All about floats](http://css-tricks.com/all-about-floats/)
 
 If you don't support IE6/7, then don't bother clearing floats in these browsers. `zoom: 1` is only for IE6, so don't bother.
 
@@ -276,3 +305,4 @@ https://github.com/slightlyoff/cassowary.js
 ## Hacks
 
 * [Equal height using JavaScript! Really?](http://benhowdle.im/2014/01/29/easy-peasy-equal-heights/)
+* [????](https://app.useoctobox.com/#/collection/animals)

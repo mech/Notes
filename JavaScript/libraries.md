@@ -21,6 +21,7 @@
 * [Background cover image with video](https://github.com/stefanerickson/covervid/)
 * [Cache scripts in LocalStorage](http://addyosmani.github.io/basket.js/)
 * [Validator using Bootstrap 3?](http://bootstrapvalidator.com/)
+* [Text n Tags](http://daniel-zahariev.github.io/jquery-textntags/)
 
 ## Auto-complete
 

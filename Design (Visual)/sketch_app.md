@@ -21,6 +21,12 @@
 * [10 reason to use illustration](http://bluegg.co.uk/10-reasons-to-use-illustration/)
 * [10 tips](http://saloon.io/10-tips-tricks-for-sketch/)
 * [Capture your work in time-lapse mode](http://schnappsformac.com/)
+* [Portrait polygon](http://medialoot.com/blog/tutorial-polygon-portrait-poster-design/)
+* [Sketch for print design?](https://medium.com/@pnowelldesign/sketch-for-print-design-fd165b92cb3a)
+
+## Tools
+
+* [Mischief - $65](http://madewithmischief.tumblr.com/)
 
 ## Bezier
 
@@ -56,3 +62,4 @@
 
 * [Mikuloctopus](http://mikuloctopus.tumblr.com/)
 * [SHAPE - The film](http://makeshapechange.com/)
+* [Using 53's Paper](http://angelwhite24.tumblr.com/)

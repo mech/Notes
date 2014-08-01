@@ -11,12 +11,15 @@
 * [Nice CFHipsterRef book](https://gumroad.com/l/cfhipsterref)
 * [NSHipster Fake Book](https://gumroad.com/l/the-nshipster-fake-book)
 * [Subscription model - Pricing!](http://latticelabs.com/blog/2013/09/premium-freemium-subscription/)
+* [iOS 8 explained](http://www.imore.com/extensibility-ios-8-explained)
+* [Prompting for app reviews](https://medium.com/@dancounsell/prompting-for-app-reviews-97d9e78dd5fd)
 
 ## Animation
 
 * [Flux - iOS transition designer](http://www.nthstate.com/Flux)
 * [Animation explained](http://www.objc.io/issue-12/animations-explained.html)
 * [popping](https://github.com/schneiderandre/popping)
+* [Motion blur](http://holko.pl/2014/07/21/motion-blur/)
 
 ## Quartz Composer and Origami
 

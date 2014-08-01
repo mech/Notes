@@ -15,6 +15,7 @@
 * [Google UXD](http://developerlife.com/ux/)
 * [It's a great time to be a UX designer](http://aneventapart.com/news/post/its-a-great-time-to-be-a-ux-designer-by-jared-spool-an-event-apart-video/)
 * [Rapid user testing](http://fakecrow.com/rapid-user-testing/)
+* [Designing UI for your mum](https://medium.com/@TGines/designing-user-interfaces-for-your-mother-dd45ec50f7b0)
 
 ## Behaviorism
 

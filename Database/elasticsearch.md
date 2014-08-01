@@ -5,6 +5,13 @@
 * [Elasticsearch in Production](https://www.found.no/foundation/elasticsearch-in-production/)
 * [Document relations with Elasticsearch](http://www.youtube.com/watch?v=MXbsJsFfpV4)
 
+## Production
+
+* Don't use development setting
+* Use uni-cast.
+* Change `cluster.name`, `path.data`, `node.name`
+* 
+
 ## Parent-Child Indexing
 
 De-normalized during indexing!

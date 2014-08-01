@@ -81,6 +81,7 @@ gulp.task('build-stuff', function() {
 * [gulp-if](https://github.com/robrich/gulp-if)
 * [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins)
 * [gulp-colorguard](https://github.com/pgilad/gulp-colorguard)
+* [Critical path](https://github.com/addyosmani/critical)
 
 
 ## Grunt

@@ -1,5 +1,6 @@
 # Animation
 
+* [**Codrops playground**](http://tympanus.net/codrops/category/playground/)
 * [The 12 principles of animation](http://the12principles.tumblr.com/)
 * [Interaction ProTip](http://aerotwist.com/tutorials/)
 * [All the right moves tutorial series](https://vimeo.com/channels/alltherightmoves/)
@@ -20,6 +21,7 @@
 * [Capture CSS3 animation in JavaScript](http://www.sitepoint.com/css3-animation-javascript-event-handlers/)
 * [Controlling CSS animations and transitions with JavaScript](http://css-tricks.com/controlling-css-animations-transitions-javascript/)
 * [May not be good code examples](http://jackonthe.net/css3animateit/examples)
+* [Simple mixin for easing](http://codepen.io/winkerVSbecks/pen/Cihkr)
 
 ## Velocity.js
 
@@ -31,6 +33,7 @@
 
 * [Morphing buttons](http://tympanus.net/codrops/2014/05/12/morphing-buttons-concept/)
 * [Hover effect ideas](http://tympanus.net/Development/HoverEffectIdeas/)
+* [Dot navigation](http://tympanus.net/Development/DotNavigationStyles/)
 
 
 ## Famo.us

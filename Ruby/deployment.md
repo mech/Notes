@@ -36,6 +36,7 @@ X-Frame-Options: SAMEORIGIN
 ```
 
 * [SPDY on Rails](https://bugsnag.com/blog/spdy-on-rails/)
+* [How I manage Nginx config](http://tylergaw.com/articles/how-i-manage-nginx-config)
 
 ## Capistrano
 

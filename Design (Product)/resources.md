@@ -43,6 +43,9 @@
 * [Stupid side projects](http://firstround.com/article/Spotifys-Design-Lead-on-Why-Side-Projects-Should-be-Stupid)
 * [Simple design is what you need](http://firstround.com/article/Simple-Design-is-What-You-Need-Not-What-You-Want-1)
 * [The Product Spectrum](https://medium.com/my-thoughts-7/the-product-spectrum-bb2084b6f5b3)
+* [User engagement](http://noahbuscher.com/engagement/)
+* [How to land your first customers when you're unknown](http://casjam.com/your-first-customers/)
+* [The Factory OS](https://medium.com/@matter.io/the-factory-os-2a57a1de1e64)
 
 User research == Customer development
 
@@ -50,6 +53,7 @@ User research == Customer development
 
 * [Wireframe showcase](http://www.wireframeshowcase.com/)
 * [Prototyping your workflow](http://alistapart.com/article/prototyping-your-workflow)
+* [Streaming the design process: User flow to final design](https://medium.com/@wixelhq/streamlining-the-design-process-user-flow-to-final-design-using-sketch-ba71d2355bf9)
 
 ## Storyboard
 
@@ -59,6 +63,7 @@ Stories are broken into Epics. Epics has their main flow. Design the task flow w
 * [Writing a screenplay in Fountain](http://setpixel.com/writing/writing-a-screenplay-in-fountain/)
 * [Telling stories](http://www.webdesignerdepot.com/2014/06/telling-stories-on-the-web-the-hottest-way-to-engage-your-users/)
 * [Design stories](https://medium.com/@garyitsyu/my-design-process-square-cash-recurring-payments-5cba47bb6f3c)
+* [HD story](http://www.dissolve.com/)
 
 ## Lean and MVP
 
@@ -100,6 +105,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Tom Dale's Cards are the future of the web](http://www.youtube.com/watch?v=pwYwLBWvy7Q)
 * [Mobile UI with cards](https://medium.com/ux-ui-design/redefining-mobile-user-interfaces-with-cards-3ba4ed42c965)
 * [A serious look at card based design](http://webdesignledger.com/trends-2/cardbaseddesign)
+* [The most special things about cards that nobody is talking about](http://jordancooper.wordpress.com/2014/03/14/the-most-special-thing-about-cards-that-nobody-is-talking-about/)
+* [Focus on Card Architecture and not Card Design](http://taylordavidson.com/2014/cards)
 
 ## Quotes
 
@@ -126,6 +133,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * Positive Encouragement
 * [First time UX](http://firsttimeux.tumblr.com/)
 * [Stop asking me to sign up](http://www.gkogan.co/blog/stop-asking-me-to-sign-up/)
+* [On-boarding starts with a story](http://insideintercom.io/killer-user-onboarding-starts-with-a-story/)
 
 ## Legal
 
@@ -148,12 +156,17 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Threes development](http://asherv.com/threes/threemails/#letter)
 * [Making of Aprilzero](http://aprilzero.com/journal/making-of-aprilzero/)
 * [Airbnb process](http://www.wearedesignstudio.com/works/airbnb-process/)
+* [Hours](https://medium.com/@jerols/how-hours-became-a-top-grossing-app-c9b5abfcda7f)
+* [Pinterest](https://medium.com/@NicoMizono/pinterest-a-usability-study-4be3d7a99d3b)
+* [Product Hunt](http://firstround.com/article/Product-Hunt-is-Everywhere-This-is-How-It-Got-There)
 
 ## Product News
 
 * [Discover tomorrow's startups, today.](http://betali.st/)
 * [Product Hunt](http://www.producthunt.co/)
 * [Erli bird](http://erlibird.com/)
+* [Konigi](http://konigi.com/)
+* [Staying up to date](http://elweb.co/staying-up-to-date/)
 
 > Quantity can lead to quality - Lean. Execute. Don't overthink it.
 

@@ -17,6 +17,10 @@
 * [The product thesis](https://medium.com/@Evanish/the-product-thesis-3fd204e890a6)
 * [3 days or 3 months?](http://www.blog.imaginarycloud.com/2014/06/27/minimum-viable-product-design-3-days-or-3-months-work/)
 * [The amazing making of a Windows backup application](https://bvckup2.com/wip/)
+* [Car interaction design](http://www.driverfocusedhmi.com/#introduction)
+* [How to ruin your company with one bad process](http://www.bhorowitz.com/how_to_ruin_your_company_with_one_bad_process)
+* [What is design thinking?](http://www.whatisdesignthinking.org/)
+* [Design Principles from GOV.uk](https://www.gov.uk/design-principles)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 
@@ -60,13 +64,18 @@ Something to break the ICE:
 * [5 design problems we solved building the new GoSquared](https://medium.com/@jamesjgill/5-design-problems-we-solved-building-the-new-gosquared-66869f246d4a)
 * [Personal Design Sprint](http://franciscortez.com/design-sprint/)
 * [Google UXD](http://developerlife.com/ux/)
+* [Design process at Government Digital Service](https://gds.blog.gov.uk/2014/07/18/whats-the-design-process-at-gds/)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)
 
 ## Lean UX
 
+* [How we quickly test our ideas before building](http://tales.timehop.com/post/91976772996/how-we-quickly-test-our-ideas-before-building-and-the)
+
 MVP - The smallest amount of work necessary to start learning!
+
+Iteration reduces risk. It makes big failures unlikely and turns small failures into lessons.
 
 * Cross-functional
 * Design and development in parallel. Informs each other.
@@ -100,6 +109,10 @@ Change in behavior = Our KPI
 **Features** achieve our **outcome** (change in behavior).
 
 ## Mech's Process
+
+Product managers are constantly balancing the demands of speed and quality.
+
+If you can identify with that kernel of success - which is a user or customer succeeding with your product and feeling really good about it - and then figure out how to design a product that ensures that success among many users, that's when you've really nailed it.
 
 * Collect phase (Diverge) - Don't evaluate, just collect. Don't edit. Use "echo technique" to talk back and reaffirm with stakeholder. Moderate, don't edit. Take pictures. Share result.
 * Converge (Coalesce) - Narrow down and evaluate.

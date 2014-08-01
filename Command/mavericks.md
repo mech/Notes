@@ -1,7 +1,40 @@
 # System Installation with Mavericks
 
+For Old CP development on Mavericks, use `CC=gcc-4.8.3 rbenv install 1.8.7-p374` to install Ruby 1.8.7
+
+For installing Sphinx, you need to:
+
+```
+brew versions sphinx
+
+# Then pick
+# 2.0.9    git checkout 9d8f899 /usr/local/Library/Formula/sphinx.rb
+
+brew install sphinx --mysql
+
+# The SHA is wrong, so you just need to correct it.
+resource 'stemmer' do
+  url 'http://snowball.tartarus.org/dist/libstemmer_c.tgz'
+  # sha1 '69056075b9fa1382e07cec6c32c8e82f3f35677b'
+  sha1 'bbe1ba5bbebb146575a575b8ca3342aa3b91bf93'
+end
+```
+
+For installing ImageMagick, you need to:
+
+```
+cd /usr/local/Cellar/imagemagick/6.8.9-1/lib
+ln -s libMagick++-6.Q16.dylib  libMagick++.dylib                                                                                2.1.2
+ln -s libMagickCore-6.Q16.dylib libMagickCore.dylib                                                                             2.1.2
+ln -s libMagickWand-6.Q16.dylib libMagickWand.dylib
+```
+
+See http://stackoverflow.com/questions/13942443/error-installing-rmagick-on-mountain-lion
+
+---
+
 1. Install Xcode
-2. `xcode-select --install` to install Xcode Command Line Tools
+2. `xcode-select --install` to install Xcode Command Line Tools. Sometimes it is not available, so you need to go to the Developer site to download it.
 3. To make sure, type `gcc --version`
 4. Install `oh-my-zsh` via `curl`
 5. Install Homebrew. `brew update` and `brew doctor` first.
@@ -59,8 +92,9 @@
     Some useful command for rbenv:
     
         rbenv install -l
-        rbenv install 2.1.0
-        rbenv global 2.1.0
+        rbenv install 2.1.2
+        rbenv install 1.9.3-p125
+        rbenv global 2.1.2
         rbenv versions
         rbenv version
         rbenv rehash
@@ -106,8 +140,7 @@ Aliases:
 
 Theme:
 
-    PROMPT='%{$fg[green]%}%p%{$fg[cyan]%}%c %{$fg[yellow]%}
-    (git_prompt_info)%{$fg[green]%}$%{$reset_color%} '
+    PROMPT='%{$fg[green]%}%p%{$fg[cyan]%}%c %{$fg[yellow]%}$(git_prompt_info)%{$fg[green]%}$%{$reset_color%} '
 
     ZSH_THEME_GIT_PROMPT_PREFIX="(%{$fg[yellow]%}"
     ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
@@ -394,6 +427,14 @@ alias q exit
 :verbose: true
 install: --no-ri --no-rdoc
 update: --no-ri --no-rdoc
+```
+
+# Tips
+
+```
+// Show or hide .hidden files
+defaults write com.apple.Finder AppleShowAllFiles YES
+defaults write com.apple.Finder AppleShowAllFiles NO
 ```
 
 # Resources

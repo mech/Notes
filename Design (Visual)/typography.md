@@ -22,6 +22,9 @@
 * [Subsetting CSS font to load page fast](http://demosthenes.info/blog/878/Slash-Page-Load-Times-With-CSS-Font-Subsetting)
 * [Type rendering on the web](http://blog.typekit.com/2010/10/05/type-rendering-on-the-web/)
 * [Better font rendering on OS-X](http://maximilianhoffmann.com/posts/better-font-rendering-on-osx)
+* [Advanced Web Typography](http://advancedwebtypography.com/)
+* [Stop fixing font smoothing](http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/)
+* [Nice auto-generate code for CSS](http://clagnut.com/sandbox/css3/)
 
 ```
 // New for Firefox 25
@@ -48,3 +51,4 @@
 * [Beautiful Google type](http://hellohappy.org/beautiful-web-type/?1)
 * [Noto](http://www.google.com/get/noto/#/)
 * [FF Franziska](http://fffranziska.com/)
+* [Independent type foundries](http://www.typewolf.com/blog/independent-type-foundries)

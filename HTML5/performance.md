@@ -14,6 +14,7 @@
 * [How the browser preloader makes pages load faster](http://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/)
 * [Optimizing 60fps everywhere in JavaScript](https://engineering.gosquared.com/optimising-60fps-everywhere-in-javascript)
 * [High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545/ch02.html#OPTIMIZING_TCP)
+* [Navigation Timing 2 and User Timing](https://github.com/Comcast/Surf-N-Perf)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

@@ -14,6 +14,7 @@
 * [Designboom](http://www.designboom.com/)
 * [Bless this stuff](http://www.blessthisstuff.com/)
 * [land-book](http://land-book.com/)
+* [Landing page critiqued](http://unbounce.com/landing-page-examples/20-landing-pages-critiqued-rand-fishkin/)
 * [Crafted by love](http://www.craftedbylove.com/#/)
 * [Call to Idea](http://www.calltoidea.com/)
 * [Use your Interface](http://useyourinterface.com/)
@@ -22,6 +23,7 @@
 * [It's Nice That](http://itsnicethat.com/)
 * [httpster](http://httpster.net/)
 * [A lot more here](https://news.layervault.com/stories/28423-ask-dn-what-websites-do-you-visit-for-inspiration)
+* [Low polygon](http://abduzeedo.com/low-polygon-artworks)
 
 ## Mobile
 

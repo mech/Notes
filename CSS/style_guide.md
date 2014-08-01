@@ -1,9 +1,15 @@
 # Style Guides
 
+Why style guide?
+
+* BEFORE: What markup/CSS do I need to write?
+* AFTER: Which components is this page made of?
+
 Generic style guides for components for easy styling. Lego, abstract CSS, make it reusable.
 
 Fully designed components aren't reusable cross-project. This is where OOCSS is a good idea.
 
+* [Apple iOS styleguide, sort of.](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857)
 * [CSS framework vs UI toolkit](https://vimeo.com/95734680)
 * [Cardinal](http://cardinalcss.com/)
 * [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
@@ -14,6 +20,9 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
 * [Selector intent](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/)
 * [Depth of applicability](http://smacss.com/book/applicability)
+* [Hologram - Ruby gem to generate style guide](http://trulia.github.io/hologram/)
+* [CSS at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/)
+* [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
 
 ## Checklist
 
@@ -48,6 +57,9 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 
 * [Style guides and pattern libraries](https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides-and-pattern-libraries)
 * [Code for America](http://style.codeforamerica.org/)
+* [Mapbox](https://www.mapbox.com/base/)
+* [Github CSS](http://markdotto.com/2014/07/23/githubs-css/)
+* [Louder than Ten Manual](http://manual.louderthanten.com/)
 
 ## Naming Convention
 

@@ -16,3 +16,4 @@
 * [A fresh look for betaworks](https://medium.com/p/89b85413771)
 * [Crafting the Carousel Story](https://blog.carousel.com/2014/07/crafting-the-carousel-story/)
 * [Live Surface's Context is a Mac application to visualize branding](http://www.livesurface.com/)
+* [Branding beyond the logo](http://stemmings.com/branding-beyond-the-logo/)

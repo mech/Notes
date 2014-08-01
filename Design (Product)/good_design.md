@@ -18,6 +18,10 @@
 * USE Paradigm - Usable, Scalable, Evolvable.
 * [When you know everything about an industry, you don't know what's good for it](https://medium.com/@NilsSkold/experience-slows-you-down-9b25a4153669)
 * [The next time we talk about design, let's go beyond visual design. See Gov.uk example where the site is not visually outstanding, but solve so many experience problem](https://medium.com/@tinkadoic/design-is-the-experience-7b4339021e41)
+* [Design Principles from GOV.uk](https://www.gov.uk/design-principles)
+* [Constraints are good design](http://www.fastcodesign.com/3025434/willingly-accept-constraints)
+* [When design doesn't matter](https://medium.com/i-m-h-o/when-design-doesnt-matter-bb29af1b5866)
+* [Making or breaking a technical build process](http://authenticff.com/journal/managing-client-expectations-making-or-breaking-a-technical-build-process)
 
 ## Design Videos
 
@@ -55,6 +59,7 @@
 27. Making something helps remove the rust.
 28. Design is rendering intention. Design is about intention. We can choose to imitate or innovate.
 29. Experiences can be designed. It is within our control.
+30. Making something look simple is easy; making something simple to use is much harder.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

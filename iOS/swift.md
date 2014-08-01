@@ -5,11 +5,13 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [Official Apple's Swift blog](https://developer.apple.com/swift/blog/)
 * [All the Swift things](http://thechangelog.com/all-the-swift-things/)
 * [Learn Swift](http://www.learnswift.tips/)
+* [Learn-Swift](http://learn-swift.co/)
 * [Twitter bird zoom animation in Swift](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation)
 * [Inside Swift](http://www.eswick.com/2014/06/inside-swift/)
 * [Developing iOS apps using Swift - Part 1](http://ios-blog.co.uk/tutorials/developing-ios-apps-using-swift-part-1/)
 * [Cheat Sheet](http://grant.github.io/swift-cheat-sheet/)
 * [How to build a nice hamburger button transition in Swift](http://robb.is/working-on/a-hamburger-button-transition/)
+* [Swift Yeti](http://swiftyeti.com/)
 
 ## Variables
 

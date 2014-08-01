@@ -12,6 +12,10 @@
 * [Keyboard shortcut is also interaction](http://spaceandtim.es/posts/the-invisible-interface)
 * [Human Interface Guidelines](http://humaninterfaceguidelines.tumblr.com/)
 * [Creating distraction free reading experiences](http://azumbrunnen.me/blog/creating-distraction-free-reading-experiences/)
+* [Creating a unified model of on-screen depth](https://medium.com/@danerossenrode/a-unified-model-of-on-screen-depth-ae96561b6094)
+* [How do you design interaction](http://www.smashingmagazine.com/2014/07/21/how-do-you-design-interaction/)
+* [Patters for new user experiences](http://www.kryshiggins.com/patterns-for-new-user-experiences/)
+* [I know where you are aiming!](https://medium.com/@cihadturhan/a-ux-idea-i-know-where-you-are-aiming-3e00d152afb2)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 
