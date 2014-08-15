@@ -46,6 +46,8 @@
 * [User engagement](http://noahbuscher.com/engagement/)
 * [How to land your first customers when you're unknown](http://casjam.com/your-first-customers/)
 * [The Factory OS](https://medium.com/@matter.io/the-factory-os-2a57a1de1e64)
+* [Tony Fadell](http://www.wired.co.uk/magazine/archive/2014/07/features/tony-fadell-apple-to-google/viewall)
+* [Design culture is a frozen shithole](https://medium.com/@cole_peters/design-culture-is-a-frozen-shithole-55ac641022dd)
 
 User research == Customer development
 
@@ -64,6 +66,7 @@ Stories are broken into Epics. Epics has their main flow. Design the task flow w
 * [Telling stories](http://www.webdesignerdepot.com/2014/06/telling-stories-on-the-web-the-hottest-way-to-engage-your-users/)
 * [Design stories](https://medium.com/@garyitsyu/my-design-process-square-cash-recurring-payments-5cba47bb6f3c)
 * [HD story](http://www.dissolve.com/)
+* [The mocks can wait. First you need to get your story straight.](https://medium.com/design-story/story-map-3cc64033128e)
 
 ## Lean and MVP
 
@@ -91,6 +94,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [How to use persona empathy mapping](http://uxmag.com/articles/how-to-use-persona-empathy-mapping)
 * [Guide to networking](http://blog.pickcrew.com/a-guide-to-networking-for-people-who-suck-at-networking/)
 * [Google IO 2014 - Perfectly executing the wrong plan](https://www.youtube.com/watch?v=9TJTbRw4ri8)
+* [Emotional Design](https://medium.com/design-philosophies/emotional-design-ef3bad0ddd4a)
+* [Brain gems for decision-makers](http://coglode.com/)
 
 > Don't listen to user. Observe their behaviors.
 
@@ -159,6 +164,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Hours](https://medium.com/@jerols/how-hours-became-a-top-grossing-app-c9b5abfcda7f)
 * [Pinterest](https://medium.com/@NicoMizono/pinterest-a-usability-study-4be3d7a99d3b)
 * [Product Hunt](http://firstround.com/article/Product-Hunt-is-Everywhere-This-is-How-It-Got-There)
+* [Designing the new Foursquare](https://medium.com/@sambrown/designing-the-new-foursquare-8f8788d366f0)
+* [Useful tips for getting the most of Slack](https://medium.com/@slackhq/11-useful-tips-for-getting-the-most-of-slack-5dfb3d1af77)
 
 ## Product News
 

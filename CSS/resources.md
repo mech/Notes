@@ -10,6 +10,8 @@
 * [Polymer paper elements](http://www.polymer-project.org/components/paper-elements/demo.html#paper-shadow)
 * [Guard against color misuse](https://github.com/SlexAxton/css-colorguard)
 * [Dealing with large CSS codebase](http://web-design-weekly.com/2014/07/17/dealing-with-a-large-css-codebase/)
+* [Efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/)
+* [Writing style sheets for rapidly changing, long-lived projects](http://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/)
 
 ## line-height
 

@@ -24,8 +24,8 @@ For installing ImageMagick, you need to:
 
 ```
 cd /usr/local/Cellar/imagemagick/6.8.9-1/lib
-ln -s libMagick++-6.Q16.dylib  libMagick++.dylib                                                                                2.1.2
-ln -s libMagickCore-6.Q16.dylib libMagickCore.dylib                                                                             2.1.2
+ln -s libMagick++-6.Q16.dylib  libMagick++.dylib                                                                                
+ln -s libMagickCore-6.Q16.dylib libMagickCore.dylib                                                                            
 ln -s libMagickWand-6.Q16.dylib libMagickWand.dylib
 ```
 

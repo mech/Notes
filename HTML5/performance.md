@@ -1,5 +1,6 @@
 # Performance
 
+* [Jank Free - Let's make the web silky smooth!](http://jankfree.org/)
 * [Sitespeed.io](http://www.sitespeed.io/)
 * [PNG Mini](http://pngmini.com/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
@@ -15,6 +16,7 @@
 * [Optimizing 60fps everywhere in JavaScript](https://engineering.gosquared.com/optimising-60fps-everywhere-in-javascript)
 * [High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545/ch02.html#OPTIMIZING_TCP)
 * [Navigation Timing 2 and User Timing](https://github.com/Comcast/Surf-N-Perf)
+* [CSS Triggers - Layout, Paint, and Composite](http://csstriggers.com/)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

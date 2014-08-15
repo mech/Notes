@@ -3,6 +3,7 @@
 * [MongoDB 2.6 highlights](https://bugsnag.com/blog/mongo-2-6-highlights)
 * [Aggregation framework example - Tag count?](http://blog.mongolab.com/2012/07/aggregation-example/)
 * [MMS blog](http://blog.mms.mongodb.com/)
+* [6 rules of thumb for MongoDB schema design](http://blog.mongodb.org/post/87200945828/6-rules-of-thumb-for-mongodb-schema-design-part-1)
 
 If running on single server, use the `--journal` option.
 
@@ -11,6 +12,21 @@ If your database crashes and you were not running with `--journal`, do not use t
 Schema-less doesn't mean skipping proper data modelling and satisfying your application business and performance requirements. NoSQL document model is more focused towards querying than to data normalization. That's why your design won't be finished unless it addresses your data querying patterns.
 
 No JOIN because it is not horizontally scalable.
+
+## Modeling
+
+Just because you can embed a document, doesn't mean you should embed a document. Ask yourself, what is the cardinality of the relationship? Is it one-to-few, one-to-many, or one-to-billion?
+
+one-to-few is definitely good use use for embedding.
+
+```
+{
+	name: 'mech',
+	addresses: [
+	  { street: '192', city: 'Singapore' },
+	  { street: '334', city:  'NYC' }
+	]}
+```
 
 ## Querying
 

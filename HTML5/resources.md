@@ -16,6 +16,8 @@
 * [What every frontend developer should know about webpage rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
 * [:focus accessibility](http://viget.com/inspire/managing-focus-styles-without-breaking-accessibility)
+* [Web Designer Checklist](http://webdesignerschecklist.com/)
+* [HTML5 for game developer](https://hacks.mozilla.org/2014/07/resources-for-html5-game-developers/)
 
 ## IE
 

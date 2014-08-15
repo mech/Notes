@@ -22,6 +22,7 @@
 * [Cache scripts in LocalStorage](http://addyosmani.github.io/basket.js/)
 * [Validator using Bootstrap 3?](http://bootstrapvalidator.com/)
 * [Text n Tags](http://daniel-zahariev.github.io/jquery-textntags/)
+* [A better credit card form](https://github.com/jessepollak/card)
 
 ## Auto-complete
 

@@ -12,6 +12,9 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [Cheat Sheet](http://grant.github.io/swift-cheat-sheet/)
 * [How to build a nice hamburger button transition in Swift](http://robb.is/working-on/a-hamburger-button-transition/)
 * [Swift Yeti](http://swiftyeti.com/)
+* [UIKitDynamics](http://omarfouad.com/blog/2014/08/02/getting-started-uikitdynamics-swift/)
+* [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
+* [An analysis of sorts between Objective-C and Swift](http://www.jessesquires.com/apples-to-apples-part-two/)
 
 ## Variables
 

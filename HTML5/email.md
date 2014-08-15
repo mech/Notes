@@ -1,5 +1,6 @@
 # Email
 
+* [Litmus email design podcast](https://litmus.com/blog/introducing-the-email-design-podcast)
 * [RAW text email is good for conversation and targeted emails](https://medium.com/@giuliano/good-looking-emails-are-killing-your-customer-conversations-ac3b8da9a7d9)
 * [Style Campaign - Video](http://stylecampaign.com/)
 * [Zurb's introducing responsive email templates](http://zurb.com/article/1119/create-emails-for-any-device-introducing-)
@@ -13,6 +14,7 @@
 * [Subscribe UX](http://blog.usabilla.com/6-ways-improve-ux-email-unsubscribe-page/)
 * [Ultimate guide to email design?](http://www.webdesignerdepot.com/2014/06/the-ultimate-guide-to-email-design/)
 * [HTML email with Grunt.js](http://www.leemunroe.com/html-email-design-workflow/)
+* [Transactional HTML email templates](http://blog.mailgun.com/transactional-html-email-templates/)
 
 ## Tools
 

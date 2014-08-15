@@ -20,6 +20,8 @@
 * [Animation explained](http://www.objc.io/issue-12/animations-explained.html)
 * [popping](https://github.com/schneiderandre/popping)
 * [Motion blur](http://holko.pl/2014/07/21/motion-blur/)
+* [SplashView](https://github.com/callumboddy/CBZSplashView)
+* [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
 
 ## Quartz Composer and Origami
 

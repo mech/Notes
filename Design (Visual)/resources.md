@@ -4,6 +4,7 @@
 * [Design principles: Visual perception and the principles of Gestalt](http://www.smashingmagazine.com/2014/03/28/design-principles-visual-perception-and-the-principles-of-gestalt/)
 * [Design Resources](https://medium.com/design-ux/799d16952a56)
 * [Emoji spec](http://www.unicode.org/reports/tr51/full-emoji-list.html)
+* [Here are How-Tos for Design](http://www.madrasa.ca/link.php?text=design)
 
 ## Videos
 
@@ -36,6 +37,7 @@
 
 * [Logo validator](https://brandisty.com/validate)
 * [Helvetic Brands](http://www.helveticbrands.ch/work/)
+* [2014 logo trends](http://www.logolounge.com/article/2014logotrends#.U9tPZoCSymB)
 
 ## Golden Ratio
 

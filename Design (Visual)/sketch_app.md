@@ -23,6 +23,7 @@
 * [Capture your work in time-lapse mode](http://schnappsformac.com/)
 * [Portrait polygon](http://medialoot.com/blog/tutorial-polygon-portrait-poster-design/)
 * [Sketch for print design?](https://medium.com/@pnowelldesign/sketch-for-print-design-fd165b92cb3a)
+* [Why I moved to Sketch](http://hackingui.com/design/sketch-design/why-i-moved-to-sketch/)
 
 ## Tools
 
@@ -63,3 +64,4 @@
 * [Mikuloctopus](http://mikuloctopus.tumblr.com/)
 * [SHAPE - The film](http://makeshapechange.com/)
 * [Using 53's Paper](http://angelwhite24.tumblr.com/)
+* [Art Station](http://magazine.artstation.com/)

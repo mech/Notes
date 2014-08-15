@@ -31,6 +31,7 @@ Don't operating on wrong assumption. Expose your ignorance.
 * [Ember and Polymer](https://news.ycombinator.com/item?id=7945084)
 * [Tuts+ Let's Learn Ember](http://courses.tutsplus.com/courses/lets-learn-ember)
 * [Some nice things to learn from iOS MVVM](https://medium.com/@ramshandilya/lets-discuss-mvvm-for-ios-a7960c2f04c7)
+* [Ember Best Practices](https://github.com/chrisjlee/ember-best-practices)
 
 ```
 Ember.run.once();
@@ -49,6 +50,7 @@ Since there is no round-trip, just pass real object in parameters, and no need f
 * [Broccoli: First beta release](http://www.solitr.com/blog/2014/02/broccoli-first-release/)
 * [From gulp.js to ember-cli](https://medium.com/ember-js-framework/450f1ffb1967)
 * [ember-cli-plus-backend](https://github.com/dockyard/ember-cli-plus-backend)
+* [Rails and ember-cli](https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux)
 
 
 ### ember-cli with Rails
@@ -58,6 +60,7 @@ Since there is no round-trip, just pass real object in parameters, and no need f
 * [Deploying ember-cli and Rails to Heroku](http://blog.abuiles.com/blog/2014/05/21/deploying-ember-cli-and-rails-to-heroku/)
 * [ember-cli-rails?](https://github.com/knomedia/ember-cli-rails)
 * [Deploying ember-cli to Amazon S3 with Grunt](http://www.octolabs.com/blogs/octoblog/2014/05/24/deploying-ember-cli-to-amazon-s3-with-grunt/)
+* [Rails and ember-cli](https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux)
 
 ## Broccoli
 

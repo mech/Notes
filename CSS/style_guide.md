@@ -23,6 +23,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Hologram - Ruby gem to generate style guide](http://trulia.github.io/hologram/)
 * [CSS at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/)
 * [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
+* [How Google Fails at Implementing Its Own Material Design](https://medium.com/@CreativeTim/how-google-fails-at-implementing-its-own-material-design-44bbbf9f6c52)
 
 ## Checklist
 
@@ -46,6 +47,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [SUIT CSS](http://suitcss.github.io/)
 * [Topcoat](http://topcoat.io/)
 * [Pure](http://purecss.io/)
+* [Bootflat](http://bootflat.github.io/documentation.html)
 
 ## Architecture
 

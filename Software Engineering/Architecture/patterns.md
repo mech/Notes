@@ -11,6 +11,17 @@ https://dl.dropboxusercontent.com/u/6815194/Notes/SOA.png
 
 Semantic interface, anti-corruption in DDD. Mostly at persistence layer.
 
+2 common viewpoints of architectural styles are:
+
+1. Component interaction style - Layered, pipes-and-filters, etc.
+2. Control style - Distributed or centralized
+
+---
+
+* Software patterns - OOP and Design
+* Software framework - Rails and Ember.js
+* Software architecture - Brain ++
+
 ## Design Patterns
 
 Good and bad of patterns. GoF is a terrible implementation guide. It is not a cookbook.

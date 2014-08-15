@@ -1,5 +1,6 @@
 # Resources
 
+* [Awesomeness](https://github.com/bayandin/awesome-awesomeness)
 * Architect for change. Make change less expensive. Able to evolve overtime.
 * Software always becomes iterative. Architecture also becomes iterative.
 * Architecture is a snapshot of a process.

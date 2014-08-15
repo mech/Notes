@@ -3,6 +3,7 @@
 * [GitHub flow for rapid deployment and web project](http://scottchacon.com/2011/08/31/github-flow.html)
 * [GitFlow for infrequent library releases](http://nvie.com/posts/a-successful-git-branching-model/)
 * [Git flight rules](https://github.com/k88hudson/git-flight-rules)
+* [Pretty nice tips on history and git-blame](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
 
 ```
 git add -u

@@ -6,6 +6,7 @@
 * https://gist.github.com/dennisreimann/3656874
 * [Rails migrations with no downtime](http://pedro.herokuapp.com/past/2011/7/13/rails_migrations_with_no_downtime/)
 * [Server sandbox??](http://kikobeats.gitbooks.io/server-sandbox/)
+* [SSH keys](http://www.poststat.us/ssh-keys-server-management/)
 
 ```
 rake quality

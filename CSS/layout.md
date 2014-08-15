@@ -95,6 +95,7 @@ Use of `min-width` and `max-width` common.
 
 ## Grids
 
+* [Some grids to try](https://news.layervault.com/stories/30928-ask-dn-which-grid-do-you-use)
 * [Nicolas Gallagher's `inline-block` grid system](http://necolas.github.io/griddle/)
 * [Don't overthink grids](http://css-tricks.com/dont-overthink-it-grids/)
 * [Responsive Dirty Little Secret](http://www.palantir.net/blog/responsive-design-s-dirty-little-secret)
@@ -120,6 +121,13 @@ Use of `min-width` and `max-width` common.
 * [Griddle - Nicolas Gallagher's grid](http://necolas.github.io/griddle/)
 * [Louder than Ten Layout](http://manual.louderthanten.com/layout)
 * [ungrid](http://chrisnager.github.io/ungrid/)
+* [New Foundation grid](http://zurb.com/article/1333/foundation-a-new-grid)
+* [Flexbox Grid](http://flexboxgrid.com/)
+* [The subtle magic behind why Bootstrap 3 grid works](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works)
+* [csswizardry-grids](http://csswizardry.com/csswizardry-grids/)
+* [Singularity](https://github.com/Team-Sass/Singularity)
+* [Simple Grid](http://thisisdallas.github.io/Simple-Grid/)
+* [Jeet - A grid system for humans](http://jeet.gs/)
 
 Don't be afraid to mix it up and implement a 3 or 5 column grid. No need to always use 12-column layout. Sometimes, simpler really is better.
 
@@ -214,6 +222,7 @@ So what's the limitations of float-based layout?
 * [**Give floats the flick in CSS layouts**](http://www.sitepoint.com/give-floats-the-flick-in-css-layouts/)
 * [CSS float theory](http://www.smashingmagazine.com/2007/05/01/css-float-theory-things-you-should-know/)
 * [All about floats](http://css-tricks.com/all-about-floats/)
+* [Drawback of CSS: `inline-block` vs `float:left`](http://stackoverflow.com/questions/15172520/drawback-of-css-displayinline-block-vs-floatleft)
 
 If you don't support IE6/7, then don't bother clearing floats in these browsers. `zoom: 1` is only for IE6, so don't bother.
 

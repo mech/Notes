@@ -21,6 +21,8 @@
 * [How to ruin your company with one bad process](http://www.bhorowitz.com/how_to_ruin_your_company_with_one_bad_process)
 * [What is design thinking?](http://www.whatisdesignthinking.org/)
 * [Design Principles from GOV.uk](https://www.gov.uk/design-principles)
+* [Shipping is your company's heartbeat](http://insideintercom.io/shipping-is-your-companys-heartbeat/)
+* [How to validate your business idea by testing a hypothesis](http://hatchery.io/how-to-validate-your-business-idea-by-testing-a-hypothesis.html)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 
@@ -65,6 +67,7 @@ Something to break the ICE:
 * [Personal Design Sprint](http://franciscortez.com/design-sprint/)
 * [Google UXD](http://developerlife.com/ux/)
 * [Design process at Government Digital Service](https://gds.blog.gov.uk/2014/07/18/whats-the-design-process-at-gds/)
+* [1 person design sprint](https://medium.com/@makeshowlearn/personal-design-sprint-ii-food-tracking-af853a78a210)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

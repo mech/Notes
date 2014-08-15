@@ -10,7 +10,20 @@ Short story: `bundle gem gem_name`
 
 ## `require` and `autoload` and `const_missing`
 
+`require_relative` is faster O(1) than `require` O(N).
+
 * [Matz announced `autoload` is dead](https://www.ruby-forum.com/topic/3036681)
+
+So for new gem, how do you `require` things? Every gem you installed gets its `lib` directory appended onto your `$LOAD_PATH`. This means any file on the top level of the `lib` directory could get required. See [RubyGems Guide](http://guides.rubygems.org/patterns/#loading-code).
+
+* `$LOAD_PATH << '.'`
+* `$LOAD_PATH << File.dirname(__FILE__)`
+* `require './path/to/filename'`
+* `$: << File.dirname(__FILE__)`
+* `require Pathname.new(__FILE__).dirname + 'filename'`
+* `require File.expand_path(File.join(File.dirname(__FILE__), 'filename'))`
+* See [aws](https://github.com/appoxy/aws/blob/master/lib/awsbase/require_relative.rb)
+* 
 
 ## Block
 
@@ -78,6 +91,18 @@ end
 
 Prefer `module_function` over `extend self`.
 
+### `module_eval and module_exec`
+
+```
+class Thing; end
+Thing.module_exec do
+  def hi; "Hi"; end
+end
+
+Thing.new.hi()
+```
+
+
 ## Service
 
 * [Gourmet Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
@@ -95,6 +120,13 @@ Prefer `module_function` over `extend self`.
 * GC.stat() - how many objects do we allocate.
 * allocation_tracer
 * '<tr></tr>'.freeze
+* Profiling - ruby-prof (deterministic profiler), perftools.rb, stackprof, rblineprof (sampling profilers)
+* GCTracer, AllocationTracer
+* NewRelic
+* Debugging - ruby-debug, byebug (2.0~) and tracer (stdlib)
+* [Dive into Ruby VM Stats with New Relic](http://blog.newrelic.com/2014/04/23/ruby-vm-stats/)
+* [Ruby VM measurements](http://docs.newrelic.com/docs/agents/ruby-agent/features/ruby-vm-measurements)
+* [debug_inspector](https://github.com/banister/debug_inspector)
 
 ## CSV
 
@@ -104,4 +136,45 @@ Prefer `module_function` over `extend self`.
 
 ```
 article = Article.new.tap(&:save!)
+```
+
+```
+def built_in_formatter(key)
+  case key.to_s
+  when 'd', 'doc', 'documentation'
+    DocumentationFormatter
+  when 'h', 'html'
+    HtmlFormatter
+  when 'p', 'progress'
+    ProgressFormatter
+  when 'j', 'json'
+    JsonFormatter
+  end
+end
+```
+
+```
+raise ArgumentError, <<-EOS.gsub(/^\s+\|/, '')
+  |The message here is inside EOS but its whitespace will
+  |be removed to make the code easier to read!
+EOS
+```
+
+```
+require 'etc'
+
+Etc.getlogin
+```
+
+```
+SleepTimer = Struct.new(:minutes, :notifier) do
+  def start
+    sleep minutes * 60
+    notifier.call("Tea is ready!")
+  end
+end
+```
+
+```
+("[%1.3f] %s\n" % [duration, message])
 ```

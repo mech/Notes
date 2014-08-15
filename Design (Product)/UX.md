@@ -16,10 +16,17 @@
 * [It's a great time to be a UX designer](http://aneventapart.com/news/post/its-a-great-time-to-be-a-ux-designer-by-jared-spool-an-event-apart-video/)
 * [Rapid user testing](http://fakecrow.com/rapid-user-testing/)
 * [Designing UI for your mum](https://medium.com/@TGines/designing-user-interfaces-for-your-mother-dd45ec50f7b0)
+* [Stop trying to be so damned clever](http://www.fastcodesign.com/3021554/innovation-by-design/hey-designers-stop-trying-to-be-so-damned-clever/)
+* [Zurb Quips](http://zurb.com/quips)
+* [Zurb Triggers](http://zurb.com/triggers)
+* [UX Methods Deliverables](http://uxdesign.cc/ux-methods-deliverables/)
+* [Research reports](http://baymard.com/)
 
 ## Behaviorism
 
 * [Hooked - How companies create habit forming products](http://www.farnamstreetblog.com/2014/03/hooked/)
+* [Brain gems for decision-makers](http://coglode.com/)
+
 
 ## Process and Methods
 

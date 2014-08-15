@@ -93,6 +93,7 @@ Here, we let the message/method do the taking. We are not relying on our intimat
 * [Mixing and matching RSpec and Minitest](http://myronmars.to/n/dev-blog/2012/07/mixing-and-matching-parts-of-rspec)
 * [New `expect` syntax since 2012](http://myronmars.to/n/dev-blog/2012/06/rspecs-new-expectation-syntax)
 * [rspec-set](https://github.com/pcreux/rspec-set)
+* [How RSpec works](http://interblah.net/how-rspec-works)
 
 ## Factories
 

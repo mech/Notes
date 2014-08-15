@@ -137,6 +137,8 @@ GET /accounts/x7y8z9?fields=givenName,directory(name)
 * [SOA in Rails](http://www.youtube.com/watch?v=L1B_HpCW8bs)
 * [OAuth for Rails](http://www.octolabs.com/blogs/octoblog/2014/04/22/service-oriented-authentication-railsconf/)
 * [OAuth provider](https://github.com/doorkeeper-gem/doorkeeper)
+* [Doorkeeper - Using Resource Owner Password Credentials flow ](https://github.com/doorkeeper-gem/doorkeeper/wiki/Using-Resource-Owner-Password-Credentials-flow)
+* [Client Credentials flow](https://github.com/doorkeeper-gem/doorkeeper/wiki/Client-Credentials-flow)
 
 ## JSON API
 
@@ -348,6 +350,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [The New York Times API](http://developer.nytimes.com/docs)
 * [Kanbanize](https://kanbanize.com/ctrl_integration)
 * [Yelp](http://www.yelp.com/developers/documentation)
+* [DN](https://github.com/layervault/dn_ruby_client)
 
 ## Videos
 

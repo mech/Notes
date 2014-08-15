@@ -9,6 +9,8 @@
 * [Like fastclick.js?](http://filamentgroup.com/lab/tappy.html)
 * [Designing Multi-Device Experiences](http://www.nirandfar.com/2014/07/how-successful-companies-design-for-users-multi-device-lives.html)
 * [Performance is the key for RWD](http://www.smashingmagazine.com/2014/07/22/responsive-web-design-should-not-be-your-only-mobile-strategy/)
+* [RWD Bloat](http://daverupert.com/2014/07/rwd-bloat-part-ii/)
+* [How we make RWD sites load fast as heck](http://filamentgroup.com/lab/performance-rwd.html)
 
 ## List of screen resolution
 

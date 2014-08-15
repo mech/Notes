@@ -52,3 +52,4 @@
 * [Noto](http://www.google.com/get/noto/#/)
 * [FF Franziska](http://fffranziska.com/)
 * [Independent type foundries](http://www.typewolf.com/blog/independent-type-foundries)
+* [July 2014](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-july-2014)

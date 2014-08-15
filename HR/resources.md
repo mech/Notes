@@ -16,6 +16,10 @@
 * [Great Place to Work](http://www.greatplacetowork.com/2014-conference)
 * [Working from home alone is the real culprit](http://fortune.com/2013/03/19/working-from-home-alone-is-the-real-culprit/)
 
+## Salary
+
+* [Design salary survey](http://ivanamcconnell.com/design-survey.html)
+
 ## PDPA
 
 * [FAQ](https://www.pdpc.gov.sg/faqs/faqs-for-individuals)
@@ -40,12 +44,14 @@ Categories must not be 3 level deep. The Inception Rule.
 * [Info CV](http://uk.pinterest.com/rtkrum/infographic-visual-resumes/)
 * [Guide to UX resume](http://www.uxbeginner.com/complete-guide-to-ux-resumes-and-a-free-template/)
 * [Great looking CV from the power of Markdown](http://decksetapp.com/)
+* [Represent](https://represent.io/)
 
 Using themes examples from Deckset app, we can convert each candidate's CV into beautiful on-screen presentation. Recruiters or hiring managers can swipe left to reveal their CV like interest, photos, past works/achievements, educations, etc.
 
 ## Job Description
 
 * [How to interpret ridiculous web design job posts](http://blog.teamtreehouse.com/how-to-interpret-ridiculous-web-design-job-posts)
+* [List of job boards](http://oozled.com/resources/job-boards)
 
 ## Salary
 

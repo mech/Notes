@@ -16,6 +16,8 @@
 * [Motion study.. hmmms](http://justinmezzell.tumblr.com/)
 * [Skeuomorphic motion](http://brolik.com/blog/motion-new-skeuomorphism/)
 * [Layered animation](https://vimeo.com/101885482)
+* [Prototyping interactive animation](https://medium.com/@toddsiegel/prototyping-interactive-animation-3371d0b7cc7b)
+* [Photoshop Animation](http://photoshopanimation.com/)
 
 ## Famo.us
 

@@ -22,6 +22,7 @@
 * [Controlling CSS animations and transitions with JavaScript](http://css-tricks.com/controlling-css-animations-transitions-javascript/)
 * [May not be good code examples](http://jackonthe.net/css3animateit/examples)
 * [Simple mixin for easing](http://codepen.io/winkerVSbecks/pen/Cihkr)
+* [Bouncy animation](http://learnsome.co/blog/bouncy/)
 
 ## Velocity.js
 
