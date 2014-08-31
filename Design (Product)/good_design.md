@@ -60,6 +60,7 @@
 28. Design is rendering intention. Design is about intention. We can choose to imitate or innovate.
 29. Experiences can be designed. It is within our control.
 30. Making something look simple is easy; making something simple to use is much harder.
+31. One cannot not communicate. Therefore there is no such thing as a neutral design. Everything has a voice.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

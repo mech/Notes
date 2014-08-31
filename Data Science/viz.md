@@ -23,6 +23,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Iron Man](http://jayse.tv/v2/)
 * [GOV.uk](https://www.gov.uk/service-manual/user-centred-design/data-visualisation.html)
 * [BI tools using dark background](http://vpj.svbtle.com/black-or-white)
+* [**Visual Algorithm**](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 
 ## d3.js
 
@@ -40,6 +41,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Learn data visualisations with D3.js](https://www.dashingd3js.com/)
 * [HK LegCo](http://inside-hk-legco.herokuapp.com/)
 * [How we made Human Cities](http://blog.human.co/posts/human-cities.html)
+* [C3.js](http://c3js.org/)
 
 ## Graphite
 

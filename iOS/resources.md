@@ -13,6 +13,7 @@
 * [Subscription model - Pricing!](http://latticelabs.com/blog/2013/09/premium-freemium-subscription/)
 * [iOS 8 explained](http://www.imore.com/extensibility-ios-8-explained)
 * [Prompting for app reviews](https://medium.com/@dancounsell/prompting-for-app-reviews-97d9e78dd5fd)
+* [Swipe to peep](http://itchingpixels.com/anatomy-of-a-touch-interaction-swipe-to-peep/)
 
 ## Animation
 

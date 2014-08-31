@@ -15,6 +15,9 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [UIKitDynamics](http://omarfouad.com/blog/2014/08/02/getting-started-uikitdynamics-swift/)
 * [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
 * [An analysis of sorts between Objective-C and Swift](http://www.jessesquires.com/apples-to-apples-part-two/)
+* [That thing in Swift](http://thatthinginswift.com/)
+* [Scala for Android](http://blog.madhukaraphatak.com/scala-for-android/)
+* [SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)
 
 ## Variables
 

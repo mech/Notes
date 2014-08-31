@@ -24,6 +24,8 @@
 * [httpster](http://httpster.net/)
 * [A lot more here](https://news.layervault.com/stories/28423-ask-dn-what-websites-do-you-visit-for-inspiration)
 * [Low polygon](http://abduzeedo.com/low-polygon-artworks)
+* [George Bletsis](http://monstertreeart.tumblr.com/)
+* [UX Porn](http://uxporn.uxpin.com/)
 
 ## Mobile
 

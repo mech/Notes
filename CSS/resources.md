@@ -12,6 +12,9 @@
 * [Dealing with large CSS codebase](http://web-design-weekly.com/2014/07/17/dealing-with-a-large-css-codebase/)
 * [Efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/)
 * [Writing style sheets for rapidly changing, long-lived projects](http://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/)
+* [CSS Mojo](http://www.cssmojo.com/)
+* [A list of must watch CSS videos](https://github.com/AllThingsSmitty/must-watch-css)
+* [Common practices do not mean best practices](http://cssmojo.com/think-for-yourself/)
 
 ## line-height
 

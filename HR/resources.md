@@ -15,6 +15,8 @@
 * [Can't get a job from an algorithm](http://www.bloomberg.com/news/2014-07-14/algorithms-cull-prospects-in-slow-u-s-jobs-recovery.html)
 * [Great Place to Work](http://www.greatplacetowork.com/2014-conference)
 * [Working from home alone is the real culprit](http://fortune.com/2013/03/19/working-from-home-alone-is-the-real-culprit/)
+* [Hey Available](http://heyavailable.com/)
+* [Know Your Company - Fresh eyes](https://knowyourcompany.com/blog/posts/22-fresh-eyes)
 
 ## Salary
 

@@ -8,6 +8,9 @@ JavaScript dynamic duo (static type is overrated):
 * [globtester](http://www.globtester.com/)
 * [FPS engine](http://www.playfuljs.com/a-first-person-engine-in-265-lines/)
 * [JSNice - deobfuscation](http://jsnice.org/)
+* [A JavaScript Quality Guide](https://github.com/bevacqua/js/)
+* [Regular expression in JavaScript](http://bjorn.tipling.com/state-and-regular-expressions-in-javascript)
+* [Mixins, Forwarding, and Delegation in JavaScript](http://raganwald.com/2014/04/10/mixins-forwarding-delegation.html)
 
 ## People
 

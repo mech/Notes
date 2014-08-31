@@ -3,6 +3,7 @@
 * Don't mutate state unnecessarily. It will lead to bugs.
 * [Polymorphism and Ruby](http://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby)
 * [Scrape data](http://www.youtube.com/watch?v=eumekfP4IKQ)
+* [**Nice resources**](https://github.com/dreikanter/ruby-bookmarks)
 
 ## Gem Authoring
 
@@ -177,4 +178,9 @@ end
 
 ```
 ("[%1.3f] %s\n" % [duration, message])
+```
+
+```
+RUBY_VERSION =~ /([\d]+)\.([\d]+)\.([\d]+)/
+major, minor, revision = $1.to_i, $2.to_i, $3.to_i
 ```

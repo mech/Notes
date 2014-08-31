@@ -21,6 +21,7 @@
 * [Zurb Triggers](http://zurb.com/triggers)
 * [UX Methods Deliverables](http://uxdesign.cc/ux-methods-deliverables/)
 * [Research reports](http://baymard.com/)
+* [7 signs you're not a UX designer](http://uxmastery.com/7-signs-person-isnt-actually-ux-designer/)
 
 ## Behaviorism
 

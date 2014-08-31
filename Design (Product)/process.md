@@ -1,5 +1,7 @@
 # Process
 
+> Imagine. Implement. Iterate. Improve.
+
 * [Mark Boulton Design - How we work](http://markboulton.co.uk/journal/how-we-work)
 * [Using questionnaires for design research](http://24ways.org/2012/using-questionnaires-for-design-research/)
 * [Prismatic and teehan+lax](http://www.teehanlax.com/story/prismatic/)
@@ -23,6 +25,8 @@
 * [Design Principles from GOV.uk](https://www.gov.uk/design-principles)
 * [Shipping is your company's heartbeat](http://insideintercom.io/shipping-is-your-companys-heartbeat/)
 * [How to validate your business idea by testing a hypothesis](http://hatchery.io/how-to-validate-your-business-idea-by-testing-a-hypothesis.html)
+* [Process ideas](https://news.layervault.com/stories/31808-ask-dn-whats-your-interaction-design-process-from-pencil-to-prototype-)
+* [Iterating and incrementing are separate ideas](http://www.agileproductdesign.com/blog/dont_know_what_i_want.html)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 
@@ -73,6 +77,18 @@ Something to break the ICE:
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)
 
 ## Lean UX
+
+Agile is great with its lightweight iterative approach. The problem with the sprints is that it never allows for looking **holistically** at the entire picture.
+
+> For more iterative work, agile is pretty great. For designs/problems that require more holistic thinking, it often wastes more time than it's trying to save. Better to give yourself a little space to solve those complex problems outside the agile cadence, then fold it back in to sprints once you've got it better figured out.
+
+---
+
+> You're not iterating if you only do it once - David Bland
+
+---
+
+> As designers of any stripe, we get very easily sucked into designing and building to a high level of fidelity, rather than creating low-fidelity/low-quality versions of the fuller system. Agencies in particular are conditioned to think of deliverables as needing to be high-quality and high-fidelity. There's a discomfort at the idea of delivering something low-fidelity or sketchy that we - and our clients, of course - need to get over.
 
 * [How we quickly test our ideas before building](http://tales.timehop.com/post/91976772996/how-we-quickly-test-our-ideas-before-building-and-the)
 

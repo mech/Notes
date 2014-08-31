@@ -24,6 +24,12 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [CSS at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/)
 * [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
 * [How Google Fails at Implementing Its Own Material Design](https://medium.com/@CreativeTim/how-google-fails-at-implementing-its-own-material-design-44bbbf9f6c52)
+* [Government Playbook](http://playbook.cio.gov/)
+* [Harry Roberts CSS Guideline](http://cssguidelin.es/)
+* [Some basic project agnostic CSS](http://ryanmorr.com/project-agnostic-css-declaration-blocks/)
+* [Buffer CSS](http://blog.brianlovin.com/buffers-css/)
+* [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
+* [Common practices do not mean best practices](http://cssmojo.com/think-for-yourself/)
 
 ## Checklist
 

@@ -1,5 +1,6 @@
 # Resources
 
+* [Mobile HTML 5 by Maximiliano Firtman](http://mobilehtml5.org/)
 * [**Google Web Starter Kit for multi-device development**](https://developers.google.com/web/starter-kit/)
 * [Brad Frost responsive pattern library](http://bradfrost.github.io/this-is-responsive/patterns.html)
 * [BBC Responsive News](http://responsivenews.co.uk/)
@@ -11,6 +12,7 @@
 * [Performance is the key for RWD](http://www.smashingmagazine.com/2014/07/22/responsive-web-design-should-not-be-your-only-mobile-strategy/)
 * [RWD Bloat](http://daverupert.com/2014/07/rwd-bloat-part-ii/)
 * [How we make RWD sites load fast as heck](http://filamentgroup.com/lab/performance-rwd.html)
+* [Some convenient breakpoint methods](http://restivejs.com/)
 
 ## List of screen resolution
 

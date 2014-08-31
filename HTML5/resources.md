@@ -18,6 +18,8 @@
 * [:focus accessibility](http://viget.com/inspire/managing-focus-styles-without-breaking-accessibility)
 * [Web Designer Checklist](http://webdesignerschecklist.com/)
 * [HTML5 for game developer](https://hacks.mozilla.org/2014/07/resources-for-html5-game-developers/)
+* [Key Code](http://keycod.es/)
+* [favicon](http://css-tricks.com/favicon-quiz/)
 
 ## IE
 

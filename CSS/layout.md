@@ -1,5 +1,9 @@
 # Layout
 
+## Example
+
+* http://cakedown.alexandredeschamps.ca/
+
 Key things to Web UI:
 
 * Layout
@@ -46,6 +50,8 @@ These are the options for layout:
 ---
 
 * [Web Fundamentals - Multi-device layouts](https://developers.google.com/web/fundamentals/layouts/)
+* [Rectangular Web](http://www.vanseodesign.com/web-design/rectangular-web/)
+* [Responsive Design Passion](http://www.vanseodesign.com/web-design/responsive-design-passion/)
 
 ## Scroll
 
@@ -95,6 +101,7 @@ Use of `min-width` and `max-width` common.
 
 ## Grids
 
+* [**Complete guide to grid**](http://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Some grids to try](https://news.layervault.com/stories/30928-ask-dn-which-grid-do-you-use)
 * [Nicolas Gallagher's `inline-block` grid system](http://necolas.github.io/griddle/)
 * [Don't overthink grids](http://css-tricks.com/dont-overthink-it-grids/)
@@ -128,6 +135,8 @@ Use of `min-width` and `max-width` common.
 * [Singularity](https://github.com/Team-Sass/Singularity)
 * [Simple Grid](http://thisisdallas.github.io/Simple-Grid/)
 * [Jeet - A grid system for humans](http://jeet.gs/)
+* [Guide Guide](http://guideguide.me/)
+* [Re-thinking the Grid](http://snook.ca/archives/html_and_css/rethinking-the-grid)
 
 Don't be afraid to mix it up and implement a 3 or 5 column grid. No need to always use 12-column layout. Sometimes, simpler really is better.
 
@@ -149,6 +158,8 @@ Grids work on two levels: first perception, then experience. That is, a user fee
 
 Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blackberry 10+.
 
+* [Solved by flexbox](http://philipwalton.github.io/solved-by-flexbox/)
+* [Video - Present and future of CSS layout](https://vimeo.com/98746172)
 * [Video - Putting flexbox into practice](https://vimeo.com/77176313)
 * [Putting flexbox into practice - blog](http://zomigi.com/blog/flexbox-presentation/)
 * [Flexy Boxes code generator](http://the-echoplex.net/flexyboxes/)
@@ -159,6 +170,7 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 * [Flexbox example](http://devbryce.com/site/flexbox/)
 * [Flexbox - Next-generation CSS Layout has arrived](http://blog.teamtreehouse.com/flexbox-next-generation-css-layout-arrived)
 * [Flexbox based responsive equal height](http://osvaldas.info/flexbox-based-responsive-equal-height-blocks-with-javascript-fallback)
+* [Kite CSS - Flexible layout helper](http://hiloki.github.io/kitecss/)
 
 `flex-wrap` not supported in Firefox, so be careful.
 

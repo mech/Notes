@@ -5,6 +5,7 @@
 * [Design Resources](https://medium.com/design-ux/799d16952a56)
 * [Emoji spec](http://www.unicode.org/reports/tr51/full-emoji-list.html)
 * [Here are How-Tos for Design](http://www.madrasa.ca/link.php?text=design)
+* [**Designer's guide to DPI**](http://sebastien-gabriel.com/designers-guide-to-dpi/home)
 
 ## Videos
 
@@ -21,6 +22,8 @@
 * [Some nice color schemes to choose from](http://pltts.me/)
 * [How to choose color](https://news.layervault.com/stories/27684-ask-dn-how-do-you-createfind-beautiful-new-colour-schemes-to-use-)
 * [Some nice colors](http://leaf.kortes.se/colors)
+* [How do you come up with your color palette](https://news.layervault.com/stories/32162-ask-dn-how-do-you-come-up-with-your-color-palette)
+* [Creating harmonious color schemes - Video](http://methodandcraft.com/videos/creating-harmonious-color-schemes)
 
 ## Icon
 
@@ -38,6 +41,7 @@
 * [Logo validator](https://brandisty.com/validate)
 * [Helvetic Brands](http://www.helveticbrands.ch/work/)
 * [2014 logo trends](http://www.logolounge.com/article/2014logotrends#.U9tPZoCSymB)
+* [A systematic approach to logo design](http://www.adhamdannaway.com/blog/branding/a-systematic-approach-to-logo-design)
 
 ## Golden Ratio
 

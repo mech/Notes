@@ -8,6 +8,7 @@ Ember is Cocoa and Angular is JSF? Ember in a page has many tiny group of MVC.
 
 Don't operating on wrong assumption. Expose your ignorance.
 
+* [Ember Hot Seat](http://emberhotseat.com/)
 * [Twitter search for Ember.js news](https://twitter.com/search?q=emberjs&src=typd)
 * [Ember Weekly](http://emberweekly.com/issues.html)
 * [Ghost using Ember.js](https://github.com/TryGhost/Ghost/issues/2144)
@@ -32,6 +33,7 @@ Don't operating on wrong assumption. Expose your ignorance.
 * [Tuts+ Let's Learn Ember](http://courses.tutsplus.com/courses/lets-learn-ember)
 * [Some nice things to learn from iOS MVVM](https://medium.com/@ramshandilya/lets-discuss-mvvm-for-ios-a7960c2f04c7)
 * [Ember Best Practices](https://github.com/chrisjlee/ember-best-practices)
+* [Interesting discussion](https://github.com/latentflip/domthing)
 
 ```
 Ember.run.once();
@@ -100,6 +102,12 @@ App = Ember.Application.create({
     // jQuery ready hook
   }
 });
+```
+
+## Template
+
+```
+{{log model}}
 ```
 
 ## Run Loop (backburner.js)

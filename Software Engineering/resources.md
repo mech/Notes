@@ -1,6 +1,9 @@
 # Resources
 
-* [Awesomeness](https://github.com/bayandin/awesome-awesomeness)
+* [VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
+* [Quickly learn X programming language](http://learnxinyminutes.com/)
+* [Beautiful Open Source projects](http://beautifulopen.com/)
+* [Awesomeness Awesomeness](https://github.com/bayandin/awesome-awesomeness)
 * Architect for change. Make change less expensive. Able to evolve overtime.
 * Software always becomes iterative. Architecture also becomes iterative.
 * Architecture is a snapshot of a process.

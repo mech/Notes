@@ -1,5 +1,6 @@
 # Sketch.app
 
+* [**Sketch Resources**](http://learn.ustwo.com/sketch-resources)
 * [Sketch Tips](http://www.sketchtips.info/)
 * [Time to dump Photoshop and embrace Sketch](https://medium.com/design-ux/c59ff242715d)
 * [Meng To's Best hidden features in Sketch part 2](http://blog.mengto.com/hidden-features-sketch-part-2/)
@@ -24,6 +25,7 @@
 * [Portrait polygon](http://medialoot.com/blog/tutorial-polygon-portrait-poster-design/)
 * [Sketch for print design?](https://medium.com/@pnowelldesign/sketch-for-print-design-fd165b92cb3a)
 * [Why I moved to Sketch](http://hackingui.com/design/sketch-design/why-i-moved-to-sketch/)
+* [7 tips for Sketch](https://medium.com/design-idea/7-tips-for-sketch-users-e09c27c7ce08)
 
 ## Tools
 
@@ -58,6 +60,7 @@
 * [Sketch Framer](https://github.com/bomberstudios/sketch-framer/)
 * [WCAG AAA color contrast](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
 * [Random opacity](https://github.com/adamhowell/random-opacity-sketch-plugin)
+* [Animate GIF](https://github.com/NathanRutzky/Generate-GIF)
 
 ## Gallery
 
@@ -65,3 +68,4 @@
 * [SHAPE - The film](http://makeshapechange.com/)
 * [Using 53's Paper](http://angelwhite24.tumblr.com/)
 * [Art Station](http://magazine.artstation.com/)
+* [George Bletsis](http://monstertreeart.tumblr.com/)

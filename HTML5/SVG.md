@@ -25,6 +25,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [Workflow to export SVG](http://hackingui.com/design/my-workflow-to-export-svgs-out-of-my-photoshop-design-files/)
 * [SVG workflow](https://news.layervault.com/stories/28025-ask-dn-switching-from-icon-fonts-to-svg-whats-your-workflow)
 * [Snippet expansion for Sublime Text](http://codepen.io/jorgeatgu/blog/svg-snippets)
+* [High performance interactions using canvas](http://chairnerd.seatgeek.com/high-performance-map-interactions-using-html5-canvas/)
 
 ```
 <text>

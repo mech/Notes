@@ -28,6 +28,7 @@
 
 * [Velocity.js - a more performant jQuery replacement for `.animate()`](http://css-tricks.com/improving-ui-animation-workflow-velocity-js/)
 * [UI pack overview](https://www.youtube.com/watch?v=CdwvR6a39Tg&hd=1)
+* [Impulse](http://impulse.luster.io/guides.html)
 
 
 ## Demo

@@ -23,6 +23,10 @@
 * [Validator using Bootstrap 3?](http://bootstrapvalidator.com/)
 * [Text n Tags](http://daniel-zahariev.github.io/jquery-textntags/)
 * [A better credit card form](https://github.com/jessepollak/card)
+* [Drag n Drop without requiring jQuery.UI](https://github.com/NathanRutzky/jQuery.dragmove)
+* [Keycode](https://github.com/timoxley/keycode)
+* [Aiming](https://github.com/cihadturhan/jquery-aim)
+* [Swipe to accept/reject](https://github.com/winkerVSbecks/swipe-li)
 
 ## Auto-complete
 

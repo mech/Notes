@@ -16,6 +16,7 @@
 * [How do you design interaction](http://www.smashingmagazine.com/2014/07/21/how-do-you-design-interaction/)
 * [Patters for new user experiences](http://www.kryshiggins.com/patterns-for-new-user-experiences/)
 * [I know where you are aiming!](https://medium.com/@cihadturhan/a-ux-idea-i-know-where-you-are-aiming-3e00d152afb2)
+* [IxD Checklist](http://ixdchecklist.com/)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

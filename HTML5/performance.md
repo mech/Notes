@@ -17,6 +17,9 @@
 * [High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545/ch02.html#OPTIMIZING_TCP)
 * [Navigation Timing 2 and User Timing](https://github.com/Comcast/Surf-N-Perf)
 * [CSS Triggers - Layout, Paint, and Composite](http://csstriggers.com/)
+* [Prebrowsing?](http://alistapart.com/article/one-step-ahead-improving-performance-with-prebrowsing)
+* [Perfbar](http://lafikl.github.io/perfBar/)
+* [Analyze CSS](https://github.com/macbre/analyze-css)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

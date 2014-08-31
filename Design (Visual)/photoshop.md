@@ -2,6 +2,10 @@
 
 * [Some nice free works](http://www.bestpsdfreebies.com/)
 * [State](https://medium.com/@bradee/layer-comps-and-place-linked-smart-objects-6feb574963ef)
+* [Creating color palettes using adjustment layers](http://bjango.com/articles/adjustmentlayers/)
+* [My app design setup](https://medium.com/@bleeharper/my-app-design-setup-bd83382e193c)
+* [Parsing colors from image](http://blog.kam88.com/en/parsing-colors-from-image-in-photoshop.html)
+* [Photoshop Animation](http://photoshopanimation.com/)
 
 ## Tips and Tricks
 
@@ -17,6 +21,8 @@
 * [Old photos from the past](http://nos.twnsnd.co/)
 * [Super Famous](http://superfamous.com/)
 * [Pattern Library](http://thepatternlibrary.com/)
+* [The Stocks](http://thestocks.im/)
+* [Travel Coffee Book](http://travelcoffeebook.tumblr.com/)
 
 ## Layers
 

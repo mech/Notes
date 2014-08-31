@@ -7,6 +7,7 @@ The reason to test is a new behaviour or new use-case, not because of a new meth
 * [Rails testing anti-patterns: Controllers](https://semaphoreapp.com/blog/2014/02/11/rails-testing-antipatterns-controllers.html)
 * [Managing externals in Ruby tests](https://semaphoreapp.com/blog/2014/03/18/managing-externals-in-ruby-tests.html)
 * [TDD Anti-patterns: The free ride](https://semaphoreapp.com/blog/2014/06/24/tdd-antipatterns-the-free-ride.html)
+* [Setup tests with services](http://blog.arkency.com/2014/06/setup-your-tests-with-services/)
 
 There is no need for TDD for spiking or proof-of-concept coding.
 

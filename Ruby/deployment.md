@@ -1,5 +1,6 @@
 # Deployment
 
+* [Sysadmin Casts](http://sysadmincasts.com/)
 * [DNS-level to prevent DDoS](https://www.cloudflare.com/plans)
 * [things every `.htaccess` file should have](http://www.rrpowered.com/2014/05/things-every-htaccess-file-should-have.html)
 * [Enable Gzip](http://www.feedthebot.com/pagespeed/enable-compression.html)
@@ -7,6 +8,9 @@
 * [Rails migrations with no downtime](http://pedro.herokuapp.com/past/2011/7/13/rails_migrations_with_no_downtime/)
 * [Server sandbox??](http://kikobeats.gitbooks.io/server-sandbox/)
 * [SSH keys](http://www.poststat.us/ssh-keys-server-management/)
+* Compress log
+* Fanout services
+* Prioritize queues (Jeff Dean of Google)
 
 ```
 rake quality

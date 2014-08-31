@@ -15,6 +15,7 @@
 * [Ultimate guide to email design?](http://www.webdesignerdepot.com/2014/06/the-ultimate-guide-to-email-design/)
 * [HTML email with Grunt.js](http://www.leemunroe.com/html-email-design-workflow/)
 * [Transactional HTML email templates](http://blog.mailgun.com/transactional-html-email-templates/)
+* [Email markdown](http://cakedown.alexandredeschamps.ca/)
 
 ## Tools
 

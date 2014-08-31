@@ -48,6 +48,9 @@
 * [The Factory OS](https://medium.com/@matter.io/the-factory-os-2a57a1de1e64)
 * [Tony Fadell](http://www.wired.co.uk/magazine/archive/2014/07/features/tony-fadell-apple-to-google/viewall)
 * [Design culture is a frozen shithole](https://medium.com/@cole_peters/design-culture-is-a-frozen-shithole-55ac641022dd)
+* [Designers Who Don’t Talk Like Designers Get Hired](http://www.gkogan.co/blog/designers-dont-talk-like-designers-get-hired/)
+* [Be the product](http://www.coreygw.in/posts/53f13fd41079d14a26309c24)
+* [How I got my startup to #1](https://levels.io/product-hunt-hacker-news-number-one/)
 
 User research == Customer development
 
@@ -139,6 +142,9 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [First time UX](http://firsttimeux.tumblr.com/)
 * [Stop asking me to sign up](http://www.gkogan.co/blog/stop-asking-me-to-sign-up/)
 * [On-boarding starts with a story](http://insideintercom.io/killer-user-onboarding-starts-with-a-story/)
+* [Not just for HR and growth hackers](http://pjrvs.com/a/onboarding)
+* [Write better walkthroughs with 3x3 method](https://medium.com/@tomcavill/3x3-d6202ef7d077)
+* [Walkthrough examples](http://www.pttrns.com/categories/16-walkthroughs)
 
 ## Legal
 
@@ -166,6 +172,10 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Product Hunt](http://firstround.com/article/Product-Hunt-is-Everywhere-This-is-How-It-Got-There)
 * [Designing the new Foursquare](https://medium.com/@sambrown/designing-the-new-foursquare-8f8788d366f0)
 * [Useful tips for getting the most of Slack](https://medium.com/@slackhq/11-useful-tips-for-getting-the-most-of-slack-5dfb3d1af77)
+* [Dropbox Carousel Deconstructed](http://www.smashingmagazine.com/2014/08/26/dropbox-carousel-design-deconstructed-part-1/)
+* [Several design details](http://blog.brianlovin.com/design-details-hyperlapse-for-ios/)
+* [Nice breakdown of Weebly](http://www.sitebuilderreport.com/blog/ux-lessons-from-weebly)
+* [Design Details Archives](http://blog.brianlovin.com/design-details/)
 
 ## Product News
 
