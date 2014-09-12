@@ -24,6 +24,7 @@
 * [Some nice colors](http://leaf.kortes.se/colors)
 * [How do you come up with your color palette](https://news.layervault.com/stories/32162-ask-dn-how-do-you-come-up-with-your-color-palette)
 * [Creating harmonious color schemes - Video](http://methodandcraft.com/videos/creating-harmonious-color-schemes)
+* [Never use black](http://ianstormtaylor.com/design-tip-never-use-black/)
 
 ## Icon
 

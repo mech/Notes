@@ -15,6 +15,7 @@ HTML semantics differs from *developer* semantics. We should write classes that 
 * Extension = Skin. The unique treatments.
 * Be explicit; target the element you want to affect, not its parent. Do not do this: `.sidebar ul {}`
 * Overly-specific location-dependent selectors is BAD: `.sidebar h2 {}`
+* [Attribute Module CSS - AMCSS](http://glenmaddern.com/articles/introducing-am-css)
 
 ```
 <div class="media media--large" data-ui-component="mini-bio"></div>

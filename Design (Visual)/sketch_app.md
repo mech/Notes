@@ -26,6 +26,8 @@
 * [Sketch for print design?](https://medium.com/@pnowelldesign/sketch-for-print-design-fd165b92cb3a)
 * [Why I moved to Sketch](http://hackingui.com/design/sketch-design/why-i-moved-to-sketch/)
 * [7 tips for Sketch](https://medium.com/design-idea/7-tips-for-sketch-users-e09c27c7ce08)
+* [Sketch Style Inventory](https://github.com/getflourish/Sketch-Style-Inventory/)
+* [Using USB if your WIFI is flaky](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala)
 
 ## Tools
 

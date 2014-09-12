@@ -5,6 +5,7 @@
 * [Git flight rules](https://github.com/k88hudson/git-flight-rules)
 * [Pretty nice tips on history and git-blame](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
 * [Git Immersion by Neo](http://gitimmersion.com/)
+* [Git the safety net](http://alistapart.com/article/git-the-safety-net-for-your-projects)
 
 ```
 git add -u

@@ -1,6 +1,7 @@
 # Vim
 
 * [More instantly better Vim](http://www.youtube.com/watch?v=aHm36-na4-4)
+* [What is your setup?](https://news.layervault.com/stories/33033-ask-dn-vim-users-what-is-your-setup)
 
 ## Buffers
 

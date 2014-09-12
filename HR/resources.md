@@ -22,6 +22,10 @@
 
 * [Design salary survey](http://ivanamcconnell.com/design-survey.html)
 
+## Timesheet
+
+* [Timesheet.js](http://semu.github.io/timesheet.js/)
+
 ## PDPA
 
 * [FAQ](https://www.pdpc.gov.sg/faqs/faqs-for-individuals)

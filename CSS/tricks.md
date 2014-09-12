@@ -16,6 +16,7 @@
 * [Fading effect using blend modes](http://blogs.adobe.com/webplatform/2014/07/09/fade-transition-effects-using-blend-modes/)
 * [Notification styles inspiration](http://tympanus.net/codrops/2014/07/23/notification-styles-inspiration/)
 * [Before:After image comparison slider](http://lea.verou.me/2014/07/image-comparison-slider-with-pure-css/#)
+* [CSS slide in panel](http://codyhouse.co/gem/css-slide-in-panel/)
 
 ```
 /* do nothing when clicked even through JavaScript */

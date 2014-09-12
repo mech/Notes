@@ -20,6 +20,7 @@
 * [Prebrowsing?](http://alistapart.com/article/one-step-ahead-improving-performance-with-prebrowsing)
 * [Perfbar](http://lafikl.github.io/perfBar/)
 * [Analyze CSS](https://github.com/macbre/analyze-css)
+* [Improving Smashing Magazine performance](http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

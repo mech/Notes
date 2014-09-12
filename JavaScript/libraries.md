@@ -27,6 +27,10 @@
 * [Keycode](https://github.com/timoxley/keycode)
 * [Aiming](https://github.com/cihadturhan/jquery-aim)
 * [Swipe to accept/reject](https://github.com/winkerVSbecks/swipe-li)
+* [Responsive image cropping](https://github.com/jonom/jquery-focuspoint)
+* [Image slider](http://gilbitron.github.io/Ideal-Image-Slider/)
+* [**OCR reader in JavaScript**](http://antimatter15.com/ocrad.js/demo.html)
+* [Timesheet.js](http://semu.github.io/timesheet.js/)
 
 ## Auto-complete
 

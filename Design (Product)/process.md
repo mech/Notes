@@ -58,6 +58,10 @@ Something to break the ICE:
 * Stay in sketch mode, much longer than you think. Longer than you're probably used to. As soon as you go into Photoshop you're slowing yourself down and walling yourself off. In the beginning of the process, when **alignment** and problem solving are paramount, you need to stay in sketch mode as long as possible.
 * Tons of artboards and layers, but no clear story or point of view. No pitch.
 
+## Prototyping
+
+* [The PRD is dead, long live the prototype!](http://zurb.com/article/1331/the-prd-is-dead-long-live-the-prototype)
+* [How prototyping is replacing documentation](https://medium.com/goodux-badux/how-prototyping-is-replacing-documentation-c42e97d07a11)
 
 ## Google Ventures (Design Sprints)
 
@@ -72,6 +76,9 @@ Something to break the ICE:
 * [Google UXD](http://developerlife.com/ux/)
 * [Design process at Government Digital Service](https://gds.blog.gov.uk/2014/07/18/whats-the-design-process-at-gds/)
 * [1 person design sprint](https://medium.com/@makeshowlearn/personal-design-sprint-ii-food-tracking-af853a78a210)
+* [Thoughbot's Product Design Sprint](http://robots.thoughtbot.com/the-product-design-sprint)
+* [Thoughbot Playbook on Design Sprint](http://playbook.thoughtbot.com/#product-design-sprint)
+* [Gibbon Design Sprint resources](https://gibbon.co/chrisnaylor/design-sprints)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

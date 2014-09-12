@@ -23,12 +23,18 @@
 * [May not be good code examples](http://jackonthe.net/css3animateit/examples)
 * [Simple mixin for easing](http://codepen.io/winkerVSbecks/pen/Cihkr)
 * [Bouncy animation](http://learnsome.co/blog/bouncy/)
+* [CSS easing animation tool](http://matthewlein.com/ceaser/)
+* [CSS SVG loading](http://codepen.io/aurer/pen/jEGbA)
 
 ## Velocity.js
 
 * [Velocity.js - a more performant jQuery replacement for `.animate()`](http://css-tricks.com/improving-ui-animation-workflow-velocity-js/)
 * [UI pack overview](https://www.youtube.com/watch?v=CdwvR6a39Tg&hd=1)
 * [Impulse](http://impulse.luster.io/guides.html)
+* [**Animating without jQuery**](http://www.smashingmagazine.com/2014/09/04/animating-without-jquery/)
+* [Velocity Motion Designer - VMD](https://www.youtube.com/watch?v=7IxhIMIdkPs&hd=1)
+* [Ember velocity?](http://julian.com/research/velocity/#ember)
+* [Animsition](http://git.blivesta.com/animsition/)
 
 
 ## Demo
@@ -36,6 +42,7 @@
 * [Morphing buttons](http://tympanus.net/codrops/2014/05/12/morphing-buttons-concept/)
 * [Hover effect ideas](http://tympanus.net/Development/HoverEffectIdeas/)
 * [Dot navigation](http://tympanus.net/Development/DotNavigationStyles/)
+* [Some nice animation examples](http://varun.ca/the-core/)
 
 
 ## Famo.us

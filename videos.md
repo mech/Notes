@@ -7,3 +7,4 @@
 * [Front-Trends](https://vimeo.com/fronttrends/videos)
 * [Web Conference Amsterdam](https://vimeo.com/webconferences/videos)
 * [UX videos](http://www.mysliderule.com/learning-paths/user-experience-design/learn/)
+* [The Conference](http://videos.theconf.se/)

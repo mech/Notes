@@ -171,6 +171,8 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 * [Flexbox - Next-generation CSS Layout has arrived](http://blog.teamtreehouse.com/flexbox-next-generation-css-layout-arrived)
 * [Flexbox based responsive equal height](http://osvaldas.info/flexbox-based-responsive-equal-height-blocks-with-javascript-fallback)
 * [Kite CSS - Flexible layout helper](http://hiloki.github.io/kitecss/)
+* [Flexbox calculator](http://maxsteenbergen.com/fibonacci/)
+* [Full height tips](http://www.codelord.net/2014/09/08/css-tip-elements-with-height-100-percent-fixed-amount/)
 
 `flex-wrap` not supported in Firefox, so be careful.
 

@@ -1,5 +1,6 @@
 # Typography
 
+* [Lettering Gear](http://tumblr.ryanhamrick.com/post/50012569117/lettering-gear-a-quick-guide-to-get-started)
 * [Typoguide](http://www.typogui.de/)
 * [Combining Typefaces - Book](http://www.fivesimplesteps.com/products/combining-typefaces)
 * [Hyphens, en-dashes and em-dashes](http://www.fonts.com/content/learning/fyti/glyphs/hyphens-and-dashes)
@@ -29,6 +30,9 @@
 * [Fonts that go together](http://www.typ.io/popular)
 * [rem or em or px](https://news.layervault.com/stories/31455-ask-dn-which-unit-do-you-use-rem-em-or-px)
 * [Nice interview with Erik Spiekermann](http://news.gestalten.com/news/interview-erik-spiekermann-typography)
+* [Selecting typefaces for body text](http://practice.typekit.com/lesson/selecting-typefaces-for-body-text/)
+* [What should UI typefaces look like](http://www.design-by-izo.com/2011/10/18/what-should-i-look-for-in-a-ui-typeface/)
+* [7 typefaces for better performance](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance)
 
 ```
 // New for Firefox 25

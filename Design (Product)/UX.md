@@ -2,6 +2,7 @@
 
 ## General
 
+* [**UX Myths**](http://uxmyths.com/)
 * [Designer Fund's blog](http://designerfund.com/bridge/blog/)
 * [Design Mind - Frog](http://designmind.frogdesign.com/)
 * [IDEO's Made in the Future!](http://madeinthefuture.co/)
@@ -22,6 +23,7 @@
 * [UX Methods Deliverables](http://uxdesign.cc/ux-methods-deliverables/)
 * [Research reports](http://baymard.com/)
 * [7 signs you're not a UX designer](http://uxmastery.com/7-signs-person-isnt-actually-ux-designer/)
+* [How to choose the right UX metrics for your product - HEART](http://www.gv.com/lib/how-to-choose-the-right-ux-metrics-for-your-product)
 
 ## Behaviorism
 

@@ -10,3 +10,4 @@
 * [Jessica Walsh](http://toworkorplay.com/work/welove/profile-jessica-walsh/)
 * [Matt Luckhurst](http://mattluckhurst.com/)
 * [Patrick Algrim](http://algrim.co/)
+* [Jowey Roden - Airbnb](http://jowey.co/)

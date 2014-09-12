@@ -26,6 +26,11 @@
 * [Low polygon](http://abduzeedo.com/low-polygon-artworks)
 * [George Bletsis](http://monstertreeart.tumblr.com/)
 * [UX Porn](http://uxporn.uxpin.com/)
+* [Banquet](http://banquethall.tumblr.com/)
+* [The Best Designs](http://www.thebestdesigns.com/)
+* [Sites for getting inspiration](https://news.layervault.com/stories/32383-ask-dn-what-are-your-favourite-sites-for-getting-inspiration-)
+* [Empty States](http://emptystat.es/)
+* [Nice portfolio](http://niceportfol.io/)
 
 ## Mobile
 

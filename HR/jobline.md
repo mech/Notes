@@ -8,3 +8,5 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * Creating timesheet is not idiot-proof. People can create Jan timesheet when it was Dec now! We must at least alert CA that Jan is not the correct month!
 * Design staff on-boarding materials, like where to eat, etc.
 * [Not just for HR and growth hackers](http://pjrvs.com/a/onboarding)
+* Use [Moo.com](http://uk.moo.com/design-templates/luxe/business-cards/) for business card
+* [Business cards](https://news.layervault.com/stories/32362-ask-dn-best-online-places-to-order-business-cards-from)

@@ -115,6 +115,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [A serious look at card based design](http://webdesignledger.com/trends-2/cardbaseddesign)
 * [The most special things about cards that nobody is talking about](http://jordancooper.wordpress.com/2014/03/14/the-most-special-thing-about-cards-that-nobody-is-talking-about/)
 * [Focus on Card Architecture and not Card Design](http://taylordavidson.com/2014/cards)
+* [Twitter cards guide](http://blog.bufferapp.com/twitter-cards-guide)
 
 ## Quotes
 

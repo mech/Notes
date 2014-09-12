@@ -19,6 +19,7 @@ Notable companies in HR domain.
 * [Hire Vue](http://hirevue.com/)
 * [eVantage-HR?](http://www.evantage-hr.com/)
 * [Small Improvements - Performance Reviews](https://www.small-improvements.com/tour)
+* [Manpower Group](http://www.manpowergroup.com/)
 
 ## Executive Search
 

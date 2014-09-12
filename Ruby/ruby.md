@@ -4,6 +4,8 @@
 * [Polymorphism and Ruby](http://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby)
 * [Scrape data](http://www.youtube.com/watch?v=eumekfP4IKQ)
 * [**Nice resources**](https://github.com/dreikanter/ruby-bookmarks)
+* [Practicing Ruby](http://blog.rubybestpractices.com/posts/gregory/063-practicing-ruby-v2.html)
+* [Double dispatch](http://blog.rubybestpractices.com/posts/aaronp/001_double_dispatch_dance.html)
 
 ## Gem Authoring
 

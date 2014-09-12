@@ -9,6 +9,13 @@
 * [Geo pinpoint IP](http://voiceofchunk.com/2014/07/12/getting-geolocal-with-pointpin/)
 * [Nice blog on Rails](http://dev.mensfeld.pl/)
 * [Nice blog on Rails - ninefold](https://ninefold.com/blog/)
+* [GoRails - Video lessons](https://gorails.com/)
+
+## Association Proxy
+* [Advanced Proxy Usage](http://pivotallabs.com/advanced-proxy-usage-part-i/)
+* [AP and caching](http://www.elevatedcode.com/2007/03/16/rails-association-proxies-and-caching.html)
+
+
 
 ## Object-Oriented Rails
 

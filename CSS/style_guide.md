@@ -30,6 +30,9 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Buffer CSS](http://blog.brianlovin.com/buffers-css/)
 * [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
 * [Common practices do not mean best practices](http://cssmojo.com/think-for-yourself/)
+* [Specs, styles, etc.](https://news.layervault.com/stories/32533-ask-dn-how-do-you-prepare-specs-for-your-developers)
+* [Naming CSS stuff is really hard](http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard)
+* [UI Lang](http://uilang.com/)
 
 ## Checklist
 

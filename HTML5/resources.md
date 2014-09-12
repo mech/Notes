@@ -1,5 +1,6 @@
 # Resources
 
+* [Standard Markdown](http://standardmarkdown.com/)
 * [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
 * [Design System](http://css-tricks.com/design-systems-building-future/)
 * [Build flexible modules, not pages. Design a system. Make it modular.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)

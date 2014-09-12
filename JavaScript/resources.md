@@ -20,6 +20,7 @@ JavaScript dynamic duo (static type is overrated):
 * [Rob Richardson](http://robrich.org/)
 * [Hugo Giraudel](http://hugogiraudel.com/)
 * [Sam Dutton](http://simpl.info/)
+* [Volkan](http://volkan.io/)
 
 ## Macros
 
