@@ -26,6 +26,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [SVG workflow](https://news.layervault.com/stories/28025-ask-dn-switching-from-icon-fonts-to-svg-whats-your-workflow)
 * [Snippet expansion for Sublime Text](http://codepen.io/jorgeatgu/blog/svg-snippets)
 * [High performance interactions using canvas](http://chairnerd.seatgeek.com/high-performance-map-interactions-using-html5-canvas/)
+* [SVG Path](https://github.com/andreaferretti/paths-js)
 
 ```
 <text>

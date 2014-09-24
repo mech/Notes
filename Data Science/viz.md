@@ -42,6 +42,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [HK LegCo](http://inside-hk-legco.herokuapp.com/)
 * [How we made Human Cities](http://blog.human.co/posts/human-cities.html)
 * [C3.js](http://c3js.org/)
+* [Step by step guide](http://zeroviscosity.com/category/d3-js-step-by-step)
 
 ## Graphite
 

@@ -2,7 +2,7 @@
 
 ## Example
 
-* http://cakedown.alexandredeschamps.ca/
+* [**http://cakedown.alexandredeschamps.ca/**](http://cakedown.alexandredeschamps.ca/)
 
 Key things to Web UI:
 

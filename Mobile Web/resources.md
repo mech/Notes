@@ -13,6 +13,7 @@
 * [RWD Bloat](http://daverupert.com/2014/07/rwd-bloat-part-ii/)
 * [How we make RWD sites load fast as heck](http://filamentgroup.com/lab/performance-rwd.html)
 * [Some convenient breakpoint methods](http://restivejs.com/)
+* [Slash build time on RWD](http://www.creativebloq.com/css3/slash-build-time-proportional-rwd-91412846)
 
 ## List of screen resolution
 

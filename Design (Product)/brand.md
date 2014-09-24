@@ -18,3 +18,4 @@
 * [Live Surface's Context is a Mac application to visualize branding](http://www.livesurface.com/)
 * [Branding beyond the logo](http://stemmings.com/branding-beyond-the-logo/)
 * [Reasons to rebrand a company](http://www.zenelements.com/blog/reasons-to-rebrand/)
+* [Brand Guidelines](https://news.layervault.com/stories/33350-brand-guidelines)

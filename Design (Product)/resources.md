@@ -51,8 +51,13 @@
 * [Designers Who Don’t Talk Like Designers Get Hired](http://www.gkogan.co/blog/designers-dont-talk-like-designers-get-hired/)
 * [Be the product](http://www.coreygw.in/posts/53f13fd41079d14a26309c24)
 * [How I got my startup to #1](https://levels.io/product-hunt-hacker-news-number-one/)
+* [Designer as architect](http://theindustry.cc/2014/09/11/designer-architect/)
 
 User research == Customer development
+
+## Growth
+
+* [33 ways to get more clients](http://clientflow.io/blog/33-ways-to-get-more-clients/)
 
 ## Wireframe and Prototyping
 
@@ -99,6 +104,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Google IO 2014 - Perfectly executing the wrong plan](https://www.youtube.com/watch?v=9TJTbRw4ri8)
 * [Emotional Design](https://medium.com/design-philosophies/emotional-design-ef3bad0ddd4a)
 * [Brain gems for decision-makers](http://coglode.com/)
+* [History of cognitive overload](http://www.farnamstreetblog.com/2014/09/the-history-of-cognitive-overload/)
 
 > Don't listen to user. Observe their behaviors.
 
@@ -146,6 +152,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Not just for HR and growth hackers](http://pjrvs.com/a/onboarding)
 * [Write better walkthroughs with 3x3 method](https://medium.com/@tomcavill/3x3-d6202ef7d077)
 * [Walkthrough examples](http://www.pttrns.com/categories/16-walkthroughs)
+* [Onboarding mistakes](http://www.helpscout.net/blog/user-onboarding-mistakes/)
 
 ## Legal
 
@@ -177,6 +184,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Several design details](http://blog.brianlovin.com/design-details-hyperlapse-for-ios/)
 * [Nice breakdown of Weebly](http://www.sitebuilderreport.com/blog/ux-lessons-from-weebly)
 * [Design Details Archives](http://blog.brianlovin.com/design-details/)
+* [Making of Tiiny](https://medium.com/@hemeon/the-making-of-tiiny-60b527757997)
+* [Swarm branding](https://medium.com/@mrdavenport/swarm-branding-and-visual-design-afb11c949526)
 
 ## Product News
 

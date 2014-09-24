@@ -362,7 +362,7 @@ ng-class="{'label-success':focus}"
 Like Unix's pipe. Output of one expression and pipe it into another.
 
 ```
- <li ng-repeat='c in comments | orderBy: "date"'>
+ <li ng-repeat='c in comments | orderBy: "-date"'>
    {{c.author | uppercase}}
  </li>
 ```
@@ -375,6 +375,12 @@ App.filter("salaryRange", function() {
     return input.min + " - " + input.max
   };
 });
+```
+
+```
+{{'1388123412323' | date:'MM/dd/yyyy @ H:mma'}}
+{{'gem' | uppercase}}
+{{'My Description' | limitTo:8}}
 ```
 
 ## ng-min

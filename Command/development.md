@@ -21,3 +21,5 @@ rake test && cap deploy
 * [Sysadmin Casts](http://sysadmincasts.com/)
 
 "\xEF\xBF\xBD" - Or Replacement Character
+
+`git grep ', =' | wc -l`

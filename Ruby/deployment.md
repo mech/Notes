@@ -12,6 +12,8 @@
 * Compress log
 * Fanout services
 * Prioritize queues (Jeff Dean of Google)
+* [Cron job with rbenv](http://www.relativkreativ.at/articles/running-ruby-scripts-from-within-a-cron-job-in-an-rbenv-environment)
+* [Cleaning up Rails 4 production logging](http://rubyjunky.com/cleaning-up-rails-4-production-logging.html)
 
 ```
 rake quality
@@ -21,6 +23,10 @@ rake smoke:staging
 git push heroku master
 rake smoke:production
 ```
+
+## Security
+
+* [Watch Ruby app security](https://hakiri.io/security-watch)
 
 ## Boxen
 

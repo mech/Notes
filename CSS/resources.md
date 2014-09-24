@@ -21,6 +21,7 @@
 
 * [Molten leading](http://demosthenes.info/blog/606/Molten-Leading-Exploring-The-CSS-Relationship-Between-Font-Size-Line-Height-and-Margin)
 * [Refine your web type](http://thenextweb.com/dd/2012/10/14/refine-your-web-type-with-this-crash-course-on-the-css-line-height-property/)
+* [All you need to know about vertical-align](http://christopheraue.net/2014/03/05/vertical-align/)
 
 ![line-height-and-input](https://dl.dropboxusercontent.com/u/6815194/Notes/line_height_and_input.png)
 

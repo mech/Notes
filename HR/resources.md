@@ -17,6 +17,8 @@
 * [Working from home alone is the real culprit](http://fortune.com/2013/03/19/working-from-home-alone-is-the-real-culprit/)
 * [Hey Available](http://heyavailable.com/)
 * [Know Your Company - Fresh eyes](https://knowyourcompany.com/blog/posts/22-fresh-eyes)
+* [Rethinking the technical interview](https://medium.com/@pamelafox/rethinking-the-technical-interview-f3b8c1df9e5d)
+* [Job hunt sucks](https://medium.com/terms-conditions/if-you-think-the-job-hunt-sucks-try-recruiting-677921d7f897)
 
 ## Salary
 

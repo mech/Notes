@@ -22,6 +22,8 @@
 * [Constraints are good design](http://www.fastcodesign.com/3025434/willingly-accept-constraints)
 * [When design doesn't matter](https://medium.com/i-m-h-o/when-design-doesnt-matter-bb29af1b5866)
 * [Making or breaking a technical build process](http://authenticff.com/journal/managing-client-expectations-making-or-breaking-a-technical-build-process)
+* [Inteview with Steve Jobs](http://longform.org/stories/playboy-interview-steve-jobs)
+* [The golden age of Design](http://tmagazine.blogs.nytimes.com/2014/09/22/design-golden-age/)
 
 ## Design Videos
 

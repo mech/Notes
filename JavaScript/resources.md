@@ -11,6 +11,7 @@ JavaScript dynamic duo (static type is overrated):
 * [A JavaScript Quality Guide](https://github.com/bevacqua/js/)
 * [Regular expression in JavaScript](http://bjorn.tipling.com/state-and-regular-expressions-in-javascript)
 * [Mixins, Forwarding, and Delegation in JavaScript](http://raganwald.com/2014/04/10/mixins-forwarding-delegation.html)
+* [Variable hoisting](http://malena.github.io/training/#scope)
 
 ## People
 

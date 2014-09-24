@@ -351,6 +351,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [Kanbanize](https://kanbanize.com/ctrl_integration)
 * [Yelp](http://www.yelp.com/developers/documentation)
 * [DN](https://github.com/layervault/dn_ruby_client)
+* [Dribbble new API](http://developer.dribbble.com/v1/)
 
 ## Videos
 

@@ -25,6 +25,10 @@
 * [Bouncy animation](http://learnsome.co/blog/bouncy/)
 * [CSS easing animation tool](http://matthewlein.com/ceaser/)
 * [CSS SVG loading](http://codepen.io/aurer/pen/jEGbA)
+* [Animated banner ad with no image](https://www.campaignmonitor.com/blog/post/4288/coding-animated-banner-ad-no-images)
+* [Tremula.js](http://garriss.wordpress.com/2014/07/06/introducing-tremulajs/)
+* [Animattr](http://danieldelaney.github.io/animattr/)
+* [**Interface animations presentation**](http://markgeyer.com/pres/interface-animations/)
 
 ## Velocity.js
 

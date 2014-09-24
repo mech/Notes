@@ -17,6 +17,7 @@
 * [Patters for new user experiences](http://www.kryshiggins.com/patterns-for-new-user-experiences/)
 * [I know where you are aiming!](https://medium.com/@cihadturhan/a-ux-idea-i-know-where-you-are-aiming-3e00d152afb2)
 * [IxD Checklist](http://ixdchecklist.com/)
+* [Gestalt principles of natural interaction](http://robots.thoughtbot.com/gestalt-principles)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

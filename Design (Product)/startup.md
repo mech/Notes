@@ -5,6 +5,7 @@
 * [Ask DN - How did you come up with an app idea](https://news.layervault.com/stories/28881-ask-dn-how-did-you-come-up-with-an-app-idea)
 * [Thinking without trying to](http://www.paulgraham.com/top.html)
 * [Founded in Holland](http://foundedinholland.com/)
+* [Founded in Portland](http://foundedin.pl/)
 
 ## Growth
 

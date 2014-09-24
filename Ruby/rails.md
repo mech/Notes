@@ -42,6 +42,10 @@ Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensu
 * [ActiveRecord enum vs PostgreSQL's enum](http://www.postgresql.org/docs/9.2/static/datatype-enum.html)
 * [Favourite things about Rails 4.1](http://www.reinteractive.net/posts/177-my-favourite-things-about-rails-4-1)
 
+## 4.2
+
+* [From Rails 3.2 to Rails 4.2](http://technology.customink.com/blog/2014/09/16/from-rails-3.2-to-4.2/?utm_source=rubyweekly&utm_medium=email)
+
 ## ActiveRecord
 
 * [7 patterns to refactor fat ActiveRecord models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/)

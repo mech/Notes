@@ -10,3 +10,15 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * [Not just for HR and growth hackers](http://pjrvs.com/a/onboarding)
 * Use [Moo.com](http://uk.moo.com/design-templates/luxe/business-cards/) for business card
 * [Business cards](https://news.layervault.com/stories/32362-ask-dn-best-online-places-to-order-business-cards-from)
+
+---
+
+* Should we email CA when they are CV profiled - Eveleen
+* Schedule Interview - What happen if the CA is not in our DB? Should we import them even if they don't have SRID with us.
+
+## NRIC
+
+* http://www.arjun.com.np/blog/all-about-nric-number-in-singapore/
+* http://www.wikiwand.com/en/National_Registration_Identity_Card
+* http://gangasudhan.com/blog/2008/07/nric-fin-number-suffix-checker.html
+* 

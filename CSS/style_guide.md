@@ -29,10 +29,15 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Some basic project agnostic CSS](http://ryanmorr.com/project-agnostic-css-declaration-blocks/)
 * [Buffer CSS](http://blog.brianlovin.com/buffers-css/)
 * [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
+* [Bugsnag CSS](https://bugsnag.com/blog/bugsnags-css-architecture)
 * [Common practices do not mean best practices](http://cssmojo.com/think-for-yourself/)
 * [Specs, styles, etc.](https://news.layervault.com/stories/32533-ask-dn-how-do-you-prepare-specs-for-your-developers)
 * [Naming CSS stuff is really hard](http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard)
 * [UI Lang](http://uilang.com/)
+* [The evolving designer](http://marcelosomers.com/the-evolving-designer)
+* [**A curated list of pattern library**](https://github.com/marcelosomers/pattern-library-directory)
+* [**Codepen Patterns**](http://codepen.io/patterns/)
+* [CSS Audits](http://alistapart.com/article/css-audits-taking-stock-of-your-code)
 
 ## Checklist
 

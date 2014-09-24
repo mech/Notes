@@ -14,6 +14,11 @@
 * [iOS 8 explained](http://www.imore.com/extensibility-ios-8-explained)
 * [Prompting for app reviews](https://medium.com/@dancounsell/prompting-for-app-reviews-97d9e78dd5fd)
 * [Swipe to peep](http://itchingpixels.com/anatomy-of-a-touch-interaction-swipe-to-peep/)
+* [iPhone 6 screens demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
+* [Curious case of iPhone 6+](https://medium.com/@brucewangsg/the-curious-case-of-iphone-6-1080p-display-b33dac5bbcb6)
+* [iOS 8 review](http://pxlnv.com/blog/ios-8-review/)
+* [How to design for huge screen](http://scotthurff.com/posts/how-to-design-for-thumbs-in-the-era-of-huge-screens)
+* [Ultimate guide to iPhone resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
 ## Animation
 
@@ -30,6 +35,7 @@
 * [Quartz Composer Diary](http://qc.prabros.com/primer1.html)
 * [UI prototyping with QC and Origami](http://www.pasanpremaratne.com/2014/03/15/UI-Prototyping-with-Quartz-Composer-and-Origami/)
 * [Path's button](http://www.punchkickinteractive.com/blog/2014/04/01/quartz-composer-and-origami-tutorial-button-animation)
+* [Learn QC](http://scotthurff.com/qc/)
 
 ## Tools
 

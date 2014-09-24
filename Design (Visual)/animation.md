@@ -18,6 +18,7 @@
 * [Layered animation](https://vimeo.com/101885482)
 * [Prototyping interactive animation](https://medium.com/@toddsiegel/prototyping-interactive-animation-3371d0b7cc7b)
 * [Photoshop Animation](http://photoshopanimation.com/)
+* [Learn Bezier](http://bezier.method.ac/#)
 
 ## Famo.us
 

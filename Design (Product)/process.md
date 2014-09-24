@@ -2,6 +2,7 @@
 
 > Imagine. Implement. Iterate. Improve.
 
+* [**IDEO Design Kit**](http://www.designkit.org/methods)
 * [Mark Boulton Design - How we work](http://markboulton.co.uk/journal/how-we-work)
 * [Using questionnaires for design research](http://24ways.org/2012/using-questionnaires-for-design-research/)
 * [Prismatic and teehan+lax](http://www.teehanlax.com/story/prismatic/)
@@ -27,6 +28,7 @@
 * [How to validate your business idea by testing a hypothesis](http://hatchery.io/how-to-validate-your-business-idea-by-testing-a-hypothesis.html)
 * [Process ideas](https://news.layervault.com/stories/31808-ask-dn-whats-your-interaction-design-process-from-pencil-to-prototype-)
 * [Iterating and incrementing are separate ideas](http://www.agileproductdesign.com/blog/dont_know_what_i_want.html)
+* [Ideas come first](http://designobserver.com/feature/ideas-come-first/38561)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 
@@ -79,6 +81,7 @@ Something to break the ICE:
 * [Thoughbot's Product Design Sprint](http://robots.thoughtbot.com/the-product-design-sprint)
 * [Thoughbot Playbook on Design Sprint](http://playbook.thoughtbot.com/#product-design-sprint)
 * [Gibbon Design Sprint resources](https://gibbon.co/chrisnaylor/design-sprints)
+* [8 shortcuts for faster design research](http://www.gv.com/lib/8-shortcuts-for-better-faster-design-research)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

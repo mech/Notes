@@ -31,6 +31,7 @@
 * [Sites for getting inspiration](https://news.layervault.com/stories/32383-ask-dn-what-are-your-favourite-sites-for-getting-inspiration-)
 * [Empty States](http://emptystat.es/)
 * [Nice portfolio](http://niceportfol.io/)
+* [Brand New](http://www.underconsideration.com/brandnew/archives/friday_likes_centennial.php#.VCGa_yuSymC)
 
 ## Mobile
 

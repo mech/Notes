@@ -1,5 +1,6 @@
 # Sketch.app
 
+* [**Bjango's App Design Workflow (Mostly Photoshop)**](http://bjango.com/articles/appdesignworkflow/#)
 * [**Sketch Resources**](http://learn.ustwo.com/sketch-resources)
 * [Sketch Tips](http://www.sketchtips.info/)
 * [Time to dump Photoshop and embrace Sketch](https://medium.com/design-ux/c59ff242715d)
@@ -28,6 +29,7 @@
 * [7 tips for Sketch](https://medium.com/design-idea/7-tips-for-sketch-users-e09c27c7ce08)
 * [Sketch Style Inventory](https://github.com/getflourish/Sketch-Style-Inventory/)
 * [Using USB if your WIFI is flaky](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala)
+* [Tutorial - Design a login form](http://webdesign.tutsplus.com/tutorials/sketch-for-beginners-design-a-login-form-interface--cms-21534)
 
 ## Tools
 
@@ -63,6 +65,7 @@
 * [WCAG AAA color contrast](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
 * [Random opacity](https://github.com/adamhowell/random-opacity-sketch-plugin)
 * [Animate GIF](https://github.com/NathanRutzky/Generate-GIF)
+* [Plugins for web design](http://www.newmediacampaigns.com/blog/essential-sketch-plugins-for-web-design)
 
 ## Gallery
 

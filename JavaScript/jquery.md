@@ -4,6 +4,7 @@
 * [jQuery's browser bug workarounds](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit)
 * [129 fixes](https://gist.github.com/rwaldron/8720084#file-reasons-md)
 * [Coding standards & best practices](http://lab.abhinayrathore.com/jquery-standards/)
+* [Complete beginners guide](https://ihatetomatoes.net/jquery-complete-beginners-datatypes-selectors/)
 
 ## Plugins and Libraries
 

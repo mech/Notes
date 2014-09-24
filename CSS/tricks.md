@@ -17,6 +17,7 @@
 * [Notification styles inspiration](http://tympanus.net/codrops/2014/07/23/notification-styles-inspiration/)
 * [Before:After image comparison slider](http://lea.verou.me/2014/07/image-comparison-slider-with-pure-css/#)
 * [CSS slide in panel](http://codyhouse.co/gem/css-slide-in-panel/)
+* [Colorful CSS](http://www.webcore-it.com/colorful-background/#)
 
 ```
 /* do nothing when clicked even through JavaScript */

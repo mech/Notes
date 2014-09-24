@@ -2,6 +2,7 @@
 
 * [Library best practices](https://github.com/volojs/volo/wiki/Library-best-practices)
 * [JavaScript Modules](http://jsmodules.io/)
+* [Scalable maintainable JavaScript](http://www.innoarchitech.com/scalable-maintainable-javascript/)
 
 ## ES6 Module Transpiler
 
@@ -12,6 +13,7 @@ ES6 Module specification has 2 things:
 
 Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 
+* [**Understanding ES6**](https://leanpub.com/understandinges6/read)
 * [Using Grunt and the ES6 Module Transpiler](http://www.thomasboyt.com/2013/06/21/es6-module-transpiler)
 * [Square's ES6 module transpiler](https://github.com/square/es6-module-transpiler)
 * [Some deep discussion on interop](https://github.com/square/es6-module-transpiler/issues/85)
@@ -22,6 +24,7 @@ Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 * [esprima](http://esprima.org/)
 * [Choc](http://www.fullstack.io/choc/)
 * [**es6-promise**](https://github.com/jakearchibald/es6-promise)
+* [ES6 on Node.js](http://h3manth.com/new/blog/2013/es6-on-nodejs/)
 
 ## Browserify
 

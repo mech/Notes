@@ -6,6 +6,8 @@
 * [Emoji spec](http://www.unicode.org/reports/tr51/full-emoji-list.html)
 * [Here are How-Tos for Design](http://www.madrasa.ca/link.php?text=design)
 * [**Designer's guide to DPI**](http://sebastien-gabriel.com/designers-guide-to-dpi/home)
+* [Design graphics](http://nathanbarry.com/design-graphics-blog-posts/)
+* [Design History](http://www.vanseodesign.com/web-design/design-history/)
 
 ## Videos
 
@@ -25,6 +27,7 @@
 * [How do you come up with your color palette](https://news.layervault.com/stories/32162-ask-dn-how-do-you-come-up-with-your-color-palette)
 * [Creating harmonious color schemes - Video](http://methodandcraft.com/videos/creating-harmonious-color-schemes)
 * [Never use black](http://ianstormtaylor.com/design-tip-never-use-black/)
+* [Shades of Gray](http://viget.com/inspire/shades-of-gray-yes-really)
 
 ## Icon
 

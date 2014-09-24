@@ -10,6 +10,9 @@
 ```
 git add -u
 git add -A
+
+# Undo last commit
+git reset --soft HEAD~1
 ```
 
 

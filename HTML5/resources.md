@@ -100,6 +100,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [Placeholders](http://www.nngroup.com/articles/form-design-placeholders/)
 * [Advanced styling for HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)
 * [Placeholders or Labels](https://news.layervault.com/stories/29681-ask-dn-placeholders-or-labels)
+* [HTML5 Date Input](http://demosthenes.info/blog/923/Using-The-HTML5-Date-Input)
 
 ## Content Strategy
 
