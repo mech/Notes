@@ -6,6 +6,7 @@
 * [My app design setup](https://medium.com/@bleeharper/my-app-design-setup-bd83382e193c)
 * [Parsing colors from image](http://blog.kam88.com/en/parsing-colors-from-image-in-photoshop.html)
 * [Photoshop Animation](http://photoshopanimation.com/)
+* [How not to suck at linked smart objects](http://uarrr.org/post/98249093831/how-to-not-suck-at-photoshop-5-linked-smart)
 
 ## Tips and Tricks
 

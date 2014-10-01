@@ -11,6 +11,11 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * Use [Moo.com](http://uk.moo.com/design-templates/luxe/business-cards/) for business card
 * [Business cards](https://news.layervault.com/stories/32362-ask-dn-best-online-places-to-order-business-cards-from)
 
+## Account Management
+
+* Invitation (invite collaborator, co-worker, etc. See Dropbox example - https://www.dropbox.com/guide/business/highlights/getting-started)
+* Transfer Ownership
+
 ---
 
 * Should we email CA when they are CV profiled - Eveleen
@@ -22,3 +27,7 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * http://www.wikiwand.com/en/National_Registration_Identity_Card
 * http://gangasudhan.com/blog/2008/07/nric-fin-number-suffix-checker.html
 * 
+
+
+Histograms
+Sparklines

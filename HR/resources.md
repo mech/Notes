@@ -1,5 +1,6 @@
 # Resources
 
+* [**All about workforce analytics**](https://gibbon.co/kbehzad/all-about-workforce-analytics)
 * [Nasty LinkedIn rejection](http://edition.cnn.com/2014/02/27/tech/web/linked-in-cleveland-job-bank/index.html)
 * [Logo - Brand of the World](http://www.brandsoftheworld.com/)
 * [HR in Asia](http://www.hrinasia.com/)
@@ -19,6 +20,7 @@
 * [Know Your Company - Fresh eyes](https://knowyourcompany.com/blog/posts/22-fresh-eyes)
 * [Rethinking the technical interview](https://medium.com/@pamelafox/rethinking-the-technical-interview-f3b8c1df9e5d)
 * [Job hunt sucks](https://medium.com/terms-conditions/if-you-think-the-job-hunt-sucks-try-recruiting-677921d7f897)
+* [Cash vs Accrual](http://business.tutsplus.com/tutorials/cash-versus-accrual-accounting-whats-the-difference-and-why-does-it-matter--cms-22031)
 
 ## Salary
 
@@ -53,6 +55,7 @@ Categories must not be 3 level deep. The Inception Rule.
 * [Guide to UX resume](http://www.uxbeginner.com/complete-guide-to-ux-resumes-and-a-free-template/)
 * [Great looking CV from the power of Markdown](http://decksetapp.com/)
 * [Represent](https://represent.io/)
+* [How we created beautiful resumes for everyone](https://medium.com/@jeremygtech/how-we-created-beautiful-resumes-for-everyone-3f0e9e25b98f)
 
 Using themes examples from Deckset app, we can convert each candidate's CV into beautiful on-screen presentation. Recruiters or hiring managers can swipe left to reveal their CV like interest, photos, past works/achievements, educations, etc.
 
@@ -87,7 +90,9 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 
 ## Graph
 
-* Heatmap
+* Heat-map
+* Candidate profile visualization - Show a timeline graph of working experience. Work A ($3500) -------- Work B ($5000 - Up 20%). From these timeline we can conclude some patterns like loyal or job hopper. Then compare their age with the frequency or percentile of salary or job hopping.
+* School mate. Same school. Age group. Peers.
 
 ## Wild Ideas
 
@@ -104,6 +109,7 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 * [Sharing economy? Sharing resume?](https://medium.com/the-nib/the-case-against-sharing-9ea5ba3d216d)
 * [Can CP be the Airbnb of HR? 2-sided marketplace. Host == Client and Guest == Candidate](http://nerds.airbnb.com/experiments-at-airbnb/)
 * [Many card based design case studies](http://liftux.com/posts/using-github-issues-project-management/)
+* [Promotion of content - See the.guardian use-case](http://www.elasticsearch.com/customer/guardian/)
 
 ### Workflow Ideas
 

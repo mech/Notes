@@ -10,6 +10,7 @@ People suck at repetitive tasks.
 * [Goodbye, Sprockets! A Grunt-based Rails Asset Pipeline](http://blog.pedago.com/2014/01/21/goodbye-sprockets-a-grunt-based-rails-asset-pipeline/)
 * [Taking the asset pipeline out of Rails](http://pivotallabs.com/taking-asset-pipeline-rails/)
 * [Getting your PageSpeed score up](https://www.youtube.com/watch?v=pNKnhBIVj4w)
+* [Takana - Like BrowserSync?](http://usetakana.com/)
 
 ## Make?
 

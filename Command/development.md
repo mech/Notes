@@ -23,3 +23,14 @@ rake test && cap deploy
 "\xEF\xBF\xBD" - Or Replacement Character
 
 `git grep ', =' | wc -l`
+
+```
+# Open Firewall port in Mavericks
+
+sudo vim /etc/pf.conf
+
+# Open port 8080 for TCP on all interfaces
+pass in proto tcp from any to any port 8080
+
+sudo pfctl -vnf /etc/pf.conf
+```

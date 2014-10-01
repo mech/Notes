@@ -6,6 +6,8 @@
 * [Thinking without trying to](http://www.paulgraham.com/top.html)
 * [Founded in Holland](http://foundedinholland.com/)
 * [Founded in Portland](http://foundedin.pl/)
+* [How to start a startup](https://www.youtube.com/watch?v=CBYhVcO4WgI)
+* [10 startup founder blog](http://blog.generalassemb.ly/10-startup-founder-blogs-every-entrepreneur-should-read/)
 
 ## Growth
 

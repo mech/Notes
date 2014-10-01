@@ -31,6 +31,14 @@
 * [Using USB if your WIFI is flaky](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala)
 * [Tutorial - Design a login form](http://webdesign.tutsplus.com/tutorials/sketch-for-beginners-design-a-login-form-interface--cms-21534)
 
+## Shortcut
+
+* Command+Option and drag to maintain selection
+* Tab to cycle layer
+* Option click to select underneath layer
+* Select object, hold down Command key to resize. Or Comamnd+Shift to resize more.
+* 
+
 ## Tools
 
 * [Mischief - $65](http://madewithmischief.tumblr.com/)

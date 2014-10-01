@@ -39,6 +39,7 @@
 * [Icon design resources](http://www.madebyollin.com/blog.html#icon_design_resources)
 * [Inspecting Yosemite icons](http://martiancraft.com/blog/2014/07/inspecting-yosemite-icons/)
 * [2013 Logo Trends](http://www.logolounge.com/article/2013logotrends/#.U8pRBICSzyA)
+* [SVG icons](http://bbriel.me/svgicons/)
 
 ## Logo
 

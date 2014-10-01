@@ -21,6 +21,7 @@
 * [HTML5 for game developer](https://hacks.mozilla.org/2014/07/resources-for-html5-game-developers/)
 * [Key Code](http://keycod.es/)
 * [favicon](http://css-tricks.com/favicon-quiz/)
+* [Frontends](http://www.frontends.org/)
 
 ## IE
 
@@ -45,8 +46,6 @@ function onScroll(evt) {
 
 window.addEventListener('scroll', onScroll, false);
 ```
-
-
 
 ## HTML/CSS/JavaScript Style Guide
 
@@ -101,6 +100,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [Advanced styling for HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)
 * [Placeholders or Labels](https://news.layervault.com/stories/29681-ask-dn-placeholders-or-labels)
 * [HTML5 Date Input](http://demosthenes.info/blog/923/Using-The-HTML5-Date-Input)
+* [Usable sign up form](http://www.designyourway.net/blog/inspiration/designing-usable-sign-up-forms/)
 
 ## Content Strategy
 

@@ -18,6 +18,7 @@
 * [Before:After image comparison slider](http://lea.verou.me/2014/07/image-comparison-slider-with-pure-css/#)
 * [CSS slide in panel](http://codyhouse.co/gem/css-slide-in-panel/)
 * [Colorful CSS](http://www.webcore-it.com/colorful-background/#)
+* [Responsive tabbed navigation](http://codyhouse.co/gem/responsive-tabbed-navigation/)
 
 ```
 /* do nothing when clicked even through JavaScript */

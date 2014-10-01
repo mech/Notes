@@ -6,6 +6,7 @@
 * [Pretty nice tips on history and git-blame](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
 * [Git Immersion by Neo](http://gitimmersion.com/)
 * [Git the safety net](http://alistapart.com/article/git-the-safety-net-for-your-projects)
+* [Atlassian's Git Guide](https://www.atlassian.com/git/)
 
 ```
 git add -u

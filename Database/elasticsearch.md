@@ -1,11 +1,15 @@
 # Elasticsearch
 
+* Full-text search + Analytics + Distributed = Elasticsearch
 * Near real-time GET request
 * Not just good at search engine. Also a powerful analytics engine.
 * Document-oriented using JSON. Nested data searchable also.
+* 96 API endpoints
+* 672 parameters
 * [Elasticsearch as a NoSQL database](https://www.found.no/foundation/elasticsearch-as-nosql/)
 * [Elasticsearch in Production](https://www.found.no/foundation/elasticsearch-in-production/)
 * [Document relations with Elasticsearch](http://www.youtube.com/watch?v=MXbsJsFfpV4)
+* [Using ES to help running the large Hadron Collider of CERN](https://medium.com/@ghoranyi/needle-in-a-haystack-873c97a99983)
 
 Has Nested and Parent/Child relationships.
 
@@ -14,6 +18,22 @@ Has Nested and Parent/Child relationships.
 * document - row
 
 /:index/:type/:document
+
+```
+/Users/mech/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+/usr/local/var/log/elasticsearch/
+/usr/local/var/lib/elasticsearch/plugins
+
+/usr/local/Cellar/elasticsearch/1.3.2/config/elasticsearch.yml
+/usr/local/opt/elasticsearch/config/elasticsearch.yml
+
+/usr/local/Cellar/elasticsearch/1.3.2
+
+
+$ cd /usr/local/Cellar/elasticsearch/1.3.2
+$ plugin -i elasticsearch/marvel/latest
+$ plugin -i polyfractal/elasticsearch-segmentspy
+```
 
 ## Scoring
 
@@ -32,6 +52,7 @@ Fields are "boostable" to increase relevance.
 * Don't use development setting
 * Use uni-cast.
 * Change `cluster.name`, `path.data`, `node.name`
+* To update/upgrade Elasticsearch/Java/Kernel, always stop shard reallocation first
 * 
 
 ## Parent-Child Indexing
@@ -44,7 +65,11 @@ De-normalized during indexing!
 
 ## Query DSL
 
+Query-string search like `_search?q=last_name:Smith` is not as powerful as Query DSL.
+
 JSON over HTTP. Essentially a Abstract Syntax Tree for queries and filters. Can be overwhelming when you see a full page of query JSON. But if you think of it as a tree, you can deconstruct it. It has a easy grammar. Think of it as building blocks.
+
+Query is heavy and Filter is light. Use Query for full-text search, relevance scoring and real data and use Filter for everything else.
 
 * Core queries - match, multi_match, phrase, fuzzy, regexp, wildcard
 * Compound queries - filtered, bool, function score
@@ -96,6 +121,8 @@ Use the right toolset; and know your data.
       "origin": 0,
       "offset": 100,
       "decay": 20          }  }}```
+
+See [gist](https://gist.github.com/mech/f4002d7031b8541e857a) for full query.
 
 ## Range Query
 

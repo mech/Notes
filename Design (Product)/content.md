@@ -13,6 +13,7 @@
 * [Readability score](https://readability-score.com/)
 * [Longform content with craft matrix](http://alistapart.com/blog/post/longform-content-with-craft-matrix/)
 * [Pacing content](https://the-pastry-box-project.net/jason-santa-maria/2014-june-15)
+* [Tone and language](http://www.helpscout.net/blog/tone-and-language/)
 
 Purpose of layouts:
 

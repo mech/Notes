@@ -1,5 +1,6 @@
 # Good Design
 
+* [**Ello: A design disaster**](https://medium.com/@jvdgoot/ello-a-design-disaster-d53022ab3a62)
 * [Principles of Good Design](http://iandanielstewart.com/2014/02/20/principles-of-good-design/)
 * [Google's re-design](http://www.fastcodesign.com/3016268/google-the-redesign)
 * [How do you know when a design is really done?](http://www.fastcodesign.com/3028076/how-do-you-know-when-a-design-is-really-done)

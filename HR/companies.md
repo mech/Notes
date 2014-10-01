@@ -21,6 +21,7 @@ Notable companies in HR domain.
 * [eVantage-HR?](http://www.evantage-hr.com/)
 * [Small Improvements - Performance Reviews](https://www.small-improvements.com/tour)
 * [Manpower Group](http://www.manpowergroup.com/)
+* [Gild - Elasticsearch case study](http://www.gild.com/)
 
 ## Executive Search
 

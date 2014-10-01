@@ -34,6 +34,7 @@
 * [What should UI typefaces look like](http://www.design-by-izo.com/2011/10/18/what-should-i-look-for-in-a-ui-typeface/)
 * [7 typefaces for better performance](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance)
 * [11 tips on kerning](http://99designs.com/designer-blog/2014/01/20/11-kerning-tips/)
+* [Smart quotes](http://smartquotesforsmartpeople.com/)
 
 ```
 // New for Firefox 25

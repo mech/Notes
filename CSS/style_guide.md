@@ -38,6 +38,9 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [**A curated list of pattern library**](https://github.com/marcelosomers/pattern-library-directory)
 * [**Codepen Patterns**](http://codepen.io/patterns/)
 * [CSS Audits](http://alistapart.com/article/css-audits-taking-stock-of-your-code)
+* [Nice general style and principles](http://dubizzle.uno/#/content/look/design-principles.html)
+* [Wyrm](http://wyrmsass.org/)
+* [New Mailchimp design guide - inspired by Material Design](http://mailchimp.com/resources/email-design-guide/)
 
 ## Checklist
 
