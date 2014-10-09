@@ -28,6 +28,7 @@
 * [Creating harmonious color schemes - Video](http://methodandcraft.com/videos/creating-harmonious-color-schemes)
 * [Never use black](http://ianstormtaylor.com/design-tip-never-use-black/)
 * [Shades of Gray](http://viget.com/inspire/shades-of-gray-yes-really)
+* [Colors are important](https://medium.com/design-with-gravit/colors-are-important-5313b1bed59c)
 
 ## Icon
 

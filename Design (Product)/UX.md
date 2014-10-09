@@ -2,7 +2,11 @@
 
 ## General
 
+* [**The Ultimate List of UX Design and Development Resources**](https://www.codefellows.org/blog/the-ultimate-list-of-ux-design-and-development-resources)
+* [**UX Booth**](http://www.uxbooth.com/)
 * [**UX Myths**](http://uxmyths.com/)
+* [**CUBI UX**](http://cubiux.com/index.php)
+* [**Gibbon UX Design**](https://gibbon.co/uxdesign)
 * [Designer Fund's blog](http://designerfund.com/bridge/blog/)
 * [Design Mind - Frog](http://designmind.frogdesign.com/)
 * [IDEO's Made in the Future!](http://madeinthefuture.co/)

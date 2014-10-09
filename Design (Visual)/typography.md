@@ -35,6 +35,8 @@
 * [7 typefaces for better performance](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance)
 * [11 tips on kerning](http://99designs.com/designer-blog/2014/01/20/11-kerning-tips/)
 * [Smart quotes](http://smartquotesforsmartpeople.com/)
+* [Helpful resources](http://www.tdc.org/helpful-resources/)
+* [Best of Sept 2014](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-september-2014)
 
 ```
 // New for Firefox 25

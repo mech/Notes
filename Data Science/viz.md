@@ -25,6 +25,19 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [BI tools using dark background](http://vpj.svbtle.com/black-or-white)
 * [**Visual Algorithm**](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 
+---
+
+* [Flowing Data](http://flowingdata.com/)
+* [Information is Beautiful](http://www.informationisbeautiful.net/)
+* [visualizing.org](http://visualizing.org/)
+* [Visual Complexity](http://www.visualcomplexity.com/vc/)
+* [Indexed](http://thisisindexed.com/)
+* [Eager Eye](http://eagereyes.org/)
+* [Well-Formed Data](http://well-formed-data.net/)
+* [Sankey diagram](http://www.sankey-diagrams.com/)
+* [Andy Woodruff](http://www.cartogrammar.com/blog/)
+* []()
+
 ## d3.js
 
 * [NVD3 - Re-usable charts for d3.js](http://nvd3.org/)

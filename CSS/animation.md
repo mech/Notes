@@ -1,5 +1,6 @@
 # Animation
 
+* [**Foundation for App - Motion UI is the new flat**](http://zurb.com/article/1340/foundation-for-apps-motion-ui-is-the-new-)
 * [**Codrops playground**](http://tympanus.net/codrops/category/playground/)
 * [The 12 principles of animation](http://the12principles.tumblr.com/)
 * [Interaction ProTip](http://aerotwist.com/tutorials/)
@@ -29,6 +30,12 @@
 * [Tremula.js](http://garriss.wordpress.com/2014/07/06/introducing-tremulajs/)
 * [Animattr](http://danieldelaney.github.io/animattr/)
 * [**Interface animations presentation**](http://markgeyer.com/pres/interface-animations/)
+* [Headroom.js](http://wicky.nillia.ms/headroom.js/)
+
+---
+
+1. Use Base Animations like slide, hinge, scale, spin and fade
+2. Then use motion modifier classes to affect the direction, speed, iteration, ease and delay.
 
 ## Velocity.js
 
@@ -39,6 +46,12 @@
 * [Velocity Motion Designer - VMD](https://www.youtube.com/watch?v=7IxhIMIdkPs&hd=1)
 * [Ember velocity?](http://julian.com/research/velocity/#ember)
 * [Animsition](http://git.blivesta.com/animsition/)
+* [Rebound from Facebook - Spring dynamics](https://github.com/facebook/rebound-js)
+
+## Tips
+
+* Don't use `top`, `left`. Use transform, translate, opacity only. Or else you have paint storms.
+* Append a child queue the needs for Reflow.
 
 
 ## Demo

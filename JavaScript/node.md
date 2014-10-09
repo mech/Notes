@@ -1,6 +1,7 @@
 # Node.js
 
 * [gremlins.js - Monkey testing](https://github.com/marmelab/gremlins.js)
+* [Node School](http://nodeschool.io/)
 
 ```
 npm -global list

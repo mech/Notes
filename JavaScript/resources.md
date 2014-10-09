@@ -13,6 +13,8 @@ JavaScript dynamic duo (static type is overrated):
 * [Mixins, Forwarding, and Delegation in JavaScript](http://raganwald.com/2014/04/10/mixins-forwarding-delegation.html)
 * [Variable hoisting](http://malena.github.io/training/#scope)
 * [JavaScript for OSX Automation](http://tylergaw.com/articles/building-osx-apps-with-js)
+* [5 array methods you should use today](http://colintoh.com/blog/5-array-methods-that-you-should-use-today)
+* [Code optimization](http://colintoh.com/blog/avoid-oop)
 
 ## People
 

@@ -22,6 +22,7 @@
 * [Handy Sass mixins](http://web-design-weekly.com/2013/05/12/handy-sass-mixins/)
 * [Ampersand](http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/)
 * [Sass tooltips](http://hackingui.com/front-end/scss-tooltips/)
+* [Google Material Design colors???](https://github.com/nickpfisterer/quantum-colors)
 
 
 ## Placeholder

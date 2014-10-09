@@ -49,11 +49,32 @@ Fields are "boostable" to increase relevance.
 
 ## Production
 
+* [Pre-flight checklist](http://www.elasticsearch.org/webinars/elasticsearch-pre-flight-checklist/)
 * Don't use development setting
-* Use uni-cast.
-* Change `cluster.name`, `path.data`, `node.name`
+* Use uni-cast. Disable multi-cast!
+* Change `cluster.name`, `path.data`, `node.name`, `path.log`, `path.conf`
 * To update/upgrade Elasticsearch/Java/Kernel, always stop shard reallocation first
-* 
+* Pre-flight: Configuration, JVM Heap, Hardware, and Monitoring
+* `gateway.recover_after_nodes: 5` to prevent shard swapping for full cluster restart. Once the cluster has been started, this has no effect.
+* `discovery.zen.minimum_master_nodes: 3` (n/2)+1 -  to prevent split-brain
+* `ES_HEAP_SIZE` of 1GB is wrong. Set about half of your system RAM. Don't give more than 50% of your RAM. Your OS also need 50% of the RAM. Never use > 30GB because of JVM compressed object pointers.
+* Concurrent Mark and Sweep collector has "Stop the Word" effect.
+* Do not swap! Allocate memory upfront: `bootstrap.mlockall = true` and allow unlimited allocations: `limit -l unlimited`
+* SSD: use "noop" or "deadline" scheduler
+* RAID: performance, not High Availability
+* `max_file_descriptors: 30000`
+* http://localhost:9200/_nodes/jvm
+* Make sure client is using persistent connection. Check it with `localhost:9200/_nodes/http/stats`
+* Non-data node - Master-only node and Client-only node.
+* Use snapshot and restore for backup. Do not use rsync anymore.
+
+```
+// A dynamic settings, you have to continuously update it as and
+// when the node size changes.
+
+curl -XPUT localhost:9200/_cluster/settings -d '{
+	"persistent": { "discovery.zen.minimum_master_nodes": 3 }}'
+```
 
 ## Parent-Child Indexing
 

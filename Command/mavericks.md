@@ -444,3 +444,4 @@ defaults write com.apple.Finder AppleShowAllFiles NO
 * http://www.mitchchn.me/2014/os-x-terminal/
 * http://antigen.sharats.me/
 * http://shvets.github.io/blog/2014/04/19/configure_macbook.html
+* http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac

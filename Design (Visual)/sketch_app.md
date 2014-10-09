@@ -1,5 +1,7 @@
 # Sketch.app
 
+Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
+
 * [**Bjango's App Design Workflow (Mostly Photoshop)**](http://bjango.com/articles/appdesignworkflow/#)
 * [**Sketch Resources**](http://learn.ustwo.com/sketch-resources)
 * [Sketch Tips](http://www.sketchtips.info/)
@@ -31,12 +33,27 @@
 * [Using USB if your WIFI is flaky](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala)
 * [Tutorial - Design a login form](http://webdesign.tutsplus.com/tutorials/sketch-for-beginners-design-a-login-form-interface--cms-21534)
 
+## Bézier
+
+* [Mastering the Bézier Curve in Sketch](https://medium.com/sketch-app/mastering-the-bezier-curve-in-sketch-4da8fdf0dbbb)
+* [Bézier OCD](http://learn.scannerlicker.net/2014/10/01/bezier-ocd-or-why-you-should-know-about-point-placement/)
+* [Bézier curves and type design](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/)
+* [Video on how Cubic Bezier works](https://vimeo.com/106757336)
+* [Shape Type](http://shape.method.ac/)
+* [Big deal with horizontal and vertical bézier handles](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway)
+
 ## Shortcut
 
 * Command+Option and drag to maintain selection
 * Tab to cycle layer
 * Option click to select underneath layer
-* Select object, hold down Command key to resize. Or Comamnd+Shift to resize more.
+* Select object, hold down Command key to resize. Or Command+Shift to resize more.
+* Ctrl-C to get the color picker
+* Press "F" - To toggle Fills
+* ⌘⇧O - Convert Text to Outlines
+* L - Line
+* V - Vector Tool, then hit "Enter" to finish a non-filled shape
+* Hold ⌘ while moving a vector point to ignore smart guides
 * 
 
 ## Tools
@@ -74,6 +91,7 @@
 * [Random opacity](https://github.com/adamhowell/random-opacity-sketch-plugin)
 * [Animate GIF](https://github.com/NathanRutzky/Generate-GIF)
 * [Plugins for web design](http://www.newmediacampaigns.com/blog/essential-sketch-plugins-for-web-design)
+* [Sketch plugins directory](https://github.com/sketchplugins/plugin-directory)
 
 ## Gallery
 

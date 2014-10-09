@@ -18,6 +18,7 @@
 * [I know where you are aiming!](https://medium.com/@cihadturhan/a-ux-idea-i-know-where-you-are-aiming-3e00d152afb2)
 * [IxD Checklist](http://ixdchecklist.com/)
 * [Gestalt principles of natural interaction](http://robots.thoughtbot.com/gestalt-principles)
+* [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

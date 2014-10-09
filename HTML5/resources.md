@@ -23,6 +23,25 @@
 * [favicon](http://css-tricks.com/favicon-quiz/)
 * [Frontends](http://www.frontends.org/)
 
+## Browsers
+
+* Firefox - SpiderMonkey, Gecko
+* Safari - JavaScriptCore, Nitro
+* Chrome - Blink (layout engine), Skia, V8
+
+## Firefox (Aurora)
+
+[Mozilla DevTools](https://wiki.mozilla.org/DevTools/GetInvolved)
+
+* Shift+F2
+* Enable Reflow logging. Have asynchronous and synchronous reflow.
+
+```
+<script>debugger;</script>
+
+csscoverage oneshot
+```
+
 ## IE
 
 * [IE status](http://status.modern.ie/)
@@ -120,3 +139,4 @@ It would be a shame to come up with all these fancy layouts if it turns out ther
 * [Rails and Livereload or Codekit](http://blog.55minutes.com/2013/01/lightning-fast-sass-reloading-in-rails-32/)
 * [Fireshell - like Yeoman](http://getfireshell.com/)
 * [DOMLint](http://kangax.github.io/domlint/)
+* [CSS layout debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)

@@ -1,5 +1,6 @@
 # Resources
 
+* [Why you need a company mission](http://blog.intercom.io/why-you-need-a-company-mission/)
 * [Empathy and (Dis)content](http://www.sarawb.com/2014/03/28/empathy/)
 * [When failing fails](http://blog.podio.com/2014/03/28/failing-fails/)
 * [Start small!](http://justinjackson.ca/how-to-start/)

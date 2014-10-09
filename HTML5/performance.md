@@ -1,6 +1,7 @@
 # Performance
 
-* [Jank Free - Let's make the web silky smooth!](http://jankfree.org/)
+* [**Google - Make the Web faster**](https://developers.google.com/speed/)
+* [**Jank Free - Let's make the web silky smooth!**](http://jankfree.org/)
 * [Sitespeed.io](http://www.sitespeed.io/)
 * [PNG Mini](http://pngmini.com/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
@@ -44,6 +45,22 @@ Perceived = f(Expected Performance, UX, Actual Performance)
 
 * [Script-injected "async scripts" considered harmful](https://www.igvita.com/2014/05/20/script-injected-async-scripts-considered-harmful/)
 * Incremental HTML delivery. Partial rendering.
+
+## Browser Performance
+
+Cmd+E to start/stop profiling.
+
+Usually in order:
+
+1. Function call (Yellow) - Usually kick off by JavaScript
+2. Recalculate style - Get all style rules, evaluate the selectors and match against DOM and calculate the computed style for every element. Anytime you change the CSS class names, you have thus invalidate style and the browser will have to do a little bit more work to recalculate
+3. Layout - Laying out the geometric of the page. How many nodes that needed layout. The layout scope. 20ms is too long for layout.
+4. Paint (Green) - Painting hurts on low-end devices. Locate with "Show Paint Rects", then "continuous paint mode" or "paint profiler"
+5. Composite layers
+
+"Frames mode" change the summary to look like taller vertical bars heights. The taller the worst because it has lower FPS.
+
+"Tracing mode"
 
 ## Terms
 

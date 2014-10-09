@@ -2,6 +2,7 @@
 
 * [Mobile HTML 5 by Maximiliano Firtman](http://mobilehtml5.org/)
 * [**Google Web Starter Kit for multi-device development**](https://developers.google.com/web/starter-kit/)
+* [**Mobile web checklist**](http://www.luster.io/blog/9-29-14-mobile-web-checklist.html)
 * [Brad Frost responsive pattern library](http://bradfrost.github.io/this-is-responsive/patterns.html)
 * [BBC Responsive News](http://responsivenews.co.uk/)
 * [Tool: Responsive viewport](http://cobyism.com/shapeshifter/)

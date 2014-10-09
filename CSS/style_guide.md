@@ -41,6 +41,8 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Nice general style and principles](http://dubizzle.uno/#/content/look/design-principles.html)
 * [Wyrm](http://wyrmsass.org/)
 * [New Mailchimp design guide - inspired by Material Design](http://mailchimp.com/resources/email-design-guide/)
+* [Writing CSS and SASS that doesn't suck](http://ashleynolan.co.uk/blog/writing-css-and-sass-that-doesnt-suck)
+* [Why I don't use CSS Frameworks](http://warpspire.com/posts/css-frameworks/)
 
 ## Checklist
 

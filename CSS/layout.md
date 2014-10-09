@@ -3,6 +3,9 @@
 ## Example
 
 * [**http://cakedown.alexandredeschamps.ca/**](http://cakedown.alexandredeschamps.ca/)
+* [CSS layout debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)
+* [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
+* [**Check out Foundation for Apps**](http://responsivedesign.is/articles/screencast-zurb-foundation-for-apps)
 
 Key things to Web UI:
 
@@ -101,6 +104,9 @@ Use of `min-width` and `max-width` common.
 
 ## Grids
 
+Nearly every grid system is based on rows and columns, set to 12 or 16 increments to create any layout. However, the web is changing! It's time for Flexbox to shine.
+
+* [**Foundation - A new grid**](http://zurb.com/article/1333/foundation-a-new-grid)
 * [**Complete guide to grid**](http://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Some grids to try](https://news.layervault.com/stories/30928-ask-dn-which-grid-do-you-use)
 * [Nicolas Gallagher's `inline-block` grid system](http://necolas.github.io/griddle/)
@@ -157,6 +163,10 @@ Grids work on two levels: first perception, then experience. That is, a user fee
 ## Flexbox
 
 Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blackberry 10+.
+
+`viewport-height` to create full page web apps.
+
+Separate it into layout-object and content-object.
 
 * [Solved by flexbox](http://philipwalton.github.io/solved-by-flexbox/)
 * [Video - Present and future of CSS layout](https://vimeo.com/98746172)

@@ -6,20 +6,36 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [All the Swift things](http://thechangelog.com/all-the-swift-things/)
 * [Learn Swift](http://www.learnswift.tips/)
 * [Learn-Swift](http://learn-swift.co/)
-* [Twitter bird zoom animation in Swift](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation)
 * [Inside Swift](http://www.eswick.com/2014/06/inside-swift/)
 * [Developing iOS apps using Swift - Part 1](http://ios-blog.co.uk/tutorials/developing-ios-apps-using-swift-part-1/)
 * [Cheat Sheet](http://grant.github.io/swift-cheat-sheet/)
 * [How to build a nice hamburger button transition in Swift](http://robb.is/working-on/a-hamburger-button-transition/)
 * [Swift Yeti](http://swiftyeti.com/)
 * [UIKitDynamics](http://omarfouad.com/blog/2014/08/02/getting-started-uikitdynamics-swift/)
-* [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
 * [An analysis of sorts between Objective-C and Swift](http://www.jessesquires.com/apples-to-apples-part-two/)
 * [That thing in Swift](http://thatthinginswift.com/)
 * [Scala for Android](http://blog.madhukaraphatak.com/scala-for-android/)
 * [SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)
+* [Adaptive Tab Bar](https://github.com/Ramotion/adaptive-tab-bar/)
+
+`String`, `Array` and `Dictionary` types are **value types**, a major difference from other programming languages where they are reference types.
+
+## Swift Libraries
+
+* Swift Standard Library
+* Cocoa/Cocoa Touch Frameworks
+* Xcode 6 exposes Objective-C APIs in Swift format
+
+
+## Animation in Swift
+
+* [Prototyping iOS animations in Swift](http://mathewsanders.com/prototyping-iOS-iPhone-iPad-animations-in-swift/)
+* [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
+* [Twitter bird zoom animation in Swift](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation)
 
 ## Variables
+
+Control + Command + Space to bring up the Emoji box.
 
 ```
 var languageName: String = "Swift"
@@ -52,6 +68,10 @@ for character in "mouse" {
 let dog: Character = ""
 ```
 
+### String Interpolation
+
+
+
 ## Array
 
 ```
@@ -78,6 +98,21 @@ for (key, value) in dictionary {
 
 ## Optional
 
+A better "Weak pointer".
+
+```
+// I have a variable called firstName that may or may not have value
+var firstName: String?
+
+if firstName != nil {
+	firstName! // ! is for unwrapping, but it is troublesome} else {
+	println("There is no value")}
+
+if let name = firstName {
+	println("A value is set")} else {
+	println("A value is not set")}
+```
+
 This value wasn't found.
 
 ```
@@ -96,6 +131,28 @@ if let legCount = possibleLegCount {
   println("Aardvark has \(legCount) legs")
 }
 ```
+
+## Implicitly Unwrapped Options
+
+```
+// Option string that is guarantee to exist, unlike String?, which may or may not exist.
+var firstName: String!
+```
+
+## Tuples
+
+Can be used as a stupid lightweight data structure?
+
+```
+let richard = ("Richard", "Branson", 50)
+richard.0
+richard.1
+
+let (firstName, lastName, age) = richard
+firstName
+```
+
+## Nil Coalescing Operator - ??
 
 ## Functions
 
@@ -217,6 +274,8 @@ struct Point {
 
 var point = Point(x: 0.0, y: 0.0)
 ```
+
+## Extensions
 
 
 

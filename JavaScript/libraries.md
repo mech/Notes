@@ -32,6 +32,7 @@
 * [**OCR reader in JavaScript**](http://antimatter15.com/ocrad.js/demo.html)
 * [Timesheet.js](http://semu.github.io/timesheet.js/)
 * [Dimensions Chrome extension - Sort of like xScope](https://github.com/mrflix/dimensions)
+* [Sweet Alert](http://tristanedwards.me/sweetalert)
 
 ## Auto-complete
 

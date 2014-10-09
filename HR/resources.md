@@ -21,6 +21,7 @@
 * [Rethinking the technical interview](https://medium.com/@pamelafox/rethinking-the-technical-interview-f3b8c1df9e5d)
 * [Job hunt sucks](https://medium.com/terms-conditions/if-you-think-the-job-hunt-sucks-try-recruiting-677921d7f897)
 * [Cash vs Accrual](http://business.tutsplus.com/tutorials/cash-versus-accrual-accounting-whats-the-difference-and-why-does-it-matter--cms-22031)
+* [Zurb - How to hire a designer](http://zurb.com/jobs/how-to-hire-a-designer)
 
 ## Salary
 

@@ -29,6 +29,12 @@
 * [Process ideas](https://news.layervault.com/stories/31808-ask-dn-whats-your-interaction-design-process-from-pencil-to-prototype-)
 * [Iterating and incrementing are separate ideas](http://www.agileproductdesign.com/blog/dont_know_what_i_want.html)
 * [Ideas come first](http://designobserver.com/feature/ideas-come-first/38561)
+* [Card Sorting](http://robots.thoughtbot.com/card-sorting)
+* [Design Sprint Case Study](http://robots.thoughtbot.com/design-sprint-case-study-merck-development-portal)
+* [How to build website fast with rapid prototyping](http://www.webdesignerdepot.com/2014/09/how-to-build-websites-fast-with-the-rapid-prototyping-workflow/)
+* [Visual inventory](http://danielmall.com/articles/visual-inventory/)
+* [How do you present designs?](https://news.layervault.com/stories/35264-lots-of-options-or-one-recommendation)
+* [Ultimate guide to MVP](http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 
@@ -37,6 +43,8 @@
 > An MVP should be fast and easy to put through a reality check. If you have the team capable of delivering this in 3 days, why do more?
 
 > If you think that it's impossible to test your idea in 3 days, you are wrong. Because what you need is not a fully functional prototype, but simply a proof that your idea will drive some interest, which is something that can be achieved with a fraction of what you think your product should do.
+
+> "This won't be a popular opinion, but whenever I see Axure/Balsamiq/Omnigraffle in a portfolio it's a red flag for me" - [@Cennydd](https://twitter.com/Cennydd/status/516577125969969153)
 
 ---
 
@@ -82,6 +90,7 @@ Something to break the ICE:
 * [Thoughbot Playbook on Design Sprint](http://playbook.thoughtbot.com/#product-design-sprint)
 * [Gibbon Design Sprint resources](https://gibbon.co/chrisnaylor/design-sprints)
 * [8 shortcuts for faster design research](http://www.gv.com/lib/8-shortcuts-for-better-faster-design-research)
+* [Design Sprint Case Study](http://robots.thoughtbot.com/design-sprint-case-study-merck-development-portal)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

@@ -10,6 +10,12 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * [Not just for HR and growth hackers](http://pjrvs.com/a/onboarding)
 * Use [Moo.com](http://uk.moo.com/design-templates/luxe/business-cards/) for business card
 * [Business cards](https://news.layervault.com/stories/32362-ask-dn-best-online-places-to-order-business-cards-from)
+* Payslip - No date range select for like last 3 months payslip which is likely useful for many application requests.
+* Import company members with update/merge. See Xero's CSV import example.
+* Issues navigator - See Xcode 6 issues implementation. We can intelligently supply noted issues to recruiters.
+* Make real-time per-event decision. See http://voltdb.com/welcome-1
+* Make use of lots of popover for quick action
+* Use Amazon SES for email blasting - See http://beta.emailoctopus.com/ also
 
 ## Account Management
 
