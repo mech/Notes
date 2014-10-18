@@ -18,6 +18,7 @@
 * [Transactional HTML email templates](http://blog.mailgun.com/transactional-html-email-templates/)
 * [Email markdown](http://cakedown.alexandredeschamps.ca/)
 * [Making responsive HTML emails](http://www.benjystanton.co.uk/blog/making-responsive-html-emails/)
+* [CSS Shape in Email](http://stylecampaign.com/blog/2014/10/css-shapes-in-email/)
 
 ## Tools
 

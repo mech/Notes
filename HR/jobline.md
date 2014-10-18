@@ -16,6 +16,15 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * Make real-time per-event decision. See http://voltdb.com/welcome-1
 * Make use of lots of popover for quick action
 * Use Amazon SES for email blasting - See http://beta.emailoctopus.com/ also
+* "Ready&Smile" - A slogan for interview
+* hello@jobline.com.sg
+* [T-shaped skills](http://en.wikipedia.org/wiki/T-shaped_skills)
+* [RightSignature](https://rightsignature.com/how-it-works/send)
+* Company profile is crucial to attracting talents. We do not have a nice company profile that is compelling enough for CA to view.
+* Company Ethos
+* Some job categories are obsolete like "IT & Telecommunication"
+* Let staff view their own job handling
+* Scoreboards, leaderboards, let consultants see how they ranked among the entire community and adjust their strategy and velocity.
 
 ## Account Management
 

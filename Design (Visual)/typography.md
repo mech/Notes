@@ -37,6 +37,7 @@
 * [Smart quotes](http://smartquotesforsmartpeople.com/)
 * [Helpful resources](http://www.tdc.org/helpful-resources/)
 * [Best of Sept 2014](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-september-2014)
+* [The Great Typekit table](http://desandro.github.io/typekit-table/)
 
 ```
 // New for Firefox 25

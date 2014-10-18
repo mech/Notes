@@ -6,6 +6,7 @@
 * [**Nice resources**](https://github.com/dreikanter/ruby-bookmarks)
 * [Practicing Ruby](http://blog.rubybestpractices.com/posts/gregory/063-practicing-ruby-v2.html)
 * [Double dispatch](http://blog.rubybestpractices.com/posts/aaronp/001_double_dispatch_dance.html)
+* [Implementing Repository pattern](http://hawkins.io/2013/10/implementing_the_repository_pattern/)
 
 ## Gem Authoring
 

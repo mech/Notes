@@ -8,6 +8,7 @@
 * [Founded in Portland](http://foundedin.pl/)
 * [How to start a startup](https://www.youtube.com/watch?v=CBYhVcO4WgI)
 * [10 startup founder blog](http://blog.generalassemb.ly/10-startup-founder-blogs-every-entrepreneur-should-read/)
+* [Startup failure](https://www.cbinsights.com/blog/startup-failure-post-mortem/)
 
 ## Growth
 

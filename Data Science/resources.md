@@ -1,5 +1,9 @@
 # Resources
 
+You generate business value when your code is running, not when it is written. So running code with metrics is all that matters.
+
+[Metrics, Metrics, Everywhere - Coda Hale](https://www.youtube.com/watch?v=czes-oa0yik)
+
 * 1st Wave - AI, Pattern Recognition (50's - 70's)
 * 2nd Wave - Neural Network (Credit card scoring), Data Mining (80's - 90's)
 * 3rd Wave - Machine Learning, Convergence (Mid 90's - Today)
@@ -29,6 +33,7 @@ Real-time analytics stack. Real-time ingestion and flexible, low-latency queries
 * [Druid - Hadoop is slow, so need a query layer](http://druid.io/)
 * [Kafka](http://kafka.apache.org/)
 * [Storm](http://storm.incubator.apache.org/)
+* [Science](https://github.com/github/dat-science)
 
 ## Data Structure
 

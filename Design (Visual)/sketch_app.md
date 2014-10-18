@@ -2,9 +2,11 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [Documentation RTFM](http://bohemiancoding.com/sketch/support/documentation/)
 * [**Bjango's App Design Workflow (Mostly Photoshop)**](http://bjango.com/articles/appdesignworkflow/#)
 * [**Sketch Resources**](http://learn.ustwo.com/sketch-resources)
 * [Sketch Tips](http://www.sketchtips.info/)
+* [**Sketch Tips**](https://www.drawar.com/sketch/tips)
 * [Time to dump Photoshop and embrace Sketch](https://medium.com/design-ux/c59ff242715d)
 * [Meng To's Best hidden features in Sketch part 2](http://blog.mengto.com/hidden-features-sketch-part-2/)
 * [Discovering Sketch](https://medium.com/design-ux/25545f6cb161)
@@ -32,6 +34,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch Style Inventory](https://github.com/getflourish/Sketch-Style-Inventory/)
 * [Using USB if your WIFI is flaky](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala)
 * [Tutorial - Design a login form](http://webdesign.tutsplus.com/tutorials/sketch-for-beginners-design-a-login-form-interface--cms-21534)
+* [Customizing Sketch](http://hackingui.com/design/sketch-design/customize-sketch-with-plugins-and-keyboard-shortcuts/)
 
 ## Bézier
 
@@ -100,3 +103,5 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Using 53's Paper](http://angelwhite24.tumblr.com/)
 * [Art Station](http://magazine.artstation.com/)
 * [George Bletsis](http://monstertreeart.tumblr.com/)
+* [John Jay](http://www.johnjayart.com/)
+* [Laura Barnard](http://laurabarnard.co.uk/work/)

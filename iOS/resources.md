@@ -19,6 +19,8 @@
 * [iOS 8 review](http://pxlnv.com/blog/ios-8-review/)
 * [How to design for huge screen](http://scotthurff.com/posts/how-to-design-for-thumbs-in-the-era-of-huge-screens)
 * [Ultimate guide to iPhone resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+* [Simulator status](https://github.com/shinydevelopment/SimulatorStatusMagic)
+* [AsyncDisplayKit](http://asyncdisplaykit.org/)
 
 ## Animation
 

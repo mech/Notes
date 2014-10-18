@@ -29,6 +29,7 @@
 * [7 signs you're not a UX designer](http://uxmastery.com/7-signs-person-isnt-actually-ux-designer/)
 * [How to choose the right UX metrics for your product - HEART](http://www.gv.com/lib/how-to-choose-the-right-ux-metrics-for-your-product)
 * [**Speed is now a serious factor in UX**](http://blog.usabilla.com/need-speed-fast-loading-key-satisfying-ux/)
+* [Bugs and UX](http://baymard.com/blog/bugs-and-user-experience)
 
 ## Behaviorism
 

@@ -35,6 +35,11 @@ $ plugin -i elasticsearch/marvel/latest
 $ plugin -i polyfractal/elasticsearch-segmentspy
 ```
 
+## Backup and Restore
+
+* [Introducing snapshot and restore](http://www.elasticsearch.org/blog/introducing-snapshot-restore/)
+* [Snapshot restore API](http://chrissimpson.co.uk/elasticsearch-snapshot-restore-api.html)
+
 ## Scoring
 
 * Term frequency - the more often a term appears in a field, the more relevant.

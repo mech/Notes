@@ -7,6 +7,8 @@
 * [Parsing colors from image](http://blog.kam88.com/en/parsing-colors-from-image-in-photoshop.html)
 * [Photoshop Animation](http://photoshopanimation.com/)
 * [How not to suck at linked smart objects](http://uarrr.org/post/98249093831/how-to-not-suck-at-photoshop-5-linked-smart)
+* [Guide updates for PS CC :(](http://www.setopacity.com/articles/2014/10/7/guide-updates-for-photoshop-october-2014)
+* [Modular design photoshop](http://blog.tackmobile.com/article/modular-design-photoshop/)
 
 ## Tips and Tricks
 
@@ -24,6 +26,7 @@
 * [Pattern Library](http://thepatternlibrary.com/)
 * [The Stocks](http://thestocks.im/)
 * [Travel Coffee Book](http://travelcoffeebook.tumblr.com/)
+* [All the free stock](http://allthefreestock.com/)
 
 ## Layers
 

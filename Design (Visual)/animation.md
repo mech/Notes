@@ -19,6 +19,7 @@
 * [Prototyping interactive animation](https://medium.com/@toddsiegel/prototyping-interactive-animation-3371d0b7cc7b)
 * [Photoshop Animation](http://photoshopanimation.com/)
 * [Learn Bezier](http://bezier.method.ac/#)
+* [Animating with Keynote](http://robots.thoughtbot.com/animating-with-keynote)
 
 ## Famo.us
 
@@ -41,6 +42,7 @@
 * [Prototyping swipe and drag gestures with Framer 3](https://medium.com/building-potluck/prototyping-swipe-and-drag-gestures-with-framer-3-2e405d50b600)
 * [Prototyping with Framer.js](http://blog.tackmobile.com/article/prototyping-framer-js/)
 * [Tumblr examples](http://framerjs.tumblr.com/)
+* [Creating your first prototype with Framer](https://medium.com/@kennycheny/creating-your-first-prototype-with-framer-c39221da7668)
 
 ## After Effect
 

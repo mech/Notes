@@ -1,5 +1,6 @@
 # Resources
 
+* [**Web Designer Repo**](http://www.webdesignrepo.com/)
 * [Standard Markdown](http://standardmarkdown.com/)
 * [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
 * [Design System](http://css-tricks.com/design-systems-building-future/)
@@ -22,6 +23,7 @@
 * [Key Code](http://keycod.es/)
 * [favicon](http://css-tricks.com/favicon-quiz/)
 * [Frontends](http://www.frontends.org/)
+* [DevTools Tips](http://devtoolstips.com/)
 
 ## Browsers
 

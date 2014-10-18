@@ -35,6 +35,8 @@
 * [Visual inventory](http://danielmall.com/articles/visual-inventory/)
 * [How do you present designs?](https://news.layervault.com/stories/35264-lots-of-options-or-one-recommendation)
 * [Ultimate guide to MVP](http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/)
+* [Follow design principles then process then A/B, etc.](https://medium.com/@lucabenazzi/the-tyranny-of-testing-over-design-a4ea5be352a6)
+* [Gov.uk](https://www.gov.uk/transformation)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 

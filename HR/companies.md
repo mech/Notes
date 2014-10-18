@@ -10,6 +10,7 @@ Notable companies in HR domain.
 * [Smart Recruiters](https://www.smartrecruiters.com/)
 * [HIRED](https://hired.com/)
 * [Applicant Insight - Background checker](https://www.applicantinsight.com/)
+* [Health-care, but worth checking out their Kanban](http://www.carecloud.com/ehr/)
 
 ## Notable Companies
 
@@ -22,6 +23,7 @@ Notable companies in HR domain.
 * [Small Improvements - Performance Reviews](https://www.small-improvements.com/tour)
 * [Manpower Group](http://www.manpowergroup.com/)
 * [Gild - Elasticsearch case study](http://www.gild.com/)
+* [Homerun](http://www.homerun.hr/)
 
 ## Executive Search
 
@@ -34,6 +36,7 @@ Notable companies in HR domain.
 ## Job Search Engine
 
 * [Careerjet](http://www.careerjet.sg/)
+* [techjobsin.london](http://www.techjobsin.london/)
 
 ## Startup
 

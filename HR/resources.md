@@ -22,10 +22,32 @@
 * [Job hunt sucks](https://medium.com/terms-conditions/if-you-think-the-job-hunt-sucks-try-recruiting-677921d7f897)
 * [Cash vs Accrual](http://business.tutsplus.com/tutorials/cash-versus-accrual-accounting-whats-the-difference-and-why-does-it-matter--cms-22031)
 * [Zurb - How to hire a designer](http://zurb.com/jobs/how-to-hire-a-designer)
+* [Sit the test](https://sitthetest.com/)
+* [Using trello](https://community.uservoice.com/blog/trello-google-docs-product-management/)
+
+## Traits
+
+Character strength - http://www.kipp.org/our-approach/strengths-and-behaviors
+
+* Gritty
+* Enthusiasm
+* Focus (pay attention, remembers directions)
+* Composure (remains calm)
+* Gratitude (show appreciation)
+* Curiosity (eager to explore, ask questions)
+* Optimism (gets over frustrations quickly)
+* Humor
+* Emotional intelligence (respect for others' feelings)
+
+## Onboarding
+
+* Custom onboarding script
+* Todo list for hiring manager
 
 ## Salary
 
 * [Design salary survey](http://ivanamcconnell.com/design-survey.html)
+* [Salary Fairy](https://salaryfairy.com/blog/acquire-these-skills-for-a-higher-salary)
 
 ## Timesheet
 
@@ -60,10 +82,16 @@ Categories must not be 3 level deep. The Inception Rule.
 
 Using themes examples from Deckset app, we can convert each candidate's CV into beautiful on-screen presentation. Recruiters or hiring managers can swipe left to reveal their CV like interest, photos, past works/achievements, educations, etc.
 
-## Job Description
+## Job Board
 
 * [How to interpret ridiculous web design job posts](http://blog.teamtreehouse.com/how-to-interpret-ridiculous-web-design-job-posts)
 * [List of job boards](http://oozled.com/resources/job-boards)
+* Company Ethos
+* Company culture - Talk about your work culture. Too many description has minimum culture.
+* Some job categories are obsolete like "IT & Telecommunication"
+* Exposure to various Jobline's owned properties? What properties? We have to build those properties and make them valuable first, like Blogs, Discussion forum? discuss.jobline.com.sg. For example ZURB has the following properties: Pattern Tap, ZURBlog, Sopabox, Foundation and Forrst.
+* Job listings distribution channels
+* Have an "Editorial Team" to craft compelling posts
 
 ## Salary
 
@@ -123,3 +151,7 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 
 * Make use of pop-up like PaintCode interface and Basecamp's Calendar.
 * [Some search ideas](https://medium.com/@chadengle/3c4d2d345031)
+
+## Support
+
+* [User Voice talks](https://community.uservoice.com/talks/)

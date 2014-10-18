@@ -15,6 +15,12 @@
 * [How we make RWD sites load fast as heck](http://filamentgroup.com/lab/performance-rwd.html)
 * [Some convenient breakpoint methods](http://restivejs.com/)
 * [Slash build time on RWD](http://www.creativebloq.com/css3/slash-build-time-proportional-rwd-91412846)
+* [Performance testing for RWD](https://github.com/lafikl/RWDPerf)
+* [**Instant Click**](http://instantclick.io/)
+* [Responsive image polyfill](https://github.com/aFarkas/respimage)
+* [Loading web fonts with high performance](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
+* [Wayfinding in mobile web](http://www.smashingmagazine.com/2014/10/13/wayfinding-for-the-mobile-web/)
+* [Responsive, performant interfaces](https://github.com/mrmrs/tachyons/)
 
 ## List of screen resolution
 

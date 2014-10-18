@@ -16,6 +16,9 @@
 * [CSS Mojo](http://www.cssmojo.com/)
 * [A list of must watch CSS videos](https://github.com/AllThingsSmitty/must-watch-css)
 * [Common practices do not mean best practices](http://cssmojo.com/think-for-yourself/)
+* [Nice blog on CSS](http://simurai.com/blog)
+* [Color Chart](http://ainsleywagon.github.io/color-chart/)
+* [Color Me](http://richbray.me/cms/)
 
 ## line-height
 

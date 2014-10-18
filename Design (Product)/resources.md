@@ -53,8 +53,16 @@
 * [Be the product](http://www.coreygw.in/posts/53f13fd41079d14a26309c24)
 * [How I got my startup to #1](https://levels.io/product-hunt-hacker-news-number-one/)
 * [Designer as architect](http://theindustry.cc/2014/09/11/designer-architect/)
+* [How to hire a product designer](http://zurb.com/jobs/how-to-hire-a-designer)
+* [**The Checklist Manifesto**](http://qz.com/183861/any-company-can-copy-the-keystone-of-apples-design-process/)
 
 User research == Customer development
+
+## Product Design
+
+Product design is a set of problem solving processes and methods used to make better products for people everywhere.
+
+Whether that product is physical objects or applications does not matter.
 
 ## Growth
 
@@ -78,6 +86,8 @@ Stories are broken into Epics. Epics has their main flow. Design the task flow w
 * [The mocks can wait. First you need to get your story straight.](https://medium.com/design-story/story-map-3cc64033128e)
 
 ## Lean and MVP
+
+* [MVP vs MDP](http://www.startupblender.com/minimum-viable-product-vs-minimum-delightful-product/)
 
 Laser printer - Xerox trying to do too much and missed the boat. IBM beat them?
 

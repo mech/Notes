@@ -2,6 +2,7 @@
 
 API driven. Treat data as content package and not as rows in a spreadsheet. Make it testable. Make it trackable.
 
+* [**An Introduction to APIs**](https://zapier.com/learn/apis/)
 * [API Evangelist](http://apievangelist.com/)
 * [How to design a good API and why it matters](http://www.youtube.com/watch?gl=SG&hl=en-GB&v=aAb7hSCtvGw)
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
@@ -352,6 +353,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [Yelp](http://www.yelp.com/developers/documentation)
 * [DN](https://github.com/layervault/dn_ruby_client)
 * [Dribbble new API](http://developer.dribbble.com/v1/)
+* [Hacker News API](http://blog.ycombinator.com/hacker-news-api)
 
 ## Videos
 

@@ -6,6 +6,7 @@
 * [CSS layout debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)
 * [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
 * [**Check out Foundation for Apps**](http://responsivedesign.is/articles/screencast-zurb-foundation-for-apps)
+* [Google News platform design concept](http://googlenews.gkvasnikov.com/)
 
 Key things to Web UI:
 
@@ -143,6 +144,7 @@ Nearly every grid system is based on rows and columns, set to 12 or 16 increment
 * [Jeet - A grid system for humans](http://jeet.gs/)
 * [Guide Guide](http://guideguide.me/)
 * [Re-thinking the Grid](http://snook.ca/archives/html_and_css/rethinking-the-grid)
+* [Spacing elements](http://simurai.com/blog/2014/05/25/spacing-elements/)
 
 Don't be afraid to mix it up and implement a 3 or 5 column grid. No need to always use 12-column layout. Sometimes, simpler really is better.
 
@@ -168,6 +170,7 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 
 Separate it into layout-object and content-object.
 
+* [Flexbox cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
 * [Solved by flexbox](http://philipwalton.github.io/solved-by-flexbox/)
 * [Video - Present and future of CSS layout](https://vimeo.com/98746172)
 * [Video - Putting flexbox into practice](https://vimeo.com/77176313)

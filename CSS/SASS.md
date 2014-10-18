@@ -2,7 +2,7 @@
 
 * [SassDoc](https://github.com/SassDoc/sassdoc)
 * [Are we getting too sassy](http://ashleynolan.co.uk/blog/are-we-getting-too-sassy)
-* [Tips](http://csspre.com/)
+* [**Tips**](http://csspre.com/)
 * [Understanding SASS lists](http://hugogiraudel.com/2013/07/15/understanding-sass-lists/)
 * [A SASS type toolkit](http://ianrose.me/typesettings/)
 * [Error handling in SASS](http://webdesign.tutsplus.com/tutorials/an-introduction-to-error-handling-in-sass--cms-19996)

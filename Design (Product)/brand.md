@@ -19,3 +19,5 @@
 * [Branding beyond the logo](http://stemmings.com/branding-beyond-the-logo/)
 * [Reasons to rebrand a company](http://www.zenelements.com/blog/reasons-to-rebrand/)
 * [Brand Guidelines](https://news.layervault.com/stories/33350-brand-guidelines)
+* [Pentagram rebrand Amalgamated bank](http://www.designboom.com/design/pentagram-rebrand-the-amalgamated-bank-10-08-2014/)
+* [Books on ID and branding](https://news.layervault.com/stories/35964-best-books-in-identity-and-branding)

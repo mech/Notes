@@ -1,5 +1,7 @@
 # Development
 
+* [Awesome Shell](https://github.com/alebcay/awesome-shell)
+
 `rails new cp -T -d postgresql -B`
 
 `grep "alert" * -R`
@@ -33,4 +35,9 @@ sudo vim /etc/pf.conf
 pass in proto tcp from any to any port 8080
 
 sudo pfctl -vnf /etc/pf.conf
+```
+
+```
+# Display a list of files sorted by file size
+ls -l | sort -k5n | less
 ```

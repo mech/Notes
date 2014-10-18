@@ -24,6 +24,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [GOV.uk](https://www.gov.uk/service-manual/user-centred-design/data-visualisation.html)
 * [BI tools using dark background](http://vpj.svbtle.com/black-or-white)
 * [**Visual Algorithm**](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
+* [A very good way to experiment and visualize](http://raw.densitydesign.org/)
 
 ---
 
@@ -60,6 +61,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 ## Graphite
 
 * [Living Social's Rearview - Real-time monitoring framework](https://github.com/livingsocial/rearview)
+* [Metrics, Metrics, Everywhere - talk](https://www.youtube.com/watch?v=czes-oa0yik)
 
 ## Google Maps
 

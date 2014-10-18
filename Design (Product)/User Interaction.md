@@ -1,5 +1,8 @@
 # User Interaction
 
+Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY and WHAT the user is trying to accomplish, regardless of whether your solution or a competitors' exists.
+
+* [**Human Interface**](http://humanistinterface.com/)
 * [Spatial in iOS7 new design](http://www.quora.com/iOS-7/Is-the-new-Apple-iOS-7-look-an-improvement)
 * [The natural evolution of UI design](https://medium.com/philosophy-logic/fe76f0355c75)
 * [Google's infinite scroll](http://googlewebmastercentral.blogspot.sg/2014/02/infinite-scroll-search-friendly.html)
@@ -19,6 +22,7 @@
 * [IxD Checklist](http://ixdchecklist.com/)
 * [Gestalt principles of natural interaction](http://robots.thoughtbot.com/gestalt-principles)
 * [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
+* [**Polite software has common sense**](https://medium.com/user-experience-design-1/taking-responsive-a-step-further-9f96737b9183)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 
@@ -65,3 +69,4 @@ There is no intuitive interface, just "easy-to-learn" interface.
 
 * [Facebook Origami](http://facebook.github.io/origami/)
 * [Mitya App](http://www.mitya-app.com/)
+* [Generate random profile](http://www.designskilz.com/random-users/)

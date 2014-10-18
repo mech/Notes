@@ -31,6 +31,7 @@
 * [Animattr](http://danieldelaney.github.io/animattr/)
 * [**Interface animations presentation**](http://markgeyer.com/pres/interface-animations/)
 * [Headroom.js](http://wicky.nillia.ms/headroom.js/)
+* [Motion Experiments](http://www.michaelvillar.com/motion)
 
 ---
 
