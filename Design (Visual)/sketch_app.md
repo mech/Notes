@@ -35,6 +35,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Using USB if your WIFI is flaky](http://bomberstudios.com/post/54587126654/using-sketch-mirror-liveview-silkscreen-skala)
 * [Tutorial - Design a login form](http://webdesign.tutsplus.com/tutorials/sketch-for-beginners-design-a-login-form-interface--cms-21534)
 * [Customizing Sketch](http://hackingui.com/design/sketch-design/customize-sketch-with-plugins-and-keyboard-shortcuts/)
+* [**Photoshop vs Sketch - Need to re-learn PS**](http://photoshopsecrets.tumblr.com/post/100218629171/photoshop-vs-sketch)
 
 ## Bézier
 

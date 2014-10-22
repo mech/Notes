@@ -41,6 +41,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 
 ## d3.js
 
+* [**Square intro to D3**](http://square.github.io/intro-to-d3/)
 * [NVD3 - Re-usable charts for d3.js](http://nvd3.org/)
 * [Lithium Labs - with sentiment wave?](https://github.com/lithiumtech/li-visualizations)
 * [Contour](http://forio.com/contour/index.html)

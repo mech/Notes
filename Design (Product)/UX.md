@@ -7,6 +7,7 @@
 * [**UX Myths**](http://uxmyths.com/)
 * [**CUBI UX**](http://cubiux.com/index.php)
 * [**Gibbon UX Design**](https://gibbon.co/uxdesign)
+* [**Experience is a feeling**](http://www.uxmatters.com/mt/archives/2014/10/user-experience-is-a-feeling.php)
 * [Designer Fund's blog](http://designerfund.com/bridge/blog/)
 * [Design Mind - Frog](http://designmind.frogdesign.com/)
 * [IDEO's Made in the Future!](http://madeinthefuture.co/)

@@ -65,6 +65,15 @@
 29. Experiences can be designed. It is within our control.
 30. Making something look simple is easy; making something simple to use is much harder.
 31. One cannot not communicate. Therefore there is no such thing as a neutral design. Everything has a voice.
+32. [Empathy in Design - See the world in perspective](https://www.youtube.com/watch?v=8jrogFRt8fE)
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.
+
+> "In most people's vocabularies, design means veneer. It's interior decorating. It's the fabric of the curtains and the sofa. But to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up expressing itself in successive outer layers of the product or service." - Steve Jobs
+
+> My advice is to make things that are truly great. Don't make things that are great at earning money, winning users, pleasing investors, or satisfying your ego. Make things that are great at doing the task they are intended to do.
+
+> This is where creating products becomes art. If you are making the product good just for the sake of it being good, then it's art. The great thing is, it usually ends up satisfying the other business-related goals even better than if you had optimized for them specifically. I consider this mentality a life decision, not a business decision.
+
+> The more you fail, the more you succeed. The longer you wait to fail, the fewer successes you'll have. My biggest failure is not failing fast enough when I knew time was already up. My advice to anyone trying anything, fail, then try again.

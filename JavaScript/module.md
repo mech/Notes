@@ -25,6 +25,7 @@ Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 * [Choc](http://www.fullstack.io/choc/)
 * [**es6-promise**](https://github.com/jakearchibald/es6-promise)
 * [ES6 on Node.js](http://h3manth.com/new/blog/2013/es6-on-nodejs/)
+* [JS.next](http://chimera.labs.oreilly.com/books/1234000001623/index.html)
 
 ## Browserify
 

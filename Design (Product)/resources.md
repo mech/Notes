@@ -197,6 +197,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Design Details Archives](http://blog.brianlovin.com/design-details/)
 * [Making of Tiiny](https://medium.com/@hemeon/the-making-of-tiiny-60b527757997)
 * [Swarm branding](https://medium.com/@mrdavenport/swarm-branding-and-visual-design-afb11c949526)
+* [Google News](http://googlenews.gkvasnikov.com/)
 
 ## Product News
 

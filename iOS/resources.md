@@ -21,6 +21,7 @@
 * [Ultimate guide to iPhone resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 * [Simulator status](https://github.com/shinydevelopment/SimulatorStatusMagic)
 * [AsyncDisplayKit](http://asyncdisplaykit.org/)
+* [Apple on Hamburger menu](http://blog.manbolo.com/2014/06/30/apple-on-hamburger-menus)
 
 ## Animation
 

@@ -53,6 +53,7 @@ There is no intuitive interface, just "easy-to-learn" interface.
 * [Designing screens using cores and paths](http://boxesandarrows.com/designing-screens-using-cores-and-paths/)
 * [The User is Drunk](https://www.youtube.com/watch?v=r2CbbBLVaPk)
 * [Test for color blind](http://blog.venn.lc/designing-for-the-color-blind/)
+* [Drop down and split button](https://medium.com/designed-thought/drop-down-button-vs-split-button-f8e539fc0b78)
 
 > Adapting to agile methodology and understanding that interface design isn't a Paul Rand situation (one option, one solution) allowed us to explore many different options, all with the end goal of making Slack a success - [Slack design](http://metalabdesign.com/projects/slack/)
 >

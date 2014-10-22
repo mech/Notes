@@ -92,6 +92,7 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 * Exposure to various Jobline's owned properties? What properties? We have to build those properties and make them valuable first, like Blogs, Discussion forum? discuss.jobline.com.sg. For example ZURB has the following properties: Pattern Tap, ZURBlog, Sopabox, Foundation and Forrst.
 * Job listings distribution channels
 * Have an "Editorial Team" to craft compelling posts
+* [Remote jobs sites](https://news.layervault.com/stories/36437-ask-dn-remote-jobs-sites)
 
 ## Salary
 

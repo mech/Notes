@@ -44,6 +44,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Writing CSS and SASS that doesn't suck](http://ashleynolan.co.uk/blog/writing-css-and-sass-that-doesnt-suck)
 * [Why I don't use CSS Frameworks](http://warpspire.com/posts/css-frameworks/)
 * [GOV.UK elements](http://govuk-elements.herokuapp.com/)
+* [**Get design trend from website**](http://stylifyme.com/)
 
 ## Checklist
 

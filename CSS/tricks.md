@@ -19,6 +19,7 @@
 * [CSS slide in panel](http://codyhouse.co/gem/css-slide-in-panel/)
 * [Colorful CSS](http://www.webcore-it.com/colorful-background/#)
 * [Responsive tabbed navigation](http://codyhouse.co/gem/responsive-tabbed-navigation/)
+* [Mobile app introduction template](http://codyhouse.co/gem/app-introduction-template/)
 
 ```
 /* do nothing when clicked even through JavaScript */

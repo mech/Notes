@@ -19,6 +19,8 @@
 * [Nice blog on CSS](http://simurai.com/blog)
 * [Color Chart](http://ainsleywagon.github.io/color-chart/)
 * [Color Me](http://richbray.me/cms/)
+* [Cursor](http://chrisnager.github.io/cursors/)
+* [Hub? `* + *`](http://alistapart.com/article/axiomatic-css-and-lobotomized-owls)
 
 ## line-height
 

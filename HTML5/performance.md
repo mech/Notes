@@ -25,6 +25,7 @@
 * [**Performance tooling today**](http://perf-tooling.today/)
 * [Measuring events with Chrome DevTool](http://web-design-weekly.com/2014/09/18/understanding-measuring-events-with-chrome-devtools/)
 * [async vs defer](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
+* [Scroll problem](http://aerotwist.com/blog/some-gotchas-that-got-me/)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

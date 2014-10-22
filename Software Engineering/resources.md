@@ -15,6 +15,11 @@
 * [Technical debt 101](https://medium.com/@joaomilho/festina-lente-e29070811b84)
 * [The big rewrite](http://chadfowler.com/blog/2006/12/27/the-big-rewrite/)
 * [Quality Assurance tools](https://sifterapp.com/academy/resources/tools/)
+* [Thoughtbot Guides](https://github.com/thoughtbot/guides)
+
+## Agile
+
+* [Agile and Cybernetics](http://blog.laessig.com/2013/09/14/agile-and-cybernetics/)
 
 ## Abstraction
 
