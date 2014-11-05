@@ -17,6 +17,7 @@
 * [Cleaning up Rails 4 production logging](http://rubyjunky.com/cleaning-up-rails-4-production-logging.html)
 * [**Foreman**](http://ddollar.github.io/foreman/)
 * [Rollout feature](https://github.com/FetLife/rollout)
+* [Jeff Sussna - A DevOps experts](http://blog.ingineering.it/)
 
 ```
 rake quality

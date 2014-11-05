@@ -4,6 +4,7 @@ HTML for graphics! SVG has a DOM structure and you can even use CSS3 and JavaScr
 
 JavaScript inside SVG is disabled for image-based SVG.
 
+* [**Pocket Guide to SVG**](http://svgpocketguide.com/book/)
 * [**Awesome SVG**](https://github.com/willianjusten/awesome-svg)
 * [Lots of SVG information](http://css-tricks.com/mega-list-svg-information/)
 * [Awesome light ray](http://ncase.github.io/sight-and-light/)
@@ -28,6 +29,8 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [Snippet expansion for Sublime Text](http://codepen.io/jorgeatgu/blog/svg-snippets)
 * [High performance interactions using canvas](http://chairnerd.seatgeek.com/high-performance-map-interactions-using-html5-canvas/)
 * [SVG Path](https://github.com/andreaferretti/paths-js)
+* [Organized workflow for SVG](http://robots.thoughtbot.com/organized-workflow-for-svg)
+* [Animate SVG icons with CSS and Snap.js](http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/)
 
 ```
 <text>
@@ -57,6 +60,7 @@ Make the `stroke-dasharray` as long as the path to make it visually invisible. T
 * [Not SVG, but related](http://coding.smashingmagazine.com/2013/03/04/animating-web-gonna-need-bigger-api/)
 * [d3 and SVG](http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html)
 * [Animation path](http://blog.legomushroom.com/2014/03/defining-advanced-animation-path/)
+* [Animating path](https://github.com/ConnorAtherton/walkway)
 
 ## d3.js
 

@@ -32,6 +32,15 @@
 * [Empty States](http://emptystat.es/)
 * [Nice portfolio](http://niceportfol.io/)
 * [Brand New](http://www.underconsideration.com/brandnew/archives/friday_likes_centennial.php#.VCGa_yuSymC)
+* [Sloppy UI](http://sloppyui.tumblr.com/)
+
+---
+
+* [Use Your Interface](http://useyourinterface.com/)
+* [Bookmarked...](https://news.layervault.com/stories/36936-ask-dn-any-blogs-similar-to-little-big-details)
+* [UX Candy](http://www.uxcandy.net/)
+* [One Thing Well](http://onethingwell.org/)
+* [Shots of Things that Work](http://thegodfounder.com/)
 
 ## Mobile
 

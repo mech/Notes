@@ -1,5 +1,7 @@
 # Animation
 
+**The animations need to be way more subtle than you are thinking**
+
 * [Mt. Mograph YouTube channel](https://www.youtube.com/user/mtmograph)
 * [Ease and wizz AE script](http://aescripts.com/ease-and-wizz/)
 * [The state of Interaction Design tools](https://medium.com/p/f755c6515368)
@@ -48,3 +50,4 @@
 
 * [UX in Motion - $500](http://uxinmotion.net/rapid-protoyping-with-after-effects/)
 * [AE script - $25](http://www.mtmograph.com/motion/)
+* [AE resources](https://news.layervault.com/stories/37305-can-anyone-recommend-any-good-resources-for-learning-after-effects)

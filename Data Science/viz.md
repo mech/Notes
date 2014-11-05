@@ -25,6 +25,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [BI tools using dark background](http://vpj.svbtle.com/black-or-white)
 * [**Visual Algorithm**](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 * [A very good way to experiment and visualize](http://raw.densitydesign.org/)
+* [LOESS](https://vimeo.com/104042004)
 
 ---
 

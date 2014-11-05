@@ -25,6 +25,7 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * Some job categories are obsolete like "IT & Telecommunication"
 * Let staff view their own job handling
 * Scoreboards, leaderboards, let consultants see how they ranked among the entire community and adjust their strategy and velocity.
+* SOA - some has partial payment and we can see the `amt_os` to know what is left for outstanding. I think only `nett_payable_w_gst` need to change to reflect the same as `amt_os` while `amt_payable_w_gst` remains.
 
 ## Account Management
 

@@ -9,6 +9,8 @@
 * [How to start a startup](https://www.youtube.com/watch?v=CBYhVcO4WgI)
 * [10 startup founder blog](http://blog.generalassemb.ly/10-startup-founder-blogs-every-entrepreneur-should-read/)
 * [Startup failure](https://www.cbinsights.com/blog/startup-failure-post-mortem/)
+* [Startup podcast](http://www.blog.herbigt.com/why-i-love-startup-podcast/)
+* [Startup Talks](http://startuptalks.tv/videos/category/design/)
 
 ## Growth
 

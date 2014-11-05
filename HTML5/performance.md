@@ -1,5 +1,6 @@
 # Performance
 
+* [**Awesome Web Performance Optimization**](https://github.com/davidsonfellipe/awesome-wpo)
 * [**Google - Make the Web faster**](https://developers.google.com/speed/)
 * [**Jank Free - Let's make the web silky smooth!**](http://jankfree.org/)
 * [Sitespeed.io](http://www.sitespeed.io/)

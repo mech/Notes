@@ -11,6 +11,7 @@ Notable companies in HR domain.
 * [HIRED](https://hired.com/)
 * [Applicant Insight - Background checker](https://www.applicantinsight.com/)
 * [Health-care, but worth checking out their Kanban](http://www.carecloud.com/ehr/)
+* [Team Grid](http://www.teamgridapp.com/en/)
 
 ## Notable Companies
 

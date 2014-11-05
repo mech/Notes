@@ -1,5 +1,6 @@
 # Web Components
 
+* [**Web Components the Right Way**](https://github.com/mateusortiz/webcomponents-the-right-way)
 * [Shadow DOM](http://acko.net/blog/shadow-dom/)
 * [Custom Elements - A Web Components gallery](http://customelements.io/)
 * [The problem with HTML imports](http://tjvantoll.com/2014/08/12/the-problem-with-using-html-imports-for-dependency-management/)

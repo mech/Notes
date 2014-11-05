@@ -1,5 +1,6 @@
 # Resources
 
+* [**Website Deconstructions**](http://websitedeconstructions.com/)
 * [**Web Designer Repo**](http://www.webdesignrepo.com/)
 * [Standard Markdown](http://standardmarkdown.com/)
 * [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
@@ -24,6 +25,10 @@
 * [favicon](http://css-tricks.com/favicon-quiz/)
 * [Frontends](http://www.frontends.org/)
 * [DevTools Tips](http://devtoolstips.com/)
+
+## New Elements?
+
+* [`<menu>` and `<menuitem>`](http://webdesign.tutsplus.com/tutorials/introducing-the-html5-menu-and-menuitem-elements--cms-22269)
 
 ## Browsers
 

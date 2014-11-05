@@ -2,6 +2,8 @@
 
 You generate business value when your code is running, not when it is written. So running code with metrics is all that matters.
 
+* [ThoughtSpot](http://www.thoughtspot.com/)
+
 [Metrics, Metrics, Everywhere - Coda Hale](https://www.youtube.com/watch?v=czes-oa0yik)
 
 * 1st Wave - AI, Pattern Recognition (50's - 70's)
@@ -25,6 +27,8 @@ Storytelling give memory, memory shape behavior. Story is what change people's b
 Fuel Band - People don't like number, it's time to translate into something else.
 
 Treat *machine learning deployment* as you would software like using continuous deployment, RESTful API, language bindings, security and SLA.
+
+* [Good course on machine learning](http://web.stanford.edu/class/stats202/)
 
 ## Tools
 

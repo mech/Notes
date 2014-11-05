@@ -33,6 +33,7 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [Prototyping iOS animations in Swift](http://mathewsanders.com/prototyping-iOS-iPhone-iPad-animations-in-swift/)
 * [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
 * [Twitter bird zoom animation in Swift](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation)
+* [Spinning](http://blog.matthewcheok.com/design-teardown-spinning-tips/)
 
 ## Variables
 

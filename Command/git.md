@@ -60,7 +60,7 @@ Trunk-based development.
 
 1. Stash away your changes: `git stash`
 2. List stash: `git stash list`
-3. Restore stash: `git stash apply stash{0}`
+3. Restore stash: `git stash apply stash{0}` or `git stash pop`
 4. Clear stash: `git stash clear`
 
 ## Pull Request

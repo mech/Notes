@@ -63,6 +63,32 @@ Since there is no round-trip, just pass real object in parameters, and no need f
 * [ember-cli-rails?](https://github.com/knomedia/ember-cli-rails)
 * [Deploying ember-cli to Amazon S3 with Grunt](http://www.octolabs.com/blogs/octoblog/2014/05/24/deploying-ember-cli-to-amazon-s3-with-grunt/)
 * [Rails and ember-cli](https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux)
+* [Rails + Ember.js + ember-cli](https://vimeo.com/103608308)
+* [OAuth2 Resource Owner Password Credentials Grant](https://vimeo.com/103438429)
+
+There are lots of options here:
+
+* Separate repos
+* Single repo (back-end and front-end directory)
+* Single repo (client directory inside Rails app)
+* Almost any setup you can think of...
+
+For proxying, we can use ember-cli to Rails.
+
+```
+AppAPI/
+  .git
+  Gemfile
+  Rakefile
+  app/
+
+AppUI/
+  .git
+  package.json # Development dependencies
+  bower.json   # Front-end dependencies
+  gulpfile.js
+  app/
+```
 
 ## Broccoli
 
@@ -621,6 +647,7 @@ App.CellView = Ember.View.extend({
 * No more DOM pollution
 * Use DOM fragment and deep clone
 * String manipulations increase the pressure on the GC
+* [Kris Seldon talking about HTMLBars](https://www.youtube.com/watch?v=nJ7QJVfYXSU)
 
 ```
 {{#link-to 'articles' (query-params sort='ASC')}}
@@ -759,6 +786,24 @@ sessionChanged: (function() {
 TimelineIndexController = Ember.ArrayController.extend({
   itemController: 'post'
 });
+```
+
+## OAuth2 Resource Owner Password Credentials Grant
+
+```
+// POST /api/token
+{
+  grant_type: "password", username: "bob@any.com", password: "X"}
+
+// response 200
+{
+  access_token: "xxSSddsSaa2s",
+  token_type: "Bearer",
+  expires_in: 30.days,
+  user_id: 1}
+
+GET /api/protected
+Headers: "Authorization: Bearer #{acces_token}"
 ```
 
 ## Container and Resolver (Register and Inject)

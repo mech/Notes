@@ -17,6 +17,12 @@ ps auxw | egrep '\[' # Kernel processes
 sudo lsmod    # See what modules the kernel loaded
 history -c    # Clear your command history
 top -o cpu    # Order top to CPU
+id            # Print user ID
+tree -L 1 /   # Print first level tree
+sudo fdisk -l # Show disks
+chmod u+rwx,g-rwx,o-rwx file # Give User Read/Write/Execute
+ls -dl        # List directory
+getfacl file  # More detailed file permission
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.
@@ -24,6 +30,14 @@ top -o cpu    # Order top to CPU
 `.bashrc` will be run whenever you run an interactive shell. If you type `bash` 5 times to enter an inception, then you need to type `exit` 5 times as well.
 
 `.bash_profile` is for personal settings and variables that get execute whenever you use a remote login like SSH.
+
+## Process
+
+```
+pgrep -lf syslog              # See PID
+ps auxw | egrep -v \] | less  # Not showing kernel process
+ping google.com > /dev/null & # Put into the background
+```
 
 ## sudo
 
@@ -47,6 +61,28 @@ rpm -q --changelog openssl | grep CVE-2014-0224
 ```
 yum info openssl
 yum update openssl
+```
+
+## TCP/IP
+
+* TCP Fast Open
+* Buffer bloat
+
+```
+ip addr show
+ip route show
+
+netstat -rn # Deprecated!
+
+sudo ip addr add 192.168.10.10/24 dev eth0:1
+```
+
+Go to `/etc/sysconfig/network-scripts` to find `ifcfg-eth0`
+
+```
+less /etc/services
+sudo netstat -anlp
+sudo fuser 22/tcp
 ```
 
 ## Access Control
@@ -120,6 +156,31 @@ fi
 
 file=$1
 ```
+
+## Crontab
+
+`minute  hour  dom  month  weekday  command`
+
+```
+# 7:30am email yourself to work!
+30 7 * * 1-5 echo 'Get up!' | mail -s "work day" mech@me.com
+
+# Every 15 minutes
+*/15 * * * * uptime >> ~/uptimes
+```
+
+See `/etc/cron.daily`
+
+## Log files and Syslog (rsyslog)
+
+```
+ps auxw | grep syslog
+logger -p info Hello syslog
+```
+
+`/etc/logrotate.conf`
+
+You can configure `rsyslog` to send logs to a remote server.
 
 ## DTrace
 

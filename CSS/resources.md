@@ -1,5 +1,6 @@
 # Resources
 
+* [Design Essential from GitHub](https://github.com/showcases/design-essentials)
 * [**Myth - Post-processor**](http://www.myth.io/)
 * [Crazy CSS](http://give-n-go.co/)
 * [CSS3 Geometry](http://css3geometrydaily.tumblr.com/)
@@ -21,6 +22,10 @@
 * [Color Me](http://richbray.me/cms/)
 * [Cursor](http://chrisnager.github.io/cursors/)
 * [Hub? `* + *`](http://alistapart.com/article/axiomatic-css-and-lobotomized-owls)
+* [The CSS you know nothing about](https://medium.com/@mjtweaver/the-css-that-you-dont-know-about-d5945cea1c94)
+* [Mastering the :nth-child](http://nthmaster.com/)
+* [**Top tips for front-end developer**](http://benfrain.com/top-tips-selection-unrelated-front-end-developer-tips/)
+* [Points vs Pixels](https://news.layervault.com/stories/36806-ios-ui-design-workflow-points-vs-pixels)
 
 ## line-height
 

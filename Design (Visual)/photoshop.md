@@ -9,6 +9,7 @@
 * [How not to suck at linked smart objects](http://uarrr.org/post/98249093831/how-to-not-suck-at-photoshop-5-linked-smart)
 * [Guide updates for PS CC :(](http://www.setopacity.com/articles/2014/10/7/guide-updates-for-photoshop-october-2014)
 * [Modular design photoshop](http://blog.tackmobile.com/article/modular-design-photoshop/)
+* [Blend if](http://bjango.com/articles/blendif/)
 
 ## Tips and Tricks
 

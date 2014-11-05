@@ -27,6 +27,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Government Playbook](http://playbook.cio.gov/)
 * [Harry Roberts CSS Guideline](http://cssguidelin.es/)
 * [Some basic project agnostic CSS](http://ryanmorr.com/project-agnostic-css-declaration-blocks/)
+* [How does CSS architecture look like after bootstrap](https://shellycloud.com/blog/2014/10/how-does-our-css-architecture-look-like-after-getting-rid-of-bootstrap?utm_source=designernews&utm_medium=link&utm_campaign=how-does-our-css-architecture-look-like-after-getting-rid-of-bootstrap)
 * [Buffer CSS](http://blog.brianlovin.com/buffers-css/)
 * [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
 * [Bugsnag CSS](https://bugsnag.com/blog/bugsnags-css-architecture)
@@ -45,6 +46,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Why I don't use CSS Frameworks](http://warpspire.com/posts/css-frameworks/)
 * [GOV.UK elements](http://govuk-elements.herokuapp.com/)
 * [**Get design trend from website**](http://stylifyme.com/)
+* [Create style guides](http://designmodo.com/create-style-guides/)
 
 ## Checklist
 

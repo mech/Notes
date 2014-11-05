@@ -32,6 +32,7 @@
 * [**Interface animations presentation**](http://markgeyer.com/pres/interface-animations/)
 * [Headroom.js](http://wicky.nillia.ms/headroom.js/)
 * [Motion Experiments](http://www.michaelvillar.com/motion)
+* [Cubic Bezier representation in SASS](http://thesassway.com/advanced/cubic-bezier-representation-in-sass)
 
 ---
 
@@ -48,6 +49,7 @@
 * [Ember velocity?](http://julian.com/research/velocity/#ember)
 * [Animsition](http://git.blivesta.com/animsition/)
 * [Rebound from Facebook - Spring dynamics](https://github.com/facebook/rebound-js)
+* [Swing animation drag](https://github.com/gajus/swing)
 
 ## Tips
 

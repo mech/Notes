@@ -17,6 +17,7 @@ HTML semantics differs from *developer* semantics. We should write classes that 
 * Overly-specific location-dependent selectors is BAD: `.sidebar h2 {}`
 * [Attribute Module CSS - AMCSS](http://glenmaddern.com/articles/introducing-am-css)
 * [Beware of selector nesting SASS](http://www.sitepoint.com/beware-selector-nesting-sass/)
+* [OOSASS](http://thesassway.com/intermediate/using-object-oriented-css-with-sass)
 
 ```
 <div class="media media--large" data-ui-component="mini-bio"></div>

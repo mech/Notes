@@ -33,6 +33,10 @@
 * [Timesheet.js](http://semu.github.io/timesheet.js/)
 * [Dimensions Chrome extension - Sort of like xScope](https://github.com/mrflix/dimensions)
 * [Sweet Alert](http://tristanedwards.me/sweetalert)
+* [Scroller](https://github.com/lukesnowden/FSVS)
+* [Nice country selector](https://github.com/JamieAppleseed/selectToAutocomplete)
+* [Smooth State](http://weblinc.github.io/jquery.smoothState.js/)
+* [Autotab](http://autotab.mathachew.com/)
 
 ## Auto-complete
 

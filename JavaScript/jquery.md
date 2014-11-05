@@ -14,6 +14,7 @@
 * [jQuery++](http://jquerypp.com/)
 * [iCheck - custom checkboxes](http://fronteed.com/iCheck/)
 * [jQuery input mask](https://github.com/RobinHerbots/jquery.inputmask)
+* [jQuery.extendy](https://github.com/NathanRutzky/jQuery.extendy)
 
 ```
 git checkout tags/2.0.3

@@ -23,6 +23,9 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [Gestalt principles of natural interaction](http://robots.thoughtbot.com/gestalt-principles)
 * [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
 * [**Polite software has common sense**](https://medium.com/user-experience-design-1/taking-responsive-a-step-further-9f96737b9183)
+* [Designing for large screen - Promoted action](http://www.lukew.com/ff/entry.asp?1927)
+* [Material Design Checklist](http://android-developers.blogspot.co.uk/2014/10/material-design-on-android-checklist.html)
+* [Nice collection of UI](http://www.unheap.com/section/user-interface/)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

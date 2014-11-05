@@ -55,6 +55,7 @@
 * [Designer as architect](http://theindustry.cc/2014/09/11/designer-architect/)
 * [How to hire a product designer](http://zurb.com/jobs/how-to-hire-a-designer)
 * [**The Checklist Manifesto**](http://qz.com/183861/any-company-can-copy-the-keystone-of-apples-design-process/)
+* [Slack story](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
 
 User research == Customer development
 
@@ -164,6 +165,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Write better walkthroughs with 3x3 method](https://medium.com/@tomcavill/3x3-d6202ef7d077)
 * [Walkthrough examples](http://www.pttrns.com/categories/16-walkthroughs)
 * [Onboarding mistakes](http://www.helpscout.net/blog/user-onboarding-mistakes/)
+* [Stop making users explore your product](https://medium.com/@lauraklein/stop-making-users-explore-33c45bd1f465)
 
 ## Legal
 
@@ -198,6 +200,9 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Making of Tiiny](https://medium.com/@hemeon/the-making-of-tiiny-60b527757997)
 * [Swarm branding](https://medium.com/@mrdavenport/swarm-branding-and-visual-design-afb11c949526)
 * [Google News](http://googlenews.gkvasnikov.com/)
+* [Whatsapp](http://www.maximiliankiener.com/digitalprojects/whatsapp/)
+* [Ello user experience](https://medium.com/@mjtweaver/the-css-that-you-dont-know-about-d5945cea1c94)
+* [Making of Mailchimp Snap](http://blog.mailchimp.com/the-making-of-mailchimp-snap/)
 
 ## Product News
 

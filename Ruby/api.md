@@ -10,6 +10,12 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [Effective developer experience](https://uxmag.com/articles/effective-developer-experience)
 * [Microservice?](http://www.infoq.com/news/2014/05/nano-services)
 * [Scalable Internet Architectures](http://www.infoq.com/presentations/Scalable-Internet-Architectures)
+* [**HTTPie**](https://github.com/jakubroztocil/httpie)
+
+## API Testing (TDD)
+
+* [RSpec API](https://github.com/zipmark/rspec_api_documentation)
+* [Test driving a JSON API](http://commandercoriander.net/blog/2014/01/04/test-driving-a-json-api-in-rails/)
 
 For timestamp only use ISO 8601. And use UTC!
 
@@ -47,6 +53,12 @@ API design (UX)
 ```
 
 You use verb only if it is non-resource API like in finance industry like `/convert?SGD-USD`
+
+## Testing
+
+* [Effectively testing services](https://vimeo.com/103601557)
+
+`WebMock.disable_net_connect!`
 
 ## API Vision
 

@@ -1,5 +1,6 @@
 # Typography
 
+* [**Free Alternatives**](http://www.typewolf.com/free-alternatives)
 * [Lettering Gear](http://tumblr.ryanhamrick.com/post/50012569117/lettering-gear-a-quick-guide-to-get-started)
 * [Typoguide](http://www.typogui.de/)
 * [Combining Typefaces - Book](http://www.fivesimplesteps.com/products/combining-typefaces)
@@ -38,6 +39,7 @@
 * [Helpful resources](http://www.tdc.org/helpful-resources/)
 * [Best of Sept 2014](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-september-2014)
 * [The Great Typekit table](http://desandro.github.io/typekit-table/)
+* [Towards an ideal OpenType UI](https://klim.co.nz/blog/towards-an-ideal-opentype-user-interface/)
 
 ```
 // New for Firefox 25

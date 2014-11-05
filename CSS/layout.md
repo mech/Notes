@@ -1,6 +1,8 @@
 # Layout
 
 * [CSS vw and vh](http://www.weareconvoy.com/2014/07/24/css-vw-and-vh-units-are-they-worth-using-yet/)
+* [Absolute 100% height with top:0 and bottom:0](http://stackoverflow.com/questions/5070189/css-100-height-with-absolute-positioning-top-0-bottom-0)
+* [Make full screen sections with 1 line of CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)
 
 ## Example
 
@@ -147,6 +149,8 @@ Nearly every grid system is based on rows and columns, set to 12 or 16 increment
 * [Guide Guide](http://guideguide.me/)
 * [Re-thinking the Grid](http://snook.ca/archives/html_and_css/rethinking-the-grid)
 * [Spacing elements](http://simurai.com/blog/2014/05/25/spacing-elements/)
+* [Brockmann](http://jayfreestone.github.io/basic-brockmann/)
+* [Susy example](http://www.zell-weekeat.com/context-with-susy/)
 
 Don't be afraid to mix it up and implement a 3 or 5 column grid. No need to always use 12-column layout. Sometimes, simpler really is better.
 
@@ -163,6 +167,8 @@ Grids work on two levels: first perception, then experience. That is, a user fee
 ## display: table
 
 * [Nice introduction to `display: table`](http://www.digital-web.com/articles/everything_you_know_about_CSS_Is_wrong/)
+* [display:table Anti-hero](http://colintoh.com/blog/display-table-anti-hero)
+* [See the Designer News comment](https://news.layervault.com/stories/36888-the-antihero-of-css-layout--displaytable-)
 
 ## Flexbox
 
