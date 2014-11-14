@@ -1,5 +1,13 @@
 # System Installation with Mavericks
 
+Only use wkhtmltopdf 0.9.9 or else will have Mac OS X Dock issue. See https://github.com/blueheadpublishing/bookshop/wiki/Installing-wkhtmltopdf
+
+```
+curl -O http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.9.9-OS-X.i368
+mv wkhtmltopdf-0.9.9-OS-X.i368 /usr/local/bin/wkhtmltopdf
+chmod +x /usr/local/bin/wkhtmltopdf
+```
+
 For Old CP development on Mavericks, use `CC=gcc-4.8.3 rbenv install 1.8.7-p374` to install Ruby 1.8.7
 
 For installing Sphinx, you need to:
@@ -19,6 +27,8 @@ resource 'stemmer' do
   sha1 'bbe1ba5bbebb146575a575b8ca3342aa3b91bf93'
 end
 ```
+
+The above SHA changes might not work. We will get stem_ISO_8859_1_hungarian issues, so we need edit the Makefile.in of the libstemmer_c folder. See https://github.com/Homebrew/homebrew/pull/32064/files
 
 For installing ImageMagick, you need to:
 

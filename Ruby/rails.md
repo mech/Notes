@@ -10,6 +10,10 @@
 * [Nice blog on Rails](http://dev.mensfeld.pl/)
 * [Nice blog on Rails - ninefold](https://ninefold.com/blog/)
 * [GoRails - Video lessons](https://gorails.com/)
+* [S3 and Rails](http://blog.littleblimp.com/post/53942611764/direct-uploads-to-s3-with-rails-paperclip-and)
+* [SSL with Rails](http://collectiveidea.com/blog/archives/2010/11/29/ssl-with-rails/)
+* [Inside ActionDispatch and Rack](http://pothibo.com/2013/11/ruby-on-rails-inside-actiondispatch-and-rack/)
+* [Thin and SSL](http://makandracards.com/makandra/15903-using-thin-for-development-with-ssl)
 
 ## Association Proxy
 * [Advanced Proxy Usage](http://pivotallabs.com/advanced-proxy-usage-part-i/)

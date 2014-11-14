@@ -1,4 +1,17 @@
-# Ember
+# Ember 2.0
+
+Templating goes together with Binding. You typically experience them as a single unit even if they are separate.
+
+The compiler see the template fragment, identifying any binding expressions, event handlers, etc. It parses the binding expressions if any. The result of this compiling is cached so none of the above needs to be repeated.
+
+* [The Road to Ember 2.0](https://github.com/emberjs/rfcs/pull/15)
+
+Route map to Component with is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
+
+In Ember 2.0, there is no more routable controller, only routable component.
+
+
+# Ember 1.0
 
 STOP: http://emberjs.com/guides/components/
 

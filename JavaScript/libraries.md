@@ -37,6 +37,8 @@
 * [Nice country selector](https://github.com/JamieAppleseed/selectToAutocomplete)
 * [Smooth State](http://weblinc.github.io/jquery.smoothState.js/)
 * [Autotab](http://autotab.mathachew.com/)
+* [Particles.js - Nice geometric path](https://github.com/VincentGarreau/particles.js/)
+* [Sort and filter animation](https://github.com/patrickkunka/mixitup)
 
 ## Auto-complete
 

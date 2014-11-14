@@ -2,6 +2,7 @@
 
 > Imagine. Implement. Iterate. Improve.
 
+* [Building habits](http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product)
 * [**IDEO Design Kit**](http://www.designkit.org/methods)
 * [Mark Boulton Design - How we work](http://markboulton.co.uk/journal/how-we-work)
 * [Using questionnaires for design research](http://24ways.org/2012/using-questionnaires-for-design-research/)

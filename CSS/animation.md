@@ -1,5 +1,7 @@
 # Animation
 
+* [**The Art of UI Animation**](http://markgeyer.com/pres/the-art-of-ui-animations/#/)
+* [The web animation you have always wanted](http://alexjray.com/post/the_web_animations_you_have_always_wanted/)
 * [**Foundation for App - Motion UI is the new flat**](http://zurb.com/article/1340/foundation-for-apps-motion-ui-is-the-new-)
 * [**Codrops playground**](http://tympanus.net/codrops/category/playground/)
 * [The 12 principles of animation](http://the12principles.tumblr.com/)

@@ -9,6 +9,17 @@ Generic style guides for components for easy styling. Lego, abstract CSS, make i
 
 Fully designed components aren't reusable cross-project. This is where OOCSS is a good idea.
 
+Some style guides are too abstract. No sense of context. Time consuming to create. Often incomplete. Lack a clear methodology. Random spray of patterns.
+
+Know your content structure!
+
+Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
+
+* [**Interface Inventory**](http://bradfrost.com/blog/post/interface-inventory/)
+* [**Pattern Lab resources**](http://patternlab.io/resources.html)
+* [**Atomic Design**](https://vimeo.com/109130093)
+* [**Front-end Dev Guidelines**](http://tech.tmw.co.uk/code/TMW-frontend-guidelines/)
+* [Yelp style guide](http://www.yelp.com.sg/styleguide)
 * [Apple iOS styleguide, sort of.](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857)
 * [CSS framework vs UI toolkit](https://vimeo.com/95734680)
 * [Cardinal](http://cardinalcss.com/)
@@ -22,6 +33,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [Depth of applicability](http://smacss.com/book/applicability)
 * [Hologram - Ruby gem to generate style guide](http://trulia.github.io/hologram/)
 * [CSS at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/)
+* [CSS at Ghost](http://dev.ghost.org/css-at-ghost/)
 * [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
 * [How Google Fails at Implementing Its Own Material Design](https://medium.com/@CreativeTim/how-google-fails-at-implementing-its-own-material-design-44bbbf9f6c52)
 * [Government Playbook](http://playbook.cio.gov/)
@@ -47,6 +59,7 @@ Fully designed components aren't reusable cross-project. This is where OOCSS is 
 * [GOV.UK elements](http://govuk-elements.herokuapp.com/)
 * [**Get design trend from website**](http://stylifyme.com/)
 * [Create style guides](http://designmodo.com/create-style-guides/)
+* [Why you should use mood boards](http://blog.yummygum.com/post/102354528229/why-you-should-be-using-mood-boards-in-your-design)
 
 ## Checklist
 

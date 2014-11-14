@@ -26,6 +26,10 @@
 * [Mastering the :nth-child](http://nthmaster.com/)
 * [**Top tips for front-end developer**](http://benfrain.com/top-tips-selection-unrelated-front-end-developer-tips/)
 * [Points vs Pixels](https://news.layervault.com/stories/36806-ios-ui-design-workflow-points-vs-pixels)
+* [Nice three.js header](http://www.phyramid.com/blog/making-phyramid-coms-procedurally-rendered-3d-header/)
+* [Understanding calc](http://demosthenes.info/blog/953/Layout-Math-with-CSS-Understanding-calc)
+* [7 CSS units you might not know about](http://webdesign.tutsplus.com/articles/7-css-units-you-might-not-know-about--cms-22573)
+* [Wat!!??](http://red-team-design.com/form-controls-currentcolor-pseudo-elements/)
 
 ## line-height
 

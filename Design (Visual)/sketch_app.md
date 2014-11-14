@@ -39,6 +39,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [A to Z of Sketch](http://webdesign.tutsplus.com/articles/the-a-to-z-of-sketch--cms-22030)
 * [Sketch 3.2](https://medium.com/sketch-tricks/sketch-3-2-beta-bdffc9ce6216)
 * [Design with Sketch](https://medium.com/design-with-sketch/design-with-sketch-92608a88c103)
+* [Sketch Swatches](http://build.pixelunion.net/sketch-swatches/)
 
 ## Bézier
 
@@ -99,6 +100,11 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Animate GIF](https://github.com/NathanRutzky/Generate-GIF)
 * [Plugins for web design](http://www.newmediacampaigns.com/blog/essential-sketch-plugins-for-web-design)
 * [Sketch plugins directory](https://github.com/sketchplugins/plugin-directory)
+
+## Videos
+
+* [Tips](https://www.youtube.com/watch?v=AV2OkzIGykA&list=PLLnpHn493BHE6UIsdKYlS5zu-ZYvx22CS)
+
 
 ## Gallery
 

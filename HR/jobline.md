@@ -2,6 +2,8 @@
 
 There's a lot of challenges in crafting new experiences and workflows to meet contemporary HR demands.
 
+FitAgent, Fit4Hire, FitSense
+
 * The dashboard of CL is not very helpful in their day to day tasks, especially when it comes to month's end where they need to approve timesheets, leaves, etc. The level of audit and tracking is lacking also, such as who approve what, and when.
 * CL really is confuse with the arrangement of what tasks they should do "right now", and how to keep track of what they have done.
 * There is no way to know when Timesheet is being approved. Right now, I am using PostMark to see when email was sent to client to ask them to approved to determine Timesheet's submission date time.
@@ -26,11 +28,18 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 * Let staff view their own job handling
 * Scoreboards, leaderboards, let consultants see how they ranked among the entire community and adjust their strategy and velocity.
 * SOA - some has partial payment and we can see the `amt_os` to know what is left for outstanding. I think only `nett_payable_w_gst` need to change to reflect the same as `amt_os` while `amt_payable_w_gst` remains.
+* Display a "poo" besides those pipeline stages where it is long and smelly
+* 
 
 ## Account Management
 
 * Invitation (invite collaborator, co-worker, etc. See Dropbox example - https://www.dropbox.com/guide/business/highlights/getting-started)
 * Transfer Ownership
+* See Amazon AWS's IAM policy like Allow, Deny as example. Groups.
+* Users, Groups, Roles, Permissions, Sharing, Conditions
+
+Use Group to manage Permission. Don't manage it at User-level.
+Map permissions to a specific business function.
 
 ---
 

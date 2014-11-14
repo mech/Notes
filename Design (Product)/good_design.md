@@ -1,5 +1,6 @@
 # Good Design
 
+* [**de zeen**](http://www.dezeen.com/)
 * [**Ello: A design disaster**](https://medium.com/@jvdgoot/ello-a-design-disaster-d53022ab3a62)
 * [Principles of Good Design](http://iandanielstewart.com/2014/02/20/principles-of-good-design/)
 * [Google's re-design](http://www.fastcodesign.com/3016268/google-the-redesign)
@@ -26,6 +27,7 @@
 * [Inteview with Steve Jobs](http://longform.org/stories/playboy-interview-steve-jobs)
 * [The golden age of Design](http://tmagazine.blogs.nytimes.com/2014/09/22/design-golden-age/)
 * [Taste](http://warpspire.com/posts/taste/)
+* [Design Essential](http://designschool.canva.com/)
 
 ## Design Videos
 

@@ -2,6 +2,7 @@
 
 Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY and WHAT the user is trying to accomplish, regardless of whether your solution or a competitors' exists.
 
+* [**Macrointeractions**](https://medium.com/@mkruz/macrointeractions-f0a16eaaf593)
 * [**Human Interface**](http://humanistinterface.com/)
 * [Spatial in iOS7 new design](http://www.quora.com/iOS-7/Is-the-new-Apple-iOS-7-look-an-improvement)
 * [The natural evolution of UI design](https://medium.com/philosophy-logic/fe76f0355c75)
@@ -26,6 +27,9 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [Designing for large screen - Promoted action](http://www.lukew.com/ff/entry.asp?1927)
 * [Material Design Checklist](http://android-developers.blogspot.co.uk/2014/10/material-design-on-android-checklist.html)
 * [Nice collection of UI](http://www.unheap.com/section/user-interface/)
+* [What you know about IA might not be true](http://boagworld.com/usability/think-know-information-architecture-might-true/)
+* [Progressive Reduction](http://www.dtelepathy.com/blog/design/progressive-reduction-evolving-the-experience-for-your-most-frequent-users)
+* [Database displays vs Task-led interfaces](http://daringfireball.net/2014/11/googles_app_aesthetic)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

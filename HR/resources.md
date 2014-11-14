@@ -24,6 +24,7 @@
 * [Zurb - How to hire a designer](http://zurb.com/jobs/how-to-hire-a-designer)
 * [Sit the test](https://sitthetest.com/)
 * [Using trello](https://community.uservoice.com/blog/trello-google-docs-product-management/)
+* [Why talented creatives are leaving your agency](https://medium.com/@mutlu82/why-talented-creatives-are-leaving-your-shitty-agency-6f4ec6f70fbe)
 
 ## Traits
 

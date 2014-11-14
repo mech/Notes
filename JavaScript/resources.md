@@ -15,6 +15,7 @@ JavaScript dynamic duo (static type is overrated):
 * [JavaScript for OSX Automation](http://tylergaw.com/articles/building-osx-apps-with-js)
 * [5 array methods you should use today](http://colintoh.com/blog/5-array-methods-that-you-should-use-today)
 * [Code optimization](http://colintoh.com/blog/avoid-oop)
+* [**Drag and Drop interaction ideas**](http://tympanus.net/codrops/2014/11/11/drag-and-drop-interaction-ideas/)
 
 ## People
 

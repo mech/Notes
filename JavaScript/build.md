@@ -11,6 +11,7 @@ People suck at repetitive tasks.
 * [Taking the asset pipeline out of Rails](http://pivotallabs.com/taking-asset-pipeline-rails/)
 * [Getting your PageSpeed score up](https://www.youtube.com/watch?v=pNKnhBIVj4w)
 * [Takana - Like BrowserSync?](http://usetakana.com/)
+* [Creating a web app with Grunt](http://tech.tmw.co.uk/2014/10/creating-a-web-app-with-grunt-part-1/)
 
 ## Make?
 

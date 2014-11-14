@@ -21,6 +21,9 @@
 * [Loading web fonts with high performance](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
 * [Wayfinding in mobile web](http://www.smashingmagazine.com/2014/10/13/wayfinding-for-the-mobile-web/)
 * [Responsive, performant interfaces](https://github.com/mrmrs/tachyons/)
+* [LA Times Responsive Philosophy](http://www.codeandtheory.com/things-we-make/responsive-philosophy)
+* [Device-agnostically](http://www.smashingmagazine.com/smashing-newsletter-issue-123/)
+* [9 principles of RWD](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 
 ## List of screen resolution
 
@@ -161,6 +164,7 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
 ## Responsive Images
 
 * [Figuring responsive images](http://css-tricks.com/video-screencasts/133-figuring-responsive-images/)
+* [Responsive images in practice](http://alistapart.com/article/responsive-images-in-practice)
 
 ## Favicon
 

@@ -1,4 +1,11 @@
-# Angular
+# Angular 2.0
+
+Angular 2.0 favors class-based designs with annotations as metadata.
+
+* [AtScript](https://docs.google.com/document/d/11YUzC-1d0V1-Q3V0fQ7KSit97HnZoKVygDxpWzEYW0U/mobilebasic?viewopt=127)
+* [All about Angular 2.0](http://eisenbergeffect.bluespire.com/all-about-angular-2-0/)
+
+# Angular 1.0
 
 Think of Angular as a Model View View Model.
 

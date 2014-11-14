@@ -34,6 +34,7 @@
 * [How to choose the right UX metrics for your product - HEART](http://www.gv.com/lib/how-to-choose-the-right-ux-metrics-for-your-product)
 * [**Speed is now a serious factor in UX**](http://blog.usabilla.com/need-speed-fast-loading-key-satisfying-ux/)
 * [Bugs and UX](http://baymard.com/blog/bugs-and-user-experience)
+* [Gamification with UX](http://www.paulolyslager.com/ux-designers-can-learn-game-design-gamification/)
 
 ## Behaviorism
 

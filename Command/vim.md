@@ -1,5 +1,7 @@
 # Vim
 
+* [Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
+
 ```
 v   # Visual mode
 0   # Beginning of the line
@@ -31,6 +33,8 @@ gg  # Top of the buffer
 G   # End of the buffer
 50% # Take you to the 50% mark
 %   # Move between bracket of {}, (), [] pair
+ZZ  # Exit and save changes
+:x  # Exit, saving changes
 ```
 
 ## In Insert Mode

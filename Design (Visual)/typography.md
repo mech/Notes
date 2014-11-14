@@ -40,6 +40,7 @@
 * [Best of Sept 2014](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-september-2014)
 * [The Great Typekit table](http://desandro.github.io/typekit-table/)
 * [Towards an ideal OpenType UI](https://klim.co.nz/blog/towards-an-ideal-opentype-user-interface/)
+* [How you get your lettering on screen](https://news.layervault.com/stories/37820-ask-dn-how-do-you-get-your-lettering-on-screen)
 
 ```
 // New for Firefox 25

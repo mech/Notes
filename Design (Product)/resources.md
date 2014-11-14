@@ -56,6 +56,7 @@
 * [How to hire a product designer](http://zurb.com/jobs/how-to-hire-a-designer)
 * [**The Checklist Manifesto**](http://qz.com/183861/any-company-can-copy-the-keystone-of-apples-design-process/)
 * [Slack story](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
+* [It's what you subtract](http://www.nytimes.com/2013/01/20/jobs/matthew-may-on-the-art-of-adding-by-taking-away.html?_r=0)
 
 User research == Customer development
 
@@ -203,6 +204,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Whatsapp](http://www.maximiliankiener.com/digitalprojects/whatsapp/)
 * [Ello user experience](https://medium.com/@mjtweaver/the-css-that-you-dont-know-about-d5945cea1c94)
 * [Making of Mailchimp Snap](http://blog.mailchimp.com/the-making-of-mailchimp-snap/)
+* [Rebranding Google Squared](http://jackwmorgan.com/rebranding-google-squared/)
 
 ## Product News
 
@@ -215,3 +217,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 > Quantity can lead to quality - Lean. Execute. Don't overthink it.
 
 > It's easy to fall in the trap to try to make your product "wow" instead of making your product more "of course". The moment you launch your product and see real users struggle with the interface you designed, you will understand "of course" is more important then "wow". - [No more hamburgers](http://blog.gibbon.co/posts/2014-04-03-no-more-hamburgers.html)
+
+## Videos
+
+* [Netlife Research](https://vimeo.com/netliferesearch/videos)

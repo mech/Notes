@@ -1,5 +1,6 @@
 # Resources
 
+* [Let's build a browser engine](http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
 * [**Website Deconstructions**](http://websitedeconstructions.com/)
 * [**Web Designer Repo**](http://www.webdesignrepo.com/)
 * [Standard Markdown](http://standardmarkdown.com/)

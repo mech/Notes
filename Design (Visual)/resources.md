@@ -29,6 +29,7 @@
 * [Never use black](http://ianstormtaylor.com/design-tip-never-use-black/)
 * [Shades of Gray](http://viget.com/inspire/shades-of-gray-yes-really)
 * [Colors are important](https://medium.com/design-with-gravit/colors-are-important-5313b1bed59c)
+* [Tints, tones, and shades](http://viget.com/inspire/tints-tones-shades)
 
 ## Icon
 
@@ -41,6 +42,7 @@
 * [Inspecting Yosemite icons](http://martiancraft.com/blog/2014/07/inspecting-yosemite-icons/)
 * [2013 Logo Trends](http://www.logolounge.com/article/2013logotrends/#.U8pRBICSzyA)
 * [SVG icons](http://bbriel.me/svgicons/)
+* [Icons Mind](https://www.iconsmind.com/)
 
 ## Logo
 

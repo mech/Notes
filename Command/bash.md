@@ -1,5 +1,9 @@
 # Bash
 
+* [Differences between login and non-login shell](http://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell/46856#46856)
+* [Cron email only errors](http://serverfault.com/questions/226074/cron-only-get-errors-in-emails)
+* [Chmod Calculator](http://chmodcalc.com/)
+
 ```
 cd -          # Go back to previous directory
 sudo su -     # Login as root
@@ -23,6 +27,14 @@ sudo fdisk -l # Show disks
 chmod u+rwx,g-rwx,o-rwx file # Give User Read/Write/Execute
 ls -dl        # List directory
 getfacl file  # More detailed file permission
+man -k time
+man 3 printf
+echo $PATH | tr ':' '\n' # tr is translate characters
+find / -name "*.rpm" 2> /dev/tty6 # stderr to another terminal and inspect later
+find / -name "*.rpm" >> rpm-result.txt 2> /dev/null # Append to rpm and send error to black hole
+ls > file_list.txt   # Save to a file first, then sort it
+sort < file_list.txt # File feed into sort command
+cp /etc/hosts . # Copy to the current directory
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.
@@ -69,21 +81,53 @@ yum update openssl
 * Buffer bloat
 
 ```
+sudo dmesg | less
+sudo lspci | less
+sudo ethtool eth0
+
 ip addr show
-ip route show
+ip route show # Show which IP is being linked to
 
 netstat -rn # Deprecated!
 
+# To add more IP to the interface, but not persisted
 sudo ip addr add 192.168.10.10/24 dev eth0:1
+
+# To remove the IP
+sudo ip addr del 192.168.10.10/24 dev eth0:1
 ```
 
-Go to `/etc/sysconfig/network-scripts` to find `ifcfg-eth0`
+Go to `/etc/sysconfig/network-scripts` to find `ifcfg-eth0` to persist your changes on IP.
+
+```
+DEVICE="eth0:1"
+BOOTPROTO="none" # if not DHCP
+ONBOOT="yes"
+IPADDR=58.xx.xx.xx
+```
+
+Then bring the interface up using `sudo ifup eth0:1`
 
 ```
 less /etc/services
 sudo netstat -anlp
-sudo fuser 22/tcp
+sudo fuser 22/tcp # To see which application is using which port
+sudo ss -a # To see all connection
+grep ssh /etc/services # Find port for SSH
 ```
+
+`/proc/sys/net/ipv4`
+
+IP CIDR Notation - See http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+
+```
+dig +short google.com # nslookup is deprecated, use dig
+dig google.com mx
+```
+
+## ping, traceroute, tracepath, netcat, tcpdump, wireshark
+
+
 
 ## Access Control
 

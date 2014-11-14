@@ -18,11 +18,14 @@
 * [iPhone 6 screens demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * [Curious case of iPhone 6+](https://medium.com/@brucewangsg/the-curious-case-of-iphone-6-1080p-display-b33dac5bbcb6)
 * [iOS 8 review](http://pxlnv.com/blog/ios-8-review/)
+* [iOS 8 features - Big and Small](http://danfrakes.com/2014/11/03/my-favorite-ios-8-features-big-and-small/)
 * [How to design for huge screen](http://scotthurff.com/posts/how-to-design-for-thumbs-in-the-era-of-huge-screens)
 * [Ultimate guide to iPhone resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 * [Simulator status](https://github.com/shinydevelopment/SimulatorStatusMagic)
 * [AsyncDisplayKit](http://asyncdisplaykit.org/)
 * [Apple on Hamburger menu](http://blog.manbolo.com/2014/06/30/apple-on-hamburger-menus)
+* [iOS design](http://iosdesign.ivomynttinen.com/)
+* [The UX of mobile settings](http://setentaydos.com/the-ux-of-mobile-settings/)
 
 ## Animation
 

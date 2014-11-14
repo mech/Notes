@@ -3,6 +3,8 @@
 * [CSS vw and vh](http://www.weareconvoy.com/2014/07/24/css-vw-and-vh-units-are-they-worth-using-yet/)
 * [Absolute 100% height with top:0 and bottom:0](http://stackoverflow.com/questions/5070189/css-100-height-with-absolute-positioning-top-0-bottom-0)
 * [Make full screen sections with 1 line of CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)
+* [Mega site navigation](http://codyhouse.co/gem/css-mega-site-navigation/)
+* [Responsive dashboard layout template](http://keen.github.io/dashboards/)
 
 ## Example
 
