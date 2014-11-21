@@ -1,5 +1,6 @@
 # Resources
 
+* [**Touch event micro library - See hammer.js also**](http://quojs.tapquo.com/)
 * [Mobile HTML 5 by Maximiliano Firtman](http://mobilehtml5.org/)
 * [**Google Web Starter Kit for multi-device development**](https://developers.google.com/web/starter-kit/)
 * [**Mobile web checklist**](http://www.luster.io/blog/9-29-14-mobile-web-checklist.html)

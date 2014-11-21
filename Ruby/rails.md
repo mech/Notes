@@ -14,6 +14,7 @@
 * [SSL with Rails](http://collectiveidea.com/blog/archives/2010/11/29/ssl-with-rails/)
 * [Inside ActionDispatch and Rack](http://pothibo.com/2013/11/ruby-on-rails-inside-actiondispatch-and-rack/)
 * [Thin and SSL](http://makandracards.com/makandra/15903-using-thin-for-development-with-ssl)
+* [Eager load in production](http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/)
 
 ## Association Proxy
 * [Advanced Proxy Usage](http://pivotallabs.com/advanced-proxy-usage-part-i/)

@@ -28,6 +28,8 @@
 * [The golden age of Design](http://tmagazine.blogs.nytimes.com/2014/09/22/design-golden-age/)
 * [Taste](http://warpspire.com/posts/taste/)
 * [Design Essential](http://designschool.canva.com/)
+* [John Maeda's What is Design](http://www.whatisdesign.net/post/)
+* [10 Design Guides](http://www.printingdeals.org/specials/design-guide.html)
 
 ## Design Videos
 

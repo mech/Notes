@@ -97,6 +97,8 @@ No context between transformations. More tasks, more slow-down. TMP file hell!
 
 * [grunt-uncss](https://github.com/addyosmani/grunt-uncss)
 * [grunt-spritesmith](https://github.com/Ensighten/grunt-spritesmith)
+* [grunt-release](https://github.com/geddski/grunt-release)
+* [grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent)
 
 ## Broccoli
 

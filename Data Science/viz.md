@@ -38,10 +38,16 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Well-Formed Data](http://well-formed-data.net/)
 * [Sankey diagram](http://www.sankey-diagrams.com/)
 * [Andy Woodruff](http://www.cartogrammar.com/blog/)
-* []()
+
+## Mobile Visualization
+
+* [MobileVis](http://mobilev.is/)
+* [Mobile Infovis](http://mobileinfovis.com/smartphone)
 
 ## d3.js
 
+* [**Metrics Graphics - Based on D3**](http://metricsgraphicsjs.org/)
+* [**Bl.ocks.org**](http://bl.ocks.org/)
 * [**Square intro to D3**](http://square.github.io/intro-to-d3/)
 * [NVD3 - Re-usable charts for d3.js](http://nvd3.org/)
 * [Lithium Labs - with sentiment wave?](https://github.com/lithiumtech/li-visualizations)
@@ -59,6 +65,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [How we made Human Cities](http://blog.human.co/posts/human-cities.html)
 * [C3.js](http://c3js.org/)
 * [Step by step guide](http://zeroviscosity.com/category/d3-js-step-by-step)
+* [OECD Regional Well-being](http://www.oecdregionalwellbeing.org/)
 
 ## Graphite
 

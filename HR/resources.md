@@ -25,6 +25,9 @@
 * [Sit the test](https://sitthetest.com/)
 * [Using trello](https://community.uservoice.com/blog/trello-google-docs-product-management/)
 * [Why talented creatives are leaving your agency](https://medium.com/@mutlu82/why-talented-creatives-are-leaving-your-shitty-agency-6f4ec6f70fbe)
+* [Hard to find good programmer](http://www.newyorker.com/magazine/2014/11/24/programmers-price)
+* [Shit Recruiters Say](http://shit-recruiters-say.tumblr.com/)
+* [It's a recruiter's job to deal with candidates](http://www.recruitingblogs.com/profiles/blogs/it-s-a-recruiter-s-job-to-deal-with-candidates-and-put-up-with)
 
 ## Traits
 

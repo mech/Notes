@@ -15,6 +15,7 @@ Know your content structure!
 
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
+* [**Style Guide Resources**](http://styleguides.maban.co.uk/)
 * [**Interface Inventory**](http://bradfrost.com/blog/post/interface-inventory/)
 * [**Pattern Lab resources**](http://patternlab.io/resources.html)
 * [**Atomic Design**](https://vimeo.com/109130093)
@@ -36,7 +37,6 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [CSS at Ghost](http://dev.ghost.org/css-at-ghost/)
 * [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
 * [How Google Fails at Implementing Its Own Material Design](https://medium.com/@CreativeTim/how-google-fails-at-implementing-its-own-material-design-44bbbf9f6c52)
-* [Government Playbook](http://playbook.cio.gov/)
 * [Harry Roberts CSS Guideline](http://cssguidelin.es/)
 * [Some basic project agnostic CSS](http://ryanmorr.com/project-agnostic-css-declaration-blocks/)
 * [How does CSS architecture look like after bootstrap](https://shellycloud.com/blog/2014/10/how-does-our-css-architecture-look-like-after-getting-rid-of-bootstrap?utm_source=designernews&utm_medium=link&utm_campaign=how-does-our-css-architecture-look-like-after-getting-rid-of-bootstrap)
@@ -60,6 +60,11 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [**Get design trend from website**](http://stylifyme.com/)
 * [Create style guides](http://designmodo.com/create-style-guides/)
 * [Why you should use mood boards](http://blog.yummygum.com/post/102354528229/why-you-should-be-using-mood-boards-in-your-design)
+
+## Playbook
+
+* [Hanno](http://playbook.hanno.co/)
+* [Government Playbook](http://playbook.cio.gov/)
 
 ## Checklist
 

@@ -1,5 +1,7 @@
 # Selector
 
+* [Don't use ID in CSS selector?](http://oli.jp/2011/ids/)
+
 Only ever use [selectivizr](http://selectivizr.com/) for IE6-8!
 
 ```

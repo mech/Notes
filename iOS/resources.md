@@ -26,6 +26,8 @@
 * [Apple on Hamburger menu](http://blog.manbolo.com/2014/06/30/apple-on-hamburger-menus)
 * [iOS design](http://iosdesign.ivomynttinen.com/)
 * [The UX of mobile settings](http://setentaydos.com/the-ux-of-mobile-settings/)
+* [iPhone 6 plus screen](http://oleb.net/blog/2014/11/iphone-6-plus-screen/)
+* [iOS design tips](http://ramotion.github.io/iOS-design-tips/)
 
 ## Animation
 

@@ -136,6 +136,11 @@ Thing.new.hi()
 
 * [Parsing CSV with Ruby](http://technicalpickles.com/posts/parsing-csv-with-ruby/)
 
+## PDF
+
+* [Developing with PDF Book](http://shop.oreilly.com/product/0636920025269.do)
+* [pdf-reader](https://github.com/yob/pdf-reader)
+
 ## Strange looking code
 
 ```

@@ -12,6 +12,7 @@ Notable companies in HR domain.
 * [Applicant Insight - Background checker](https://www.applicantinsight.com/)
 * [Health-care, but worth checking out their Kanban](http://www.carecloud.com/ehr/)
 * [Team Grid](http://www.teamgridapp.com/en/)
+* [**10x - A talent company in Silicon Valley**](http://www.10xmanagement.com/)
 
 ## Notable Companies
 

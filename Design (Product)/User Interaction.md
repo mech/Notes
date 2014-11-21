@@ -4,6 +4,8 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 
 * [**Macrointeractions**](https://medium.com/@mkruz/macrointeractions-f0a16eaaf593)
 * [**Human Interface**](http://humanistinterface.com/)
+* [**Stop changing UI for no good reason**](https://lobste.rs/s/kiq75p/stop_changing_uis_for_no_good_reason)
+* [7 rules for creating UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda)
 * [Spatial in iOS7 new design](http://www.quora.com/iOS-7/Is-the-new-Apple-iOS-7-look-an-improvement)
 * [The natural evolution of UI design](https://medium.com/philosophy-logic/fe76f0355c75)
 * [Google's infinite scroll](http://googlewebmastercentral.blogspot.sg/2014/02/infinite-scroll-search-friendly.html)
@@ -67,6 +69,10 @@ There is no intuitive interface, just "easy-to-learn" interface.
 > The interface design comes first because I want the design to drive the decision tree, not programmer convenience - [Ryan Singer](http://feltpresence.com/articles/16-managing-product-development-by-integrating-around-concerns)
 >
 > Whatever your domain is, they didn't come for the drop-shadows or gradients. They came for the capability. The interface "affords" the capability to the user. - [Ryan Singer](http://feltpresence.com/articles/18-ui-and-capability)
+
+## Google Material Design
+
+* [Introduction to Material Design](http://marketblog.envato.com/trends/introduction-material-design/)
 
 ## Sound UI
 

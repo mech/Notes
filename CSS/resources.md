@@ -30,6 +30,8 @@
 * [Understanding calc](http://demosthenes.info/blog/953/Layout-Math-with-CSS-Understanding-calc)
 * [7 CSS units you might not know about](http://webdesign.tutsplus.com/articles/7-css-units-you-might-not-know-about--cms-22573)
 * [Wat!!??](http://red-team-design.com/form-controls-currentcolor-pseudo-elements/)
+* [Specificity graph - Spikes are bad](http://jonassebastianohlsson.com/specificity-graph/)
+* [The Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/)
 
 ## line-height
 

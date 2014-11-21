@@ -33,6 +33,7 @@
 * [Nice portfolio](http://niceportfol.io/)
 * [Brand New](http://www.underconsideration.com/brandnew/archives/friday_likes_centennial.php#.VCGa_yuSymC)
 * [Sloppy UI](http://sloppyui.tumblr.com/)
+* [Design is Kinky](http://designiskinky.net/)
 
 ---
 

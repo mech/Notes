@@ -29,7 +29,8 @@ FitAgent, Fit4Hire, FitSense
 * Scoreboards, leaderboards, let consultants see how they ranked among the entire community and adjust their strategy and velocity.
 * SOA - some has partial payment and we can see the `amt_os` to know what is left for outstanding. I think only `nett_payable_w_gst` need to change to reflect the same as `amt_os` while `amt_payable_w_gst` remains.
 * Display a "poo" besides those pipeline stages where it is long and smelly
-* 
+* Scheduling interview - Missing CA at DB!
+* Should we email CA when they
 
 ## Account Management
 

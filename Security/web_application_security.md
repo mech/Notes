@@ -15,7 +15,16 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [Have I been pwned](https://haveibeenpwned.com/)
 * [Node Goat](https://github.com/OWASP/NodeGoat)
 * [Small Improvements's security docs](https://www.small-improvements.com/documentation/security)
+* [Hacking Tricks](http://www.hackingtricks.in/)
 
+## XSS and Content Security Policy
+
+Fixing XSS once and for all - Using CSP
+
+* [Towards a Post-XSS world](http://2013.jsconf.eu/speakers/mike-west-towards-a-postxss-world.html)
+* [Making CSP work for you](https://www.youtube.com/watch?v=IIcYRiVyOlw)
+* [We're struggling to keep up](https://www.youtube.com/watch?v=mj-U9FlbAl0)
+* [An extensible approach to browser security policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
 
 ## Tools
 
@@ -28,6 +37,10 @@ OWASP
 ## Headers
 
 Get rid of X-Powered-By headers or any sessionID common name.
+
+```
+X-Frame-Options: DENY
+```
 
 ## Injection
 

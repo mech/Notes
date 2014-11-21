@@ -12,6 +12,14 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [Scalable Internet Architectures](http://www.infoq.com/presentations/Scalable-Internet-Architectures)
 * [**HTTPie**](https://github.com/jakubroztocil/httpie)
 
+## SAMEORIGIN and CORS
+
+JSONP is just a hack to bypass.
+
+* [The Same-Origin Saga](https://vimeo.com/54121245)
+* [Origin policy enforcement in modern browser](https://www.youtube.com/watch?v=PbvxtMCUG8U)
+* [HTTP Strict Transport Security](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security)
+
 ## API Testing (TDD)
 
 * [RSpec API](https://github.com/zipmark/rspec_api_documentation)

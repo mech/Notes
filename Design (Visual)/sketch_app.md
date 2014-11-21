@@ -52,17 +52,20 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 ## Shortcut
 
+* [Sketch shortcut tips](https://news.layervault.com/stories/38711-sketch-tip-hold-cmd-to-clickthrough-a-group)
 * Command+Option and drag to maintain selection
 * Tab to cycle layer
 * Option click to select underneath layer
 * Select object, hold down Command key to resize. Or Command+Shift to resize more.
 * Ctrl-C to get the color picker
 * Press "F" - To toggle Fills
+* Press "B" - To toggle Border
 * ⌘⇧O - Convert Text to Outlines
 * L - Line
 * V - Vector Tool, then hit "Enter" to finish a non-filled shape
 * Hold ⌘ while moving a vector point to ignore smart guides
-* 
+* Alt-Tab to cycle through the inspector pane
+* Press ⌘ in a group to select its individual object
 
 ## Tools
 

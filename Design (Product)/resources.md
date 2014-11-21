@@ -58,7 +58,12 @@
 * [Slack story](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
 * [It's what you subtract](http://www.nytimes.com/2013/01/20/jobs/matthew-may-on-the-art-of-adding-by-taking-away.html?_r=0)
 
+## Research
+
 User research == Customer development
+
+* [Does research make design better?](http://www.dtelepathy.com/blog/design/does-research-make-design-better)
+* [An evolving map of design practice and design research](http://www.dubberly.com/articles/an-evolving-map-of-design-practice-and-design-research.html)
 
 ## Product Design
 
@@ -205,6 +210,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Ello user experience](https://medium.com/@mjtweaver/the-css-that-you-dont-know-about-d5945cea1c94)
 * [Making of Mailchimp Snap](http://blog.mailchimp.com/the-making-of-mailchimp-snap/)
 * [Rebranding Google Squared](http://jackwmorgan.com/rebranding-google-squared/)
+* [**Website Deconstructions**](http://websitedeconstructions.com/)
+* [**A very nice deconstruct of UX**](http://ocean.ink/)
 
 ## Product News
 
@@ -221,3 +228,4 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 ## Videos
 
 * [Netlife Research](https://vimeo.com/netliferesearch/videos)
+* [Gigaom Roadmap](http://new.livestream.com/gigaom/roadmap2014/videos/68727708)

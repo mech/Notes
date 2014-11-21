@@ -1,5 +1,7 @@
 # Sass
 
+* [**15 essential SASS mixins**](http://www.developerdrive.com/2014/11/15-essential-sass-mixins/)
+* [**Useful SASS mixins**](https://github.com/gillesbertaux/andy)
 * [SassDoc](https://github.com/SassDoc/sassdoc)
 * [Are we getting too sassy](http://ashleynolan.co.uk/blog/are-we-getting-too-sassy)
 * [**Tips**](http://csspre.com/)

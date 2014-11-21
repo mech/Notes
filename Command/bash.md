@@ -123,6 +123,7 @@ IP CIDR Notation - See http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routi
 ```
 dig +short google.com # nslookup is deprecated, use dig
 dig google.com mx
+dig yeoman.io | grep -E '(207.97.227.245|204.232.175.78|199.27.73.133)'
 ```
 
 ## ping, traceroute, tracepath, netcat, tcpdump, wireshark
