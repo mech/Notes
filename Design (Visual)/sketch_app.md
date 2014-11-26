@@ -2,6 +2,8 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [Discovering Sketch](https://medium.com/@jm_denis/discovering-sketch-25545f6cb161)
+* [Design with Sketch](https://medium.com/design-with-sketch/design-with-sketch-92608a88c103)
 * [Documentation RTFM](http://bohemiancoding.com/sketch/support/documentation/)
 * [**Bjango's App Design Workflow (Mostly Photoshop)**](http://bjango.com/articles/appdesignworkflow/#)
 * [**Sketch Resources**](http://learn.ustwo.com/sketch-resources)
@@ -38,7 +40,6 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [**Photoshop vs Sketch - Need to re-learn PS**](http://photoshopsecrets.tumblr.com/post/100218629171/photoshop-vs-sketch)
 * [A to Z of Sketch](http://webdesign.tutsplus.com/articles/the-a-to-z-of-sketch--cms-22030)
 * [Sketch 3.2](https://medium.com/sketch-tricks/sketch-3-2-beta-bdffc9ce6216)
-* [Design with Sketch](https://medium.com/design-with-sketch/design-with-sketch-92608a88c103)
 * [Sketch Swatches](http://build.pixelunion.net/sketch-swatches/)
 
 ## Bézier
@@ -103,6 +104,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Animate GIF](https://github.com/NathanRutzky/Generate-GIF)
 * [Plugins for web design](http://www.newmediacampaigns.com/blog/essential-sketch-plugins-for-web-design)
 * [Sketch plugins directory](https://github.com/sketchplugins/plugin-directory)
+* [A-Z of free plugins](http://marketblog.envato.com/resources/z-free-sketch-app-plugins/)
 
 ## Videos
 

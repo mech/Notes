@@ -20,3 +20,33 @@ The CPU cost of 256-bit encryption is very low, comparable to compression algori
 * [SSL Labs test](https://www.ssllabs.com/ssltest/analyze.html?d=jobline.com.sg)
 
 Setting the `AllowUsers` in `sshd_config`
+
+## SSH
+
+* [Change SSH port](https://codedmemes.com/lib/changing-ssh-port-mac-os-x/)
+
+```
+// At /etc/services
+custom_ssh_name   1234/udp # SSH Remote Login Protocol
+custom_ssh_name   1234/tcp # SSH Remote Login Protocol
+```
+
+```
+sudo cp /System/Library/LaunchDaemons/ssh.plist /Library/LaunchDaemons/custom_ssh_name.plist
+```
+
+```
+// Edit custom_ssh_name.plist
+
+<key>label</key>
+<string>custom_ssh_name</string>
+...
+<key>Sockets</key>
+<dict>
+  <key>Listeners</key>
+  <dict>
+    <key>SockServiceName</key>
+    <string>custom_ssh_name</string>
+  </dict>
+</dict>
+```

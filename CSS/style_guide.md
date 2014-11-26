@@ -15,11 +15,12 @@ Know your content structure!
 
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
-* [**Style Guide Resources**](http://styleguides.maban.co.uk/)
+* [**Style Guide Resources**](http://styleguides.io/)
 * [**Interface Inventory**](http://bradfrost.com/blog/post/interface-inventory/)
 * [**Pattern Lab resources**](http://patternlab.io/resources.html)
 * [**Atomic Design**](https://vimeo.com/109130093)
 * [**Front-end Dev Guidelines**](http://tech.tmw.co.uk/code/TMW-frontend-guidelines/)
+* [Semantic UI](http://semantic-ui.com/)
 * [Yelp style guide](http://www.yelp.com.sg/styleguide)
 * [Apple iOS styleguide, sort of.](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857)
 * [CSS framework vs UI toolkit](https://vimeo.com/95734680)
@@ -103,6 +104,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Mapbox](https://www.mapbox.com/base/)
 * [Github CSS](http://markdotto.com/2014/07/23/githubs-css/)
 * [Louder than Ten Manual](http://manual.louderthanten.com/)
+* [Fiftythree styleguide](http://www.fiftythree.com/styleguide/typography)
 
 ## Naming Convention
 

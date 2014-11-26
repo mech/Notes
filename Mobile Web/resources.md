@@ -25,6 +25,7 @@
 * [LA Times Responsive Philosophy](http://www.codeandtheory.com/things-we-make/responsive-philosophy)
 * [Device-agnostically](http://www.smashingmagazine.com/smashing-newsletter-issue-123/)
 * [9 principles of RWD](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
+* [Inspect your device](http://mydevice.io/)
 
 ## List of screen resolution
 

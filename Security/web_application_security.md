@@ -1,5 +1,7 @@
 # Web Application Security
 
+Internet of thing security can kill people. Like insulin injection from a blue-booth device.
+
 * Exposure of user information (email, password, identity theft)
 * Direct financial gain
 * Creating a botnet
@@ -16,6 +18,9 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [Node Goat](https://github.com/OWASP/NodeGoat)
 * [Small Improvements's security docs](https://www.small-improvements.com/documentation/security)
 * [Hacking Tricks](http://www.hackingtricks.in/)
+* [BSIMM](http://bsimm.com/)
+* [SANS Institute](http://www.sans.org/online-security-training/)
+* [metasploit - penetration testing software](http://www.metasploit.com/)
 
 ## XSS and Content Security Policy
 
@@ -25,6 +30,7 @@ Fixing XSS once and for all - Using CSP
 * [Making CSP work for you](https://www.youtube.com/watch?v=IIcYRiVyOlw)
 * [We're struggling to keep up](https://www.youtube.com/watch?v=mj-U9FlbAl0)
 * [An extensible approach to browser security policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
+* [ember-cli CSP](https://github.com/rwjblue/ember-cli-content-security-policy#options)
 
 ## Tools
 

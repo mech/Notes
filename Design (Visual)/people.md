@@ -13,3 +13,4 @@
 * [Jowey Roden - Airbnb](http://jowey.co/)
 * [David Sizemore](http://davidsizemoredesign.com/work.html)
 * [Andrew Colin Beck](http://www.andrewcolinbeck.com/)
+* [Wang Zhi Hong](http://cargocollective.com/wangzhihong/Editorial-Design)

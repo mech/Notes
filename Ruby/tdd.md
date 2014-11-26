@@ -1,5 +1,7 @@
 # TDD
 
+In term of doing TDD, look at your Quality Problem. If it is not worth the trouble to up-keep the quality, then it is not worth to write tests as it will definitely slow development.
+
 The reason to test is a new behaviour or new use-case, not because of a new method on a class.
 
 * Override `Net::HTTP#start` to make sure it's never called by any test, because testing through network is slow and wrong.

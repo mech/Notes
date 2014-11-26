@@ -32,6 +32,7 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [What you know about IA might not be true](http://boagworld.com/usability/think-know-information-architecture-might-true/)
 * [Progressive Reduction](http://www.dtelepathy.com/blog/design/progressive-reduction-evolving-the-experience-for-your-most-frequent-users)
 * [Database displays vs Task-led interfaces](http://daringfireball.net/2014/11/googles_app_aesthetic)
+* [Hamburger icons](http://developer.telerik.com/featured/much-ado-hamburger-icons/)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 
@@ -73,6 +74,7 @@ There is no intuitive interface, just "easy-to-learn" interface.
 ## Google Material Design
 
 * [Introduction to Material Design](http://marketblog.envato.com/trends/introduction-material-design/)
+* [How to not freak out about Material Design](https://medium.com/@xXxXxXxXxXam/how-to-not-freak-out-about-material-design-33cec7381b80)
 
 ## Sound UI
 

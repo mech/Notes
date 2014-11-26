@@ -42,6 +42,7 @@
 * [Towards an ideal OpenType UI](https://klim.co.nz/blog/towards-an-ideal-opentype-user-interface/)
 * [How you get your lettering on screen](https://news.layervault.com/stories/37820-ask-dn-how-do-you-get-your-lettering-on-screen)
 * [Legibility in typography and type design](http://learn.scannerlicker.net/2014/11/14/on-legibility-in-typography-and-type-design/)
+* [A short and sweet interactive introduction to typography](http://imwillryan.com/typefun01/)
 
 ```
 // New for Firefox 25

@@ -11,6 +11,7 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [Microservice?](http://www.infoq.com/news/2014/05/nano-services)
 * [Scalable Internet Architectures](http://www.infoq.com/presentations/Scalable-Internet-Architectures)
 * [**HTTPie**](https://github.com/jakubroztocil/httpie)
+* [RESTful API design](http://restful-api-design.readthedocs.org/en/latest/)
 
 ## SAMEORIGIN and CORS
 

@@ -1,9 +1,11 @@
 # Sass
 
 * [**15 essential SASS mixins**](http://www.developerdrive.com/2014/11/15-essential-sass-mixins/)
+* [When to use extend and when to use a mixin](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/)
 * [**Useful SASS mixins**](https://github.com/gillesbertaux/andy)
 * [SassDoc](https://github.com/SassDoc/sassdoc)
 * [Are we getting too sassy](http://ashleynolan.co.uk/blog/are-we-getting-too-sassy)
+* [Utility CSS](https://github.com/seegno/ucss)
 * [**Tips**](http://csspre.com/)
 * [Understanding SASS lists](http://hugogiraudel.com/2013/07/15/understanding-sass-lists/)
 * [A SASS type toolkit](http://ianrose.me/typesettings/)

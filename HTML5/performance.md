@@ -1,8 +1,10 @@
 # Performance
 
+* [**Measure, Optimize, Automate**](http://ponyfoo.com/articles/measure-optimize-automate)
 * [**Awesome Web Performance Optimization**](https://github.com/davidsonfellipe/awesome-wpo)
 * [**Google - Make the Web faster**](https://developers.google.com/speed/)
 * [**Jank Free - Let's make the web silky smooth!**](http://jankfree.org/)
+* [**Frame Timing Explainer**](https://github.com/w3c/frame-timing/wiki/Explainer)
 * [Sitespeed.io](http://www.sitespeed.io/)
 * [PNG Mini](http://pngmini.com/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
@@ -27,6 +29,7 @@
 * [Measuring events with Chrome DevTool](http://web-design-weekly.com/2014/09/18/understanding-measuring-events-with-chrome-devtools/)
 * [async vs defer](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 * [Scroll problem](http://aerotwist.com/blog/some-gotchas-that-got-me/)
+* [Web Performance Matters](http://www.perf.rocks/)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

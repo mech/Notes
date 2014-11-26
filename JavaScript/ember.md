@@ -6,7 +6,7 @@ The compiler see the template fragment, identifying any binding expressions, eve
 
 * [The Road to Ember 2.0](https://github.com/emberjs/rfcs/pull/15)
 
-Route map to Component with is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
+Route map to Component which is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
 
 In Ember 2.0, there is no more routable controller, only routable component.
 
@@ -66,6 +66,11 @@ Since there is no round-trip, just pass real object in parameters, and no need f
 * [From gulp.js to ember-cli](https://medium.com/ember-js-framework/450f1ffb1967)
 * [ember-cli-plus-backend](https://github.com/dockyard/ember-cli-plus-backend)
 * [Rails and ember-cli](https://devmynd.com/blog/2014-7-rails-ember-js-with-the-ember-cli-redux)
+
+```
+ember g route friends/edit
+ember g controller friends/edit --type=object
+```
 
 
 ### ember-cli with Rails
@@ -319,6 +324,10 @@ App.IndexRoute = Ember.Route.extend({
 ```
 
 ## Controller
+
+When you visit a route, the XXXIndexRoute is called first with the `model` hook. Based on the model, ember will automatically create an Array/Object controller.
+
+Think of Controller or Route as the Application State.
 
 One Page != One Controller. This is almost always wrong in Ember.js. Don't give a controller too many responsibilities. Break it up into tiny pieces of UI functionalities. Just introduce more controllers. They are free on client-side :)
 

@@ -1,5 +1,6 @@
 # Resources
 
+* [Is Photoshop broken?](http://blog.simplease.at/2014/05/limitations-ux/)
 * [Why you need a company mission](http://blog.intercom.io/why-you-need-a-company-mission/)
 * [Empathy and (Dis)content](http://www.sarawb.com/2014/03/28/empathy/)
 * [When failing fails](http://blog.podio.com/2014/03/28/failing-fails/)
@@ -140,6 +141,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [The most special things about cards that nobody is talking about](http://jordancooper.wordpress.com/2014/03/14/the-most-special-thing-about-cards-that-nobody-is-talking-about/)
 * [Focus on Card Architecture and not Card Design](http://taylordavidson.com/2014/cards)
 * [Twitter cards guide](http://blog.bufferapp.com/twitter-cards-guide)
+* [Wildcard](http://www.subtraction.com/2014/11/13/wildcard-in-the-app-store-today/)
+* [Designing Wildcard](http://www.subtraction.com/2014/11/21/designing-wildcard/)
 
 ## Quotes
 
@@ -228,4 +231,4 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 ## Videos
 
 * [Netlife Research](https://vimeo.com/netliferesearch/videos)
-* [Gigaom Roadmap](http://new.livestream.com/gigaom/roadmap2014/videos/68727708)
+* [Gigaom Roadmap](http://new.livestream.com/gigaom/roadmap2014/videos)

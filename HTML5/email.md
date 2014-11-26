@@ -20,6 +20,7 @@
 * [Email markdown](http://cakedown.alexandredeschamps.ca/)
 * [Making responsive HTML emails](http://www.benjystanton.co.uk/blog/making-responsive-html-emails/)
 * [CSS Shape in Email](http://stylecampaign.com/blog/2014/10/css-shapes-in-email/)
+* [Tricks on building responsive email](http://www.sitepoint.com/tricks-building-responsive-email/)
 
 ## Tools
 

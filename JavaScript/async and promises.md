@@ -28,6 +28,7 @@ The point of promises:
 * Reactive bindings
 * [Promises, promises](http://wibblycode.wordpress.com/2012/11/21/promises-promises/)
 * [Task.js](http://taskjs.org/)
+* [The Promised Land](https://www.youtube.com/watch?v=mZHO1ZTsoFk#t=2439)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 

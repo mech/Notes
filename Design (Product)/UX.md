@@ -35,6 +35,7 @@
 * [**Speed is now a serious factor in UX**](http://blog.usabilla.com/need-speed-fast-loading-key-satisfying-ux/)
 * [Bugs and UX](http://baymard.com/blog/bugs-and-user-experience)
 * [Gamification with UX](http://www.paulolyslager.com/ux-designers-can-learn-game-design-gamification/)
+* [UX Bullshit](http://uxbullshit.com/)
 
 ## Behaviorism
 

@@ -31,6 +31,7 @@
 * [Blurred image](http://cloudcannon.com/deconstructions/2014/11/19/pixelapse-blurred-image-deconstruction.html)
 * [**Website Deconstructions**](http://websitedeconstructions.com/)
 * [**A very nice deconstruct of UX**](http://ocean.ink/)
+* [Lots of app breakdown](http://blog.brianlovin.com/)
 
 ## New Elements?
 
