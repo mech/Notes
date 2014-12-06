@@ -1,6 +1,7 @@
 # Backbone
 
 * [Evaluation of JavaScript MVC libraries](http://blog.binarymist.net/2013/12/28/evaluation-of-angularjs-emberjs-backbonejs-marionettejs/)
+* [The case for Marionette](http://benmccormick.org/2014/12/02/the-case-for-marionette-js/)
 
 ## Memory Management
 

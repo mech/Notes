@@ -26,6 +26,7 @@ Notable companies in HR domain.
 * [Manpower Group](http://www.manpowergroup.com/)
 * [Gild - Elasticsearch case study](http://www.gild.com/)
 * [Homerun](http://www.homerun.hr/)
+* [Underdog.io](https://www.underdog.io/)
 
 ## Executive Search
 

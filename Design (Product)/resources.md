@@ -58,6 +58,7 @@
 * [**The Checklist Manifesto**](http://qz.com/183861/any-company-can-copy-the-keystone-of-apples-design-process/)
 * [Slack story](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
 * [It's what you subtract](http://www.nytimes.com/2013/01/20/jobs/matthew-may-on-the-art-of-adding-by-taking-away.html?_r=0)
+* [5 most common mistakes in design](https://medium.com/the-year-of-the-looking-glass/the-5-most-common-mistakes-in-design-52816ab77b3d)
 
 ## Research
 

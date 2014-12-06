@@ -26,6 +26,8 @@ Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 * [**es6-promise**](https://github.com/jakearchibald/es6-promise)
 * [ES6 on Node.js](http://h3manth.com/new/blog/2013/es6-on-nodejs/)
 * [JS.next](http://chimera.labs.oreilly.com/books/1234000001623/index.html)
+* [Google Traceur features](https://github.com/google/traceur-compiler/wiki/LanguageFeatures)
+* [Modules the ES6 way](http://24ways.org/2014/javascript-modules-the-es6-way/)
 
 ## Browserify
 
@@ -71,9 +73,11 @@ domNode.addEventListener('click', () => {
 
 ### Class
 
+Prototype based. Mostly syntactic sugar. Working `super()`. Class side inheritance.
+
 ```
 function ColorPoint(x, y, color) {
-  Point.call(this, x, y);
+  Point.call(this, x, y); // super(x, y)
   this.color = color;
 }
 ColorPoint.prototype = Object.create(Point.prototype);

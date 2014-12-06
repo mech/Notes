@@ -12,6 +12,8 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [Scalable Internet Architectures](http://www.infoq.com/presentations/Scalable-Internet-Architectures)
 * [**HTTPie**](https://github.com/jakubroztocil/httpie)
 * [RESTful API design](http://restful-api-design.readthedocs.org/en/latest/)
+* [Hypermedia APIs the new wild west](http://decomplecting.org/blog/2012/05/30/hypermedia-apis-the-new-wild-west/)
+* [Roar and Representable - Strange API libraries](https://github.com/apotonick/roar)
 
 ## SAMEORIGIN and CORS
 
@@ -304,6 +306,8 @@ Give your application an API key, even if it is for internal private API, so tha
 * [And how you can screw up 2FA](http://blog.meldium.com/home/2013/8/23/screw-up-two-factor-authentication)
 * [rails-csrf](https://github.com/abuiles/rails-csrf)
 * [API Security](http://devcenter.kinvey.com/rest/guides/security)
+* [Rack OAuth2 Sample](https://github.com/nov/rack-oauth2-sample)
+* [Resource Owner Password Credentials](http://tools.ietf.org/html/draft-ietf-oauth-v2-15#section-4.3)
 
 ```
 curl -X PUT \

@@ -8,7 +8,34 @@ The compiler see the template fragment, identifying any binding expressions, eve
 
 Route map to Component which is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
 
-In Ember 2.0, there is no more routable controller, only routable component.
+In Ember 2.0, there is no more routable controller, only routable component. Controllers aren't really needed. At least not as a standalone entity.
+
+tE2Hi1keT6kaIdd
+
+```
+// Deprecated in Ember 2.0
+{{#each users}}
+  {{firstName}}
+  {{lastName}}
+{{/each}}
+	
+// Use this instead
+{{#each user in users}}
+  {{user.firstName}}
+  {{user.lastName}}
+{{/each}}
+```
+
+```
+// Easy to forget _super() when using didInsertElement
+didInsertElement: function() {
+  this._super();
+  this.set('inserted', true);}
+
+// Instead use this, no need to remember to use _super()
+markAsInserted: function() {
+  this.set('inserted', true);}.on('didInsertElement');
+```
 
 
 # Ember 1.0

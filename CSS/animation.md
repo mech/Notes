@@ -36,6 +36,7 @@
 * [Headroom.js](http://wicky.nillia.ms/headroom.js/)
 * [Motion Experiments](http://www.michaelvillar.com/motion)
 * [Cubic Bezier representation in SASS](http://thesassway.com/advanced/cubic-bezier-representation-in-sass)
+* [Fearless animation](http://blog.hassle.com/fearless-animations-moving-users-with-motion/)
 
 ---
 
@@ -53,6 +54,8 @@
 * [Animsition](http://git.blivesta.com/animsition/)
 * [Rebound from Facebook - Spring dynamics](https://github.com/facebook/rebound-js)
 * [Swing animation drag](https://github.com/gajus/swing)
+* [Tweene](http://tweene.com/)
+* [React tween state](https://github.com/chenglou/react-tween-state)
 
 ## Tips
 

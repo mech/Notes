@@ -56,6 +56,12 @@ indexOfAny(str, searchChars) {
 * **Command** - Encapsulate a request as an object, thereby letting you parameterise clients with different requests, queue or log requests, and support undoable operations. No reason to use command as a transport in higher-order function language.
 * ??
 
+## Repository
+
+The Repository pattern is extremely useful when you have complex storage requirements or complicated access rules. It's especially useful in separating persistence and domain objects.
+
+However only do it for complicated object. Do not use Repository for simple data objects.
+
 ## Business Driven. Industry Trends
 
 ## Anti-Patterns

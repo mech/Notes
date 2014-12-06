@@ -1,6 +1,7 @@
 # Typography
 
 * [**Free Alternatives**](http://www.typewolf.com/free-alternatives)
+* [Typographer typefaces](http://blog.8faces.com/post/103548341771/typographers-typefaces)
 * [Lettering Gear](http://tumblr.ryanhamrick.com/post/50012569117/lettering-gear-a-quick-guide-to-get-started)
 * [Typoguide](http://www.typogui.de/)
 * [Combining Typefaces - Book](http://www.fivesimplesteps.com/products/combining-typefaces)

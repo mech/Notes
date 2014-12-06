@@ -30,11 +30,10 @@ getfacl file  # More detailed file permission
 man -k time
 man 3 printf
 echo $PATH | tr ':' '\n' # tr is translate characters
-find / -name "*.rpm" 2> /dev/tty6 # stderr to another terminal and inspect later
-find / -name "*.rpm" >> rpm-result.txt 2> /dev/null # Append to rpm and send error to black hole
 ls > file_list.txt   # Save to a file first, then sort it
 sort < file_list.txt # File feed into sort command
 cp /etc/hosts . # Copy to the current directory
+cut -f 1 -d : /etc/passwd # Use : as the delimiter
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.
@@ -42,6 +41,22 @@ cp /etc/hosts . # Copy to the current directory
 `.bashrc` will be run whenever you run an interactive shell. If you type `bash` 5 times to enter an inception, then you need to type `exit` 5 times as well.
 
 `.bash_profile` is for personal settings and variables that get execute whenever you use a remote login like SSH.
+
+## find
+
+```
+find / -name "*.rpm" 2> /dev/tty6 # stderr to another terminal and inspect later
+
+find / -name "*.rpm" >> rpm-result.txt 2> /dev/null # Append to rpm and send error to black hole
+
+which passwd
+whereis passwd
+
+locate passwd # Need updatedb
+
+
+```
+
 
 ## Process
 
@@ -169,6 +184,8 @@ echo '$ls_text'
 ```
 egrep ^r /etc/passwd              # Find all that starts with 'r'
 egrep '[bash|false]$' /etc/passwd # Find all that ends with bash or false
+
+grep lisa * 2> /dev/null # If we do not want to see too many error output
 ```
 
 ## Filtering

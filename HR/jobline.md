@@ -32,6 +32,17 @@ FitAgent, Fit4Hire, FitSense
 * Scheduling interview - Missing CA at DB!
 * Should we email CA when they
 * [Invoice Me](http://invoiceto.me/)
+* Have a web_db for Employer also so that we can track which employer has account already.
+* Eliminate integration database or lessen its use
+* 
+
+## Pub/Sub
+
+If someone is interested in some event, we can broadcast to them.
+
+Publish conclusion.
+
+
 
 ## Account Management
 

@@ -1,7 +1,9 @@
 # Node.js
 
+* [Node Forward](http://nodeforward.org/)
 * [gremlins.js - Monkey testing](https://github.com/marmelab/gremlins.js)
 * [Node School](http://nodeschool.io/)
+* [Top 10 mistakes Node developers make](https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make)
 
 ```
 npm -global list

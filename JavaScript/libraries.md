@@ -39,6 +39,8 @@
 * [Autotab](http://autotab.mathachew.com/)
 * [Particles.js - Nice geometric path](https://github.com/VincentGarreau/particles.js/)
 * [Sort and filter animation](https://github.com/patrickkunka/mixitup)
+* [Redactor editor](http://imperavi.com/redactor/)
+* [Lightweight form validation for jQuery](http://happyjs.com/)
 
 ## Auto-complete
 

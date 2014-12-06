@@ -16,6 +16,10 @@
 * [Thin and SSL](http://makandracards.com/makandra/15903-using-thin-for-development-with-ssl)
 * [Eager load in production](http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/)
 
+## Router
+
+* [Use routing constraints](http://viget.com/extend/using-routing-constraints-to-root-your-app)
+
 ## Association Proxy
 * [Advanced Proxy Usage](http://pivotallabs.com/advanced-proxy-usage-part-i/)
 * [AP and caching](http://www.elevatedcode.com/2007/03/16/rails-association-proxies-and-caching.html)

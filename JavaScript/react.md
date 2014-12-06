@@ -2,7 +2,22 @@
 
 http://facebook.github.io/react/index.html
 
-DOM insertion is painful!
+* Components rather than templates
+* State is hard to manage
+* DOM insertion is painful!
+
+```
+f(d) = v
+f(d`) = v`
+diff(v, v`) = changes
+diff(v`, v) = undo # Go back in time, getting undo for free
+
+d = data
+v = virtual DOM
+```
+Flux is like a game engine.
+
+`renderComponentToString() // Isomorphic applications`
 
 The initial HTML can be generated on the server. React handles the "view" but not with templates in the usual sense. React views are not dumb, they are "virtual DOM".
 
@@ -23,6 +38,10 @@ Model your UI as pure function.
 * [The question of having DOM in JavaScript](https://twitter.com/jo_liss/status/459101670656708608)
 * [Faster AngularJS rendering with ReactJS](http://www.williambrownstreet.net/blog/2014/04/faster-angularjs-rendering-angularjs-and-reactjs/)
 * [Quickcoin nice React programming](http://quickcoin.co/tech/responsive-design-and-multi-platform-live-coding/)
+* [Why you might not need MVC with React.js](http://www.code-experience.com/why-you-might-not-need-mvc-with-reactjs/)
+* [Introduction to React.js](https://vimeo.com/106261417)
+* [Goya](https://github.com/jackschaedler/goya)
+* [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
 
 ```
 var gulp = require('gulp');

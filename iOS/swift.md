@@ -19,6 +19,7 @@ Swift makes your code SAFE, MODERN, and POWER.
 * [SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)
 * [Adaptive Tab Bar](https://github.com/Ramotion/adaptive-tab-bar/)
 * [**Frameless**](https://github.com/stakes/Frameless)
+* [Swift is like Scala](https://leverich.github.io/swiftislikescala/)
 
 `String`, `Array` and `Dictionary` types are **value types**, a major difference from other programming languages where they are reference types.
 

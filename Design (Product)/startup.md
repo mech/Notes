@@ -11,6 +11,7 @@
 * [Startup failure](https://www.cbinsights.com/blog/startup-failure-post-mortem/)
 * [Startup podcast](http://www.blog.herbigt.com/why-i-love-startup-podcast/)
 * [Startup Talks](http://startuptalks.tv/videos/category/design/)
+* [Business of Software](http://businessofsoftware.org/)
 
 ## Growth
 
