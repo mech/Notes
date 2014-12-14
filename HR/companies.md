@@ -13,6 +13,7 @@ Notable companies in HR domain.
 * [Health-care, but worth checking out their Kanban](http://www.carecloud.com/ehr/)
 * [Team Grid](http://www.teamgridapp.com/en/)
 * [**10x - A talent company in Silicon Valley**](http://www.10xmanagement.com/)
+* [Authentic Jobs](http://www.authenticjobs.com/pricing/)
 
 ## Notable Companies
 
@@ -27,6 +28,7 @@ Notable companies in HR domain.
 * [Gild - Elasticsearch case study](http://www.gild.com/)
 * [Homerun](http://www.homerun.hr/)
 * [Underdog.io](https://www.underdog.io/)
+* [Local cloud HR](http://www.globalhrcloud.com/)
 
 ## Executive Search
 

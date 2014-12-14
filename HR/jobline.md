@@ -1,5 +1,9 @@
 # Jobline's Problem
 
+**1 week non-office remote days**
+
+Sometimes SIMPLE really WINS.
+
 There's a lot of challenges in crafting new experiences and workflows to meet contemporary HR demands.
 
 FitAgent, Fit4Hire, FitSense
@@ -34,7 +38,7 @@ FitAgent, Fit4Hire, FitSense
 * [Invoice Me](http://invoiceto.me/)
 * Have a web_db for Employer also so that we can track which employer has account already.
 * Eliminate integration database or lessen its use
-* 
+* Query visualiser - like "All active CLCT under CP_Main and CP_CC in all active SRID in the following CLID under Amy"
 
 ## Pub/Sub
 

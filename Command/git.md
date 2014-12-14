@@ -1,5 +1,7 @@
 # Git
 
+Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
+
 * [GitHub flow for rapid deployment and web project](http://scottchacon.com/2011/08/31/github-flow.html)
 * [GitFlow for infrequent library releases](http://nvie.com/posts/a-successful-git-branching-model/)
 * [Git flight rules](https://github.com/k88hudson/git-flight-rules)
@@ -12,12 +14,70 @@
 git add -u
 git add -A
 
+git commit -A -m '' # Only add in modification that has been tracked
+
+git checkout -- filename # To undo deletion if you have not stage
+git reset HEAD filename  # To undo if you have staged it
+
+## Plumbing and Porcelain
+
+Plumbing is the low level utilities. Rarely seems but working behind the scene.
+
+Porcelain is the set of useful commands. SHA hash is the implementation details. User do not need to know. Porcelain are comprises of plumbing.
+
 # Undo last commit
 git reset --soft HEAD~1
 ```
 
+## HEAD
+
+```
+HEAD^
+HEAD~3
+
+git log HEAD^^^..HEAD -p # In patch format, 3 back
+```
+
+## Amend
+
+After your commit, you realise the same file need some more modification, you can amend the previous commit.
+
+```
+git add filename
+git commit --amend # Bring up the editor so you can commit new message
+```
+
+## Revert
+
+Go back in time and revert commits.
+
+## Rebasing
+
+1. Keep a nice clean history. Improve commit message. Bring your work up to date.
+2. Manipulate history, done through interactive rebasing.
+
+```
+// Check what your feature branch is lacking in behind
+git log ..master
+
+git rebase master
+
+// Recorded resolution???
+git config --global rerere.enabled true
+
+git rebase -i SHA1 // Interactive for you to pick, squash, edit, reword
+
+git pull --rebase
+```
 
 ## Workflow
+
+1. Centralized
+2. Patch - Linux and quite an old way to work. Do not trust other people
+3. Forking - Fork your copy and merge with pull request. More modern.
+4. Branched - What Jobline is currently doing. We do trust our collaborator.
+
+The original repository is the upstream. Your forks is your own copy.
 
 Workspace -> Index -(commit)-> Local Repo -(push)-> Remote Repo
 
@@ -56,12 +116,53 @@ If the remote already has the branch and your local do not have it, just use:
 Beware of merge ambush on feature branch.
 Trunk-based development.
 
+## Tags
+
+A point in time. A bookmark.
+
+```
+git tag                  # See your tags
+git tag tag_name sha1    # Tag it
+git tag -a tag_name sha1 # Vim open to let you annotate
+
+git tag -d tag_name      # Delete tag
+
+git show tag_name        # Show the diff
+git checkout tag_name    # Detached HEAD
+git checkout master      # Attached the HEAD back!
+
+git checkout -- filename    # Remove the edited file
+git checkout -b branch_name # Actually commit changes
+
+git push --tags origin   # Add
+git push origin :tagname # Remove
+```
+
+## Bisect
+
+Finding the last working state with Bisect. Walk through a series of commit and branch out.
+
+You want to find bad bug. Not finding bug you have fixed.
+
+```
+git bisect start     # Start the bisect
+git bisect good sha1 # State the good commit
+git bisect bad sha1  # State the bad commit
+
+git bisect good # Git will give you single commit to check
+git bisect good # Found!!
+git checkout -b fix_branch_name # Edit the fix
+git bisect reset
+
+```
+
+
 ## Stashing
 
 1. Stash away your changes: `git stash`
 2. List stash: `git stash list`
 3. Restore stash: `git stash apply stash{0}` or `git stash pop`
-4. Clear stash: `git stash clear`
+4. Clear stash: `git stash clear` or `git stash drop stash@{0}`
 
 ## Pull Request
 

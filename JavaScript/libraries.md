@@ -41,6 +41,13 @@
 * [Sort and filter animation](https://github.com/patrickkunka/mixitup)
 * [Redactor editor](http://imperavi.com/redactor/)
 * [Lightweight form validation for jQuery](http://happyjs.com/)
+* [Zero clipboard](http://zeroclipboard.org/)
+* [Another Medium editor clone](https://github.com/michelson/dante)
+
+## Date
+
+* [Pikaday](https://github.com/dbushell/Pikaday)
+* [Pickadate](http://amsul.ca/pickadate.js/)
 
 ## Auto-complete
 

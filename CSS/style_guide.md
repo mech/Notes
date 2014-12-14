@@ -15,6 +15,8 @@ Know your content structure!
 
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
+* [Flakes - Design and Frontend framework](http://getflakes.com/index.html)
+* [Skyline - Evolving CSS Architecture](http://skyline.is/)
 * [**Style Guide Resources**](http://styleguides.io/)
 * [**Interface Inventory**](http://bradfrost.com/blog/post/interface-inventory/)
 * [**Pattern Lab resources**](http://patternlab.io/resources.html)
@@ -61,6 +63,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [**Get design trend from website**](http://stylifyme.com/)
 * [Create style guides](http://designmodo.com/create-style-guides/)
 * [Why you should use mood boards](http://blog.yummygum.com/post/102354528229/why-you-should-be-using-mood-boards-in-your-design)
+* [Style guide template](http://codyhouse.co/gem/css-style-guide-template/)
 
 ## Playbook
 

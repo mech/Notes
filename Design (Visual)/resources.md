@@ -34,6 +34,7 @@
 
 ## Icon
 
+* [Look for the SVG spinner icon](http://evil-icons.io/)
 * [Ask Symbolset to help us design icon?](http://blog.symbolset.com/symbolset-for-brands)
 * [Iconjar](http://geticonjar.com/)
 * [ICONIC](https://useiconic.com)
@@ -61,3 +62,4 @@
 * [Reaction](http://venturebeat.com/2014/06/27/top-designers-react-to-googles-new-material-design-language/)
 * [Video](http://www.youtube.com/watch?v=dZqzz5lZFvo)
 * [Motion design](http://paulstamatiou.com/design-provide-meaning-with-motion/)
+* [The shape of materials to come](http://five.agency/the-shape-of-materials-to-come/)

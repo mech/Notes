@@ -10,6 +10,8 @@ Route map to Component which is (View + Controller). Think of it as iOS ViewCont
 
 In Ember 2.0, there is no more routable controller, only routable component. Controllers aren't really needed. At least not as a standalone entity.
 
+In Ember 2.0, replace the concept of the controller to the concept of top-level component. Pick up from Cocoa. Route go through a component instead of through a controller. Simplify data flow between component and bring in virtual DOM idea.
+
 tE2Hi1keT6kaIdd
 
 ```

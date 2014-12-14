@@ -30,6 +30,7 @@
 * [Design Essential](http://designschool.canva.com/)
 * [John Maeda's What is Design](http://www.whatisdesign.net/post/)
 * [10 Design Guides](http://www.printingdeals.org/specials/design-guide.html)
+* [Truth is you aren't a good designer](https://medium.com/the-treachery-of-images/truth-is-you-arent-a-good-designer-304177d2d654)
 
 ## Design Videos
 

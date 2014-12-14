@@ -22,3 +22,4 @@
 * [Pentagram rebrand Amalgamated bank](http://www.designboom.com/design/pentagram-rebrand-the-amalgamated-bank-10-08-2014/)
 * [Books on ID and branding](https://news.layervault.com/stories/35964-best-books-in-identity-and-branding)
 * [Re-branding Google Square](http://jackwmorgan.com/rebranding-google-squared/)
+* [Polaroid - Apple and Leica-like advertising](https://www.youtube.com/watch?v=5jaiq_ZZ_eM)

@@ -33,6 +33,7 @@
 * [Specificity graph - Spikes are bad](http://jonassebastianohlsson.com/specificity-graph/)
 * [The Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/)
 * [CSS stats](http://www.cssstats.com/)
+* [How to understand CSS stats](http://webdesign.tutsplus.com/tutorials/understanding-css-stats-how-to-make-the-most-of-the-numbers--cms-22756)
 
 ## line-height
 

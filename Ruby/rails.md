@@ -15,6 +15,8 @@
 * [Inside ActionDispatch and Rack](http://pothibo.com/2013/11/ruby-on-rails-inside-actiondispatch-and-rack/)
 * [Thin and SSL](http://makandracards.com/makandra/15903-using-thin-for-development-with-ssl)
 * [Eager load in production](http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/)
+* [In defense of ivars](http://naildrivin5.com/blog/2014/02/09/a-defense-of-ivars-in-rails-controllers.html)
+* [Presenters: Delegation vs Just making a Struct](http://technology.stitchfix.com/blog/2013/12/20/presenters-delegation-vs-structs/)
 
 ## Router
 
@@ -33,6 +35,7 @@
 * [Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
 * [Bus](https://github.com/minio-sk/bus)
 * [The right way to code DCI in Ruby](http://mikepackdev.com/blog_posts/24-the-right-way-to-code-dci-in-ruby)
+* [What Rails says about your application design](http://naildrivin5.com/blog/2014/03/07/what-rails-says-about-your-application-design.html)
 
 ## Build
 

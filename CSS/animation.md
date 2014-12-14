@@ -1,5 +1,6 @@
 # Animation
 
+* [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
 * [**State of animation in 2014**](http://www.smashingmagazine.com/2014/11/18/the-state-of-animation-2014/)
 * [**The Art of UI Animation**](http://markgeyer.com/pres/the-art-of-ui-animations/#/)
 * [The web animation you have always wanted](http://alexjray.com/post/the_web_animations_you_have_always_wanted/)
@@ -37,6 +38,7 @@
 * [Motion Experiments](http://www.michaelvillar.com/motion)
 * [Cubic Bezier representation in SASS](http://thesassway.com/advanced/cubic-bezier-representation-in-sass)
 * [Fearless animation](http://blog.hassle.com/fearless-animations-moving-users-with-motion/)
+* [Physics animation](http://iamralpht.github.io/physics/)
 
 ---
 

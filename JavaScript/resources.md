@@ -16,6 +16,7 @@ JavaScript dynamic duo (static type is overrated):
 * [5 array methods you should use today](http://colintoh.com/blog/5-array-methods-that-you-should-use-today)
 * [Code optimization](http://colintoh.com/blog/avoid-oop)
 * [**Drag and Drop interaction ideas**](http://tympanus.net/codrops/2014/11/11/drag-and-drop-interaction-ideas/)
+* [Flow - static type checker](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/)
 
 ## People
 

@@ -1,5 +1,8 @@
 # Resources
 
+It's not about the product, it's about your users.
+
+* [**Your product demos suck**](http://firstround.com/article/Your-Product-Demos-Suck-Because-Theyre-Focused-on-Your-Product)
 * [Is Photoshop broken?](http://blog.simplease.at/2014/05/limitations-ux/)
 * [Why you need a company mission](http://blog.intercom.io/why-you-need-a-company-mission/)
 * [Empathy and (Dis)content](http://www.sarawb.com/2014/03/28/empathy/)
@@ -216,6 +219,9 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Rebranding Google Squared](http://jackwmorgan.com/rebranding-google-squared/)
 * [**Website Deconstructions**](http://websitedeconstructions.com/)
 * [**A very nice deconstruct of UX**](http://ocean.ink/)
+* [Deviant Art](http://spyed.deviantart.com/journal/Boldly-Facing-The-Future-498282387)
+* [Design Explosions - Mapping on iOS](https://medium.com/design-explosion/design-explosions-mapping-on-ios-ad4ec6ba5c59)
+* [Redesigning Soundcloud](https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4)
 
 ## Product News
 

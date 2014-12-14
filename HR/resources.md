@@ -1,5 +1,6 @@
 # Resources
 
+* [UniSIM launch degree in HR](http://news.asiaone.com/news/education/unisim-launch-degree-human-resource)
 * [**All about workforce analytics**](https://gibbon.co/kbehzad/all-about-workforce-analytics)
 * [Nasty LinkedIn rejection](http://edition.cnn.com/2014/02/27/tech/web/linked-in-cleveland-job-bank/index.html)
 * [Logo - Brand of the World](http://www.brandsoftheworld.com/)
