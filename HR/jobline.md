@@ -46,7 +46,9 @@ If someone is interested in some event, we can broadcast to them.
 
 Publish conclusion.
 
+## PDF
 
+* [jsPDF](https://parall.ax/products/jspdf)
 
 ## Account Management
 

@@ -97,6 +97,7 @@ Something to break the ICE:
 * [Gibbon Design Sprint resources](https://gibbon.co/chrisnaylor/design-sprints)
 * [8 shortcuts for faster design research](http://www.gv.com/lib/8-shortcuts-for-better-faster-design-research)
 * [Design Sprint Case Study](http://robots.thoughtbot.com/design-sprint-case-study-merck-development-portal)
+* [Merck design sprint](http://robots.thoughtbot.com/merck-design-sprint-part-deux)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

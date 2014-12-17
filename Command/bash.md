@@ -34,6 +34,11 @@ ls > file_list.txt   # Save to a file first, then sort it
 sort < file_list.txt # File feed into sort command
 cp /etc/hosts . # Copy to the current directory
 cut -f 1 -d : /etc/passwd # Use : as the delimiter
+du -hs # Disk usage in human summary
+set -o history   # Enable command history
+unset -o history # Disable command history
+history -c       # Clear history
+tree folder -d
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.
@@ -44,17 +49,22 @@ cut -f 1 -d : /etc/passwd # Use : as the delimiter
 
 ## find
 
+`find` can take a long time. `locate` is another alternative. It is quicker.
+
 ```
+find / # Find files at the root directory
 find / -name "*.rpm" 2> /dev/tty6 # stderr to another terminal and inspect later
 
 find / -name "*.rpm" >> rpm-result.txt 2> /dev/null # Append to rpm and send error to black hole
 
-which passwd
-whereis passwd
+find / -user mech # Find user mech
 
-locate passwd # Need updatedb
+find / -perm /4000 # Find file with such permission
 
+which passwd   # Only for binary
+whereis passwd # More broadly, can find man pages, etc.
 
+locate passwd # Fast by not real-time. Need updatedb
 ```
 
 

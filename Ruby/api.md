@@ -170,6 +170,7 @@ GET /accounts/x7y8z9?fields=givenName,directory(name)
 * [Restpack serializer example](https://github.com/RestPack/restpack_serializer)
 * [HAL - Hypertext Application Language](http://stateless.co/hal_specification.html)
 * [Oat](https://github.com/ismasan/oat)
+* [JSON API - Steve Klabnik](https://www.youtube.com/watch?v=RzMswWbGrpI)
 
 ## Caching
 

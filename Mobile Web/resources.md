@@ -131,6 +131,8 @@ Get your thinking right first. Just because you develop using a desktop browser 
 * [json2css-sprite-mixins](https://github.com/bensmithett/json2css-sprite-mixins)
 * [How I design for retina](https://medium.com/p/e905c9106a56)
 * [Responsive retina blog design](http://paulstamatiou.com/responsive-retina-blog-design/)
+* [Designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/)
+
 
 ```
 .logo {

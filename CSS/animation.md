@@ -39,6 +39,7 @@
 * [Cubic Bezier representation in SASS](http://thesassway.com/advanced/cubic-bezier-representation-in-sass)
 * [Fearless animation](http://blog.hassle.com/fearless-animations-moving-users-with-motion/)
 * [Physics animation](http://iamralpht.github.io/physics/)
+* [Animating the DOM](http://flipstewart.com/2014/09/13/animating-the-dom/)
 
 ---
 

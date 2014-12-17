@@ -719,6 +719,8 @@ If you use `Handlebars.SafeString`, be sure to escape any user input with `Handl
 * [Liquid Fire: Animations and Transitions for Ember Apps](http://ef4.github.io/liquid-fire/#/)
 * [ember-animation-demo](https://github.com/ef4/ember-animation-demo)
 * [ember-animate](https://github.com/gigafied/ember-animate)
+* [Liquid Fire](https://www.youtube.com/watch?v=RzMswWbGrpI)
+* [Liquid Fire library - Using Velocity.js underlying](https://github.com/ef4/liquid-fire)
 
 With `Ember.View`, we can use the hooks:
 

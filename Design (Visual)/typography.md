@@ -1,5 +1,6 @@
 # Typography
 
+* [**Practical Typography**](http://practicaltypography.com/)
 * [**Free Alternatives**](http://www.typewolf.com/free-alternatives)
 * [Typographer typefaces](http://blog.8faces.com/post/103548341771/typographers-typefaces)
 * [Lettering Gear](http://tumblr.ryanhamrick.com/post/50012569117/lettering-gear-a-quick-guide-to-get-started)
@@ -44,6 +45,7 @@
 * [How you get your lettering on screen](https://news.layervault.com/stories/37820-ask-dn-how-do-you-get-your-lettering-on-screen)
 * [Legibility in typography and type design](http://learn.scannerlicker.net/2014/11/14/on-legibility-in-typography-and-type-design/)
 * [A short and sweet interactive introduction to typography](http://imwillryan.com/typefun01/)
+* [Font pairing](http://www.newmediacampaigns.com/blog/resources-for-font-pairing-typography-inspiration)
 
 ```
 // New for Firefox 25

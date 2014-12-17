@@ -48,5 +48,6 @@
 * [Capptivate](http://capptivate.co/)
 * [Android Niceties](http://androidniceties.tumblr.com/)
 * [pttrns](http://pttrns.com/)
+* [Beta pttrns](http://beta.pttrns.com/)
 * [app.itize](http://app.itize.us/)
 * [hoverstat](http://hoverstat.es/)

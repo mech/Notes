@@ -2,6 +2,8 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [**Pixel Fitting**](https://www.youtube.com/watch?v=wSLW4K2ON4s)
+* [**Pixel Fitting**](http://dcurt.is/pixel-fitting)
 * [Discovering Sketch](https://medium.com/@jm_denis/discovering-sketch-25545f6cb161)
 * [Design with Sketch](https://medium.com/design-with-sketch/design-with-sketch-92608a88c103)
 * [Documentation RTFM](http://bohemiancoding.com/sketch/support/documentation/)
@@ -42,6 +44,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch 3.2](https://medium.com/sketch-tricks/sketch-3-2-beta-bdffc9ce6216)
 * [Sketch Swatches](http://build.pixelunion.net/sketch-swatches/)
 * [Sketch Talk](http://talk.sketchapphub.com/)
+* [10 tips](http://blog.uxpin.com/5951/10-best-practices-sketch/)
 
 ## Bézier
 

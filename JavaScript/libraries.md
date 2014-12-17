@@ -43,6 +43,8 @@
 * [Lightweight form validation for jQuery](http://happyjs.com/)
 * [Zero clipboard](http://zeroclipboard.org/)
 * [Another Medium editor clone](https://github.com/michelson/dante)
+* [jsPDF](https://parall.ax/products/jspdf)
+* [Barcode scanner](http://serratus.github.io/quaggaJS/)
 
 ## Date
 

@@ -8,6 +8,7 @@
 * [**Designer's guide to DPI**](http://sebastien-gabriel.com/designers-guide-to-dpi/home)
 * [Design graphics](http://nathanbarry.com/design-graphics-blog-posts/)
 * [Design History](http://www.vanseodesign.com/web-design/design-history/)
+* [Classic design books](https://news.layervault.com/stories/39986-classic-design-books)
 
 ## Videos
 

@@ -2,6 +2,7 @@
 
 * [**Email design workflow**](http://www.leemunroe.com/email-design-workflow/)
 * [**Future of email marketing**](http://marketblog.envato.com/trends/future-email-marketing/)
+* [**Bulletproof guide to using HTML5 and CSS3 in email**](https://litmus.com/blog/a-bulletproof-guide-to-using-html5-and-css3-in-email)
 * [Litmus email design podcast](https://litmus.com/blog/introducing-the-email-design-podcast)
 * [RAW text email is good for conversation and targeted emails](https://medium.com/@giuliano/good-looking-emails-are-killing-your-customer-conversations-ac3b8da9a7d9)
 * [Style Campaign - Video](http://stylecampaign.com/)

@@ -68,6 +68,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [C3.js](http://c3js.org/)
 * [Step by step guide](http://zeroviscosity.com/category/d3-js-step-by-step)
 * [OECD Regional Well-being](http://www.oecdregionalwellbeing.org/)
+* [Diagram and flowchart from text](https://github.com/knsv/mermaid)
 
 ## Graphite
 

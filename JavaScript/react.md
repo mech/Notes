@@ -29,6 +29,7 @@ What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
 * [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
+* [**React: RESTful UI Rendering**](https://www.youtube.com/watch?v=IVvHPPcl2TM)
 * [Building robust web apps with React](http://maketea.co.uk/2014/03/05/building-robust-web-apps-with-react-part-1.html)
 * [Using react with browserify](https://medium.com/publish-what-you-learn/a1ea2dd606b)
 * [Example](https://github.com/aslansky/react-stack-playground)
@@ -42,6 +43,7 @@ Model your UI as pure function.
 * [Introduction to React.js](https://vimeo.com/106261417)
 * [Goya](https://github.com/jackschaedler/goya)
 * [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
+* [Rendering React Components on the server](http://www.crmarsh.com/react-ssr/)
 
 ```
 var gulp = require('gulp');

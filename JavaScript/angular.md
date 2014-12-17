@@ -12,6 +12,7 @@ Angular 2.0 favors class-based designs with annotations as metadata.
 
 Think of Angular as a Model View View Model.
 
+* [**Getting up to speed with Angular.js in one day**](http://colintoh.com/blog/getting-up-to-speed-with-angularjs-in-one-day)
 * Model - The services (business logics and domain models)
 * View - HTML template
 * View Model - $scope + controller

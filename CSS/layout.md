@@ -115,6 +115,7 @@ Use of `min-width` and `max-width` common.
 Nearly every grid system is based on rows and columns, set to 12 or 16 increments to create any layout. However, the web is changing! It's time for Flexbox to shine.
 
 * [**Foundation - A new grid**](http://zurb.com/article/1333/foundation-a-new-grid)
+* [Skeleton](http://getskeleton.com/)
 * [**Complete guide to grid**](http://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Some grids to try](https://news.layervault.com/stories/30928-ask-dn-which-grid-do-you-use)
 * [Nicolas Gallagher's `inline-block` grid system](http://necolas.github.io/griddle/)
@@ -197,6 +198,7 @@ Separate it into layout-object and content-object.
 * [Kite CSS - Flexible layout helper](http://hiloki.github.io/kitecss/)
 * [Flexbox calculator](http://maxsteenbergen.com/fibonacci/)
 * [Full height tips](http://www.codelord.net/2014/09/08/css-tip-elements-with-height-100-percent-fixed-amount/)
+* [Flexbox cross browser inconsistencies](http://flanneljesus.github.io/web%20design/2014-12-06/flexbox-cross-browser-inconsistencies/)
 
 `flex-wrap` not supported in Firefox, so be careful.
 

@@ -5,6 +5,7 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [**Macrointeractions**](https://medium.com/@mkruz/macrointeractions-f0a16eaaf593)
 * [**Human Interface**](http://humanistinterface.com/)
 * [**Stop changing UI for no good reason**](https://lobste.rs/s/kiq75p/stop_changing_uis_for_no_good_reason)
+* [**UX UI**](http://designmodo.com/ux-ui/)
 * [Writing-first design](https://signalvnoise.com/posts/3801-writing-first-design)
 * [Design checklist fir IxD](https://medium.com/@tinkadoic/design-checklist-for-ixd-students-419dbbe1c1d3)
 * [7 rules for creating UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda)

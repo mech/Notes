@@ -16,6 +16,7 @@ Know your content structure!
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
 * [Flakes - Design and Frontend framework](http://getflakes.com/index.html)
+* [**IBM Design Language**](http://www.ibm.com/design/language/)
 * [Skyline - Evolving CSS Architecture](http://skyline.is/)
 * [**Style Guide Resources**](http://styleguides.io/)
 * [**Interface Inventory**](http://bradfrost.com/blog/post/interface-inventory/)
@@ -64,6 +65,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Create style guides](http://designmodo.com/create-style-guides/)
 * [Why you should use mood boards](http://blog.yummygum.com/post/102354528229/why-you-should-be-using-mood-boards-in-your-design)
 * [Style guide template](http://codyhouse.co/gem/css-style-guide-template/)
+* [Mixins](http://juicynex.us/juice/)
 
 ## Playbook
 
@@ -108,6 +110,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Github CSS](http://markdotto.com/2014/07/23/githubs-css/)
 * [Louder than Ten Manual](http://manual.louderthanten.com/)
 * [Fiftythree styleguide](http://www.fiftythree.com/styleguide/typography)
+* [Eventmobi](https://medium.com/@owdco/how-we-css-at-eventmobi-98a12961c264)
 
 ## Naming Convention
 

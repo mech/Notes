@@ -2,6 +2,11 @@
 
 It's not about the product, it's about your users.
 
+* [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)
+* [Don't give your user shit work](http://zachholman.com/posts/shit-work/)
+* [Designing the next generation](http://timothyachumba.com/blog/designing-the-next-generation)
+* [**How to make a hit app**](https://www.youtube.com/watch?v=l0HewTsU2_w)
+* [Discussing the future of design](https://medium.com/@kaihuang/discussing-the-future-of-design-1a933eb9f98a)
 * [**Your product demos suck**](http://firstround.com/article/Your-Product-Demos-Suck-Because-Theyre-Focused-on-Your-Product)
 * [Is Photoshop broken?](http://blog.simplease.at/2014/05/limitations-ux/)
 * [Why you need a company mission](http://blog.intercom.io/why-you-need-a-company-mission/)
@@ -61,7 +66,9 @@ It's not about the product, it's about your users.
 * [**The Checklist Manifesto**](http://qz.com/183861/any-company-can-copy-the-keystone-of-apples-design-process/)
 * [Slack story](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
 * [It's what you subtract](http://www.nytimes.com/2013/01/20/jobs/matthew-may-on-the-art-of-adding-by-taking-away.html?_r=0)
-* [5 most common mistakes in design](https://medium.com/the-year-of-the-looking-glass/the-5-most-common-mistakes-in-design-52816ab77b3d)
+* [**5 most common mistakes in design**](https://medium.com/the-year-of-the-looking-glass/the-5-most-common-mistakes-in-design-52816ab77b3d)
+* [Best tools for designers](http://www.producthunt.com/saijo_george/collections/best-tools-for-designers)
+* [How to design for everybody](https://medium.com/@rachelhaot/how-to-design-for-everybody-4b2870724c4)
 
 ## Research
 
@@ -179,6 +186,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Walkthrough examples](http://www.pttrns.com/categories/16-walkthroughs)
 * [Onboarding mistakes](http://www.helpscout.net/blog/user-onboarding-mistakes/)
 * [Stop making users explore your product](https://medium.com/@lauraklein/stop-making-users-explore-33c45bd1f465)
+* [First time use](https://medium.com/user-experience-design-1/examining-first-time-use-4aea16bf7b3a)
 
 ## Legal
 
@@ -222,6 +230,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Deviant Art](http://spyed.deviantart.com/journal/Boldly-Facing-The-Future-498282387)
 * [Design Explosions - Mapping on iOS](https://medium.com/design-explosion/design-explosions-mapping-on-ios-ad4ec6ba5c59)
 * [Redesigning Soundcloud](https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4)
+* [Learn from great design](http://inspectelement.com/reviews/learn-from-great-design-avis-car-hire/)
 
 ## Product News
 

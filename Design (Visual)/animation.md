@@ -22,6 +22,9 @@
 * [Photoshop Animation](http://photoshopanimation.com/)
 * [Learn Bezier](http://bezier.method.ac/#)
 * [Animating with Keynote](http://robots.thoughtbot.com/animating-with-keynote)
+* [Tips for designing awesome GIFs](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
+* [Pop - Animation engine behind Paper](https://code.facebook.com/posts/234067533455773/introducing-pop-the-animation-engine-behind-paper/)
+* [The joy of animation](https://www.youtube.com/watch?v=XlL0qiPORA0)
 
 ## Famo.us
 
@@ -37,6 +40,7 @@
 
 ## Framer
 
+* [**Stripes Speaker Series: Designing with Framer**](https://www.youtube.com/watch?v=mqk9Fw8FKLY)
 * [The introduction video](https://vimeo.com/74712901)
 * [Framer templates](https://github.com/tisho/framer-templates)
 * [Why Framer.js matters](https://medium.com/framer-js/93eb1206e606)

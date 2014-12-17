@@ -9,3 +9,6 @@
 * [2014 - The year of design tools](https://medium.com/@extremelyn/2014-the-year-of-design-tools-3c449d771e62)
 * [A framework for user stories](https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9)
 * [Mobile prototyping tools](http://www.moneysummit.com/the-summit/2014/12/10/9-mobile-prototyping-tools-every-designer-should-consider)
+* [Protovember](http://makeshowlearn.com/protovember-recap/)
+* [Prototyping Tools](http://prototypingtools.co/)
+* [Quick dirty UX design techniques](http://blog.placeit.net/quick-dirty-ux-design-techniques/)

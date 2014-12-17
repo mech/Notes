@@ -25,6 +25,11 @@
 * [favicon](http://css-tricks.com/favicon-quiz/)
 * [Frontends](http://www.frontends.org/)
 * [DevTools Tips](http://devtoolstips.com/)
+* [Tools for static websites](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
+
+## Offline-first
+
+* [Offline-first Web apps](https://github.com/pazguille/offline-first)
 
 ## Deconstruct
 

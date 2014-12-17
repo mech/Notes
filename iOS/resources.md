@@ -28,6 +28,8 @@
 * [The UX of mobile settings](http://setentaydos.com/the-ux-of-mobile-settings/)
 * [iPhone 6 plus screen](http://oleb.net/blog/2014/11/iphone-6-plus-screen/)
 * [iOS design tips](http://ramotion.github.io/iOS-design-tips/)
+* [Photo Swipe](http://photoswipe.com/)
+* [Chinese mobile app UI trends](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html)
 
 ## Animation
 
