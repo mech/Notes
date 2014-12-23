@@ -15,6 +15,10 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [Hypermedia APIs the new wild west](http://decomplecting.org/blog/2012/05/30/hypermedia-apis-the-new-wild-west/)
 * [Roar and Representable - Strange API libraries](https://github.com/apotonick/roar)
 
+## OAuth
+
+* [WRAP and the demise of the OAuth community](http://hueniverse.com/2009/11/23/wrap-and-the-demise-of-the-oauth-community/)
+
 ## SAMEORIGIN and CORS
 
 JSONP is just a hack to bypass.

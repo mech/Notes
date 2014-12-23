@@ -10,6 +10,7 @@
 * [**Gibbon UX Design**](https://gibbon.co/uxdesign)
 * [**Experience is a feeling**](http://www.uxmatters.com/mt/archives/2014/10/user-experience-is-a-feeling.php)
 * [**UX Directory**](http://abetteruserexperience.com/ux-directory/)
+* [**UX for wizards**](https://medium.com/re-form/ux-for-wizards-e6ffaad577b4)
 * [Users Know](http://usersknow.blogspot.sg/)
 * [Designer Fund's blog](http://designerfund.com/bridge/blog/)
 * [Design Mind - Frog](http://designmind.frogdesign.com/)

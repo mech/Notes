@@ -31,6 +31,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [SVG Path](https://github.com/andreaferretti/paths-js)
 * [Organized workflow for SVG](http://robots.thoughtbot.com/organized-workflow-for-svg)
 * [Animate SVG icons with CSS and Snap.js](http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/)
+* [Best of SVG icons in 2014](http://www.noupe.com/essentials/freebies-tools-templates/best-of-svg-2014-icons-tools-and-resources-86159.html)
 
 ```
 <text>
@@ -61,6 +62,7 @@ Make the `stroke-dasharray` as long as the path to make it visually invisible. T
 * [d3 and SVG](http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html)
 * [Animation path](http://blog.legomushroom.com/2014/03/defining-advanced-animation-path/)
 * [Animating path](https://github.com/ConnorAtherton/walkway)
+* [vivus.js - SVG animation](http://maxwellito.github.io/vivus/)
 
 ## d3.js
 

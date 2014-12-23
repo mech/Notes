@@ -79,6 +79,14 @@ Something to break the ICE:
 * [The PRD is dead, long live the prototype!](http://zurb.com/article/1331/the-prd-is-dead-long-live-the-prototype)
 * [How prototyping is replacing documentation](https://medium.com/goodux-badux/how-prototyping-is-replacing-documentation-c42e97d07a11)
 
+## Percolate Process
+
+**Apply architecture to product design**
+
+* [Lesson 1 - Circulation](https://blog.percolate.com/2014/08/applying-architecture-to-product-design-lesson-1-circulation/)
+* [Lesson 2 - Program](https://blog.percolate.com/2014/10/applying-architecture-product-design-lesson-2-program/)
+* [Lesson 3 - Sketching Tools](https://blog.percolate.com/2014/12/applying-architecture-to-product-design-lesson-3-sketching-tools/)
+
 ## Google Ventures (Design Sprints)
 
 * [Why good storytelling helps you design great products](http://www.gv.com/lib/why-good-storytelling-helps-you-design-great-products)

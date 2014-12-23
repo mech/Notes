@@ -8,6 +8,7 @@ There's a lot of challenges in crafting new experiences and workflows to meet co
 
 FitAgent, Fit4Hire, FitSense
 
+* Track activities all around (See Atlassian Stash)
 * The dashboard of CL is not very helpful in their day to day tasks, especially when it comes to month's end where they need to approve timesheets, leaves, etc. The level of audit and tracking is lacking also, such as who approve what, and when.
 * CL really is confuse with the arrangement of what tasks they should do "right now", and how to keep track of what they have done.
 * There is no way to know when Timesheet is being approved. Right now, I am using PostMark to see when email was sent to client to ask them to approved to determine Timesheet's submission date time.
@@ -39,6 +40,10 @@ FitAgent, Fit4Hire, FitSense
 * Have a web_db for Employer also so that we can track which employer has account already.
 * Eliminate integration database or lessen its use
 * Query visualiser - like "All active CLCT under CP_Main and CP_CC in all active SRID in the following CLID under Amy"
+* Instead of requiring client to select their company if they have multiple companies, why not present all of it.
+* Have data-structure to track verified NRIC, email, mobile phone (for SMS sending), etc.
+* With each SMS being sent, we constantly see if the number is clean or not. Cross-associated SMS sent with the client/CA etc.
+* Code Memo. Rules, etc. See MaxQDA. Code CA's resume? Like Medium website comment where you select/highlight chunk of text and mark it or comment on it.
 
 ## Pub/Sub
 

@@ -1,5 +1,6 @@
 # Sass
 
+* [**An auto-enforceable SCSS styleguide**](http://davidtheclark.com/scss-lint-styleguide/)
 * [**15 essential SASS mixins**](http://www.developerdrive.com/2014/11/15-essential-sass-mixins/)
 * [When to use extend and when to use a mixin](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/)
 * [**Useful SASS mixins**](https://github.com/gillesbertaux/andy)

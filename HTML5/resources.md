@@ -1,6 +1,7 @@
 # Resources
 
 * [Let's build a browser engine](http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
+* [**Frontend Front**](http://frontendfront.com/)
 * [**Web Designer Repo**](http://www.webdesignrepo.com/)
 * [Standard Markdown](http://standardmarkdown.com/)
 * [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
@@ -26,6 +27,7 @@
 * [Frontends](http://www.frontends.org/)
 * [DevTools Tips](http://devtoolstips.com/)
 * [Tools for static websites](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
+* [Andy Hall](http://andyhall.github.io/)
 
 ## Offline-first
 

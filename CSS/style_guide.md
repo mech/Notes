@@ -66,6 +66,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Why you should use mood boards](http://blog.yummygum.com/post/102354528229/why-you-should-be-using-mood-boards-in-your-design)
 * [Style guide template](http://codyhouse.co/gem/css-style-guide-template/)
 * [Mixins](http://juicynex.us/juice/)
+* [Code Guide by @mdo](http://codeguide.co/)
 
 ## Playbook
 

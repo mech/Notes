@@ -45,6 +45,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch Swatches](http://build.pixelunion.net/sketch-swatches/)
 * [Sketch Talk](http://talk.sketchapphub.com/)
 * [10 tips](http://blog.uxpin.com/5951/10-best-practices-sketch/)
+* [Design a to-do app icon](http://airwalk-design.com/?cat=tutorials&inc=1744&stick=design-a-todo-list-app-icon-with-sketch-3)
 
 ## Bézier
 

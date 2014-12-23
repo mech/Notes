@@ -6,6 +6,7 @@
 * [The web animation you have always wanted](http://alexjray.com/post/the_web_animations_you_have_always_wanted/)
 * [**Foundation for App - Motion UI is the new flat**](http://zurb.com/article/1340/foundation-for-apps-motion-ui-is-the-new-)
 * [**Codrops playground**](http://tympanus.net/codrops/category/playground/)
+* [CSS core animation skills](http://demosthenes.info/blog/966/CSS-Core-Animation-Skills-Gravity-Squash-and-Stretch)
 * [The 12 principles of animation](http://the12principles.tumblr.com/)
 * [Interaction ProTip](http://aerotwist.com/tutorials/)
 * [All the right moves tutorial series](https://vimeo.com/channels/alltherightmoves/)
@@ -72,6 +73,8 @@
 * [Hover effect ideas](http://tympanus.net/Development/HoverEffectIdeas/)
 * [Dot navigation](http://tympanus.net/Development/DotNavigationStyles/)
 * [Some nice animation examples](http://varun.ca/the-core/)
+* [CSS pickup](http://cloudcannon.com/deconstructions/2014/12/19/css-truck-deconstruction.html)
+* [Animated headlines](http://codyhouse.co/demo/animated-headlines/)
 
 
 ## Famo.us

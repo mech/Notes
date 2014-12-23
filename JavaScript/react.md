@@ -1,10 +1,16 @@
 # React (by Facebook)
 
+"Given the extremely tight coupling between the template and it's context (a controller/component), the concerns are the same, and splitting the DOM into a template is an arbitrary separation of technologies rather than a legit separation of concerns." - Hence in React, everything is a component. There is no template. Just define a `render` function.
+
 http://facebook.github.io/react/index.html
 
 * Components rather than templates
 * State is hard to manage
 * DOM insertion is painful!
+* No controller in React
+* No template in React
+* The single source of truth is all at the Component
+* All the stuffs that live on the Ember controller live in React component
 
 ```
 f(d) = v
@@ -15,7 +21,6 @@ diff(v`, v) = undo # Go back in time, getting undo for free
 d = data
 v = virtual DOM
 ```
-Flux is like a game engine.
 
 `renderComponentToString() // Isomorphic applications`
 
@@ -28,6 +33,8 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+
+* [**React.js UI framework for hybrid mobile apps**](http://touchstonejs.io/)
 * [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
 * [**React: RESTful UI Rendering**](https://www.youtube.com/watch?v=IVvHPPcl2TM)
 * [Building robust web apps with React](http://maketea.co.uk/2014/03/05/building-robust-web-apps-with-react-part-1.html)
@@ -42,8 +49,9 @@ Model your UI as pure function.
 * [Why you might not need MVC with React.js](http://www.code-experience.com/why-you-might-not-need-mvc-with-reactjs/)
 * [Introduction to React.js](https://vimeo.com/106261417)
 * [Goya](https://github.com/jackschaedler/goya)
-* [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
 * [Rendering React Components on the server](http://www.crmarsh.com/react-ssr/)
+* [Om - too mind blow!](https://github.com/swannodette/om)
+* [Facebook's Immutable.js](https://github.com/facebook/immutable-js)
 
 ```
 var gulp = require('gulp');
@@ -59,6 +67,17 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('./build'));
 });
 ```
+
+## React Router
+
+* [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
+
+## Flux
+
+Flux is like a game engine.
+
+* [Flocks.js](https://github.com/StoneCypher/flocks.js)
+* [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
 
 ## Composition
 
@@ -93,3 +112,8 @@ DOM operation is very expensive! Because modifying the DOM will also apply and c
 ## Examples
 
 * [React tutorial](https://github.com/phaedryx/react-tutorial)
+
+## Videos
+
+* [Functional Web Development](https://www.youtube.com/watch?v=Elr_RNt2R5Q)
+* [Secret of the Virtual DOM](https://www.youtube.com/watch?v=1h2G20A-AvY)

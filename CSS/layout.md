@@ -5,6 +5,9 @@
 * [Make full screen sections with 1 line of CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)
 * [Mega site navigation](http://codyhouse.co/gem/css-mega-site-navigation/)
 * [Responsive dashboard layout template](http://keen.github.io/dashboards/)
+* [calc() for grids](http://webdesign.tutsplus.com/tutorials/calc-grids-are-the-best-grids--cms-22902)
+* [`object-fit`](http://demosthenes.info/blog/967/The-Widescreen-Web-Using-CSS-object-fit)
+* [Fixed header/footer with dynamic heights and scrollable content](https://news.layervault.com/stories/40715-fixed-header-and-footer-with-dynamic-heights-and-scrollable-content)
 
 ## Example
 

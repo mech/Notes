@@ -183,6 +183,10 @@ App = Ember.Application.create({
 {{log model}}
 ```
 
+## Pagination
+
+* [Some pagination segment in this video](https://www.youtube.com/watch?v=Df-OkCZiHcE)
+
 ## Run Loop (backburner.js)
 
 * [How does run loop work](http://stackoverflow.com/questions/13597869/what-is-ember-runloop-and-how-does-it-work)

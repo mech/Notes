@@ -1,5 +1,6 @@
 # Resources
 
+* [**9 principles of RWD**](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 * [**Touch event micro library - See hammer.js also**](http://quojs.tapquo.com/)
 * [Mobile HTML 5 by Maximiliano Firtman](http://mobilehtml5.org/)
 * [**Google Web Starter Kit for multi-device development**](https://developers.google.com/web/starter-kit/)
@@ -24,8 +25,9 @@
 * [Responsive, performant interfaces](https://github.com/mrmrs/tachyons/)
 * [LA Times Responsive Philosophy](http://www.codeandtheory.com/things-we-make/responsive-philosophy)
 * [Device-agnostically](http://www.smashingmagazine.com/smashing-newsletter-issue-123/)
-* [9 principles of RWD](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 * [Inspect your device](http://mydevice.io/)
+* [**WTF Mobile Web**](http://wtfmobileweb.com/)
+* [How to write mobile-first CSS](http://www.zell-weekeat.com/how-to-write-mobile-first-css/)
 
 ## List of screen resolution
 
@@ -132,6 +134,7 @@ Get your thinking right first. Just because you develop using a desktop browser 
 * [How I design for retina](https://medium.com/p/e905c9106a56)
 * [Responsive retina blog design](http://paulstamatiou.com/responsive-retina-blog-design/)
 * [Designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/)
+* [Responsive images](https://github.com/andismith/grunt-responsive-images)
 
 
 ```

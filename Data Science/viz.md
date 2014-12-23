@@ -28,6 +28,8 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [LOESS](https://vimeo.com/104042004)
 * [Sine and Cosine explained visually](http://setosa.io/ev/sine-and-cosine/)
 * [Using spreadsheet to generate graph](http://www.charted.co/)
+* [Build charts using SQL](http://fnordmetric.io/chartsql/)
+* [Best data visualization projects of 2014](http://flowingdata.com/2014/12/19/the-best-data-visualization-projects-of-2014-2/)
 
 ---
 

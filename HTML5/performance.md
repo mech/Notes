@@ -1,5 +1,6 @@
 # Performance
 
+* [**Perf.Rocks**](http://www.perf.rocks/)
 * [**Measure, Optimize, Automate**](http://ponyfoo.com/articles/measure-optimize-automate)
 * [**Awesome Web Performance Optimization**](https://github.com/davidsonfellipe/awesome-wpo)
 * [**Google - Make the Web faster**](https://developers.google.com/speed/)

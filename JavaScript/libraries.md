@@ -43,8 +43,11 @@
 * [Lightweight form validation for jQuery](http://happyjs.com/)
 * [Zero clipboard](http://zeroclipboard.org/)
 * [Another Medium editor clone](https://github.com/michelson/dante)
+* [wysihtml editor](http://wysihtml.com/)
+* [Squire editor](http://neilj.github.io/Squire/)
 * [jsPDF](https://parall.ax/products/jspdf)
 * [Barcode scanner](http://serratus.github.io/quaggaJS/)
+* [International telephone input](http://jackocnr.com/intl-tel-input.html)
 
 ## Date
 

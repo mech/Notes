@@ -2,6 +2,8 @@
 
 It's not about the product, it's about your users.
 
+**https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
+
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)
 * [Don't give your user shit work](http://zachholman.com/posts/shit-work/)
 * [Designing the next generation](http://timothyachumba.com/blog/designing-the-next-generation)
@@ -135,6 +137,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Emotional Design](https://medium.com/design-philosophies/emotional-design-ef3bad0ddd4a)
 * [Brain gems for decision-makers](http://coglode.com/)
 * [History of cognitive overload](http://www.farnamstreetblog.com/2014/09/the-history-of-cognitive-overload/)
+* [Cognitive science and design](https://www.youtube.com/watch?v=z2exxj4COhU)
 
 > Don't listen to user. Observe their behaviors.
 
@@ -154,6 +157,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Twitter cards guide](http://blog.bufferapp.com/twitter-cards-guide)
 * [Wildcard](http://www.subtraction.com/2014/11/13/wildcard-in-the-app-store-today/)
 * [Designing Wildcard](http://www.subtraction.com/2014/11/21/designing-wildcard/)
+* [Card Stack](http://cardstack.io/#architecture)
+* [Twitter, canvases and cards](http://ben-evans.com/benedictevans/2013/6/18/canvases)
 
 ## Quotes
 
@@ -231,6 +236,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Design Explosions - Mapping on iOS](https://medium.com/design-explosion/design-explosions-mapping-on-ios-ad4ec6ba5c59)
 * [Redesigning Soundcloud](https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4)
 * [Learn from great design](http://inspectelement.com/reviews/learn-from-great-design-avis-car-hire/)
+* [Brian Hoff Design](http://www.brianhoffdesign.com/#/work/allclasses)
 
 ## Product News
 
