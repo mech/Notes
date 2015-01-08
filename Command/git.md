@@ -102,6 +102,10 @@ Do you merge to master with the `--no-ff` flag? What is your method for handling
 4. Write, test, refactor, commit!
 5. Push to GitHub: `git push origin <branch_name>`
 
+Feature branching has "big scary merge" problem. Cherry-picking may not be the solution. Instead, use trunk based development.
+
+See http://paulhammant.com/2013/04/05/what-is-trunk-based-development/
+
 Later, while your co-worker at another machine can just:
 
     git checkout <branch_name>

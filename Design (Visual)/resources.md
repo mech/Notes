@@ -47,6 +47,7 @@
 * [2013 Logo Trends](http://www.logolounge.com/article/2013logotrends/#.U8pRBICSzyA)
 * [SVG icons](http://bbriel.me/svgicons/)
 * [Icons Mind](https://www.iconsmind.com/)
+* [Icon fonts](https://github.com/showcases/icon-fonts)
 
 ## Logo
 
@@ -65,3 +66,4 @@
 * [Video](http://www.youtube.com/watch?v=dZqzz5lZFvo)
 * [Motion design](http://paulstamatiou.com/design-provide-meaning-with-motion/)
 * [The shape of materials to come](http://five.agency/the-shape-of-materials-to-come/)
+* [Showcase of the best Material Design](http://www.materialup.com/)

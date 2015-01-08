@@ -1,6 +1,7 @@
 # Resources
 
 * [Design Essential from GitHub](https://github.com/showcases/design-essentials)
+* [**2014 favorite Codrops**](http://tympanus.net/codrops2014/)
 * [**Myth - Post-processor**](http://www.myth.io/)
 * [Crazy CSS](http://give-n-go.co/)
 * [CSS3 Geometry](http://css3geometrydaily.tumblr.com/)
@@ -36,6 +37,7 @@
 * [CSS Dig](http://cssdig.com/)
 * [How to understand CSS stats](http://webdesign.tutsplus.com/tutorials/understanding-css-stats-how-to-make-the-most-of-the-numbers--cms-22756)
 * [Designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/)
+* [Typesettings?](http://mikemai.net/typesettings/index.html)
 
 ## line-height
 

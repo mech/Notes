@@ -12,3 +12,5 @@
 * [Protovember](http://makeshowlearn.com/protovember-recap/)
 * [Prototyping Tools](http://prototypingtools.co/)
 * [Quick dirty UX design techniques](http://blog.placeit.net/quick-dirty-ux-design-techniques/)
+* [Prototyping with Form for the first time](https://medium.com/@makeshowlearn/prototyping-with-form-for-the-first-time-a2cf2982a952)
+* [Prototyping for better products, stronger teams and happier clients](http://www.smashingmagazine.com/2014/09/19/prototyping-for-better-products-stronger-teams-and-happier-clients/)

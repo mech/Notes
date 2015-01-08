@@ -67,6 +67,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Style guide template](http://codyhouse.co/gem/css-style-guide-template/)
 * [Mixins](http://juicynex.us/juice/)
 * [Code Guide by @mdo](http://codeguide.co/)
+* [Style guide best practices](http://bradfrost.com/blog/post/style-guide-best-practices/)
 
 ## Playbook
 
@@ -105,6 +106,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 
 ## Examples
 
+* [**Brand Style Guide Examples**](http://saijogeorge.com/brand-style-guide-examples/)
 * [Style guides and pattern libraries](https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides-and-pattern-libraries)
 * [Code for America](http://style.codeforamerica.org/)
 * [Mapbox](https://www.mapbox.com/base/)
@@ -112,6 +114,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Louder than Ten Manual](http://manual.louderthanten.com/)
 * [Fiftythree styleguide](http://www.fiftythree.com/styleguide/typography)
 * [Eventmobi](https://medium.com/@owdco/how-we-css-at-eventmobi-98a12961c264)
+* [Buffer App](https://bufferapp.com/style-guide)
 
 ## Naming Convention
 

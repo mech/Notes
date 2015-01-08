@@ -12,6 +12,7 @@
 ## Example
 
 * [**http://cakedown.alexandredeschamps.ca/**](http://cakedown.alexandredeschamps.ca/)
+* [**Grid Lover**](http://www.gridlover.net/app/)
 * [CSS layout debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)
 * [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
 * [**Check out Foundation for Apps**](http://responsivedesign.is/articles/screencast-zurb-foundation-for-apps)
@@ -174,7 +175,7 @@ Grids work on two levels: first perception, then experience. That is, a user fee
 ## display: table
 
 * [Nice introduction to `display: table`](http://www.digital-web.com/articles/everything_you_know_about_CSS_Is_wrong/)
-* [display:table Anti-hero](http://colintoh.com/blog/display-table-anti-hero)
+* [**display:table Anti-hero**](http://colintoh.com/blog/display-table-anti-hero)
 * [See the Designer News comment](https://news.layervault.com/stories/36888-the-antihero-of-css-layout--displaytable-)
 
 ## Flexbox
@@ -187,6 +188,7 @@ Separate it into layout-object and content-object.
 
 * [Flexbox cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
 * [Solved by flexbox](http://philipwalton.github.io/solved-by-flexbox/)
+* [Flexbox adventures](http://chriswrightdesign.com/experiments/flexbox-adventures/)
 * [Video - Present and future of CSS layout](https://vimeo.com/98746172)
 * [Video - Putting flexbox into practice](https://vimeo.com/77176313)
 * [Putting flexbox into practice - blog](http://zomigi.com/blog/flexbox-presentation/)

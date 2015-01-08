@@ -1,5 +1,6 @@
 # Resources
 
+* [The state of RWD](http://webdesign.tutsplus.com/articles/the-state-of-responsive-web-design--cms-22878)
 * [**9 principles of RWD**](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 * [**Touch event micro library - See hammer.js also**](http://quojs.tapquo.com/)
 * [Mobile HTML 5 by Maximiliano Firtman](http://mobilehtml5.org/)
@@ -74,6 +75,7 @@
 
 Style sheets with media queries attached to their `<link>` tags will still download even if it evaluate to `false`.
 
+* [**Approaches to Media Queries in Sass**](http://css-tricks.com/approaches-media-queries-sass/)
 * [Good resource for knowing the logical operators of media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 * [Responsive JavaScript](http://www.csskarma.com/blog/responsive-javascript/)
 * [Responsive design tool for Brackets](http://www.leebrimelow.com/responsive-design-with-adobe-brackets/)

@@ -1,5 +1,6 @@
 # Resources
 
+* [**Structure 101**](http://structure101.com/)
 * [VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 * [Quickly learn X programming language](http://learnxinyminutes.com/)
 * [Beautiful Open Source projects](http://beautifulopen.com/)
@@ -16,6 +17,7 @@
 * [The big rewrite](http://chadfowler.com/blog/2006/12/27/the-big-rewrite/)
 * [Quality Assurance tools](https://sifterapp.com/academy/resources/tools/)
 * [Thoughtbot Guides](https://github.com/thoughtbot/guides)
+* [Producing open source software](http://producingoss.com/en/producingoss.html)
 
 ## Agile
 

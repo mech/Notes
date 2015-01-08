@@ -46,9 +46,15 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch Talk](http://talk.sketchapphub.com/)
 * [10 tips](http://blog.uxpin.com/5951/10-best-practices-sketch/)
 * [Design a to-do app icon](http://airwalk-design.com/?cat=tutorials&inc=1744&stick=design-a-todo-list-app-icon-with-sketch-3)
+* [Photoshop extensions for frontend developers](http://vilcins.lv/blog/2015/Photoshop-extensions-for-frontend-developers/)
+
+## Tutorials
+
+* [Vector Boom](http://vectorboom.com/)
 
 ## Bézier
 
+* [**A Primer on Bézier Curves**](http://pomax.github.io/bezierinfo/)
 * [Mastering the Bézier Curve in Sketch](https://medium.com/sketch-app/mastering-the-bezier-curve-in-sketch-4da8fdf0dbbb)
 * [Bézier OCD](http://learn.scannerlicker.net/2014/10/01/bezier-ocd-or-why-you-should-know-about-point-placement/)
 * [Bézier curves and type design](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/)
@@ -111,6 +117,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch plugins directory](https://github.com/sketchplugins/plugin-directory)
 * [A-Z of free plugins](http://marketblog.envato.com/resources/z-free-sketch-app-plugins/)
 * [Wireframe](https://github.com/teracyhq/wireframe)
+* [Material design color palette](https://github.com/t32k/material-design-color-palette-sketch-plugin)
 
 ## Videos
 

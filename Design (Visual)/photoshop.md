@@ -10,6 +10,7 @@
 * [Guide updates for PS CC :(](http://www.setopacity.com/articles/2014/10/7/guide-updates-for-photoshop-october-2014)
 * [Modular design photoshop](http://blog.tackmobile.com/article/modular-design-photoshop/)
 * [Blend if](http://bjango.com/articles/blendif/)
+* [Pixel perfect shape](https://medium.com/@kieranpblack/pixel-perfect-shape-e4d636d376b5)
 
 ## Tips and Tricks
 

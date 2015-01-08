@@ -159,6 +159,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Designing Wildcard](http://www.subtraction.com/2014/11/21/designing-wildcard/)
 * [Card Stack](http://cardstack.io/#architecture)
 * [Twitter, canvases and cards](http://ben-evans.com/benedictevans/2013/6/18/canvases)
+* [Open standard for cards?](http://techcrunch.com/2014/11/08/its-time-for-an-open-standard-for-cards/)
 
 ## Quotes
 
@@ -192,6 +193,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Onboarding mistakes](http://www.helpscout.net/blog/user-onboarding-mistakes/)
 * [Stop making users explore your product](https://medium.com/@lauraklein/stop-making-users-explore-33c45bd1f465)
 * [First time use](https://medium.com/user-experience-design-1/examining-first-time-use-4aea16bf7b3a)
+* [Why harder onboarding can lead to better users](https://medium.com/on-startups/what-startups-can-learn-from-betty-crocker-709e83ddf638)
 
 ## Legal
 
@@ -254,3 +256,4 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 
 * [Netlife Research](https://vimeo.com/netliferesearch/videos)
 * [Gigaom Roadmap](http://new.livestream.com/gigaom/roadmap2014/videos)
+* [Designers Watch](http://designers.watch/)

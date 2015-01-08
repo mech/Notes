@@ -18,6 +18,7 @@ JavaScript dynamic duo (static type is overrated):
 * [**Drag and Drop interaction ideas**](http://tympanus.net/codrops/2014/11/11/drag-and-drop-interaction-ideas/)
 * [Flow - static type checker](https://code.facebook.com/posts/1505962329687926/flow-a-new-static-type-checker-for-javascript/)
 * [Flow - Static type checker](http://flowtype.org/)
+* [Functional JavaScript](http://osteele.com/sources/javascript/functional/)
 
 ## V8
 

@@ -28,6 +28,7 @@
 * [Ampersand](http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/)
 * [Sass tooltips](http://hackingui.com/front-end/scss-tooltips/)
 * [Google Material Design colors???](https://github.com/nickpfisterer/quantum-colors)
+* [Increasing SASS compiling performance](https://www.devbridge.com/articles/increasing-sass-compiling-performance-or-when-every-second-counts/)
 
 
 ## Placeholder

@@ -29,6 +29,8 @@ Notable companies in HR domain.
 * [Homerun](http://www.homerun.hr/)
 * [Underdog.io](https://www.underdog.io/)
 * [Local cloud HR](http://www.globalhrcloud.com/)
+* [BetterWorks](http://www.betterworks.com/)
+* [remoteinterview.io](https://www.remoteinterview.io/)
 
 ## Executive Search
 

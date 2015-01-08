@@ -39,6 +39,8 @@ set -o history   # Enable command history
 unset -o history # Disable command history
 history -c       # Clear history
 tree folder -d
+pwd -P # true full path
+grep root /etc/* # Check every files that contain the word root
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.

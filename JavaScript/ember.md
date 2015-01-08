@@ -5,6 +5,8 @@ Templating goes together with Binding. You typically experience them as a single
 The compiler see the template fragment, identifying any binding expressions, event handlers, etc. It parses the binding expressions if any. The result of this compiling is cached so none of the above needs to be repeated.
 
 * [The Road to Ember 2.0](https://github.com/emberjs/rfcs/pull/15)
+* [HTMLBars - A feature-by-feature review](http://colintoh.com/blog/htmlbars)
+* [How is HTMLBars better](http://voidcanvas.com/what-is-htmlbars-and-how-its-better-than-handlebars/)
 
 Route map to Component which is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
 

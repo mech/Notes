@@ -41,6 +41,8 @@
 * [Fearless animation](http://blog.hassle.com/fearless-animations-moving-users-with-motion/)
 * [Physics animation](http://iamralpht.github.io/physics/)
 * [Animating the DOM](http://flipstewart.com/2014/09/13/animating-the-dom/)
+* [Provide meaning with motion](http://paulstamatiou.com/design-provide-meaning-with-motion/)
+* [Authentic motion](http://www.google.com/design/spec/animation/authentic-motion.html)
 
 ---
 

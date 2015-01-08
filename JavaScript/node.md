@@ -11,6 +11,15 @@ npm uninstall -global bower
 npm install backbone@1.0.0
 ```
 
+## REST API
+
+* [hapi](http://hapijs.com/)
+* [Restify](http://mcavage.me/node-restify/)
+
+## Videos
+
+* [Node.js Explained](https://www.youtube.com/watch?v=L0pjVcIsU6A)
+* [Popular Node.js videos](https://www.youtube.com/watch?v=L0pjVcIsU6A&list=PLzcWWgym9opPQjnjDd_5YRofkuoIeEcAJ&__hstc=156224036.ce3710911246da0c4b788ec512fe30e1.1420537088027.1420537088027.1420537088027.1&__hssc=156224036.1.1420537088027&__hsfp=3461592922)
 
 ## Reading
 

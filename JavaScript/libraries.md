@@ -1,5 +1,6 @@
 # Useful Libraries
 
+* [**Libscore**](http://libscore.com/)
 * [Create tags on image](http://timseverien.nl/projects/taggd/)
 * [Track JavaScript errors](http://beta.trackets.com/)
 * [Scroll saver](http://en.hasheminezhad.com/scrollsaver)

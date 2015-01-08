@@ -44,6 +44,36 @@ FitAgent, Fit4Hire, FitSense
 * Have data-structure to track verified NRIC, email, mobile phone (for SMS sending), etc.
 * With each SMS being sent, we constantly see if the number is clean or not. Cross-associated SMS sent with the client/CA etc.
 * Code Memo. Rules, etc. See MaxQDA. Code CA's resume? Like Medium website comment where you select/highlight chunk of text and mark it or comment on it.
+* Separate cron jobs to a git **branch** and then deploy the cron jobs into another machine, different from the main operation machine.
+* [Stiffer hiring checks to ensure right fit](http://news.asiaone.com/news/business/stiffer-hiring-checks-ensure-right-fit)
+* [HireRight](http://www.hireright.com/)
+
+```
+/cc @simon, @mech, @amy
+```
+
+Data analysis -> Break into group -> Targeted marketing (marketing as in the sense of value awareness)
+
+## Redis
+
+For payslip, past timesheet, anything that involved past records, we tried to cache it at the Redis level for fast access or just to make FileMaker less load.
+
+Even if we nuke the Redis, we can still populate it upon as people request the resources.
+
+## SMS
+
+Our current SMS reply is not scalable with `Reply 'JL @35845' followed by your message to 8100382`. We should use `@r1` or `@m1` to represent recruit1 and msd1 and then link the phone number to form a nice conversation flow.
+
+Track how many SMS being sent per day, then we can make more decision on usage:
+
+```
+SmsMessage.where(created_at: Date.new(2014,11,21).beginning_of_day .. Date.new(2014,11,21).end_of_day).count
+```
+
+Support for Emoji needs utf8mb4. Or just use Postgres.
+
+* [Rails 4.1 and MySQL 5.5 support utf8mb4](http://tech.taskrabbit.com/blog/2014/04/24/active-record-mysql-and-emoji/)
+* [Unicode support in MySQL is...](http://www.codeka.com.au/blog/2014/02/unicode-support-in-mysql-is--)
 
 ## Pub/Sub
 
@@ -54,6 +84,11 @@ Publish conclusion.
 ## PDF
 
 * [jsPDF](https://parall.ax/products/jspdf)
+
+## Email
+
+* [POP in iPhone](http://support.apple.com/en-sg/HT201855)
+* [POP vs IMAP](http://www.pop2imap.com/)
 
 ## Account Management
 
