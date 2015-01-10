@@ -8,6 +8,9 @@
 * [calc() for grids](http://webdesign.tutsplus.com/tutorials/calc-grids-are-the-best-grids--cms-22902)
 * [`object-fit`](http://demosthenes.info/blog/967/The-Widescreen-Web-Using-CSS-object-fit)
 * [Fixed header/footer with dynamic heights and scrollable content](https://news.layervault.com/stories/40715-fixed-header-and-footer-with-dynamic-heights-and-scrollable-content)
+* [3D curtain template](http://codyhouse.co/gem/3d-curtain-template/)
+* [Float elements with a consistent gutter width and make them drop to next row automatically with cycle](http://corysimmons.github.io/elf/)
+* [Golden ratio is actually real?](http://www.designyourway.net/blog/inspiration/using-golden-ratio-in-web-design-is-not-ludicrous-its-actually-ideal/)
 
 ## Example
 
@@ -186,6 +189,8 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 
 Separate it into layout-object and content-object.
 
+* [**Flexbugs - List of flexbox issues and workarounds**](https://github.com/philipwalton/flexbugs)
+* [Normalizing cross-browser flexbox bugs](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
 * [Flexbox cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
 * [Solved by flexbox](http://philipwalton.github.io/solved-by-flexbox/)
 * [Flexbox adventures](http://chriswrightdesign.com/experiments/flexbox-adventures/)

@@ -29,6 +29,7 @@
 * [Hard to find good programmer](http://www.newyorker.com/magazine/2014/11/24/programmers-price)
 * [Shit Recruiters Say](http://shit-recruiters-say.tumblr.com/)
 * [It's a recruiter's job to deal with candidates](http://www.recruitingblogs.com/profiles/blogs/it-s-a-recruiter-s-job-to-deal-with-candidates-and-put-up-with)
+* [Why job seekers don't stand out](http://authenticff.com/journal/one-of-many-why-job-seekers-dont-stand-out)
 
 ## Map
 

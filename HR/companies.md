@@ -44,6 +44,7 @@ Notable companies in HR domain.
 
 * [Careerjet](http://www.careerjet.sg/)
 * [techjobsin.london](http://www.techjobsin.london/)
+* [Unicorn Hunt](https://unicornhunt.io/)
 
 ## Startup
 

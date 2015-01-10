@@ -43,6 +43,7 @@
 * [Animating the DOM](http://flipstewart.com/2014/09/13/animating-the-dom/)
 * [Provide meaning with motion](http://paulstamatiou.com/design-provide-meaning-with-motion/)
 * [Authentic motion](http://www.google.com/design/spec/animation/authentic-motion.html)
+* [Hardware accelerated CSS: The nice vs the naughty](http://calendar.perfplanet.com/2014/hardware-accelerated-css-the-nice-vs-the-naughty/)
 
 ---
 
@@ -77,6 +78,7 @@
 * [Some nice animation examples](http://varun.ca/the-core/)
 * [CSS pickup](http://cloudcannon.com/deconstructions/2014/12/19/css-truck-deconstruction.html)
 * [Animated headlines](http://codyhouse.co/demo/animated-headlines/)
+* [Text input effect](http://tympanus.net/Development/TextInputEffects/)
 
 
 ## Famo.us

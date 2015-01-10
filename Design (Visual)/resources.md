@@ -33,6 +33,7 @@
 * [Colors are important](https://medium.com/design-with-gravit/colors-are-important-5313b1bed59c)
 * [Tints, tones, and shades](http://viget.com/inspire/tints-tones-shades)
 * [How do you present a color palette](https://news.layervault.com/stories/38755-how-do-you-present-a-color-pallette)
+* [Material UI Colors](http://www.materialui.co/colors)
 
 ## Icon
 

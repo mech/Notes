@@ -16,6 +16,7 @@ Know your content structure!
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
 * [Flakes - Design and Frontend framework](http://getflakes.com/index.html)
+* [Sass Guideline](http://sass-guidelin.es/)
 * [**IBM Design Language**](http://www.ibm.com/design/language/)
 * [Skyline - Evolving CSS Architecture](http://skyline.is/)
 * [**Style Guide Resources**](http://styleguides.io/)

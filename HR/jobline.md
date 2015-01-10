@@ -47,6 +47,8 @@ FitAgent, Fit4Hire, FitSense
 * Separate cron jobs to a git **branch** and then deploy the cron jobs into another machine, different from the main operation machine.
 * [Stiffer hiring checks to ensure right fit](http://news.asiaone.com/news/business/stiffer-hiring-checks-ensure-right-fit)
 * [HireRight](http://www.hireright.com/)
+* [See this login ideas](http://blog.codinghorror.com/the-god-login/)
+* [The common password project](http://thepasswordproject.com/)
 
 ```
 /cc @simon, @mech, @amy
@@ -59,6 +61,12 @@ Data analysis -> Break into group -> Targeted marketing (marketing as in the sen
 For payslip, past timesheet, anything that involved past records, we tried to cache it at the Redis level for fast access or just to make FileMaker less load.
 
 Even if we nuke the Redis, we can still populate it upon as people request the resources.
+
+We can key the payslip quarter by quarter. So we pulled down 3 months worth of payslip and it's JSON representation to the Redis server and never has to bother asking FM again.
+
+## Storage
+
+Make use of Amazon S3 as much as possible. For simple invoice file caching, or resume caching, we can use S3, etc.
 
 ## SMS
 

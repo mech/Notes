@@ -21,6 +21,7 @@
 * [Responsive tabbed navigation](http://codyhouse.co/gem/responsive-tabbed-navigation/)
 * [Mobile app introduction template](http://codyhouse.co/gem/app-introduction-template/)
 * [Pull](http://codepen.io/fbrz/full/bNdMwZ/)
+* [Nice button challenge](https://news.layervault.com/stories/41631-css-challenge-how-would-you-markup-this-element)
 
 ```
 /* do nothing when clicked even through JavaScript */

@@ -1,6 +1,9 @@
 # Resources
 
 * [Design Essential from GitHub](https://github.com/showcases/design-essentials)
+* [**2014 CSS report card**](http://reports.quickleft.com/css)
+* [How to perform a CSS Audit](http://quickleft.com/blog/how-to-perform-a-css-audit-stylesheets-don-t-have-to-be-awful)
+* [CSS3/Best Practices Part 1](http://quickleft.com/blog/css3-best-practices-part-1)
 * [**2014 favorite Codrops**](http://tympanus.net/codrops2014/)
 * [**Myth - Post-processor**](http://www.myth.io/)
 * [Crazy CSS](http://give-n-go.co/)
@@ -38,6 +41,7 @@
 * [How to understand CSS stats](http://webdesign.tutsplus.com/tutorials/understanding-css-stats-how-to-make-the-most-of-the-numbers--cms-22756)
 * [Designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/)
 * [Typesettings?](http://mikemai.net/typesettings/index.html)
+* [Important @font-face fast loading technique](http://www.filamentgroup.com/lab/font-loading.html)
 
 ## line-height
 

@@ -5,6 +5,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [**Pixel Fitting**](https://www.youtube.com/watch?v=wSLW4K2ON4s)
 * [**Pixel Fitting**](http://dcurt.is/pixel-fitting)
 * [Discovering Sketch](https://medium.com/@jm_denis/discovering-sketch-25545f6cb161)
+* [Dealing with half pixels](https://medium.com/@dmiiiitri/fixing-icons-for-medium-8939ae05db85)
 * [Design with Sketch](https://medium.com/design-with-sketch/design-with-sketch-92608a88c103)
 * [Documentation RTFM](http://bohemiancoding.com/sketch/support/documentation/)
 * [**Bjango's App Design Workflow (Mostly Photoshop)**](http://bjango.com/articles/appdesignworkflow/#)
