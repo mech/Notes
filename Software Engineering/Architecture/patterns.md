@@ -6,7 +6,7 @@
 * **Pipeline architecture** - Pipe and filter. Pipe is one-way, uni-directional only. Point-to-point for high performance. Filter is self-contained and independent and perform one single, very specific task. "producer", "transformer", "tester", and "consumer" filter. Not the same as event-driven architecture! EDA is asynchronous, but pipe is synchronous.
 * **Microkernel architecture** - Plug-in module added to the core system. Eclipse IDE is the perfect example. Another example is the Claims Processing as the core system and plug-in country module.
 * **Space-based architecture** - Database cannot scale out linearly like web-server or app-server. Really really expensive using cloud-based infrastructure.
-* [Microservice - 72 resources](http://blog.arkency.com/2014/07/microservices-72-resources/)
+
 
 https://dl.dropboxusercontent.com/u/6815194/Notes/SOA.png
 
@@ -22,6 +22,17 @@ Semantic interface, anti-corruption in DDD. Mostly at persistence layer.
 * Software patterns - OOP and Design
 * Software framework - Rails and Ember.js
 * Software architecture - Brain ++
+
+## Microservices
+
+Disruptor: Continuous Delivery with Containerized Microservices.
+
+Microservices - Loosely coupled service oriented architecture with bounded contexts.
+
+* [Microservice - 72 resources](http://blog.arkency.com/2014/07/microservices-72-resources/)
+* [Cloud trends - Adrian Cockcroft](https://www.youtube.com/watch?v=VaFktjlLp5M)
+* [State of the Art in Microservices by Adrian Cockcroft](https://www.youtube.com/watch?v=nMTaS07i3jk)
+
 
 ## Design Patterns
 

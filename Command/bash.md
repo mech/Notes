@@ -41,6 +41,7 @@ history -c       # Clear history
 tree folder -d
 pwd -P # true full path
 grep root /etc/* # Check every files that contain the word root
+df -h # Disk usage
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.

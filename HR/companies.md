@@ -31,6 +31,8 @@ Notable companies in HR domain.
 * [Local cloud HR](http://www.globalhrcloud.com/)
 * [BetterWorks](http://www.betterworks.com/)
 * [remoteinterview.io](https://www.remoteinterview.io/)
+* [A very big UK payroll company - Sage](http://www.sage.co.uk/)
+* [VMS?](http://www.taulia.com/en/products/supplier-information-management)
 
 ## Executive Search
 
