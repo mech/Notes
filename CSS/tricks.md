@@ -22,6 +22,8 @@
 * [Mobile app introduction template](http://codyhouse.co/gem/app-introduction-template/)
 * [Pull](http://codepen.io/fbrz/full/bNdMwZ/)
 * [Nice button challenge](https://news.layervault.com/stories/41631-css-challenge-how-would-you-markup-this-element)
+* [CSS challenge](https://news.layervault.com/stories/41990-css-challenge-2-how-would-you-markup-this-element)
+* [Auto-hide sticky header](http://osvaldas.info/auto-hide-sticky-header)
 
 ```
 /* do nothing when clicked even through JavaScript */

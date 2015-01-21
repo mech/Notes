@@ -4,6 +4,8 @@ It's not about the product, it's about your users.
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [**Bringing Design to Software**](http://hci.stanford.edu/publications/bds/)
+* [**Design the user, not the experience**](https://userbrain.net/blog/design-the-user)
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)
 * [Don't give your user shit work](http://zachholman.com/posts/shit-work/)
 * [Designing the next generation](http://timothyachumba.com/blog/designing-the-next-generation)
@@ -71,6 +73,7 @@ It's not about the product, it's about your users.
 * [**5 most common mistakes in design**](https://medium.com/the-year-of-the-looking-glass/the-5-most-common-mistakes-in-design-52816ab77b3d)
 * [Best tools for designers](http://www.producthunt.com/saijo_george/collections/best-tools-for-designers)
 * [How to design for everybody](https://medium.com/@rachelhaot/how-to-design-for-everybody-4b2870724c4)
+* [Personas](https://medium.com/@mikeybrand/personas-f563f8ac087a)
 
 ## Research
 
@@ -78,6 +81,7 @@ User research == Customer development
 
 * [Does research make design better?](http://www.dtelepathy.com/blog/design/does-research-make-design-better)
 * [An evolving map of design practice and design research](http://www.dubberly.com/articles/an-evolving-map-of-design-practice-and-design-research.html)
+* [Ethnographic Research](http://robots.thoughtbot.com/ethnographic-research-exercise)
 
 ## Product Design
 

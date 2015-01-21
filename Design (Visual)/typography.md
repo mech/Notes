@@ -2,6 +2,7 @@
 
 * [**Practical Typography**](http://practicaltypography.com/)
 * [**Free Alternatives**](http://www.typewolf.com/free-alternatives)
+* [**Popular fonts in 2014**](http://www.typewolf.com/blog/most-popular-fonts-of-2014)
 * [Type Genius - Find the perfect font combo](http://www.typegenius.com/)
 * [Typographer typefaces](http://blog.8faces.com/post/103548341771/typographers-typefaces)
 * [Lettering Gear](http://tumblr.ryanhamrick.com/post/50012569117/lettering-gear-a-quick-guide-to-get-started)
@@ -48,6 +49,7 @@
 * [A short and sweet interactive introduction to typography](http://imwillryan.com/typefun01/)
 * [Font pairing](http://www.newmediacampaigns.com/blog/resources-for-font-pairing-typography-inspiration)
 * [The State of Web Type](http://stateofwebtype.com/)
+* [Font Pair for Google fonts](http://fontpair.co/)
 
 ```
 // New for Firefox 25

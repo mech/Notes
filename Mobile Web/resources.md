@@ -29,6 +29,7 @@
 * [Inspect your device](http://mydevice.io/)
 * [**WTF Mobile Web**](http://wtfmobileweb.com/)
 * [How to write mobile-first CSS](http://www.zell-weekeat.com/how-to-write-mobile-first-css/)
+* [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
 
 ## List of screen resolution
 
@@ -174,6 +175,7 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
 
 * [Figuring responsive images](http://css-tricks.com/video-screencasts/133-figuring-responsive-images/)
 * [Responsive images in practice](http://alistapart.com/article/responsive-images-in-practice)
+* [Adaptive Images](http://adaptive-images.com/)
 
 ## Favicon
 

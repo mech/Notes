@@ -8,6 +8,7 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [**Stop changing UI for no good reason**](https://lobste.rs/s/kiq75p/stop_changing_uis_for_no_good_reason)
 * [**UX UI**](http://designmodo.com/ux-ui/)
 * [**Google's quest to write the rulebook for interaction design**](http://www.wired.com/2014/11/googles-quest-write-rulebook-interactive-design/)
+* [**IA questions on navigation menus**](http://www.nngroup.com/articles/ia-questions-navigation-menus/)
 * [8 smartest UI design ideas](http://www.wired.com/2014/12/years-8-smartest-ui-design-ideas/)
 * [Writing-first design](https://signalvnoise.com/posts/3801-writing-first-design)
 * [Design checklist fir IxD](https://medium.com/@tinkadoic/design-checklist-for-ixd-students-419dbbe1c1d3)
@@ -81,6 +82,8 @@ There is no intuitive interface, just "easy-to-learn" interface.
 
 * [Introduction to Material Design](http://marketblog.envato.com/trends/introduction-material-design/)
 * [How to not freak out about Material Design](https://medium.com/@xXxXxXxXxXam/how-to-not-freak-out-about-material-design-33cec7381b80)
+* [We are living in a material world](http://blog.trello.com/we-are-living-in-a-material-world-and-i-am-a-material-girl/)
+* [Please stop using material design](http://mintran.com/please-stop-using-material-design/)
 
 ## Sound UI
 

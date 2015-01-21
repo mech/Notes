@@ -74,6 +74,10 @@ Something to break the ICE:
 * Stay in sketch mode, much longer than you think. Longer than you're probably used to. As soon as you go into Photoshop you're slowing yourself down and walling yourself off. In the beginning of the process, when **alignment** and problem solving are paramount, you need to stay in sketch mode as long as possible.
 * Tons of artboards and layers, but no clear story or point of view. No pitch.
 
+## Jobs to be done (JTDB)
+
+* [Converting to Jobs stories](http://robots.thoughtbot.com/converting-to-jobs-stories)
+
 ## Prototyping
 
 * [The PRD is dead, long live the prototype!](http://zurb.com/article/1331/the-prd-is-dead-long-live-the-prototype)

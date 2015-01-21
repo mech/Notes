@@ -391,7 +391,18 @@ Use https://github.com/jimbojsb/launchrocket at the PreferencePane.
     update users set email=CONCAT("jlxyz_", email) where type='Employer';
     
     mongorestore --db jobline_dev --drop ~/Desktop/mongodb_bak_with_timestamp/jobline_pro
-    
+
+You can also change MySQL root password using:
+
+```
+UPDATE mysql.user SET Password=PASSWORD('XXX') WHERE User='root';
+FLUSH PRIVILEGES;
+DROP USER ''@'db1';
+DROP USER ''@'localhost';
+
+mysql -h $HOST -u $USERNAME --password=$PASSWORD $DB_NAME
+```
+
 # FileMaker and VMWare Fusion
 
 * [Change VMWare Fusion 6 NAT IP space](https://coderwall.com/p/mjbryq)

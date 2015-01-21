@@ -42,6 +42,8 @@ tree folder -d
 pwd -P # true full path
 grep root /etc/* # Check every files that contain the word root
 df -h # Disk usage
+< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c12 | xargs echo
+grep -v // !$ | grep -v ^$ # Clean out comment
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.
@@ -137,6 +139,7 @@ IPADDR=58.xx.xx.xx
 Then bring the interface up using `sudo ifup eth0:1`
 
 ```
+netstat -tnl
 less /etc/services
 sudo netstat -anlp
 sudo fuser 22/tcp # To see which application is using which port

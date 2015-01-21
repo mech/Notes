@@ -1,6 +1,7 @@
 # Vim
 
 * [Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
+* [Vim customised to be like SublimeText](https://github.com/subvim/subvim)
 
 ```
 v   # Visual mode

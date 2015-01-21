@@ -48,6 +48,8 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [10 tips](http://blog.uxpin.com/5951/10-best-practices-sketch/)
 * [Design a to-do app icon](http://airwalk-design.com/?cat=tutorials&inc=1744&stick=design-a-todo-list-app-icon-with-sketch-3)
 * [Photoshop extensions for frontend developers](http://vilcins.lv/blog/2015/Photoshop-extensions-for-frontend-developers/)
+* [Prototyping with Sketch](http://blog.invisionapp.com/11-tips-for-prototyping-with-sketch/)
+* [An index of the most useful resources for Sketch](http://sketch.land/index.html)
 
 ## Tutorials
 

@@ -32,6 +32,8 @@
 * [DevTools Tips](http://devtoolstips.com/)
 * [Tools for static websites](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
 * [Andy Hall](http://andyhall.github.io/)
+* [A beginning guide to website speed optimization](https://kinsta.com/learn/page-speed/)
+* [5 ways to use Google Analytics](http://www.sitepoint.com/5-ways-use-google-analytics-ux-research/)
 
 ## Offline-first
 

@@ -11,6 +11,8 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [Microservice?](http://www.infoq.com/news/2014/05/nano-services)
 * [Scalable Internet Architectures](http://www.infoq.com/presentations/Scalable-Internet-Architectures)
 * [**HTTPie**](https://github.com/jakubroztocil/httpie)
+* [**resty**](https://github.com/micha/resty)
+* [**jq**](http://stedolan.github.io/jq/)
 * [RESTful API design](http://restful-api-design.readthedocs.org/en/latest/)
 * [Hypermedia APIs the new wild west](http://decomplecting.org/blog/2012/05/30/hypermedia-apis-the-new-wild-west/)
 * [Roar and Representable - Strange API libraries](https://github.com/apotonick/roar)
@@ -26,6 +28,7 @@ JSONP is just a hack to bypass.
 * [The Same-Origin Saga](https://vimeo.com/54121245)
 * [Origin policy enforcement in modern browser](https://www.youtube.com/watch?v=PbvxtMCUG8U)
 * [HTTP Strict Transport Security](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security)
+* [Enable CORS](http://enable-cors.org/)
 
 ## API Testing (TDD)
 

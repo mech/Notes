@@ -42,6 +42,7 @@
 * [Designer's guide to DPI](http://sebastien-gabriel.com/designers-guide-to-dpi/)
 * [Typesettings?](http://mikemai.net/typesettings/index.html)
 * [Important @font-face fast loading technique](http://www.filamentgroup.com/lab/font-loading.html)
+* [Keeping specificity low](http://css-tricks.com/strategies-keeping-css-specificity-low/)
 
 ## line-height
 

@@ -6,6 +6,7 @@
 * [The web animation you have always wanted](http://alexjray.com/post/the_web_animations_you_have_always_wanted/)
 * [**Foundation for App - Motion UI is the new flat**](http://zurb.com/article/1340/foundation-for-apps-motion-ui-is-the-new-)
 * [**Codrops playground**](http://tympanus.net/codrops/category/playground/)
+* [**Using motion for UX on apps and websites**](http://www.smashingmagazine.com/2015/01/19/using-motion-for-ux-on-apps-and-websites/)
 * [CSS core animation skills](http://demosthenes.info/blog/966/CSS-Core-Animation-Skills-Gravity-Squash-and-Stretch)
 * [The 12 principles of animation](http://the12principles.tumblr.com/)
 * [Interaction ProTip](http://aerotwist.com/tutorials/)

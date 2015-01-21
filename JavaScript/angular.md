@@ -7,6 +7,9 @@ Angular 2.0 favors class-based designs with annotations as metadata.
 * [Design doc for Angular 2.0](https://drive.google.com/drive/#folders/0B7Ovm8bUYiUDR29iSkEyMk5pVUk)
 * [Preparing for the future of Angular.js](https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs)
 * [Angular Resources](https://github.com/JonathanZWhite/AngularJS-Resources)
+* [The problem with Angular](http://www.quirksmode.org/blog/archives/2015/01/the_problem_wit.html)
+* [What's wrong with Angular.js](https://medium.com/este-js-framework/whats-wrong-with-angular-js-97b0a787f903)
+* [You have ruined JavaScript](http://codeofrob.com/entries/you-have-ruined-javascript.html)
 
 # Angular 1.0
 

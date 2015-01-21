@@ -95,6 +95,7 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 
 ## Job Board
 
+* [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job/)
 * [How to interpret ridiculous web design job posts](http://blog.teamtreehouse.com/how-to-interpret-ridiculous-web-design-job-posts)
 * [List of job boards](http://oozled.com/resources/job-boards)
 * Company Ethos
@@ -104,6 +105,7 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 * Job listings distribution channels
 * Have an "Editorial Team" to craft compelling posts
 * [Remote jobs sites](https://news.layervault.com/stories/36437-ask-dn-remote-jobs-sites)
+* [Weekly Design Jobs](http://weeklydesignjobs.com/)
 
 ## Salary
 

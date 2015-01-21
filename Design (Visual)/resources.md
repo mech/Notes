@@ -9,6 +9,8 @@
 * [Design graphics](http://nathanbarry.com/design-graphics-blog-posts/)
 * [Design History](http://www.vanseodesign.com/web-design/design-history/)
 * [Classic design books](https://news.layervault.com/stories/39986-classic-design-books)
+* [Mood lines?](http://www.zevendesign.com/mood-lines-giving-designs-attitude/)
+* [25 epic design tips](http://designschool.canva.com/blog/graphic-design-tips-non-designers/)
 
 ## Videos
 
@@ -34,6 +36,8 @@
 * [Tints, tones, and shades](http://viget.com/inspire/tints-tones-shades)
 * [How do you present a color palette](https://news.layervault.com/stories/38755-how-do-you-present-a-color-pallette)
 * [Material UI Colors](http://www.materialui.co/colors)
+* [Flat UI colors](http://flatuicolors.co/)
+* [Flat UI colors 2](http://flatuicolors.com/)
 
 ## Icon
 

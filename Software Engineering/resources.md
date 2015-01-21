@@ -1,5 +1,6 @@
 # Resources
 
+* [**Dev Freecasts**](http://devfreecasts.org/)
 * [**Structure 101**](http://structure101.com/)
 * [VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 * [Quickly learn X programming language](http://learnxinyminutes.com/)

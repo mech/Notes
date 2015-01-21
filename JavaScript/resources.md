@@ -2,6 +2,7 @@
 
 JavaScript dynamic duo (static type is overrated):
 
+* [**ES6 Learning**](https://github.com/ericdouglas/ES6-Learning)
 * [ES Discuss](http://esdiscuss.org/)
 * Loose typing
 * Object extension

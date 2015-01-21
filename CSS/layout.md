@@ -11,6 +11,8 @@
 * [3D curtain template](http://codyhouse.co/gem/3d-curtain-template/)
 * [Float elements with a consistent gutter width and make them drop to next row automatically with cycle](http://corysimmons.github.io/elf/)
 * [Golden ratio is actually real?](http://www.designyourway.net/blog/inspiration/using-golden-ratio-in-web-design-is-not-ludicrous-its-actually-ideal/)
+* [Content filter UI example](http://codyhouse.co/gem/content-filter/)
+* [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
 
 ## Example
 

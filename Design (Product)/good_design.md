@@ -37,6 +37,7 @@
 * [Arrogance and confidence in design - Generate Conference](https://www.youtube.com/watch?v=ngQnoBWsFfc)
 * [Good talks about design](https://news.layervault.com/stories/25939-ask-dn-good-talks-about-design)
 * [The Creative Class](http://thecreativeclass.tv/)
+* [Designers Watch](http://designers.watch/)
 
 ---
 1. **Good design is simple.** When you're forced to be simple, you're forced to face the real problem. When you can't deliver ornament, you have to deliver substance.
