@@ -13,6 +13,7 @@ ES6 Module specification has 2 things:
 
 Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 
+* [**6to5**](http://6to5.org/)
 * [**Understanding ES6**](https://leanpub.com/understandinges6/read)
 * [Using Grunt and the ES6 Module Transpiler](http://www.thomasboyt.com/2013/06/21/es6-module-transpiler)
 * [Square's ES6 module transpiler](https://github.com/square/es6-module-transpiler)

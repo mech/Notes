@@ -8,6 +8,7 @@ It's not about the product, it's about your users.
 * [**Design the user, not the experience**](https://userbrain.net/blog/design-the-user)
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)
 * [Don't give your user shit work](http://zachholman.com/posts/shit-work/)
+* [**Facebook UX master offers some must-reads**](http://ideas.ted.com/2015/01/20/want-to-dig-into-design-facebooks-ux-master-offers-some-must-reads/)
 * [Designing the next generation](http://timothyachumba.com/blog/designing-the-next-generation)
 * [**How to make a hit app**](https://www.youtube.com/watch?v=l0HewTsU2_w)
 * [Discussing the future of design](https://medium.com/@kaihuang/discussing-the-future-of-design-1a933eb9f98a)

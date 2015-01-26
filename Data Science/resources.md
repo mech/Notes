@@ -1,5 +1,7 @@
 # Resources
 
+* [Command line tools can be 235x faster than your Hadoop cluster](http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+
 You generate business value when your code is running, not when it is written. So running code with metrics is all that matters.
 
 * [ThoughtSpot](http://www.thoughtspot.com/)

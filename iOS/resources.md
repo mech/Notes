@@ -14,6 +14,7 @@
 * [Subscription model - Pricing!](http://latticelabs.com/blog/2013/09/premium-freemium-subscription/)
 * [iOS 8 explained](http://www.imore.com/extensibility-ios-8-explained)
 * [Prompting for app reviews](https://medium.com/@dancounsell/prompting-for-app-reviews-97d9e78dd5fd)
+* [**How to make an App Preview**](https://www.snappymob.com/blog/2015-01-16-how-to-make-an-app-preview/)
 * [Swipe to peep](http://itchingpixels.com/anatomy-of-a-touch-interaction-swipe-to-peep/)
 * [iPhone 6 screens demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * [Curious case of iPhone 6+](https://medium.com/@brucewangsg/the-curious-case-of-iphone-6-1080p-display-b33dac5bbcb6)
@@ -30,6 +31,7 @@
 * [iOS design tips](http://ramotion.github.io/iOS-design-tips/)
 * [Photo Swipe](http://photoswipe.com/)
 * [Chinese mobile app UI trends](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html)
+* [Auto layout for iOS projects](http://www.mangrove.com/en/journal/2015-01-21-auto-layout-for-existing-ios-projects/)
 
 ## Animation
 

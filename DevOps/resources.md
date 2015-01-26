@@ -2,6 +2,7 @@
 
 * [Empathy: The essence of DevOps](http://blog.ingineering.it/post/72964480807/empathy-the-essence-of-devops)
 * [Google engineer accidentally shares his internal memo about Google platform](http://siliconangle.com/furrier/2011/10/12/google-engineer-accidently-shares-his-internal-memo-about-google-platform/)
+* [11 costly website crashes](http://blog.smartbear.com/web-performance/11-costly-website-crashes-application-performance-bloopers/?imm_mid=0cb5e9&cmp=em-webops-na-na-newsltr_20150123)
 
 Gradual rollout, dark launching
 
@@ -19,3 +20,7 @@ Build product, not projects (see Amazon case study)
 Transaction vs Eventual consistency.
 
 Each service has it's own database. StarBuck don't do 2-phase commit.
+
+## People
+
+* [Tom Hayden](http://tomhayden3.com/)

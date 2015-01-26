@@ -35,6 +35,7 @@
 * [Sloppy UI](http://sloppyui.tumblr.com/)
 * [Design is Kinky](http://designiskinky.net/)
 * [404 sites](http://404sites.tumblr.com/)
+* [User Flow Patterns](http://userflowpatterns.com/)
 
 ---
 

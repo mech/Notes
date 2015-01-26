@@ -13,6 +13,7 @@ Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
 * [Git Immersion by Neo](http://gitimmersion.com/)
 * [Git the safety net](http://alistapart.com/article/git-the-safety-net-for-your-projects)
 * [Atlassian's Git Guide](https://www.atlassian.com/git/)
+* [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ```
 git add -u

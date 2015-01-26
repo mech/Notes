@@ -2,11 +2,41 @@
 
 **You can have the best process, but if you content sucks, it will not save the company.**
 
+Things that help you to remember when you start to design:
+
+1. User Story Map
+2. User Onboard (useronboard.com)
+3. Jobs-to-be-done (JTBD)
+4. Prototyping - Prototyping as fast, as dirty, as rapidly as possible (Ideo)
+5. Design sprint
+6. Iterative
+7. Prioritize
+8. Set boundaries (Bounded Context?)
+9. Bring structure to where it was lacking
+10. Design system, not pages (Pattern libraries, Atomic Design)
+11. Don't sell technology, sell solution
+12. Know your Value Proposition. Make it compelling. Build trust.
+
 > Imagine. Implement. Iterate. Improve.
+
+---
+> "It was a couple of very simple insights, when you get down to it, that drove how the thing would behave," Yurchenco says. "And that determined how you’d design it."
+
+---
+> "If our design is allowing them to do something wrong, it’s not their fault. It’s our fault"
+
+---
+> "When I was first learning about injection molding, I'd go hang around a tooling shop and ask questions," he says. “And they'd have some language to describe what they were doing, and they'd tell me how they were doing it. And I'd go into another shop, and there'd be a little twist on it. They'd have a different language and a different way of doing it. And I'd go into a third shop, and it was the same thing. They're all ending up with the same result in the end, which is an injection mold. But they’re getting there in different ways. And by constantly asking the same questions over and over again, I learned a heck of a lot about injection molding, to the point where I know a lot more than most of these toolers do. Cause I've been to 300 shops and seen 300 ways of doing it. And the more you know how to make things, the better designer you're going to be."
+
+---
+> No decision might seem better than a bad one, but at least with a bad decision we’ve learned something.
+
+> If you’re a leader of a team, empower your designers (and your entire team, really) to make these hard decisions and to own the consequences. As much as indecision can damage a project or team, so can constantly asking for permission.
 
 * [Building habits](http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product)
 * [**IDEO Design Kit**](http://www.designkit.org/methods)
 * [Mark Boulton Design - How we work](http://markboulton.co.uk/journal/how-we-work)
+* [**Iterative sketching**](http://atendesigngroup.com/blog/iterative-sketching)
 * [Using questionnaires for design research](http://24ways.org/2012/using-questionnaires-for-design-research/)
 * [Prismatic and teehan+lax](http://www.teehanlax.com/story/prismatic/)
 * [Slack design by Metalab - Always look back and learn](http://metalabdesign.com/projects/slack/)
@@ -110,6 +140,7 @@ Something to break the ICE:
 * [8 shortcuts for faster design research](http://www.gv.com/lib/8-shortcuts-for-better-faster-design-research)
 * [Design Sprint Case Study](http://robots.thoughtbot.com/design-sprint-case-study-merck-development-portal)
 * [Merck design sprint](http://robots.thoughtbot.com/merck-design-sprint-part-deux)
+* [Design sprint for real estate website](https://medium.com/@loucaspapa/design-sprint-for-a-real-estate-website-1f720ad8d88b)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

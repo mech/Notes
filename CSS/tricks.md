@@ -24,6 +24,7 @@
 * [Nice button challenge](https://news.layervault.com/stories/41631-css-challenge-how-would-you-markup-this-element)
 * [CSS challenge](https://news.layervault.com/stories/41990-css-challenge-2-how-would-you-markup-this-element)
 * [Auto-hide sticky header](http://osvaldas.info/auto-hide-sticky-header)
+* [`object-fit: cover`](https://medium.com/@chrisnager/center-and-crop-images-with-a-single-line-of-css-ad140d5b4a87)
 
 ```
 /* do nothing when clicked even through JavaScript */

@@ -124,6 +124,11 @@ writeFile('file.txt', 'content!')
   });
 ```
 
+## CSP - Communicating Sequential Processes
+
+* [Taming the Asynchronous Beast with CSP Channels in JavaScript](http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript)
+* [js-csp](https://github.com/ubolonton/js-csp)
+
 ## Functional Reactive Programming
 
 Imperative - OOP

@@ -41,6 +41,11 @@ markAsInserted: function() {
   this.set('inserted', true);}.on('didInsertElement');
 ```
 
+## FastBoot
+
+* [Inside FastBoot: The road to server-side rendering](http://emberjs.com/blog/2014/12/22/inside-fastboot-the-road-to-server-side-rendering.html)
+* [Where is FastBoot?](http://discuss.emberjs.com/t/where-is-fast-boot/3636)
+
 
 # Ember 1.0
 

@@ -49,6 +49,7 @@
 * [Prototyping with Framer.js](http://blog.tackmobile.com/article/prototyping-framer-js/)
 * [Tumblr examples](http://framerjs.tumblr.com/)
 * [Creating your first prototype with Framer](https://medium.com/@kennycheny/creating-your-first-prototype-with-framer-c39221da7668)
+* [Framer Vimeo channel](https://vimeo.com/channels/framer)
 
 ## After Effect
 

@@ -49,6 +49,7 @@ FitAgent, Fit4Hire, FitSense
 * [HireRight](http://www.hireright.com/)
 * [See this login ideas](http://blog.codinghorror.com/the-god-login/)
 * [The common password project](http://thepasswordproject.com/)
+* [Create and share polls](https://github.com/daryl/qstn)
 
 ```
 /cc @simon, @mech, @amy
@@ -80,6 +81,7 @@ SmsMessage.where(created_at: Date.new(2014,11,21).beginning_of_day .. Date.new(2
 
 Support for Emoji needs utf8mb4. Or just use Postgres.
 
+* If failed to send SMS, notify also the consultant so they can act on it, rather than email only to IT for `DeliveryImpossible`
 * [Rails 4.1 and MySQL 5.5 support utf8mb4](http://tech.taskrabbit.com/blog/2014/04/24/active-record-mysql-and-emoji/)
 * [Unicode support in MySQL is...](http://www.codeka.com.au/blog/2014/02/unicode-support-in-mysql-is--)
 

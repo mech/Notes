@@ -9,6 +9,8 @@
 * [Reform - Form Object](https://github.com/apotonick/reform)
 * [money from Shopify](https://github.com/Shopify/money) - See all Shopify's open source projects at [here](http://shopify.github.io/)
 * [Simple immutable Value Objects for Ruby](https://github.com/tcrayford/values)
+* [business_time](https://github.com/bokmann/business_time)
+* [Holidays - Using YAML file](https://github.com/alexdunae/holidays)
 
 ## API wrapper gems
 

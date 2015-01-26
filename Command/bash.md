@@ -52,6 +52,10 @@ grep -v // !$ | grep -v ^$ # Clean out comment
 
 `.bash_profile` is for personal settings and variables that get execute whenever you use a remote login like SSH.
 
+## .dot
+
+* [mrmartineau](https://github.com/mrmartineau/dotfiles)
+
 ## find
 
 `find` can take a long time. `locate` is another alternative. It is quicker.

@@ -1,6 +1,7 @@
 # Animation
 
 * [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
+* [**CSS animations performance: the untold story**](http://greensock.com/css-performance)
 * [**State of animation in 2014**](http://www.smashingmagazine.com/2014/11/18/the-state-of-animation-2014/)
 * [**The Art of UI Animation**](http://markgeyer.com/pres/the-art-of-ui-animations/#/)
 * [The web animation you have always wanted](http://alexjray.com/post/the_web_animations_you_have_always_wanted/)
@@ -80,6 +81,7 @@
 * [CSS pickup](http://cloudcannon.com/deconstructions/2014/12/19/css-truck-deconstruction.html)
 * [Animated headlines](http://codyhouse.co/demo/animated-headlines/)
 * [Text input effect](http://tympanus.net/Development/TextInputEffects/)
+* [**Checkout concept**](http://tympanus.net/Development/CheckoutConcepts/sidebar.html)
 
 
 ## Famo.us

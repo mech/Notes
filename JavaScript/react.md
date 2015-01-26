@@ -34,6 +34,7 @@ What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
 
+* [**Presenting the most over-engineered blog ever - Pretty insightful**](http://jlongster.com/Presenting-The-Most-Over-Engineered-Blog-Ever)
 * [**React.js UI framework for hybrid mobile apps**](http://touchstonejs.io/)
 * [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
 * [**React: RESTful UI Rendering**](https://www.youtube.com/watch?v=IVvHPPcl2TM)
@@ -68,6 +69,10 @@ gulp.task('scripts', function() {
 });
 ```
 
+## JSX
+
+* [JSX: E4X The Good Parts](http://blog.vjeux.com/2013/javascript/jsx-e4x-the-good-parts.html)
+
 ## React Router
 
 * [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
@@ -78,6 +83,9 @@ Flux is like a game engine.
 
 * [Flocks.js](https://github.com/StoneCypher/flocks.js)
 * [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
+* [Flux for stupid people](http://blog.andrewray.me/flux-for-stupid-people/)
+* [Reflux data flow model?](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
+* [Getting to know flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 
 ## Composition
 
