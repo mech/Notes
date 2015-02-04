@@ -15,6 +15,7 @@ Know your content structure!
 
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
+* [A Component API](https://www.youtube.com/watch?v=XNoX1FRZ8kE)
 * [Flakes - Design and Frontend framework](http://getflakes.com/index.html)
 * [Sass Guideline](http://sass-guidelin.es/)
 * [**IBM Design Language**](http://www.ibm.com/design/language/)
@@ -117,6 +118,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Fiftythree styleguide](http://www.fiftythree.com/styleguide/typography)
 * [Eventmobi](https://medium.com/@owdco/how-we-css-at-eventmobi-98a12961c264)
 * [Buffer App](https://bufferapp.com/style-guide)
+* [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
 
 ## Naming Convention
 

@@ -21,15 +21,6 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 
 * [WRAP and the demise of the OAuth community](http://hueniverse.com/2009/11/23/wrap-and-the-demise-of-the-oauth-community/)
 
-## SAMEORIGIN and CORS
-
-JSONP is just a hack to bypass.
-
-* [The Same-Origin Saga](https://vimeo.com/54121245)
-* [Origin policy enforcement in modern browser](https://www.youtube.com/watch?v=PbvxtMCUG8U)
-* [HTTP Strict Transport Security](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security)
-* [Enable CORS](http://enable-cors.org/)
-
 ## API Testing (TDD)
 
 * [RSpec API](https://github.com/zipmark/rspec_api_documentation)

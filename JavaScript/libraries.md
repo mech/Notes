@@ -52,6 +52,10 @@
 * [Combo keys](https://github.com/mightyiam/combokeys)
 * [Typist](https://github.com/positionly/Typist)
 
+## Draggable/Scrollable
+
+* [flickity](http://flickity.metafizzy.co/)
+
 ## Date
 
 * [Pikaday](https://github.com/dbushell/Pikaday)

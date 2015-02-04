@@ -2,6 +2,8 @@
 
 * [Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
 * [Vim customised to be like SublimeText](https://github.com/subvim/subvim)
+* [**Thoughtbot VIM tags**](http://robots.thoughtbot.com/tags/vim)
+* Tim Pope - abolish.vim, commentary.vim, dispatch.vim, endwise.vim, eunuch.vim, fugitive.vim, rsi.vim, scriptease.vim, sensible.vim, sleuth.vim, surround.vim, unimpaired.vim
 
 ```
 v   # Visual mode
@@ -36,6 +38,11 @@ G   # End of the buffer
 %   # Move between bracket of {}, (), [] pair
 ZZ  # Exit and save changes
 :x  # Exit, saving changes
+```
+
+```
+# Associate .es6 file to .js file if you using 6to5
+autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 ```
 
 ## In Insert Mode

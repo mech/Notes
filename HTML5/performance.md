@@ -31,6 +31,7 @@
 * [async vs defer](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 * [Scroll problem](http://aerotwist.com/blog/some-gotchas-that-got-me/)
 * [Web Performance Matters](http://www.perf.rocks/)
+* [Setting a performance budget](http://timkadlec.com/2013/01/setting-a-performance-budget/)
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 

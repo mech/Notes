@@ -1,5 +1,14 @@
 # Ruby
 
+```
+ASCII = ('!'..'~')
+UPPER = ASCII.grep(/[[:upper:]]/)
+LOWER = ASCII.grep(/[[:lower:]]/)
+ALPHA = ASCII.grep(/[[:alpha:]]/)
+DIGIT = ASCII.grep(/[[:digit:]]/)
+PUNCT = ASCII.grep(/[[:punct:]]/)
+```
+
 * [**All Ruby Books**](http://www.allrubybooks.com/)
 * Don't mutate state unnecessarily. It will lead to bugs.
 * [Polymorphism and Ruby](http://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby)

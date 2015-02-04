@@ -4,6 +4,7 @@ It's not about the product, it's about your users.
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [**Platform stack**](http://platformed.info/platform-stack/)
 * [**Bringing Design to Software**](http://hci.stanford.edu/publications/bds/)
 * [**Design the user, not the experience**](https://userbrain.net/blog/design-the-user)
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)

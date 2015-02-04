@@ -17,6 +17,7 @@ Notable companies in HR domain.
 
 ## Notable Companies
 
+* [**Blueskyme - Nice interaction and UI**](http://blueskyme.com/)
 * [Kin HR Software](http://kinhr.com/)
 * [Harvest - Timesheet](http://www.getharvest.com/)
 * [Open Recruiters - Local started in July 2013](http://openrecruiters.com/)

@@ -5,28 +5,32 @@
 * [Chmod Calculator](http://chmodcalc.com/)
 
 ```
-cd -          # Go back to previous directory
-sudo su -     # Login as root
-logout        # Logout from root
-ls; cd /tmp   # Separate command with ;
-vim &         # Put it in the background
-fg            # Bring the previous vim to the foreground
-file next.png # Show details of the file
-printenv      # Print environment variables
-ls -l         # List file permission
+shutdown now    # Shutdown
+shutdown -h now # Halt
+shutdown -r now # Reboot
+logout          # Logout to refresh session terminal?
+cd -            # Go back to previous directory
+sudo su -       # Login as root
+logout          # Logout from root
+ls; cd /tmp     # Separate command with ;
+vim &           # Put it in the background
+fg              # Bring the previous vim to the foreground
+file next.png   # Show details of the file
+printenv        # Print environment variables
+ls -l           # List file permission
 ls -l /boot/*$(uname -r)* # You can execute system command also
-!$            # Access to the last file
-!!            # Re-run the last command
+!$              # Access to the last file
+!!              # Re-run the last command
 ps auxw | egrep '\[' # Kernel processes
-sudo lsmod    # See what modules the kernel loaded
-history -c    # Clear your command history
-top -o cpu    # Order top to CPU
-id            # Print user ID
-tree -L 1 /   # Print first level tree
-sudo fdisk -l # Show disks
+sudo lsmod      # See what modules the kernel loaded
+history -c      # Clear your command history
+top -o cpu      # Order top to CPU
+id              # Print user ID
+tree -L 1 /     # Print first level tree
+sudo fdisk -l   # Show disks
 chmod u+rwx,g-rwx,o-rwx file # Give User Read/Write/Execute
-ls -dl        # List directory
-getfacl file  # More detailed file permission
+ls -dl          # List directory
+getfacl file    # More detailed file permission
 man -k time
 man 3 printf
 echo $PATH | tr ':' '\n' # tr is translate characters
@@ -44,6 +48,7 @@ grep root /etc/* # Check every files that contain the word root
 df -h # Disk usage
 < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c12 | xargs echo
 grep -v // !$ | grep -v ^$ # Clean out comment
+sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/mysql/my.cnf
 ```
 
 `/proc/sys/net/ipv4` is where you configure your TCP/IP.

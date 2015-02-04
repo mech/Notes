@@ -2,6 +2,7 @@
 
 Business need to know large scale problem.
 
+* [**Math - Better Explained - $79**](http://betterexplained.com/ebook/math/)
 * [Math is Fun](http://www.mathsisfun.com/algebra/index-2.html)
 * [Touch Mathematics](http://www.touchmathematics.org/topics/trigonometry)
 

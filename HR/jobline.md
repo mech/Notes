@@ -6,6 +6,15 @@ Sometimes SIMPLE really WINS.
 
 There's a lot of challenges in crafting new experiences and workflows to meet contemporary HR demands.
 
+---
+> Some platforms may have users explicitly connecting with each other, as in social networks. Some may have users not connecting but exchanging items as in marketplaces. And some platforms may have an implicit community layer. E.g. If you use the Nest Thermostat or Mint.com, your usage is benchmarked against others. So you are benefiting from the community implicitly but you don’t explicitly connect with them.
+
+---
+> The final layer is the data layer. Every platform uses data in some way. But in some cases the data layer may play a more dominant role than in others. In most cases, data serves to provide relevance, matching the most relevant content/goods/services with the right users. In other cases, the value may exclusively lie in the data layer. The Nest Thermostat example, as we will revisit below, is what one would think of as a data-intensive platform, where the value is entirely in the data being aggregated with a minimal. - http://platformed.info/platform-stack/
+
+---
+> The Platform Stack is a tool for us to think through platforms and plan them. Irrespective of what you’re building, the stack helps to figure which layers you differentiate yourself in and how. It helps understand the key strengths of businesses that are already out there in the market. Without getting lost in the quagmire of features and functionalities, the stack helps us understand the key drivers of value and helps us benchmark ourselves on those parameters against competition and substitutes.
+
 FitAgent, Fit4Hire, FitSense
 
 * Track activities all around (See Atlassian Stash)
