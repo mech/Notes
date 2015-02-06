@@ -35,6 +35,7 @@
 * [Andy Hall](http://andyhall.github.io/)
 * [A beginning guide to website speed optimization](https://kinsta.com/learn/page-speed/)
 * [5 ways to use Google Analytics](http://www.sitepoint.com/5-ways-use-google-analytics-ux-research/)
+* [Modern web development](http://jtaby.com/blog/2012/04/23/modern-web-development-part-1)
 
 ## Offline-first
 
@@ -56,6 +57,7 @@
 * Firefox - SpiderMonkey, Gecko
 * Safari - JavaScriptCore, Nitro
 * Chrome - Blink (layout engine), Skia, V8
+* [Browser internals](http://updates.html5rocks.com/2012/04/Round-up-of-Web-Browser-Internals-Resources)
 
 ## Firefox (Aurora)
 
