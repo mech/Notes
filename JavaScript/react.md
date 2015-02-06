@@ -47,10 +47,14 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
+* [Tweet on Michael Jackson's react](https://twitter.com/mjackson/status/466286956989542400)
+* [Why React Native matters](http://joshaber.github.io/2015/01/30/why-react-native-matters/)
 * [**React Future??**](https://github.com/reactjs/react-future)
 * [**React Components - Searchable database**](http://react-components.com/)
 * [**Presenting the most over-engineered blog ever - Pretty insightful**](http://jlongster.com/Presenting-The-Most-Over-Engineered-Blog-Ever)
 * [**React.js UI framework for hybrid mobile apps**](http://touchstonejs.io/)
+* [Netflix likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html)
 * [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
 * [**React: RESTful UI Rendering**](https://www.youtube.com/watch?v=IVvHPPcl2TM)
 * [Building robust web apps with React](http://maketea.co.uk/2014/03/05/building-robust-web-apps-with-react-part-1.html)

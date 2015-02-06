@@ -123,6 +123,8 @@ Use of `min-width` and `max-width` common.
 
 Nearly every grid system is based on rows and columns, set to 12 or 16 increments to create any layout. However, the web is changing! It's time for Flexbox to shine.
 
+> "What drives me insane in modern web design is grids. What's important is a page that moves. Now, as news flows in, editors can very quickly reshuffle what we're doing on the page, because every module is moveable. Instead of rigid grids, the site is built from these building blocks so we can snap them together like Lego. The news becomes intent driven, rather than layout driven." - Josh Topolsky, editor of Bloomberg Digital
+
 * [**Foundation - A new grid**](http://zurb.com/article/1333/foundation-a-new-grid)
 * [Skeleton](http://getskeleton.com/)
 * [**Complete guide to grid**](http://css-tricks.com/snippets/css/complete-guide-grid/)
