@@ -64,6 +64,10 @@ FitAgent, Fit4Hire, FitSense
 /cc @simon, @mech, @amy
 ```
 
+```
+(1 of 2378) -> too large? Narrow your search terms or use the filter
+```
+
 Data analysis -> Break into group -> Targeted marketing (marketing as in the sense of value awareness)
 
 ## Redis

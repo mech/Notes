@@ -60,8 +60,6 @@ See http://stackoverflow.com/questions/13942443/error-installing-rmagick-on-moun
 
 7. If you need X11, you can install it [here](http://xquartz.macosforge.org/landing/). You will want to `sudo ln -s /opt/X11 /usr/X11` also.
 8. Preparing for Git installation. Mavericks come with git, but we want to install it via `brew install git` which will reside at `/usr/local/bin/git`. Edit `.zshrc` to move that path forward: `export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"`
-
-   Configure git with:
 	
 	```
    git config --global user.name "mech"
@@ -99,7 +97,7 @@ See http://stackoverflow.com/questions/13942443/error-installing-rmagick-on-moun
 
     Paste the `id_rsa.pub` to GitHub and test it `ssh -T git@github.com`
 
-11. Install rbenv: `brew install rbenv ruby-build`. All of your rubies will be stored in `~/.rbenv/versions`
+11. Install rbenv: `brew install rbenv ruby-build`. All of your rubies will be stored in `~/.rbenv/versions`. Remember to `brew info rbenv` to put this `if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi` into your `.zshrc` or `.bashprofile`
 
     Some useful command for rbenv:
     
@@ -137,14 +135,13 @@ If you have RVM already, you can remove it as such:
 
 # oh-my-zsh
 
-Aliases:
+Aliases (put it into `.zshrc` so as not to pollute oh-my-zsh):
 
     alias k='clear'
     alias q='exit'
-    alias e='subl . &'
+    alias e='atom .'
 
-    alias remote='ssh administrator@58.185.193.188'
-    alias mini='ssh administrator@58.185.193.185'
+    alias remote='ssh -p 16111 administrator@58.xxx.xxx.xxx'
     alias cp_home='cd /path/to/careerpacific.com'
     alias jobline='cd /path/to/jobline.com.sg'
     alias ats='cd /path/to/ats.careerpacific.com'
@@ -159,6 +156,15 @@ Theme:
     ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%})%{$fg[red]%}⚡ %{$reset_color%}"
     ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[yellow]%}) "
 
+
+# Atom
+
+* [Toggle current fold](https://discuss.atom.io/t/how-to-toggle-current-fold-in-editor-view/11094)
+
+# RubyMine 7
+
+* [Setting up RubyMine](http://victorsavkin.com/post/11729937930/rubymine-part-2-setting-up-rubymine)
+* [colorSchemeTool](https://github.com/JetBrains/colorSchemeTool)
 
 # Sublime Text
 
