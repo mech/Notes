@@ -16,6 +16,10 @@ npm install backbone@1.0.0
 * [hapi](http://hapijs.com/)
 * [Restify](http://mcavage.me/node-restify/)
 
+## Stream
+
+* [Stream processing, event sourcing, reactive, CEP](http://blog.confluent.io/2015/01/29/making-sense-of-stream-processing/)
+
 ## Videos
 
 * [Node.js Explained](https://www.youtube.com/watch?v=L0pjVcIsU6A)

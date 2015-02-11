@@ -29,6 +29,7 @@ The point of promises:
 * [Promises, promises](http://wibblycode.wordpress.com/2012/11/21/promises-promises/)
 * [Task.js](http://taskjs.org/)
 * [The Promised Land](https://www.youtube.com/watch?v=mZHO1ZTsoFk#t=2439)
+* [Callbacks are imperative, promises are functional](https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 

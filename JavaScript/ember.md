@@ -7,7 +7,6 @@ The compiler see the template fragment, identifying any binding expressions, eve
 * [The Road to Ember 2.0](https://github.com/emberjs/rfcs/pull/15)
 * [HTMLBars - A feature-by-feature review](http://colintoh.com/blog/htmlbars)
 * [How is HTMLBars better](http://voidcanvas.com/what-is-htmlbars-and-how-its-better-than-handlebars/)
-* [Ember 2.0 and FastBoot](https://frontsidethepodcast.simplecast.fm/16)
 
 Route map to Component which is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
 
@@ -46,6 +45,8 @@ markAsInserted: function() {
 
 * [Inside FastBoot: The road to server-side rendering](http://emberjs.com/blog/2014/12/22/inside-fastboot-the-road-to-server-side-rendering.html)
 * [Where is FastBoot?](http://discuss.emberjs.com/t/where-is-fast-boot/3636)
+* [Ember 2.0 and FastBoot](https://frontsidethepodcast.simplecast.fm/16)
+* [You're missing the point of server-side rendered JavaScript](http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/)
 
 
 # Ember 1.0
@@ -711,6 +712,7 @@ App.CellView = Ember.View.extend({
 * Use DOM fragment and deep clone
 * String manipulations increase the pressure on the GC
 * [Kris Seldon talking about HTMLBars](https://www.youtube.com/watch?v=nJ7QJVfYXSU)
+* [Commit - Add ability for templates to reuse morphs](https://github.com/tildeio/htmlbars/commit/eb4deafb2e73228b0193d4cecc7b5bfbae67dc30)
 
 ```
 {{#link-to 'articles' (query-params sort='ASC')}}
@@ -1025,6 +1027,7 @@ App.Router.reopen({location: 'none'});
 
 * [phaserapp](http://phaserapp.com/)
 * [GroupTalent](https://grouptalent.com/)
+* [Useful Ember code examples](http://coderberry.me/blog/2013/08/07/useful-ember-code-examples/)
 
 ## Libraries
 

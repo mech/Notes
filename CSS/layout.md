@@ -193,6 +193,8 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 
 Separate it into layout-object and content-object.
 
+* [**flexbox, you're too good to me**](https://twitter.com/floydophone/status/564948693783023616)
+* [**Don't use flex box for overall page layout**](http://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/)
 * [**Flexbugs - List of flexbox issues and workarounds**](https://github.com/philipwalton/flexbugs)
 * [Normalizing cross-browser flexbox bugs](http://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/)
 * [Flexbox cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)

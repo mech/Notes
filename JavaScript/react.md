@@ -12,6 +12,9 @@
 
 http://facebook.github.io/react/index.html
 
+---
+> Mutable state and 2-way bindings made it hard to reason about.
+
 **React replaces an imperative mutating API with a declarative one that favors immutability.**
 
 Declarative -> Predictable -> Confidence -> Reliability
@@ -23,6 +26,15 @@ Declarative -> Predictable -> Confidence -> Reliability
 * No template in React
 * The single source of truth is all at the Component
 * All the stuffs that live on the Ember controller live in React component
+* Developed by Facebook
+* Predictable Web Framework
+* Expressive and modular
+* Just the "V"
+* Component ownership pattern (iOS-like?) - Top-level components, higher hierarchy tell children how they should render.
+* Components can be stateful
+* Encouraged 1-way data flow
+* Highly performant
+* Good practices of creating very very small components
 
 React don't like 2-way data binding and template. It like one-way data flow and no template.
 
@@ -48,6 +60,7 @@ What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
 * [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
+* [Takeaways from React.js Conf 2015](http://kevinold.com/2015/01/31/takeaways-from-reactjs-conf-2015.html)
 * [Tweet on Michael Jackson's react](https://twitter.com/mjackson/status/466286956989542400)
 * [Why React Native matters](http://joshaber.github.io/2015/01/30/why-react-native-matters/)
 * [**React Future??**](https://github.com/reactjs/react-future)
@@ -94,13 +107,110 @@ gulp.task('scripts', function() {
 });
 ```
 
+## Component - React Element
+
+In v0.12, you no longer call it as React component, but rather call it as React Element.
+
+```
+React.renderComponent();   // Deprecated
+React.render();            // Use this
+
+React.isValidComponent();  // Deprecated
+React.isValidElement();    // Use this
+
+React.PropTypes.component  // Deprecated
+React.PropTypes.element    // Use this
+
+React.PropTypes.renderable // Deprecated
+React.PropTypes.node       // Use this
+```
+
+Components are hierarchical. Without this you won't be able to represent HTML. To access the children:
+
+`this.props.children`
+
+## Component Events
+
+```
+// Enable touch events for mobile devices
+React.initializeTouchEvents(true);
+```
+
 ## JSX
+
+Note: In v0.12, no more `/** @jsx React.DOM */`
+
+```
+<Component /> === React.createElement(Component)
+```
 
 Solved cross-site scripting?
 
 Allow to create composite component. Component is the proper separation of concern for us. Not the 3-legged stool of HTML, CSS and JavaScript. But a single JavaScript all the way. More composable?
 
+* [Live JSX compiler for testing](https://facebook.github.io/react/jsx-compiler.html)
 * [JSX: E4X The Good Parts](http://blog.vjeux.com/2013/javascript/jsx-e4x-the-good-parts.html)
+* [Draft: JSX Specification](http://facebook.github.io/jsx/)
+
+```
+class HelloMessage extends React.Component {
+  tick() {
+    this.setState({count: this.state.count + 1});  }
+  
+  render() {
+    // No autowinding for tick() in v0.13.0
+    return <div onClick={this.tick.bind(this)}>Hello {this.props.name}</div>;  }}
+	
+React.render(<HelloMessage name="mech" />, mountNode);
+
+// Equivalent to this old ES3 module pattern?
+function HellMessage(initialProps) {
+  return {
+    state: { value: initialProps.initialValue },
+    render: function() {
+      return <div>Hello {this.state.value}</div>;    }  };}
+```
+
+## Props and States
+
+In Backbone, you are coding imperatively to specify when something changes, certain things should happen through it various view events setup.
+
+In React, things are more declarative. You specify how your UI should look like at the `render()` and through `props` and `states` changes, the UI will change.
+
+Declarative style require developer to think through at the start how the whole component UI look like and how they will interact.
+
+```
+---------     ---------
+| Props |     | State |
+---------     ---------
+     +           +
+      ----------
+      | Render |
+      ----------
+           |
+        -------   
+        | DOM |
+        -------
+```
+
+* Props - Constant and immutable. Likely fixed from the on-set. Supplies as component attributes like `<Hello name="mech" />`
+* States - Can change. Mutable. You should design your component to not use state as much as possible.
+
+Props and states collectively represent the Model.
+
+The final rendered DOM can have events. And once the events are triggered, the state can change which trigger another render.
+
+If a component need to change and the cause of the change is the component's parent, then the parent can simply change the child's props and re-render.
+
+If a component need to change due to some other component, then it need to use state.
+
+Avoid states as much as possible. Instead push the event handling and state management up toward the top of your component hierarchy.
+
+Note: Spread operator `{...}` deprecate `this.transferPropsTo`
+	
+* [JSX Spread Attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
+	
+## React Mount Runtime
 
 ## React Router
 
@@ -108,7 +218,12 @@ Allow to create composite component. Component is the proper separation of conce
 
 ## Flux
 
-Flux is like a game engine.
+Flux is like a game engine. A single, global dispatcher acts like a event bus to broadcast events and allow other components to registers callbacks to listen for those events.
+
+```
+// Using Facebook own Dispatcher library
+var AppDispatcher = new Dispatcher();
+```
 
 * [Flocks.js](https://github.com/StoneCypher/flocks.js)
 * [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
@@ -116,12 +231,15 @@ Flux is like a game engine.
 * [Reflux data flow model?](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
 * [Getting to know flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 * [Simple data flow in React apps using Flux and Backbone](http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone)
+* [NuclearMail - An example app with Flux architecture](https://github.com/ianobermiller/nuclearmail)
 
-## Composition
+## Composition (Composable)
 
 Combine *simple* functions to build more *complicated* ones. One way to manage complexity.
 
 Just build simple interfaces. Makes it easier to predict what will happen.
+
+How React enable nested component? By having a clear Input (properties) and Output (render() callback function), nested components is a very common outcome.
 
 ## Idempotence
 
@@ -158,3 +276,4 @@ DOM operation is very expensive! Because modifying the DOM will also apply and c
 * [Functional Web Development](https://www.youtube.com/watch?v=Elr_RNt2R5Q)
 * [Secret of the Virtual DOM](https://www.youtube.com/watch?v=1h2G20A-AvY)
 * [Alt.Net Jan 2015](http://youtu.be/kNVatRjnU7U)
+* [Thinking in Components: Building Powerful UIs in React.js](https://www.youtube.com/watch?v=xSGuffp0o6E)

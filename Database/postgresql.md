@@ -9,6 +9,7 @@
 * [UPSERT (SQL MERGE) using Ruby](https://github.com/seamusabshere/upsert)
 * [HperLogLog in Postgres](http://tapoueh.org/blog/2013/02/25-postgresql-hyperloglog.html)
 * [Benchmarking](http://blog.bleything.net/articles/postgresql-benchmarking-background.html)
+* [Inserting using new record](http://rob.conery.io/2015/02/09/inserting-using-new-record-postgres/)
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!

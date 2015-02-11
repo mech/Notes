@@ -8,6 +8,8 @@
 * [Shortcut Foo](http://www.shortcutfoo.com/app/dojos/vim)
 * [Best of Vim](http://www.bestofvim.com/)
 * [Trailing whitespace](http://www.bestofvim.com/tip/trailing-whitespace/)
+* [Synchronizing plugins with Git Submodules and Pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+* [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vimqrc.html)
 
 ```
 v   # Visual mode
@@ -285,3 +287,5 @@ Type `ZZ` or `:q` to get out of help.
 * [Statusline Watchdog](https://github.com/avakarev/vim-watchdog)
 * [matchit.vim](http://www.vim.org/scripts/script.php?script_id=39)
 * [simplefold](http://www.vim.org/scripts/script.php?script_id=1868)
+* [ragtag](http://www.vim.org/scripts/script.php?script_id=1896)
+* [emmet-vim](https://github.com/mattn/emmet-vim)
