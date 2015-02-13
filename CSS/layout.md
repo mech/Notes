@@ -1,5 +1,7 @@
 # Layout
 
+History of layout in CSS is table, float, inline-block, flexbox, then grid.
+
 * [CSS vw and vh](http://www.weareconvoy.com/2014/07/24/css-vw-and-vh-units-are-they-worth-using-yet/)
 * [Absolute 100% height with top:0 and bottom:0](http://stackoverflow.com/questions/5070189/css-100-height-with-absolute-positioning-top-0-bottom-0)
 * [Make full screen sections with 1 line of CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)
@@ -13,6 +15,7 @@
 * [Golden ratio is actually real?](http://www.designyourway.net/blog/inspiration/using-golden-ratio-in-web-design-is-not-ludicrous-its-actually-ideal/)
 * [Content filter UI example](http://codyhouse.co/gem/content-filter/)
 * [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
+* [Build Scalable, Automated CSS](https://www.youtube.com/watch?v=Tk_0qYEFtAY)
 
 ## Example
 
@@ -335,6 +338,10 @@ List are block by default. Use it as inline.
 ## inline-block
 
 * [For IE6/IE7](http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/)
+* Supported since IE8
+* `vertical-align` is a feature, not a bug
+* `text-align` gets you left, right, or center
+* The whitespace thing is a bug. Use zero-size fonts on the container to fix.
 
 This is what Compass will give you:
 

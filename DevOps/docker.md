@@ -18,3 +18,8 @@ Think in terms of "Services" and not processes.
 ```
 ▶ boot2docker
 ```
+
+## Container Orchestration
+
+* [Fig is now docker-compose](http://chrisbarra.me/posts/docker-orchestration.html)
+* [Crane - Lift containers with ease](https://github.com/michaelsauter/crane)

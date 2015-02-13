@@ -15,6 +15,8 @@ Know your content structure!
 
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
+* [**Build Scalable, Automated CSS**](https://www.youtube.com/watch?v=Tk_0qYEFtAY)
+* [Think modularly](http://webstandardssherpa.com/reviews/think-modularly/)
 * [A Component API](https://www.youtube.com/watch?v=XNoX1FRZ8kE)
 * [Flakes - Design and Frontend framework](http://getflakes.com/index.html)
 * [Sass Guideline](http://sass-guidelin.es/)
@@ -71,6 +73,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Code Guide by @mdo](http://codeguide.co/)
 * [Style guide best practices](http://bradfrost.com/blog/post/style-guide-best-practices/)
 * [Organizing CSS color palettes](https://news.layervault.com/stories/41926-organizing-css-color-palettes)
+* [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
 
 ## Playbook
 
@@ -172,30 +175,4 @@ When you describe the content, you cannot reuse the class name. Rather, derive c
 > The most reusable components are those with class names that are independent of the content - Nicolas Gallagher
 
 The aim of a component/template/object-oriented architecture is to be able to develop a **limited number** of reusable components that can contain a range of different content types.
-
-
-## Typography
-
-## Button
-
-```
-// This is functional CSS and not visual CSS!
-%button {
-	display: inline-block;
-	-webkit-appearance: button; // remove iOS style
-	white-space: nowrap;        // prevent text wrapping
-	vertical-align: middle;
-	text-align: center;
-	cursor: pointer;
-	user-select: none;
-	overflow: visible;          // fixes odd inner spacing in IE7}
-```
-
-## Table
-
-## List
-
-## Form
-
-## Menu
 

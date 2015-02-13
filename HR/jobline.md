@@ -107,6 +107,7 @@ Publish conclusion.
 ## PDF
 
 * [jsPDF](https://parall.ax/products/jspdf)
+* [PanDoc](http://johnmacfarlane.net/pandoc/)
 
 ## Email
 

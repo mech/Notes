@@ -111,6 +111,11 @@ gulp.task('scripts', function() {
 
 In v0.12, you no longer call it as React component, but rather call it as React Element.
 
+* [Learn from Web Component gallery](http://customelements.io/)
+* [Khan Academy reusable components](http://khan.github.io/react-components/)
+* [Touchstone](https://github.com/jedwatson/touchstonejs)
+* [material-ui](http://material-ui.com/#/)
+
 ```
 React.renderComponent();   // Deprecated
 React.render();            // Use this
@@ -209,6 +214,8 @@ Avoid states as much as possible. Instead push the event handling and state mana
 Note: Spread operator `{...}` deprecate `this.transferPropsTo`
 	
 * [JSX Spread Attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
+
+> A common pattern is to create several stateless components that just render data, and have a stateful component above them in the hierarchy that passes its state to its children via props. The stateful component encapsulates all of the interaction logic, while the stateless components take care of rendering data in a declarative way.
 	
 ## React Mount Runtime
 
@@ -225,6 +232,7 @@ Flux is like a game engine. A single, global dispatcher acts like a event bus to
 var AppDispatcher = new Dispatcher();
 ```
 
+* [Fluxible](http://fluxible.io/quick-start.html)
 * [Flocks.js](https://github.com/StoneCypher/flocks.js)
 * [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
 * [Flux for stupid people](http://blog.andrewray.me/flux-for-stupid-people/)

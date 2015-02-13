@@ -1,15 +1,16 @@
 # Vim
 
 * [**Learn VimScript the hard way**](http://learnvimscriptthehardway.stevelosh.com/)
+* [**Coming home to Vim**](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
+* [**Thoughtbot VIM tags**](http://robots.thoughtbot.com/tags/vim)
 * [Cheat Sheet](http://www.lagmonster.org/docs/vi.html)
 * [Vim customised to be like SublimeText](https://github.com/subvim/subvim)
-* [**Thoughtbot VIM tags**](http://robots.thoughtbot.com/tags/vim)
-* Tim Pope - abolish.vim, commentary.vim, dispatch.vim, endwise.vim, eunuch.vim, fugitive.vim, rsi.vim, scriptease.vim, sensible.vim, sleuth.vim, surround.vim, unimpaired.vim
 * [Shortcut Foo](http://www.shortcutfoo.com/app/dojos/vim)
 * [Best of Vim](http://www.bestofvim.com/)
 * [Trailing whitespace](http://www.bestofvim.com/tip/trailing-whitespace/)
 * [Synchronizing plugins with Git Submodules and Pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
 * [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vimqrc.html)
+* [Emmet VIM tutorial](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
 
 ```
 v   # Visual mode
@@ -183,6 +184,9 @@ Ignore case also:
 
 ## Folding
 
+* [Unfold all when { is inserted](http://vim.1045645.n5.nabble.com/syntax-folding-unfolds-all-when-is-inserted-td3283653.html)
+* [Keep fold closed while inserting text](http://vim.wikia.com/wiki/Keep_folds_closed_while_inserting_text)
+
 ```
 :set foldmethod=manual
 ```
@@ -282,6 +286,7 @@ Type `ZZ` or `:q` to get out of help.
 
 ## Plugins
 
+* Tim Pope - abolish.vim, commentary.vim, dispatch.vim, endwise.vim, eunuch.vim, fugitive.vim, rsi.vim, scriptease.vim, sensible.vim, sleuth.vim, surround.vim, unimpaired.vim
 * [BufExplorer](https://github.com/jlanzarotta/bufexplorer)
 * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
 * [Statusline Watchdog](https://github.com/avakarev/vim-watchdog)
@@ -289,3 +294,8 @@ Type `ZZ` or `:q` to get out of help.
 * [simplefold](http://www.vim.org/scripts/script.php?script_id=1868)
 * [ragtag](http://www.vim.org/scripts/script.php?script_id=1896)
 * [emmet-vim](https://github.com/mattn/emmet-vim)
+
+## Dotfiles
+
+* [AntJanus](https://github.com/AntJanus/dotfiles/blob/master/.vimrc)
+* [Don't tell people to use Vim](http://antjanus.com/blog/thoughts-and-opinions/use-vim/)

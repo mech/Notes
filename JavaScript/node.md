@@ -19,6 +19,7 @@ npm install backbone@1.0.0
 ## Stream
 
 * [Stream processing, event sourcing, reactive, CEP](http://blog.confluent.io/2015/01/29/making-sense-of-stream-processing/)
+* [Append only](http://blogs.msdn.com/b/pathelland/archive/2007/06/14/accountants-don-t-use-erasers.aspx)
 
 ## Videos
 

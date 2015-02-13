@@ -25,8 +25,10 @@
 
 ```
 ▶ lsb_release -a
+▶ apt-get update
 ▶ apt-cache search linux-image
 ▶ apt-get install linux-image-generic-lts-utopic linux-headers-generic-lts-utopic
+▶ update-grub
 ▶ shutdown -r now
 ```
 
@@ -46,4 +48,17 @@
     - debian/patches/CVE-2014-0224-2.patch: don't accept zero length master
     - debian/patches/CVE-2014-0224-3.patch: allow CCS after resumption in
     - CVE-2014-0224
+```
+
+## Installing Docker
+
+We need to use the Docker team's DEB packages.
+
+```
+
+
+
+// Upgrading is easy
+▶ apt-get update
+▶ apt-get install lxc-docker
 ```

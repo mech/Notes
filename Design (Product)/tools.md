@@ -16,3 +16,4 @@
 * [Prototyping for better products, stronger teams and happier clients](http://www.smashingmagazine.com/2014/09/19/prototyping-for-better-products-stronger-teams-and-happier-clients/)
 * [Breaking down the prototyping tools of today](http://stephenmeszaros.com/posts/prototyping-tools.html)
 * [Iterative Sketching](http://atendesigngroup.com/blog/iterative-sketching)
+* [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
