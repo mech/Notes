@@ -48,6 +48,11 @@ To verify if your kernel has downloaded the patch you can:
 
 ## Installing Docker
 
+Better to use yum even if it is of lower version.
+
 ```
 ▶ yum info docker
+▶ yum install docker
+▶ systemctl start docker
+▶ systemctl enable docker
 ```

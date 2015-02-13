@@ -60,6 +60,7 @@ What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
 * [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
+* [60fps mobile web](http://engineering.flipboard.com/2015/02/mobile-web/)
 * [Takeaways from React.js Conf 2015](http://kevinold.com/2015/01/31/takeaways-from-reactjs-conf-2015.html)
 * [Tweet on Michael Jackson's react](https://twitter.com/mjackson/status/466286956989542400)
 * [Why React Native matters](http://joshaber.github.io/2015/01/30/why-react-native-matters/)

@@ -4,7 +4,7 @@
 
 64-bit is called `amd64` and 32-bit is called `i386`. It is called `amd64` because AMD developed the 64-bit instruction extensions. Athlon 64 was the first to release 64-bit x86(x86-64) CPUs.
 
-* 14.10 - Utopic
+* 14.10 - Utopic (3.16.0-23-generic)
 * 14.04 - Trusty
 * 13.10 - Saucy
 * 13.04 - Raring
@@ -25,7 +25,20 @@
 
 ```
 ▶ lsb_release -a
+▶ uname -r
+3.16.0-23-generic
+
 ▶ apt-get update
+The following packages have been kept back:
+  linux-generic linux-headers-generic linux-image-generic
+
+// We can do a dist-upgrade also
+
+▶ apt-get upgrade
+▶ apt-get dist-upgrade  
+
+// Following may not be performed
+
 ▶ apt-cache search linux-image
 ▶ apt-get install linux-image-generic-lts-utopic linux-headers-generic-lts-utopic
 ▶ update-grub
@@ -34,6 +47,7 @@
 
 ```
 ▶ sudo su
+▶ sudo -s
 ```
 
 ## How to find and do patching?
@@ -52,11 +66,25 @@
 
 ## Installing Docker
 
+* [The memory cgroups and swap accounting](http://docs.docker.com/installation/ubuntulinux/#memory-and-swap-accounting)
+* [UFW - Uncomplicated Firewall](https://help.ubuntu.com/community/UFW)
+* [How to setup a firewall with UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+
 We need to use the Docker team's DEB packages.
 
 ```
+▶ apt-get update
 
+▶ curl -s https://get.docker.com/gpg | sudo apt-key add -
+▶ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
+▶ sudo apt-get update
+▶ sudo apt-get install lxc-docker
 
+// Edit UFW
+
+▶ vim /etc/default/ufw
+DEFAULT_FORWARD_POLICY="ACCEPT"
+▶ sudo ufw reload
 
 // Upgrading is easy
 ▶ apt-get update
