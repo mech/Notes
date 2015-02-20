@@ -25,6 +25,7 @@
 * [CSS challenge](https://news.layervault.com/stories/41990-css-challenge-2-how-would-you-markup-this-element)
 * [Auto-hide sticky header](http://osvaldas.info/auto-hide-sticky-header)
 * [`object-fit: cover`](https://medium.com/@chrisnager/center-and-crop-images-with-a-single-line-of-css-ad140d5b4a87)
+* [Full screen pushing navigation](http://codyhouse.co/gem/full-screen-pushing-navigation/)
 
 ```
 /* do nothing when clicked even through JavaScript */

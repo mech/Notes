@@ -44,6 +44,17 @@ To verify if your kernel has downloaded the patch you can:
 
 ```
 ▶ systemctl list-unit-files
+
+// Query the systemd journal
+▶ sudo journalctl
+```
+
+## Firewall
+
+```
+// Open port 5000 to the public
+▶ firewall-cmd --zone=public --add-port=5000/tcp
+▶ firewall-cmd --zone=public --add-port=5000/tcp --permanent
 ```
 
 ## Installing Docker

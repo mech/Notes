@@ -33,6 +33,7 @@ https://news.layervault.com/stories/42434-ask-dn-selftaught-developer-and-entryl
 * [It's a recruiter's job to deal with candidates](http://www.recruitingblogs.com/profiles/blogs/it-s-a-recruiter-s-job-to-deal-with-candidates-and-put-up-with)
 * [Why job seekers don't stand out](http://authenticff.com/journal/one-of-many-why-job-seekers-dont-stand-out)
 * [Designing the hiring process](https://medium.com/design-playbooks/designing-the-hiring-process-e0b59f3ee53)
+* [Stop Using LinkedIn](http://www.stopusinglinkedin.com/)
 
 ## Map
 

@@ -33,7 +33,7 @@ FitAgent, Fit4Hire, FitSense
 * Make use of lots of popover for quick action
 * Use Amazon SES for email blasting - See http://beta.emailoctopus.com/ also
 * "Ready&Smile" - A slogan for interview
-* hello@jobline.com.sg
+* Have a hello@jobline.com.sg email? For??
 * [T-shaped skills](http://en.wikipedia.org/wiki/T-shaped_skills)
 * [RightSignature](https://rightsignature.com/how-it-works/send)
 * Company profile is crucial to attracting talents. We do not have a nice company profile that is compelling enough for CA to view.
@@ -59,6 +59,8 @@ FitAgent, Fit4Hire, FitSense
 * [See this login ideas](http://blog.codinghorror.com/the-god-login/)
 * [The common password project](http://thepasswordproject.com/)
 * [Create and share polls](https://github.com/daryl/qstn)
+* When there is new staff, those with no StaffLeave entitlement or year specified cannot take unpaid leave. Maybe we need to be more up-front broadcasting system to May/Amy to prepare the setup first.
+* ["Helping you DISCOVER a special thing: SELF"](http://joshsummers.co.uk/2015/02/16/Lego-1981-Beautiful-Advert/)
 
 ```
 /cc @simon, @mech, @amy
@@ -94,7 +96,7 @@ SmsMessage.where(created_at: Date.new(2014,11,21).beginning_of_day .. Date.new(2
 
 Support for Emoji needs utf8mb4. Or just use Postgres.
 
-* If failed to send SMS, notify also the consultant so they can act on it, rather than email only to IT for `DeliveryImpossible`
+* If failed to send SMS, notify also to the consultant so they can act on it, rather than email only to IT for `DeliveryImpossible`.
 * [Rails 4.1 and MySQL 5.5 support utf8mb4](http://tech.taskrabbit.com/blog/2014/04/24/active-record-mysql-and-emoji/)
 * [Unicode support in MySQL is...](http://www.codeka.com.au/blog/2014/02/unicode-support-in-mysql-is--)
 
@@ -128,6 +130,11 @@ Map permissions to a specific business function.
 
 * Should we email CA when they are CV profiled - Eveleen
 * Schedule Interview - What happen if the CA is not in our DB? Should we import them even if they don't have SRID with us.
+
+## Privacy and Security
+
+* Your JSON data cannot be Google searchable. See robot.txt
+* 
 
 ## NRIC
 

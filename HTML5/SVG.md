@@ -4,6 +4,7 @@ HTML for graphics! SVG has a DOM structure and you can even use CSS3 and JavaScr
 
 JavaScript inside SVG is disabled for image-based SVG.
 
+* [**SVG-picture**](http://sarasoueidan.com/blog/svg-picture/)
 * [**Pocket Guide to SVG**](http://svgpocketguide.com/book/)
 * [**Awesome SVG**](https://github.com/willianjusten/awesome-svg)
 * [Lots of SVG information](http://css-tricks.com/mega-list-svg-information/)

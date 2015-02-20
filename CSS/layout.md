@@ -274,6 +274,7 @@ So what's the limitations of float-based layout?
 
 ---
 
+* [About using CSS floats for primary layout: Stop it already!](https://christianlilley.wordpress.com/2015/01/18/about-using-css-floats-for-primary-layout-stop-it/)
 * [The secret to designing layouts without CSS floats](http://www.webdesignerdepot.com/2014/07/the-secret-to-designing-website-layouts-without-css-floats/)
 * [PPK's clearing float using `overflow:auto`](http://www.quirksmode.org/css/clearing.html)
 * [The very latest new new way to do clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)

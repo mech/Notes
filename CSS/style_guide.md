@@ -27,6 +27,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [**Pattern Lab resources**](http://patternlab.io/resources.html)
 * [**Atomic Design**](https://vimeo.com/109130093)
 * [**Front-end Dev Guidelines**](http://tech.tmw.co.uk/code/TMW-frontend-guidelines/)
+* [**What we would change about Rizzo**](http://ianfeather.co.uk/what-we-would-change-about-rizzo/)
 * [Semantic UI](http://semantic-ui.com/)
 * [Yelp style guide](http://www.yelp.com.sg/styleguide)
 * [Apple iOS styleguide, sort of.](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857)
@@ -122,6 +123,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Eventmobi](https://medium.com/@owdco/how-we-css-at-eventmobi-98a12961c264)
 * [Buffer App](https://bufferapp.com/style-guide)
 * [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
+* [Atlassian Design](https://design.atlassian.com/latest/)
 
 ## Naming Convention
 

@@ -10,6 +10,8 @@ Angular 2.0 favors class-based designs with annotations as metadata.
 * [The problem with Angular](http://www.quirksmode.org/blog/archives/2015/01/the_problem_wit.html)
 * [What's wrong with Angular.js](https://medium.com/este-js-framework/whats-wrong-with-angular-js-97b0a787f903)
 * [You have ruined JavaScript](http://codeofrob.com/entries/you-have-ruined-javascript.html)
+* [Change detection in Angular 2](http://victorsavkin.com/post/110170125256/change-detection-in-angular-2)
+* [Building Angular apps using Flux architecture](http://victorsavkin.com/post/99998937651/building-angular-apps-using-flux-architecture)
 
 # Angular 1.0
 

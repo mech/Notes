@@ -9,6 +9,7 @@
 * [Reform - Form Object](https://github.com/apotonick/reform)
 * [money from Shopify](https://github.com/Shopify/money) - See all Shopify's open source projects at [here](http://shopify.github.io/)
 * [Simple immutable Value Objects for Ruby](https://github.com/tcrayford/values)
+* [rails_12factor](https://github.com/heroku/rails_12factor)
 
 
 ## Date gems

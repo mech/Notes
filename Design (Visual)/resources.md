@@ -11,6 +11,7 @@
 * [Classic design books](https://news.layervault.com/stories/39986-classic-design-books)
 * [Mood lines?](http://www.zevendesign.com/mood-lines-giving-designs-attitude/)
 * [25 epic design tips](http://designschool.canva.com/blog/graphic-design-tips-non-designers/)
+* [Cheap assets no cheap designers](https://medium.com/@webalys/cheap-assets-no-cheap-designers-44451afe2bf2)
 
 ## Videos
 
@@ -53,6 +54,7 @@
 * [SVG icons](http://bbriel.me/svgicons/)
 * [Icons Mind](https://www.iconsmind.com/)
 * [Icon fonts](https://github.com/showcases/icon-fonts)
+* [Icons worth checking out](https://news.layervault.com/stories/44383-ask-dn--aside-from-fontawesome-what-are-some-other-font-icons-worth-checking-out)
 
 ## Logo
 

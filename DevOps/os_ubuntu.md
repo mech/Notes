@@ -12,6 +12,17 @@
 * 12.04 - Precise
 * 10.04 - Lucid
 
+```
+// Check how many packages you have
+▶ dpkg -l | wc -l
+
+// Find which package installed the binary/file
+▶ dpkg -S vmstat
+
+// List files installed by a package
+▶ dpkg -L ufw
+```
+
 ## Update and Upgrade
 
 ```
@@ -19,6 +30,12 @@
 ▶ apt-get update
 ▶ apt-get upgrade
 ▶ apt-get dist-upgrade
+```
+
+## APT
+
+```
+▶ apt-cache search ??
 ```
 
 ## How do you upgrade kernel?

@@ -30,6 +30,8 @@
 * [**WTF Mobile Web**](http://wtfmobileweb.com/)
 * [How to write mobile-first CSS](http://www.zell-weekeat.com/how-to-write-mobile-first-css/)
 * [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
+* [Disabling hover interaction](https://medium.com/@ennsu/disabling-hover-interactions-on-ios-acb034f32325)
+* [Making the right sized images for the different iPhone resolutions](http://www.detroitlabs.com/blog/2015/2/12/making-the-right-sized-images-for-the-different-iphone-resolutions)
 
 ## List of screen resolution
 

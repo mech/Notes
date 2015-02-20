@@ -1,5 +1,9 @@
 # React (by Facebook)
 
+Why SPA? Imagine using Facebook where every like and every comment made you refresh the page.
+
+https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%20-%20Declarative%20Component%20Module.js
+
 ## People
 
 * Christopher Chedeau
@@ -35,6 +39,7 @@ Declarative -> Predictable -> Confidence -> Reliability
 * Encouraged 1-way data flow
 * Highly performant
 * Good practices of creating very very small components
+* Re-render everything on every change
 
 React don't like 2-way data binding and template. It like one-way data flow and no template.
 
@@ -59,8 +64,12 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [React Conf roundup](http://facebook.github.io/react/blog/2015/02/18/react-conf-roundup-2015.html)
+* [A comprehensive guide to building apps with React](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
 * [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
+* [**Awesome React**](https://github.com/enaqx/awesome-react)
 * [60fps mobile web](http://engineering.flipboard.com/2015/02/mobile-web/)
+* [React.js and ES6 classes](http://www.reactbook.org/blog/reactjs-es6-classes.html)
 * [Takeaways from React.js Conf 2015](http://kevinold.com/2015/01/31/takeaways-from-reactjs-conf-2015.html)
 * [Tweet on Michael Jackson's react](https://twitter.com/mjackson/status/466286956989542400)
 * [Why React Native matters](http://joshaber.github.io/2015/01/30/why-react-native-matters/)
@@ -68,7 +77,6 @@ Model your UI as pure function.
 * [**React Components - Searchable database**](http://react-components.com/)
 * [**Presenting the most over-engineered blog ever - Pretty insightful**](http://jlongster.com/Presenting-The-Most-Over-Engineered-Blog-Ever)
 * [**React.js UI framework for hybrid mobile apps**](http://touchstonejs.io/)
-* [Netflix likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html)
 * [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
 * [**React: RESTful UI Rendering**](https://www.youtube.com/watch?v=IVvHPPcl2TM)
 * [Building robust web apps with React](http://maketea.co.uk/2014/03/05/building-robust-web-apps-with-react-part-1.html)
@@ -110,12 +118,25 @@ gulp.task('scripts', function() {
 
 ## Component - React Element
 
-In v0.12, you no longer call it as React component, but rather call it as React Element.
+In v0.12, you no longer call it as React Component, but rather call it as React Element.
+
+React is functional:
+
+`f(state, props) = UI Fragment`
+
+Well-written components don't even need state, so:
+
+`f(props) = UI Fragment`
+
+This introduces the concept of idempotency and immutability.
 
 * [Learn from Web Component gallery](http://customelements.io/)
 * [Khan Academy reusable components](http://khan.github.io/react-components/)
 * [Touchstone](https://github.com/jedwatson/touchstonejs)
 * [material-ui](http://material-ui.com/#/)
+* [**Reapp**](http://reapp.io/)
+* [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
+* [react-nexus](https://github.com/elierotenberg/react-nexus)
 
 ```
 React.renderComponent();   // Deprecated
@@ -134,6 +155,8 @@ React.PropTypes.node       // Use this
 Components are hierarchical. Without this you won't be able to represent HTML. To access the children:
 
 `this.props.children`
+
+Components are state machines. They have properties (determined by their parent) and state (which they can change themselves, perhaps based on user actions).
 
 ## Component Events
 
@@ -228,6 +251,25 @@ Note: Spread operator `{...}` deprecate `this.transferPropsTo`
 
 Flux is like a game engine. A single, global dispatcher acts like a event bus to broadcast events and allow other components to registers callbacks to listen for those events.
 
+Because if 2-way data-binding it's not clear how the data flows because it can flow in all directions (including from child components to parents) - this makes it hard to understand the app and understand of impact of model changes in one part of the app on another (seemingly unrelated) part of it.
+
+Similar issues for Ember:
+
+```
+this.set('controllers.foo.something', 'lol');
+this.set('parentView.something', 'lol');
+
+// No computed properties and observer?
+// So data flow in one direction? How?
+userIsOldEnough: function() {
+  return this.get('user.age') == this.get('minAge');}.property('user.age', 'minAge'),
+
+doSomething: function() {
+  // stuff}.observes('userIsOldEnough');
+```
+
+Like the CSS cascade, if you change some data somewhere in the app, predicting what will happen gets more and more impossible.
+
 ```
 // Using Facebook own Dispatcher library
 var AppDispatcher = new Dispatcher();
@@ -241,6 +283,12 @@ var AppDispatcher = new Dispatcher();
 * [Getting to know flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 * [Simple data flow in React apps using Flux and Backbone](http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone)
 * [NuclearMail - An example app with Flux architecture](https://github.com/ianobermiller/nuclearmail)
+* [Firefox Hello Desktop](https://blog.mozilla.org/standard8/2015/02/09/firefox-hello-desktop-behind-the-scenes-flux-and-react/)
+* [Avoiding event chains in SPA](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
+
+## Relay
+
+* [Unofficial Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47?)
 
 ## Composition (Composable)
 
@@ -265,6 +313,17 @@ DOM operation is very expensive! Because modifying the DOM will also apply and c
 * [A Virtual DOM and diffing algorithm](https://github.com/Matt-Esch/virtual-dom)
 * [Issues/3](https://github.com/Matt-Esch/virtual-dom/issues/3)
 
+## Re-render
+
+Re-render the entire application on every change.
+
+* No observers
+* No magical data binding
+* No model dirty checking
+* No `$apply()` or `$digest()`
+
+BUT: You can't just throw out the DOM and rebuild on every update? Lose form state, lost scroll position?
+
 ## Director
 
 * [Router for React](https://github.com/flatiron/director)
@@ -274,9 +333,22 @@ DOM operation is very expensive! Because modifying the DOM will also apply and c
 
 * [Mithril - with Virtual DOM diff](http://lhorie.github.io/mithril/)
 
+## Animation
+
+* [Applying React.js CSS Transitions on initial render](http://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
+
 ## Examples
 
 * [React tutorial](https://github.com/phaedryx/react-tutorial)
+* [5 practical examples for learning React](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
+* [Firebase Vulcan - A chrome extension tool](https://github.com/firebase/vulcan)
+* [Using TDD with React](https://reactjsnews.com/using-tdd-with-reactjs/)
+
+## Companies using React
+
+* [Real life at Codecademy](http://www.infoq.com/articles/reactjs-codecademy)
+* [Netflix likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html)
+* [Atlassian - Rebuild HipChat with React](https://developer.atlassian.com/blog/2015/02/rebuilding-hipchat-with-react/)
 
 ## Videos
 

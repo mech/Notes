@@ -394,6 +394,7 @@ Use https://github.com/jimbojsb/launchrocket at the PreferencePane.
     mysql -uroot -p jobline_dev < mysql_bak.sql
     select email from users where type='Candidate' limit 10;
     update users set email=CONCAT("sample_", email) where type='Candidate';
+    select email from users where type='Employer' limit 10;
     update users set email=CONCAT("jlxyz_", email) where type='Employer';
     
     mongorestore --db jobline_dev --drop ~/Desktop/mongodb_bak_with_timestamp/jobline_pro

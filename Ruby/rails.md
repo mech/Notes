@@ -17,6 +17,7 @@
 * [Eager load in production](http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/)
 * [In defense of ivars](http://naildrivin5.com/blog/2014/02/09/a-defense-of-ivars-in-rails-controllers.html)
 * [Presenters: Delegation vs Just making a Struct](http://technology.stitchfix.com/blog/2013/12/20/presenters-delegation-vs-structs/)
+* [**Fast rich client Rails development wjm;8m=9ith Webpack and ES6 transpiler**](http://www.railsonmaui.com/blog/2014/10/02/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
 
 ## Router
 

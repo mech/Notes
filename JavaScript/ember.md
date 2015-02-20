@@ -1,5 +1,11 @@
 # Ember 2.0
 
+```
+Globals -> Modules
+Callbacks -> Promises
+Views -> Web Component
+```
+
 Templating goes together with Binding. You typically experience them as a single unit even if they are separate.
 
 The compiler see the template fragment, identifying any binding expressions, event handlers, etc. It parses the binding expressions if any. The result of this compiling is cached so none of the above needs to be repeated.
@@ -7,8 +13,14 @@ The compiler see the template fragment, identifying any binding expressions, eve
 * [The Road to Ember 2.0](https://github.com/emberjs/rfcs/pull/15)
 * [HTMLBars - A feature-by-feature review](http://colintoh.com/blog/htmlbars)
 * [How is HTMLBars better](http://voidcanvas.com/what-is-htmlbars-and-how-its-better-than-handlebars/)
+* [ember-cli-esnext](https://github.com/rwjblue/ember-cli-esnext)
+* [morph-range](https://github.com/krisselden/morph-range)
+* [simple-dom](https://github.com/krisselden/simple-dom)
+* morph-attr
+* dom-helper
+* [Long comment to read](https://github.com/emberjs/rfcs/pull/3)
 
-Route map to Component which is (View + Controller). Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
+Routes drive components instead of controller + view. Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
 
 In Ember 2.0, there is no more routable controller, only routable component. Controllers aren't really needed. At least not as a standalone entity.
 
@@ -47,6 +59,7 @@ markAsInserted: function() {
 * [Where is FastBoot?](http://discuss.emberjs.com/t/where-is-fast-boot/3636)
 * [Ember 2.0 and FastBoot](https://frontsidethepodcast.simplecast.fm/16)
 * [You're missing the point of server-side rendered JavaScript](http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/)
+* [Re-render universe](https://gist.github.com/wycats/b9c367c075ce8bc2fedb)
 
 
 # Ember 1.0
@@ -312,6 +325,10 @@ Besides generating route classes, router also generates controllers and template
 You'll spend most time on the route than any other Ember's parts. In Rails, you use Controller to load data, but in Ember, you do it at Route. Route loads data and assigns it to a controller using `setupController()`. Controller in Ember rarely has the job to load data!
 
 When `/tables` is visited, Ember calls the `App.TablesRoute` object, which finds the list of tables and assigns it to the `App.TablesController`.
+	
+In current versions of Ember (1.10), when a route is entered, it builds a controller, associates a model with it, and hands it off to an (old-style) view for rendering. The view itself is invisible (Ember.View); you just write a template with the correct name.
+
+With Ember 2.0, you still have route, but controller+template+view are unified into 1 component.
 
 Routes manage state, including serialisation and de-serialisation.
 
@@ -722,6 +739,14 @@ App.CellView = Ember.View.extend({
 {{reverse (capitalize foo)}}
 ```
 
+```
+// We will be able to write this
+<a href="{{url}}">Click here</a>
+	
+// Not this
+<a {{bind-attr href=url}}>Click here</a>
+```
+
 ## Ember.Handlebars
 
 If you use `Handlebars.SafeString`, be sure to escape any user input with `Handlebars.Utils.escapeExpression`
@@ -1028,6 +1053,7 @@ App.Router.reopen({location: 'none'});
 * [phaserapp](http://phaserapp.com/)
 * [GroupTalent](https://grouptalent.com/)
 * [Useful Ember code examples](http://coderberry.me/blog/2013/08/07/useful-ember-code-examples/)
+* [ember-polymer-example](https://github.com/inigo-llc/ember-polymer-example)
 
 ## Libraries
 

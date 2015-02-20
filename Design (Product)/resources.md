@@ -245,6 +245,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Redesigning Soundcloud](https://medium.com/adventures-in-consumer-technology/redesigning-soundcloud-d52b4baf17a4)
 * [Learn from great design](http://inspectelement.com/reviews/learn-from-great-design-avis-car-hire/)
 * [Brian Hoff Design](http://www.brianhoffdesign.com/#/work/allclasses)
+* [Focus Lab](http://focuslabllc.com/work/assembly)
 
 ## Product News
 
