@@ -1,5 +1,13 @@
 # Ubuntu
 
+* [Basic setup for a new Linux server](http://devo.ps/blog/basic-setup-for-a-new-linux-server/)
+
+```
+▶ sudo apt-get install htop dstat
+
+▶ dstat --top-io --top-bio
+```
+
 ## Releases
 
 64-bit is called `amd64` and 32-bit is called `i386`. It is called `amd64` because AMD developed the 64-bit instruction extensions. Athlon 64 was the first to release 64-bit x86(x86-64) CPUs.
@@ -30,6 +38,12 @@
 ▶ apt-get update
 ▶ apt-get upgrade
 ▶ apt-get dist-upgrade
+```
+
+## Locale
+
+```
+▶ locale-gen en_US.UTF-8 && echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale
 ```
 
 ## APT
@@ -95,7 +109,7 @@ We need to use the Docker team's DEB packages.
 ▶ curl -s https://get.docker.com/gpg | sudo apt-key add -
 ▶ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
 ▶ sudo apt-get update
-▶ sudo apt-get install lxc-docker
+▶ sudo apt-get install -y -q lxc-docker
 
 // Edit UFW
 
@@ -106,4 +120,8 @@ DEFAULT_FORWARD_POLICY="ACCEPT"
 // Upgrading is easy
 ▶ apt-get update
 ▶ apt-get install lxc-docker
+
+// Give your user non-root docker access
+▶ sudo gpasswd -a ${USER} docker
+▶ sudo service docker restart
 ```

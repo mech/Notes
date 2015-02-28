@@ -13,6 +13,8 @@ Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
 ▶ shutdown -r now
 ▶ uname -r
 3.10.0-123.20.1.el7.x86_64
+
+▶ hostnamectl
 ```
 
 ## Disable SELinux, IPv6

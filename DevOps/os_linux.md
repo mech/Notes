@@ -1,8 +1,19 @@
 # Linux
 
+* [First 5 minutes troubleshooting a server](http://devo.ps/blog/troubleshooting-5minutes-on-a-yet-unknown-box/)
+* [Linux TCP/IP tuning for scalability](http://www.lognormal.com/blog/2012/09/27/linux-tcpip-tuning/)
+* [Allow setting `ulimits` for containers](https://github.com/docker/docker/pull/9437)
+
+```
+// 6 minutes to shutdown with this file /etc/nologin
+▶ sudo shutdown -h +6 "System going down, please logout!" 
+```
+
 ## udev, /dev, Device nodes/files
 
-
+```
+▶ mount
+```
 
 ## Runlevels
 
@@ -19,9 +30,36 @@
 id:5:initdefault:
 ```
 
+## Compile and build C program
+
+```
+▶ sudo yum groupinstall "Development Tools"
+▶ sudo apt-get install build-essential
+
+▶ ./configure --with-A --without-B
+▶ make
+▶ sudo make install
+```
+
+## Logs
+
+```
+▶ dmesg
+▶ less /var/log/messages
+▶ less /var/log/secure
+▶ less /var/log/auth
+```
+
+
 ## Networking
 
 `ifconfig` is deprecated. `ip` is the newer command.
+
+3 things you need to check:
+
+1. Your IP address: `ip a s`
+2. Your subnet mask: `nmap --iflist`
+3. Your default gateway `0.0.0.0`
 
 Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addresses. Used when the sending IP address and the receiving IP address are on the same network.
 
@@ -30,6 +68,9 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 ▶ sudo ifconfig eth0 192.168.0.201 net mask 255.255.255.0 broadcast 192.168.0.255
 ▶ sudo ifconfig eth0 down
 ▶ sudo ifconfig eth0 up
+
+▶ sudo ifdown eth0
+▶ sudo ifup eth0
 ```
 
 ```
@@ -49,6 +90,8 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 
 // Capture 5 packets, but not port 22 on interface eth0
 ▶ sudo tcpdump -c 5 -i eth0 not port 22
+
+▶ ldd /usr/sbin/sshd | grep wrap
 ```
 
 ### Ports
@@ -59,6 +102,13 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 
 // Find out how many ports you have open
 ▶ nmap <hostname>
+▶ sudo nmap <hostname>     // More information like MAC address
+▶ nmap --iflist
+▶ nmap -p80 <hostname>
+▶ sudo nmap -sV <hostname> // Find software version
+▶ sudo nmap -A <hostname>  // Find OS
+▶ sudo nmap -p80 --script http-enum <hostname>
+▶ sudo nmap -p80 --script http-enum --script-args http-enum.displayall <hostname>
 ```
 
 ## Monitoring
@@ -95,8 +145,14 @@ Real-time (vmstat, ps, uptime, w, lsof, netstat) vs Historical (sysstat)
 ▶ netstat -altux
 ▶ netstat -i
 ▶ netstat -s
+▶ netstat -nr   // Display route table, same as route
+▶ netstat -ntlp // Who is listening on TCP 
+▶ netstat -nulp // Who is listening on UDP
+▶ netstat -nxlp // Who is listening on socket
+▶ ss -s         // netstat can be slow to display all connections
 
 // List open files
+▶ sudo lsof -i
 ▶ sudo lsof -iTCP:22
 
 // 
@@ -126,3 +182,19 @@ Real-time (vmstat, ps, uptime, w, lsof, netstat) vs Historical (sysstat)
 
 ### Nagios
 
+## Backup
+
+Compressing (tar.gz) and uploading to Amazon S3
+
+```
+// c - create
+// v - verbose
+// z - zip
+// f - file
+▶ tar -cvf etc.tar /etc
+▶ gzip etc.tar
+
+▶ tar -czf etc.tar.gz /etc
+▶ tar -tzf etc.tar.gz
+▶ tar -xzf etc.tar.gz
+```

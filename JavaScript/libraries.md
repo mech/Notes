@@ -51,6 +51,7 @@
 * [International telephone input](http://jackocnr.com/intl-tel-input.html)
 * [Combo keys](https://github.com/mightyiam/combokeys)
 * [Typist](https://github.com/positionly/Typist)
+* [ICU MessageFormat](https://github.com/SlexAxton/messageformat.js)
 
 ## Draggable/Scrollable
 

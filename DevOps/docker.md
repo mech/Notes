@@ -1,5 +1,11 @@
 # Docker
 
+Tighten iteration loop.
+
+OODA loop - Observe, Orient, Decide, Art. The one that win is the one that can go around this loop the fastest. Move the fastest, iterate the fastest.
+
+Operationalized and Orchestration.
+
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
 * [In Tech We Trust Podcast](http://intechwetrustpodcast.com/)
 * [Century Link Labs](http://www.centurylinklabs.com/)
@@ -17,6 +23,10 @@
 * [Service registry bridge for Docker](https://github.com/progrium/registrator)
 * [Overlay network](https://github.com/coreos/flannel)
 * [dotScale 2013 - Solomon Hykes - Why we built Docker](https://www.youtube.com/watch?v=3N3n9FzebAA)
+* [Flocker](https://github.com/clusterhq/flocker)
+* [Fig and Panamax](http://panamax.io/)
+* [Digital Ocean docker tutorial series](https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem)
+* [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
 
 ```
 docker version
@@ -49,6 +59,8 @@ Ephemeral: Container is dump. Spin and terminate. Log elsewhere! DB elsewhere!
 It's important to understand that it is far simpler to manage Docker if you view it as role-based VM rather than as deployable single-purpose processes. Go for role-based containers (app, db, cache, etc.)
 
 ## Image
+
+* [Phusion](https://github.com/phusion/baseimage-docker)
 
 A Docker image is made up of filesystem layered over each other. First layer is the `bootfs` and next layer is the `rootfs`. More filesystem will be union mounted to appear as one filesystem. Docker calls each of these filesystems images.
 
@@ -202,6 +214,7 @@ Inspect the container:
 
 * [Network port mapping](http://docs.docker.com/userguide/dockerlinks/#network-port-mapping-refresher)
 * [Network configuration - More advanced](https://docs.docker.com/articles/networking/)
+* [Socketplane - Instead of using docker0, use Open vSwitch](http://www.socketplane.io/)
 
 Binding specific IP and port:
 
@@ -300,13 +313,21 @@ When you mount using the `-v` option, you can then use that on other container u
 
 Should we use `ADD` instruction instead of volumes to house application code?
 
+## Data Container
+
+* [How to deal with persistent storage](http://stackoverflow.com/questions/18496940/how-to-deal-with-persistent-storage-e-g-databases-in-docker)
+* [Data-only container pattern](http://www.tech-d.net/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/)
+* [Advanced Docker volumes](http://crosbymichael.com/advanced-docker-volumes.html)
+* [Tiny Docker pieces, loosely joined](http://www.offermann.us/2013/12/tiny-docker-pieces-loosely-joined.html)
+* [Portable volumes using just the Docker CLI](https://clusterhq.com/blog/powerstrip-flocker-portable-volumes-using-just-docker-cli/)
+
 
 ## Operational Logistics
 
 * [Gathering container metrics](http://jpetazzo.github.io/2013/10/08/docker-containers-metrics/)
 * [Understanding metrics roll-ups, retention and graph resolution](http://support.metrics.librato.com/knowledgebase/articles/66838)
 
-Logging, monitoring, and health management.
+Logging (logstash, Kibana?), monitoring, and health management.
 
 * cgroups give us per-container measurement
 * Disable memory accounting
@@ -320,12 +341,32 @@ For backup
 ▶ sudo docker run --rm --volumes-from mysqldata mysqlbackup tar -clf /var/lib/mysql | stream-it-to-the-cloud.py
 ```
 
+## Security
+
+* [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
+* Treat container services just like regular services. Drop privileges as quickly as possible. Do not run Nginx web server as root.
+* Use read-only mount points like `/sys`, `/proc/sys`.
+* Use capabilities to drop CAP_XX to minimize attack surface.
+* Remove network namespace for database container because maybe you don't need it.
+* SELinux protect the host system from container processes
+* Container processes only write to container files
+
+## Docker Compose
+
+Multi-container apps are a hassle.
+
+* Build images from Dockerfiles
+* Pull images from the Hub
+* Configure and create containers
+* Start and stop containers
+* Stream their logs
 
 ## Container Orchestration
 
 * [Fig is now docker-compose](http://chrisbarra.me/posts/docker-orchestration.html)
 * [Crane - Lift containers with ease](https://github.com/michaelsauter/crane)
 
+Orchestration is collection of things. Not just a single thing.
 
 ## Docker with Rails
 
@@ -335,3 +376,38 @@ For backup
 * [ansible-docker](https://github.com/gerhard/ansible-docker)
 * [Ansible & Docker - The path to Continuous Delivery](http://gerhard.lazu.co.uk/ansible-docker-the-path-to-continuous-delivery-1)
 * [Deploy Rails app using Docker](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
+* [12 Factor](http://12factor.net/)
+
+```
+# File: docker-build.sh
+# This script will remove old builds and create a brand new one
+docker rm -f $(docker ps -aq) # Remove all non-running containers
+
+docker rmi -f $(docker images | grep "^<none>" | awk '{print $3}')
+docker rmi local/nginx-rails-passenger
+
+docker build --rm -t local/nginx-rails-passenger .
+```
+
+```
+# docker-run.sh
+# This script will just run docker without you have to type it always
+docker run -d -p 80:80 -p 10022:22 --name jobline_web local/nginx /bin/sh /startup/docker-startup.sh
+```
+
+```
+# docker-startup.sh
+# Script to bring up services
+/usr/sbin/rabbitmq-server &
+/usr/sbin/sshd -D
+```
+
+## Examples
+
+* [Netflix OSS](https://hub.docker.com/u/netflixoss/)
+
+## Videos
+
+* [Docker - A lot changed in a year - Feb 2015](https://www.youtube.com/watch?v=lCjp7AYCjCE)
+* [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
+* [Docker 101](https://www.youtube.com/watch?v=4W2YY-qBla0)

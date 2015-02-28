@@ -41,10 +41,16 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [Progressive Reduction](http://www.dtelepathy.com/blog/design/progressive-reduction-evolving-the-experience-for-your-most-frequent-users)
 * [Database displays vs Task-led interfaces](http://daringfireball.net/2014/11/googles_app_aesthetic)
 * [Hamburger icons](http://developer.telerik.com/featured/much-ado-hamburger-icons/)
+* [Dare to be boring](https://medium.com/@hliriani/dare-to-be-boring-4717ae3942fd)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 
 There is no intuitive interface, just "easy-to-learn" interface.
+
+> We shouldn't care if users aren't forever-entertained by our design choices. It's our job to push the envelope on how meaningful we can make the connection between users and their content, and I can think of few better ways to accomplish that than by stripping down a UI to its most basic and usable form, silently, nobly, invisible.
+
+---
+> Simplify your interface and don't be scared to make it boring. Boringly simple. (Get to the core function fast)
 
 ## Micro-interactions
 

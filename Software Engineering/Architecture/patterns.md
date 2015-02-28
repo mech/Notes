@@ -32,6 +32,7 @@ Microservices - Loosely coupled service oriented architecture with bounded conte
 * [Microservice - 72 resources](http://blog.arkency.com/2014/07/microservices-72-resources/)
 * [Cloud trends - Adrian Cockcroft](https://www.youtube.com/watch?v=VaFktjlLp5M)
 * [State of the Art in Microservices by Adrian Cockcroft](https://www.youtube.com/watch?v=nMTaS07i3jk)
+* [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
 
 
 ## Design Patterns

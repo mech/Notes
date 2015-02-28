@@ -1,5 +1,9 @@
 # Jobline's Problem
 
+**Jobline is a simple app. Don’t overcomplicate it.**
+
+Enterprise system is a complex, adaptive system. It cannot be understood by reductionism. One one single person can understand the whole system. It will have emergence behaviours. You cannot stop that behaviours. 
+
 **1 week non-office remote days**
 
 Sometimes SIMPLE really WINS.
@@ -61,6 +65,8 @@ FitAgent, Fit4Hire, FitSense
 * [Create and share polls](https://github.com/daryl/qstn)
 * When there is new staff, those with no StaffLeave entitlement or year specified cannot take unpaid leave. Maybe we need to be more up-front broadcasting system to May/Amy to prepare the setup first.
 * ["Helping you DISCOVER a special thing: SELF"](http://joshsummers.co.uk/2015/02/16/Lego-1981-Beautiful-Advert/)
+* For Timesheet, let CA opt-in to work on Public Holiday, instead of having them opt-out when they press the "default" hours to pre-filled the working hours.
+* Case study for extensions. See Docker Machine's provider concept or Vagrant provider concept. If Jobline need any customisation for our customer, we can use such provider concept. Like Manpower Staffing cannot login, etc.. instead of hardcoding emails into the Dashboard controller.
 
 ```
 /cc @simon, @mech, @amy

@@ -93,7 +93,7 @@ See http://stackoverflow.com/questions/13942443/error-installing-rmagick-on-moun
 
         ssh-keygen -t rsa -C "mech@me.com"
         ssh-add id_rsa
-        ssh-copy-id -i ~/.ssh/id_rsa.pub administrator@58.185.193.188
+        ssh-copy-id -i ~/.ssh/id_rsa.pub -p 16111 user@ip
 
     Paste the `id_rsa.pub` to GitHub and test it `ssh -T git@github.com`
 

@@ -7,6 +7,7 @@
 
 ```
 npm -global list
+npm list -g --depth=0
 npm uninstall -global bower
 npm install backbone@1.0.0
 ```

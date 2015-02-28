@@ -4,6 +4,12 @@ Why SPA? Imagine using Facebook where every like and every comment made you refr
 
 https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%20-%20Declarative%20Component%20Module.js
 
+## Browser Support
+
+If you need IE8 support, you need to include [es5-shim](https://github.com/kriskowal/es5-shim) yourself to make use of several `Array` and `Date` functions.
+
+You are need to include [html5shiv](https://github.com/aFarkas/html5shiv) for IE8.
+
 ## People
 
 * Christopher Chedeau
@@ -64,6 +70,7 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [Why React? (2013 articles)](http://facebook.github.io/react/blog/2013/06/05/why-react.html)
 * [React Conf roundup](http://facebook.github.io/react/blog/2015/02/18/react-conf-roundup-2015.html)
 * [A comprehensive guide to building apps with React](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
 * [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
@@ -100,6 +107,7 @@ Model your UI as pure function.
 * [Isomorphic React app with Rails](https://medium.com/@olance/isomorphic-reactjs-app-with-ruby-on-rails-part-1-server-side-rendering-8438bbb1ea1c)
 * [React for stupid people](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Creating a workflow with WebPack](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html)
+* [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
 
 ```
 var gulp = require('gulp');
@@ -120,9 +128,16 @@ gulp.task('scripts', function() {
 
 In v0.12, you no longer call it as React Component, but rather call it as React Element.
 
-React is functional:
+React is functional. Components are just like functions. [They take in `props` and `state` and render HTML](http://facebook.github.io/react/docs/displaying-data.html#components-are-just-like-functions).
 
-`f(state, props) = UI Fragment`
+```
+f(state, props) = UI Fragment
+
+React.createElement('a', {href: 'http://host'}, 'Hello!')
+
+// In JSX
+<a href="http://host">Hello!</a>
+```
 
 Well-written components don't even need state, so:
 
@@ -166,6 +181,10 @@ React.initializeTouchEvents(true);
 ```
 
 ## JSX
+
+JSX is the key to React and it's purpose is to build composable tree/hierarchical UI.
+
+**Scale by composition** - Build it small, compose it and scale it big.
 
 Note: In v0.12, no more `/** @jsx React.DOM */`
 
@@ -222,8 +241,8 @@ Declarative style require developer to think through at the start how the whole 
         -------
 ```
 
-* Props - Constant and immutable. Likely fixed from the on-set. Supplies as component attributes like `<Hello name="mech" />`
-* States - Can change. Mutable. You should design your component to not use state as much as possible.
+* Props - Constant and immutable. Likely fixed from the on-set. Supplies as component attributes like `<Hello name="mech" />`. Try to use `props` as the source of truth where possible.
+* States - Can change. Mutable. You should design your component to not use state as much as possible. Try to keep as many of your components as possible stateless. Use state when you need to respond to user input, a server request or the passage of time. State should contain data that a component's event handlers may change to trigger a UI update (such as JSON request). Think of the UI as a state machine. By thinking of a UI as being in various states and rendering those states, it's easy to keep your UI consistent.
 
 Props and states collectively represent the Model.
 
@@ -240,18 +259,51 @@ Note: Spread operator `{...}` deprecate `this.transferPropsTo`
 * [JSX Spread Attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
 
 > A common pattern is to create several stateless components that just render data, and have a stateful component above them in the hierarchy that passes its state to its children via props. The stateful component encapsulates all of the interaction logic, while the stateless components take care of rendering data in a declarative way.
-	
+
+## Refs
+
+* [How should refs work?](https://github.com/facebook/react/issues/3234)
+
+```
+handleClick: function() {
+  // Wanting to focus is a very example of when to use refs
+  this.refs.nameInput.getDOMNode().focus();},
+
+render: function() {
+  return(
+    <div>
+      <input type="text" ref="nameInput" />
+      <button onClick={this.handleClick}>Focus</button>
+    </div>
+  );}
+```
+
+Before using `ref`, exhaust your options of using the reactive data flow approach. `ref` is a way to talk to the "backing instance" of the real DOM element.
+
+Refs are a great way to send a message to a particular child instance in a way that would be inconvenient to do via streaming Reactive `props` and `state`. They should, however, not be your go-to abstraction for flowing data through your application. By default, use the Reactive data flow and save `refs` for use cases that are inherently non-reactive.
+
+Refs are automatically destroyed for you. No worrying about memory leaking unless you do something crazy to retain a reference.
+
+Take a moment and think more critically about where `state` should be owned in the component hierarchy.
+
 ## React Mount Runtime
 
 ## React Router
 
 * [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
+* [React nested router](https://www.youtube.com/watch?v=P6xTa3RRzfA#t=2300)
 
-## Flux
+## Flux (CQRS)
+
+Facebook originally build web applications using an MVC architecture. As applications grew in size and complexity development slowed down.
 
 Flux is like a game engine. A single, global dispatcher acts like a event bus to broadcast events and allow other components to registers callbacks to listen for those events.
 
 Because if 2-way data-binding it's not clear how the data flows because it can flow in all directions (including from child components to parents) - this makes it hard to understand the app and understand of impact of model changes in one part of the app on another (seemingly unrelated) part of it.
+
+* Actions - Exports functions that the views can call. Talks to the servers. Builds payloads and sends them to the Dispatcher.
+* Dispatcher - Takes a payload from the Actions. Passes payload to Stores via registered callbacks.
+* Stores - Application state changes here. Takes payloads from Dispatcher and updates state. Tells anyone that cares (likely Views) when it has changed.
 
 Similar issues for Ember:
 
@@ -275,6 +327,41 @@ Like the CSS cascade, if you change some data somewhere in the app, predicting w
 var AppDispatcher = new Dispatcher();
 ```
 
+Some example from [London React Meetup](https://www.youtube.com/watch?v=3wcouW5lXto)
+
+```
+// TopBarComponent.jsx
+SearchActions.search(query, that.state.hdOnly? 'high' : 'any');
+
+// SearchActions.js
+search: function(q, videoDef) {
+  AppDispatcher.handleViewAction({
+    actionType: Constants.QUERY,
+    response: {
+      query: q    }  });
+  
+  Api.searchForVideos(q, videoDef);}
+
+// Api.js
+searchForVideos: function(q, videoDef) {
+  var key = Constants.SEARCH_SUCCESS;
+  
+  request
+    .get('https://www/googleapis.com/youtube/v3/search')
+    (...)
+    .end(function() {
+      dispatch(key, {items: response.body.items});    });}
+	
+// SearchStore.js
+AppDispatcher.register(function() {
+  var action = payload.action;
+  
+  switch(action.actionType) {
+    case Constants.SEARCH_SUCCESS:
+      searchReturned(action.response.items);
+      SearchStore.emitChange();  }});
+```
+
 * [Fluxible](http://fluxible.io/quick-start.html)
 * [Flocks.js](https://github.com/StoneCypher/flocks.js)
 * [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
@@ -285,8 +372,13 @@ var AppDispatcher = new Dispatcher();
 * [NuclearMail - An example app with Flux architecture](https://github.com/ianobermiller/nuclearmail)
 * [Firefox Hello Desktop](https://blog.mozilla.org/standard8/2015/02/09/firefox-hello-desktop-behind-the-scenes-flux-and-react/)
 * [Avoiding event chains in SPA](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
+* [RxFlux](https://github.com/fdecampredon/rx-flux)
+* [The case for Flux](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
+* [Learn React and Flux](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
 
 ## Relay
+
+Replacement for Flux?
 
 * [Unofficial Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47?)
 
@@ -343,6 +435,9 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 * [5 practical examples for learning React](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
 * [Firebase Vulcan - A chrome extension tool](https://github.com/firebase/vulcan)
 * [Using TDD with React](https://reactjsnews.com/using-tdd-with-reactjs/)
+* [Hacker News App](https://github.com/reapp/hacker-news-app)
+* [React Magician](https://github.com/SanderSpies/react-magician)
+* [Great.dj](https://github.com/ruiramos/greatdj)
 
 ## Companies using React
 
@@ -358,3 +453,12 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 * [Secret of the Virtual DOM](https://www.youtube.com/watch?v=1h2G20A-AvY)
 * [Alt.Net Jan 2015](http://youtu.be/kNVatRjnU7U)
 * [Thinking in Components: Building Powerful UIs in React.js](https://www.youtube.com/watch?v=xSGuffp0o6E)
+
+## Twitter
+
+* [@jingc](https://twitter.com/jingc)
+* [@Vjeux](https://twitter.com/Vjeux)
+* [@sebmarkbage](https://twitter.com/sebmarkbage)
+* [@jordwalke](https://twitter.com/jordwalke)
+* [@ryanflorence](https://twitter.com/ryanflorence)
+* [@browserify](https://twitter.com/browserify)

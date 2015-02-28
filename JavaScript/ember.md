@@ -1059,6 +1059,7 @@ App.Router.reopen({location: 'none'});
 
 * ember-cloaking
 * [ember-responsive](https://freshbooks.github.io/ember-responsive/)
+* [ember-pretenderify](https://github.com/samselikoff/ember-pretenderify)
 
 ## Tips and Tricks
 
@@ -1102,3 +1103,16 @@ App.ApplicationRoute = Ember.Route.extend({
 ## Deprecations and Changes
 
 * `linkTo` is `link-to` now, see [here](http://stackoverflow.com/questions/20291475/ember-handlebars-link-to-vs-linkto)
+
+## Twitter
+
+* [@lukemelia](https://twitter.com/lukemelia)
+* [@rwjblue](https://twitter.com/rwjblue)
+* [@stefanpenner](https://twitter.com/stefanpenner)
+* [@coderberry](https://twitter.com/coderberry)
+* [@EmberSherpa](https://twitter.com/EmberSherpa)
+* [@bcardarella](https://twitter.com/bcardarella)
+* [@jo_liss](https://twitter.com/jo_liss)
+* [@wycats](https://twitter.com/wycats)
+* [@mixonic](https://twitter.com/mixonic)
+* [@ebryn](https://twitter.com/ebryn)

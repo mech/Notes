@@ -36,6 +36,7 @@
 * [A beginning guide to website speed optimization](https://kinsta.com/learn/page-speed/)
 * [5 ways to use Google Analytics](http://www.sitepoint.com/5-ways-use-google-analytics-ux-research/)
 * [Modern web development](http://jtaby.com/blog/2012/04/23/modern-web-development-part-1)
+* [The history of the HTML5Shiv](http://www.paulirish.com/2011/the-history-of-the-html5-shiv/)
 
 ## Offline-first
 
