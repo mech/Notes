@@ -52,6 +52,9 @@
 * [Combo keys](https://github.com/mightyiam/combokeys)
 * [Typist](https://github.com/positionly/Typist)
 * [ICU MessageFormat](https://github.com/SlexAxton/messageformat.js)
+* [ActiveSupport.js](https://github.com/brettshollenberger/ActiveSupport.js)
+* [Modules from lodash](https://www.npmjs.com/browse/keyword/lodash-modularized)
+* [The first 200 lines of lodash.js are an education in browser JS engine inconsistencies](http://kitcambridge.be/blog/say-hello-to-lo-dash/)
 
 ## Draggable/Scrollable
 

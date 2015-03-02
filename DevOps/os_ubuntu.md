@@ -122,6 +122,8 @@ DEFAULT_FORWARD_POLICY="ACCEPT"
 ▶ apt-get install lxc-docker
 
 // Give your user non-root docker access
+▶ sudo groupadd docker
 ▶ sudo gpasswd -a ${USER} docker
 ▶ sudo service docker restart
+▶ exit // Need to logout
 ```

@@ -5,6 +5,19 @@
 * [State of Rails API](http://hawkins.io/2012/03/state_of_rails_apis/)
 * [RESTful thinking considered harmful](http://www.shopify.com/technology/5898287-restful-thinking-considered-harmful)
 * [Project Jellyfish API example](https://github.com/projectjellyfish)
+* [The Rails API mini guide](http://www.yoniweisbrod.com/rails-api-mini-guide/)
+
+## Token Based API
+
+* [The ins and outs of token based authentication](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication)
+* [Getting to know JSON Web Tokens](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
+* [Token based authentication in Rails](https://www.codeschool.com/blog/2014/02/03/token-based-authentication-rails/)
+
+Token based authentication is stateless. We are not storing any information about our user on the server or in a session (cookie).
+
+Every single request will require the token. This token should be sent in the HTTP header. Token stored on client side. Completely stateless, and ready to be scaled. Load balancers are able to pass a user along to any of our servers since there is no state or session information anywhere.
+
+There is also token revocation that allows us to invalidate a specific token and even a group of tokens based on the same **authorization grant**.
 
 ## Sparse Fieldsets
 

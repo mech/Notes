@@ -11,6 +11,7 @@
 * [Simple immutable Value Objects for Ruby](https://github.com/tcrayford/values)
 * [rails_12factor](https://github.com/heroku/rails_12factor)
 * [keyset pagination](https://github.com/glebm/order_query)
+* [hiredis - for better redis performance](https://github.com/redis/hiredis-rb)
 
 
 ## Date gems

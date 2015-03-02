@@ -2,6 +2,7 @@
 
 * [**Dev Freecasts**](http://devfreecasts.org/)
 * [**Structure 101**](http://structure101.com/)
+* [List of programming screencast series](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
 * [VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 * [Quickly learn X programming language](http://learnxinyminutes.com/)
 * [Beautiful Open Source projects](http://beautifulopen.com/)

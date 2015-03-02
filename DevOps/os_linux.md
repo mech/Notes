@@ -53,6 +53,8 @@ id:5:initdefault:
 
 ## Networking
 
+* [The Internet Super Server inetd](https://www.netbsd.org/docs/guide/en/chap-inetd.html)
+
 `ifconfig` is deprecated. `ip` is the newer command.
 
 3 things you need to check:

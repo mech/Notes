@@ -4,6 +4,10 @@ Tighten iteration loop.
 
 OODA loop - Observe, Orient, Decide, Art. The one that win is the one that can go around this loop the fastest. Move the fastest, iterate the fastest.
 
+Developer worries about what's "inside" the container. His code, libraries, package manager, apps and data. All Linux server to them look the same.
+
+Ops worries what's "outside" the container. Login, remote address, monitoring, network config. All containers start, stop, copy, attach, migrate the same way.
+
 Operationalized and Orchestration.
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
@@ -27,6 +31,9 @@ Operationalized and Orchestration.
 * [Fig and Panamax](http://panamax.io/)
 * [Digital Ocean docker tutorial series](https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem)
 * [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
+* [Docker Hype](http://iops.io/blog/docker-hype/)
+* [Docker vs Reality](http://www.krisbuytaert.be/blog/docker-vs-reality-0-1)
+* [Separation Anxiety: A tutorial for isolating your system with Linux namespaces](http://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces)
 
 ```
 docker version
@@ -59,6 +66,8 @@ Ephemeral: Container is dump. Spin and terminate. Log elsewhere! DB elsewhere!
 It's important to understand that it is far simpler to manage Docker if you view it as role-based VM rather than as deployable single-purpose processes. Go for role-based containers (app, db, cache, etc.)
 
 ## Image
+
+Prep your images to make it faster.
 
 * [Phusion](https://github.com/phusion/baseimage-docker)
 
@@ -132,6 +141,7 @@ VOLUME ["/opt/project", "/data"]
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
 
 # Or even better, combine them
+# The CMD and ENTRYPOINT instructions work best when used together
 ENTRYPOINT ["/usr/sbin/nginx"]
 CMD ["-h"] # Print help and allow overrides
 
@@ -149,6 +159,20 @@ Do not forget the "period" as the current context for the build.
 To skip the cache, especially when you are debugging, you can use `--no-cache` when running `docker build`. This can be useful when you do not want to cache the `apt-get update` layer.
 
 To prevent containers during build use the `docker build -rm`??
+
+You can also build from a git source:
+
+`docker build -t "x/y" https://github.com/x/y`
+
+### ONBUILD
+
+The `ONBUILD` instruction is a trigger. It sets instructions that will be executed when another image is built from the image being build. This is useful for building images which will be used as a base to build other images.
+
+```
+ONBUILD ADD . /app/src
+```
+
+`ONBUILD` can't be used to trigger `FROM` and `MAINTAINER` instructions.
 
 ## Container
 
@@ -275,8 +299,10 @@ You can then `ping db` or use it for your application source code. Or you can us
 * Changes to a volume are made directly
 * Changes to a volume will not be included when you update an image
 * Volumes persist (even when not running) until no containers use them (different from mounted host volume)
+* Data volumes bypass the union file system. In other words, they are not captured by `docker commit`.
+* It is possible to share a volume with a stopped container.
 
-This allow us to add data (like source code), a database, or other content into an image without committing it to the image and allows us to share that data between containers. Volume will not be included when we commit or build an image.
+This allow us to add data (like source code), a database, log files, or other content into an image without committing it to the image and allows us to share that data between containers. Volume will not be included when we commit or build an image.
 
 The VOLUME is just a directory that bypass the layered Union File System to provide shared data. It is different from mounting host directory. To mount host directory as volume, you need to do it at run-time:
 
@@ -351,6 +377,8 @@ For backup
 * SELinux protect the host system from container processes
 * Container processes only write to container files
 
+The `~/.dockercfg` configuration file holds Docker registry authentication credentials, so protect this file! It should be owned by your user with permissions of `0600`
+
 ## Docker Compose
 
 Multi-container apps are a hassle.
@@ -370,13 +398,19 @@ Orchestration is collection of things. Not just a single thing.
 
 ## Docker with Rails
 
+Make use of COW and caching? Build every time? Developer develop on their laptop. They build Dockerfile to specify their requirements. They push it to the registry. Production pull down from registry and essentially build it and run it.
+
 * [`$ ./jobline deploy`](https://github.com/fstephany/hello-pharo/blob/master/app)
 * [Capistrano-like with Ansible](http://blog.versioneye.com/2014/09/24/rebuilding-capistrano-like-deployment-with-ansible/)
 * [The why and how of Ansible and Docker](http://thechangelog.com/ansible-docker/)
 * [ansible-docker](https://github.com/gerhard/ansible-docker)
 * [Ansible & Docker - The path to Continuous Delivery](http://gerhard.lazu.co.uk/ansible-docker-the-path-to-continuous-delivery-1)
 * [Deploy Rails app using Docker](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
+* [Dockerize a Rails app with Sidekiq](http://khanetor.com/2015/02/dockerize-a-rails-app-with-background-processing/)
 * [12 Factor](http://12factor.net/)
+* [Bash script for orchestration](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
+
+We can write bash script to stop, start and update our environment. We can even write script to go into maintenance mode and remove scheduled jobs first for FM to restart.
 
 ```
 # File: docker-build.sh

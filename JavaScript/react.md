@@ -108,6 +108,7 @@ Model your UI as pure function.
 * [React for stupid people](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Creating a workflow with WebPack](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html)
 * [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
+* [React.rb using Opal](https://github.com/zetachang/react.rb)
 
 ```
 var gulp = require('gulp');
@@ -123,6 +124,14 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('./build'));
 });
 ```
+
+## Webpack
+
+* [React with Webpack](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
+* [Webpack presentation](https://unindented.github.io/webpack-presentation)
+* [react-starterkit](https://github.com/wbkd/react-starterkit)
+* [react-starter](https://github.com/webpack/react-starter)
+* [webpack_assets](https://github.com/knomedia/webpack_assets)
 
 ## Component - React Element
 
@@ -286,6 +295,11 @@ Refs are automatically destroyed for you. No worrying about memory leaking unles
 
 Take a moment and think more critically about where `state` should be owned in the component hierarchy.
 
+## CSS
+
+* [Radium - inline styles on React elements](http://projects.formidablelabs.com/radium/)
+* [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
+
 ## React Mount Runtime
 
 ## React Router
@@ -438,6 +452,7 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 * [Hacker News App](https://github.com/reapp/hacker-news-app)
 * [React Magician](https://github.com/SanderSpies/react-magician)
 * [Great.dj](https://github.com/ruiramos/greatdj)
+* [Building a multi-step registration form](http://viget.com/extend/building-a-multi-step-registration-form-with-react)
 
 ## Companies using React
 
@@ -462,3 +477,4 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 * [@jordwalke](https://twitter.com/jordwalke)
 * [@ryanflorence](https://twitter.com/ryanflorence)
 * [@browserify](https://twitter.com/browserify)
+* [@geteslint](https://twitter.com/geteslint)

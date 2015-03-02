@@ -46,6 +46,7 @@
 * [Provide meaning with motion](http://paulstamatiou.com/design-provide-meaning-with-motion/)
 * [Authentic motion](http://www.google.com/design/spec/animation/authentic-motion.html)
 * [Hardware accelerated CSS: The nice vs the naughty](http://calendar.perfplanet.com/2014/hardware-accelerated-css-the-nice-vs-the-naughty/)
+* [Spinner animation](http://tobiasahlin.com/spinkit/)
 
 ---
 
