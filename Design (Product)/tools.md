@@ -4,6 +4,9 @@
 
 ## Prototyping
 
+Rule of Optimization: Prototype before polishing. Get it working before you optimize it.
+
+* [Rule of optimization](http://www.faqs.org/docs/artu/ch01s06.html#id2879078)
 * [Composite](http://www.getcomposite.com/)
 * [Hackathon Starter](https://github.com/sahat/hackathon-starter)
 * [2014 - The year of design tools](https://medium.com/@extremelyn/2014-the-year-of-design-tools-3c449d771e62)

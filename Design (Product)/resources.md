@@ -7,6 +7,7 @@ It's not about the product, it's about your users.
 * [**Platform stack**](http://platformed.info/platform-stack/)
 * [**Bringing Design to Software**](http://hci.stanford.edu/publications/bds/)
 * [**Design the user, not the experience**](https://userbrain.net/blog/design-the-user)
+* [Balancing short and long term product thinking](https://medium.com/@lissalauren/balancing-short-and-long-term-product-thinking-c88d9b51452b)
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)
 * [Don't give your user shit work](http://zachholman.com/posts/shit-work/)
 * [**Facebook UX master offers some must-reads**](http://ideas.ted.com/2015/01/20/want-to-dig-into-design-facebooks-ux-master-offers-some-must-reads/)

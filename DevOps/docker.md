@@ -34,6 +34,7 @@ Operationalized and Orchestration.
 * [Docker Hype](http://iops.io/blog/docker-hype/)
 * [Docker vs Reality](http://www.krisbuytaert.be/blog/docker-vs-reality-0-1)
 * [Separation Anxiety: A tutorial for isolating your system with Linux namespaces](http://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces)
+* [Running Jenkins](http://www.catosplace.net/blog/2015/02/11/running-jenkins-in-docker-containers/)
 
 ```
 docker version
@@ -103,7 +104,7 @@ Embrace reusability in Dockerfile. Write general requirements early (make use of
 
 The `RUN` is for build-time and `CMD` is for run-time.
 
-```
+```dockerfile
 FROM <base_image>
 MAINTAINER mech "tech1@jobline.com.sg"
 RUN apt-get update

@@ -30,6 +30,7 @@ The point of promises:
 * [Task.js](http://taskjs.org/)
 * [The Promised Land](https://www.youtube.com/watch?v=mZHO1ZTsoFk#t=2439)
 * [Callbacks are imperative, promises are functional](https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/)
+* [Event loop and done callback](http://blog.namangoel.com/breadthfirstlog-with-the-event-queue)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 

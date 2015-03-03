@@ -15,6 +15,8 @@ Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 
 * [**6to5**](http://6to5.org/)
 * [ES6 coding style](https://github.com/elierotenberg/coding-styles/blob/master/es6.md)
+* [ES6 and io.js](http://davidwalsh.name/es6-io)
+* [ES6 modules: the final syntax](http://www.2ality.com/2014/09/es6-modules-final.html)
 * [ESLint](http://eslint.org/)
 * [Replace CoffeeScript with ES6](http://robots.thoughtbot.com/replace-coffeescript-with-es6)
 * [**Understanding ES6**](https://leanpub.com/understandinges6/read)

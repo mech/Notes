@@ -5,6 +5,11 @@
 * [Devise and Rfm?](http://stackoverflow.com/questions/16061134/devise-on-ginjo-rfm)
 * [Official documentation](http://www.filemaker.com/support/product/documentation.html)
 
+## External Storage
+
+* [Storing container field data externally](http://help.filemaker.com/app/answers/detail/a_id/10244/~/storing-container-field-data-externally)
+* [FileMaker 12 Managing Container Data](http://www.dbservices.com/articles/filemaker-12-managing-container-data)
+
 ## Custom Web Publishing with XML
 
     /fmi/xml/fmresultset.xml?-db=FMServer_Sample&-lay=Tasks&-findall=

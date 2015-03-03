@@ -1,5 +1,6 @@
 # Linux
 
+* [**Basics of Unix Philosophy**](http://www.faqs.org/docs/artu/ch01s06.html)
 * [First 5 minutes troubleshooting a server](http://devo.ps/blog/troubleshooting-5minutes-on-a-yet-unknown-box/)
 * [Linux TCP/IP tuning for scalability](http://www.lognormal.com/blog/2012/09/27/linux-tcpip-tuning/)
 * [Allow setting `ulimits` for containers](https://github.com/docker/docker/pull/9437)
