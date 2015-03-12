@@ -76,6 +76,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Style guide best practices](http://bradfrost.com/blog/post/style-guide-best-practices/)
 * [Organizing CSS color palettes](https://news.layervault.com/stories/41926-organizing-css-color-palettes)
 * [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
+* [CSS namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 
 ## Playbook
 

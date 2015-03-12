@@ -4,6 +4,8 @@ Why SPA? Imagine using Facebook where every like and every comment made you refr
 
 https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%20-%20Declarative%20Component%20Module.js
 
+After a while, you will see the "cascading updates" problem, where a ListView will trigger a side drawer for input and once done, hide the drawer, update the ListView and update the counter, present a new dialog based on the newly added list, etc.
+
 ## Browser Support
 
 If you need IE8 support, you need to include [es5-shim](https://github.com/kriskowal/es5-shim) yourself to make use of several `Array` and `Date` functions.
@@ -109,6 +111,12 @@ Model your UI as pure function.
 * [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
 * [React.rb using Opal](https://github.com/zetachang/react.rb)
 * [Some useful React utils](https://github.com/facebook/react/tree/master/src/utils)
+* [Fresh on our radar: React Native](http://www.railslove.com/stories/fresh-on-our-radar-react-native)
+* [Container components](https://medium.com/@learnreact/container-components-c0e67432e005)
+* [Glimmer in React](https://github.com/facebook/react/issues/3226)
+* [React: Create maintainable, high-performance UI components - IBM developerWorks](http://www.ibm.com/developerworks/library/wa-react-intro/index.html)
+* [React tutorial and guide to the gotchas](https://zapier.com/engineering/react-js-tutorial-guide-gotchas/)
+* [Implementing React.js in Swift?](http://blog.scottlogic.com/2015/03/05/reactjs-in-swift.html)
 
 ```
 var gulp = require('gulp');
@@ -239,6 +247,8 @@ function HellMessage(initialProps) {
 
 ## Props and States
 
+* [Demystifying React Components State](http://www.sitepoint.com/demystifying-react-components-state/)
+
 In Backbone, you are coding imperatively to specify when something changes, certain things should happen through it various view events setup.
 
 In React, things are more declarative. You specify how your UI should look like at the `render()` and through `props` and `states` changes, the UI will change.
@@ -315,6 +325,7 @@ Take a moment and think more critically about where `state` should be owned in t
 
 * [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
 * [React nested router](https://www.youtube.com/watch?v=P6xTa3RRzfA#t=2300)
+* [Dynamically placed outlets vs Ember portal?](https://twitter.com/ryanflorence/status/572992231239372800)
 
 ## Flux (CQRS)
 
@@ -323,6 +334,8 @@ Facebook originally build web applications using an MVC architecture. As applica
 Flux is like a game engine. A single, global dispatcher acts like a event bus to broadcast events and allow other components to registers callbacks to listen for those events.
 
 Because if 2-way data-binding it's not clear how the data flows because it can flow in all directions (including from child components to parents) - this makes it hard to understand the app and understand of impact of model changes in one part of the app on another (seemingly unrelated) part of it.
+
+Tightly coupled method invocations are transformed into loosely coupled data flow by actions.
 
 * Actions - Exports functions that the views can call. Talks to the servers. Builds payloads and sends them to the Dispatcher.
 * Dispatcher - Takes a payload from the Actions. Passes payload to Stores via registered callbacks.
@@ -462,6 +475,7 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 * [React Magician](https://github.com/SanderSpies/react-magician)
 * [Great.dj](https://github.com/ruiramos/greatdj)
 * [Building a multi-step registration form](http://viget.com/extend/building-a-multi-step-registration-form-with-react)
+* [AirBnb](https://github.com/airbnb/airpal)
 
 ## Companies using React
 

@@ -4,6 +4,7 @@
 * [First 5 minutes troubleshooting a server](http://devo.ps/blog/troubleshooting-5minutes-on-a-yet-unknown-box/)
 * [Linux TCP/IP tuning for scalability](http://www.lognormal.com/blog/2012/09/27/linux-tcpip-tuning/)
 * [Allow setting `ulimits` for containers](https://github.com/docker/docker/pull/9437)
+* [Understanding Linux CPU stats](http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats)
 
 ```
 // 6 minutes to shutdown with this file /etc/nologin

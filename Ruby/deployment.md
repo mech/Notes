@@ -68,6 +68,7 @@ X-Frame-Options: SAMEORIGIN
 ## Capistrano
 
 * [Capistrano Version 3](https://medium.com/p/ba896a142ac)
+* [Capistrano 3 Rails](https://github.com/TalkingQuickly/capistrano-3-rails-template)
 
 ## Videos
 

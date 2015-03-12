@@ -3,6 +3,7 @@
 * [Differences between login and non-login shell](http://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell/46856#46856)
 * [Cron email only errors](http://serverfault.com/questions/226074/cron-only-get-errors-in-emails)
 * [Chmod Calculator](http://chmodcalc.com/)
+* [10 tips for wonderful bash productivity](https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/)
 
 ```
 shutdown now    # Shutdown
@@ -211,6 +212,8 @@ egrep ^r /etc/passwd              # Find all that starts with 'r'
 egrep '[bash|false]$' /etc/passwd # Find all that ends with bash or false
 
 grep lisa * 2> /dev/null # If we do not want to see too many error output
+
+grep -B 3 -A 2 foo README.txt
 ```
 
 ## Filtering

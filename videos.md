@@ -13,6 +13,7 @@ document.getElementsByTagName('video')[0].playbackRate = 1.25;
 * [UX videos](http://www.mysliderule.com/learning-paths/user-experience-design/learn/)
 * [The Conference](http://videos.theconf.se/)
 * [NDC Conference](https://vimeo.com/ndcoslo)
+* [List of programming screencast series](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
 
 
 

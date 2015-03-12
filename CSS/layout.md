@@ -16,6 +16,7 @@ History of layout in CSS is table, float, inline-block, flexbox, then grid.
 * [Content filter UI example](http://codyhouse.co/gem/content-filter/)
 * [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
 * [Build Scalable, Automated CSS](https://www.youtube.com/watch?v=Tk_0qYEFtAY)
+* [**Carousels are easily abused**](https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/)
 
 ## Example
 
@@ -196,6 +197,7 @@ Supported in Chrome 21+, Safari 6.1+, Firefox 22+, Opera 12.1+, IE 11+, and Blac
 
 Separate it into layout-object and content-object.
 
+* [**Flexbox in 5 minutes**](http://flexboxin5.com/)
 * [**flexbox, you're too good to me**](https://twitter.com/floydophone/status/564948693783023616)
 * [**Don't use flex box for overall page layout**](http://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/)
 * [**Flexbugs - List of flexbox issues and workarounds**](https://github.com/philipwalton/flexbugs)

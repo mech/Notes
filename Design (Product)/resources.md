@@ -6,6 +6,8 @@ It's not about the product, it's about your users.
 
 * [**Platform stack**](http://platformed.info/platform-stack/)
 * [**Bringing Design to Software**](http://hci.stanford.edu/publications/bds/)
+* [**The Web's Grain**](http://frankchimero.com/talks/the-webs-grain/transcript/)
+* [Gibbon university](http://blog.gibbon.co/posts/2015-03-04-introducing-gibbon-university.html)
 * [**Design the user, not the experience**](https://userbrain.net/blog/design-the-user)
 * [Balancing short and long term product thinking](https://medium.com/@lissalauren/balancing-short-and-long-term-product-thinking-c88d9b51452b)
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)

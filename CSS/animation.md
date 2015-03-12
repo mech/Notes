@@ -47,6 +47,7 @@
 * [Authentic motion](http://www.google.com/design/spec/animation/authentic-motion.html)
 * [Hardware accelerated CSS: The nice vs the naughty](http://calendar.perfplanet.com/2014/hardware-accelerated-css-the-nice-vs-the-naughty/)
 * [Spinner animation](http://tobiasahlin.com/spinkit/)
+* [Flipside dialog](https://github.com/hakimel/css/tree/master/flipside)
 
 ---
 

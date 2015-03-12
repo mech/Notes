@@ -61,6 +61,7 @@
 * [**Zynga scroller**](http://zynga.github.io/scroller/)
 * [60fps scrolling](http://engineering.flipboard.com/2015/02/mobile-web/)
 * [flickity](http://flickity.metafizzy.co/)
+* [React slideout](https://mango.github.io/slideout/)
 
 ## Date
 

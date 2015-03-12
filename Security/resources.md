@@ -2,6 +2,11 @@
 
 * [Expose any folder as HTTPS fileserver](https://github.com/inconshreveable/srvdir)
 * [ShellShock](http://alblue.bandlem.com/2014/09/bash-remote-vulnerability.html)
+* [10 ways to generate random password](http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/)
+
+```
+openssl rand -base64 6
+```
 
 ## NSA
 

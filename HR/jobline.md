@@ -67,6 +67,7 @@ FitAgent, Fit4Hire, FitSense
 * ["Helping you DISCOVER a special thing: SELF"](http://joshsummers.co.uk/2015/02/16/Lego-1981-Beautiful-Advert/)
 * For Timesheet, let CA opt-in to work on Public Holiday, instead of having them opt-out when they press the "default" hours to pre-filled the working hours.
 * Case study for extensions. See Docker Machine's provider concept or Vagrant provider concept. If Jobline need any customisation for our customer, we can use such provider concept. Like Manpower Staffing cannot login, etc.. instead of hardcoding emails into the Dashboard controller.
+* FileMaker log has device tracking, for web do we even know which devices tag to user account to check if they can access the content. For example the case with Andrew accessing FileMaker using Janna Rose's password. Do our web have such capability to track?
 
 ```
 /cc @simon, @mech, @amy

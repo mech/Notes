@@ -1,5 +1,11 @@
 # Docker
 
+* [Docker News](http://blog.getcrane.com/docker-news/the-best-of-docker-last-week-2nd-march)
+
+Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
+
+Containers as services instead of virtual machines. Following the example of Heroku (12Factors)
+
 Tighten iteration loop.
 
 OODA loop - Observe, Orient, Decide, Art. The one that win is the one that can go around this loop the fastest. Move the fastest, iterate the fastest.
@@ -8,7 +14,11 @@ Developer worries about what's "inside" the container. His code, libraries, pack
 
 Ops worries what's "outside" the container. Login, remote address, monitoring, network config. All containers start, stop, copy, attach, migrate the same way.
 
+Good for Microservices, Batch Processing, Immutable Infrastructure...?
+
 Operationalized and Orchestration.
+
+![Docker Flow](https://dl.dropboxusercontent.com/u/6815194/Notes/docker_flow.png)
 
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
 * [In Tech We Trust Podcast](http://intechwetrustpodcast.com/)
@@ -27,7 +37,6 @@ Operationalized and Orchestration.
 * [Service registry bridge for Docker](https://github.com/progrium/registrator)
 * [Overlay network](https://github.com/coreos/flannel)
 * [dotScale 2013 - Solomon Hykes - Why we built Docker](https://www.youtube.com/watch?v=3N3n9FzebAA)
-* [Flocker](https://github.com/clusterhq/flocker)
 * [Fig and Panamax](http://panamax.io/)
 * [Digital Ocean docker tutorial series](https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem)
 * [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
@@ -35,6 +44,12 @@ Operationalized and Orchestration.
 * [Docker vs Reality](http://www.krisbuytaert.be/blog/docker-vs-reality-0-1)
 * [Separation Anxiety: A tutorial for isolating your system with Linux namespaces](http://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces)
 * [Running Jenkins](http://www.catosplace.net/blog/2015/02/11/running-jenkins-in-docker-containers/)
+* [Flocker](https://github.com/clusterhq/flocker)
+* [Powerstrip](https://github.com/ClusterHQ/powerstrip)
+* [Weave](https://github.com/zettio/weave)
+* [docker exec is your boss](http://standalonex.com/docker-exec-is-your-boss/)
+* [Deep dive into Docker storage drivers](http://jpetazzo.github.io/assets/2015-03-03-not-so-deep-dive-into-docker-storage-drivers.html#1)
+* [An alerting dashboard for Graphite](https://github.com/scobal/seyren)
 
 ```
 docker version
@@ -50,8 +65,10 @@ docker -v
 /usr/share/man/man1/
 
 // Find out how much containers
+// The AuFS mount-point for a container is
+// `/var/lib/docker/aufs/mnt/$CONTAINER_ID/`
 ▶ sudo du -sh /var/lib/docker
-▶ df -h /var/lib/docker/
+▶ df -h /var/lib/docker
 ```
 
 2-3% CPU utilization is very typical of a single server. Hypervisor changed that to increase more usage per machine. Container can change it even further.
@@ -70,7 +87,15 @@ It's important to understand that it is far simpler to manage Docker if you view
 
 Prep your images to make it faster.
 
-* [Phusion](https://github.com/phusion/baseimage-docker)
+* [Phusion baseimage-docker](https://github.com/phusion/baseimage-docker)
+* [Docker and the PID 1 zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
+* [ADD does not honour USER](https://github.com/docker/docker/issues/6119)
+* [Caching and `apt-get update`](https://github.com/docker/docker/issues/3313)
+* [Dockerfile Best Practices - take 2](http://crosbymichael.com/dockerfile-best-practices-take-2.html)
+* Instructions like `ADD` are not cache friendly. `ADD` stuff as late as possible in the Dockerfile.
+* [Amazon S3 registry](https://github.com/dogestry/dogestry)
+* [Docker tricks of the trade and best practices thoughts](http://www.carlboettiger.info/2014/08/29/docker-notes.html)
+* [Understanding Docker cache for faster builds](http://thenewstack.io/understanding-the-docker-cache-for-faster-builds/)
 
 A Docker image is made up of filesystem layered over each other. First layer is the `bootfs` and next layer is the `rootfs`. More filesystem will be union mounted to appear as one filesystem. Docker calls each of these filesystems images.
 
@@ -82,6 +107,7 @@ docker save
 docker search
 docker tag
 docker build
+docker build -f other_Dockerfile
 docker pull (Preemptively pull down images)
 ```
 
@@ -94,7 +120,7 @@ docker pull (Preemptively pull down images)
 
 `Dockerfile` is recommended because it provides a more repeatable, transparent, and idempotent mechanism for creating images.
 
-Where you put the `Dockerfile` is where Docker will get its context or build context from. Do not use `/` as your build directory.
+Where you put the `Dockerfile` is where Docker will get its context or build context from. Do not use `/` as your build directory. Use `.dockerignore` to keep the image small and the build fast by decreasing the chance of cache busting.
 
 Each instruction in `Dockerfile` is a new layer. Docker runs the container, perform the instruction, commit it and stop it. Then repeat the whole process again for the next instruction.
 
@@ -107,8 +133,8 @@ The `RUN` is for build-time and `CMD` is for run-time.
 ```dockerfile
 FROM <base_image>
 MAINTAINER mech "tech1@jobline.com.sg"
-RUN apt-get update
-RUN apt-get install -y nginx
+RUN apt-get update && \
+    apt-get install -y nginx
 
 RUN mkdir -p /var/www/html
 
@@ -165,6 +191,10 @@ You can also build from a git source:
 
 `docker build -t "x/y" https://github.com/x/y`
 
+With Docker 1.5, you can now used named Dockerfile:
+
+`docker build -f <docker-file> <docker-context-root-dir>`
+
 ### ONBUILD
 
 The `ONBUILD` instruction is a trigger. It sets instructions that will be executed when another image is built from the image being build. This is useful for building images which will be used as a base to build other images.
@@ -174,6 +204,56 @@ ONBUILD ADD . /app/src
 ```
 
 `ONBUILD` can't be used to trigger `FROM` and `MAINTAINER` instructions.
+
+### Clean up
+
+If a Docker build fails, Docker does not clean up the intermediate containers built up until that point. Docker treats the intermediate containers as build cache. Make sure you perform all package installations and software compilations before you `ADD` folders.
+
+A good strategy is to tag your final built container so that it gets added to the Docker's image list. A tagged image which appear in the image list is a fully self-contained container which can then be used to seed new containers.
+
+```
+▶ docker rmi -f $(docker images | grep "^<none>" | awk '{print $3}')
+
+// Remove all stopped containers
+▶ docker rm $(docker ps -a | grep Exited | awk '{print $1}')
+▶ docker rm -v $(docker ps -a -q -f status=exited)
+	
+// Clean up un-tagged docker images
+▶ docker rmi $(docker images -q --filter "dangling=true")
+▶ docker rmi $(docker images -q -f dangling=true)
+
+// Stop and remove all containers (including running containers!)
+▶ docker rm -f $(docker ps -a -q)
+```
+
+We can have a bash script for deployment also (untested)
+
+```
+#!/usr/bin/env bash
+set -e
+
+echo '>>> Get old container id'
+CID=$(sudo docker ps | grep "project" | awk '{print $1}')
+echo $CID
+
+echo '>>> Building new image'
+sudo docker built -t="mywebapp"
+
+echo '>>> Stopping old container'
+if [ "$CID" != "" ];
+then
+  sudo docker stop $CID  
+fi
+
+echo '>>> Restarting docker'
+sudo service docker restart
+sleep 5
+
+echo '>>> Starting new container'
+sudo docker run -p 433:433 -p 80:80 -d webapp
+```
+
+If there is POWER OUTAGE which leads to unclean shutdown, you may get unkillable container (ghosts) which should be fixed in Docker 0.9.
 
 ## Container
 
@@ -234,125 +314,20 @@ Inspect the container:
 ▶ docker inspect --format='{{.State.Pid}}' container_name
 ```
 
+### Container Restart Policy
 
-## Networking
-
-* [Network port mapping](http://docs.docker.com/userguide/dockerlinks/#network-port-mapping-refresher)
-* [Network configuration - More advanced](https://docs.docker.com/articles/networking/)
-* [Socketplane - Instead of using docker0, use Open vSwitch](http://www.socketplane.io/)
-
-Binding specific IP and port:
-
-```
-▶ sudo docker run -d -p 127.0.0.1:80:80 --name jobline_web jobline/nginx
-
-▶ sudo docker port webapp 80
-▶ sudo docker port redis
-```
-
-The `-p` flag can be used multiple times to configure multiple ports like 80 and 443.
-
-Every Docker container is assigned an IP address though the `docker0` interface.
-
-```
-▶ ip a show docker0
-▶ brctl show docker0
-▶ ip -f inet a
-```
-
-`docker0` is a virtual switch created entirely in software.
-
-### Linking
-
-```
-▶ sudo docker run
-    -p 4567           # So we can access our webapp externally
-    --name webapp     
-    --link redis:db   # container_name:alias_name
-    -t
-    -i
-    -v $PWD/webapp:/opt/webapp
-    local/sinatra
-```
-
-The `--link` flag setup a parent-child link between 2 containers.
-
-No need to `-p` because parent can communicate to any open ports on the child container.
-
-Note: Linking only works on a single Docker host. You can't link between containers on separate Docker hosts.
-
-With the linking, you can find it at: `/etc/hosts` and ENV.
-
-```
-172.17.0.11	916f09cd3281
-127.0.0.1	localhost
-::1	localhost ip6-localhost ip6-loopback
-...
-172.17.0.10	db
-```
-
-You can then `ping db` or use it for your application source code. Or you can use `ENV['DB_PORT']`
-
-## Volume
-
-* [Managing data in containers](http://docs.docker.com/userguide/dockervolumes/)
-* Volumes are initialised when a container is created
-* Changes to a volume are made directly
-* Changes to a volume will not be included when you update an image
-* Volumes persist (even when not running) until no containers use them (different from mounted host volume)
-* Data volumes bypass the union file system. In other words, they are not captured by `docker commit`.
-* It is possible to share a volume with a stopped container.
-
-This allow us to add data (like source code), a database, log files, or other content into an image without committing it to the image and allows us to share that data between containers. Volume will not be included when we commit or build an image.
-
-The VOLUME is just a directory that bypass the layered Union File System to provide shared data. It is different from mounting host directory. To mount host directory as volume, you need to do it at run-time:
-
-```
-// Mount host directory /src/webapp into container at /opt/webapp
-// Use :ro for read-only mount
-// The content inside /opt/webapp will be replaced by the host's one
-▶ sudo docker run -d -v /src/webapp:/opt/webapp ubuntu
-
-// Similar effect to VOLUME instruction
-▶ sudo docker run -d -v /webapp ubuntu
-
-// Create a named data volume container
-// Purpose is just to share volume and not run application
-// After that any the real DB container can --volumes-from to mount /dbdata
-▶ sudo docker create -v /dbdata --name dbdata postgres
-▶ sudo docker run -d --volumes-from dbdata --name db1 postgres
-
-// More named data container examples
-▶ sudo docker run -v /var/volume1 -v /var/volume2 --name DATA busybox true
-
-// The following show how to backup your volume in
-// --rm - remove the container when it exits
-// It will backup to the current directory ($pwd)
-// In the container, the backup file will be at /backup/bak.tar
-// In the host, it will be at the current directory
-// From the host, you can then do an Amazon S3 upload
-▶ sudo docker run --rm --volumes-from dbdata -v $(pwd):/backup ubuntu tar cvf /backup/bak.tar /dbdata
-```
-
-When do you use `-v` and when do you use `--volumes-from`? In fact, that is the wrong question to ask. Both are used for the concept of volumes in general.
-
-When you mount using the `-v` option, you can then use that on other container using the `--volumes-from` flag. It really depends on how you organise your volumes.
-
-Should we use `ADD` instruction instead of volumes to house application code?
-
-## Data Container
-
-* [How to deal with persistent storage](http://stackoverflow.com/questions/18496940/how-to-deal-with-persistent-storage-e-g-databases-in-docker)
-* [Data-only container pattern](http://www.tech-d.net/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/)
-* [Advanced Docker volumes](http://crosbymichael.com/advanced-docker-volumes.html)
-* [Tiny Docker pieces, loosely joined](http://www.offermann.us/2013/12/tiny-docker-pieces-loosely-joined.html)
-* [Portable volumes using just the Docker CLI](https://clusterhq.com/blog/powerstrip-flocker-portable-volumes-using-just-docker-cli/)
-
+`docker inspect` will show the number of container restarts since Docker 1.5.0.
 
 ## Operational Logistics
 
 * [Gathering container metrics](http://jpetazzo.github.io/2013/10/08/docker-containers-metrics/)
 * [Understanding metrics roll-ups, retention and graph resolution](http://support.metrics.librato.com/knowledgebase/articles/66838)
+* [Service monitoring system and time series database](http://prometheus.io/)
+* [SoundClouds Prometheus suited for containers](http://thenewstack.io/soundclouds-prometheus-monitoring-system-time-series-database-suited-containers/)
+* [Good for backing up to Amazon S3](https://github.com/rlmcpherson/s3gof3r)
+* [ELK log analysis](https://www.cloudgear.net/blog/2015/apache-log-analysis-with-kibana-docker/)
+* [Container Advisor](https://github.com/google/cadvisor)
+* [fluentd](http://www.fluentd.org/)
 
 Logging (logstash, Kibana?), monitoring, and health management.
 
@@ -399,8 +374,26 @@ Orchestration is collection of things. Not just a single thing.
 
 ## Docker with Rails
 
+Requirements:
+
+* Ease of use
+* Zero downtime - HAProxy with sticky session
+* Automated
+
 Make use of COW and caching? Build every time? Developer develop on their laptop. They build Dockerfile to specify their requirements. They push it to the registry. Production pull down from registry and essentially build it and run it.
 
+Immutable Infrastructure - Build all the time? Completely replacing, instead of updating an existing part of your infrastructure makes your deployments less complex.
+
+Deploy images, not infrastructure updates. No updates. Make it immutable.
+
+Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kind of root privilege. Don't run them as root! Ever!
+
+* [**12 Factor**](http://12factor.net/)
+* [**Open vSwitch**](http://openvswitch.org/)
+* [**Zero Downtime Deployments with Docker**](https://www.youtube.com/watch?v=mQvIWIgQ1xg)
+* [**Production Deployment with Docker**](https://www.codeschool.com/blog/2015/01/16/production-deployment-docker/)
+* [Rails development using Docker and Vagrant](https://blog.abevoelker.com/rails-development-using-docker-and-vagrant/)
+* [A week of Docker](http://danielmartins.ninja/posts/a-week-of-docker.html)
 * [`$ ./jobline deploy`](https://github.com/fstephany/hello-pharo/blob/master/app)
 * [Capistrano-like with Ansible](http://blog.versioneye.com/2014/09/24/rebuilding-capistrano-like-deployment-with-ansible/)
 * [The why and how of Ansible and Docker](http://thechangelog.com/ansible-docker/)
@@ -408,16 +401,21 @@ Make use of COW and caching? Build every time? Developer develop on their laptop
 * [Ansible & Docker - The path to Continuous Delivery](http://gerhard.lazu.co.uk/ansible-docker-the-path-to-continuous-delivery-1)
 * [Deploy Rails app using Docker](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
 * [Dockerize a Rails app with Sidekiq](http://khanetor.com/2015/02/dockerize-a-rails-app-with-background-processing/)
-* [12 Factor](http://12factor.net/)
 * [Bash script for orchestration](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
+* [Multi-tier architecture tutorial](http://jeff-davis.blogspot.sg/2015/02/multi-tier-architecture-tutorial-using.html)
+* [Zero downtime deployments](http://docs.quay.io/solution/zero-downtime-deployments.html)
+* [Tiller?](https://github.com/markround/tiller)
 
 We can write bash script to stop, start and update our environment. We can even write script to go into maintenance mode and remove scheduled jobs first for FM to restart.
+
+**Tips** Pass the Rails env in via the `docker` command and mount the config directory as a volume.
 
 ```
 # File: docker-build.sh
 # This script will remove old builds and create a brand new one
 docker rm -f $(docker ps -aq) # Remove all non-running containers
 
+# Clean up orphaned images by deleting untagged images
 docker rmi -f $(docker images | grep "^<none>" | awk '{print $3}')
 docker rmi local/nginx-rails-passenger
 
@@ -437,12 +435,25 @@ docker run -d -p 80:80 -p 10022:22 --name jobline_web local/nginx /bin/sh /start
 /usr/sbin/sshd -D
 ```
 
+## Redis
+
+## Postgres
+
+## Sphinx
+
+## Nginx
+
+* [Deploying Nginx with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
+* [Some nginx example](http://curtisz.com/someone-set-us-up-the-docker/)
+
 ## Examples
 
 * [Netflix OSS](https://hub.docker.com/u/netflixoss/)
+* [Ghost blog and MariaDB with](http://blog.mewm.org/ghost-mariadb-with-docker-fig/)
 
 ## Videos
 
 * [Docker - A lot changed in a year - Feb 2015](https://www.youtube.com/watch?v=lCjp7AYCjCE)
 * [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
 * [Docker 101](https://www.youtube.com/watch?v=4W2YY-qBla0)
+* [Lightweight virtualization with LXC and Docker](https://events.yandex.ru/lib/talks/1085/)

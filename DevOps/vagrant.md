@@ -2,6 +2,10 @@
 
 * [Vagrant `default` name](http://stackoverflow.com/questions/17845637/vagrant-default-name)
 * [Configuration](http://docs.vagrantup.com/v2/virtualbox/configuration.html)
+* [HGFS issues](https://dantehranian.wordpress.com/2014/08/19/vagrant-vmware-resolving-waiting-for-hgfs-kernel-module-timeouts/)
+* [Fusion 7.1.1 and vmhgfs compatibility](http://askubuntu.com/questions/586221/vmhgfs-module-not-compilable-for-vmware-tools-9-9-0-fusion7-1-after-ubuntu-lin)
+* [vmware-tools-patches](https://github.com/rasa/vmware-tools-patches)
+* [vmhgfs module not compilable](https://communities.vmware.com/message/2477575)
 
 ## CentOS 7 Box
 
@@ -9,6 +13,9 @@
 * [Install VMware Tools](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1018414)
 * [How to install VMware Tools on RHEL7](http://www.ehowstuff.com/how-to-install-vmware-tools-on-rhel-7centos-7/)
 * [Installing VMware tools in a Linux VM](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1018414)
+
+`VMwareTools-9.9.2-2496486.tar.gz`
+`Linux bastion 3.16.0-31-generic #41~14.04.1-Ubuntu SMP Wed Feb 11 19:30:13 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux`
 
 ---
 1. Turn Shared Folder off
@@ -90,6 +97,8 @@ See your kernel-devel:
 * [Create a Ubuntu 12.04 box](http://thornelabs.net/2013/09/12/create-a-ubuntu-server-1204-lts-vagrant-base-box-from-scratch-using-vmware-fusion.html)
 * [Docker-friendly Vagrant base boxes by Phusion](https://github.com/phusion/open-vagrant-boxes)
 
+User is `vagrant` and password is `vagrant`
+
 ```
 ▶ sudo -s
 ▶ apt-get update
@@ -97,7 +106,7 @@ See your kernel-devel:
 ▶ apt-get dist-upgrade -y
 ▶ reboot
 
-▶ sudo apt-get install linux-headers-$(uname -r) build-essential
+▶ sudo apt-get install linux-headers-$(uname -r) build-essential htop git
 
 ▶ sudo bash -c 'echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'
 ▶ mkdir -m 0700 -p /home/vagrant/.ssh

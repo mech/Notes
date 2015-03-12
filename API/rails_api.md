@@ -1,5 +1,14 @@
 # Rails API
 
+Microservices:
+
+* High cohesion
+* Separation of concerns
+* Loose coupling
+* Uniform interface
+
+Large software projects stand a slim chance of ever being finished. Build for composability and disposability.
+
 * [**Proposal for v1.0 rc2 of json-api**](https://github.com/json-api/json-api/pull/341)
 * [Using Rails for API-only Apps - wycats](https://github.com/rails/rails/blob/efd557a60cd976ac17be9e238111a551599caeb5/railties/guides/source/api_app.textile)
 * [State of Rails API](http://hawkins.io/2012/03/state_of_rails_apis/)
@@ -26,3 +35,7 @@ There is also token revocation that allows us to invalidate a specific token and
 ## Sorting
 
 ## Pagination
+
+## Videos
+
+* [Creating RESTful, Hypermedia-based Microservices](https://www.youtube.com/watch?v=zbeMDM-zDNI)

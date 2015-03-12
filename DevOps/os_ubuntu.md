@@ -1,6 +1,7 @@
 # Ubuntu
 
 * [Basic setup for a new Linux server](http://devo.ps/blog/basic-setup-for-a-new-linux-server/)
+* [Bootable USB](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-pc-on-a-mac--cms-21187)
 
 ```
 ▶ sudo apt-get install htop dstat
@@ -13,6 +14,7 @@
 64-bit is called `amd64` and 32-bit is called `i386`. It is called `amd64` because AMD developed the 64-bit instruction extensions. Athlon 64 was the first to release 64-bit x86(x86-64) CPUs.
 
 * 14.10 - Utopic (3.16.0-23-generic)
+* 14.04.2 - (3.16.0-30-generic)
 * 14.04 - Trusty
 * 13.10 - Saucy
 * 13.04 - Raring
@@ -44,12 +46,53 @@
 
 ```
 ▶ locale-gen en_US.UTF-8 && echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale
+
+// To test it
+▶ locale
+```
+
+## IP Addresses
+
+* [Assign multiple IP addresses to one interface](http://askubuntu.com/questions/547289/how-can-i-from-cli-assign-multiple-ip-addresses-to-one-interface)
+
+```
+// Will be lost after reboot
+▶ sudo ip address add 172.16.100.17/24 dev eth0
+▶ ip address show eth0
+▶ sudo ip address del 172.16.100.17/24 dev eth0
+
+// To make it permanent, edit
+▶ vi /etc/network/interfaces
+
+iface eth0 inet dhcp
+
+iface eth0 inet static
+  address 172.16.100.17/24
+
+iface eth0 inet static
+  address 172.16.24.11/24
+  
+// Activate these settings without reboot
+// Must be in one line or else your SSH session will not survive
+▶ sudo ifdown eth0 && sudo ifup eth0
 ```
 
 ## APT
 
 ```
 ▶ apt-cache search ??
+```
+
+### PPA - Personal Package Archives
+
+* [Brightbox Ruby packages](https://www.brightbox.com/docs/ruby/ubuntu/)
+
+May need `software-properties-common`
+
+```
+▶ sudo add-apt-repository ppa:git-core/ppa
+▶ sudo apt-get update
+▶ sudo apt-get install git
 ```
 
 ## How do you upgrade kernel?
@@ -97,7 +140,9 @@ The following packages have been kept back:
 
 ## Installing Docker
 
-* [The memory cgroups and swap accounting](http://docs.docker.com/installation/ubuntulinux/#memory-and-swap-accounting)
+Remember to enable "Memory and Swap Accounting".
+
+* [**The memory cgroups and swap accounting**](http://docs.docker.com/installation/ubuntulinux/#memory-and-swap-accounting)
 * [UFW - Uncomplicated Firewall](https://help.ubuntu.com/community/UFW)
 * [How to setup a firewall with UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 
