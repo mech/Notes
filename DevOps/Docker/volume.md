@@ -19,6 +19,8 @@ The VOLUME is just a directory that bypass the layered Union File System to prov
 // Mount host directory /src/webapp into container at /opt/webapp
 // Use :ro for read-only mount
 // The content inside /opt/webapp will be replaced by the host's one
+// Not available on Dockerfile as VOLUME instruction due to the nature
+// of portability.
 ▶ sudo docker run -d -v /src/webapp:/opt/webapp ubuntu
 
 // Similar effect to VOLUME instruction
@@ -28,12 +30,16 @@ The VOLUME is just a directory that bypass the layered Union File System to prov
 // Purpose is just to share volume and not run application
 // After that any the real DB container can --volumes-from to mount /dbdata
 ▶ sudo docker create -v /dbdata --name dbdata postgres
+// Even if the original have the /dbdata it will get replaced!
 ▶ sudo docker run -d --volumes-from dbdata --name db1 postgres
 
 // More named data container examples
 ▶ sudo docker run -v /var/volume1 -v /var/volume2 --name DATA busybox true
 
-// The following show how to backup your volume in
+// The following show how to backup your volume.
+// Here, we create a new container and mounted the volume from the
+// dbdata container. We then mounted a local host directory as /backup
+//
 // --rm - remove the container when it exits
 // It will backup to the current directory ($pwd)
 // In the container, the backup file will be at /backup/bak.tar
@@ -52,6 +58,7 @@ Should we use `ADD` instruction instead of volumes to house application code?
 
 When Docker updates a container, it doesn't apply a patch or update, it rebuilds the entire container. You use Dockerfile to add the applications and components you need. So how the heck are you supposed to use a database then? Can't really afford to wipe that data.
 
+* [**Dangling volumes are difficult to get rid of**](https://github.com/docker/docker/pull/8484)
 * [How to deal with persistent storage](http://stackoverflow.com/questions/18496940/how-to-deal-with-persistent-storage-e-g-databases-in-docker)
 * [Data-only container pattern](http://www.tech-d.net/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/)
 * [Advanced Docker volumes](http://crosbymichael.com/advanced-docker-volumes.html)
@@ -71,3 +78,9 @@ Mounting data directories directly from the host is considered a hack, which can
 When you type a command which requires Docker to mount a directory from the host, the result of that command depends on your particular host.
 
 This problem is amplified by the fact that bind-mounts do not abstract ownership and permission bits.
+
+To remove volume from disk, you must
+
+```
+▶ sudo docker rm -v <container_id>
+```

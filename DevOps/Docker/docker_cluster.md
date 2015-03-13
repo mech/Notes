@@ -29,6 +29,22 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 * [Proposal: Network Driver](https://github.com/docker/docker/issues/9983)
 * [Dynamic Docker links with an ambassador powered by etcd](https://github.com/tcnksm/docker-link-pattern/tree/master/coreos/dynamic-etcd-ambassador)
 
+## Docker Compose
+
+Multi-container apps are a hassle.
+
+* Build images from Dockerfiles
+* Pull images from the Hub
+* Configure and create containers
+* Start and stop containers
+* Stream their logs
+
+## Container Orchestration
+
+* [Fig is now docker-compose](http://chrisbarra.me/posts/docker-orchestration.html)
+* [Crane - Lift containers with ease](https://github.com/michaelsauter/crane)
+
+Orchestration is collection of things. Not just a single thing.
 
 
 Discoverd

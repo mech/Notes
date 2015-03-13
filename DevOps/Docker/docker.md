@@ -1,6 +1,7 @@
 # Docker
 
 * [Docker News](http://blog.getcrane.com/docker-news/the-best-of-docker-last-week-2nd-march)
+* [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 
@@ -20,7 +21,7 @@ Operationalized and Orchestration.
 
 ![Docker Flow](https://dl.dropboxusercontent.com/u/6815194/Notes/docker_flow.png)
 
-* [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
+* [**buildpack-deps**](https://github.com/docker-library/buildpack-deps/blob/master/jessie/Dockerfile)
 * [In Tech We Trust Podcast](http://intechwetrustpodcast.com/)
 * [Century Link Labs](http://www.centurylinklabs.com/)
 * [Flynn](https://flynn.io/)
@@ -83,7 +84,9 @@ Ephemeral: Container is dump. Spin and terminate. Log elsewhere! DB elsewhere!
 
 It's important to understand that it is far simpler to manage Docker if you view it as role-based VM rather than as deployable single-purpose processes. Go for role-based containers (app, db, cache, etc.)
 
-## Image
+## Image - Build --tag
+
+Containers are nothing. It is already too late to do anything at run-time. Images are the "shippable" units and where it matters most.
 
 Prep your images to make it faster.
 
@@ -111,6 +114,8 @@ docker build -f other_Dockerfile
 docker pull (Preemptively pull down images)
 ```
 
+One of the reasons Docker is so lightweight is because of these layers. When you change a Docker image, like update an application to a new version, a new layer gets built. Thus, rather than replacing the whole image or entirely rebuilding, only that layer is added or updated. You don't need to distribute a whole new image, just the update, making it faster and simpler.
+
 ### Building our own images
 
 2 ways to do it:
@@ -120,9 +125,11 @@ docker pull (Preemptively pull down images)
 
 `Dockerfile` is recommended because it provides a more repeatable, transparent, and idempotent mechanism for creating images.
 
-Where you put the `Dockerfile` is where Docker will get its context or build context from. Do not use `/` as your build directory. Use `.dockerignore` to keep the image small and the build fast by decreasing the chance of cache busting.
+Where you put the `Dockerfile` is where Docker will get its context or build context from. Do not use `/` as your build directory. Use `.dockerignore` to keep the image small and the build fast by decreasing the chance of cache busting. See [Issue#2224](https://github.com/docker/docker/issues/2224)
 
-Each instruction in `Dockerfile` is a new layer. Docker runs the container, perform the instruction, commit it and stop it. Then repeat the whole process again for the next instruction.
+Each instruction in `Dockerfile` is a new layer. Docker runs the container, perform the instruction, commit it and stop it. Then repeat the whole process again for the next instruction. When all instructions have been executed, the intermediate containers will get removed to clean things up.
+
+127 layer limits.
 
 * [Dockerfile builder reference](http://docs.docker.com/reference/builder/)
 
@@ -158,6 +165,7 @@ RUN bundle install
 WORKDIR /opt/webapp
 ENTRYPOINT ["rackup"]
 
+# A marker that says these are my mount points from native host or other containers
 VOLUME ["/opt/project", "/data"]
 
 # Use array syntax is better than string
@@ -199,6 +207,12 @@ With Docker 1.5, you can now used named Dockerfile:
 
 The `ONBUILD` instruction is a trigger. It sets instructions that will be executed when another image is built from the image being build. This is useful for building images which will be used as a base to build other images.
 
+`ONBUILD` is only useful for images that are going to be built `FROM` a given image. You would typically use `ONBUILD` for a language stack image that builds arbitrary user software written in that language with the Dockerfile.
+
+See [Rails](https://registry.hub.docker.com/_/rails/) ONBUILD example
+
+Images built from `ONBUILD` should get a separate tag.
+
 ```
 ONBUILD ADD . /app/src
 ```
@@ -228,6 +242,8 @@ A good strategy is to tag your final built container so that it gets added to th
 
 We can have a bash script for deployment also (untested)
 
+See [Automated deployment with Docker - Lesson learnt](http://www.hiddentao.com/archives/2013/12/26/automated-deployment-with-docker-lessons-learnt/)
+
 ```
 #!/usr/bin/env bash
 set -e
@@ -255,7 +271,7 @@ sudo docker run -p 433:433 -p 80:80 -d webapp
 
 If there is POWER OUTAGE which leads to unclean shutdown, you may get unkillable container (ghosts) which should be fixed in Docker 0.9.
 
-## Container
+## Container - Run --name
 
 Inside `/var/lib/docker/containers`
 
@@ -354,86 +370,6 @@ For backup
 * Container processes only write to container files
 
 The `~/.dockercfg` configuration file holds Docker registry authentication credentials, so protect this file! It should be owned by your user with permissions of `0600`
-
-## Docker Compose
-
-Multi-container apps are a hassle.
-
-* Build images from Dockerfiles
-* Pull images from the Hub
-* Configure and create containers
-* Start and stop containers
-* Stream their logs
-
-## Container Orchestration
-
-* [Fig is now docker-compose](http://chrisbarra.me/posts/docker-orchestration.html)
-* [Crane - Lift containers with ease](https://github.com/michaelsauter/crane)
-
-Orchestration is collection of things. Not just a single thing.
-
-## Docker with Rails
-
-Requirements:
-
-* Ease of use
-* Zero downtime - HAProxy with sticky session
-* Automated
-
-Make use of COW and caching? Build every time? Developer develop on their laptop. They build Dockerfile to specify their requirements. They push it to the registry. Production pull down from registry and essentially build it and run it.
-
-Immutable Infrastructure - Build all the time? Completely replacing, instead of updating an existing part of your infrastructure makes your deployments less complex.
-
-Deploy images, not infrastructure updates. No updates. Make it immutable.
-
-Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kind of root privilege. Don't run them as root! Ever!
-
-* [**12 Factor**](http://12factor.net/)
-* [**Open vSwitch**](http://openvswitch.org/)
-* [**Zero Downtime Deployments with Docker**](https://www.youtube.com/watch?v=mQvIWIgQ1xg)
-* [**Production Deployment with Docker**](https://www.codeschool.com/blog/2015/01/16/production-deployment-docker/)
-* [Rails development using Docker and Vagrant](https://blog.abevoelker.com/rails-development-using-docker-and-vagrant/)
-* [A week of Docker](http://danielmartins.ninja/posts/a-week-of-docker.html)
-* [`$ ./jobline deploy`](https://github.com/fstephany/hello-pharo/blob/master/app)
-* [Capistrano-like with Ansible](http://blog.versioneye.com/2014/09/24/rebuilding-capistrano-like-deployment-with-ansible/)
-* [The why and how of Ansible and Docker](http://thechangelog.com/ansible-docker/)
-* [ansible-docker](https://github.com/gerhard/ansible-docker)
-* [Ansible & Docker - The path to Continuous Delivery](http://gerhard.lazu.co.uk/ansible-docker-the-path-to-continuous-delivery-1)
-* [Deploy Rails app using Docker](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
-* [Dockerize a Rails app with Sidekiq](http://khanetor.com/2015/02/dockerize-a-rails-app-with-background-processing/)
-* [Bash script for orchestration](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
-* [Multi-tier architecture tutorial](http://jeff-davis.blogspot.sg/2015/02/multi-tier-architecture-tutorial-using.html)
-* [Zero downtime deployments](http://docs.quay.io/solution/zero-downtime-deployments.html)
-* [Tiller?](https://github.com/markround/tiller)
-
-We can write bash script to stop, start and update our environment. We can even write script to go into maintenance mode and remove scheduled jobs first for FM to restart.
-
-**Tips** Pass the Rails env in via the `docker` command and mount the config directory as a volume.
-
-```
-# File: docker-build.sh
-# This script will remove old builds and create a brand new one
-docker rm -f $(docker ps -aq) # Remove all non-running containers
-
-# Clean up orphaned images by deleting untagged images
-docker rmi -f $(docker images | grep "^<none>" | awk '{print $3}')
-docker rmi local/nginx-rails-passenger
-
-docker build --rm -t local/nginx-rails-passenger .
-```
-
-```
-# docker-run.sh
-# This script will just run docker without you have to type it always
-docker run -d -p 80:80 -p 10022:22 --name jobline_web local/nginx /bin/sh /startup/docker-startup.sh
-```
-
-```
-# docker-startup.sh
-# Script to bring up services
-/usr/sbin/rabbitmq-server &
-/usr/sbin/sshd -D
-```
 
 ## Redis
 
