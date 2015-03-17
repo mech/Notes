@@ -1,7 +1,15 @@
 # Docker
 
+> How long would it take your organization to deploy a change that involves just one single line of code? (Lead time, cycle time) - Poppendieck (Release Cadence)
+
+Deming Cycle - Plan, Do, Check, Act
+
+Scientific Method - Hypothesize, Experiment, Evaluate
+
+* [**DevOps Kata**](http://devopsy.com/blog/2013/08/16/devops-kata-single-line-of-code/)
 * [Docker News](http://blog.getcrane.com/docker-news/the-best-of-docker-last-week-2nd-march)
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
+* [Giant Swarm blog](http://blog.giantswarm.io/)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 
@@ -22,6 +30,7 @@ Operationalized and Orchestration.
 ![Docker Flow](https://dl.dropboxusercontent.com/u/6815194/Notes/docker_flow.png)
 
 * [**buildpack-deps**](https://github.com/docker-library/buildpack-deps/blob/master/jessie/Dockerfile)
+* [**Docker patterns**](http://www.hokstad.com/docker/patterns)
 * [In Tech We Trust Podcast](http://intechwetrustpodcast.com/)
 * [Century Link Labs](http://www.centurylinklabs.com/)
 * [Flynn](https://flynn.io/)
@@ -88,6 +97,14 @@ It's important to understand that it is far simpler to manage Docker if you view
 
 Containers are nothing. It is already too late to do anything at run-time. Images are the "shippable" units and where it matters most.
 
+Where can you get your images?
+
+1. Docker Hub
+2. quay.io
+3. Your own private registry
+4. Manually load image from Amazon S3 store
+5. Build it yourself using Dockerfile
+
 Prep your images to make it faster.
 
 * [Phusion baseimage-docker](https://github.com/phusion/baseimage-docker)
@@ -121,21 +138,26 @@ One of the reasons Docker is so lightweight is because of these layers. When you
 2 ways to do it:
 
 1. Use `docker commit`
-2. Use `Dockerfile` with `docker build` (Recommended)
+2. Use Dockerfile with `docker build` (Recommended)
 
-`Dockerfile` is recommended because it provides a more repeatable, transparent, and idempotent mechanism for creating images.
+Dockerfile is recommended because it provides a more repeatable, transparent, and idempotent mechanism for creating images.
 
-Where you put the `Dockerfile` is where Docker will get its context or build context from. Do not use `/` as your build directory. Use `.dockerignore` to keep the image small and the build fast by decreasing the chance of cache busting. See [Issue#2224](https://github.com/docker/docker/issues/2224)
+Where you put the Dockerfile is where Docker will get its context or build context from. Do not use `/` as your build directory. Use `.dockerignore` to keep the image small and the build fast by decreasing the chance of cache busting. See [Issue#2224](https://github.com/docker/docker/issues/2224)
 
-Each instruction in `Dockerfile` is a new layer. Docker runs the container, perform the instruction, commit it and stop it. Then repeat the whole process again for the next instruction. When all instructions have been executed, the intermediate containers will get removed to clean things up.
+Each instruction in Dockerfile is a new layer. Docker runs the container, perform the instruction, commit it and stop it. Then repeat the whole process again for the next instruction. When all instructions have been executed, the intermediate containers will get removed to clean things up.
 
 127 layer limits.
 
 * [Dockerfile builder reference](http://docs.docker.com/reference/builder/)
+* [Optimizing your Dockerfile](http://tech.paulcz.net/2015/03/optimizing-your-dockerfiles/)
 
 Embrace reusability in Dockerfile. Write general requirements early (make use of cache container), commit and name relevant checkpoints, leave customisations last.
 
 The `RUN` is for build-time and `CMD` is for run-time.
+
+Don't treat your Dockerfile like a bash script.
+
+Sort your commands by frequency of change, the time it takes to run the command and how sharable it is with other images.
 
 ```dockerfile
 FROM <base_image>

@@ -11,6 +11,8 @@
 * [Benchmarking](http://blog.bleything.net/articles/postgresql-benchmarking-background.html)
 * [Inserting using new record](http://rob.conery.io/2015/02/09/inserting-using-new-record-postgres/)
 * [Embracing SQL in Postgres](http://rob.conery.io/2015/02/24/embracing-sql-in-postgres/)
+* [Simple continuous archiving for Postgres](https://github.com/wal-e/wal-e)
+* [s3cmd](http://s3tools.org/s3cmd)
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!

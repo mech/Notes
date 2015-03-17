@@ -117,6 +117,9 @@ Model your UI as pure function.
 * [React: Create maintainable, high-performance UI components - IBM developerWorks](http://www.ibm.com/developerworks/library/wa-react-intro/index.html)
 * [React tutorial and guide to the gotchas](https://zapier.com/engineering/react-js-tutorial-guide-gotchas/)
 * [Implementing React.js in Swift?](http://blog.scottlogic.com/2015/03/05/reactjs-in-swift.html)
+* [React is a terrible idea](https://www.pandastrike.com/posts/20150311-react-bad-idea)
+* [Component interop with React and Custom Element](http://addyosmani.com/blog/component-interop-with-react-and-custom-elements/)
+* [Mozilla and Web Component](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/)
 
 ```
 var gulp = require('gulp');
@@ -440,6 +443,7 @@ DOM operation is very expensive! Because modifying the DOM will also apply and c
 
 * [A Virtual DOM and diffing algorithm](https://github.com/Matt-Esch/virtual-dom)
 * [Issues/3](https://github.com/Matt-Esch/virtual-dom/issues/3)
+* [Virtual DOM and diffing algorithm](https://gist.github.com/Raynos/8414846)
 
 ## Re-render
 

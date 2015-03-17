@@ -29,11 +29,34 @@ Disruptor: Continuous Delivery with Containerized Microservices.
 
 Microservices - Loosely coupled service oriented architecture with bounded contexts.
 
+Monoliths try to share resources as much as possible. Monoliths can't scale read and write. No CQRS. No replacing of parts. See the case study of Iceland volcano where one airline couple their reservation and boarding into one system which lead them to delay their flight take off. The models may make sense to be together, but we must think about the Lifecycle instead.
+
+Conway's law - separate into domain rather than departmental. Products, not projects. Amazon build products, not projects. You build it, you own it!
+
+Smart endpoints, dump pipes.
+
+ACID vs BASE.
+
+Bounded Context - Decentralized Governance.
+
+Application routing.
+
+Asynchronous vs Synchronous - Temporal coupling. Send out request, but don't wait for response. Gun for eventual consistency. Event-driven architecture == Reactive == Choreography == Messaging.
+
+Duplicate data is bad. DRY in data is not necessarily good.
+
+Agile + DevOps + Microservices
+
+No shared persistence. Each services use their own mini database.
+
 * [Microservice - 72 resources](http://blog.arkency.com/2014/07/microservices-72-resources/)
+* [](http://microservices.io/)
 * [Cloud trends - Adrian Cockcroft](https://www.youtube.com/watch?v=VaFktjlLp5M)
 * [State of the Art in Microservices by Adrian Cockcroft](https://www.youtube.com/watch?v=nMTaS07i3jk)
 * [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
+* [Docker and related services enable a future of microservices for everyone](http://blog.giantswarm.io/docker-and-related-services-enable-a-future-of-microservices-for-everyone)
 
+Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 
 ## Design Patterns
 

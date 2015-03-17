@@ -199,6 +199,7 @@ Separate it into layout-object and content-object.
 
 * [**Flexbox in 5 minutes**](http://flexboxin5.com/)
 * [**flexbox, you're too good to me**](https://twitter.com/floydophone/status/564948693783023616)
+* [**Using flexbox today**](http://www.chriswrightdesign.com/experiments/using-flexbox-today/)
 * [**Don't use flex box for overall page layout**](http://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/)
 * [**Flexbugs - List of flexbox issues and workarounds**](https://github.com/philipwalton/flexbugs)
 * [Basscss flex-object](http://www.basscss.com/docs/layout/#flex-object)

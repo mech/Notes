@@ -27,6 +27,10 @@ Binding specific IP and port:
 
 The `-p` flag can be used multiple times to configure multiple ports like 80 and 443.
 
+There is a difference between exposing a port and publishing a port. Exposing a port simply means Docker will take note that the port in question is used by the container. This can be used for automated mappings and linkings.
+
+Publishing a port will map it to the host interface, making it available to the outside world.
+
 ### Linking
 
 Besides network port mappings, you can communicate with other containers through Docker linking system.

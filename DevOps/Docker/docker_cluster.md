@@ -1,6 +1,12 @@
 # Docker Cluster
 
 * [Benefits of Docker for application deployment](http://knitatoms.net/2013/12/benefits-of-docker-for-application-deployment/)
+* [SDN, Docker and the Real Changes Ahead](http://thenewstack.io/sdn-docker-real-changes-ahead/)
+* [SocketPlane == Open vSwitch + Consul + VXLAN + Docker](http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/)
+
+VXLAN - extend the LAN.
+
+DPDK accelerated OVS integration.
 
 ## Issues
 
@@ -46,6 +52,7 @@ Multi-container apps are a hassle.
 
 Orchestration is collection of things. Not just a single thing.
 
+SSH + systemd + etcd == Fleet (Overkill)
 
 Discoverd
 Ambassadord

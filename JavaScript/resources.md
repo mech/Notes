@@ -22,6 +22,7 @@ JavaScript dynamic duo (static type is overrated):
 * [Flow - Static type checker](http://flowtype.org/)
 * [Functional JavaScript](http://osteele.com/sources/javascript/functional/)
 * [Scoop JS resources](http://www.scoop.it/t/javascript-for-line-of-business-applications)
+* [The Jackal of JavaScript](http://thejackalofjavascript.com/)
 
 ## V8
 

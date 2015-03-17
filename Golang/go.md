@@ -2,6 +2,7 @@
 
 * [Why Go?](http://nathany.com/why-go/)
 * [Go Object Oriented Design](http://nathany.com/good/)
+* [Golang for Network Ops](http://networkstatic.net/golang-network-ops/)
 
 ```
 package main

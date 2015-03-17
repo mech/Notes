@@ -2,7 +2,21 @@
 
 **Jobline is a simple app. Don’t overcomplicate it.**
 
-Enterprise system is a complex, adaptive system. It cannot be understood by reductionism. One one single person can understand the whole system. It will have emergence behaviours. You cannot stop that behaviours. 
+Enterprise system is a complex, adaptive system. It cannot be understood by reductionism. One one single person can understand the whole system. It will have emergence behaviours. You cannot stop that behaviours.
+
+> Today my Jawbone is a fairly basic data collection device. It knows that I walked 8,000 steps and slept too little, but it doesn't drive me to action other than providing me with a visualization of the data. In the Age of Context this will change, as larger and larger data sets of sensor data, combined with other data combined with intelligent analytics allows data to become actionable.
+
+## Microservices
+
+* Client API
+* Talent API - Candidate, BIO, Resume/CV
+* ATS API - Applicant, Application, Pipeline
+* Billing API
+* Employment API
+
+Candidate in ATS bounded context is called Applicant. Don't ever create a God object for a single Candidate and try to write Applicant's behaviors in it.
+
+Be smart about your boundaries. Boundaries are explicit. Bounded Context.
 
 **1 week non-office remote days**
 

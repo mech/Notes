@@ -5,6 +5,9 @@ Requirements:
 * Ease of use
 * Zero downtime - HAProxy with sticky session
 * Automated
+* Save your image to S3 and manually load them
+
+During development, you might not want to build an image each time you iterate. So you use volumes for Polymorphic Container Pattern.
 
 Make use of COW and caching? Build every time? Developer develop on their laptop. They build Dockerfile to specify their requirements. They push it to the registry. Production pull down from registry and essentially build it and run it.
 
@@ -14,10 +17,14 @@ Deploy images, not infrastructure updates. No updates. Make it immutable.
 
 Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kind of root privilege. Don't run them as root! Ever!
 
+Mounting configuration files.
+
+* [**Deploy Rails app using Docker**](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
 * [**12 Factor**](http://12factor.net/)
 * [**Open vSwitch**](http://openvswitch.org/)
 * [**Zero Downtime Deployments with Docker**](https://www.youtube.com/watch?v=mQvIWIgQ1xg)
 * [**Production Deployment with Docker**](https://www.codeschool.com/blog/2015/01/16/production-deployment-docker/)
+* [**docker-rails-dev**](https://github.com/pywebdesign/docker-rails-dev)
 * [Rails development using Docker and Vagrant](https://blog.abevoelker.com/rails-development-using-docker-and-vagrant/)
 * [A week of Docker](http://danielmartins.ninja/posts/a-week-of-docker.html)
 * [`$ ./jobline deploy`](https://github.com/fstephany/hello-pharo/blob/master/app)
@@ -25,7 +32,6 @@ Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kin
 * [The why and how of Ansible and Docker](http://thechangelog.com/ansible-docker/)
 * [ansible-docker](https://github.com/gerhard/ansible-docker)
 * [Ansible & Docker - The path to Continuous Delivery](http://gerhard.lazu.co.uk/ansible-docker-the-path-to-continuous-delivery-1)
-* [Deploy Rails app using Docker](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
 * [Dockerize a Rails app with Sidekiq](http://khanetor.com/2015/02/dockerize-a-rails-app-with-background-processing/)
 * [Bash script for orchestration](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
 * [Multi-tier architecture tutorial](http://jeff-davis.blogspot.sg/2015/02/multi-tier-architecture-tutorial-using.html)
@@ -60,4 +66,14 @@ docker run -d -p 80:80 -p 10022:22 --name jobline_web local/nginx /bin/sh /start
 # Script to bring up services
 /usr/sbin/rabbitmq-server &
 /usr/sbin/sshd -D
+```
+
+```
+MINECRAFT=$(docker run -d minecraft)
+MAPSERVER=$(docker run -d mapserver)
+
+docker run --volumes-from $MINECRAFT --volumes-from $MAPSERVER mapgenerator
+
+// Put it in cron
+@hourly docker run --...
 ```

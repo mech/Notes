@@ -1,9 +1,11 @@
 # DevOps
 
+* [**DevOps Bookmarks by Heroku**](http://www.devopsbookmarks.com/)
 * [Empathy: The essence of DevOps](http://blog.ingineering.it/post/72964480807/empathy-the-essence-of-devops)
 * [Google engineer accidentally shares his internal memo about Google platform](http://siliconangle.com/furrier/2011/10/12/google-engineer-accidently-shares-his-internal-memo-about-google-platform/)
 * [11 costly website crashes](http://blog.smartbear.com/web-performance/11-costly-website-crashes-application-performance-bloopers/?imm_mid=0cb5e9&cmp=em-webops-na-na-newsltr_20150123)
 * [SysAdvent](http://sysadvent.blogspot.sg/)
+* [Cache is the new RAM](http://blog.memsql.com/cache-is-the-new-ram/)
 
 Gradual rollout, dark launching
 

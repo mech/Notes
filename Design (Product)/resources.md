@@ -79,6 +79,7 @@ It's not about the product, it's about your users.
 * [Best tools for designers](http://www.producthunt.com/saijo_george/collections/best-tools-for-designers)
 * [How to design for everybody](https://medium.com/@rachelhaot/how-to-design-for-everybody-4b2870724c4)
 * [Personas](https://medium.com/@mikeybrand/personas-f563f8ac087a)
+* [The Age of Context](https://medium.com/@christianhern/into-the-age-of-context-f0aed15171d7)
 
 ## Research
 
