@@ -10,6 +10,8 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Docker News](http://blog.getcrane.com/docker-news/the-best-of-docker-last-week-2nd-march)
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
 * [Giant Swarm blog](http://blog.giantswarm.io/)
+* [Tutum blog](http://blog.tutum.co/)
+* [Game Changer blog](http://tech.gc.com/)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 
@@ -29,6 +31,7 @@ Operationalized and Orchestration.
 
 ![Docker Flow](https://dl.dropboxusercontent.com/u/6815194/Notes/docker_flow.png)
 
+* [**Using OverlayFS with Docker on Ubuntu**](http://blog.thestateofme.com/2015/03/09/using-overlay-file-system-with-docker-on-ubuntu/)
 * [**buildpack-deps**](https://github.com/docker-library/buildpack-deps/blob/master/jessie/Dockerfile)
 * [**Docker patterns**](http://www.hokstad.com/docker/patterns)
 * [In Tech We Trust Podcast](http://intechwetrustpodcast.com/)
@@ -60,6 +63,8 @@ Operationalized and Orchestration.
 * [docker exec is your boss](http://standalonex.com/docker-exec-is-your-boss/)
 * [Deep dive into Docker storage drivers](http://jpetazzo.github.io/assets/2015-03-03-not-so-deep-dive-into-docker-storage-drivers.html#1)
 * [An alerting dashboard for Graphite](https://github.com/scobal/seyren)
+* [Scaling engineering with Docker](http://tech.gc.com/scaling-engineering-with-docker/)
+* [On-demand activation of Docker containers with systemd](https://developer.atlassian.com/blog/2015/03/docker-systemd-socket-activation/)
 
 ```
 docker version
@@ -91,7 +96,7 @@ Disruptor: Continuous delivery with containerized microservices.
 Microservices: Loosely coupled SOA with bounded contexts.
 Ephemeral: Container is dump. Spin and terminate. Log elsewhere! DB elsewhere!
 
-It's important to understand that it is far simpler to manage Docker if you view it as role-based VM rather than as deployable single-purpose processes. Go for role-based containers (app, db, cache, etc.)
+It's important to understand that it is far simpler to manage Docker if you view it as **role-based** VM rather than as deployable single-purpose processes. Go for role-based containers (app, db, cache, etc.)
 
 ## Image - Build --tag
 
@@ -107,6 +112,7 @@ Where can you get your images?
 
 Prep your images to make it faster.
 
+* [Docker Image Specification v1.0.0](https://github.com/docker/docker/blob/master/image/spec/v1.md)
 * [Phusion baseimage-docker](https://github.com/phusion/baseimage-docker)
 * [Docker and the PID 1 zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
 * [ADD does not honour USER](https://github.com/docker/docker/issues/6119)
@@ -170,9 +176,6 @@ RUN mkdir -p /var/www/html
 # 2 environment variable to save layer space
 # These ENVs are persisted into container
 ENV SMTP_PORT 250 HTTPD_PORT 80
-
-# No question/dialog allowed
-ENV DEBIAN_FRONTEND noninteractive
 
 # If end in /, then it is a directory
 # If archive, will be unpack
@@ -293,7 +296,9 @@ sudo docker run -p 433:433 -p 80:80 -d webapp
 
 If there is POWER OUTAGE which leads to unclean shutdown, you may get unkillable container (ghosts) which should be fixed in Docker 0.9.
 
-## Container - Run --name
+## Container - Run --name (Stateless, Ephemeral)
+
+Container should be stateless and ephemeral. Configuration is state. Mount it rather than put into Dockerfile?
 
 Inside `/var/lib/docker/containers`
 
@@ -332,6 +337,8 @@ docker port <container_id/name> <container_exposed_port_number>
 ▶ sudo docker start container_name
 ▶ sudo docker attach container_name
 
+// Replaces SSH
+▶ sudo docker exec -i -t app bash
 ▶ sudo docker exec -d container_name touch /home/this_is_new_file
 ▶ sudo docker exec -it container_name /bin/bash
 
@@ -358,6 +365,9 @@ Inspect the container:
 
 ## Operational Logistics
 
+Logging, Backup, Metric, etc.
+
+* [**logspout**](https://github.com/gliderlabs/logspout)
 * [Gathering container metrics](http://jpetazzo.github.io/2013/10/08/docker-containers-metrics/)
 * [Understanding metrics roll-ups, retention and graph resolution](http://support.metrics.librato.com/knowledgebase/articles/66838)
 * [Service monitoring system and time series database](http://prometheus.io/)
@@ -372,6 +382,8 @@ Logging (logstash, Kibana?), monitoring, and health management.
 * cgroups give us per-container measurement
 * Disable memory accounting
 * No overhead if you run `--net host` for networking
+* Log management: dump process logs to stdout and use a collection container like logspout
+* Alternatively mount /dev/log into your container
 
 For backup
 
@@ -381,17 +393,37 @@ For backup
 ▶ sudo docker run --rm --volumes-from mysqldata mysqlbackup tar -clf /var/lib/mysql | stream-it-to-the-cloud.py
 ```
 
-## Security
+```
+// A new style to do backup by Petazzoni
+▶ docker run --name mysqldata -v /var/lib/mysql busybox true
 
-* [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
-* Treat container services just like regular services. Drop privileges as quickly as possible. Do not run Nginx web server as root.
-* Use read-only mount points like `/sys`, `/proc/sys`.
-* Use capabilities to drop CAP_XX to minimize attack surface.
-* Remove network namespace for database container because maybe you don't need it.
-* SELinux protect the host system from container processes
-* Container processes only write to container files
+// Start app container sharing that volume
+▶ docker run --volumes-from mysqldata mysql
 
-The `~/.dockercfg` configuration file holds Docker registry authentication credentials, so protect this file! It should be owned by your user with permissions of `0600`
+// Create a separate image with backup tools
+// Dockerfile with
+▶ apt-get install rsync s3cmd
+
+// Use the special backup image
+▶ docker run --rm --volumes-from mysqldata mysqlbackup tar -cJf- /var/lib/mysql | stream-it-to-the-cloud.py
+```
+
+```
+// A new style to do log by Petazzoni
+
+// Create a data container to hold the logs
+▶ docker run --name logs -v /var/log busybox true
+
+// Start app container sharing that volume
+▶ docker run --volumes-from logs may
+
+// Inspect logs
+▶ docker run -it --volumes-from logs -w /var/log ubuntu bash
+▶ docker run -it --volumes-from logs turbogrep
+
+// Ship logs to somewhere else (logstash, syslog, splunk...)
+▶ docker run --volumes-from log pipestash
+```
 
 ## Redis
 

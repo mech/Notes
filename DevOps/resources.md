@@ -52,3 +52,4 @@ Each service has it's own database. StarBuck don't do 2-phase commit.
 ## People
 
 * [Tom Hayden](http://tomhayden3.com/)
+* [Adrian Cockcroft](http://perfcap.blogspot.sg/)

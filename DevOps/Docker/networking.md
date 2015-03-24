@@ -2,6 +2,12 @@
 
 Containers have their own internal network and IP address as proven by `docker inspect`.
 
+DNS is our best tool for changing outbound traffic behaviour. Firewall and network topology is our best tool for controlling inbound traffic.
+
+With bridge, containers can access the Internet, but not from the host by default. Containers are protected by your host's firewall system. The default network topology provides no route from the host's external interface (eth0) to a container interface. That means there is no way to get to a container from outside of the host.
+
+Containers would not be very useful if there was no way to get to them through the network. Luckily that is not the case. We can publish port for outside world to communicate with our container by using the `-p` or `--publish` flag.
+
 * [**Network configuration - More advanced**](https://docs.docker.com/articles/networking/)
 * [**Introducing Linux Network Namespaces**](http://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/)
 * [Network port mapping](http://docs.docker.com/userguide/dockerlinks/#network-port-mapping-refresher)
@@ -34,6 +40,8 @@ Publishing a port will map it to the host interface, making it available to the 
 ### Linking
 
 Besides network port mappings, you can communicate with other containers through Docker linking system.
+
+Docker bridge assigns IP address dynamically at creation time. It is not easy to discover that service. Writing script and using local DNS and registration hook are complicated in comparison to just using the linking system.
 	
 Container names have to be unique. If you want to re-use a container name you must delete the old container with `docker rm` before you can create a new container with the same name. You can also use `--rm` which will delete the container immediately after it is stopped.
 
@@ -118,6 +126,8 @@ Inside your container when you do `mount`
 ```
 
 Is it better to set `--icc=false` and just using linking to let containers communicate with each other?
+
+Disabling inter-container communication (ICC) is an important step in any Docker enabled environment. In doing so, you create an environment where explicit dependencies must be declared in order to work properly.
 
 ## Static IP Addresses
 

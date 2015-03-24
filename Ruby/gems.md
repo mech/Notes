@@ -12,6 +12,7 @@
 * [rails_12factor](https://github.com/heroku/rails_12factor)
 * [keyset pagination](https://github.com/glebm/order_query)
 * [hiredis - for better redis performance](https://github.com/redis/hiredis-rb)
+* [IP geolocation - Go language actually](https://github.com/fiorix/freegeoip)
 
 
 ## Date gems

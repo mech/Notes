@@ -13,6 +13,7 @@ ES6 Module specification has 2 things:
 
 Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 
+* [**ES6 tools**](http://www.super-script.us/2015/es6-tools.html)
 * [**6to5**](http://6to5.org/)
 * [ES6 coding style](https://github.com/elierotenberg/coding-styles/blob/master/es6.md)
 * [ES6 and io.js](http://davidwalsh.name/es6-io)

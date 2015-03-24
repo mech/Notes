@@ -14,4 +14,10 @@ $@ - All the arguments (same)
 
 600 - Read/Write by owner only
 
+## sed
+
+```
+sed -i -r "s/license key here/${1}" newrelic.js
+```
+
 Page 30

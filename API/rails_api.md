@@ -16,6 +16,18 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [Project Jellyfish API example](https://github.com/projectjellyfish)
 * [The Rails API mini guide](http://www.yoniweisbrod.com/rails-api-mini-guide/)
 
+## API Gateway
+
+* [Optimizing Netflix API](http://techblog.netflix.com/2013/01/optimizing-netflix-api.html)
+
+Single point of entry into microservice architecture. Simplify the client by moving logic for calling multiple services from the client to API gateway.
+
+An event-driven, reactive approach. Each many services are invoked in parallels on local network and slotted in to a single endpoint to be presented to the API gateway.
+
+Asynchronous requests are composed together via the reactive framework.
+
+With a collapsed single request optimized for client, we pay the price of WAN latency only.
+
 ## Token Based API
 
 * [The ins and outs of token based authentication](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication)

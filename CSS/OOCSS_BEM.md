@@ -1,6 +1,9 @@
 # OOCSS, SMACSS, BEM
 
 * [MVCSS??](http://mvcss.github.io/resources/)
+* [Can CSS be too modular - We need to find the sweet spot](http://csswizardry.com/2015/03/can-css-be-too-modular/)
+
+It is better to keep context in the CSS code. Do not fall into the trap of Atomic CSS where you are creating classes for single CSS property.
 
 Classes shouldn't describe content when content describes itself.
 
@@ -37,6 +40,8 @@ Ensure any objects or abstractions are very vaguely named to allow for greater r
 
 ## OOCSS
 
+OOCSS is fantastic in that it teaches us to abstract out the repetitive, shared, and purely structural aspects of a UI into reusable objects. Non-cosmetic styles that handle the skeletal aspect of a lot of UI components, without ever actually looking like designed 'things'.
+
 Based on 2 main principles:
 
 * Separate structure (functional style) and skin (visual style). Find visual patterns.
@@ -52,9 +57,21 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 * [CSSWizardry introducing BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 * [multiple classes vs `@extend`](http://bensmithett.com/bem-modifiers-multiple-classes-vs-extend/)
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)
+* [**More transparent UI code with namespaces**](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 
 The trick with BEM is knowing when something falls into a relevant category. One of the hardest parts of BEM is deciding when to start and stop scope, and when (or not) to use it. It's a case of 'you'll just know when you know'.
 
+```html
+<div class="modal  modal--large">
+  <h1 class="modal__title">Sign into your account</h1>
+  
+  <div class="modal__content">
+    <!-- form-login is a brand new context -->
+    <form class="form-login"></form>
+  </div>
+</div>
 ```
+
+```css
 .site-logo {} // This is not BEM and no need to be!
 ```

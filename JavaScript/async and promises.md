@@ -31,6 +31,7 @@ The point of promises:
 * [The Promised Land](https://www.youtube.com/watch?v=mZHO1ZTsoFk#t=2439)
 * [Callbacks are imperative, promises are functional](https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/)
 * [Event loop and done callback](http://blog.namangoel.com/breadthfirstlog-with-the-event-queue)
+* [Staying sane with promises and generators](http://colintoh.com/blog/staying-sane-with-asynchronous-programming-promises-and-generators)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 

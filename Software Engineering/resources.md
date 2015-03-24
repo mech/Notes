@@ -1,5 +1,9 @@
 # Resources
 
+> If you hire average developers without an adequate supply of senior developers to monitor commits and mentor them, you are slowing down the productivity of your whole development team. I'm not just talking about a short-term effect that lasts the duration of the developer's employment. I'm talking about lasting effects: technical debt that will still be causing your team pain potentially long after the average developers move on.
+> 
+> The trouble is, the average developer may close tickets quickly. Managers sometimes confuse them for 10x developers because they blindly charge forward and get things done: but they leave serious damage in their wake.
+
 * [**Dev Freecasts**](http://devfreecasts.org/)
 * [**Structure 101**](http://structure101.com/)
 * [List of programming screencast series](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)

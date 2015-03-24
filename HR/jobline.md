@@ -8,6 +8,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 ## Microservices
 
+Bounded Context - Identify discrete business capabilities (functions). Functions govern part of enterprise data model.
+
+[The Scale Cube](http://microservices.io/articles/scalecube.html)
+
 * Client API
 * Talent API - Candidate, BIO, Resume/CV
 * ATS API - Applicant, Application, Pipeline

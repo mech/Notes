@@ -15,6 +15,8 @@
 
 ```
 ▶ mount
+▶ sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+▶ lspci | grep RAID
 ```
 
 ## Runlevels
@@ -68,6 +70,11 @@ id:5:initdefault:
 Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addresses. Used when the sending IP address and the receiving IP address are on the same network.
 
 ```
+// Find public IP address - http://askubuntu.com/questions/95910/command-for-determining-my-public-ip
+▶ curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
+▶ curl ifconfig.me
+▶ curl ifconfig.me/host
+
 // Change IP address, but not persisted!
 ▶ sudo ifconfig eth0 192.168.0.201 net mask 255.255.255.0 broadcast 192.168.0.255
 ▶ sudo ifconfig eth0 down
@@ -106,7 +113,9 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 
 // Find out how many ports you have open
 ▶ nmap <hostname>
-▶ sudo nmap <hostname>     // More information like MAC address
+▶ nmap -v -sT localhost      // Scan for open ports
+▶ sudo nmap -v -sS localhost // SYN scanning
+▶ sudo nmap <hostname>       // More information like MAC address
 ▶ nmap --iflist
 ▶ nmap -p80 <hostname>
 ▶ sudo nmap -sV <hostname> // Find software version

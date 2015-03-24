@@ -140,6 +140,11 @@ gulp.task('scripts', function() {
 
 Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 
+```
+▶ npm install --save react
+▶ npm install --save-dev webpack
+```
+
 * [React with Webpack](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
 * [Webpack presentation](https://unindented.github.io/webpack-presentation)
 * [react-starterkit](https://github.com/wbkd/react-starterkit)
@@ -152,6 +157,8 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [Good issue discussion](https://github.com/webpack/webpack/issues/378)
 * [Browserify Handbook](https://github.com/substack/browserify-handbook)
 * [Single page modules with Webpack](http://dontkry.com/posts/code/single-page-modules-with-webpack.html)
+* [HMR](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
+* [React-seed](https://github.com/badsyntax/react-seed)
 
 ## Component - React Element
 
@@ -252,6 +259,8 @@ function HellMessage(initialProps) {
 
 * [Demystifying React Components State](http://www.sitepoint.com/demystifying-react-components-state/)
 
+`getDefaultProps` only ever called once for "all" instances. Do not do anything like `Date.new` inside `getDefaultProps`.
+
 In Backbone, you are coding imperatively to specify when something changes, certain things should happen through it various view events setup.
 
 In React, things are more declarative. You specify how your UI should look like at the `render()` and through `props` and `states` changes, the UI will change.
@@ -298,6 +307,7 @@ Note: Spread operator `{...}` deprecate `this.transferPropsTo`
 ```
 handleClick: function() {
   // Wanting to focus is a very example of when to use refs
+  // Unique only in this component the refs `nameInput`
   this.refs.nameInput.getDOMNode().focus();},
 
 render: function() {
@@ -468,6 +478,10 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 ## Animation
 
 * [Applying React.js CSS Transitions on initial render](http://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
+
+## Mixins
+
+Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 ## Examples
 

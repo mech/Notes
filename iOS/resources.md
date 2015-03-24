@@ -34,6 +34,7 @@
 * [Chinese mobile app UI trends](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html)
 * [Auto layout for iOS projects](http://www.mangrove.com/en/journal/2015-01-21-auto-layout-for-existing-ios-projects/)
 * [Introduction to adaptive design](http://code.tutsplus.com/tutorials/an-introduction-to-adaptive-design--cms-22888)
+* [Replacing Photoshop with NSString](http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/)
 
 ## Animation
 

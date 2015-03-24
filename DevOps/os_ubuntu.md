@@ -2,12 +2,74 @@
 
 * [Basic setup for a new Linux server](http://devo.ps/blog/basic-setup-for-a-new-linux-server/)
 * [Bootable USB](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-pc-on-a-mac--cms-21187)
+* [Lightweight server GUI](http://www.htpcbeginner.com/lightweight-desktop-environment-for-ubuntu-server/)
+* [Hardening 14.04](http://blog.mattbrock.co.uk/hardening-the-security-on-ubuntu-server-14-04/)
 
 ```
 ▶ sudo apt-get install htop dstat
 
 ▶ dstat --top-io --top-bio
 ```
+
+## Landscape
+
+Remove the annoying landscape motd:
+
+```
+▶ sudo vi /etc/landscape/client.conf
+
+[sysinfo]
+exclude_sysinfo_plugins = LandscapeLink
+
+▶ sudo chown landscape:landscape /etc/landscape/client.conf
+```
+
+## SSH
+
+```
+▶ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.factory-defaults
+▶ chmod a-w /etc/ssh/sshd_config.factory-defaults
+```
+
+To see failed password attempts:
+
+```
+▶ cat /var/log/auth.log | grep "Failed password"
+Mar 24 15:01:42 bastion sshd[2768]: Failed password for deploy from 192.168.1.10 port 49641 ssh2
+```
+
+Edit your `/etc/ssh/sshd_config`:
+
+```
+PasswordAuthentication no
+LogLevel VERBOSE
+Port ??
+```
+
+Then restart by `sudo service ssh restart`
+
+## Harden Network
+
+```
+# Ignore ICMP broadcast requests
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+
+# Ignore Directed pings
+net.ipv4.icmp_echo_ignore_all = 1
+
+# Ignore ICMP redirects
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv6.conf.default.accept_redirects = 0
+
+# Block SYN attacks
+net.ipv4.tcp_max_syn_backlog = 2048
+net.ipv4.tcp_synack_retries = 2
+net.ipv4.tcp_syn_retries = 5
+```
+
+Restart using `sudo service procps start`
 
 ## Releases
 
@@ -82,6 +144,8 @@ iface eth0 inet static
 ```
 ▶ apt-cache search ??
 ```
+
+When you run `apt-get update`, a list of packages will get downloaded and these files are then stored in `/var/lib/apt/lists/`. You can safely remove the contents of that directory as it is recreated when you refresh the package lists.
 
 ### PPA - Personal Package Archives
 

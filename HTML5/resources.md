@@ -10,6 +10,7 @@
 * [Standard Markdown](http://standardmarkdown.com/)
 * [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
 * [**Web Design Repo**](http://www.webdesignrepo.com/)
+* [Frontend Folder](https://github.com/dnomak/frontend-folder)
 * [Design System](http://css-tricks.com/design-systems-building-future/)
 * [Build flexible modules, not pages. Design a system. Make it modular.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 * [The Art of HTML Semantics](http://kevinsuttle.com/posts/the-art-of-html-semantics-pt1/)

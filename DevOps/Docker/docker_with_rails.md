@@ -1,5 +1,7 @@
 # Docker with Rails
 
+Maybe we install nginx on host that acts as a load balancer also. Then the downstream will all be containers.
+
 Requirements:
 
 * Ease of use
@@ -23,8 +25,12 @@ Mounting configuration files.
 * [**12 Factor**](http://12factor.net/)
 * [**Open vSwitch**](http://openvswitch.org/)
 * [**Zero Downtime Deployments with Docker**](https://www.youtube.com/watch?v=mQvIWIgQ1xg)
+* [Zero downtime deployment of any web app with Docker and nginx](http://acroca.com/blog/2014/07/17/zero-downtime-deployment-of-any-web-app-with-docker-and-nginx.html)
 * [**Production Deployment with Docker**](https://www.codeschool.com/blog/2015/01/16/production-deployment-docker/)
 * [**docker-rails-dev**](https://github.com/pywebdesign/docker-rails-dev)
+* [Finnlabs rails-docker](https://github.com/finnlabs/rails-docker)
+* [passenger-docker](https://github.com/phusion/passenger-docker)
+* [Deploying python with Docker](https://medium.com/@rlbaker/deploying-python-with-docker-15a472cf12a5)
 * [Rails development using Docker and Vagrant](https://blog.abevoelker.com/rails-development-using-docker-and-vagrant/)
 * [A week of Docker](http://danielmartins.ninja/posts/a-week-of-docker.html)
 * [`$ ./jobline deploy`](https://github.com/fstephany/hello-pharo/blob/master/app)
@@ -37,6 +43,7 @@ Mounting configuration files.
 * [Multi-tier architecture tutorial](http://jeff-davis.blogspot.sg/2015/02/multi-tier-architecture-tutorial-using.html)
 * [Zero downtime deployments](http://docs.quay.io/solution/zero-downtime-deployments.html)
 * [Tiller?](https://github.com/markround/tiller)
+* [Ghost and MariaDB with Docker and Fig](http://blog.mewm.org/ghost-mariadb-with-docker-fig/)
 
 We can write bash script to stop, start and update our environment. We can even write script to go into maintenance mode and remove scheduled jobs first for FM to restart.
 
@@ -77,3 +84,13 @@ docker run --volumes-from $MINECRAFT --volumes-from $MAPSERVER mapgenerator
 // Put it in cron
 @hourly docker run --...
 ```
+
+## Application Configuration
+
+At the host, prepare your `jobline_app_config` to include secrets and other API keys.
+
+```
+// Use --env-file to separate secrets
+▶ docker run -d -t --env-file jobline_app_config nginx
+```
+

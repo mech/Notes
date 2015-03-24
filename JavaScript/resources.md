@@ -1,7 +1,11 @@
 # Resources
 
+If you're creating constructor functions and inheriting from them, you haven't learned JavaScript. You're failing to take advantage of JavaScript's most powerful capabilities: Prototypal Inheritance.
+
 JavaScript dynamic duo (static type is overrated):
 
+* [**Essential JavaScript Links**](http://www.super-script.us/2015/essential-js-links.html)
+* [**Original Essential JavaScript Links**](https://gist.github.com/ericelliott/d576f72441fc1b27dace)
 * [**JavaScript application architecture in 2015**](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b)
 * [**ES6 Learning**](https://github.com/ericdouglas/ES6-Learning)
 * [ES Discuss](http://esdiscuss.org/)
@@ -23,6 +27,20 @@ JavaScript dynamic duo (static type is overrated):
 * [Functional JavaScript](http://osteele.com/sources/javascript/functional/)
 * [Scoop JS resources](http://www.scoop.it/t/javascript-for-line-of-business-applications)
 * [The Jackal of JavaScript](http://thejackalofjavascript.com/)
+
+## Closures
+
+* [The two pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
+
+> Objects are merely a poor man's closures.
+>
+> Closures are a poor man's object.
+
+Closures are the key to encapsulation in JavaScript. They enable true data privacy for objects, and protect against function side effects.
+
+Having a poor understanding of how closures work can cause tight coupling and side-effects when they're misused, which quickly leads to unmaintainable code and a breeding ground for bugs.
+
+Closures minimize shared state and side-effects.
 
 ## V8
 

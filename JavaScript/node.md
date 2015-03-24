@@ -12,6 +12,10 @@ npm uninstall -global bower
 npm install backbone@1.0.0
 ```
 
+## Global vs Local installation
+
+
+
 ## REST API
 
 * [hapi](http://hapijs.com/)
