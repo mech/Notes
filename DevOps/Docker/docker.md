@@ -65,6 +65,7 @@ Operationalized and Orchestration.
 * [An alerting dashboard for Graphite](https://github.com/scobal/seyren)
 * [Scaling engineering with Docker](http://tech.gc.com/scaling-engineering-with-docker/)
 * [On-demand activation of Docker containers with systemd](https://developer.atlassian.com/blog/2015/03/docker-systemd-socket-activation/)
+* [invoke-rc.d???](http://jpetazzo.github.io/2013/10/06/policy-rc-d-do-not-start-services-automatically/)
 
 ```
 docker version
@@ -376,6 +377,8 @@ Logging, Backup, Metric, etc.
 * [ELK log analysis](https://www.cloudgear.net/blog/2015/apache-log-analysis-with-kibana-docker/)
 * [Container Advisor](https://github.com/google/cadvisor)
 * [fluentd](http://www.fluentd.org/)
+* [Docker and Logstash](https://denibertovic.com/post/docker-and-logstash-smarter-log-management-for-your-containers/)
+* [The state of logging on Docker](https://blog.logentries.com/2014/03/the-state-of-logging-on-docker/)
 
 Logging (logstash, Kibana?), monitoring, and health management.
 

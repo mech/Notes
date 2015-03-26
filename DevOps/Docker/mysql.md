@@ -4,6 +4,8 @@
 * [Official repo for MySQL](https://github.com/docker-library/mysql)
 * [Docker-persistence](http://www.alexecollins.com/docker-persistence/)
 * [**Tutum Docker MySQL**](https://github.com/tutumcloud/tutum-docker-mysql)
+* [Securing MySQL Server](http://howtolamp.com/lamp/mysql/5.6/securing)
+* [Why default character_set_server is latin1](http://dba.stackexchange.com/questions/29649/why-default-character-set-server-is-latin1)
 
 ```
 /var/lib/mysql
@@ -40,4 +42,18 @@ if [[ ! -d $VOLUME_HOME/mysql ]]; then
 else
   echo "=> Using an existing volume of MySQL"
 fi
+```
+
+## my.cnf
+
+`/etc/mysql/my.cnf` to set global options. `~/.my.cnf` to set user-specific options.
+
+From the `/etc/mysql/my.cnf`:
+
+```
+#
+# * IMPORTANT: Additional settings that can override those from this file!
+#   The files must end with '.cnf', otherwise they'll be ignored.
+#
+!includedir /etc/mysql/conf.d/
 ```

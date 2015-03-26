@@ -72,6 +72,8 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [**$19 book**](http://swizec.com/reactd3js)
+* [**React Primer**](https://github.com/mikechau/react-primer-draft)
 * [Why React? (2013 articles)](http://facebook.github.io/react/blog/2013/06/05/why-react.html)
 * [React Conf roundup](http://facebook.github.io/react/blog/2015/02/18/react-conf-roundup-2015.html)
 * [A comprehensive guide to building apps with React](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
@@ -258,6 +260,7 @@ function HellMessage(initialProps) {
 ## Props and States
 
 * [Demystifying React Components State](http://www.sitepoint.com/demystifying-react-components-state/)
+* [Props vs States](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
 
 `getDefaultProps` only ever called once for "all" instances. Do not do anything like `Date.new` inside `getDefaultProps`.
 
@@ -494,6 +497,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Great.dj](https://github.com/ruiramos/greatdj)
 * [Building a multi-step registration form](http://viget.com/extend/building-a-multi-step-registration-form-with-react)
 * [AirBnb](https://github.com/airbnb/airpal)
+* [Cosmos](https://github.com/skidding/cosmos)
 
 ## Companies using React
 

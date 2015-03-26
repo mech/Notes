@@ -1,5 +1,6 @@
 # Ubuntu
 
+* [**Harden Ubuntu**](http://hardenubuntu.com/)
 * [Basic setup for a new Linux server](http://devo.ps/blog/basic-setup-for-a-new-linux-server/)
 * [Bootable USB](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-pc-on-a-mac--cms-21187)
 * [Lightweight server GUI](http://www.htpcbeginner.com/lightweight-desktop-environment-for-ubuntu-server/)
@@ -27,8 +28,8 @@ exclude_sysinfo_plugins = LandscapeLink
 ## SSH
 
 ```
-▶ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.factory-defaults
-▶ chmod a-w /etc/ssh/sshd_config.factory-defaults
+▶ sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.factory-defaults
+▶ sudo chmod a-w /etc/ssh/sshd_config.factory-defaults
 ```
 
 To see failed password attempts:
@@ -42,6 +43,7 @@ Edit your `/etc/ssh/sshd_config`:
 
 ```
 PasswordAuthentication no
+PermitRootLogin no
 LogLevel VERBOSE
 Port ??
 ```
@@ -49,6 +51,8 @@ Port ??
 Then restart by `sudo service ssh restart`
 
 ## Harden Network
+
+Edit `/etc/sysctl.d/10-network-security.conf`
 
 ```
 # Ignore ICMP broadcast requests
@@ -67,6 +71,20 @@ net.ipv6.conf.default.accept_redirects = 0
 net.ipv4.tcp_max_syn_backlog = 2048
 net.ipv4.tcp_synack_retries = 2
 net.ipv4.tcp_syn_retries = 5
+
+# Log Martians
+net.ipv4.conf.all.log_martians = 1
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+
+# Ignore send redirects
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.default.send_redirects = 0
+
+# Disable source packet routing
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_source_route = 0 
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv6.conf.default.accept_source_route = 0
 ```
 
 Restart using `sudo service procps start`

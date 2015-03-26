@@ -11,6 +11,11 @@
 ▶ sudo shutdown -h +6 "System going down, please logout!" 
 ```
 
+```
+▶ cat /proc/cmdline
+BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=f9868a3d-1a9c-4161-9f88-326eecf54f25 ro
+```
+
 ## udev, /dev, Device nodes/files
 
 ```
