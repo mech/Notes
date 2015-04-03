@@ -28,6 +28,10 @@ git push heroku master
 rake smoke:production
 ```
 
+## SSL
+
+* [Setting up SSL for your Rails app](https://intercityup.com/blog/setting-up-ssl-for-your-rails-app.html)
+
 ## Continuous Integration (CI)
 
 * [SCSS-lint](https://github.com/causes/scss-lint)

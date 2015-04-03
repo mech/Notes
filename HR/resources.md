@@ -101,6 +101,7 @@ Categories must not be 3 level deep. The Inception Rule.
 * [How we created beautiful resumes for everyone](https://medium.com/@jeremygtech/how-we-created-beautiful-resumes-for-everyone-3f0e9e25b98f)
 * [Visual Resume](http://www.vizualresume.com/)
 * [What Recruiters Look At During The 6 Seconds They Spend On Your Resume](http://www.businessinsider.com/heres-what-recruiters-look-at-during-the-6-seconds-they-spend-on-your-resume-2012-4)
+* [Beautiful resume](http://www.designer-daily.com/15-beautiful-resume-designs-for-your-inspiration-52059)
 
 Using themes examples from Deckset app, we can convert each candidate's CV into beautiful on-screen presentation. Recruiters or hiring managers can swipe left to reveal their CV like interest, photos, past works/achievements, educations, etc.
 

@@ -135,6 +135,8 @@ Publish conclusion.
 
 * [jsPDF](https://parall.ax/products/jspdf)
 * [PanDoc](http://johnmacfarlane.net/pandoc/)
+* [PDF Viewing in GitHub](https://github.com/blog/1974-pdf-viewing)
+* [**PDF.js**](https://github.com/mozilla/pdf.js)
 
 ## Email
 

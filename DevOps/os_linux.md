@@ -5,6 +5,8 @@
 * [Linux TCP/IP tuning for scalability](http://www.lognormal.com/blog/2012/09/27/linux-tcpip-tuning/)
 * [Allow setting `ulimits` for containers](https://github.com/docker/docker/pull/9437)
 * [Understanding Linux CPU stats](http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats)
+* [**Lynis - Security auditing**](https://cisofy.com/lynis/)
+* lynis, rkhunterm chkrootkit, tripwire, tiger, bastille, unhide, unhide.rb, aide, bsign, systraq, snort, psad, samhain
 
 ```
 // 6 minutes to shutdown with this file /etc/nologin
@@ -16,7 +18,18 @@
 BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=f9868a3d-1a9c-4161-9f88-326eecf54f25 ro
 ```
 
+## UID, GID, and Permission
+
+```
+▶ id -u vagrant # 1000
+▶ id -g vagrant # 1000
+▶ id -G vagrant
+▶ id vagrant
+```
+
 ## udev, /dev, Device nodes/files
+
+* [Cron script for checking disk space](http://blog.rimuhosting.com/2012/02/20/cron-script-for-checking-disk-space/)
 
 ```
 ▶ mount
@@ -115,6 +128,9 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 ```
 // See who is using port=5000
 ▶ netstat -tupln | grep 5000
+
+// See if MySQL is listening to correct port
+▶ sudo netstat -tap | grep mysql
 
 // Find out how many ports you have open
 ▶ nmap <hostname>

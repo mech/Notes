@@ -6,10 +6,14 @@
 * [**Tutum Docker MySQL**](https://github.com/tutumcloud/tutum-docker-mysql)
 * [Securing MySQL Server](http://howtolamp.com/lamp/mysql/5.6/securing)
 * [Why default character_set_server is latin1](http://dba.stackexchange.com/questions/29649/why-default-character-set-server-is-latin1)
+* `sudo apt-get install mysqltuner`
+* [Logrotate and the MySQL log](http://www.percona.com/blog/2014/11/12/log-rotate-and-the-deleted-mysql-log-file-mystery/)
 
 ```
 /var/lib/mysql
 /etc/mysql
+/var/log/mysql
+/var/run/mysqld
 
 /etc/mysql/my.cnf
 datadir=/var/lib/mysql
@@ -42,6 +46,12 @@ if [[ ! -d $VOLUME_HOME/mysql ]]; then
 else
   echo "=> Using an existing volume of MySQL"
 fi
+```
+
+## Backup and Restore
+
+```
+mysqldump -h localhost -u root -p --databases jobline_pro > /tmp/backup.sql
 ```
 
 ## my.cnf

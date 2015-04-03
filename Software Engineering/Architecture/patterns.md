@@ -50,11 +50,12 @@ Agile + DevOps + Microservices
 No shared persistence. Each services use their own mini database.
 
 * [Microservice - 72 resources](http://blog.arkency.com/2014/07/microservices-72-resources/)
-* [](http://microservices.io/)
+* [Good resources on Microservices](http://microservices.io/)
 * [Cloud trends - Adrian Cockcroft](https://www.youtube.com/watch?v=VaFktjlLp5M)
 * [State of the Art in Microservices by Adrian Cockcroft](https://www.youtube.com/watch?v=nMTaS07i3jk)
 * [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
 * [Docker and related services enable a future of microservices for everyone](http://blog.giantswarm.io/docker-and-related-services-enable-a-future-of-microservices-for-everyone)
+* [Simulating service discovery with Docker and etcd](http://talwai.github.io/#/blog/post/discovery)
 
 Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 

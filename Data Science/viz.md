@@ -9,6 +9,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [The Data Visualisation Catalogue](http://www.datavizcatalogue.com/)
 * [**Data visualization for server library**](http://lightning-viz.org/)
 * [**Dataveyes**](http://dataveyes.com/#!/en/works)
+* [Shiny by RStudio](http://shiny.rstudio.com/gallery/)
 * [Dear Data - Analog](http://www.dear-data.com/)
 * [When data is simple, visualising it improve intuition](http://minuum.com/taps-and-swipes/)
 * [How to lie with data visualization](http://data.heapanalytics.com/how-to-lie-with-data-visualization/)

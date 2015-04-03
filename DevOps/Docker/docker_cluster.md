@@ -3,6 +3,7 @@
 * [Benefits of Docker for application deployment](http://knitatoms.net/2013/12/benefits-of-docker-for-application-deployment/)
 * [SDN, Docker and the Real Changes Ahead](http://thenewstack.io/sdn-docker-real-changes-ahead/)
 * [SocketPlane == Open vSwitch + Consul + VXLAN + Docker](http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/)
+* [Setup networking using weave](http://xmodulo.com/networking-between-docker-containers.html)
 
 VXLAN - extend the LAN.
 
@@ -37,6 +38,9 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 
 ## Docker Compose
 
+* [Don't stop containers when fig up exits](https://github.com/docker/compose/issues/741)
+* [Data only containers / No run containers](https://github.com/docker/compose/issues/942)
+
 Multi-container apps are a hassle.
 
 * Build images from Dockerfiles
@@ -49,6 +53,7 @@ Multi-container apps are a hassle.
 
 * [Fig is now docker-compose](http://chrisbarra.me/posts/docker-orchestration.html)
 * [Crane - Lift containers with ease](https://github.com/michaelsauter/crane)
+* [A Docker environment - See some bash scripts](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
 
 Orchestration is collection of things. Not just a single thing.
 

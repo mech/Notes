@@ -17,6 +17,7 @@ Notable companies in HR domain.
 
 ## Notable Companies
 
+* [**Toptal**](http://www.toptal.com/)
 * [**Jobvite**](http://www.jobvite.com/products/)
 * [**Blueskyme - Nice interaction and UI**](http://blueskyme.com/)
 * [Kin HR Software](http://kinhr.com/)
@@ -36,6 +37,7 @@ Notable companies in HR domain.
 * [A very big UK payroll company - Sage](http://www.sage.co.uk/)
 * [VMS?](http://www.taulia.com/en/products/supplier-information-management)
 * [Your professional portfolio, reimagined](https://kredo.com/)
+* [Protege (local)](http://www.protegehub.com/)
 
 ## Executive Search
 

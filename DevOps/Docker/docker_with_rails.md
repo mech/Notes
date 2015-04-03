@@ -21,6 +21,8 @@ Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kin
 
 Mounting configuration files.
 
+* [**Rails app on Docker using Passenger image**](https://rossfairbanks.com/2015/03/06/rails-app-on-docker-using-passenger-image.html)
+* [Some rails example](http://mwdesilva.com/posts/103-simple-scalable-infrastructure-with-digitalocean-terraform-and-docker)
 * [**Deploy Rails app using Docker**](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
 * [**12 Factor**](http://12factor.net/)
 * [**Open vSwitch**](http://openvswitch.org/)

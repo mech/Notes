@@ -6,7 +6,11 @@ Deming Cycle - Plan, Do, Check, Act
 
 Scientific Method - Hypothesize, Experiment, Evaluate
 
+* [**Awesome Docker**](http://getawesomeness.com/get/docker)
+* [**Valuable Docker Links**](http://www.nkode.io/2014/08/24/valuable-docker-links.html)
+* [**Docker Cheat Sheet**](https://github.com/wsargent/docker-cheat-sheet)
 * [**DevOps Kata**](http://devopsy.com/blog/2013/08/16/devops-kata-single-line-of-code/)
+* [**Docker Forums**](https://forums.docker.com/)
 * [Docker News](http://blog.getcrane.com/docker-news/the-best-of-docker-last-week-2nd-march)
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
 * [Giant Swarm blog](http://blog.giantswarm.io/)
@@ -31,9 +35,13 @@ Operationalized and Orchestration.
 
 ![Docker Flow](https://dl.dropboxusercontent.com/u/6815194/Notes/docker_flow.png)
 
+* [**docker-gen**](https://github.com/jwilder/docker-gen)
+* [**Your very own server with Docker**](http://erwyn.piwany.com/your-very-own-server-with-docker/)
 * [**Using OverlayFS with Docker on Ubuntu**](http://blog.thestateofme.com/2015/03/09/using-overlay-file-system-with-docker-on-ubuntu/)
 * [**buildpack-deps**](https://github.com/docker-library/buildpack-deps/blob/master/jessie/Dockerfile)
 * [**Docker patterns**](http://www.hokstad.com/docker/patterns)
+* [**gosu**](https://github.com/tianon/gosu)
+* [**Run your own registry with S3 as storage**](http://blog.programster.org/2015/03/17/run-your-own-private-docker-registry/)
 * [In Tech We Trust Podcast](http://intechwetrustpodcast.com/)
 * [Century Link Labs](http://www.centurylinklabs.com/)
 * [Flynn](https://flynn.io/)
@@ -66,6 +74,9 @@ Operationalized and Orchestration.
 * [Scaling engineering with Docker](http://tech.gc.com/scaling-engineering-with-docker/)
 * [On-demand activation of Docker containers with systemd](https://developer.atlassian.com/blog/2015/03/docker-systemd-socket-activation/)
 * [invoke-rc.d???](http://jpetazzo.github.io/2013/10/06/policy-rc-d-do-not-start-services-automatically/)
+* [Comment is good on Chef vs Docker](https://blog.relateiq.com/why-docker-why-not-chef/)
+* [10 Docker tips and tricks](http://nathanleclaire.com/blog/2014/07/12/10-docker-tips-and-tricks-that-will-make-you-sing-a-whale-song-of-joy/)
+* [docker inspect -f](http://container-solutions.com/2015/03/docker-inspect-template-magic/)
 
 ```
 docker version
@@ -123,6 +134,8 @@ Prep your images to make it faster.
 * [Amazon S3 registry](https://github.com/dogestry/dogestry)
 * [Docker tricks of the trade and best practices thoughts](http://www.carlboettiger.info/2014/08/29/docker-notes.html)
 * [Understanding Docker cache for faster builds](http://thenewstack.io/understanding-the-docker-cache-for-faster-builds/)
+* [**Security best practices for Dockerfile**](http://linux-audit.com/security-best-practices-for-building-docker-images/)
+* [**Dockerfile best practices**](https://github.com/docker/docker/blob/master/docs/sources/articles/dockerfile_best-practices.md)
 
 A Docker image is made up of filesystem layered over each other. First layer is the `bootfs` and next layer is the `rootfs`. More filesystem will be union mounted to appear as one filesystem. Docker calls each of these filesystems images.
 
@@ -379,6 +392,9 @@ Logging, Backup, Metric, etc.
 * [fluentd](http://www.fluentd.org/)
 * [Docker and Logstash](https://denibertovic.com/post/docker-and-logstash-smarter-log-management-for-your-containers/)
 * [The state of logging on Docker](https://blog.logentries.com/2014/03/the-state-of-logging-on-docker/)
+* [Mount to log volume and use logrotate to manage it](http://0x74696d.com/posts/docker-logging/)
+* [**Docker logs - aggregating with ease**](http://stackengine.com/docker-logs-aggregating-ease/)
+* [Add log rotation signal handling to docker daemon - GitHub issue](https://github.com/docker/docker/issues/7333)
 
 Logging (logstash, Kibana?), monitoring, and health management.
 
@@ -428,6 +444,21 @@ For backup
 ▶ docker run --volumes-from log pipestash
 ```
 
+## Script Makefile
+
+```
+GIT = pie/git
+BUILD = pie/builder
+IMAGE = pie/hubot
+
+hubot:
+  docker run --rm -v $(pwd):/opt:rw -e GPG=$$GPG $(GIT) /bin/bash -c "..."
+hubot.tar: | hubot
+  docker run --rm -v $(pwd)
+clean:
+  rm -rf hubot && rm -f hubot.tar
+```
+
 ## Redis
 
 ## Postgres
@@ -443,6 +474,11 @@ For backup
 
 * [Netflix OSS](https://hub.docker.com/u/netflixoss/)
 * [Ghost blog and MariaDB with](http://blog.mewm.org/ghost-mariadb-with-docker-fig/)
+
+## People
+
+* [Brian Goff - @cpuguy83](http://container42.com/)
+* [Nathan LeClaire](http://nathanleclaire.com/post/)
 
 ## Videos
 

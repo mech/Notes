@@ -40,6 +40,7 @@
 * [Bugs and UX](http://baymard.com/blog/bugs-and-user-experience)
 * [Gamification with UX](http://www.paulolyslager.com/ux-designers-can-learn-game-design-gamification/)
 * [UX Bullshit](http://uxbullshit.com/)
+* [User perception of production ratings](http://baymard.com/blog/user-perception-of-product-ratings)
 
 ## Behaviorism
 

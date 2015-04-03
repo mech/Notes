@@ -993,6 +993,7 @@ There is no bubbling to the route. Actions are sent only to the component itself
 ## Ember-cli Add-on
 
 * [The add-on story](http://reefpoints.dockyard.com/2014/06/24/introducing_ember_cli_addons.html)
+* [ember-ionic](https://github.com/ebryn/ember-ionic)
 
 ## Ember with D3
 

@@ -5,14 +5,30 @@
 * [Bootable USB](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-pc-on-a-mac--cms-21187)
 * [Lightweight server GUI](http://www.htpcbeginner.com/lightweight-desktop-environment-for-ubuntu-server/)
 * [Hardening 14.04](http://blog.mattbrock.co.uk/hardening-the-security-on-ubuntu-server-14-04/)
+* [Disable IPv6](http://askubuntu.com/questions/440649/how-to-disable-ipv6-in-ubuntu-14-04)
 
 ```
 ▶ sudo apt-get install htop dstat
-
+▶ sudo dmidecode --type memory
 ▶ dstat --top-io --top-bio
 ```
 
-## Landscape
+## Disable IPv6
+
+```
+▶ sudo vi /etc/sysctl.conf
+
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+
+▶ sudo sysctl -p
+
+// Should see "1"
+▶ cat /proc/sys/net/ipv6/conf/all/disable_ipv6
+```
+
+## Landscape and MOTD
 
 Remove the annoying landscape motd:
 
@@ -24,6 +40,10 @@ exclude_sysinfo_plugins = LandscapeLink
 
 ▶ sudo chown landscape:landscape /etc/landscape/client.conf
 ```
+
+Go to `/etc/update-motd.d`
+
+
 
 ## SSH
 
@@ -253,4 +273,8 @@ DEFAULT_FORWARD_POLICY="ACCEPT"
 ▶ sudo gpasswd -a ${USER} docker
 ▶ sudo service docker restart
 ▶ exit // Need to logout
+```
+
+```
+▶ sudo usermod -aG docker deploy
 ```

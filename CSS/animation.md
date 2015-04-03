@@ -99,6 +99,7 @@
 * [Steady.js](http://lafikl.github.io/steady.js/)
 * [The guide to scrolling animation](http://ihatetomatoes.net/guide-scrolling-animation-libraries/)
 * [Scrolling progress bar](http://www.webdesigncrowd.com/scrolling-progress-bar/)
+* [Dear web designer, let's stop breaking the affordance of scrolling](https://medium.com/user-experience-design-1/dear-web-designer-let-s-stop-breaking-the-affordance-of-scrolling-fe8bf258df7b)
 
 ## Examples
 

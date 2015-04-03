@@ -5,6 +5,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [**Pixel Fitting**](https://www.youtube.com/watch?v=wSLW4K2ON4s)
 * [**Pixel Fitting**](http://dcurt.is/pixel-fitting)
 * [Discovering Sketch](https://medium.com/@jm_denis/discovering-sketch-25545f6cb161)
+* [Dashed border](https://news.layervault.com/stories/47034-how-can-we-calculate-a-perfect-dashed-border-in-sketch)
 * [Dealing with half pixels](https://medium.com/@dmiiiitri/fixing-icons-for-medium-8939ae05db85)
 * [Design with Sketch](https://medium.com/design-with-sketch/design-with-sketch-92608a88c103)
 * [Documentation RTFM](http://bohemiancoding.com/sketch/support/documentation/)
@@ -50,6 +51,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Photoshop extensions for frontend developers](http://vilcins.lv/blog/2015/Photoshop-extensions-for-frontend-developers/)
 * [Prototyping with Sketch](http://blog.invisionapp.com/11-tips-for-prototyping-with-sketch/)
 * [An index of the most useful resources for Sketch](http://sketch.land/index.html)
+* [Sketch Talk - A forum](http://sketchtalk.io/)
 
 ## Tutorials
 
@@ -95,6 +97,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 ## Sketch 3
 
+* Symbol, Text Styles, Exports, Layer Styles
 * [What is new in Sketch 3](https://medium.com/p/4b92d8b25f3)
 
 ## Files

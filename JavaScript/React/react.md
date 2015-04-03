@@ -14,8 +14,8 @@ You are need to include [html5shiv](https://github.com/aFarkas/html5shiv) for IE
 
 ## People
 
-* Christopher Chedeau
-* Tom Occhino
+* [Christopher Chedeau](http://blog.vjeux.com/), [@Vjeux](https://twitter.com/Vjeux)
+* [Tom Occhino](https://twitter.com/tomocchino)
 
 > "Given the extremely tight coupling between the template and it's context (a controller/component), the concerns are the same, and splitting the DOM into a template is an arbitrary separation of technologies rather than a legit separation of concerns." - Hence in React, everything is a component. There is no template. Just define a `render` function.
 
@@ -137,30 +137,6 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('./build'));
 });
 ```
-
-## Webpack
-
-Webpack uses "loaders" to preprocess files while browserify uses "transforms".
-
-```
-▶ npm install --save react
-▶ npm install --save-dev webpack
-```
-
-* [React with Webpack](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
-* [Webpack presentation](https://unindented.github.io/webpack-presentation)
-* [react-starterkit](https://github.com/wbkd/react-starterkit)
-* [react-starter](https://github.com/webpack/react-starter)
-* [webpack_assets](https://github.com/knomedia/webpack_assets)
-* [Browserify vs Webpack JS Drama](http://blog.namangoel.com/browserify-vs-webpack-js-drama)
-* [Browserify for webpack users](https://gist.github.com/substack/68f8d502be42d5cd4942)
-* [Browserify vs Webpack](http://mattdesl.svbtle.com/browserify-vs-webpack)
-* [Creating a workflow with WebPack](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html)
-* [Good issue discussion](https://github.com/webpack/webpack/issues/378)
-* [Browserify Handbook](https://github.com/substack/browserify-handbook)
-* [Single page modules with Webpack](http://dontkry.com/posts/code/single-page-modules-with-webpack.html)
-* [HMR](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
-* [React-seed](https://github.com/badsyntax/react-seed)
 
 ## Component - React Element
 
@@ -342,6 +318,8 @@ Take a moment and think more critically about where `state` should be owned in t
 * [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
 * [React nested router](https://www.youtube.com/watch?v=P6xTa3RRzfA#t=2300)
 * [Dynamically placed outlets vs Ember portal?](https://twitter.com/ryanflorence/status/572992231239372800)
+* [React Router Overview](https://github.com/rackt/react-router/blob/master/docs/guides/overview.md)
+* [Support React 0.13 GitHub issue](https://github.com/rackt/react-router/issues/638)
 
 ## Flux (CQRS)
 
@@ -488,6 +466,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 ## Examples
 
+* [Ryan Florence HYPE](https://github.com/ryanflorence/reactconf-2015-HYPE)
 * [React tutorial](https://github.com/phaedryx/react-tutorial)
 * [5 practical examples for learning React](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
 * [Firebase Vulcan - A chrome extension tool](https://github.com/firebase/vulcan)
@@ -498,6 +477,11 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Building a multi-step registration form](http://viget.com/extend/building-a-multi-step-registration-form-with-react)
 * [AirBnb](https://github.com/airbnb/airpal)
 * [Cosmos](https://github.com/skidding/cosmos)
+
+## GitHub Issues
+
+* [Optimizing Compiler: Reuse Constant Value Types like ReactElement](https://github.com/facebook/react/issues/3226)
+* [JSX optimization in babel.js](https://twitter.com/sebmck/status/582191152356458497)
 
 ## Companies using React
 
