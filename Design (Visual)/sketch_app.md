@@ -99,6 +99,8 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 * Symbol, Text Styles, Exports, Layer Styles
 * [What is new in Sketch 3](https://medium.com/p/4b92d8b25f3)
+* [**Best series of tutorials**](https://medium.com/sketch-app/harnessing-vector-awesomeness-in-sketch-3c9621408138)
+* [Medium's Sketch articles](https://medium.com/sketch-app)
 
 ## Files
 
@@ -139,3 +141,4 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [George Bletsis](http://monstertreeart.tumblr.com/)
 * [John Jay](http://www.johnjayart.com/)
 * [Laura Barnard](http://laurabarnard.co.uk/work/)
+* [Some nice arts](https://felicien-nourry.artstation.com/)

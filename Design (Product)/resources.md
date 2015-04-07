@@ -80,6 +80,7 @@ It's not about the product, it's about your users.
 * [How to design for everybody](https://medium.com/@rachelhaot/how-to-design-for-everybody-4b2870724c4)
 * [Personas](https://medium.com/@mikeybrand/personas-f563f8ac087a)
 * [The Age of Context](https://medium.com/@christianhern/into-the-age-of-context-f0aed15171d7)
+* [The Interface Layer](https://medium.com/bridge-collection/the-interface-layer-when-design-commoditizes-tech-e7017872173a)
 
 ## Research
 

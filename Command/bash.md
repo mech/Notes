@@ -4,6 +4,7 @@
 * [Cron email only errors](http://serverfault.com/questions/226074/cron-only-get-errors-in-emails)
 * [Chmod Calculator](http://chmodcalc.com/)
 * [10 tips for wonderful bash productivity](https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/)
+* [Stop using tail -f](http://www.brianstorti.com/stop-using-tail/)
 
 ```
 shutdown now    # Shutdown

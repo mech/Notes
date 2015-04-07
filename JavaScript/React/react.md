@@ -6,6 +6,8 @@ https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%2
 
 After a while, you will see the "cascading updates" problem, where a ListView will trigger a side drawer for input and once done, hide the drawer, update the ListView and update the counter, present a new dialog based on the newly added list, etc.
 
+* [NativeScript??](https://www.nativescript.org/blog/answering-nativescript-beta-webinar-questions)
+
 ## Browser Support
 
 If you need IE8 support, you need to include [es5-shim](https://github.com/kriskowal/es5-shim) yourself to make use of several `Array` and `Date` functions.
@@ -477,6 +479,8 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Building a multi-step registration form](http://viget.com/extend/building-a-multi-step-registration-form-with-react)
 * [AirBnb](https://github.com/airbnb/airpal)
 * [Cosmos](https://github.com/skidding/cosmos)
+* [Pivotal CF](http://styleguide.cfapps.io/react_beta.html)
+* [**pivotal-ui-react**](https://github.com/pivotal-cf/pivotal-ui-react/tree/master/src/media)
 
 ## GitHub Issues
 
@@ -497,6 +501,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Secret of the Virtual DOM](https://www.youtube.com/watch?v=1h2G20A-AvY)
 * [Alt.Net Jan 2015](http://youtu.be/kNVatRjnU7U)
 * [Thinking in Components: Building Powerful UIs in React.js](https://www.youtube.com/watch?v=xSGuffp0o6E)
+* [Learn React, Flux, and Flow - Seattle.js](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
 
 ## Twitter
 

@@ -55,6 +55,7 @@
 * [ActiveSupport.js](https://github.com/brettshollenberger/ActiveSupport.js)
 * [Modules from lodash](https://www.npmjs.com/browse/keyword/lodash-modularized)
 * [The first 200 lines of lodash.js are an education in browser JS engine inconsistencies](http://kitcambridge.be/blog/say-hello-to-lo-dash/)
+* [burger menu](https://github.com/mblode/burger)
 
 ## Draggable/Scrollable
 

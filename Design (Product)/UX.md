@@ -102,5 +102,6 @@
 ---
 > If customers say they want faster horses, what you should hear is that getting around is too slow. It's the team's job to take all that raw input and build products to delight customers.
 
-
+---
+> The minute we stop caring about polishing these details is the moment when we'll start picking up bad habits that will ultimately be our undoing.
 

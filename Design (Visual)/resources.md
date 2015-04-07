@@ -55,6 +55,8 @@
 * [Icons Mind](https://www.iconsmind.com/)
 * [Icon fonts](https://github.com/showcases/icon-fonts)
 * [Icons worth checking out](https://news.layervault.com/stories/44383-ask-dn--aside-from-fontawesome-what-are-some-other-font-icons-worth-checking-out)
+* [40 line icons](http://designinstruct.com/roundups/line-icons-free/)
+* [PixelLove](http://www.pixellove.com/)
 
 ## Logo
 

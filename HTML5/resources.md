@@ -152,6 +152,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [Placeholders or Labels](https://news.layervault.com/stories/29681-ask-dn-placeholders-or-labels)
 * [HTML5 Date Input](http://demosthenes.info/blog/923/Using-The-HTML5-Date-Input)
 * [Usable sign up form](http://www.designyourway.net/blog/inspiration/designing-usable-sign-up-forms/)
+* [Web Form Design](http://www.formassembly.com/blog/web-form-design/)
 
 ## Content Strategy
 
