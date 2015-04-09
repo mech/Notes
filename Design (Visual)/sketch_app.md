@@ -52,6 +52,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Prototyping with Sketch](http://blog.invisionapp.com/11-tips-for-prototyping-with-sketch/)
 * [An index of the most useful resources for Sketch](http://sketch.land/index.html)
 * [Sketch Talk - A forum](http://sketchtalk.io/)
+* [Sketch color preset](https://github.com/RayPS/my-sketch-colors)
 
 ## Tutorials
 

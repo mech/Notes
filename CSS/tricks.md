@@ -27,6 +27,7 @@
 * [`object-fit: cover`](https://medium.com/@chrisnager/center-and-crop-images-with-a-single-line-of-css-ad140d5b4a87)
 * [Full screen pushing navigation](http://codyhouse.co/gem/full-screen-pushing-navigation/)
 
+
 ```
 /* do nothing when clicked even through JavaScript */
 .disabled { pointer-events: none; }
@@ -184,3 +185,7 @@ input {
 .colored
 .stripe
 ```
+
+## Videos
+
+* [Smarter UI interactions using `:checked`](https://www.youtube.com/watch?v=XAITicOZCdk)

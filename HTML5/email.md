@@ -26,4 +26,5 @@
 
 ## Tools
 
-* [Self-hosted email newsletter using Amazon Simple Email Service (SES)](http://sendy.co/)
+* [sendy - Using SES](http://sendy.co/)
+* [EmailOctopus - another using SES](https://emailoctopus.com/)

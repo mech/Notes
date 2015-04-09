@@ -1,11 +1,14 @@
 # Resources
 
+**CSS is hard — because it is global**
+
 ```
 https://smacss.com/signin
 https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
 
+* [**CSS Next**](https://cssnext.github.io/)
 * [Design Essential from GitHub](https://github.com/showcases/design-essentials)
 * [**2014 CSS report card**](http://reports.quickleft.com/css)
 * [How to perform a CSS Audit](http://quickleft.com/blog/how-to-perform-a-css-audit-stylesheets-don-t-have-to-be-awful)

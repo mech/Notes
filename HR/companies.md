@@ -18,6 +18,7 @@ Notable companies in HR domain.
 ## Notable Companies
 
 * [**Toptal**](http://www.toptal.com/)
+* [**Zenefits**](http://www.zenefits.com/hr-software)
 * [**Jobvite**](http://www.jobvite.com/products/)
 * [**Blueskyme - Nice interaction and UI**](http://blueskyme.com/)
 * [Kin HR Software](http://kinhr.com/)

@@ -4,8 +4,11 @@ https://news.layervault.com/stories/42434-ask-dn-selftaught-developer-and-entryl
 
 HR silo - HR-optimized organization represent friction. Barriers. The danger of silos within organization. Tragedy of the commons.
 
+**In HR, how can we let client be the source of supply and also demand - See https://medium.com/backchannel/here-are-the-secrets-of-unicorn-companies-c8951b99215b**
+
 **Hiring Pipeline** - First, Pipeline Construction. Map out your Stages. Prescribed, but you can add your own stages. Pipeline stages are "feedback opportunity" between recruiter, candidate, and clients. Each stage can have rules, checklist, milestone, checker, linter, etc. Confidence level will be high as the stages progresses to Hired. Increasing confidence as the stage progresses. Beware of ineffective notification on pipeline. Alert fatigue.
 
+* [Top 100 ExOs](http://top100.exponentialorgs.com/)
 * [**Rules engines**](http://www.toptal.com/java/rules-engines-power-to-the-smeople)
 * [UniSIM launch degree in HR](http://news.asiaone.com/news/education/unisim-launch-degree-human-resource)
 * [**All about workforce analytics**](https://gibbon.co/kbehzad/all-about-workforce-analytics)

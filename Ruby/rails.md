@@ -13,6 +13,7 @@ group :development do
 end
 ```
 
+* [**Reinteractive blog**](https://www.reinteractive.net/blog)
 * [Favorite Ruby gems and services](https://medium.com/@riklomas/89fb47341c05)
 * [Infinite scrolling in Rails](http://www.sitepoint.com/infinite-scrolling-rails-practice/)
 * [Reading Rails series!](http://monkeyandcrow.com/blog/reading_rails_how_does_message_verifier_work/)

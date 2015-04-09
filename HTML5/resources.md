@@ -39,6 +39,10 @@
 * [Modern web development](http://jtaby.com/blog/2012/04/23/modern-web-development-part-1)
 * [The history of the HTML5Shiv](http://www.paulirish.com/2011/the-history-of-the-html5-shiv/)
 
+## Accessibility
+
+* [Accessibility Wins](http://a11ywins.tumblr.com/)
+
 ## Offline-first
 
 * [Offline-first Web apps](https://github.com/pazguille/offline-first)

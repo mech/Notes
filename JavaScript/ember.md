@@ -6,6 +6,9 @@ Callbacks -> Promises
 Views -> Web Component
 ```
 
+* [**EmberConf 2015**](https://github.com/poteto/emberconf-2015)
+* [An Agile Design Manifesto for Ember.js](https://medium.com/@hhff/an-agile-design-manifesto-for-emberjs-faae08ce7869)
+
 Templating goes together with Binding. You typically experience them as a single unit even if they are separate.
 
 The compiler see the template fragment, identifying any binding expressions, event handlers, etc. It parses the binding expressions if any. The result of this compiling is cached so none of the above needs to be repeated.

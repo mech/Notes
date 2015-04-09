@@ -97,6 +97,13 @@ FitAgent, Fit4Hire, FitSense
 
 Data analysis -> Break into group -> Targeted marketing (marketing as in the sense of value awareness)
 
+## Pipelines
+
+```
+Sources -> Filters -> Sinks
+(CA/JD) -> ATS     -> Hired/Rejected
+```
+
 ## Redis
 
 For payslip, past timesheet, anything that involved past records, we tried to cache it at the Redis level for fast access or just to make FileMaker less load.

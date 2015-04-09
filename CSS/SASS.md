@@ -1,5 +1,7 @@
 # Sass
 
+> By writing modular code with a component approach, I do not feel the need for Sass's map and loop feature - cssnext
+
 * [**A vision for Sass**](http://alistapart.com/article/a-vision-for-our-sass)
 * [Sass Guideline](http://sass-guidelin.es/)
 * [**An auto-enforceable SCSS styleguide**](http://davidtheclark.com/scss-lint-styleguide/)

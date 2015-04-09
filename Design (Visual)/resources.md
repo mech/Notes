@@ -36,12 +36,20 @@
 * [Colors are important](https://medium.com/design-with-gravit/colors-are-important-5313b1bed59c)
 * [Tints, tones, and shades](http://viget.com/inspire/tints-tones-shades)
 * [How do you present a color palette](https://news.layervault.com/stories/38755-how-do-you-present-a-color-pallette)
+
+
+## Flat Design
+
+> Anything deemed not essential was considered superfluous, almost offensive.
+
+* [**Very nice piece on flat design in 2015**](https://medium.com/@intercom/has-visual-design-fallen-flat-a155cb6a5cda)
 * [Material UI Colors](http://www.materialui.co/colors)
 * [Flat UI colors](http://flatuicolors.co/)
 * [Flat UI colors 2](http://flatuicolors.com/)
 
 ## Icon
 
+* [**Nucleo - A nice app to make icon**](https://nucleoapp.com/)
 * [Look for the SVG spinner icon](http://evil-icons.io/)
 * [Ask Symbolset to help us design icon?](http://blog.symbolset.com/symbolset-for-brands)
 * [Iconjar](http://geticonjar.com/)

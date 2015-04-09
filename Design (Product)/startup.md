@@ -12,6 +12,7 @@
 * [Startup podcast](http://www.blog.herbigt.com/why-i-love-startup-podcast/)
 * [Startup Talks](http://startuptalks.tv/videos/category/design/)
 * [Business of Software](http://businessofsoftware.org/)
+* [The Secrets of Unicorn Companies](https://medium.com/backchannel/here-are-the-secrets-of-unicorn-companies-c8951b99215b)
 
 ## Growth
 

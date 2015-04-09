@@ -82,6 +82,7 @@ Model your UI as pure function.
 * [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
 * [**Awesome React**](https://github.com/enaqx/awesome-react)
 * [60fps mobile web](http://engineering.flipboard.com/2015/02/mobile-web/)
+* [What's so great about React](http://www.reddit.com/r/javascript/comments/2uvz0x/whats_so_great_about_reactjs/)
 * [React.js and ES6 classes](http://www.reactbook.org/blog/reactjs-es6-classes.html)
 * [Takeaways from React.js Conf 2015](http://kevinold.com/2015/01/31/takeaways-from-reactjs-conf-2015.html)
 * [Tweet on Michael Jackson's react](https://twitter.com/mjackson/status/466286956989542400)
