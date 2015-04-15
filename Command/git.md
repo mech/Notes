@@ -6,6 +6,7 @@ Discuss your code changes before they get merged! - Use Pull Request
 
 Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
 
+* [Git Style Guide](https://github.com/agis-/git-style-guide)
 * [GitHub flow for rapid deployment and web project](http://scottchacon.com/2011/08/31/github-flow.html)
 * [GitFlow for infrequent library releases](http://nvie.com/posts/a-successful-git-branching-model/)
 * [Git flight rules](https://github.com/k88hudson/git-flight-rules)

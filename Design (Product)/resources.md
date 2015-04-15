@@ -4,6 +4,7 @@ It's not about the product, it's about your users.
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
 * [**Platform stack**](http://platformed.info/platform-stack/)
 * [**Bringing Design to Software**](http://hci.stanford.edu/publications/bds/)
 * [**The Web's Grain**](http://frankchimero.com/talks/the-webs-grain/transcript/)

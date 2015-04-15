@@ -16,6 +16,8 @@
 
 `VMwareTools-9.9.2-2496486.tar.gz`
 `Linux bastion 3.16.0-31-generic #41~14.04.1-Ubuntu SMP Wed Feb 11 19:30:13 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux`
+`3.16.0-33-generic`
+``
 
 ---
 1. Turn Shared Folder off

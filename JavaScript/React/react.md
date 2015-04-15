@@ -50,6 +50,9 @@ Declarative -> Predictable -> Confidence -> Reliability
 * Highly performant
 * Good practices of creating very very small components
 * Re-render everything on every change
+* Model states, not transitions
+* Declarative programming
+* Immediate mode rendering
 
 React don't like 2-way data binding and template. It like one-way data flow and no template.
 
@@ -75,13 +78,15 @@ What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
 * [**$19 book**](http://swizec.com/reactd3js)
+* [**Master React - Another book**](http://ludovf.net/reactbook/)
 * [**React Primer**](https://github.com/mikechau/react-primer-draft)
 * [Why React? (2013 articles)](http://facebook.github.io/react/blog/2013/06/05/why-react.html)
 * [React Conf roundup](http://facebook.github.io/react/blog/2015/02/18/react-conf-roundup-2015.html)
-* [A comprehensive guide to building apps with React](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
+* [**A comprehensive guide to building apps with React**](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
 * [**Why React is awesome**](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
 * [**Awesome React**](https://github.com/enaqx/awesome-react)
 * [60fps mobile web](http://engineering.flipboard.com/2015/02/mobile-web/)
+* [**Fixed Data Table**](https://github.com/facebook/fixed-data-table)
 * [What's so great about React](http://www.reddit.com/r/javascript/comments/2uvz0x/whats_so_great_about_reactjs/)
 * [React.js and ES6 classes](http://www.reactbook.org/blog/reactjs-es6-classes.html)
 * [Takeaways from React.js Conf 2015](http://kevinold.com/2015/01/31/takeaways-from-reactjs-conf-2015.html)
@@ -125,6 +130,7 @@ Model your UI as pure function.
 * [React is a terrible idea](https://www.pandastrike.com/posts/20150311-react-bad-idea)
 * [Component interop with React and Custom Element](http://addyosmani.com/blog/component-interop-with-react-and-custom-elements/)
 * [Mozilla and Web Component](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/)
+* [Real-time offline-ready web apps](http://swarmjs.github.io/articles/todomvc/)
 
 ```
 var gulp = require('gulp');
@@ -141,9 +147,9 @@ gulp.task('scripts', function() {
 });
 ```
 
-## Component - React Element
+## Component - ReactElement
 
-In v0.12, you no longer call it as React Component, but rather call it as React Element.
+In v0.12, you no longer call it as React Component, but rather call it as ReactElement.
 
 React is functional. Components are just like functions. [They take in `props` and `state` and render HTML](http://facebook.github.io/react/docs/displaying-data.html#components-are-just-like-functions).
 
@@ -169,6 +175,7 @@ This introduces the concept of idempotency and immutability.
 * [**Reapp**](http://reapp.io/)
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
 * [react-nexus](https://github.com/elierotenberg/react-nexus)
+* [React Bootstrap](https://react-bootstrap.github.io/components.html)
 
 ```
 React.renderComponent();   // Deprecated

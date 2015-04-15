@@ -2,6 +2,8 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [**Aligning everything**](http://www.sketchtips.info/articles/aligning-everything)
+* [**Making Live - Videos showing artist illustrating**](https://makinglive.com/watch/drawing-illustrations)
 * [**Pixel Fitting**](https://www.youtube.com/watch?v=wSLW4K2ON4s)
 * [**Pixel Fitting**](http://dcurt.is/pixel-fitting)
 * [Discovering Sketch](https://medium.com/@jm_denis/discovering-sketch-25545f6cb161)
@@ -131,6 +133,10 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 ## Videos
 
 * [Tips](https://www.youtube.com/watch?v=AV2OkzIGykA&list=PLLnpHn493BHE6UIsdKYlS5zu-ZYvx22CS)
+
+## People
+
+* [Sebastien Gabriel from Google](http://sebastien-gabriel.com/)
 
 
 ## Gallery

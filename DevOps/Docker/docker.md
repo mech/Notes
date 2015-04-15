@@ -77,6 +77,7 @@ Operationalized and Orchestration.
 * [Comment is good on Chef vs Docker](https://blog.relateiq.com/why-docker-why-not-chef/)
 * [10 Docker tips and tricks](http://nathanleclaire.com/blog/2014/07/12/10-docker-tips-and-tricks-that-will-make-you-sing-a-whale-song-of-joy/)
 * [docker inspect -f](http://container-solutions.com/2015/03/docker-inspect-template-magic/)
+* [Trapping signals in Docker](https://medium.com/@gchudnov/trapping-signals-in-docker-containers-7a57fdda7d86)
 
 ```
 docker version
@@ -469,6 +470,7 @@ clean:
 
 * [Deploying Nginx with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Some nginx example](http://curtisz.com/someone-set-us-up-the-docker/)
+* [A sample Docker workflow with Nginx, Node.js and Redis](http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/)
 
 ## Examples
 

@@ -6,6 +6,7 @@
 * [11 costly website crashes](http://blog.smartbear.com/web-performance/11-costly-website-crashes-application-performance-bloopers/?imm_mid=0cb5e9&cmp=em-webops-na-na-newsltr_20150123)
 * [SysAdvent](http://sysadvent.blogspot.sg/)
 * [Cache is the new RAM](http://blog.memsql.com/cache-is-the-new-ram/)
+* [Arrested DevOps](http://www.arresteddevops.com/)
 
 Gradual rollout, dark launching
 

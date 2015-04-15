@@ -6,6 +6,9 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 > Today my Jawbone is a fairly basic data collection device. It knows that I walked 8,000 steps and slept too little, but it doesn't drive me to action other than providing me with a visualization of the data. In the Age of Context this will change, as larger and larger data sets of sensor data, combined with other data combined with intelligent analytics allows data to become actionable.
 
+---
+> The Twitter vs. Instagram experience is really reinforcing what matters when designing a product. What kind of behavior can we encourage? What kind of moments can we create for people? What do people anticipate before they use something? How does it leave them feeling when they’re done? These are now some of the most important questions for me when working on a design. - [Look and Feel and Feel](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
+
 ## Microservices
 
 Bounded Context - Identify discrete business capabilities (functions). Functions govern part of enterprise data model.
@@ -131,6 +134,19 @@ Support for Emoji needs utf8mb4. Or just use Postgres.
 * If failed to send SMS, notify also to the consultant so they can act on it, rather than email only to IT for `DeliveryImpossible`.
 * [Rails 4.1 and MySQL 5.5 support utf8mb4](http://tech.taskrabbit.com/blog/2014/04/24/active-record-mysql-and-emoji/)
 * [Unicode support in MySQL is...](http://www.codeka.com.au/blog/2014/02/unicode-support-in-mysql-is--)
+
+## Accrual
+
+INR accrual can only have all same `work_year`.
+@mech - not sure what this meant, but must be something to do with Xero accrual import on that year where work_year is not the same.
+
+## Timesheet
+
+Have option that allow CA to indicate that TS should follow the previous month values. Sort of like how IRAS file your income tax. It will be automatic if you do not have any new things to add/change.
+
+Send an email that says "We noticed for the past 3 months your TS hours are the same, we can auto-submit for you if you are sure you never change your TS."
+
+Remove NRIC on TS PDF.
 
 ## Pub/Sub
 

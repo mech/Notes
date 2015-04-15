@@ -97,7 +97,7 @@ DB_PORT_4567_TCP_PORT=4567
 DB_PORT_4567_TCP_PROTO=tcp
 ```
 
-**Note**: If source container is restarted, the IP address in the environment variables are not automatically updated. So if you want to configure your application, it is better to use the `/etc/hosts` entries for IP address.
+**Note**: If source container is restarted, the IP address in the environment variables are not automatically updated. So if you want to configure your application, it is better to use the `/etc/hosts` entries for IP address. Docker recommends using `/etc/hosts` instead of ENV variables because the variables are not automatically updated if the source container is restarted.
 
 If you disable icc via `--icc=false`, container A cannot access container B unless explicitly allowed via a link. This is a huge win for securing your containers.
 

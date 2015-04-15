@@ -40,6 +40,8 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 
 * [Don't stop containers when fig up exits](https://github.com/docker/compose/issues/741)
 * [Data only containers / No run containers](https://github.com/docker/compose/issues/942)
+* [centurion from NewRelic](https://github.com/newrelic/centurion)
+* [maestro-ng](https://github.com/signalfuse/maestro-ng)
 
 Multi-container apps are a hassle.
 

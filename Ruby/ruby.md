@@ -203,3 +203,7 @@ end
 RUBY_VERSION =~ /([\d]+)\.([\d]+)\.([\d]+)/
 major, minor, revision = $1.to_i, $2.to_i, $3.to_i
 ```
+
+## People
+
+* [BIGBinary](http://blog.bigbinary.com/archive.html)

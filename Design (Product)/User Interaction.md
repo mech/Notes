@@ -2,6 +2,7 @@
 
 Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY and WHAT the user is trying to accomplish, regardless of whether your solution or a competitors' exists.
 
+* [**Reactive Design**](http://gabinaureche.com/reactivedesign/)
 * [7GUIs](https://github.com/eugenkiss/7guis/wiki)
 * [UI/UX Design Interviews](https://medium.com/ux-design-interviews/davide-casali-7714a0be3f6e)
 * [**Macrointeractions**](https://medium.com/@mkruz/macrointeractions-f0a16eaaf593)
@@ -58,6 +59,8 @@ There is no intuitive interface, just "easy-to-learn" interface.
 * [Shots of things that work](http://thegodfounder.com/)
 * [Little Big Details](http://littlebigdetails.com/)
 * [First time UX - On-boarding](http://firsttimeux.tumblr.com/)
+* [The best UI typeface goes unnoticed](http://thomasbyttebier.be/blog/the-best-ui-typeface-goes-unnoticed)
+* [A clear interface is a better interface](http://thomasbyttebier.be/blog/a-clear-interface-is-a-better-interface)
 
 ## UI Design Tips
 

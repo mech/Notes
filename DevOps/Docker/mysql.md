@@ -8,6 +8,8 @@
 * [Why default character_set_server is latin1](http://dba.stackexchange.com/questions/29649/why-default-character-set-server-is-latin1)
 * `sudo apt-get install mysqltuner`
 * [Logrotate and the MySQL log](http://www.percona.com/blog/2014/11/12/log-rotate-and-the-deleted-mysql-log-file-mystery/)
+* [Make uid & gid configurable for shared volumes](https://github.com/docker/docker/issues/7198)
+* [Best way to manage permissions for Docker shared volumes](http://stackoverflow.com/questions/23544282/what-is-the-best-way-to-manage-permissions-for-docker-shared-volumes)
 
 ```
 /var/lib/mysql
@@ -49,6 +51,13 @@ fi
 ```
 
 ## Backup and Restore
+
+* [`mysqldump --single-transaction`](http://dba.stackexchange.com/questions/71961/mysqldump-single-transaction-yet-update-queries-are-waiting-for-the-backup)
+* [Can I backup mysql while mysqld is running?](http://serverfault.com/questions/195125/can-i-backup-mysql-while-mysql-is-running)
+* [How to pipe a mysql dump to s3cmd](http://serverfault.com/questions/605796/how-to-pipe-a-mysql-dump-to-s3cmd)
+* [Backup MySQL to Amazon S3](https://gist.github.com/oodavid/2206527)
+* [Backup MySQL to S3 in 30 seconds](https://fogstack.wordpress.com/2013/05/25/backup-mysql-to-s3-in-30-seconds/)
+* [s3cmd options](http://s3tools.org/usage)
 
 ```
 mysqldump -h localhost -u root -p --databases jobline_pro > /tmp/backup.sql

@@ -14,6 +14,8 @@ end
 ```
 
 * [**Reinteractive blog**](https://www.reinteractive.net/blog)
+* [**BIGBinary blog**](http://blog.bigbinary.com)
+* [**Cookies on Rails**](http://blog.bigbinary.com/2013/03/19/cookies-on-rails.html)
 * [Favorite Ruby gems and services](https://medium.com/@riklomas/89fb47341c05)
 * [Infinite scrolling in Rails](http://www.sitepoint.com/infinite-scrolling-rails-practice/)
 * [Reading Rails series!](http://monkeyandcrow.com/blog/reading_rails_how_does_message_verifier_work/)
@@ -31,13 +33,16 @@ end
 * [Eager load in production](http://blog.arkency.com/2014/11/dont-forget-about-eager-load-when-extending-autoload/)
 * [In defense of ivars](http://naildrivin5.com/blog/2014/02/09/a-defense-of-ivars-in-rails-controllers.html)
 * [Presenters: Delegation vs Just making a Struct](http://technology.stitchfix.com/blog/2013/12/20/presenters-delegation-vs-structs/)
-* [**Fast rich client Rails development wjm;8m=9ith Webpack and ES6 transpiler**](http://www.railsonmaui.com/blog/2014/10/02/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
+* [**Fast rich client Rails development with Webpack and ES6 transpiler**](http://www.railsonmaui.com/blog/2014/10/02/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
 * [Gulp Rails asset pipeline](http://viget.com/extend/gulp-rails-asset-pipeline)
 * [Optimizing Rails for memory usage](http://collectiveidea.com/blog/archives/2015/03/05/optimizing-rails-for-memory-usage-part-3-pluck-and-database-laziness/)
 
 ## Router
 
 * [Use routing constraints](http://viget.com/extend/using-routing-constraints-to-root-your-app)
+* [Rails from Request to Response - Part 1](http://andrewberls.com/blog/post/rails-from-request-to-response-part-1--introduction)
+* [Rails from Request to Response - Part 2](http://andrewberls.com/blog/post/rails-from-request-to-response-part-2--routing)
+* [Rex, Rexical and Rails routing](http://blog.bigbinary.com/2013/02/01/rex-rexical-and-rails-routing.html)
 
 ## Association Proxy
 * [Advanced Proxy Usage](http://pivotallabs.com/advanced-proxy-usage-part-i/)

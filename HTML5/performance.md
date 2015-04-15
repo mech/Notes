@@ -1,5 +1,7 @@
 # Performance
 
+* [**Rendering Performance**](https://developers.google.com/web/fundamentals/performance/rendering/)
+* [CSS Triggers](http://csstriggers.com/)
 * [**Perf.Rocks**](http://www.perf.rocks/)
 * [**Measure, Optimize, Automate**](http://ponyfoo.com/articles/measure-optimize-automate)
 * [**Awesome Web Performance Optimization**](https://github.com/davidsonfellipe/awesome-wpo)

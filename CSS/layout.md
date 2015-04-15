@@ -129,6 +129,7 @@ Nearly every grid system is based on rows and columns, set to 12 or 16 increment
 
 > "What drives me insane in modern web design is grids. What's important is a page that moves. Now, as news flows in, editors can very quickly reshuffle what we're doing on the page, because every module is moveable. Instead of rigid grids, the site is built from these building blocks so we can snap them together like Lego. The news becomes intent driven, rather than layout driven." - Josh Topolsky, editor of Bloomberg Digital
 
+* [How the grid will automate web design without killing the designer](http://www.fastcodesign.com/3044670/how-the-grid-will-automate-web-design-without-killing-the-designer)
 * [**Foundation - A new grid**](http://zurb.com/article/1333/foundation-a-new-grid)
 * [Skeleton](http://getskeleton.com/)
 * [**Complete guide to grid**](http://css-tricks.com/snippets/css/complete-guide-grid/)

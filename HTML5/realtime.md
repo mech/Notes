@@ -6,6 +6,8 @@
 
 ## WebSocket
 
+* [Rack socket hijacking](http://old.blog.phusion.nl/2013/01/23/the-new-rack-socket-hijacking-api/)
+
 You need sub-protocol for WebSocket like WAMP? Pusher is not using WAMP.
 
 ## WebRTC

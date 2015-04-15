@@ -20,3 +20,12 @@
 ```
 git checkout tags/2.0.3
 ```
+
+## History
+
+* [**jQuery original annotation**](http://genius.it/ejohn.org/files/jquery-original.html)
+* [window.onload(again)](http://dean.edwards.name/weblog/2006/06/again/)
+* [JavaScript CSS selector engine timeline](http://www.paulirish.com/2008/javascript-css-selector-engine-timeline/)
+* [Event selector showdown](http://ejohn.org/blog/event-selector-showdown/)
+* [XPath and CSS selectors](http://ejohn.org/blog/xpath-css-selectors/)
+* [Very old Prototype.js code walkthrough](http://www.sergiopereira.com/articles/prototype131.js.html)

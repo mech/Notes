@@ -5,6 +5,7 @@
 * [**A vision for Sass**](http://alistapart.com/article/a-vision-for-our-sass)
 * [Sass Guideline](http://sass-guidelin.es/)
 * [**An auto-enforceable SCSS styleguide**](http://davidtheclark.com/scss-lint-styleguide/)
+* [Scalable CSS reading list](https://github.com/davidtheclark/scalable-css-reading-list)
 * [**15 essential SASS mixins**](http://www.developerdrive.com/2014/11/15-essential-sass-mixins/)
 * [When to use extend and when to use a mixin](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/)
 * [**Useful SASS mixins**](https://github.com/gillesbertaux/andy)
@@ -57,6 +58,7 @@
 ## Map
 
 * [Play with list-maps](http://anotheruiguy.roughdraft.io/10302472-so-you-want-to-play-with-list-maps)
+* [Using lists with maps in Sass 3.3](http://benfrain.com/using-lists-with-maps-in-sass-3-3/)
 
 
 ```

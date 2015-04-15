@@ -1,7 +1,14 @@
 # User Experience
 
+User experience design is not the same thing as user interface design. The experience of users happens beyond the screen and in the gaps.
+
+As web and mobile designers our job is to build elegant interfaces. Interfaces that are key components in the user's experience. Interfaces that allow them to get answers to questions or complete critical tasks. Our job is to help them achieve their goal.
+
+But don't mistake these interactions as the entirety of the users experience. Great user experiences happen beyond the screen and in the gaps. Gaps between channels, devices and business silos. They happen when organisations pay attention to the nuances of their interaction with customers.
+
 ## General
 
+* [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
 * [**Researchers.io**](http://researchers.io/)
 * [**The Ultimate List of UX Design and Development Resources**](https://www.codefellows.org/blog/the-ultimate-list-of-ux-design-and-development-resources)
 * [**UX Booth**](http://www.uxbooth.com/)
