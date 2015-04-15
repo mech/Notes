@@ -9,7 +9,7 @@ Objects in JavaScript have reference equality.
 
 ## React
 
-```
+```js
 class Person extends React.Component {
   constructor(props) {
     super(props);
