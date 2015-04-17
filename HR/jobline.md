@@ -148,6 +148,10 @@ Send an email that says "We noticed for the past 3 months your TS hours are the 
 
 Remove NRIC on TS PDF.
 
+## Change of Approver
+
+If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
+
 ## Pub/Sub
 
 If someone is interested in some event, we can broadcast to them.

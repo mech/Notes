@@ -1,5 +1,7 @@
 # Router
 
+In React Router, unlike Ember, nested route do not correspond to nested URL. It gives you complete freedom of what your URL look like. Just because you nest a route doesn't mean you need to append a segment to the URL to match.
+
 * [Fluxxor React Router Guide](http://fluxxor.com/examples/react-router.html#/)
 * [Does Relay routing replace react-router?](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_about_routing)
 * [Support React version 0.13](https://github.com/rackt/react-router/issues/638)
@@ -30,6 +32,14 @@ It is just like the `{{outlet}}` in Ember. Can we have multiple `<RouteHandler /
 ## Dynamic Segments
 
 Explicit static paths match more closely than dynamic paths.
+
+## Transition
+
+```
+transition.redirect('/login');
+transition.retry();
+transition.abort();
+```
 
 ## DFA and NFA?
 

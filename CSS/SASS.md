@@ -112,3 +112,7 @@ $z-index: (
 .navigation {
 	@include z-index(navigation);}
 ```
+
+```
+percentage(target/context)
+```

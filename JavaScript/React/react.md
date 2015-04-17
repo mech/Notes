@@ -1,4 +1,4 @@
-# React (by Facebook)
+# React
 
 Why SPA? Imagine using Facebook where every like and every comment made you refresh the page.
 
@@ -7,6 +7,26 @@ https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%2
 After a while, you will see the "cascading updates" problem, where a ListView will trigger a side drawer for input and once done, hide the drawer, update the ListView and update the counter, present a new dialog based on the newly added list, etc.
 
 * [NativeScript??](https://www.nativescript.org/blog/answering-nativescript-beta-webinar-questions)
+
+## Examples to Learn
+
+* [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
+* [JWT router example](https://github.com/auth0/react-flux-jwt-authentication-sample/blob/gh-pages/src/app.jsx#L11-L29)
+* [cosmos.js](https://github.com/skidding/cosmos)
+* [react-flux-jwt-authentication-sample](https://github.com/auth0/react-flux-jwt-authentication-sample)
+* [fixed-data-table](https://github.com/facebook/fixed-data-table)
+* [React router auth flow example](https://github.com/rackt/react-router/blob/master/examples/auth-flow/app.js)
+* [Authenticated route example from Ryan Florence](https://gist.github.com/ryanflorence/c1fe013af753456c1ca9)
+* [Avatar.js](https://gist.github.com/ryanflorence/bded2eadf8094704d0ab)
+* [react-textarea-autosize](https://github.com/andreypopp/react-textarea-autosize)
+* [Date Picker](http://react.rocks/tag/DatePicker)
+* [`<ReactFitText>`](https://github.com/gianu/react-fittext/blob/master/lib/ReactFitText.js)
+
+### File Structure Examples
+
+* [From mrtnbroder](https://gist.github.com/mrtnbroder/4a4a00d6e158df82611e)
+* [From Ryan Florence](https://gist.github.com/ryanflorence/110d4538bf98694538de)
+* [From Ryan Florence... again](https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346)
 
 ## Browser Support
 
@@ -98,6 +118,7 @@ Model your UI as pure function.
 * [**React.js UI framework for hybrid mobile apps**](http://touchstonejs.io/)
 * [Pete Hunt: High performance functional programming with React and Meteor](http://www.youtube.com/watch?v=qqVbr_LaCIo)
 * [**React: RESTful UI Rendering**](https://www.youtube.com/watch?v=IVvHPPcl2TM)
+* [**Reactive UI**](http://blog.percolatestudio.com/engineering/reactive-user-interfaces/)
 * [Building robust web apps with React](http://maketea.co.uk/2014/03/05/building-robust-web-apps-with-react-part-1.html)
 * [Using react with browserify](https://medium.com/publish-what-you-learn/a1ea2dd606b)
 * [Example](https://github.com/aslansky/react-stack-playground)
@@ -246,7 +267,7 @@ function HellMessage(initialProps) {
 ## Props and States
 
 * [Demystifying React Components State](http://www.sitepoint.com/demystifying-react-components-state/)
-* [Props vs States](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
+* [**Props vs States**](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
 
 `getDefaultProps` only ever called once for "all" instances. Do not do anything like `Date.new` inside `getDefaultProps`.
 

@@ -1,4 +1,4 @@
-# Selector
+# Selectors
 
 * [Don't use ID in CSS selector?](http://oli.jp/2011/ids/)
 
@@ -8,7 +8,50 @@ Only ever use [selectivizr](http://selectivizr.com/) for IE6-8!
 div[id] // select all div with an id attribute
 ```
 
+Types of selectors:
+
+* Class
+* Type
+* Attribute
+* Combinator
+
+## Attribute Selectors
+
+Apple rules that match elements based on their attributes or attribute values.
+
+```
+// Simple Attribute Selector
+a[href] {}
+
+// Exact Attribute Value Selector
+a[rel='friend'] {}
+// Partial Attribute Value Selector
+a[rel~='friend'] {}
+// Beginning Substring Attribute Value Selector
+a[title^='image'] {}
+	
+// Ending Substring Attribute Value Selector
+a[href$='.pdf'] {}
+
+// Arbitrary Substring Attribute Value Selector
+a[href*='.pdf'] {}
+```
+
+## Combinator Selectors
+
+```
+// Adjacent Sibling Combinator
+// <p> is immediately preceded by <h2> on same level of document tree
+h2 + p {}
+
+// General Sibling Combinator
+// Same as above, but regardless of if it is immediately adjacent
+h2 ~ p {}
+```
+
 ## Pseudo-classes
+
+Pseudo-classes/elements remove the need for you to created non-semantic elements to act as hooks to hang your styles on.
 
 Pseudo-classes are a way to select a whole piece of your HTML element.
 

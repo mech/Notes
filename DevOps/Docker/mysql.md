@@ -10,6 +10,7 @@
 * [Logrotate and the MySQL log](http://www.percona.com/blog/2014/11/12/log-rotate-and-the-deleted-mysql-log-file-mystery/)
 * [Make uid & gid configurable for shared volumes](https://github.com/docker/docker/issues/7198)
 * [Best way to manage permissions for Docker shared volumes](http://stackoverflow.com/questions/23544282/what-is-the-best-way-to-manage-permissions-for-docker-shared-volumes)
+* [**Learn to stop using shiny new things and love MySQL**](http://engineering.pinterest.com/post/116038532184/learn-to-stop-using-shiny-new-things-and-love)
 
 ```
 /var/lib/mysql

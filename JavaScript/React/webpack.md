@@ -37,7 +37,6 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [Browserify Handbook](https://github.com/substack/browserify-handbook)
 * [Single page modules with Webpack](http://dontkry.com/posts/code/single-page-modules-with-webpack.html)
 * [HMR](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
-* [Rails with Webpack](https://www.reinteractive.net/posts/213-rails-with-webpack-why-and-how)
 
 ## Loaders
 
@@ -98,6 +97,7 @@ A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 * [React hot loader](https://gaearon.github.io/react-hot-loader/2014/07/23/integrating-jsx-live-reload-into-your-react-workflow/)
 * [Don't trigger module reloading when there were errors generating the bundle](https://github.com/webpack/webpack-dev-server/issues/42)
 * [**You need to do module.hot at main entry file**](https://github.com/christianalfoni/react-webpack-cookbook/wiki/Hot-loading-components)
+* [Troubleshooting guide for react-hot-loader issues](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
 
 
 ## Feature Flags
@@ -121,6 +121,25 @@ webpack -p -d // source-map in production (minified also)
 * [template-html-loader](https://github.com/jtangelder/template-html-loader)
 
 Use `assets-webpack-plugin` to access the JSON stats object.
+
+## Webpack with Rails
+
+* [How to use webpack with Rails](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
+* [Rails with Webpack](https://www.reinteractive.net/posts/213-rails-with-webpack-why-and-how)
+* [assets-webpack-plugin](https://github.com/sporto/assets-webpack-plugin)
+* [webpack_and_rails](https://github.com/mindreframer/webpack_and_rails)
+* [webpack_rails_demo](https://github.com/flarnie/webpack_rails_demo)
+* [rails-webpack-react-flux](https://github.com/nambrot/rails-webpack-react-flux)
+
+Use JSON manifest file for production fingerprinting.
+
+1. Forget about Rails Asset Pipeline.
+2. Have a folder called "front-end", "fe" or "webpack"
+3. Use [foreman](https://github.com/ddollar/foreman) to start Rails server + webpack watcher
+4. Ask webpack to build assets for us and put it directly in `/public` folder.
+5. Generate JSON file with the hashes fingerprinting for Rails view to use. See [assets-webpack-plugin](https://github.com/sporto/assets-webpack-plugin)
+6. Do not commit the generated bundle from webpack! gitignore it also.
+
 
 ## Videos
 

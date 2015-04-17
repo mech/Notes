@@ -2,6 +2,8 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [Learn Sketch](http://learnsketch.com/)
+* [Understanding export options](http://webdesign.tutsplus.com/tutorials/understanding-sketchs-export-options--cms-22207)
 * [**Aligning everything**](http://www.sketchtips.info/articles/aligning-everything)
 * [**Making Live - Videos showing artist illustrating**](https://makinglive.com/watch/drawing-illustrations)
 * [**Pixel Fitting**](https://www.youtube.com/watch?v=wSLW4K2ON4s)
@@ -72,6 +74,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 ## Shortcut
 
+* [Sketch shortcut](https://medium.com/sketch-app/sketch-shortcuts-4babfb40545b)
 * [Sketch shortcut tips](https://news.layervault.com/stories/38711-sketch-tip-hold-cmd-to-clickthrough-a-group)
 * Command+Option and drag to maintain selection
 * Tab to cycle layer
