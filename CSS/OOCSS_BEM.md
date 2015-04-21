@@ -40,6 +40,12 @@ Ensure any objects or abstractions are very vaguely named to allow for greater r
 
 ## OOCSS
 
+OOCSS is a technique, not a technology.
+
+Look for patterns, not how the layout is laid out.
+
+Grids are a gateway to OOCSS. With grid frameworks, you realise it has generic class names. So too can your components.
+
 OOCSS is fantastic in that it teaches us to abstract out the repetitive, shared, and purely structural aspects of a UI into reusable objects. Non-cosmetic styles that handle the skeletal aspect of a lot of UI components, without ever actually looking like designed 'things'.
 
 Based on 2 main principles:
@@ -48,6 +54,14 @@ Based on 2 main principles:
 * Separate container and content. Prevent location dependent styles.
 
 OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML and CSS.
+
+```
+.contentlist
+.contentlist_grid
+.distinct         // hairline, separator
+.module           // padding, margin, edgeless
+.module_contained // padding, margin, with edge
+```
 
 ## BEM
 

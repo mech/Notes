@@ -1,5 +1,9 @@
 # Style Guides
 
+Nobody wants to email back and forth style guides. Confusion about latest version, hard to distribute, hard to edit and change, etc.
+
+Instead, create a living style guide made with real HTML and CSS and you can versioned it.
+
 Why style guide?
 
 * BEFORE: What markup/CSS do I need to write?
@@ -77,6 +81,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Organizing CSS color palettes](https://news.layervault.com/stories/41926-organizing-css-color-palettes)
 * [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
 * [CSS namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+* [The Standard Manual](http://thestandardsmanual.com/)
 
 ## Playbook
 
@@ -126,6 +131,7 @@ Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you va
 * [Buffer App](https://bufferapp.com/style-guide)
 * [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
 * [Atlassian Design](https://design.atlassian.com/latest/)
+* [Living Style Guide](http://livingstyleguide.org/)
 
 ## Naming Convention
 

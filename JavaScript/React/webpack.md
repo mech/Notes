@@ -5,11 +5,12 @@ We want to write modular code. But browsers cannot run modularised code, so we n
 Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 
 ```
-▶ npm install --save react
+▶ npm install react --save --save-exact
 ▶ npm install --save normalize.css
 ▶ npm install --save-dev babel-loader # Will add webpack also
 ▶ npm install --save-dev babel-eslint
 ▶ npm install --save-dev eslint-loader
+▶ npm install --save-dev eslint-plugin-react
 ▶ npm install --save-dev url-loader
 ▶ npm install --save-dev css-loader
 ▶ npm install --save-dev style-loader
@@ -18,6 +19,8 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 ▶ npm install --save-dev autoprefixer-core
 ▶ npm install --save-dev react-hot-loader
 ▶ npm install --save-dev extract-text-webpack-plugin
+▶ npm install --save-dev webpack-dev-server
+▶ npm install --save-dev assets-webpack-plugin
 ```
 
 * [**Creating a workflow with WebPack**](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html)

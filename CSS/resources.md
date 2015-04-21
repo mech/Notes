@@ -52,6 +52,7 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [Typesettings?](http://mikemai.net/typesettings/index.html)
 * [Important @font-face fast loading technique](http://www.filamentgroup.com/lab/font-loading.html)
 * [Keeping specificity low](http://css-tricks.com/strategies-keeping-css-specificity-low/)
+* [How to center in CSS](http://howtocenterincss.com/)
 
 ## line-height
 

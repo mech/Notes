@@ -3,6 +3,7 @@
 * [Disable SUID programs](http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/)
 * [Docker security tuning](https://opensource.com/business/15/3/docker-security-tuning)
 * [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
+* [Make container reliable](http://blog.jelastic.com/2015/04/14/5-key-features-make-containers-reliable-production-applications/)
 * Treat container services just like regular services. Drop privileges as quickly as possible. Do not run Nginx web server as root.
 * Use read-only mount points like `/sys`, `/proc/sys`.
 * Use capabilities to drop CAP_XX to minimize attack surface.

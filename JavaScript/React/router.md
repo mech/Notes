@@ -2,9 +2,10 @@
 
 In React Router, unlike Ember, nested route do not correspond to nested URL. It gives you complete freedom of what your URL look like. Just because you nest a route doesn't mean you need to append a segment to the URL to match.
 
+* [Original React Router code by Ryan Florence](https://gist.github.com/ryanflorence/491d482d2ff1071ac020)
 * [Fluxxor React Router Guide](http://fluxxor.com/examples/react-router.html#/)
 * [Does Relay routing replace react-router?](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_about_routing)
-* [Support React version 0.13](https://github.com/rackt/react-router/issues/638)
+* [Support React version 0.13 #638](https://github.com/rackt/react-router/issues/638)
 
 ## Overview
 

@@ -22,6 +22,7 @@ Notable companies in HR domain.
 * [**Jobvite**](http://www.jobvite.com/products/)
 * [**Blueskyme - Nice interaction and UI**](http://blueskyme.com/)
 * [Kin HR Software](http://kinhr.com/)
+* [doselect](https://doselect.com/#features)
 * [Harvest - Timesheet](http://www.getharvest.com/)
 * [Open Recruiters - Local started in July 2013](http://openrecruiters.com/)
 * [Interview with Open Recruiters CEO](http://www.hrinasia.com/recruitment/openrecruiters-a-transparent-and-open-recruiting-portal/)

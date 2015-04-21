@@ -28,3 +28,8 @@ react-native@0.3.1 node_modules/react-native
 ## Libraries
 
 * [react-native-camera](https://github.com/lwansbrough/react-native-camera)
+* [React Parts](http://react.parts/native-ios)
+
+## Examples
+
+* [Building a flashcard](http://herman.asia/building-a-flashcard-app-with-react-native)

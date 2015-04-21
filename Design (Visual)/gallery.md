@@ -36,6 +36,8 @@
 * [Design is Kinky](http://designiskinky.net/)
 * [404 sites](http://404sites.tumblr.com/)
 * [User Flow Patterns](http://userflowpatterns.com/)
+* [Accessibility Wins](http://a11ywins.tumblr.com/)
+* [Allan Yu](http://allanyu.nyc/)
 
 ---
 

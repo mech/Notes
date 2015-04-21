@@ -2,6 +2,16 @@
 
 Why SPA? Imagine using Facebook where every like and every comment made you refresh the page.
 
+Web Application has 3 parts
+
+1. Listen for user events
+2. Handle network events (XHR, WebSocket)
+3. Manipulate the DOM (Rendering)
+
+> Simplicity is prerequisite for reliability
+
+KVO is built around Observables and Computed Properties.
+
 https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%20-%20Declarative%20Component%20Module.js
 
 After a while, you will see the "cascading updates" problem, where a ListView will trigger a side drawer for input and once done, hide the drawer, update the ListView and update the counter, present a new dialog based on the newly added list, etc.
@@ -21,6 +31,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [react-textarea-autosize](https://github.com/andreypopp/react-textarea-autosize)
 * [Date Picker](http://react.rocks/tag/DatePicker)
 * [`<ReactFitText>`](https://github.com/gianu/react-fittext/blob/master/lib/ReactFitText.js)
+* [react-ui-builder](https://www.npmjs.com/package/react-ui-builder/)
 
 ### File Structure Examples
 
@@ -268,6 +279,7 @@ function HellMessage(initialProps) {
 
 * [Demystifying React Components State](http://www.sitepoint.com/demystifying-react-components-state/)
 * [**Props vs States**](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
+* [Pending state updates may be confusing #122](https://github.com/facebook/react/issues/122)
 
 `getDefaultProps` only ever called once for "all" instances. Do not do anything like `Date.new` inside `getDefaultProps`.
 
@@ -510,6 +522,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Cosmos](https://github.com/skidding/cosmos)
 * [Pivotal CF](http://styleguide.cfapps.io/react_beta.html)
 * [**pivotal-ui-react**](https://github.com/pivotal-cf/pivotal-ui-react/tree/master/src/media)
+* [react-calendar](https://github.com/erikthedeveloper/react-calendar)
 
 ## GitHub Issues
 
@@ -524,6 +537,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 ## Videos
 
+* [Pete Hunt - React vs The World](https://www.youtube.com/watch?v=MC376f3QWYw)
 * [Pete Hunt - Rethinking Best Practices](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
 * [Pete Hunt - Rethinking Best Practices (updated) 2013](https://www.youtube.com/watch?v=DgVS-zXgMTk)
 * [Functional Web Development](https://www.youtube.com/watch?v=Elr_RNt2R5Q)
