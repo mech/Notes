@@ -2,6 +2,8 @@
 
 It's not about the product, it's about your users.
 
+**http://blog.gardeviance.org/2014/11/how-to-get-to-strategy-in-ten-steps.html**
+
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
 * [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)

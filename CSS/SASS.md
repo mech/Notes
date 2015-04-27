@@ -2,6 +2,10 @@
 
 > By writing modular code with a component approach, I do not feel the need for Sass's map and loop feature - cssnext
 
+**Warning**: Avoid Sass nesting. Nesting with preprocessor is a false economy. It makes selectors more specific and creates location dependency and more work for the browser.
+
+Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
+
 * [**A vision for Sass**](http://alistapart.com/article/a-vision-for-our-sass)
 * [Sass Guideline](http://sass-guidelin.es/)
 * [**An auto-enforceable SCSS styleguide**](http://davidtheclark.com/scss-lint-styleguide/)

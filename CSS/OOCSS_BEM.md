@@ -2,6 +2,19 @@
 
 * [MVCSS??](http://mvcss.github.io/resources/)
 * [Can CSS be too modular - We need to find the sweet spot](http://csswizardry.com/2015/03/can-css-be-too-modular/)
+* [Single Responsibility Principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+
+Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
+	
+> Tying your class name semantics tightly to the nature of the content has already reduced the ability of your architecture to scale or be easily put to use by other developers. - Nicolas Gallagher
+>
+> We should use sensible names but we should avoid using classes which describe the exact nature of the content and/or its use cases. Using a class name to describe content is redundant because content describes itself.
+
+* `.masthead` is better than `.home-page-panel`
+* `.primary-nav` is better than `.site-nav`
+* `.primary-button` is better than `.btn-login`
+
+**Visual pattern vs Content**
 
 It is better to keep context in the CSS code. Do not fall into the trap of Atomic CSS where you are creating classes for single CSS property.
 
@@ -73,6 +86,13 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)
 * [**More transparent UI code with namespaces**](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 
+```css
+/* Harry Robert's BEM */
+.module-name {}               // Root node
+.module-name--submodule {}    // Sub-modules (variants)
+.module-name__subcomponent {} // Sub-components (children)
+```
+
 The trick with BEM is knowing when something falls into a relevant category. One of the hardest parts of BEM is deciding when to start and stop scope, and when (or not) to use it. It's a case of 'you'll just know when you know'.
 
 ```html
@@ -89,3 +109,41 @@ The trick with BEM is knowing when something falls into a relevant category. One
 ```css
 .site-logo {} // This is not BEM and no need to be!
 ```
+
+```css
+/* primary-nav is a better name than .nav, more reusable */
+.primary-nav
+.primary-nav__item
+.primary-nav__link
+.primary-nav__trigger
+
+.primary-nav__sub-nav
+
+/* sub-links is a better name than .footer-links, more reusable */
+.sub-links {}
+```
+
+```
+.room {}
+.room__door {}
+	
+.room--kitchen {}.person {}
+.person__head {}
+.person__eye {} /* Good */
+.person__head__eye {} /* BAD: Too much nesting *//* To denote a .person inside a .room, we use */
+.room .person {}
+
+/* NOT this as it is totally separate scope */	
+.room__person {}
+```
+	
+It is important to know when BEM scope starts and stops. As a rule, BEM applies to self-contained, discrete parts of the UI.
+
+
+You can use `avatar` elsewhere, but `profile__image` belongs to the `profile` component. You may not use `profile__image` elsewhere but you can use `avatar` at other places.
+
+```
+<div class="box profile">
+  <img class="avatar profile__image" />
+</div>
+```

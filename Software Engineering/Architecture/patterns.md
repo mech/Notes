@@ -1,5 +1,13 @@
 # Architecture Patterns
 
+Software development is a creative tasks full of false starts, dead ends, backtracking and experimenting. Constraint by Law of Complexity.
+
+Make decisions in the face of incomplete and uncertain knowledge.
+
+> Structural engineering is the science and art of designing and making, with economy and elegance,... structures so that they can safely resist the forces to which may be subjected - Structural Engineer's Association
+
+> Aware of the consequences and Live with the consequences
+
 * **Traditional layered architecture** - Presentation layer, business layer, persistence layer, database layer, etc. Have separation of concerns. Layer isolation. Service layer is an "open" layer and the rest is "close". Good general purpose architecture. Easy to implement, test and govern. Not very performant like finance or trading applications.
 * **Event-driven architecture (EDA)** - Event and process. Broker and broker-less (no mediator) topology. Highly de-couple and distributed. You can add and remove processes and great for business that change often! High degree of complexity!
 * **Service-oriented architecture** - Business services (BS). Enterprise services (ES). BS - Message bus - ES. ProcessClaim, ExecuteTrade are all examples of BS. CreateCustomer, CheckCompliance, CalculateQuote is ES, not BS. You don't create customer as a business. addDriver, getInventoryCount are AS (Application services). writeAuditLog, checkUserAccess, writeErrorLog, singleSignOn are all Infrastructure services (IS)
@@ -56,6 +64,7 @@ No shared persistence. Each services use their own mini database.
 * [Adopting Microservices at Netflix: Lessons for Architectural Design](http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/)
 * [Docker and related services enable a future of microservices for everyone](http://blog.giantswarm.io/docker-and-related-services-enable-a-future-of-microservices-for-everyone)
 * [Simulating service discovery with Docker and etcd](http://talwai.github.io/#/blog/post/discovery)
+* [Architecture without Architects](https://www.youtube.com/watch?v=qVyt3qQ_7TA)
 
 Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 

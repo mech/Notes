@@ -329,6 +329,8 @@ Using SASS placeholder to `extend` clearfix.
 
 ## Overflow
 
+CSS quirks - various state of `overflow` triggering block formatting context.
+
 `overflow` only ever work with a defined `width` and `height`.
 
 * [Default for overflow?](http://bocoup.com/weblog/new-overflow-default/)

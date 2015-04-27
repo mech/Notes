@@ -11,6 +11,7 @@
 * [Synchronizing plugins with Git Submodules and Pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
 * [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vimqrc.html)
 * [Emmet VIM tutorial](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
+* [Custom ignore for ctrlp](https://github.com/kien/ctrlp.vim/issues/58)
 
 ```
 v   # Visual mode
@@ -60,6 +61,10 @@ Ctrl-d # Indent also while in insert mode
 Ctrl-t # Indent also while in insert mode
 :set paste   # -- INSERT (paste) --
 :set nopaste
+ya[ # Yank around square-bracket
+ya( # Yank around braces
+ci[ # Change inside square-bracket
+da[ # Delete around square-bracket
 ```
 
 ```

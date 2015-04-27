@@ -1,5 +1,7 @@
 # Media Queries
 
+* [Mobile-first and old IE](http://jakearchibald.github.io/sass-ie/)
+
 No more browser sniffing or separate m.example.com mobile version of your sites.
 
 * Media Type - `screen`, `print`, `tv`

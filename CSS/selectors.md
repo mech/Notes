@@ -14,6 +14,22 @@ Types of selectors:
 * Type
 * Attribute
 * Combinator
+* Descendant
+* Child
+* Qualified
+* Key
+* [Owl - `* + * {}`](http://alistapart.com/article/axiomatic-css-and-lobotomized-owls)
+
+Use child selector, rather than descendant selector to reduce depth of applicability.
+
+```
+/* Reduce depth of applicability */
+.comment > a { color: #900; }
+.nav > a { color: #333; }
+
+/* BAD - descendant selector */
+.nav a {}
+```
 
 ## Attribute Selectors
 
@@ -78,4 +94,23 @@ a::before { content: 'hello world'; }
 ```
 
 The `::before` notation was introduced in CSS3 in order to discriminate between pseudo-classes and pseudo-elements. Most browser also accept `:before`.
+
+## Greedy Selectors
+
+To style main navigation.
+
+```css
+header ul {} /* Bad selector intent, too greedy */
+.site-nav {} /* Good */
+```
+
+## Qualified Selectors
+
+```css
+.error {
+  color: red;}
+
+/* Sometimes justifiable to use a qualified selector */
+div.error {
+  padding: 10px;}```
 

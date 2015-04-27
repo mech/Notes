@@ -1,5 +1,7 @@
 # Resources
 
+V8 performance rival that of JVM and CLR. Let that sink in a bit.
+
 If you're creating constructor functions and inheriting from them, you haven't learned JavaScript. You're failing to take advantage of JavaScript's most powerful capabilities: Prototypal Inheritance.
 
 JavaScript dynamic duo (static type is overrated):
@@ -27,6 +29,7 @@ JavaScript dynamic duo (static type is overrated):
 * [Functional JavaScript](http://osteele.com/sources/javascript/functional/)
 * [Scoop JS resources](http://www.scoop.it/t/javascript-for-line-of-business-applications)
 * [The Jackal of JavaScript](http://thejackalofjavascript.com/)
+* [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
 
 ## Closures
 

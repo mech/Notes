@@ -61,9 +61,9 @@ Orchestration is collection of things. Not just a single thing.
 
 SSH + systemd + etcd == Fleet (Overkill)
 
-Discoverd
-Ambassadord
-Registrator
-Consulate
-Duplex
-Configurator
+* Discoverd
+* Ambassadord
+* [Registrator](https://github.com/gliderlabs/registrator)
+* Consulate
+* Duplex
+* Configurator

@@ -17,6 +17,7 @@ New volume is created in `/var/lib/docker/volumes`. Use `docker inspect` to see 
 
 AuFS `mount()` is fast, so creation of containers is quick. But initial `open()` is expensive when writing big files like databases. We ended up putting all important data on volumes.
 
+* [Under the hood](https://github.com/docker/docker/issues/111#issuecomment-16074795)
 * [Volumes in depth](http://container42.com/2014/11/03/docker-indepth-volumes/)
 * [Overview of storage scalability in Docker](http://developerblog.redhat.com/2014/09/30/overview-storage-scalability-docker/)
 * [Managing data in containers](http://docs.docker.com/userguide/dockervolumes/)

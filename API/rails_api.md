@@ -15,6 +15,8 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [RESTful thinking considered harmful](http://www.shopify.com/technology/5898287-restful-thinking-considered-harmful)
 * [Project Jellyfish API example](https://github.com/projectjellyfish)
 * [The Rails API mini guide](http://www.yoniweisbrod.com/rails-api-mini-guide/)
+* [Fake JSON server - Good for testing](https://github.com/typicode/json-server)
+* [Consumer-Driven Contracts](http://martinfowler.com/articles/consumerDrivenContracts.html)
 
 ## API Gateway
 

@@ -53,6 +53,12 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [Important @font-face fast loading technique](http://www.filamentgroup.com/lab/font-loading.html)
 * [Keeping specificity low](http://css-tricks.com/strategies-keeping-css-specificity-low/)
 * [How to center in CSS](http://howtocenterincss.com/)
+* [SRP applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+
+## Build
+
+* [analyze-css](https://github.com/macbre/analyze-css)
+* [csscss](http://zmoazeni.github.io/csscss/)
 
 ## line-height
 

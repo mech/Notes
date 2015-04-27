@@ -105,7 +105,7 @@
 
 To move heading down a bit, and paragraph to move up a bit:
 
-```
+```css
 h2 {
   animation: moveDown 0.6s ease-in-out 0.2s backwards;
 }
@@ -136,6 +136,28 @@ p {
     transform: translateY(0px);
     opacity: 1;
   }
+}
+```
+
+Simple transition in/out with router
+
+```css
+.animate-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+ 
+.animate-enter.animate-enter-active {
+  opacity: 1;
+}
+ 
+.animate-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+ 
+.animate-leave.animate-leave-active {
+  opacity: 0.01;
 }
 ```
 

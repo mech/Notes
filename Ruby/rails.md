@@ -10,7 +10,17 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'pry-byebug'
+  gem 'method_source'
 end
+```
+
+```
+pp instance_values
+
+<%= console %>
+
+bundle open GEM_NAME
+gem pristine GEM_NAME
 ```
 
 * [**Reinteractive blog**](https://www.reinteractive.net/blog)
@@ -36,6 +46,7 @@ end
 * [**Fast rich client Rails development with Webpack and ES6 transpiler**](http://www.railsonmaui.com/blog/2014/10/02/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
 * [Gulp Rails asset pipeline](http://viget.com/extend/gulp-rails-asset-pipeline)
 * [Optimizing Rails for memory usage](http://collectiveidea.com/blog/archives/2015/03/05/optimizing-rails-for-memory-usage-part-3-pluck-and-database-laziness/)
+* [Rails Assets??](https://rails-assets.org/)
 
 ## Router
 

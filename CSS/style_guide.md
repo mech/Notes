@@ -19,6 +19,14 @@ Know your content structure!
 
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
+```
+// Lease greppable class names
+grep "alert" * -R
+grep "label" * -R
+grep "success" * -R 
+grep "info" * -R 
+```
+
 * [**Thinking beyond Scalable CSS - UI Component like React - Nicolas Gallagher**](https://www.youtube.com/watch?v=L8w3v9m6G04)
 * [**Build Scalable, Automated CSS**](https://www.youtube.com/watch?v=Tk_0qYEFtAY)
 * [Think modularly](http://webstandardssherpa.com/reviews/think-modularly/)
@@ -186,3 +194,48 @@ When you describe the content, you cannot reuse the class name. Rather, derive c
 
 The aim of a component/template/object-oriented architecture is to be able to develop a **limited number** of reusable components that can contain a range of different content types.
 
+# My Style Guide
+
+* Base - normalize and element selector. Base are not for button, table, input, those are modules.
+* Layout - Application shell and grid system. No call-out, no drawer, etc. Just the shell structure. A lot broader than module. Module is more constrained to its content.
+* Module - List views, buttons, tabs, content container. Always 100% width. Leave the width constraint to Layout. Modules expand to fill Layout. Module should decide what margin they should have instead of letting Layout to decide.
+
+Similar patterns repeating over different content type. So don't name your class too specific according to the content.
+
+At one glance, you may think you have only one style for button or input style.
+
+**Decoupling CSS from HTML**
+
+```
+/* BAD - coupling CSS with HTML! */
+.nav ul {}
+.nav li {}
+.nav li a {}
+
+.nav li li {}
+.nav li li a {}
+
+/* Better - Use child selector */
+.nav > li {}
+.nav > li > a {}
+
+.menu {}
+.menu > li > a {}
+```
+
+**Drop-down**
+
+Have a wrapper for drop-down behavior and isolate modules
+
+```
+.nav__dropdown { display: none; }
+.nav > li:hover > .nav__dropdown { display: block; }
+/* This is the module. Even if it is hidden, it is still display: block */
+.megadropdown {}
+```
+
+```
+<div class="nav__dropdown">
+  <div class="megadropdown"></div>
+</div
+```

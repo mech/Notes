@@ -38,6 +38,7 @@
 * [User Flow Patterns](http://userflowpatterns.com/)
 * [Accessibility Wins](http://a11ywins.tumblr.com/)
 * [Allan Yu](http://allanyu.nyc/)
+* [Material Up](http://www.materialup.com/)
 
 ---
 

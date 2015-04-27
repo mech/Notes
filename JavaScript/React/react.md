@@ -18,6 +18,11 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 
 * [NativeScript??](https://www.nativescript.org/blog/answering-nativescript-beta-webinar-questions)
 
+## Drag and Drop
+
+* [The future of drag and drop APIs](https://medium.com/@dan_abramov/the-future-of-drag-and-drop-apis-249dfea7a15f)
+* [react-dnd](https://github.com/gaearon/react-dnd)
+
 ## Examples to Learn
 
 * [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
@@ -32,12 +37,66 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [Date Picker](http://react.rocks/tag/DatePicker)
 * [`<ReactFitText>`](https://github.com/gianu/react-fittext/blob/master/lib/ReactFitText.js)
 * [react-ui-builder](https://www.npmjs.com/package/react-ui-builder/)
+* [Sample mobile application with React](http://coenraets.org/blog/2014/12/sample-mobile-application-with-react-and-cordova/)
+* [react-new-way](https://github.com/KamilLelonek/react-new-way)
+* [react-es6](https://github.com/topheman/react-es6)
 
 ### File Structure Examples
 
 * [From mrtnbroder](https://gist.github.com/mrtnbroder/4a4a00d6e158df82611e)
 * [From Ryan Florence](https://gist.github.com/ryanflorence/110d4538bf98694538de)
 * [From Ryan Florence... again](https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346)
+
+## Style Guides
+
+* [React-starter kit style guide](https://github.com/kriasoft/react-starter-kit/blob/master/docs/react-style-guide.md)
+* [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
+* Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
+* Domain-specific components are "containers" and atomic components are "components"
+
+```
+{ this.state.show && 'This is Shown' }
+{ this.state.on ? 'On' :  Off }
+```
+	
+Move complex JSX out of `render`
+
+```
+// Notice the parentheses here.
+var complexHtml = (
+  <Section>
+    <InnerSection />
+    <InnerSection />
+  </Section>
+);
+
+return (
+  <div>
+    { complexHtml }
+  </div>
+);
+```
+
+```
+import React, { Component } from 'react';
+
+class Builder extends Component {
+  willTransitionTo(transition) {
+    // Check authentication
+  }
+
+  componentDidMount() {
+    this.databaseRef = new Firebase();
+    this.databaseRef.on('dataFetched', function() {
+      this.setState(...);
+    });
+  }
+
+  render() {
+    return ();
+  }
+}
+```
 
 ## Browser Support
 
@@ -49,6 +108,7 @@ You are need to include [html5shiv](https://github.com/aFarkas/html5shiv) for IE
 
 * [Christopher Chedeau](http://blog.vjeux.com/), [@Vjeux](https://twitter.com/Vjeux)
 * [Tom Occhino](https://twitter.com/tomocchino)
+* [Michael Johnston](Creator of React Canvas)
 
 > "Given the extremely tight coupling between the template and it's context (a controller/component), the concerns are the same, and splitting the DOM into a template is an arbitrary separation of technologies rather than a legit separation of concerns." - Hence in React, everything is a component. There is no template. Just define a `render` function.
 
@@ -108,6 +168,7 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [**Nice tutorial to start**](http://blog.risingstack.com/the-react-way-getting-started-tutorial/)
 * [**$19 book**](http://swizec.com/reactd3js)
 * [**Master React - Another book**](http://ludovf.net/reactbook/)
 * [**React Primer**](https://github.com/mikechau/react-primer-draft)
@@ -163,6 +224,7 @@ Model your UI as pure function.
 * [Component interop with React and Custom Element](http://addyosmani.com/blog/component-interop-with-react-and-custom-elements/)
 * [Mozilla and Web Component](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/)
 * [Real-time offline-ready web apps](http://swarmjs.github.io/articles/todomvc/)
+* [Exploring hotkeys and focus](http://chrispearce.co/exploring-hotkeys-and-focus-in-react/)
 
 ```
 var gulp = require('gulp');
@@ -274,6 +336,8 @@ function HellMessage(initialProps) {
     render: function() {
       return <div>Hello {this.state.value}</div>;    }  };}
 ```
+
+If you use JSX, `displayName` is generated for you.
 
 ## Props and States
 
@@ -523,17 +587,23 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Pivotal CF](http://styleguide.cfapps.io/react_beta.html)
 * [**pivotal-ui-react**](https://github.com/pivotal-cf/pivotal-ui-react/tree/master/src/media)
 * [react-calendar](https://github.com/erikthedeveloper/react-calendar)
+* [react-tween-state](https://github.com/chenglou/react-tween-state)
 
 ## GitHub Issues
 
 * [Optimizing Compiler: Reuse Constant Value Types like ReactElement](https://github.com/facebook/react/issues/3226)
 * [JSX optimization in babel.js](https://twitter.com/sebmck/status/582191152356458497)
+* [Implement Sideways Data Loading](https://github.com/facebook/react/issues/3398)
 
 ## Companies using React
 
 * [Real life at Codecademy](http://www.infoq.com/articles/reactjs-codecademy)
 * [Netflix likes React](http://techblog.netflix.com/2015/01/netflix-likes-react.html)
 * [Atlassian - Rebuild HipChat with React](https://developer.atlassian.com/blog/2015/02/rebuilding-hipchat-with-react/)
+
+## TDD
+
+* [Jest preprocessor](https://github.com/RisingStack/react-way-getting-started/blob/master/tools/preprocessor.js)
 
 ## Videos
 

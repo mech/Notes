@@ -1,5 +1,6 @@
 # Resources
 
+* [**Web Design Weekly**](https://web-design-weekly.com)
 * [**Know which polyfill to use**](https://cdn.polyfill.io/v1/docs/)
 * [**2014 year in review for Web Design**](http://sideproject.io/an-exhaustive-look-at-the-year-in-web-design/)
 * [Let's build a browser engine](http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)

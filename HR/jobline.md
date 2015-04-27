@@ -98,7 +98,15 @@ FitAgent, Fit4Hire, FitSense
 (1 of 2378) -> too large? Narrow your search terms or use the filter
 ```
 
+## Data
+
 Data analysis -> Break into group -> Targeted marketing (marketing as in the sense of value awareness)
+
+Can you answer these questions:
+
+* How many leaves requests you service for this month/year?
+* How many timesheets Jobline process every months?
+* Request flow (Twitter and Netflix)
 
 ## Pipelines
 

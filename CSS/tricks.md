@@ -167,6 +167,24 @@ input {
 .nav-dropdown { display: none; }
 ```
 
+## Choose other input option
+
+```
+.input-option {
+  display: none;}
+
+input:checked ~ .input-option {
+  display: block;}
+
+<input type="checkbox" id="opt">
+<label for="opt">Others?</label>
+
+<div class="input-option">
+  <input type="text" id="other">
+  <label for="other">Please specify:</label>
+</div>
+```
+
 ## Interesting Class Names
 
 ```

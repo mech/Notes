@@ -53,6 +53,9 @@ The loaders will only kick into action when you try to `require` something that 
 * [From christianalfoni](https://github.com/christianalfoni/webpack-example)
 * [Using gulp to inject hashes to HTML?](https://github.com/glebm/gulp-webpack-react-bootstrap-sass-template/blob/master/webpack.config.litcoffee)
 * [React starter kit](https://github.com/kriasoft/react-starter-kit/)
+* [react-boilerplate](https://github.com/hudakdidit/react-boilerplate)
+* [react-way-getting-started](https://github.com/RisingStack/react-way-getting-started)
+* [react-component-boilerplate](https://github.com/bebraw/react-component-boilerplate)
 
 Single entry or multiple entries for code splitting.
 
