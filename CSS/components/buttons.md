@@ -27,6 +27,22 @@ button,
   overflow: visible;          // fixes odd inner spacing in IE7}
 ```
 
+**Important**: When using `line-height` to vertically center a single line of text, be sure to set the `line-height` to the height of the container minus 1.
+
+```
+.btn {
+  height: 50px;
+  line-height: 49px; // Minus 1}
+```
+
 ## .btn-group
 
 A group of button. Sort of like `UISegmentedControl`.
+
+## With icon
+
+```
+.btn--next {
+  &:after {
+    @include icon(next);  }}
+```

@@ -3,6 +3,7 @@
 * [MVCSS??](http://mvcss.github.io/resources/)
 * [Can CSS be too modular - We need to find the sweet spot](http://csswizardry.com/2015/03/can-css-be-too-modular/)
 * [Single Responsibility Principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+* [CSS for Grownups, SXSW 2012](https://www.youtube.com/watch?v=ZpFdyfs03Ug)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	
@@ -34,6 +35,7 @@ HTML semantics differs from *developer* semantics. We should write classes that 
 * [Attribute Module CSS - AMCSS](http://glenmaddern.com/articles/introducing-am-css)
 * [Beware of selector nesting SASS](http://www.sitepoint.com/beware-selector-nesting-sass/)
 * [OOSASS](http://thesassway.com/intermediate/using-object-oriented-css-with-sass)
+* [**Stop the cascade**](http://markdotto.com/2012/03/02/stop-the-cascade/)
 
 ```
 <div class="media media--large" data-ui-component="mini-bio"></div>
@@ -50,6 +52,51 @@ To debug, we can:
 ```
 
 Ensure any objects or abstractions are very vaguely named to allow for greater reuse. Like `.ui-list` or `.media`. Extensions of objects should be much more explicitly named like `.user-avatar-link`.
+
+## Component-level vs Page-level
+
+Don't build page specific CSS.
+
+```scss
+// Bad: .library-nav-bar, .home-nav-bar (Can't reuse)
+// Good: .nav-bar (Generic, sounds like reusable component, rather than specific page)
+// Should be in modules/_nav.scss
+.nav-bar {
+  width: 100%;
+}
+
+```
+
+Namespacing should be done at the component-level, never at the page-level. Namespacing should be made at a descriptive, functional level, not at a page location level.
+
+## SUIT CSS
+
+* [Medium styles](https://gist.github.com/fat/a47b882eb5f84293c4ed)
+* [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
+
+Rely on *structured class name* and *meaningful hyphens* (i.e., not using hyphens merely to separate words)
+
+* Utilities - Low-level structural and positional traits. Utilities exist because certain CSS properties and patterns are used frequently like floats, containing floats, vertical alignment, text truncation. Act as a philosophical alternative to functional (i.e. non-polyfill) mixins.
+
+```scss
+// Here you can easily see how `btn` component will be hard to use
+// in the `uilist` component
+.btn {}
+.uilist {}
+.uilist a {}
+```
+
+In the HTML
+
+```html
+<nav class="uilist">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a class="btn" href="#">Login</a>
+</nav>
+```
+
+Because the specificity of `.btn` is less than that of `.uilist a`, it will not be applied.
 
 ## OOCSS
 

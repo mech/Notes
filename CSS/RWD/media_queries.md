@@ -35,6 +35,10 @@ No more browser sniffing or separate m.example.com mobile version of your sites.
 
 ## Sass
 
+Most of us started working with `@media` was adding blocks of them at the bottom of your main stylesheet. That works, but it leads to mental disconnect between the original styling and the responsive styles.
+
+* [Responsive typography with chained media queries](https://bugsnag.com/blog/responsive-typography-with-chained-media-queries)
+
 ```
 $default-browser-context: 16px !default;
 

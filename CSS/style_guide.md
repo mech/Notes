@@ -20,7 +20,7 @@ Know your content structure!
 Atom (Abstract) - Molecule - Organisms - Template - Page (the level where you validate)
 
 ```
-// Lease greppable class names
+// Least greppable class names
 grep "alert" * -R
 grep "label" * -R
 grep "success" * -R 
@@ -55,16 +55,10 @@ grep "info" * -R
 * [Selector intent](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/)
 * [Depth of applicability](http://smacss.com/book/applicability)
 * [Hologram - Ruby gem to generate style guide](http://trulia.github.io/hologram/)
-* [CSS at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/)
-* [CSS at Ghost](http://dev.ghost.org/css-at-ghost/)
-* [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
 * [How Google Fails at Implementing Its Own Material Design](https://medium.com/@CreativeTim/how-google-fails-at-implementing-its-own-material-design-44bbbf9f6c52)
 * [Harry Roberts CSS Guideline](http://cssguidelin.es/)
 * [Some basic project agnostic CSS](http://ryanmorr.com/project-agnostic-css-declaration-blocks/)
 * [How does CSS architecture look like after bootstrap](https://shellycloud.com/blog/2014/10/how-does-our-css-architecture-look-like-after-getting-rid-of-bootstrap?utm_source=designernews&utm_medium=link&utm_campaign=how-does-our-css-architecture-look-like-after-getting-rid-of-bootstrap)
-* [Buffer CSS](http://blog.brianlovin.com/buffers-css/)
-* [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
-* [Bugsnag CSS](https://bugsnag.com/blog/bugsnags-css-architecture)
 * [Common practices do not mean best practices](http://cssmojo.com/think-for-yourself/)
 * [Specs, styles, etc.](https://news.layervault.com/stories/32533-ask-dn-how-do-you-prepare-specs-for-your-developers)
 * [Naming CSS stuff is really hard](http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard)
@@ -90,6 +84,16 @@ grep "info" * -R
 * [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
 * [CSS namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 * [The Standard Manual](http://thestandardsmanual.com/)
+
+## Companies' CSS
+
+* [Github CSS](http://markdotto.com/2014/07/23/githubs-css/)
+* [CSS at Lonely Planet](http://ianfeather.co.uk/css-at-lonely-planet/)
+* [CSS at Ghost](http://dev.ghost.org/css-at-ghost/)
+* [CodePen's CSS](http://codepen.io/chriscoyier/blog/codepens-css)
+* [Buffer CSS](http://blog.brianlovin.com/buffers-css/)
+* [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
+* [Bugsnag CSS](https://bugsnag.com/blog/bugsnags-css-architecture)
 
 ## Playbook
 
@@ -132,7 +136,6 @@ grep "info" * -R
 * [Style guides and pattern libraries](https://gimmebar.com/collection/4ecd439c2f0aaad734000022/front-end-styleguides-and-pattern-libraries)
 * [Code for America](http://style.codeforamerica.org/)
 * [Mapbox](https://www.mapbox.com/base/)
-* [Github CSS](http://markdotto.com/2014/07/23/githubs-css/)
 * [Louder than Ten Manual](http://manual.louderthanten.com/)
 * [Fiftythree styleguide](http://www.fiftythree.com/styleguide/typography)
 * [Eventmobi](https://medium.com/@owdco/how-we-css-at-eventmobi-98a12961c264)
@@ -140,6 +143,7 @@ grep "info" * -R
 * [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
 * [Atlassian Design](https://design.atlassian.com/latest/)
 * [Living Style Guide](http://livingstyleguide.org/)
+* [Code guide by @mdo](http://codeguide.co/#css)
 
 ## Naming Convention
 

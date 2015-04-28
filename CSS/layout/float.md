@@ -6,6 +6,7 @@ Elements of Layouts:
 
 * Positioning (Static, Absolute, Fixed, Relative)
 * Floats
+* Display table
 * Inline block
 * Margins and paddings
 * Flexbox
@@ -20,7 +21,7 @@ Elements of Layouts:
 
 `overflow: hidden` can be used to clear floats. Always document it with comment in your style if you are clearing floats with `overflow`.
 
-```
+```scss
 /* Block Formatting Context */
 .Bfc {
   overflow: hidden;

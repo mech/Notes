@@ -49,6 +49,7 @@
 
 ## Icon
 
+* [**Smash Icons**](http://smashicons.com/preview.html)
 * [**Nucleo - A nice app to make icon**](https://nucleoapp.com/)
 * [Look for the SVG spinner icon](http://evil-icons.io/)
 * [Ask Symbolset to help us design icon?](http://blog.symbolset.com/symbolset-for-brands)
