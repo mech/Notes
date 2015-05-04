@@ -84,6 +84,7 @@ grep "info" * -R
 * [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
 * [CSS namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 * [The Standard Manual](http://thestandardsmanual.com/)
+* [Creating styleguides](http://alistapart.com/article/creating-style-guides)
 
 ## Companies' CSS
 

@@ -6,3 +6,6 @@
 * [Responsive typography with REMs](https://bugsnag.com/blog/responsive-typography-with-rems)
 * [Typeplate](http://typeplate.com/)
 * [Typeset](http://joshuarudd.github.io/typeset.css/)
+* [PX to EM](http://pxtoem.com/)
+* [Mixin for rem font sizing](https://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/)
+* [discover.typography.com](http://discover.typography.com/)

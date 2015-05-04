@@ -6,8 +6,8 @@
 
 Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 
+* [**Sass Guideline - READ THIS FIRST!**](http://sass-guidelin.es/)
 * [**A vision for Sass**](http://alistapart.com/article/a-vision-for-our-sass)
-* [Sass Guideline](http://sass-guidelin.es/)
 * [**An auto-enforceable SCSS styleguide**](http://davidtheclark.com/scss-lint-styleguide/)
 * [Scalable CSS reading list](https://github.com/davidtheclark/scalable-css-reading-list)
 * [**15 essential SASS mixins**](http://www.developerdrive.com/2014/11/15-essential-sass-mixins/)
@@ -39,6 +39,10 @@ Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 * [Google Material Design colors???](https://github.com/nickpfisterer/quantum-colors)
 * [Increasing SASS compiling performance](https://www.devbridge.com/articles/increasing-sass-compiling-performance-or-when-every-second-counts/)
 
+## Color
+
+* [Name that color](http://chir.ag/projects/name-that-color/#CA4ED4)
+* [Sass color variables that don't suck](http://davidwalsh.name/sass-color-variables-dont-suck)
 
 ## Placeholder
 
@@ -57,6 +61,21 @@ Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 
 .image-cover {
 	display: block; margin-left: auto; margin-right: auto;}
+```
+
+## Lists
+
+Sass equivalent of arrays.
+
+* [Understanding Sass Lists](http://hugogiraudel.com/2013/07/15/understanding-sass-lists/)
+
+```
+$empty: (); // Braces is not what create lists FYI
+
+nth($list, 1); // Indexes start from 1
+
+$variable: "Sass is awesome"; // A list with length=1
+$variable: Sass is awesome; // A list with length=3
 ```
 
 ## Map
@@ -84,7 +103,7 @@ $message-types: (
 	height: $height;}
 ```
 
-Variables for various font-weight
+**Variables for various font-weight**
 
 ```
 $hairline-weight: 100;
@@ -98,7 +117,7 @@ $xbold-weight:    800;
 $black-weight:    900;
 ```
 
-z-index organisation
+**z-index organisation**
 
 ```
 $z-index: (
@@ -119,4 +138,19 @@ $z-index: (
 
 ```
 percentage(target/context)
+```
+
+**Interpolation**
+
+```scss
+// Remember to use #{}, and not `calc(100% - $sidebar-width)`
+.main {
+  width: calc(100% - #{$sidebar-width});
+}
+
+// But not needed in @media
+@media (max-width: $value) {}
+
+// Needed in custom selector
+selector-#{$value} {}
 ```

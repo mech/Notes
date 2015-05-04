@@ -20,6 +20,8 @@ No more browser sniffing or separate m.example.com mobile version of your sites.
 	
 **Note**: There is no reason to use `device-width` as desktop browser don't typically use the full width of the monitor physical width like smartphone does.
 
+## Content-Driven Breakpoints vs Device-Driven Breakpoints
+
 ## Resolution
 
 1. IE hasn't implemented DPPX, so use DPI (1.5 * 96 = 144dpi)

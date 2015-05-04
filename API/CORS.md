@@ -12,6 +12,8 @@ JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respe
 * [Example](https://github.com/mbleigh/cors-talk-example)
 * [Cross-domain Ajax with CORS - Nicholas C. Zakas](http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/)
 * [Rails 4, CORS, JWT and Devise](https://www.youtube.com/watch?v=_CAq-F2icp4)
+* [That's so fetch - Some CORS issues](http://jakearchibald.com/2015/thats-so-fetch/)
+* [Same-Origin Policy](https://annevankesteren.nl/2015/02/same-origin-policy)
 
 CORS let JavaScript XHR to securely communicate with cross-domain resources.
 

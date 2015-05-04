@@ -8,6 +8,7 @@
 * [Writing complex app using Flux and React](http://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
 * [What is the Flux application architecture?](https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e)
 * [flux-react-router-example](https://github.com/gaearon/flux-react-router-example/)
+* [React and Flux interview](http://ianobermiller.com/blog/2014/09/15/react-and-flux-interview/)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 

@@ -32,6 +32,7 @@
 * [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
 * [Disabling hover interaction](https://medium.com/@ennsu/disabling-hover-interactions-on-ios-acb034f32325)
 * [Making the right sized images for the different iPhone resolutions](http://www.detroitlabs.com/blog/2015/2/12/making-the-right-sized-images-for-the-different-iphone-resolutions)
+* [Why RWD looks like RWD?](http://timkadlec.com/2014/03/why-rwd-looks-like-rwd/)
 
 ## List of screen resolution
 

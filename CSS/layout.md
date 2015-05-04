@@ -17,6 +17,7 @@ History of layout in CSS is table, float, inline-block, display:table, flexbox, 
 * [Responsive grid using calc](http://mintran.com/responsive-grid-using-calc/)
 * [Build Scalable, Automated CSS](https://www.youtube.com/watch?v=Tk_0qYEFtAY)
 * [**Carousels are easily abused**](https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/)
+* [Content-out layout](http://alistapart.com/article/content-out-layout)
 
 ## Example
 
@@ -26,6 +27,7 @@ History of layout in CSS is table, float, inline-block, display:table, flexbox, 
 * [Why we ditched the good old select element](https://medium.com/@mibosc/responsive-design-why-and-how-we-ditched-the-good-old-select-element-bc190d62eff5)
 * [**Check out Foundation for Apps**](http://responsivedesign.is/articles/screencast-zurb-foundation-for-apps)
 * [Google News platform design concept](http://googlenews.gkvasnikov.com/)
+* [Scrollbar](http://www.unheap.com/?s=scrollbar)
 
 Key things to Web UI:
 
@@ -127,8 +129,12 @@ Use of `min-width` and `max-width` common.
 
 Nearly every grid system is based on rows and columns, set to 12 or 16 increments to create any layout. However, the web is changing! It's time for Flexbox to shine.
 
+Grids exist in relation to the content. We never start with a grid. We start with an idea which is then translated into a form, a structure.
+
 > "What drives me insane in modern web design is grids. What's important is a page that moves. Now, as news flows in, editors can very quickly reshuffle what we're doing on the page, because every module is moveable. Instead of rigid grids, the site is built from these building blocks so we can snap them together like Lego. The news becomes intent driven, rather than layout driven." - Josh Topolsky, editor of Bloomberg Digital
 
+* [**2014 Report**](http://2014.report.gridsetapp.com/)
+* [Sass Grid Guide](http://sass-guidelin.es/#grid-systems)
 * [How the grid will automate web design without killing the designer](http://www.fastcodesign.com/3044670/how-the-grid-will-automate-web-design-without-killing-the-designer)
 * [**Foundation - A new grid**](http://zurb.com/article/1333/foundation-a-new-grid)
 * [Skeleton](http://getskeleton.com/)

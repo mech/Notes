@@ -40,6 +40,8 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [Browserify Handbook](https://github.com/substack/browserify-handbook)
 * [Single page modules with Webpack](http://dontkry.com/posts/code/single-page-modules-with-webpack.html)
 * [HMR](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
+* [fetch polyfills](http://mts.io/2015/04/08/webpack-shims-polyfills/)
+* [Fetch polyfill with webpack](https://gist.github.com/Couto/b29676dd1ab8714a818f)
 
 ## Loaders
 

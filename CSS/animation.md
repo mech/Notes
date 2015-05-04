@@ -1,5 +1,8 @@
 # Animation
 
+* [**FLIP your Animations**](http://aerotwist.com/blog/flip-your-animations/)
+* [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
+* [**Val Head's UI Animation**](http://valhead.com/ui-animation/)
 * [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
 * [**CSS animations performance: the untold story**](http://greensock.com/css-performance)
 * [**State of animation in 2014**](http://www.smashingmagazine.com/2014/11/18/the-state-of-animation-2014/)
@@ -48,6 +51,11 @@
 * [Hardware accelerated CSS: The nice vs the naughty](http://calendar.perfplanet.com/2014/hardware-accelerated-css-the-nice-vs-the-naughty/)
 * [Spinner animation](http://tobiasahlin.com/spinkit/)
 * [Flipside dialog](https://github.com/hakimel/css/tree/master/flipside)
+* [**Stripe - Improve the payment experience with animations**](https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e)
+
+## Videos
+
+* [**Val Head on All the Right Moves: Putting UIs in Motion**](https://vimeo.com/125545020)
 
 ---
 
@@ -93,6 +101,7 @@
 
 ## Animate as you scroll
 
+* [**Some nice demo from  Chris Wright**](http://chriswrightdesign.com/experiments/)
 * [WOW.js - Reveal CSS animation as you scroll down a page](https://github.com/matthieua/WOW)
 * [Slide in as you scroll like Google+ app](http://css-tricks.com/slide-in-as-you-scroll-down-boxes/)
 * [Case study](http://www.justinaguilar.com/)
@@ -100,12 +109,25 @@
 * [The guide to scrolling animation](http://ihatetomatoes.net/guide-scrolling-animation-libraries/)
 * [Scrolling progress bar](http://www.webdesigncrowd.com/scrolling-progress-bar/)
 * [Dear web designer, let's stop breaking the affordance of scrolling](https://medium.com/user-experience-design-1/dear-web-designer-let-s-stop-breaking-the-affordance-of-scrolling-fe8bf258df7b)
+* [Scrollbar](http://www.unheap.com/?s=scrollbar)
+
+## will-change
+
+```scss
+// Give browser hints
+.moving-thing {
+  will-change: transform;}
+
+// Fallback
+.moving-thing-retro {
+  transform: translateZ(0);}
+```
 
 ## Examples
 
 To move heading down a bit, and paragraph to move up a bit:
 
-```css
+```scss
 h2 {
   animation: moveDown 0.6s ease-in-out 0.2s backwards;
 }
@@ -139,9 +161,9 @@ p {
 }
 ```
 
-Simple transition in/out with router
+**Simple transition in/out with router**
 
-```css
+```scss
 .animate-enter {
   opacity: 0.01;
   transition: opacity .5s ease-in;
@@ -159,6 +181,71 @@ Simple transition in/out with router
 .animate-leave.animate-leave-active {
   opacity: 0.01;
 }
+```
+
+**Delayed animation**
+
+```scss
+// From http://metalab.co/
+
+transform: translateY(10px);
+transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.25s,opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.25s;
+
+// 0.25s at the back is delay??
+// -webkit-transition-delay: 0.25s, 0.25s;
+// transition-property: transform, opacity;
+// transition-duration: 0.25s, 0.25s;
+// transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1), cubic-bezier(0.645, 0.045, 0.355, 1);
+// transition-delay: 0.25s, 0.25s;
+
+// Without delay
+transform: translateY(80px);
+transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+```
+
+**Drawer animation**
+
+```scss
+// From http://frankchimero.com/writing/boring-future-vol1/
+// Using calc() for drawer
+
+@media (min-width: 700px)
+body.article div.wrap {
+  position: absolute;
+  width: calc(100% - 55px);
+  left: 55px;
+  top: 0;
+  z-index: 500;
+  -ms-transition: transform 0.5s ease-in;
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+}
+
+@media (min-width: 700px)
+body.articleoff div.wrap {
+  transform: translate(calc(100% - 55px),0);
+  overflow: hidden;
+}
+
+@media (min-width: 700px)
+body.article article, body.article div.wrap {
+  min-height: 100vh;
+}
+```
+
+```html
+<body class="vanilla article">
+<body class="vanilla article articleoff">
+```
+
+**flex-basis can be animated**
+
+```scss
+.color {
+  transition: flex-basis 500ms ease-in-out;}
+
+.color:hover {
+  flex-basis: 20em;}
 ```
 
 ## Tools

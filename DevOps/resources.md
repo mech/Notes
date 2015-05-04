@@ -7,6 +7,7 @@
 * [SysAdvent](http://sysadvent.blogspot.sg/)
 * [Cache is the new RAM](http://blog.memsql.com/cache-is-the-new-ram/)
 * [Arrested DevOps](http://www.arresteddevops.com/)
+* [Gilt tech blog](http://tech.gilt.com/)
 
 Gradual rollout, dark launching
 

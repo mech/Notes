@@ -85,6 +85,43 @@ form.shake-me {
 }
 ```
 
+## Centering
+
+```
+<link href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700,300" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="//s3-us-west-2.amazonaws.com/assets.atomic.io/styles/main.061d880f.css">
+
+.center-panel {
+  position: absolute;
+  left: 50%;
+  margin-left: -180px; /* 360px / 2 */
+  width: 360px;
+  top: 20%;
+  padding: 25px 30px 18px 30px;
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+.btn:not(.btn-tool) {
+  -webkit-appearance: none;
+  background-color: #0E74E6;
+  color: #FFF;
+  padding: 0;
+  border: 0;
+  display: inline-block;
+  height: 26px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2px;
+  font: 400 9px/25px Roboto,Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  outline: 0!important;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+}
+```
+
 ## Border radius
 
 * [CSS arrow](http://cssarrowplease.com/)

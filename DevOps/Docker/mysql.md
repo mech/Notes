@@ -64,6 +64,8 @@ fi
 mysqldump -h localhost -u root -p --databases jobline_pro > /tmp/backup.sql
 ```
 
+**Note**: After a dump, please do a restore in order to know the Docker MySQL is capable of restoring what you have dumped.
+
 ## my.cnf
 
 `/etc/mysql/my.cnf` to set global options. `~/.my.cnf` to set user-specific options.

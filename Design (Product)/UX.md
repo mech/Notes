@@ -8,6 +8,8 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 
 ## General
 
+* [1 hour of research saves 10 hours of development time](http://bokardo.com/archives/1-hour-of-research-saves-10-hours-of-development-time/)
+* [User Experience for Product Designers](https://medium.com/@paulhershey/user-experience-for-product-designers-e9fa621ce3bc)
 * [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
 * [**Researchers.io**](http://researchers.io/)
 * [**The Ultimate List of UX Design and Development Resources**](https://www.codefellows.org/blog/the-ultimate-list-of-ux-design-and-development-resources)

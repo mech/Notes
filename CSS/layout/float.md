@@ -13,9 +13,15 @@ Elements of Layouts:
 * Multiple columns
 * Grids
 
+Laying things with floats, every item is going to appear a different height, so you have to impose a `min-height` or fixed `height` to every item to achieve equal height columns.
+
+Having a button anchor to the bottom you'd have to make it position absolute.
+
 ---
 
 * [Positioning in Web Design](http://blog.froont.com/positioning-in-web-design/)
+* [4 methods for equal height columns](http://www.vanseodesign.com/css/equal-height-columns/)
+* [An `inline-block` intervention](https://medium.com/@drewisthe/an-inline-block-intervention-6ce18a3f7edf)
 
 ## Overflow
 

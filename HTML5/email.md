@@ -1,5 +1,6 @@
 # Email
 
+* [**Really Good Emails**](http://reallygoodemails.com/)
 * [**Email design workflow**](http://www.leemunroe.com/email-design-workflow/)
 * [**Future of email marketing**](http://marketblog.envato.com/trends/future-email-marketing/)
 * [**Bulletproof guide to using HTML5 and CSS3 in email**](https://litmus.com/blog/a-bulletproof-guide-to-using-html5-and-css3-in-email)
@@ -23,6 +24,7 @@
 * [CSS Shape in Email](http://stylecampaign.com/blog/2014/10/css-shapes-in-email/)
 * [Tricks on building responsive email](http://www.sitepoint.com/tricks-building-responsive-email/)
 * [Typography in email](http://rodriguezcommaj.com/blog/new-book-sample-typography-in-email)
+* [Can email be responsive?](http://alistapart.com/article/can-email-be-responsive)
 
 ## Tools
 

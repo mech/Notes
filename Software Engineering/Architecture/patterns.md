@@ -35,11 +35,13 @@ Semantic interface, anti-corruption in DDD. Mostly at persistence layer.
 
 Disruptor: Continuous Delivery with Containerized Microservices.
 
+Built for replacement (not reuse). You should not be afraid to throw away your implementation if it suck. Make it micro.
+
 Microservices - Loosely coupled service oriented architecture with bounded contexts.
 
 Monoliths try to share resources as much as possible. Monoliths can't scale read and write. No CQRS. No replacing of parts. See the case study of Iceland volcano where one airline couple their reservation and boarding into one system which lead them to delay their flight take off. The models may make sense to be together, but we must think about the Lifecycle instead.
 
-Conway's law - separate into domain rather than departmental. Products, not projects. Amazon build products, not projects. You build it, you own it!
+Conway's law - separate into domain rather than departmental. Products, not projects. Amazon build products, not projects. You build it, you own it! Invert Conway's Law - teams own service groups and backend stores. Stateless business logic. Cattle, not pets.
 
 Smart endpoints, dump pipes.
 
@@ -65,6 +67,7 @@ No shared persistence. Each services use their own mini database.
 * [Docker and related services enable a future of microservices for everyone](http://blog.giantswarm.io/docker-and-related-services-enable-a-future-of-microservices-for-everyone)
 * [Simulating service discovery with Docker and etcd](http://talwai.github.io/#/blog/post/discovery)
 * [Architecture without Architects](https://www.youtube.com/watch?v=qVyt3qQ_7TA)
+* [Practical considerations for microservice architectures - Sam Newman](https://vimeo.com/105751281)
 
 Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 

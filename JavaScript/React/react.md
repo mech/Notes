@@ -300,6 +300,8 @@ React.initializeTouchEvents(true);
 
 ## JSX
 
+* [A case for JSX](https://medium.com/@thinkfunctional/a-case-for-jsx-73763ee9aa03)
+
 JSX is the key to React and it's purpose is to build composable tree/hierarchical UI.
 
 **Scale by composition** - Build it small, compose it and scale it big.

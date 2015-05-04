@@ -1,5 +1,7 @@
 # PostgreSQL
 
+https://vividcortex.com/pricing/
+
 * [**Use the Index, Luke**](http://use-the-index-luke.com/)
 * [**Discovering indexes**](http://patshaughnessy.net/2014/11/11/discovering-the-computer-science-behind-postgres-indexes)
 * [Aggregating NBA data, PostgreSQL vs MongoDB](http://tapoueh.org/blog/2014/02/17-aggregating-nba-data-PostgreSQL-vs-MongoDB)

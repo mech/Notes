@@ -14,6 +14,8 @@ Options:
 * [graylog](https://www.graylog.org/)
 * statsd
 * datadog
+* [boundary](http://www.boundary.com/)
+* [Vivid Cortex](https://vividcortex.com/)
 
 Stream all your Docker logs to a centralized logging service. Never write to a log file always to stdout. If you have to write to a log file, you're violating several rules and will have to script around it so that long running containers do not run out of disk space. Treat logs as event stream.
 

@@ -8,6 +8,8 @@ https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
 
+* [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
+* [**CSS Reference**](http://tympanus.net/codrops/css_reference/)
 * [perfjankie](https://github.com/axemclion/perfjankie)
 * [**CSS Next**](https://cssnext.github.io/)
 * [Design Essential from GitHub](https://github.com/showcases/design-essentials)
@@ -55,6 +57,17 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [Keeping specificity low](http://css-tricks.com/strategies-keeping-css-specificity-low/)
 * [How to center in CSS](http://howtocenterincss.com/)
 * [SRP applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+
+## Linting
+
+* [CSS Comb type ordering](https://github.com/csscomb/csscomb.js/blob/master/config/csscomb.json)
+* [CSS coding style formatter](https://github.com/csscomb/csscomb.js)
+* [Lint using CSS Comb once it supports alphabetical ordering](https://github.com/suitcss/suit/issues/42)
+* [An auto-enforceable SCSS styleguide](http://davidtheclark.com/scss-lint-styleguide/)
+
+## Units
+
+* [7 CSS units you might not know about](http://webdesign.tutsplus.com/articles/7-css-units-you-might-not-know-about--cms-22573)
 
 ## Build
 

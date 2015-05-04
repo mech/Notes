@@ -39,6 +39,8 @@
 * [Accessibility Wins](http://a11ywins.tumblr.com/)
 * [Allan Yu](http://allanyu.nyc/)
 * [Material Up](http://www.materialup.com/)
+* [AWWWARDS](http://www.awwwards.com/)
+* [Mobile UI](http://beta.uihaus.com/)
 
 ---
 

@@ -18,3 +18,8 @@ Or just don't use objects in `props` and `state`.
 ## Examples
 
 * [react-immutable-demo](https://github.com/pk11/react-immutable-demo)
+
+## Videos
+
+* [The Language of the System - Rich Hickey](https://www.youtube.com/watch?v=ROor6_NGIWU)
+* [Boundaries - Gary Bernhardt](https://www.destroyallsoftware.com/talks/boundaries)

@@ -2,6 +2,9 @@
 
 Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY and WHAT the user is trying to accomplish, regardless of whether your solution or a competitors' exists.
 
+> Most enterprise software looks like a cheap 70's prom suit - muted blues and greys everywhere.
+
+* [**Design of Slack**](https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908)
 * [**Reactive Design**](http://gabinaureche.com/reactivedesign/)
 * [7GUIs](https://github.com/eugenkiss/7guis/wiki)
 * [UI/UX Design Interviews](https://medium.com/ux-design-interviews/davide-casali-7714a0be3f6e)

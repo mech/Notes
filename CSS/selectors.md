@@ -114,3 +114,15 @@ header ul {} /* Bad selector intent, too greedy */
 div.error {
   padding: 10px;}```
 
+## Quantity Query
+
+* [A very straight approach](http://alistapart.com/article/quantity-queries-for-css)
+* [Styling elements based on sibling count](http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/)
+
+## ??
+
+```scss
+// Clear after every 3rd item
+.flex-car-list li:nth-child(3n+1) {
+  clear: both;}
+```

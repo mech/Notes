@@ -1,6 +1,7 @@
 # Nginx
 
 * [Tutum's Nginx tag](https://learn.tutum.co/tag/12/nginx)
+* [ngx_pagespeed](https://github.com/pagespeed/ngx_pagespeed)
 
 ```
 server {

@@ -132,6 +132,7 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 * [multiple classes vs `@extend`](http://bensmithett.com/bem-modifiers-multiple-classes-vs-extend/)
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)
 * [**More transparent UI code with namespaces**](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+* [BEM your JavaScript components](https://medium.com/seek-ui-engineering/block-element-modifying-your-javascript-components-d7f99fcab52b)
 
 ```css
 /* Harry Robert's BEM */
@@ -193,4 +194,42 @@ You can use `avatar` elsewhere, but `profile__image` belongs to the `profile` co
 <div class="box profile">
   <img class="avatar profile__image" />
 </div>
-```
+```## Dave Shea's Argon
+
+```scss
+.swift-project.-activeProject ._filterField {}
+
+.swift-project {
+  ._filterList {}
+
+  &.-activeProject {}
+
+  ._filterField {}}
+```
+
+```html
+<div class="swift-project -activeProject">
+  <div class="_filterList">
+    <input type="text" class="_filterField" />
+    <input type="text" class="_filterField" />
+  </div>
+  <button type="submit" class="_filterApply">Okay</button>
+</div>
+```
+
+V.S the BEM
+
+```scss
+.swift-project__filterList {}
+
+.swift-project--activeProject__filterList {}
+
+.swift-project__filterField--conditionValue {}
+``````html
+<div class="swift-project--activeProject">
+  <div class="swift-project--activeProject__filterList">
+    <input type="text" class="swift-project--activeProject__filterField" />
+    <input type="text" class="swift-project--activeProject__filterField" />
+  </div>
+  <button type="submit" class="swift-project--activeProject__filterApply">Okay</button>
+</div>```

@@ -1,5 +1,7 @@
 # Function
 
+* [The `bind` operator](https://medium.com/@matthewwithanm/api-design-the-bind-operator-5a22d255bb18)
+
 Executing a function is called *invoking*, *calling*, or *applying* it.
 
 ## Higher-Order Functions

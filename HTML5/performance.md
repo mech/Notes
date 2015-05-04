@@ -34,6 +34,16 @@
 * [Scroll problem](http://aerotwist.com/blog/some-gotchas-that-got-me/)
 * [Web Performance Matters](http://www.perf.rocks/)
 * [Setting a performance budget](http://timkadlec.com/2013/01/setting-a-performance-budget/)
+* [loadCSS](https://github.com/filamentgroup/loadCSS)
+* [Solving rendering perf puzzles](http://jakearchibald.com/2013/solving-rendering-perf-puzzles/)
+
+```html
+<!-- Unblock fonts -->
+<script>
+  function loadCSS(url) {}
+  loadCSS('//cloud.typography.com/7773243.css');
+</script>
+```
 
 Perceived = f(Expected Performance, UX, Actual Performance)
 
@@ -48,6 +58,12 @@ Perceived = f(Expected Performance, UX, Actual Performance)
 .expanded {
   height: 400px;
   transition: height 0.4s ease-out;	}
+```
+
+**Set your performance budget**
+
+```
+window.performance.mark('foo-bar');
 ```
 
 ## Page load
@@ -70,6 +86,11 @@ Usually in order:
 "Frames mode" change the summary to look like taller vertical bars heights. The taller the worst because it has lower FPS.
 
 "Tracing mode"
+
+## Videos
+
+* [Building the next-generation of theguardian.com](https://vimeo.com/125545018)
+* [Paul Lewis on Making a Silky Smooth Web](https://vimeo.com/125121010)
 
 ## Terms
 

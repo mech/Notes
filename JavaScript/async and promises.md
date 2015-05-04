@@ -32,6 +32,8 @@ The point of promises:
 * [Callbacks are imperative, promises are functional](https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/)
 * [Event loop and done callback](http://blog.namangoel.com/breadthfirstlog-with-the-event-queue)
 * [Staying sane with promises and generators](http://colintoh.com/blog/staying-sane-with-asynchronous-programming-promises-and-generators)
+* [Cancellable Promises](https://annevankesteren.nl/2015/02/cancelable-promises)
+* [Returning a FetchPromise from fetch()](https://github.com/slightlyoff/ServiceWorker/issues/625)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 

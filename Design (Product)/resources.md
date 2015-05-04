@@ -84,6 +84,7 @@ It's not about the product, it's about your users.
 * [Personas](https://medium.com/@mikeybrand/personas-f563f8ac087a)
 * [The Age of Context](https://medium.com/@christianhern/into-the-age-of-context-f0aed15171d7)
 * [The Interface Layer](https://medium.com/bridge-collection/the-interface-layer-when-design-commoditizes-tech-e7017872173a)
+* [Learn from great design: Basecamp](http://inspectelement.com/reviews/learn-from-great-design-basecamp/)
 
 ## Research
 
@@ -216,6 +217,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 
 ## Design Studio with Case Studies
 
+* [**Design Details Series**](http://blog.brianlovin.com/)
 * [Focus Lab](http://focuslabllc.com/)
 * [teehan+lax](http://www.teehanlax.com/)
 * [MikeShakes](http://milkshak.es/)
@@ -254,6 +256,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Learn from great design](http://inspectelement.com/reviews/learn-from-great-design-avis-car-hire/)
 * [Brian Hoff Design](http://www.brianhoffdesign.com/#/work/allclasses)
 * [Focus Lab](http://focuslabllc.com/work/assembly)
+* [Duolingo design](http://www.theguardian.com/education/2014/feb/28/gaming-spanish-duolingo-language-challenge)
+* [Design Details - Carousel by Dropbox](http://blog.brianlovin.com/design-details-carousel-by-dropbox/)
 
 ## Product News
 
