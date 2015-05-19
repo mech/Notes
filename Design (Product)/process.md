@@ -2,6 +2,8 @@
 
 **You can have the best process, but if you content sucks, it will not save the company.**
 
+**READ this first**: [Measuring emotion](http://warpspire.com/posts/emotional-understanding/)
+
 Things that help you to remember when you start to design:
 
 1. User Story Map

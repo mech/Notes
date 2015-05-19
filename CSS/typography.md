@@ -1,5 +1,6 @@
 # Typography
 
+* [**Professional Web Typography**](https://prowebtype.com/)
 * [FitText](http://fittextjs.com/)
 * [Responsive Typography: The Basics](http://ia.net/know-how/responsive-typography-the-basics)
 * [Fluid Type](http://trentwalton.com/2012/06/19/fluid-type/)
@@ -9,3 +10,4 @@
 * [PX to EM](http://pxtoem.com/)
 * [Mixin for rem font sizing](https://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/)
 * [discover.typography.com](http://discover.typography.com/)
+* [Ministry of Type blog](http://ministryoftype.co.uk/)

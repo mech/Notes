@@ -40,6 +40,7 @@ Notable companies in HR domain.
 * [VMS?](http://www.taulia.com/en/products/supplier-information-management)
 * [Your professional portfolio, reimagined](https://kredo.com/)
 * [Protege (local)](http://www.protegehub.com/)
+* [Pay Asia - Payroll service](http://www.payasia.asia/)
 
 ## Executive Search
 

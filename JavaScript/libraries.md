@@ -60,8 +60,9 @@
 
 ## HTTP Client
 
-* [Promise based HTTP client](https://github.com/mzabriskie/axios)
+* [Axios - Promise based HTTP client](https://github.com/mzabriskie/axios)
 * [Superagent - Ajax with less suck](https://github.com/visionmedia/superagent)
+* [Bluebird](https://github.com/petkaantonov/bluebird)
 
 ## Draggable/Scrollable
 

@@ -1,6 +1,10 @@
 # Code Snippets
 
 ```
+Perf.printWasted()
+```
+
+```
 // Can't use mixin, use fat arrow
 render() {
   return (

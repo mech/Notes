@@ -1,5 +1,6 @@
 # MySQL
 
+* [**The new Oracle maintained Dockerfile**](https://registry.hub.docker.com/u/mysql/mysql-server/)
 * [docker-mysql](https://github.com/sameersbn/docker-mysql)
 * [Official repo for MySQL](https://github.com/docker-library/mysql)
 * [Docker-persistence](http://www.alexecollins.com/docker-persistence/)
@@ -11,6 +12,7 @@
 * [Make uid & gid configurable for shared volumes](https://github.com/docker/docker/issues/7198)
 * [Best way to manage permissions for Docker shared volumes](http://stackoverflow.com/questions/23544282/what-is-the-best-way-to-manage-permissions-for-docker-shared-volumes)
 * [**Learn to stop using shiny new things and love MySQL**](http://engineering.pinterest.com/post/116038532184/learn-to-stop-using-shiny-new-things-and-love)
+* [MySQL in Dockerland](http://mysqlrelease.com/2015/05/mysql-in-dockerland/)
 
 ```
 /var/lib/mysql

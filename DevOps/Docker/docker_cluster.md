@@ -3,7 +3,8 @@
 * [Benefits of Docker for application deployment](http://knitatoms.net/2013/12/benefits-of-docker-for-application-deployment/)
 * [SDN, Docker and the Real Changes Ahead](http://thenewstack.io/sdn-docker-real-changes-ahead/)
 * [SocketPlane == Open vSwitch + Consul + VXLAN + Docker](http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/)
-* [Setup networking using weave](http://xmodulo.com/networking-between-docker-containers.html)
+* [Clocker - The Docker cloud maker](http://brooklyncentral.github.io/clocker/)
+* [Calico - Pure Layer 3 Virtual Networking](http://www.projectcalico.org/)
 
 VXLAN - extend the LAN.
 
@@ -17,6 +18,13 @@ DPDK accelerated OVS integration.
 * Planning and container creation (Bash script?)
 * Backup strategy
 * Database tuning
+
+## Weave
+
+* [Weave](https://github.com/weaveworks/weave)
+* [Setup networking using weave](http://xmodulo.com/networking-between-docker-containers.html)
+* [Using docker-machine with Weave 0.10](http://blog.weave.works/2015/04/22/using-docker-machine-with-weave-0-10/)
+
 
 ## Etcd
 
@@ -36,7 +44,18 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 * [Proposal: Network Driver](https://github.com/docker/docker/issues/9983)
 * [Dynamic Docker links with an ambassador powered by etcd](https://github.com/tcnksm/docker-link-pattern/tree/master/coreos/dynamic-etcd-ambassador)
 
-## Docker Compose
+## docker-machine
+
+* [Presenting Machine 0.2.0](https://www.youtube.com/watch?v=xwj44dAvdYo)
+
+```
+▶ docker-machine ls
+▶ docker-machine env <machine_name>
+▶ env | grep DOCKER
+▶ docker-machine create -d virtualbox ...
+```
+
+## docker-compose
 
 * [Don't stop containers when fig up exits](https://github.com/docker/compose/issues/741)
 * [Data only containers / No run containers](https://github.com/docker/compose/issues/942)

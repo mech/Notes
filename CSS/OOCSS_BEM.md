@@ -4,6 +4,7 @@
 * [Can CSS be too modular - We need to find the sweet spot](http://csswizardry.com/2015/03/can-css-be-too-modular/)
 * [Single Responsibility Principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
 * [CSS for Grownups, SXSW 2012](https://www.youtube.com/watch?v=ZpFdyfs03Ug)
+* [Respect the global css namespace](http://blog.kaelig.fr/post/44554267597/please-respect-the-global-css-namespace)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	
@@ -14,6 +15,9 @@ Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 * `.masthead` is better than `.home-page-panel`
 * `.primary-nav` is better than `.site-nav`
 * `.primary-button` is better than `.btn-login`
+* `.btn--positive` is even better
+* `.component-title` instead of `.component .title`
+
 
 **Visual pattern vs Content**
 

@@ -9,6 +9,31 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 ---
 > The Twitter vs. Instagram experience is really reinforcing what matters when designing a product. What kind of behavior can we encourage? What kind of moments can we create for people? What do people anticipate before they use something? How does it leave them feeling when they’re done? These are now some of the most important questions for me when working on a design. - [Look and Feel and Feel](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
 
+---
+> We are unlikely to be able to sell "a group chat system" very well: there are just not enough people shopping for group chat system (and, as pointed out elsewhere, our current fax machine works fine) - [We don't sell saddles here](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
+> 
+> The reason for saying we need to do 'an exceptional, near-perfect job of execution' is this: When you want something really bad, you will put up with a lot of flaws. But if you do not yet know you want something, your tolerance will be much lower. That's why it is especially important for us to build a beautiful, elegant and considerate piece of software. Every bit of grace, refinement, and thoughtfulness on our part will pull people along. Every petty irritation will stop them and give the impression that it is not worth it.
+> 
+> Be harsh, in the interest of being excellent.
+
+## Main things, secondary thing
+
+To Bob, the main thing is to take leave. To Alice, main thing is to keep track of payslip.
+
+> Paving the cowpaths philosophy - we don’t like to tell you what to do, we like to find out what you’re doing, and then get the obstacles out of your way.
+
+## Talent Networking
+
+Social graph. 1 or more degree away from better referral.
+
+Maintain good intel.
+
+## Design for the moment
+
+* [Moments as a currency](http://thenextweb.com/insider/2015/04/24/moments-as-a-currency-brian-wong-on-identifying-and-addressing-customers-needs-at-tnw-europe-conference/)
+
+> One of the techniques that can be used to see customer's needs at specific moments (steps, stages) and at the same time to see the whole picture of their journey is Experience Mapping or Customer Journey Mapping.
+
 ## Microservices
 
 Bounded Context - Identify discrete business capabilities (functions). Functions govern part of enterprise data model.
@@ -142,6 +167,20 @@ Support for Emoji needs utf8mb4. Or just use Postgres.
 * If failed to send SMS, notify also to the consultant so they can act on it, rather than email only to IT for `DeliveryImpossible`.
 * [Rails 4.1 and MySQL 5.5 support utf8mb4](http://tech.taskrabbit.com/blog/2014/04/24/active-record-mysql-and-emoji/)
 * [Unicode support in MySQL is...](http://www.codeka.com.au/blog/2014/02/unicode-support-in-mysql-is--)
+
+## Customer Development
+
+Be it customer service.
+
+Make our customer our evangelist.
+
+Have you ever spend any time with customer?
+
+This is FALSE: "Customer aren't using things the way we designed them"
+
+Who "owns" the customer relationship? The Account Manager? Sales?
+
+Have a concept of a "Account Holder" and their own CRM.
 
 ## Accrual
 

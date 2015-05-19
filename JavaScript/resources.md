@@ -31,6 +31,10 @@ JavaScript dynamic duo (static type is overrated):
 * [The Jackal of JavaScript](http://thejackalofjavascript.com/)
 * [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
 
+## Design Patterns
+
+* [JavaScript Design Patterns](https://carldanley.com/javascript-design-patterns/)
+
 ## Closures
 
 * [The two pillars of JavaScript Part 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)

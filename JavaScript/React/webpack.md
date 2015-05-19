@@ -42,6 +42,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [HMR](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
 * [fetch polyfills](http://mts.io/2015/04/08/webpack-shims-polyfills/)
 * [Fetch polyfill with webpack](https://gist.github.com/Couto/b29676dd1ab8714a818f)
+* [Modularity](http://jlongster.com/Modularity)
 
 ## Loaders
 
@@ -138,6 +139,7 @@ Use `assets-webpack-plugin` to access the JSON stats object.
 * [webpack_and_rails](https://github.com/mindreframer/webpack_and_rails)
 * [webpack_rails_demo](https://github.com/flarnie/webpack_rails_demo)
 * [rails-webpack-react-flux](https://github.com/nambrot/rails-webpack-react-flux)
+* [Setting up webpack with Rails](https://medium.com/brigade-engineering/setting-up-webpack-with-rails-c62aea149679)
 
 Use JSON manifest file for production fingerprinting.
 

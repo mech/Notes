@@ -36,6 +36,7 @@
 * [Setting a performance budget](http://timkadlec.com/2013/01/setting-a-performance-budget/)
 * [loadCSS](https://github.com/filamentgroup/loadCSS)
 * [Solving rendering perf puzzles](http://jakearchibald.com/2013/solving-rendering-perf-puzzles/)
+* [fastdom](https://github.com/wilsonpage/fastdom)
 
 ```html
 <!-- Unblock fonts -->

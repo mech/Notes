@@ -1,5 +1,8 @@
 # React
 
+* [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
+* [Problem with Backbone rendering view](http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/)
+
 Why SPA? Imagine using Facebook where every like and every comment made you refresh the page.
 
 Web Application has 3 parts
@@ -18,11 +21,6 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 
 * [NativeScript??](https://www.nativescript.org/blog/answering-nativescript-beta-webinar-questions)
 
-## Drag and Drop
-
-* [The future of drag and drop APIs](https://medium.com/@dan_abramov/the-future-of-drag-and-drop-apis-249dfea7a15f)
-* [react-dnd](https://github.com/gaearon/react-dnd)
-
 ## Examples to Learn
 
 * [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
@@ -40,6 +38,8 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [Sample mobile application with React](http://coenraets.org/blog/2014/12/sample-mobile-application-with-react-and-cordova/)
 * [react-new-way](https://github.com/KamilLelonek/react-new-way)
 * [react-es6](https://github.com/topheman/react-es6)
+* [Atomic](http://thenextweb.com/creativity/2015/02/19/meet-atomic-missing-tool-interface-design-thats-entirely-browser/)
+* [Idiomatic React](https://github.com/netgusto/IdiomaticReact)
 
 ### File Structure Examples
 
@@ -103,6 +103,17 @@ class Builder extends Component {
 If you need IE8 support, you need to include [es5-shim](https://github.com/kriskowal/es5-shim) yourself to make use of several `Array` and `Date` functions.
 
 You are need to include [html5shiv](https://github.com/aFarkas/html5shiv) for IE8.
+
+## Fastclick
+
+* [react-tap-event-plugin](https://github.com/zilverline/react-tap-event-plugin)
+* [react-tappable](https://github.com/JedWatson/react-tappable)
+* [react-hammerjs](https://github.com/JedWatson/react-hammerjs)
+* [IE 10 touch events](https://github.com/facebook/react/issues/499)
+
+```js
+React.initializeTouchEvents(true); // But put where??
+```
 
 ## People
 
@@ -209,7 +220,7 @@ Model your UI as pure function.
 * [Facebook's Immutable.js](https://github.com/facebook/immutable-js)
 * [React.js and how does it fit in with everything else?](http://www.funnyant.com/reactjs-what-is-it/)
 * [Pete Hunt response to side-by-side AngularJS comparison](http://www.quora.com/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look)
-* [Isomorphic React app with Rails](https://medium.com/@olance/isomorphic-reactjs-app-with-ruby-on-rails-part-1-server-side-rendering-8438bbb1ea1c)
+* [**Isomorphic React app with Rails**](https://medium.com/@olance/isomorphic-reactjs-app-with-ruby-on-rails-part-1-server-side-rendering-8438bbb1ea1c)
 * [React for stupid people](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
 * [React.rb using Opal](https://github.com/zetachang/react.rb)
@@ -225,6 +236,9 @@ Model your UI as pure function.
 * [Mozilla and Web Component](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/)
 * [Real-time offline-ready web apps](http://swarmjs.github.io/articles/todomvc/)
 * [Exploring hotkeys and focus](http://chrispearce.co/exploring-hotkeys-and-focus-in-react/)
+* [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
+* [How I learned to stop worrying and love React](http://firstdoit.com/react-1/)
+* [2 weird tricks that fix React](https://medium.com/@dan_abramov/two-weird-tricks-that-fix-react-7cf9bbdef375)
 
 ```
 var gulp = require('gulp');
@@ -596,6 +610,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Optimizing Compiler: Reuse Constant Value Types like ReactElement](https://github.com/facebook/react/issues/3226)
 * [JSX optimization in babel.js](https://twitter.com/sebmck/status/582191152356458497)
 * [Implement Sideways Data Loading](https://github.com/facebook/react/issues/3398)
+* [React/Flow/Type optimizations](https://github.com/babel/babel/issues/653)
 
 ## Companies using React
 

@@ -47,6 +47,7 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [Database displays vs Task-led interfaces](http://daringfireball.net/2014/11/googles_app_aesthetic)
 * [Hamburger icons](http://developer.telerik.com/featured/much-ado-hamburger-icons/)
 * [Dare to be boring](https://medium.com/@hliriani/dare-to-be-boring-4717ae3942fd)
+* [Obvious always wins](http://www.lukew.com/ff/entry.asp?1945)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

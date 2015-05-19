@@ -137,3 +137,8 @@ Fixed IP on a container is a hard issue.
 * [Allow users to specify an IP for their container](https://github.com/docker/docker/issues/6743)
 * [Pipework](https://github.com/jpetazzo/pipework)
 * [How to configure Docker to start containers on a specific IP address range](http://jpetazzo.github.io/2013/10/16/configure-docker-bridge-network/)
+
+## libnetwork and Container Network Model (CNM)
+
+* [First post on libnetwork](http://blog.docker.com/2015/04/docker-networking-takes-a-step-in-the-right-direction-2/)
+* [Proposal: Network Drivers](https://github.com/docker/docker/issues/9983)

@@ -7,6 +7,7 @@
 * [Understanding Linux CPU stats](http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats)
 * [**Lynis - Security auditing**](https://cisofy.com/lynis/)
 * lynis, rkhunterm chkrootkit, tripwire, tiger, bastille, unhide, unhide.rb, aide, bsign, systraq, snort, psad, samhain
+* [sysdig](http://www.sysdig.org/)
 
 ```
 // 6 minutes to shutdown with this file /etc/nologin

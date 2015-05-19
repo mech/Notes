@@ -26,6 +26,7 @@
 * [Auto-hide sticky header](http://osvaldas.info/auto-hide-sticky-header)
 * [`object-fit: cover`](https://medium.com/@chrisnager/center-and-crop-images-with-a-single-line-of-css-ad140d5b4a87)
 * [Full screen pushing navigation](http://codyhouse.co/gem/full-screen-pushing-navigation/)
+* [Toggle using the :checked pseudo class](http://www.lottejackson.com/blog/building-a-css-toggle-feature-with-checked-and-flexbox)
 
 
 ```

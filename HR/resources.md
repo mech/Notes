@@ -71,6 +71,7 @@ Character strength - http://www.kipp.org/our-approach/strengths-and-behaviors
 
 * [Design salary survey](http://ivanamcconnell.com/design-survey.html)
 * [Salary Fairy](https://salaryfairy.com/blog/acquire-these-skills-for-a-higher-salary)
+* [What job perks appeal to you?](https://news.layervault.com/stories/48871-ask-dn-what-job-perks-appeal-to-you-)
 
 ## Timesheet
 
@@ -105,6 +106,7 @@ Categories must not be 3 level deep. The Inception Rule.
 * [Visual Resume](http://www.vizualresume.com/)
 * [What Recruiters Look At During The 6 Seconds They Spend On Your Resume](http://www.businessinsider.com/heres-what-recruiters-look-at-during-the-6-seconds-they-spend-on-your-resume-2012-4)
 * [Beautiful resume](http://www.designer-daily.com/15-beautiful-resume-designs-for-your-inspiration-52059)
+* [Standard Resume - A React.js app](http://www.standardresume.co/)
 
 Using themes examples from Deckset app, we can convert each candidate's CV into beautiful on-screen presentation. Recruiters or hiring managers can swipe left to reveal their CV like interest, photos, past works/achievements, educations, etc.
 

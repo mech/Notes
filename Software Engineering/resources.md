@@ -24,6 +24,7 @@
 * [Quality Assurance tools](https://sifterapp.com/academy/resources/tools/)
 * [Thoughtbot Guides](https://github.com/thoughtbot/guides)
 * [Producing open source software](http://producingoss.com/en/producingoss.html)
+* [Deep???](http://engineering.flipboard.com/2015/05/scaling-convnets/)
 
 ## Agile
 

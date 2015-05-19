@@ -3,6 +3,8 @@
 * [TC39 ECMA262 status and process](https://github.com/tc39/ecma262)
 * [Babel 5.0 released on March 2015](http://babeljs.io/blog/2015/03/31/5.0.0/)
 * [ES6 Features](https://github.com/lukehoban/es6features#enhanced-object-literals)
+* [.eslintrc example](https://github.com/jquery/esprima/blob/master/.eslintrc)
+* [Babel call for contributors](https://github.com/babel/babel/issues/1347)
 
 `indexOf` uses Strict Equality Comparison. See SameValueZero comparison.
 
@@ -10,6 +12,23 @@ Objects in JavaScript have reference equality.
 
 ```
 {error: error} === {error}
+```
+
+## Object.assign, Cloning, Extending
+
+* [Merging objects via `Object.assign()`](http://www.2ality.com/2014/01/object-assign.html)
+* [deep-extend](??)
+
+## Reduce
+
+```js
+var a = Object.keys(toggleStates).reduce((newStates, key) => {
+	newStates[key] = !toggleAll;
+	return newStates;}, {});
+
+// Same as
+var six = [1, 2, 3].reduce((sum, n) => {
+	return sum + n;}, 0);
 ```
 
 ## React
@@ -20,6 +39,10 @@ class Person extends React.Component {
     super(props);
     // No more getInitialState
     this.state = { name: props.name };  }
+  
+  // Is there such a thing?
+  static contextTypes = {
+    user: React.PropTypes.object.isRequired  }
   
   setName(name) {
     this.setState({ name: name });  }    

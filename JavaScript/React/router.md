@@ -1,11 +1,15 @@
 # Router
 
+* [**React Router Changes**](https://github.com/rackt/react-router/pull/1158)
 * [React Router Component - Another solution](http://strml.viewdocs.io/react-router-component)
 * [rrouter - A newer version](https://github.com/andreypopp/rrouter)
 * [react-crossroads](https://github.com/react-crossroads/react-crossroads)
 * [monorouter](https://github.com/matthewwithanm/monorouter)
+* [nested-router - New experiment](https://github.com/ryanflorence/nested-router)
 
 In React Router, unlike Ember, nested route do not correspond to nested URL. It gives you complete freedom of what your URL look like. Just because you nest a route doesn't mean you need to append a segment to the URL to match.
+
+Routing is just data: `location.hash.substr(1)`
 
 * [Original React Router code by Ryan Florence](https://gist.github.com/ryanflorence/491d482d2ff1071ac020)
 * [Fluxxor React Router Guide](http://fluxxor.com/examples/react-router.html#/)
@@ -19,6 +23,7 @@ In React Router, unlike Ember, nested route do not correspond to nested URL. It 
 * [Kitematic routes](https://github.com/kitematic/kitematic/blob/master/src/Routes.js)
 * [Percolate Studio's routes file](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
 * You can use `react-async` if you want to fetch XHR before perform a route switch. Like blurring the list view before switching or abort.
+* [RequelPro](https://github.com/jmdobry/RequelPro/blob/master/src/RequelPro/app.jsx)
 
 ## Overview
 
@@ -56,6 +61,9 @@ transition.redirect('/login');
 transition.retry();
 transition.abort();
 ```
+
+## Link
+
 
 ## DFA and NFA?
 

@@ -43,6 +43,10 @@ Monoliths try to share resources as much as possible. Monoliths can't scale read
 
 Conway's law - separate into domain rather than departmental. Products, not projects. Amazon build products, not projects. You build it, you own it! Invert Conway's Law - teams own service groups and backend stores. Stateless business logic. Cattle, not pets.
 
+Organized around capabilities - Conway's Law
+
+Products, not projects. Amazon's "You build it, you run it!"
+
 Smart endpoints, dump pipes.
 
 ACID vs BASE.

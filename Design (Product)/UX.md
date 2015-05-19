@@ -50,6 +50,7 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 * [Gamification with UX](http://www.paulolyslager.com/ux-designers-can-learn-game-design-gamification/)
 * [UX Bullshit](http://uxbullshit.com/)
 * [User perception of production ratings](http://baymard.com/blog/user-perception-of-product-ratings)
+* [Fall of the designer](http://www.elischiff.com/blog/2015/5/5/fall-of-the-designer-part-v-self-flagellation)
 
 ## Behaviorism
 

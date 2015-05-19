@@ -127,6 +127,8 @@ Use of `min-width` and `max-width` common.
 
 ## Grids
 
+Invisible grid that hold the structure together.
+
 Nearly every grid system is based on rows and columns, set to 12 or 16 increments to create any layout. However, the web is changing! It's time for Flexbox to shine.
 
 Grids exist in relation to the content. We never start with a grid. We start with an idea which is then translated into a form, a structure.

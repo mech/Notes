@@ -12,6 +12,10 @@
 * [Vim Quick Reference Card](http://tnerual.eriogerg.free.fr/vimqrc.html)
 * [Emmet VIM tutorial](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
 * [Custom ignore for ctrlp](https://github.com/kien/ctrlp.vim/issues/58)
+* [Cmd-S for saving: Use `0x1b 0x4f 0x51` as hexcode](http://stackoverflow.com/questions/4945132/remap-%E2%8C%98s-to-save-a-file-in-vim)
+* [Sharpen your Vim with snippets](https://medium.com/brigade-engineering/sharpen-your-vim-with-snippets-767b693886db)
+* [Why Ultisnips](http://fueledbylemons.com/blog/2011/07/27/why-ultisnips/)
+* [Learning Vim in 2014](http://benmccormick.org/2014/07/07/learning-vim-in-2014-working-with-files/)
 
 ```
 v   # Visual mode
@@ -304,3 +308,4 @@ Type `ZZ` or `:q` to get out of help.
 
 * [AntJanus](https://github.com/AntJanus/dotfiles/blob/master/.vimrc)
 * [Don't tell people to use Vim](http://antjanus.com/blog/thoughts-and-opinions/use-vim/)
+* [Atom dotfiles also?](https://github.com/firstdoit/dotfiles)

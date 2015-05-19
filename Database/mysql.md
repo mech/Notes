@@ -2,6 +2,7 @@
 
 * [Tuning MySQL](http://blog.codesherpas.com/on_the_path/2011/03/tuning-mysql.html)
 * [Don't use virtualization for your database](https://signalvnoise.com/posts/1819-basecamp-now-with-more-vroom)
+* [Native JSON data type and binary format](http://mysqlserverteam.com/json-labs-release-native-json-data-type-and-binary-format/)
 
 ## Backup
 

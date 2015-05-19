@@ -2,6 +2,8 @@
 
 It's not about the product, it's about your users.
 
+**http://warpspire.com/posts/emotional-understanding/**
+
 **http://blog.gardeviance.org/2014/11/how-to-get-to-strategy-in-ten-steps.html**
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
@@ -85,6 +87,9 @@ It's not about the product, it's about your users.
 * [The Age of Context](https://medium.com/@christianhern/into-the-age-of-context-f0aed15171d7)
 * [The Interface Layer](https://medium.com/bridge-collection/the-interface-layer-when-design-commoditizes-tech-e7017872173a)
 * [Learn from great design: Basecamp](http://inspectelement.com/reviews/learn-from-great-design-basecamp/)
+* [We don't sell saddles here](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
+* [Asking who's the customer](http://kottke.org/15/05/asking-whos-the-customer)
+* [Design & Delivery](http://www.wightco.com/design-delivery)
 
 ## Research
 
@@ -220,6 +225,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [**Design Details Series**](http://blog.brianlovin.com/)
 * [Focus Lab](http://focuslabllc.com/)
 * [teehan+lax](http://www.teehanlax.com/)
+* [Instrument](http://www.instrument.com/)
 * [MikeShakes](http://milkshak.es/)
 * [Harvard Law Review case study](http://upstatement.com/portfolio/harvard-law-review/)
 * [Kevin Schaefer](http://www.kjschaef.com/)
@@ -232,6 +238,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Threes development](http://asherv.com/threes/threemails/#letter)
 * [Making of Aprilzero](http://aprilzero.com/journal/making-of-aprilzero/)
 * [Airbnb process](http://www.wearedesignstudio.com/works/airbnb-process/)
+* [9 hidden gems of Airbnb](https://medium.com/@mizko/9-hidden-user-experience-interaction-gems-on-airbnb-3330e762bebe)
 * [Hours](https://medium.com/@jerols/how-hours-became-a-top-grossing-app-c9b5abfcda7f)
 * [Pinterest](https://medium.com/@NicoMizono/pinterest-a-usability-study-4be3d7a99d3b)
 * [Product Hunt](http://firstround.com/article/Product-Hunt-is-Everywhere-This-is-How-It-Got-There)

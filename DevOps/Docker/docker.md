@@ -78,6 +78,7 @@ Operationalized and Orchestration.
 * [10 Docker tips and tricks](http://nathanleclaire.com/blog/2014/07/12/10-docker-tips-and-tricks-that-will-make-you-sing-a-whale-song-of-joy/)
 * [docker inspect -f](http://container-solutions.com/2015/03/docker-inspect-template-magic/)
 * [Trapping signals in Docker](https://medium.com/@gchudnov/trapping-signals-in-docker-containers-7a57fdda7d86)
+* [Load balancing - The missing piece of the container](http://blog.tutum.co/2015/05/05/load-balancing-the-missing-piece-of-the-container-world/)
 
 ```
 docker version
@@ -171,6 +172,7 @@ Each instruction in Dockerfile is a new layer. Docker runs the container, perfor
 
 * [Dockerfile builder reference](http://docs.docker.com/reference/builder/)
 * [Optimizing your Dockerfile](http://tech.paulcz.net/2015/03/optimizing-your-dockerfiles/)
+* [Building good Docker images](http://jonathan.bergknoff.com/journal/building-good-docker-images)
 
 Embrace reusability in Dockerfile. Write general requirements early (make use of cache container), commit and name relevant checkpoints, leave customisations last.
 
@@ -466,12 +468,6 @@ clean:
 
 ## Sphinx
 
-## Nginx
-
-* [Deploying Nginx with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
-* [Some nginx example](http://curtisz.com/someone-set-us-up-the-docker/)
-* [A sample Docker workflow with Nginx, Node.js and Redis](http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/)
-
 ## Examples
 
 * [Netflix OSS](https://hub.docker.com/u/netflixoss/)
@@ -488,3 +484,4 @@ clean:
 * [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
 * [Docker 101](https://www.youtube.com/watch?v=4W2YY-qBla0)
 * [Lightweight virtualization with LXC and Docker](https://events.yandex.ru/lib/talks/1085/)
+* [5 must watch videos](http://opensource.com/business/15/5/must-watch-docker-videos)

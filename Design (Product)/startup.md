@@ -13,6 +13,9 @@
 * [Startup Talks](http://startuptalks.tv/videos/category/design/)
 * [Business of Software](http://businessofsoftware.org/)
 * [The Secrets of Unicorn Companies](https://medium.com/backchannel/here-are-the-secrets-of-unicorn-companies-c8951b99215b)
+* [Product CEO paradox](http://www.bhorowitz.com/why_founders_fail_the_product_ceo_paradox)
+
+> It would never have happened without the CEO making it happen. It was nobody else's top priority.
 
 ## Growth
 

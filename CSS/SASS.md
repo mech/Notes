@@ -26,23 +26,57 @@ Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 * [DRY Sass mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins)
 * [Bourbon 4](https://news.layervault.com/stories/21801-bourbon-4-differences)
 * [Sass and partials](http://zurb.com/university/library/35)
-* [Color variables that don't suck](http://davidwalsh.name/sass-color-variables-dont-suck)
 * [Organizing z-index](http://jonsuh.com/blog/organizing-z-index-with-sass/)
 * [Inverse trigonometric function with Sass](http://thesassway.com/advanced/inverse-trigonometric-functions-with-sass)
 * [List-maps](https://www.codefellows.org/blog/so-you-want-to-play-with-list-maps)
 * [Mini Sass mixins](http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like)
 * [A Sass component in 10 minutes](http://www.sitepoint.com/sass-component-10-minutes/)
-* [Using Sass maps to manage color schemes](http://now.violet.is/color-scheming)
 * [Handy Sass mixins](http://web-design-weekly.com/2013/05/12/handy-sass-mixins/)
 * [Ampersand](http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/)
 * [Sass tooltips](http://hackingui.com/front-end/scss-tooltips/)
-* [Google Material Design colors???](https://github.com/nickpfisterer/quantum-colors)
 * [Increasing SASS compiling performance](https://www.devbridge.com/articles/increasing-sass-compiling-performance-or-when-every-second-counts/)
+* [Useful Sass mixins](http://hmphry.com/useful-sass-mixins)
+
+## Folders
+
+```
+/base
+  - reset
+  - normalize
+  - element
+/layout
+  - grid
+  - navigation
+  - drawer
+  - sidebar
+  - inspector
+  - header
+  - footer
+/modules or /components
+  - buttons
+  - loader
+  - widgets
+  - slider
+  - media
+  - carousel
+/utils
+  - variables
+  - helpers
+  - functions
+  - mixins
+/pages
+/vendors
+/vendors-extension
+```
 
 ## Color
 
 * [Name that color](http://chir.ag/projects/name-that-color/#CA4ED4)
 * [Sass color variables that don't suck](http://davidwalsh.name/sass-color-variables-dont-suck)
+* [How to programmatically go from one color to another](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass)
+* [Using Sass maps to manage color schemes](http://now.violet.is/color-scheming)
+* [Google Material Design colors???](https://github.com/nickpfisterer/quantum-colors)
+* [It's fine, carry on defining blacks](https://medium.com/@corinrules/sass-it-s-fine-carry-on-defining-blacks-67e0d0ced433)
 
 ## Placeholder
 

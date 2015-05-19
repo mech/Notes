@@ -1,6 +1,10 @@
 # Media Queries
 
 * [Mobile-first and old IE](http://jakearchibald.github.io/sass-ie/)
+* [sass-mq](https://github.com/sass-mq/sass-mq)
+* [@include-media](http://include-media.com/)
+* [Managing responsive breakpoints](http://www.sitepoint.com/managing-responsive-breakpoints-sass/)
+* [Advanced media queries](https://github.com/at-import/breakpoint/wiki/Advanced-Media-Queries#resolution-media-queries)
 
 No more browser sniffing or separate m.example.com mobile version of your sites.
 
@@ -31,6 +35,7 @@ No more browser sniffing or separate m.example.com mobile version of your sites.
 @media (resolution: 1.5dppx), (resolution: 144dpi), (-webkit-device-pixel-ratio: 2) {}
 ```
 
+* [Retina media queries](https://css-tricks.com/snippets/css/retina-display-media-query/)
 * [iPhone 6 Screens Demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * [The iOS Design Guidelines](http://iosdesign.ivomynttinen.com/)
 * [Starter's Guide to iOS Design](http://taybenlor.com/2013/05/21/designing-for-ios.html)

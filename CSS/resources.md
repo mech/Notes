@@ -8,6 +8,7 @@ https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
 
+* [Another style reset](https://github.com/mblode/marx)
 * [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
 * [**CSS Reference**](http://tympanus.net/codrops/css_reference/)
 * [perfjankie](https://github.com/axemclion/perfjankie)
@@ -60,10 +61,12 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 
 ## Linting
 
-* [CSS Comb type ordering](https://github.com/csscomb/csscomb.js/blob/master/config/csscomb.json)
+* [CSScomb type ordering](https://github.com/csscomb/csscomb.js/blob/master/config/csscomb.json)
 * [CSS coding style formatter](https://github.com/csscomb/csscomb.js)
-* [Lint using CSS Comb once it supports alphabetical ordering](https://github.com/suitcss/suit/issues/42)
+* [Lint using CSScomb once it supports alphabetical ordering](https://github.com/suitcss/suit/issues/42)
 * [An auto-enforceable SCSS styleguide](http://davidtheclark.com/scss-lint-styleguide/)
+* [Reduce file size with CSS sorting](http://peteschuster.com/2014/12/reduce-file-size-css-sorting/)
+* [Optimizing and streamline your CSS style code with CSScomb](http://coolestguidesontheplanet.com/optimizing-css-style-code-csscomb/)
 
 ## Units
 

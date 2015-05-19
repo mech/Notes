@@ -75,6 +75,8 @@
 * [Swing animation drag](https://github.com/gajus/swing)
 * [Tweene](http://tweene.com/)
 * [React tween state](https://github.com/chenglou/react-tween-state)
+* [Bounce.js](http://bouncejs.com/)
+* 
 
 ## Tips
 
@@ -110,6 +112,7 @@
 * [Scrolling progress bar](http://www.webdesigncrowd.com/scrolling-progress-bar/)
 * [Dear web designer, let's stop breaking the affordance of scrolling](https://medium.com/user-experience-design-1/dear-web-designer-let-s-stop-breaking-the-affordance-of-scrolling-fe8bf258df7b)
 * [Scrollbar](http://www.unheap.com/?s=scrollbar)
+* [Native scrolling in Ionic](http://blog.ionic.io/native-scrolling-in-ionic-a-tale-in-rhyme/)
 
 ## will-change
 
@@ -124,6 +127,8 @@
 ```
 
 ## Examples
+
+* [Nice breakdown of Dropbox Guide](http://websitedeconstructions.com/dropbox-guide/)
 
 To move heading down a bit, and paragraph to move up a bit:
 
@@ -246,6 +251,17 @@ body.article article, body.article div.wrap {
 
 .color:hover {
   flex-basis: 20em;}
+```
+
+**Some timing settings to use**
+
+```scss
+// From ionic
+[nav-view=leaving] {
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.36,.66,.04,1);
+    transition-property:opacity,transform,box-shadow
+}
 ```
 
 ## Tools

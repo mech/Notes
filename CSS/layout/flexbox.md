@@ -2,6 +2,8 @@
 
 Global = 92%, Unprefixed = 72%
 
+IE9, Opera 12 don't support flexbox.
+
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [**CSS Flexbox**](http://cssflexbox.com/)
 * [**Flexbugs** - Curated list of flexbox issues and workarounds](https://github.com/philipwalton/flexbugs)
@@ -15,6 +17,8 @@ Global = 92%, Unprefixed = 72%
 * [Modernizr IE10 flexbox test](https://github.com/Modernizr/Modernizr/issues/812)
 * [Use as a last resort?](http://cloudfour.github.io/leveller/)
 * [Another use as last resort](https://github.com/skrajewski/Equalizer)
+* [Harnessing flexbox for today's web app](http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/)
+* [Flexbox reference](http://tympanus.net/codrops/css_reference/flexbox/)
 
 Playground
 
