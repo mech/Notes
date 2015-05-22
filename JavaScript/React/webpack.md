@@ -23,6 +23,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 ▶ npm install --save-dev assets-webpack-plugin
 ```
 
+* [How to test React components using Karma and webpack](http://nicolasgallagher.com/how-to-test-react-components-karma-webpack/)
 * [**Creating a workflow with WebPack**](http://christianalfoni.github.io/javascript/2014/12/13/did-you-know-webpack-and-react-is-awesome.html)
 * [**React-seed**](https://github.com/badsyntax/react-seed)
 * [**React with Webpack**](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
@@ -140,6 +141,8 @@ Use `assets-webpack-plugin` to access the JSON stats object.
 * [webpack_rails_demo](https://github.com/flarnie/webpack_rails_demo)
 * [rails-webpack-react-flux](https://github.com/nambrot/rails-webpack-react-flux)
 * [Setting up webpack with Rails](https://medium.com/brigade-engineering/setting-up-webpack-with-rails-c62aea149679)
+* [React Webpack Rails](https://github.com/justin808/react-webpack-rails-tutorial)
+* [swig-webpack-plugin - Better than assets-webpack-plugin?](https://github.com/jaylinski/swig-webpack-plugin)
 
 Use JSON manifest file for production fingerprinting.
 

@@ -2,6 +2,10 @@
 
 Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY and WHAT the user is trying to accomplish, regardless of whether your solution or a competitors' exists.
 
+> The UI Layer is the Experimentation Layer
+
+---
+
 > Most enterprise software looks like a cheap 70's prom suit - muted blues and greys everywhere.
 
 * [**Design of Slack**](https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908)

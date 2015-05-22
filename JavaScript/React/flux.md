@@ -1,5 +1,7 @@
 # Flux
 
+> In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
+
 * [**The case for Flux**](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
 * [**Flux: Actions and the Dispatcher**](http://facebook.github.io/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html)
 * [Flux comparison](https://github.com/voronianski/flux-comparison)
@@ -19,6 +21,7 @@
 * [React Reflux example](https://ochronus.com/react-reflux-example/)
 * [Normalizes nested JSON according to schema for Flux Stores](https://github.com/gaearon/normalizr)
 * [Flux architecture step by step](http://blogs.atlassian.com/2014/08/flux-architecture-step-by-step/)
+* [Flux in Depth. Overview and Components](http://blog.mgechev.com/2015/05/15/flux-in-depth-overview-components/)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -39,6 +42,19 @@ What problem does Flux solve?
 * Code has to be under the right condition
 * Lose code intention
 
+## Data Management Pattern
+
+* [Making your app faster with high-performance components](https://www.youtube.com/watch?v=KYzlpRvWZ6c&t=1351)
+
+There are plenty of ways to manage your data:
+
+* Container component (a.k.a Smart component)
+* Flux - Store
+* Cursor - Clojure Om?
+* Relay
+
+
+
 ## Videos
 
 * [Rethinking Web App Development at Facebook](https://www.youtube.com/watch?v=nYkdrAPrdcw)
@@ -54,9 +70,10 @@ What problem does Flux solve?
 * [Fluxible - By Yahoo](http://fluxible.io/)
 * [Fluxxor](http://fluxxor.com/)
 * [Barracks - Event dispatcher for Flux](https://github.com/yoshuawuyts/barracks)
-* [Delorean](http://deloreanjs.com/)
+* [DeLorean](http://deloreanjs.com/)
 * [McFly](http://kenwheeler.github.io/mcfly/)
 * [Geiger](https://github.com/netgusto/Geiger)
+* [**NuclearJS - Reactive Flux built with ImmutableJS**](https://github.com/optimizely/nuclear-js)
 
 ## The case for Flux
 

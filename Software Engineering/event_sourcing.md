@@ -1,5 +1,8 @@
 # Event Sourcing
 
+* [Event Aggregator](http://martinfowler.com/eaaDev/EventAggregator.html)
+* [Event Sourcing](http://martinfowler.com/eaaDev/EventSourcing.html)
+* [Observer Synchronization](http://martinfowler.com/eaaDev/MediatedSynchronization.html)
 * [Storing aggregate](https://vaughnvernon.co/?p=942)
 
 Example: Booking-keeping ledger

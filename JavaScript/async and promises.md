@@ -34,6 +34,7 @@ The point of promises:
 * [Staying sane with promises and generators](http://colintoh.com/blog/staying-sane-with-asynchronous-programming-promises-and-generators)
 * [Cancellable Promises](https://annevankesteren.nl/2015/02/cancelable-promises)
 * [Returning a FetchPromise from fetch()](https://github.com/slightlyoff/ServiceWorker/issues/625)
+* [Generators are like Arrays](https://gist.github.com/jkrems/04a2b34fb9893e4c2b5c)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 
@@ -133,6 +134,8 @@ writeFile('file.txt', 'content!')
 
 * [Taming the Asynchronous Beast with CSP Channels in JavaScript](http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript)
 * [js-csp](https://github.com/ubolonton/js-csp)
+* [CSP and transducers in JavaScript](http://phuu.net/2014/08/31/csp-and-transducers.html)
+* [Transducers.js benchmarks](http://jlongster.com/Transducers.js-Round-2-with-Benchmarks)
 
 ## Functional Reactive Programming
 

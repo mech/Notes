@@ -12,7 +12,15 @@
 
 Executing a function is called *invoking*, *calling*, or *applying* it.
 
+As useful as `call` and `apply` can be, they have one serious drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.
+
+The `bind` method is used to permanently set the value of `this` inside the target function to the passed in context object. It was first popularised by Prototype library and added to ES5 later.
+
 ## Higher-Order Functions
+
+Functional programming is a style of programming that uses higher-order functions (as opposed to objects and data) to facilitate code organization and reuse.
+
+A higher order function treats functions as data, either taking a function as an argument or returning a function as a result.
 
 Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions. They allow us to abstract over *actions*, not just values.
 
@@ -43,6 +51,8 @@ It's all about "filling in the gap" and provide your own computation because for
 
 ## Partial Functions
 
+Partial application wraps a function that takes multiple arguments and return a function that takes fewer arguments. It uses closures to fix one or more arguments so that you only need to supply the arguments that are unknown.
+
 ```js
 var partial = function(fn, a) {
   return function(b) {
@@ -56,3 +66,4 @@ var hello = partial(greet, 'Hello');
 hello('mech'); // 'Hello, mech!'
 ```
 
+You can also use `Function.prototype.bind` for partial application. The only disadvantage is that you won't be able to override the value of `this` with `call` or `apply`.

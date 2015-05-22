@@ -40,8 +40,8 @@ class Person extends React.Component {
     // No more getInitialState
     this.state = { name: props.name };  }
   
-  // Is there such a thing?
-  static contextTypes = {
+  // ES7
+  static propTypes = {
     user: React.PropTypes.object.isRequired  }
   
   setName(name) {
@@ -49,6 +49,7 @@ class Person extends React.Component {
   render() {
     return();  }}
 
+// ES6, not ES7
 // No more getDefaultProps
 Person.defaultProps = { name: 'anonymous' };
 ```

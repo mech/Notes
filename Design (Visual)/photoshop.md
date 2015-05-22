@@ -1,5 +1,7 @@
 # Photoshop
 
+* [**Kyle Brushes**](https://gumroad.com/kyletwebster)
+* [**Demo of Kyle Brushes**](https://www.youtube.com/watch?v=UPvp81upXSM)
 * [**Traveling and Photography**](http://paulstamatiou.com/traveling-and-photography-part-1/)
 * [Some nice free works](http://www.bestpsdfreebies.com/)
 * [State](https://medium.com/@bradee/layer-comps-and-place-linked-smart-objects-6feb574963ef)

@@ -10,6 +10,7 @@
 * [Some config to see](https://github.com/AmenZhou/ruby_on_rails_learning/blob/master/configs_and_setups.markdown)
 * [Rate limiting with Nginx](https://lincolnloop.com/blog/rate-limiting-nginx/)
 * [C10k](http://www.kegel.com/c10k.html)
+* [Architecture of Nginx](http://www.aosabook.org/en/nginx.html)
 
 ## PPA
 
@@ -74,9 +75,21 @@ http {
   keepalive_timeout 65;
   server_names_hash_max_size 1024;
   
+  gzip on;
+  gzip_http_version 1.0;
+  gzip_comp_level 2;
+  
+  gzip_types text/plain text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript application/json;  
+
+  gzip_disable msie6;
+  
+  # Define a virtual host
   server {
     listen 58.x.y.z:80 default_server;
     server_name jobline.com.sg;
+    
+    # Don't send Nginx version string
+    server_tokens off;
     
     location {
         }  }}
@@ -106,6 +119,9 @@ server {
   ssl_certificate_key /etc/ssl/private/server.key;
   ssl_session_timeout 5m;
   
+  # Share the expensive SSL negotiation to all workers
+  ssl_session_cache shared:WEB:10m;
+  
   ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
   ssl_prefer_server_ciphers on;
   ssl_ciphers ???
@@ -132,5 +148,11 @@ server {
   location / {
     # auth_basic on;
     # auth_basic_user_file /www/httpd.auth;
-    proxy_pass http://127.0.0.1:3000;  }}
+    
+    # X-FORWARDED-PROTO so that the upstream server can recognize
+    # the fact that the origin request used HTTPS 
+    proxy_set_header X-FORWARDED-PROTO https;
+    
+    proxy_set_header ssl_client_cert $ssl_client_cert;
+    proxy_pass https://127.0.0.1:3000;  }}
 ```

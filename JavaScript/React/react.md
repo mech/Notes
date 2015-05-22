@@ -632,6 +632,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Alt.Net Jan 2015](http://youtu.be/kNVatRjnU7U)
 * [Thinking in Components: Building Powerful UIs in React.js](https://www.youtube.com/watch?v=xSGuffp0o6E)
 * [Learn React, Flux, and Flow - Seattle.js](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
+* [London React meetup - ES6 Modules and React with SystemJS](https://www.youtube.com/watch?t=20&v=NpMnRifyGyw)
 
 ## Twitter
 
