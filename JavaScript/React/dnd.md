@@ -5,6 +5,9 @@
 * [dnd-core](https://github.com/gaearon/dnd-core)
 * [Sortable](http://rubaxa.github.io/Sortable/)
 * [The HTML5 drag and drop disaster](http://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html)
+* [Rich Drag and Drop in React.js](http://kentwilliam.com/articles/rich-drag-and-drop-in-react-js)
+* [Complex Drag and Drop Lists using React.js](https://reactjsnews.com/complex-drag-and-drop-lists-using-react/)
+* [React Dropzone for File Upload](https://github.com/felixrieseberg/React-Dropzone-Component)
 
 DnD needs `mousedown`, `mousemove`, and `mouseup` for selecting the element, dragging it, and releasing it.
 

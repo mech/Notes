@@ -108,8 +108,10 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 
 * [Reflux example](https://ochronus.com/react-reflux-example/)
 * [Deconstructing React.js Flux](http://spoike.ghost.io/deconstructing-reactjss-flux/)
+* [The Reflux data flow model](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
+* [Flux vs Reflux](http://blog.krawaller.se/posts/react-js-architecture-flux-vs-reflux/)
 
-Key features:
+**Key features:**
 
 * No singleton dispatcher. Favour letting every action act as dispatcher.
 * Stores listen to actions.

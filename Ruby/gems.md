@@ -13,6 +13,7 @@
 * [keyset pagination](https://github.com/glebm/order_query)
 * [hiredis - for better redis performance](https://github.com/redis/hiredis-rb)
 * [IP geolocation - Go language actually](https://github.com/fiorix/freegeoip)
+* [ransack - Object-based searching (rewrite of MetaSearch)](https://github.com/activerecord-hackery/ransack)
 
 
 ## Date gems

@@ -125,6 +125,8 @@ FitAgent, Fit4Hire, FitSense
 
 ## Data
 
+* [How Big Data is Changing the Hiring Game](http://hirevue.com/blog/how-big-data-is-changing-the-hiring-game)
+
 Data analysis -> Break into group -> Targeted marketing (marketing as in the sense of value awareness)
 
 Can you answer these questions:
@@ -132,6 +134,8 @@ Can you answer these questions:
 * How many leaves requests you service for this month/year?
 * How many timesheets Jobline process every months?
 * Request flow (Twitter and Netflix)
+
+Check out histogram so as not to skew data reading.
 
 ## Pipelines
 

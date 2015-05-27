@@ -4,7 +4,10 @@
 * [Babel 5.0 released on March 2015](http://babeljs.io/blog/2015/03/31/5.0.0/)
 * [ES6 Features](https://github.com/lukehoban/es6features#enhanced-object-literals)
 * [.eslintrc example](https://github.com/jquery/esprima/blob/master/.eslintrc)
+* [Another .eslintrc example](https://gist.github.com/ericelliott/ce988c1a808ad903a528#file-eslintrc)
 * [Babel call for contributors](https://github.com/babel/babel/issues/1347)
+* [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
+* [CoreJS](https://github.com/zloirock/core-js)
 
 `indexOf` uses Strict Equality Comparison. See SameValueZero comparison.
 

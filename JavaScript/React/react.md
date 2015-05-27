@@ -2,6 +2,7 @@
 
 * [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 * [Problem with Backbone rendering view](http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/)
+* [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
 
 Why SPA? Imagine using Facebook where every like and every comment made you refresh the page.
 
@@ -40,6 +41,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [react-es6](https://github.com/topheman/react-es6)
 * [Atomic](http://thenextweb.com/creativity/2015/02/19/meet-atomic-missing-tool-interface-design-thats-entirely-browser/)
 * [Idiomatic React](https://github.com/netgusto/IdiomaticReact)
+* [Web publishing platform](https://github.com/vesparny/morpheus)
 
 ### File Structure Examples
 
@@ -179,6 +181,7 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [**Build with React**](http://buildwithreact.com/)
 * [**Nice tutorial to start**](http://blog.risingstack.com/the-react-way-getting-started-tutorial/)
 * [**$19 book**](http://swizec.com/reactd3js)
 * [**Master React - Another book**](http://ludovf.net/reactbook/)
@@ -239,6 +242,8 @@ Model your UI as pure function.
 * [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
 * [How I learned to stop worrying and love React](http://firstdoit.com/react-1/)
 * [2 weird tricks that fix React](https://medium.com/@dan_abramov/two-weird-tricks-that-fix-react-7cf9bbdef375)
+* [Why React will force you to leave that comfort zone](https://medium.com/@sharifsbeat/why-react-will-force-you-to-leave-that-comfort-zone-e298d3db48bc)
+* [React 0.13 and Autobinding](https://medium.com/@goatslacker/react-0-13-x-and-autobinding-b4906189425d)
 
 ```
 var gulp = require('gulp');
@@ -621,6 +626,10 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 ## TDD
 
 * [Jest preprocessor](https://github.com/RisingStack/react-way-getting-started/blob/master/tools/preprocessor.js)
+
+## Blog to follow
+
+* [Sift Science](http://blog.siftscience.com/)
 
 ## Videos
 

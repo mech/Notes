@@ -71,6 +71,7 @@
 * [60fps scrolling](http://engineering.flipboard.com/2015/02/mobile-web/)
 * [flickity](http://flickity.metafizzy.co/)
 * [React slideout](https://mango.github.io/slideout/)
+* [ItemSlide.js](http://itemslide.github.io/)
 
 ## Date
 
@@ -80,6 +81,7 @@
 ## Auto-complete
 
 * [complete.ly](http://complete-ly.appspot.com/)
+* [lunr.js - Simple full-text search](http://lunrjs.com/)
 
 ## Gesture
 

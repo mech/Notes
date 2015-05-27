@@ -12,6 +12,10 @@ npm uninstall -global bower
 npm install backbone@1.0.0
 ```
 
+## NPM
+
+* [NPM Click - Check if your package.json is up to date](http://npm.click/)
+
 ## Global vs Local installation
 
 

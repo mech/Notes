@@ -4,6 +4,8 @@
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
 * [JSX, a year in](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
 * [Composition](https://medium.com/dev-channel/javascript-application-architecture-on-the-road-to-2015-d8125811101b)
+* [Some component example from Eric Elliott](https://gist.github.com/ericelliott/7e05747b891673eb704b#file-react-reusable-component-md)
+* [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -30,6 +32,11 @@ Unintentional side effects are the bane of code reuse. They occur when multiple 
 
 > Remember that components don't have to emit DOM. They only need to provide composition boundaries between UI concerns. - See Smart and Dumb components
 
+## Playground
+
+* [component-playground](http://projects.formidablelabs.com/component-playground/)
+* [reactview](https://github.com/zackify/reactview)
+
 ## Higher-order Components
 
 How do you wrap your components? What does wrapping even mean?
@@ -48,7 +55,7 @@ React 0.14 switches to [parent-based context](https://github.com/facebook/react/
 
 Not all lambdas are closures, and not all closures are lambdas. A closure is created when a function references data that is contained outside the function scope. A lambda is a function that is used as a value.
 
-## Render()
+## Render function
 
 Decide everything in the `render()` functions. This means all calculations and conditionals! Make use of helper functions if you can like `renderFullName()` etc. Of course for CPU intensive calculations, use [memoization function](https://lodash.com/docs#memoize).
 
@@ -57,6 +64,11 @@ var memoize = require('lodash.memoize');
 ```
 
 Data binding is a hack around re-rendering.
+
+### Key
+
+* [Why `key` attribute is important](http://stackoverflow.com/questions/30346348/reactjs-manipulating-state-doesnt-render-child-components-properly)
+* [Dynamic children - Why the keys are important](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)
 
 ## Libraries
 
@@ -69,3 +81,19 @@ Data binding is a hack around re-rendering.
 * [Griddle - Data Table](http://griddlegriddle.github.io/Griddle/)
 * [FixedDataTable](https://facebook.github.io/fixed-data-table/)
 * [react-quill - Editor](https://github.com/zenoamaro/react-quill)
+* [PropTypes with validator.js](https://github.com/pwmckenna/react-validator-prop-types)
+* [react-select](http://jedwatson.github.io/react-select/)
+* [react-waypoint - Infinite Scrolling](https://github.com/brigade/react-waypoint)
+* [See also here for more react-waypoint](https://medium.com/brigade-engineering/to-infinity-and-beyond-with-react-waypoint-cb5ba46a9150)
+* [Autocomplete example](https://gist.github.com/ryanflorence/ba2f061764e0d2895259)
+* [react-markdown](https://github.com/rexxars/react-markdown)
+* [react-tags](https://github.com/prakhar1989/react-tags)
+
+### D3
+
+* [d-Threeact](http://blog.siftscience.com/blog/2015/4/6/d-threeact-how-sift-science-made-d3-react-besties)
+* [Integrating D3.js visualizations in a React app](http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/)
+* [Scalable Data Visualization](https://www.youtube.com/watch?v=2ii1lEkIv1s)
+* [react-d3](https://github.com/esbullington/react-d3)
+* [D3 with React.js](http://busypeoples.github.io/post/d3-with-react-js/)
+* [d3-react-squared](https://github.com/bgrsquared/d3-react-squared)

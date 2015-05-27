@@ -3,6 +3,8 @@
 * [The `bind` operator](https://medium.com/@matthewwithanm/api-design-the-bind-operator-5a22d255bb18)
 * [What is the use of `bind()`](http://stackoverflow.com/questions/2236747/bind-method-of-javascript)
 * [`apply` vs `call` vs `bind`](http://stackoverflow.com/questions/15455009/js-call-apply-vs-bind)
+* [Functional Programming in JavaScript === Garbage Collection](http://awardwinningfjords.com/2014/04/21/functional-programming-in-javascript-equals-garbage.html)
+* [**Transducers.js**](http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data)
 
 `bind` wrap up, change context and make a new function. Whilst `call` and `apply` do not make a new function.
 

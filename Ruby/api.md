@@ -16,6 +16,9 @@ API driven. Treat data as content package and not as rows in a spreadsheet. Make
 * [RESTful API design](http://restful-api-design.readthedocs.org/en/latest/)
 * [Hypermedia APIs the new wild west](http://decomplecting.org/blog/2012/05/30/hypermedia-apis-the-new-wild-west/)
 * [Roar and Representable - Strange API libraries](https://github.com/apotonick/roar)
+* [JSON Schema](http://json-schema.org/)
+* [MessagePack](http://msgpack.org/)
+* [JSON for Linking Data](http://json-ld.org/)
 
 ## OAuth
 
@@ -378,6 +381,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [DN](https://github.com/layervault/dn_ruby_client)
 * [Dribbble new API](http://developer.dribbble.com/v1/)
 * [Hacker News API](http://blog.ycombinator.com/hacker-news-api)
+* [NYTimes](http://developer.nytimes.com/docs/read/article_search_api_v2)
 
 ## Videos
 

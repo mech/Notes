@@ -24,6 +24,16 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 
 ## XSS and Content Security Policy
 
+XSS happen when you have comment box that accept input from others but you did not escape it properly, or it can happen if you are too CMS.
+
+```html
+<!-- XSS can happen here, even if you quote it -->
+<div style="background-color: {userSpecifiedColor}"></div>
+
+<!-- IE loves CSS to be executable -->
+<div style="background-color: expression(alert(localStorage))"></div>
+```
+
 Fixing XSS once and for all - Using CSP
 
 * [Towards a Post-XSS world](http://2013.jsconf.eu/speakers/mike-west-towards-a-postxss-world.html)
@@ -31,6 +41,19 @@ Fixing XSS once and for all - Using CSP
 * [We're struggling to keep up](https://www.youtube.com/watch?v=mj-U9FlbAl0)
 * [An extensible approach to browser security policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
 * [ember-cli CSP](https://github.com/rwjblue/ember-cli-content-security-policy#options)
+
+CSP - HTTP header that allows policies such as:
+
+* No eval and friends
+* No inline scripts for styles
+* Load scripts only from https://trusted.com
+* Enforced by browsers
+
+Other client-side security mechanisms
+
+* X-Frame-Options (clickjacking)
+* HTTP Strict Transport Security (force SSL)
+* X-Content-Type-Options: nosniff;
 
 ## Tools
 
@@ -95,6 +118,8 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 ## Sensitive data exposure
 
 ## Cross-site request forgery
+
+You won't have CSRF if you use localstorage for token authentication and refuse to use cookie. If you must use cookie, HTTPS it and use `HttpOnly` so that JavaScript cannot read it.
 
 70 ways to encode `>` :( so you can't always filter out using blacklists.
 

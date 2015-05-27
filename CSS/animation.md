@@ -1,5 +1,6 @@
 # Animation
 
+* [**The Future of Web Animation**](http://dailyjs.com/2015/05/15/interview-the-future-of-web-animation-with-julian-shapiro/)
 * [**FLIP your Animations**](http://aerotwist.com/blog/flip-your-animations/)
 * [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
 * [**Val Head's UI Animation**](http://valhead.com/ui-animation/)
@@ -52,6 +53,7 @@
 * [Spinner animation](http://tobiasahlin.com/spinkit/)
 * [Flipside dialog](https://github.com/hakimel/css/tree/master/flipside)
 * [**Stripe - Improve the payment experience with animations**](https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e)
+* [Crafting easing curves for UI](https://medium.com/@ryan_brownhill/crafting-easing-curves-for-user-interfaces-34f39e1b4a43)
 
 ## Videos
 

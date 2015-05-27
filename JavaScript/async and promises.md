@@ -35,6 +35,7 @@ The point of promises:
 * [Cancellable Promises](https://annevankesteren.nl/2015/02/cancelable-promises)
 * [Returning a FetchPromise from fetch()](https://github.com/slightlyoff/ServiceWorker/issues/625)
 * [Generators are like Arrays](https://gist.github.com/jkrems/04a2b34fb9893e4c2b5c)
+* [**We have a problem with Promises**](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 

@@ -39,3 +39,13 @@ return (
 ```
 <RouteHandler {...this.props} />
 ```
+
+**Clearing Timer**
+
+```js
+componentDidMount() {
+  this.interval = setInterval(this.tick, 1000);}
+
+componentWillUnmount() {
+  clearInterval(this.interval);}
+```
