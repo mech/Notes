@@ -25,6 +25,7 @@
 * [Tricks on building responsive email](http://www.sitepoint.com/tricks-building-responsive-email/)
 * [Typography in email](http://rodriguezcommaj.com/blog/new-book-sample-typography-in-email)
 * [Can email be responsive?](http://alistapart.com/article/can-email-be-responsive)
+* [**Great email copy**](http://greatemailcopy.tumblr.com/)
 
 ## Tools
 

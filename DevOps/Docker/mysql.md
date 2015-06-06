@@ -13,6 +13,8 @@
 * [Best way to manage permissions for Docker shared volumes](http://stackoverflow.com/questions/23544282/what-is-the-best-way-to-manage-permissions-for-docker-shared-volumes)
 * [**Learn to stop using shiny new things and love MySQL**](http://engineering.pinterest.com/post/116038532184/learn-to-stop-using-shiny-new-things-and-love)
 * [MySQL in Dockerland](http://mysqlrelease.com/2015/05/mysql-in-dockerland/)
+* [Taking Docker for a spin](http://dwim.walley.org.uk/taking-docker-for-a-spin/)
+* [Good to learn shell scripting for Docker](http://ypereirareis.github.io/blog/2015/05/04/docker-with-shell-script-or-makefile/)
 
 ```
 /var/lib/mysql

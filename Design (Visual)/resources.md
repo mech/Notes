@@ -73,6 +73,7 @@
 * [Helvetic Brands](http://www.helveticbrands.ch/work/)
 * [2014 logo trends](http://www.logolounge.com/article/2014logotrends#.U9tPZoCSymB)
 * [A systematic approach to logo design](http://www.adhamdannaway.com/blog/branding/a-systematic-approach-to-logo-design)
+* [The 7-step Paul Rand Logo Test](https://medium.com/entrepreneur-s-handbook/the-7-step-paul-rand-logo-test-5c7b546af17b)
 
 ## Golden Ratio
 

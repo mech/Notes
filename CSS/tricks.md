@@ -27,6 +27,8 @@
 * [`object-fit: cover`](https://medium.com/@chrisnager/center-and-crop-images-with-a-single-line-of-css-ad140d5b4a87)
 * [Full screen pushing navigation](http://codyhouse.co/gem/full-screen-pushing-navigation/)
 * [Toggle using the :checked pseudo class](http://www.lottejackson.com/blog/building-a-css-toggle-feature-with-checked-and-flexbox)
+* [Caret or arrow](http://tutor.lugolabs.com/articles/10-create-a-thin-caret-with-html-and-css)
+* [Dropdown caret](http://stackoverflow.com/questions/16738452/bootstrap-adding-a-dropdown-caret)
 
 
 ```

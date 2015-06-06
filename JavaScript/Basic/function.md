@@ -5,6 +5,8 @@
 * [`apply` vs `call` vs `bind`](http://stackoverflow.com/questions/15455009/js-call-apply-vs-bind)
 * [Functional Programming in JavaScript === Garbage Collection](http://awardwinningfjords.com/2014/04/21/functional-programming-in-javascript-equals-garbage.html)
 * [**Transducers.js**](http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data)
+* [fun.js with lemonad](http://fogus.github.io/lemonad/)
+* [jsclass??](http://jsclass.jcoglan.com/comparable.html)
 
 `bind` wrap up, change context and make a new function. Whilst `call` and `apply` do not make a new function.
 
@@ -17,6 +19,12 @@ Executing a function is called *invoking*, *calling*, or *applying* it.
 As useful as `call` and `apply` can be, they have one serious drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.
 
 The `bind` method is used to permanently set the value of `this` inside the target function to the passed in context object. It was first popularised by Prototype library and added to ES5 later.
+
+## Data Thinking - Data as Abstraction
+
+Transform and move data through the assembly lines.
+
+There is a beautiful symmetry between function programming and data.
 
 ## Higher-Order Functions
 
@@ -50,6 +58,22 @@ average(array.filter(male).map(age));
 ```
 
 It's all about "filling in the gap" and provide your own computation because for sure you cannot predict what other people want.
+
+**Example**
+
+```js
+function splat(abc) {
+  return function(xyz) {
+    // don't care  };}
+
+// splat is a function that return a function!
+// I don't care what abc is or what xyz is. Matter of fact is that
+// useIt is a variable that point to a function begin returned by
+// splat and it require the xyz argument.
+
+var useIt = splat(abc);
+useIt(xyz);
+```
 
 ## Partial Functions
 

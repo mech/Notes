@@ -145,6 +145,7 @@ grep "info" * -R
 * [Atlassian Design](https://design.atlassian.com/latest/)
 * [Living Style Guide](http://livingstyleguide.org/)
 * [Code guide by @mdo](http://codeguide.co/#css)
+* [OpenUI5 from SAP](http://openui5.org/getstarted.html)
 
 ## Naming Convention
 

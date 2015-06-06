@@ -18,6 +18,7 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [The Rails API mini guide](http://www.yoniweisbrod.com/rails-api-mini-guide/)
 * [Fake JSON server - Good for testing](https://github.com/typicode/json-server)
 * [Consumer-Driven Contracts](http://martinfowler.com/articles/consumerDrivenContracts.html)
+* [**Designing REST + JSON APIs**](https://stormpath.com/blog/designing-rest-json-apis/)
 
 ## API Gateway
 

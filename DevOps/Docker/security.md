@@ -5,6 +5,7 @@
 * [Docker and SELinux](https://www.youtube.com/watch?v=zWGFqMuEHdw)
 * [Make container reliable](http://blog.jelastic.com/2015/04/14/5-key-features-make-containers-reliable-production-applications/)
 * [Container Security: Just the Good Parts](https://securityblog.redhat.com/2015/04/29/container-security-just-the-good-parts/)
+* [A field guide to Docker security measures](https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/)
 * Treat container services just like regular services. Drop privileges as quickly as possible. Do not run Nginx web server as root.
 * Use read-only mount points like `/sys`, `/proc/sys`.
 * Use capabilities to drop CAP_XX to minimize attack surface.
@@ -22,6 +23,10 @@ Breaking out of a container requires root privilege.
 ▶ sudo docker run -u deploy
 ▶ sudo docker create -user deploy
 ```
+
+## CIS Benchmark
+
+* [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/)
 
 ## Capabilities
 

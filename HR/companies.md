@@ -41,6 +41,8 @@ Notable companies in HR domain.
 * [Your professional portfolio, reimagined](https://kredo.com/)
 * [Protege (local)](http://www.protegehub.com/)
 * [Pay Asia - Payroll service](http://www.payasia.asia/)
+* [myEdu - Connecting students with companies](https://www.myedu.com/)
+* [SAP Scouting](http://awards.ixda.org/entry/2014/sap-scouting/)
 
 ## Executive Search
 

@@ -122,6 +122,7 @@ React.initializeTouchEvents(true); // But put where??
 * [Christopher Chedeau](http://blog.vjeux.com/), [@Vjeux](https://twitter.com/Vjeux)
 * [Tom Occhino](https://twitter.com/tomocchino)
 * [Michael Johnston](Creator of React Canvas)
+* [Ben Anderson](http://www.banderson.me/)
 
 > "Given the extremely tight coupling between the template and it's context (a controller/component), the concerns are the same, and splitting the DOM into a template is an arbitrary separation of technologies rather than a legit separation of concerns." - Hence in React, everything is a component. There is no template. Just define a `render` function.
 
@@ -244,6 +245,8 @@ Model your UI as pure function.
 * [2 weird tricks that fix React](https://medium.com/@dan_abramov/two-weird-tricks-that-fix-react-7cf9bbdef375)
 * [Why React will force you to leave that comfort zone](https://medium.com/@sharifsbeat/why-react-will-force-you-to-leave-that-comfort-zone-e298d3db48bc)
 * [React 0.13 and Autobinding](https://medium.com/@goatslacker/react-0-13-x-and-autobinding-b4906189425d)
+* [Baby's first reaction](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd)
+* [**React, Part I: Building Reactive, Component-based UIs**](http://www.banderson.me/2014/11/01/react-series-intro/)
 
 ```
 var gulp = require('gulp');

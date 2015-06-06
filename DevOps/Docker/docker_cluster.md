@@ -5,6 +5,7 @@
 * [SocketPlane == Open vSwitch + Consul + VXLAN + Docker](http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/)
 * [Clocker - The Docker cloud maker](http://brooklyncentral.github.io/clocker/)
 * [Calico - Pure Layer 3 Virtual Networking](http://www.projectcalico.org/)
+* [Migrating MongoDB data with Mesos and Flocker](https://mesosphere.com/blog/2015/05/21/demo-migrating-mongodb-data-with-mesos-and-powerstrip/)
 
 VXLAN - extend the LAN.
 
@@ -18,6 +19,10 @@ DPDK accelerated OVS integration.
 * Planning and container creation (Bash script?)
 * Backup strategy
 * Database tuning
+
+## Calico
+
+* [Project Calico Experiments](http://www.greenhills.co.uk/2015/05/22/projectcalico-experiments.html)
 
 ## Weave
 

@@ -17,13 +17,13 @@ Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
 * [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ```
-git add -u
-git add -A
+▶ git add -u
+▶ git add -A
 
-git commit -A -m '' # Only add in modification that has been tracked
+▶ git commit -A -m '' # Only add in modification that has been tracked
 
-git checkout -- filename # To undo deletion if you have not stage
-git reset HEAD filename  # To undo if you have staged it
+▶ git checkout -- filename # To undo deletion if you have not stage
+▶ git reset HEAD filename  # To undo if you have staged it
 
 ## Plumbing and Porcelain
 
@@ -32,7 +32,13 @@ Plumbing is the low level utilities. Rarely seems but working behind the scene.
 Porcelain is the set of useful commands. SHA hash is the implementation details. User do not need to know. Porcelain are comprises of plumbing.
 
 # Undo last commit
-git reset --soft HEAD~1
+▶ git reset --soft HEAD~1
+▶ git reset --soft HEAD^
+▶ git reset --mixed HEAD^
+
+# Get back things you have lost
+▶ git reflog
+▶ git reset --hard HEAD@{1}
 ```
 
 ## HEAD
@@ -46,7 +52,7 @@ git log HEAD^^^..HEAD -p # In patch format, 3 back
 
 ## Amend
 
-After your commit, you realise the same file need some more modification, you can amend the previous commit.
+After your commit, you realise the same file need some more modification, you can amend the previous commit. Only the previous commit and a new commit SHA will be produced.
 
 ```
 git add filename
@@ -74,6 +80,12 @@ git config --global rerere.enabled true
 git rebase -i SHA1 // Interactive for you to pick, squash, edit, reword
 
 git pull --rebase
+```
+
+```
+▶ git rebase --interactive HEAD^^^
+// Then pick or edit your commit from now on...
+▶ git reflog
 ```
 
 ## Workflow

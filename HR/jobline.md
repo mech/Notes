@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+**Why focusing on UI can boost productivity!**
+
 **Jobline is a simple app. Don’t overcomplicate it.**
 
 Enterprise system is a complex, adaptive system. It cannot be understood by reductionism. One one single person can understand the whole system. It will have emergence behaviours. You cannot stop that behaviours.
@@ -16,6 +18,12 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 > 
 > Be harsh, in the interest of being excellent.
 
+## Normalised list of skill
+
+If enough people add the same skill, we can normalize it. See https://vimeo.com/110012665
+
+If CA1 is in the same school as CA2, compare and recommend the skills both have and prompt each to add to it.
+
 ## Main things, secondary thing
 
 To Bob, the main thing is to take leave. To Alice, main thing is to keep track of payslip.
@@ -23,6 +31,8 @@ To Bob, the main thing is to take leave. To Alice, main thing is to keep track o
 > Paving the cowpaths philosophy - we don’t like to tell you what to do, we like to find out what you’re doing, and then get the obstacles out of your way.
 
 ## Talent Networking
+
+* [SAP Scouting](http://awards.ixda.org/entry/2014/sap-scouting/)
 
 Social graph. 1 or more degree away from better referral.
 

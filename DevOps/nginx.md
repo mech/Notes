@@ -11,6 +11,7 @@
 * [Rate limiting with Nginx](https://lincolnloop.com/blog/rate-limiting-nginx/)
 * [C10k](http://www.kegel.com/c10k.html)
 * [Architecture of Nginx](http://www.aosabook.org/en/nginx.html)
+* [Some Docker + Nginx example](http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/)
 
 ## PPA
 

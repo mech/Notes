@@ -5,6 +5,7 @@
 * [ES6 Features](https://github.com/lukehoban/es6features#enhanced-object-literals)
 * [.eslintrc example](https://github.com/jquery/esprima/blob/master/.eslintrc)
 * [Another .eslintrc example](https://gist.github.com/ericelliott/ce988c1a808ad903a528#file-eslintrc)
+* [Eric Elliott's eslintrc example](https://github.com/ericelliott/react-hello/blob/master/.eslintrc)
 * [Babel call for contributors](https://github.com/babel/babel/issues/1347)
 * [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
 * [CoreJS](https://github.com/zloirock/core-js)
@@ -15,6 +16,37 @@ Objects in JavaScript have reference equality.
 
 ```
 {error: error} === {error}
+```
+
+## Block scope
+
+```js
+if (x > y) {
+  var tmp = x;
+  x = y;
+  y = tmp;}
+console.log(tmp === x); // true
+
+if (x > y) {
+  let tmp = x;
+  x = y;
+  y = tmp;}
+console.log(tmp === x); // ReferenceError: tmp is not defined
+```
+
+## Destructuring
+
+```js
+// Array destructuring
+let [x, y] = ['a', 'b'];
+
+let [x, y, ...rest] = ['a', 'b', 'c', 'd']; // rest = ['c', 'd']
+
+[x, y] = [y, x]; // swap values
+```
+
+```js
+let {city: c, state: s} = getAddress();
 ```
 
 ## Object.assign, Cloning, Extending

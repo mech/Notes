@@ -7,6 +7,7 @@ Deming Cycle - Plan, Do, Check, Act
 Scientific Method - Hypothesize, Experiment, Evaluate
 
 * [**Awesome Docker**](http://getawesomeness.com/get/docker)
+* [**On Docker**](https://medium.com/on-docker)
 * [**Valuable Docker Links**](http://www.nkode.io/2014/08/24/valuable-docker-links.html)
 * [**Docker Cheat Sheet**](https://github.com/wsargent/docker-cheat-sheet)
 * [**DevOps Kata**](http://devopsy.com/blog/2013/08/16/devops-kata-single-line-of-code/)
@@ -16,6 +17,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Giant Swarm blog](http://blog.giantswarm.io/)
 * [Tutum blog](http://blog.tutum.co/)
 * [Game Changer blog](http://tech.gc.com/)
+* [Why and how to use Docker for development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 
@@ -79,6 +81,7 @@ Operationalized and Orchestration.
 * [docker inspect -f](http://container-solutions.com/2015/03/docker-inspect-template-magic/)
 * [Trapping signals in Docker](https://medium.com/@gchudnov/trapping-signals-in-docker-containers-7a57fdda7d86)
 * [Load balancing - The missing piece of the container](http://blog.tutum.co/2015/05/05/load-balancing-the-missing-piece-of-the-container-world/)
+* [Docker - Three Ways Ops](https://blog.docker.com/2015/05/docker-three-ways-ops/)
 
 ```
 docker version

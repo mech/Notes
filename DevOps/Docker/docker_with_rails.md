@@ -21,6 +21,8 @@ Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kin
 
 Mounting configuration files.
 
+* [Google/ruby?](https://registry.hub.docker.com/u/google/ruby/)
+* [**Deploying with Mina**](https://medium.com/alliants-blog/deploying-web-apps-with-mina-and-docker-c840193eb4be)
 * [**Rails app on Docker using Passenger image**](https://rossfairbanks.com/2015/03/06/rails-app-on-docker-using-passenger-image.html)
 * [Some rails example](http://mwdesilva.com/posts/103-simple-scalable-infrastructure-with-digitalocean-terraform-and-docker)
 * [**Deploy Rails app using Docker**](https://intercityup.com/blog/deploy-rails-app-including-database-configuration-env-vars-assets-using-docker.html)
@@ -46,6 +48,8 @@ Mounting configuration files.
 * [Zero downtime deployments](http://docs.quay.io/solution/zero-downtime-deployments.html)
 * [Tiller?](https://github.com/markround/tiller)
 * [Ghost and MariaDB with Docker and Fig](http://blog.mewm.org/ghost-mariadb-with-docker-fig/)
+* [Automate your dev workflow with Docker](http://blog.codeship.com/automate-your-dev-workflow-with-docker/)
+* [What are the Steps to containerize my Monolithic App](https://www.joyent.com/blog/what-are-the-steps-to-containerize-my-monolithic-app)
 
 We can write bash script to stop, start and update our environment. We can even write script to go into maintenance mode and remove scheduled jobs first for FM to restart.
 

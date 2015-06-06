@@ -17,3 +17,4 @@
 * [Lotta Nieminen](http://www.lottanieminen.com/)
 * [Tobia Sahlin](http://tobiasahlin.com/)
 * [buck.tv](http://www.buck.tv/work_tags/featured/)
+* [Jake Fleming](http://www.jakefleming.net/)

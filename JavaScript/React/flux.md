@@ -1,5 +1,11 @@
 # Flux
 
+**How to deal with data?** This is really up to you.
+
+* Use props and state; store much of the state in the root component. I typically do it this way unless I have reasons not to.
+* Need cross, unrelated component communication? (think Facebook notification bar and how the number goes up and down) Use an event emitter like `asyncly/EventEmitter2`
+* Need to share state/data across a fairly big app? Use Flux. But Flux is overkill for most small-scale apps/widgets.
+
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
 * [**The case for Flux**](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
@@ -203,4 +209,23 @@ ContactsStore.dispatchToken = AppDispatcher.register((payload) => {
     setState({
       loaded: true,
       contacts: action.contacts    });  }});
+```
+
+**TicketStore example**
+
+```js
+export default React.createClass({
+  updateState() {
+    this.setState(TicketStore.getAll());  },
+  
+  componentDidMount() {
+    TicketStore.addChangeListener(this.updateState);  },
+  
+  componentWillUnmount() {
+    TicketStore.removeChangeListener(this.updateState);  },
+  
+  render() {
+    let {recording} = this.props;
+    let {quotes} = this.state;   
+    return <Ticket transactions={quotes} recording={recording} />;  }});
 ```

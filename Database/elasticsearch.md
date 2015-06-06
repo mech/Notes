@@ -10,6 +10,7 @@
 * [Elasticsearch in Production](https://www.found.no/foundation/elasticsearch-in-production/)
 * [Document relations with Elasticsearch](http://www.youtube.com/watch?v=MXbsJsFfpV4)
 * [Using ES to help running the large Hadron Collider of CERN](https://medium.com/@ghoranyi/needle-in-a-haystack-873c97a99983)
+* [OpenDNS use of ES](https://engineering.opendns.com/2015/05/19/elasticsearch-you-know-for-logs-part-4/)
 
 Has Nested and Parent/Child relationships.
 

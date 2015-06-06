@@ -1,5 +1,7 @@
 # States and Props
 
+> Debugging mutable state is a brainteaser: "The butcher lives in the red house on Wed. The odd houses were painted on Sunday..."
+
 Every serious applications need to represent states *over time*. Root of all evil is state changing over time.
 
 Human mind is not good at keeping track of state changing over time.
@@ -24,6 +26,14 @@ There's a deeper reason why it's so important to make data flow clear and simple
 You can have instance properties for state that do not control how a component renders like `this._timer`
 
 **Note**: Data flow down the component hierarchy. Event typically flow upstream to the owner component so they can make the decision to re-render child components.
+
+* Data only flows from parents to the children.
+* Children thus only have the logic to display the data, not modify it.
+* Children also handle events and then inform parents via callback or events. Parents then modify their own state.
+
+## State
+
+**Warning**: Do not sync states, you will screw it up and make it out of sync! Because you need a single source of truth.
 
 ## PropTypes
 

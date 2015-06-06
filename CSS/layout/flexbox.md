@@ -4,6 +4,7 @@ Global = 92%, Unprefixed = 72%
 
 IE9, Opera 12 don't support flexbox.
 
+* [**Modern Design Tools: Adaptive Layouts**](https://medium.com/@joshpuckett/modern-design-tools-adaptive-layouts-e236070856e3)
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [**CSS Flexbox**](http://cssflexbox.com/)
 * [**Flexbugs** - Curated list of flexbox issues and workarounds](https://github.com/philipwalton/flexbugs)

@@ -3,6 +3,7 @@
 * [`set -e`](http://stackoverflow.com/questions/19622198/what-does-set-e-in-a-bash-script-mean)
 * [Writing robust bash shell scripts](http://www.davidpashley.com/articles/writing-robust-shell-scripts/)
 * [Some shell scripting for Docker](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
+* [**Good to learn shell scripting for Docker**](http://ypereirareis.github.io/blog/2015/05/04/docker-with-shell-script-or-makefile/)
 
 Shell scripting purpose is for the automation of a series of commands. We can execute most command in a shell script that we can from the command line.
 

@@ -42,6 +42,8 @@ HR silo - HR-optimized organization represent friction. Barriers. The danger of 
 * [Why job seekers don't stand out](http://authenticff.com/journal/one-of-many-why-job-seekers-dont-stand-out)
 * [Designing the hiring process](https://medium.com/design-playbooks/designing-the-hiring-process-e0b59f3ee53)
 * [Stop Using LinkedIn](http://www.stopusinglinkedin.com/)
+* [Assessing Employee Performance](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
+* [Why hiring is so hard in tech](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017)
 
 ## Map
 
