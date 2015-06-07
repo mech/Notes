@@ -82,6 +82,7 @@ Operationalized and Orchestration.
 * [Trapping signals in Docker](https://medium.com/@gchudnov/trapping-signals-in-docker-containers-7a57fdda7d86)
 * [Load balancing - The missing piece of the container](http://blog.tutum.co/2015/05/05/load-balancing-the-missing-piece-of-the-container-world/)
 * [Docker - Three Ways Ops](https://blog.docker.com/2015/05/docker-three-ways-ops/)
+* [Marriage of Ansible and Docker](https://bildung.xarif.de/xwiki/bin/Articles/The+Marriage+of+Ansible+and+Docker)
 
 ```
 docker version

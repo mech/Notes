@@ -21,6 +21,7 @@ Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kin
 
 Mounting configuration files.
 
+* [**Deploying a Web App, Redis, Postgres and Nginx with Docker**](http://vinceyuan.blogspot.sg/2015/05/deploying-web-app-redis-postgres-and.html)
 * [Google/ruby?](https://registry.hub.docker.com/u/google/ruby/)
 * [**Deploying with Mina**](https://medium.com/alliants-blog/deploying-web-apps-with-mina-and-docker-c840193eb4be)
 * [**Rails app on Docker using Passenger image**](https://rossfairbanks.com/2015/03/06/rails-app-on-docker-using-passenger-image.html)
@@ -32,6 +33,7 @@ Mounting configuration files.
 * [Zero downtime deployment of any web app with Docker and nginx](http://acroca.com/blog/2014/07/17/zero-downtime-deployment-of-any-web-app-with-docker-and-nginx.html)
 * [**Production Deployment with Docker**](https://www.codeschool.com/blog/2015/01/16/production-deployment-docker/)
 * [**docker-rails-dev**](https://github.com/pywebdesign/docker-rails-dev)
+* [Using Docker containers with your existing Rails app](http://devtalks.ro/using-docker-containers-with-your-existing-rails-app/)
 * [Finnlabs rails-docker](https://github.com/finnlabs/rails-docker)
 * [passenger-docker](https://github.com/phusion/passenger-docker)
 * [Deploying python with Docker](https://medium.com/@rlbaker/deploying-python-with-docker-15a472cf12a5)

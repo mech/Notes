@@ -63,6 +63,7 @@ fi
 * [Backup MySQL to Amazon S3](https://gist.github.com/oodavid/2206527)
 * [Backup MySQL to S3 in 30 seconds](https://fogstack.wordpress.com/2013/05/25/backup-mysql-to-s3-in-30-seconds/)
 * [s3cmd options](http://s3tools.org/usage)
+* [**Restoring and backing up Postgres**](http://vinceyuan.blogspot.sg/2015/05/restoringbacking-up-postgres-database.html)
 
 ```
 mysqldump -h localhost -u root -p --databases jobline_pro > /tmp/backup.sql

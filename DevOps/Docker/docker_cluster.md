@@ -6,6 +6,7 @@
 * [Clocker - The Docker cloud maker](http://brooklyncentral.github.io/clocker/)
 * [Calico - Pure Layer 3 Virtual Networking](http://www.projectcalico.org/)
 * [Migrating MongoDB data with Mesos and Flocker](https://mesosphere.com/blog/2015/05/21/demo-migrating-mongodb-data-with-mesos-and-powerstrip/)
+* [Jenkins, Packer, Kubernetes](http://googlecloudplatform.blogspot.com/2015/05/Automated-Compute-Engine-and-Docker-Image-Builds-with-Jenkins-Packer-and-Kubernetes.html)
 
 VXLAN - extend the LAN.
 
@@ -62,6 +63,7 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 
 ## docker-compose
 
+* [Orchestrate containers for development with compose](http://blog.codeship.com/orchestrate-containers-for-development-with-docker-compose/)
 * [Don't stop containers when fig up exits](https://github.com/docker/compose/issues/741)
 * [Data only containers / No run containers](https://github.com/docker/compose/issues/942)
 * [centurion from NewRelic](https://github.com/newrelic/centurion)

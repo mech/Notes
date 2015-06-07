@@ -18,3 +18,4 @@
 * [Tobia Sahlin](http://tobiasahlin.com/)
 * [buck.tv](http://www.buck.tv/work_tags/featured/)
 * [Jake Fleming](http://www.jakefleming.net/)
+* [Linda Dong - Japanese?](http://www.lindadong.com/)

@@ -14,6 +14,7 @@ Containers would not be very useful if there was no way to get to them through t
 * [Socketplane - Instead of using docker0, use Open vSwitch](http://www.socketplane.io/)
 * [Overriding Docker DNS in case you need to for SingNet](http://blog.markrendle.net/a-quick-note-on-docker-dns-resolution/)
 * [Multi-host Docker network](http://wiredcraft.com/blog/multi-host-docker-network/)
+* [Advanced Docker Networking](http://boynux.com/advanced-docker-networking/)
 
 By default the `-p` flag will bind the port to all interfaces on the host (`0.0.0.0`). The `-p` flag can be used multiple times to configure multiple ports.
 

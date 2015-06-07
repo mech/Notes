@@ -12,11 +12,15 @@
 * [ux-app](https://www.ux-app.com/)
 * [FROONT](http://froont.com/)
 * [Flinto](https://www.flinto.com/)
+* [Framer](http://framerjs.com/)
+* [Atomic](atomic.io)
+* [Keynote](http://www.lindadong.com/blog/keynotemotiongraphic)
 
 ## Prototyping
 
 Rule of Optimization: Prototype before polishing. Get it working before you optimize it.
 
+* [**Prototyping with Framer**](http://nlevin.com/whitespace/)
 * [Rule of optimization](http://www.faqs.org/docs/artu/ch01s06.html#id2879078)
 * [Composite](http://www.getcomposite.com/)
 * [Hackathon Starter](https://github.com/sahat/hackathon-starter)

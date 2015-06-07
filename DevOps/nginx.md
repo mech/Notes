@@ -12,6 +12,7 @@
 * [C10k](http://www.kegel.com/c10k.html)
 * [Architecture of Nginx](http://www.aosabook.org/en/nginx.html)
 * [Some Docker + Nginx example](http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/)
+* [Some nice example of the proxy docker-compose](http://devbandit.com/2015/05/29/vagrant-and-docker.html)
 
 ## PPA
 

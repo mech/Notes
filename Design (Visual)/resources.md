@@ -16,6 +16,7 @@
 ## Videos
 
 * [Documentaries](https://news.layervault.com/stories/28774-7-graphic-design-documentary-you-should-be-watching)
+* [Inspiring documentaries every graphic designer should see](http://vilcins.lv/blog/2015/Inspiring-documentaries-every-graphic-designer-should-see/)
 
 ## Color
 

@@ -1,6 +1,7 @@
 # Gallery
 
-* [Things Organized Neatly](http://thingsorganizedneatly.tumblr.com/) 
+* [Things Organized Neatly](http://thingsorganizedneatly.tumblr.com/)
+* [Portfolio sites](https://news.layervault.com/stories/20196-whats-your-favorite-portfolio-site)
 
 ## Inspiration
 
@@ -41,6 +42,7 @@
 * [Material Up](http://www.materialup.com/)
 * [AWWWARDS](http://www.awwwards.com/)
 * [Mobile UI](http://beta.uihaus.com/)
+* [Siiimple](http://www.siiimple.com/)
 
 ---
 
