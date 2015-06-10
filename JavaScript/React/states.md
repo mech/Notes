@@ -31,6 +31,10 @@ You can have instance properties for state that do not control how a component r
 * Children thus only have the logic to display the data, not modify it.
 * Children also handle events and then inform parents via callback or events. Parents then modify their own state.
 
+## Sub-tree
+
+The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.
+
 ## State
 
 **Warning**: Do not sync states, you will screw it up and make it out of sync! Because you need a single source of truth.

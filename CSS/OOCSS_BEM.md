@@ -5,6 +5,7 @@
 * [Single Responsibility Principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
 * [CSS for Grownups, SXSW 2012](https://www.youtube.com/watch?v=ZpFdyfs03Ug)
 * [Respect the global css namespace](http://blog.kaelig.fr/post/44554267597/please-respect-the-global-css-namespace)
+* [**Pros and cons of modular CSS**](https://github.com/staltz/cycle/issues/128)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	

@@ -1,5 +1,6 @@
 # Performance
 
+* [**Performance Calendar**](http://calendar.perfplanet.com/2014/)
 * [**Rendering Performance**](https://developers.google.com/web/fundamentals/performance/rendering/)
 * [CSS Triggers](http://csstriggers.com/)
 * [**Perf.Rocks**](http://www.perf.rocks/)

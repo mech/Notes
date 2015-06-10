@@ -23,6 +23,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 ▶ npm install --save-dev assets-webpack-plugin
 ```
 
+* [**Backend Apps with Webpack**](http://jlongster.com/Backend-Apps-with-Webpack--Part-I)
 * [**Survive JS**](http://survivejs.com/)
 * [**React Webpack Cookbook**](https://christianalfoni.github.io/react-webpack-cookbook/)
 * [How to test React components using Karma and webpack](http://nicolasgallagher.com/how-to-test-react-components-karma-webpack/)

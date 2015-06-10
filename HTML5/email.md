@@ -26,6 +26,7 @@
 * [Typography in email](http://rodriguezcommaj.com/blog/new-book-sample-typography-in-email)
 * [Can email be responsive?](http://alistapart.com/article/can-email-be-responsive)
 * [**Great email copy**](http://greatemailcopy.tumblr.com/)
+* [Creating a future-proof responsive email without media queries](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919)
 
 ## Tools
 

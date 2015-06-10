@@ -4,3 +4,7 @@
 * [chenglou's thoughts on animation](https://gist.github.com/chenglou/40b75d820123a9ed53d8)
 * [React animation on steroid](https://github.com/chenglou/react-state-stream)
 * [Deku's animation thought](https://github.com/dekujs/deku/issues/21)
+* [**Wonderful constraint animation**](http://iamralpht.github.io/constraints/)
+* [Kevin Doughty](https://twitter.com/KvnDy)
+* [Kevin Doughty's blog](http://kxdx.org/)
+

@@ -25,6 +25,7 @@ react-native@0.3.1 node_modules/react-native
 
 * [AsyncDisplayKit](http://asyncdisplaykit.org/) - React Native flexbox is done on a background thread, no blocking of scroll
 * [React Native Playground](https://rnplay.org/)
+* [First impressions using React Native](http://jlongster.com/First-Impressions-using-React-Native)
 
 ## Libraries
 

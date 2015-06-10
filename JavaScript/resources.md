@@ -10,6 +10,7 @@ JavaScript dynamic duo (static type is overrated):
 * [**Original Essential JavaScript Links**](https://gist.github.com/ericelliott/d576f72441fc1b27dace)
 * [**JavaScript application architecture in 2015**](https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b)
 * [**ES6 Learning**](https://github.com/ericdouglas/ES6-Learning)
+* [**Data structures for JS**](http://jsclass.jcoglan.com/)
 * [ES Discuss](http://esdiscuss.org/)
 * Loose typing
 * Object extension

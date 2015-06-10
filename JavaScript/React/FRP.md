@@ -12,7 +12,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [**Reactive stream with Bacon.js**](http://joshbassett.info/2014/reactive-uis-with-react-and-bacon/)
 * [Mori - Persistent data structures](https://github.com/swannodette/mori)
 * [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
-* [Reactive framework](https://github.com/staltz/cycle)
+* [Cycle - Reactive framework](https://github.com/staltz/cycle)
 * [Functional Reactive React.js](https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540)
 * [javascript-allonge - Book](https://leanpub.com/javascript-allonge)
 * [Read JavaScript Allonge](https://leanpub.com/javascript-allonge/read)
@@ -20,6 +20,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Immutability in React](http://www.sitepoint.com/immutability-react/)
 * [Reactive React using Reactive Streams](http://aryweb.nl/2015/02/16/Reactive-React-using-reactive-streams/)
 * [Functional Programming on Front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
+* [Reactive MVC and Virtual DOM](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 

@@ -24,6 +24,7 @@ DPDK accelerated OVS integration.
 ## Calico
 
 * [Project Calico Experiments](http://www.greenhills.co.uk/2015/05/22/projectcalico-experiments.html)
+* [Docker networking using Project Calico](http://www.projectcalico.org/project-calico-at-the-docker-london-may-meetup/)
 
 ## Weave
 
@@ -62,6 +63,10 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 ```
 
 ## docker-compose
+
+```
+export COMPOSE_FILE=docker-compose-old.yml
+```
 
 * [Orchestrate containers for development with compose](http://blog.codeship.com/orchestrate-containers-for-development-with-docker-compose/)
 * [Don't stop containers when fig up exits](https://github.com/docker/compose/issues/741)

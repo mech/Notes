@@ -50,6 +50,7 @@
 
 ## Icon
 
+* [**The play button is not optical alignment**](https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175)
 * [**Smash Icons**](http://smashicons.com/preview.html)
 * [**Nucleo - A nice app to make icon**](https://nucleoapp.com/)
 * [Look for the SVG spinner icon](http://evil-icons.io/)
@@ -75,6 +76,7 @@
 * [2014 logo trends](http://www.logolounge.com/article/2014logotrends#.U9tPZoCSymB)
 * [A systematic approach to logo design](http://www.adhamdannaway.com/blog/branding/a-systematic-approach-to-logo-design)
 * [The 7-step Paul Rand Logo Test](https://medium.com/entrepreneur-s-handbook/the-7-step-paul-rand-logo-test-5c7b546af17b)
+* [Logo](https://www.youtube.com/watch?v=8gFA7DUM008)
 
 ## Golden Ratio
 

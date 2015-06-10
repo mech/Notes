@@ -88,6 +88,8 @@ Data binding is a hack around re-rendering.
 * [Autocomplete example](https://gist.github.com/ryanflorence/ba2f061764e0d2895259)
 * [react-markdown](https://github.com/rexxars/react-markdown)
 * [react-tags](https://github.com/prakhar1989/react-tags)
+* [react-icons](http://jxnblk.com/react-icons/)
+* [react-web-sdk](https://github.com/necolas/react-web-sdk)
 
 ### D3
 

@@ -18,6 +18,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Tutum blog](http://blog.tutum.co/)
 * [Game Changer blog](http://tech.gc.com/)
 * [Why and how to use Docker for development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24)
+* [Deep dive into Docker storage drivers](https://www.youtube.com/watch?v=9oh_M11-foU)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 

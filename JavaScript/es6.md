@@ -5,7 +5,7 @@
 * [ES6 Features](https://github.com/lukehoban/es6features#enhanced-object-literals)
 * [.eslintrc example](https://github.com/jquery/esprima/blob/master/.eslintrc)
 * [Another .eslintrc example](https://gist.github.com/ericelliott/ce988c1a808ad903a528#file-eslintrc)
-* [Eric Elliott's eslintrc example](https://github.com/ericelliott/react-hello/blob/master/.eslintrc)
+* [**Eric Elliott's eslintrc example**](https://github.com/ericelliott/react-hello/blob/master/.eslintrc)
 * [Babel call for contributors](https://github.com/babel/babel/issues/1347)
 * [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
 * [CoreJS](https://github.com/zloirock/core-js)

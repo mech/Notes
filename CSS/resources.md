@@ -84,7 +84,19 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [All you need to know about vertical-align](http://christopheraue.net/2014/03/05/vertical-align/)
 * [Balancing line length](http://www.smashingmagazine.com/2014/09/29/balancing-line-length-font-size-responsive-web-design/)
 
-![line-height-and-input](https://dl.dropboxusercontent.com/u/6815194/Notes/line_height_and_input.png)
+![](https://dl.dropboxusercontent.com/u/6815194/Notes/line_height_and_input.png)
+
+```scss
+$font-size-base: 14px !default;
+$line-height-base: 1.428571429 !default; // 20/14
+
+$padding-base-vertical: 6px !default;
+$padding-base-horizontal: 12px !default;
+
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+$input-height-base: ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
+```
 
 4 boxes
 

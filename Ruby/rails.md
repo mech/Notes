@@ -94,6 +94,7 @@ Rails 4 is thread-safe by default (good for `thin` and `puma`). You need to ensu
 ## ActiveRecord
 
 * [7 patterns to refactor fat ActiveRecord models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/)
+* [20000 Leagues under ActiveRecord](http://blog.codeship.com/20000-leagues-under-active-record/)
 
 ## Arel
 

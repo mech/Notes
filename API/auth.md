@@ -1,5 +1,7 @@
 # Authentication
 
+* [MailChimp API v3.0 OAuth2](http://kb.mailchimp.com/api/article/about-oauth2)
+
 Provider is at https://api.jobline.com.sg. Consumer will be:
 
 * Jobline Web: https://www.jobline.com.sg
@@ -16,6 +18,8 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 The header will be sent on every request. Assuming you use HTTPS, this is a secure way to authenticate users.
 
 ## The flow
+
+* [OAuth 2 Resource Owner Password Credentials flow](http://stackoverflow.com/questions/19912551/oauth2-resource-owner-password-credentials-flow)
 
 Visit https://api.jobline.com.sg/token to login
 

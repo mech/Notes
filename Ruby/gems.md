@@ -15,6 +15,27 @@
 * [IP geolocation - Go language actually](https://github.com/fiorix/freegeoip)
 * [ransack - Object-based searching (rewrite of MetaSearch)](https://github.com/activerecord-hackery/ransack)
 
+## Bundler
+
+* Constraint satisfaction
+* Depth-first search and Backtracking
+
+```
+▶ bundle binstubs spec-core
+▶ bin/rspec
+
+// Repeat as needed for other gems
+```
+
+* [How does Bundler work, anyway?](https://www.youtube.com/watch?v=GvFfd_MCJq0)
+* [Bundler: The easy, the hard, and the NP-complete](https://www.youtube.com/watch?v=3soqhbnh0jY)
+
+```ruby
+require 'ruby gems'
+require 'bundler'
+Bundler.setup
+Bundler.require
+```
 
 ## Date gems
 

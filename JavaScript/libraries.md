@@ -58,6 +58,7 @@
 * [The first 200 lines of lodash.js are an education in browser JS engine inconsistencies](http://kitcambridge.be/blog/say-hello-to-lo-dash/)
 * [burger menu](https://github.com/mblode/burger)
 * [js-signals - sort of like EventEmitter](http://millermedeiros.github.io/js-signals/)
+* [Vibrant.js - Extract color from images](https://jariz.github.io/vibrant.js/)
 
 ## HTTP Client
 

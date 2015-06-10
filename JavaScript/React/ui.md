@@ -1,5 +1,7 @@
 # UI Component
 
+> At any point in time, you describe how you want your UI to look like.
+
 * [Decomplexifying Code with React](https://www.youtube.com/watch?list=PLYRxaDweTODWcfe6V7XMPn40pE6iNd9ij&v=rI0GQc__0SM)
 
 > Human has limit. Working memory is finite.

@@ -57,10 +57,12 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [An index of the most useful resources for Sketch](http://sketch.land/index.html)
 * [Sketch Talk - A forum](http://sketchtalk.io/)
 * [Sketch color preset](https://github.com/RayPS/my-sketch-colors)
+* [How Sketch took over 200GB](https://medium.com/@thomasdegry/how-sketch-took-over-200gb-of-our-macbooks-cb7dd10c8163)
 
 ## Tutorials
 
 * [Vector Boom](http://vectorboom.com/)
+* [Sketch tutorial](http://megumi.co/learn/sketch.htm)
 
 ## Bézier
 

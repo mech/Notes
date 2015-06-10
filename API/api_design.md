@@ -1,6 +1,18 @@
 # Design
 
+* [HTTP API design guide extracted from work on the Heroku Platform API](https://github.com/interagent/http-api-design)
+* [Heroku's HTTP API Design Guide](http://www.infoq.com/news/2014/08/heroku-http-design-guide)
+* [API Evangelist](http://101.apievangelist.com/)
+* [JSON API 1.0 Released](http://www.cerebris.com/blog/2015/06/04/jsonapi-1-0/)
+* [A well-designed API approach](https://www.airpair.com/rest/posts/a-well-designed-api-approach)
+* [OAuth.io blog](http://blog.oauth.io/)
+
+You can't design the API well if you don't know the product well.
+
+Design for intent. Know what the intent of the endpoint is. Don't be clever for your API. It has to be clear and straightforward.
+
 * [Designing a Beautiful REST+JSON API](https://www.youtube.com/watch?v=5WXYw4J4QOU)
+* [Workshop: Developer-focused API Design](https://www.youtube.com/watch?v=8p10bGFM9dg)
 
 ```
 // BAD design, verb
@@ -68,5 +80,9 @@ Use `?_body=false` to skip body response when POST to create a new resource.
 ```
 
 ## Error
-	
+
+
+## Usage Patterns
+
+Always track your API usage patterns. How many calls to each endpoint.
 

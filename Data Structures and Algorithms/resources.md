@@ -8,6 +8,7 @@
 * [Code Chef's DSA](http://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
 * [Data Science Tutorials](https://www.topcoder.com/community/data-science/data-science-tutorials/)
 * [A very nice JavaScript recursion tutorial](http://www.htmlgoodies.com/primers/jsp/article.php/3622321)
+* [**Data structures for JS**](http://jsclass.jcoglan.com/)
 
 ## Lectures
 

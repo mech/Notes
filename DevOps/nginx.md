@@ -13,6 +13,8 @@
 * [Architecture of Nginx](http://www.aosabook.org/en/nginx.html)
 * [Some Docker + Nginx example](http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/)
 * [Some nice example of the proxy docker-compose](http://devbandit.com/2015/05/29/vagrant-and-docker.html)
+* [Using Nginx as a reverse proxy/load balancer with Weave and Docker](http://weave.works/guides/weave-docker-nginx-ubuntu-simple.html)
+* [Django development with docker-compose](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/)
 
 ## PPA
 

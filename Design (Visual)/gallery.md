@@ -40,6 +40,8 @@
 * [Accessibility Wins](http://a11ywins.tumblr.com/)
 * [Allan Yu](http://allanyu.nyc/)
 * [Material Up](http://www.materialup.com/)
+* [Material Design Blog](http://materialdesignblog.com/)
+* [The Journal to Material](https://medium.com/interactive-mind/the-journey-to-material-96f027d01d48)
 * [AWWWARDS](http://www.awwwards.com/)
 * [Mobile UI](http://beta.uihaus.com/)
 * [Siiimple](http://www.siiimple.com/)

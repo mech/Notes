@@ -28,6 +28,7 @@
 * [Normalizes nested JSON according to schema for Flux Stores](https://github.com/gaearon/normalizr)
 * [Flux architecture step by step](http://blogs.atlassian.com/2014/08/flux-architecture-step-by-step/)
 * [Flux in Depth. Overview and Components](http://blog.mgechev.com/2015/05/15/flux-in-depth-overview-components/)
+* [???](https://github.com/gaearon/redux/issues/6)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -80,6 +81,8 @@ There are plenty of ways to manage your data:
 * [McFly](http://kenwheeler.github.io/mcfly/)
 * [Geiger](https://github.com/netgusto/Geiger)
 * [**NuclearJS - Reactive Flux built with ImmutableJS**](https://github.com/optimizely/nuclear-js)
+* [**Redux**](https://github.com/gaearon/redux)
+* [react-transmit - Relay-inspired](https://github.com/RickWong/react-transmit)
 
 ## The case for Flux
 
@@ -116,6 +119,7 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * [Deconstructing React.js Flux](http://spoike.ghost.io/deconstructing-reactjss-flux/)
 * [The Reflux data flow model](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
 * [Flux vs Reflux](http://blog.krawaller.se/posts/react-js-architecture-flux-vs-reflux/)
+* [Building components with React.js and Reflux](https://reactjsnews.com/building-components-with-react-js-and-flux/)
 
 **Key features:**
 
