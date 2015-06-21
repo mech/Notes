@@ -6,15 +6,24 @@
 * [Deploying Nginx with Docker](http://nginx.com/blog/deploying-nginx-nginx-plus-docker/)
 * [Some nginx example](http://curtisz.com/someone-set-us-up-the-docker/)
 * [A sample Docker workflow with Nginx, Node.js and Redis](http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/)
-* [Virtual hosts on nginx](https://gist.github.com/soheilhy/8b94347ff8336d971ad0)
 * [Some config to see](https://github.com/AmenZhou/ruby_on_rails_learning/blob/master/configs_and_setups.markdown)
 * [Rate limiting with Nginx](https://lincolnloop.com/blog/rate-limiting-nginx/)
 * [C10k](http://www.kegel.com/c10k.html)
 * [Architecture of Nginx](http://www.aosabook.org/en/nginx.html)
 * [Some Docker + Nginx example](http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/)
 * [Some nice example of the proxy docker-compose](http://devbandit.com/2015/05/29/vagrant-and-docker.html)
-* [Using Nginx as a reverse proxy/load balancer with Weave and Docker](http://weave.works/guides/weave-docker-nginx-ubuntu-simple.html)
 * [Django development with docker-compose](https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/)
+* [How to create your own website based on Docker](http://project-webdev.blogspot.de/2015/05/create-site-based-on-docker-part1.html)
+* [Running a Nginx in a container](https://rubyplus.com/articles/2371)
+* [Some nginx example](http://tech.yunojuno.com/trifecta-part-2-docker)
+* [Nginx + Passenger](https://gist.github.com/mikhailov/711913)
+
+## Passenger 5
+
+```
+▶ passenger-config --root
+▶ rbenv which ruby
+```
 
 ## PPA
 
@@ -47,6 +56,12 @@ To test configuration file, use:
 Location is used to match the URI of the request. These locations may be nested or otherwise ordered to ensure that requests get routed to the right areas of the filesystem or application server.
 
 ## Reverse Proxy
+
+* [Virtual hosts on nginx](https://gist.github.com/soheilhy/8b94347ff8336d971ad0)
+* [Using Nginx as a reverse proxy/load balancer with Weave and Docker](http://weave.works/guides/weave-docker-nginx-ubuntu-simple.html)
+* [How to setup Rails with Puma and Nginx](http://ruby-journal.com/how-to-setup-rails-app-with-puma-and-nginx/)
+* [Multiple Rails 4 apps using Nginx and Unicorn](http://stackoverflow.com/questions/18134046/multiple-rails-4-app-using-nginx-unicorn)
+* [Sub-URL vs sub-domain](http://www.redmine.org/projects/redmine/wiki/Sub_URI_for_multisites_at_one_domain)
 
 A reverse proxy is a web server that terminates connections with clients and makes new ones to upstream servers on their behalf.
 

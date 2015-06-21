@@ -49,3 +49,10 @@ componentDidMount() {
 componentWillUnmount() {
   clearInterval(this.interval);}
 ```
+
+**Addons**
+
+```
+import React from 'react/addons';
+const TestUtils = React.addons.TestUtils;
+```

@@ -6,6 +6,7 @@
 * [CSS for Grownups, SXSW 2012](https://www.youtube.com/watch?v=ZpFdyfs03Ug)
 * [Respect the global css namespace](http://blog.kaelig.fr/post/44554267597/please-respect-the-global-css-namespace)
 * [**Pros and cons of modular CSS**](https://github.com/staltz/cycle/issues/128)
+* [BEM - Tech pick of the week](http://futurice.com/blog/tech-pick-of-the-week-bem)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	
@@ -138,6 +139,7 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)
 * [**More transparent UI code with namespaces**](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 * [BEM your JavaScript components](https://medium.com/seek-ui-engineering/block-element-modifying-your-javascript-components-d7f99fcab52b)
+* [BEM 101](https://css-tricks.com/bem-101/)
 
 ```css
 /* Harry Robert's BEM */

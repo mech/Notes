@@ -45,6 +45,10 @@ HR silo - HR-optimized organization represent friction. Barriers. The danger of 
 * [Assessing Employee Performance](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
 * [Why hiring is so hard in tech](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017)
 
+## Interview
+
+* [Why we're bad at hiring](https://www.youtube.com/watch?v=vef_ARdnqWY)
+
 ## Map
 
 * [leaflet.js](http://leafletjs.com/)

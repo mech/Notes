@@ -18,6 +18,7 @@
 ## Tips and Tricks
 
 * [Text swap](http://aenism.com/photoshop-text-swap-trick/)
+* [Photoshop UI design tips and tricks](https://www.designernews.co/stories/51317-post-your-favorite-photoshop-ui-design-tipstricks)
 
 ## Stock Photos
 

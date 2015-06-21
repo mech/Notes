@@ -90,6 +90,7 @@ It's not about the product, it's about your users.
 * [We don't sell saddles here](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
 * [Asking who's the customer](http://kottke.org/15/05/asking-whos-the-customer)
 * [Design & Delivery](http://www.wightco.com/design-delivery)
+* [Habituation - People can't predict the future](https://www.youtube.com/watch?v=9uOMectkCCs)
 
 ## Research
 

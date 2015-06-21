@@ -5,6 +5,7 @@
 * [Designing for realtime](http://blog.percolatestudio.com/design/design-for-realtime/)
 * [Collaborative programming page using the ACE editor, Share.js, and Node.js](https://github.com/ehaughee/collabit)
 * [EmberShare](http://embershare.com/)
+* [WebRTC with React](http://blog.mgechev.com/2014/09/03/webrtc-peer-to-peer-chat-with-react/)
 
 ## WebSocket
 

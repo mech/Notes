@@ -57,10 +57,20 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 
 ```
 ▶ docker-machine ls
+▶ docker-machine create -d virtualbox dev
+▶ eval "$(docker-machine env dev)"
 ▶ docker-machine env <machine_name>
 ▶ env | grep DOCKER
-▶ docker-machine create -d virtualbox ...
+
+▶ docker-machine ssh dev
+
+▶ docker-machine stop dev
+▶ docker-machine start dev
+
+▶ docker-machine rm dev
 ```
+
+
 
 ## docker-compose
 
@@ -73,6 +83,8 @@ export COMPOSE_FILE=docker-compose-old.yml
 * [Data only containers / No run containers](https://github.com/docker/compose/issues/942)
 * [centurion from NewRelic](https://github.com/newrelic/centurion)
 * [maestro-ng](https://github.com/signalfuse/maestro-ng)
+* [How we used Docker to deploy](http://www.schibsted.pl/2015/05/how-we-used-docker-when-developing-schibstedpl/)
+* [With the `extends` keyword](http://bfischer.blogspot.com/2015/05/first-experiences-with-docker-compose.html)
 
 Multi-container apps are a hassle.
 
@@ -81,6 +93,29 @@ Multi-container apps are a hassle.
 * Configure and create containers
 * Start and stop containers
 * Stream their logs
+
+```
+mysql:
+  image: tutum/mysql
+  environment:
+    MYSQL_USER: root
+    MYSQL_PASSWORD: ???
+  volumes:
+    - /mnt/sda1/var/lib/mysql_data:/var/lib/mysql
+  ports:
+    - "3306:3306"
+web:
+  build: .
+  links:
+    - mysql
+    - mongodb
+    - redis:redis
+    - memcached
+  volumes:
+    - .:/var/www/webapp
+  ports:
+    - "80:80"
+```
 
 ## Container Orchestration
 

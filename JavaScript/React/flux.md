@@ -29,6 +29,12 @@
 * [Flux architecture step by step](http://blogs.atlassian.com/2014/08/flux-architecture-step-by-step/)
 * [Flux in Depth. Overview and Components](http://blog.mgechev.com/2015/05/15/flux-in-depth-overview-components/)
 * [???](https://github.com/gaearon/redux/issues/6)
+* [Event bus vs `this.props`](https://github.com/BinaryMuse/chrome-fast-tab-switcher/commit/a64f9dbbfc1879470a3c0f3d81b12ed00fa13b6a)
+* [Some Hacker News discussion on Flux](https://news.ycombinator.com/item?id=7721292)
+* [Flux and Adobe Brackets](http://www.kevindangoor.com/2014/09/intro-to-the-new-brackets-project-tree/)
+* [**Avoiding Event Chains in SPA**](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
+* [Async requests with Flux](http://www.code-experience.com/async-requests-with-react-js-and-flux-revisited/)
+* [Flux over the wire](https://blog.rotenberg.io/flux-over-the-wire-3/)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -83,6 +89,11 @@ There are plenty of ways to manage your data:
 * [**NuclearJS - Reactive Flux built with ImmutableJS**](https://github.com/optimizely/nuclear-js)
 * [**Redux**](https://github.com/gaearon/redux)
 * [react-transmit - Relay-inspired](https://github.com/RickWong/react-transmit)
+
+**Others**
+
+* [backbone.radio???](https://github.com/marionettejs/backbone.radio)
+* [event-api - Reduce event hell](https://github.com/benaston/event-api)
 
 ## The case for Flux
 

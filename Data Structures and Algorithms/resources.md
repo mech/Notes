@@ -9,6 +9,7 @@
 * [Data Science Tutorials](https://www.topcoder.com/community/data-science/data-science-tutorials/)
 * [A very nice JavaScript recursion tutorial](http://www.htmlgoodies.com/primers/jsp/article.php/3622321)
 * [**Data structures for JS**](http://jsclass.jcoglan.com/)
+* [Implementing the board game Go with React.js](http://cjlarose.com/2014/01/09/react-board-game-tutorial.html)
 
 ## Lectures
 

@@ -30,6 +30,8 @@
 * [Caret or arrow](http://tutor.lugolabs.com/articles/10-create-a-thin-caret-with-html-and-css)
 * [Dropdown caret](http://stackoverflow.com/questions/16738452/bootstrap-adding-a-dropdown-caret)
 * [Use CSS `:not()`](https://twitter.com/wesbos/status/606144483562913792)
+* [Page scroll effect](http://codyhouse.co/demo/page-scroll-effects/)
+* [Some nice CSS](http://demos.creative-tim.com/presentation)
 
 
 ```

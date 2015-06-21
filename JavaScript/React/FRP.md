@@ -20,7 +20,9 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Immutability in React](http://www.sitepoint.com/immutability-react/)
 * [Reactive React using Reactive Streams](http://aryweb.nl/2015/02/16/Reactive-React-using-reactive-streams/)
 * [Functional Programming on Front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
-* [Reactive MVC and Virtual DOM](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
+* [**Reactive MVC and Virtual DOM**](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
+* [react-cursor](https://github.com/dustingetz/react-cursor)
+* [RxMarbles??](http://rxmarbles.com/)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 

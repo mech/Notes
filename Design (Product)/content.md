@@ -15,6 +15,7 @@
 * [Pacing content](https://the-pastry-box-project.net/jason-santa-maria/2014-june-15)
 * [Tone and language](http://www.helpscout.net/blog/tone-and-language/)
 * [Writer Pro can help you?](http://sayzlim.net/editing-ia-writer-pro-syntax-control/)
+* [Make your company write better](http://inboundrocket.co/blog/a-formula-that-will-make-you-and-everyone-in-your-company-write-better/)
 
 Purpose of layouts:
 

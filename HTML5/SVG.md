@@ -8,6 +8,8 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [**Pocket Guide to SVG**](http://svgpocketguide.com/book/)
 * [**Awesome SVG**](https://github.com/willianjusten/awesome-svg)
 * [Lots of SVG information](http://css-tricks.com/mega-list-svg-information/)
+* [**SVG on the Web**](https://svgontheweb.com/)
+* [**Incredible demo**](http://tympanus.net/codrops/2015/06/18/card-expansion-effect-svg-clippath/)
 * [Awesome light ray](http://ncase.github.io/sight-and-light/)
 * [Control and filter settings using SVG and JavaScript](http://selfiecity.net/selfiexploratory/)
 * [Lonely Planet's switch from icon font to SVG](http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/)

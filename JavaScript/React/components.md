@@ -24,6 +24,8 @@ render() {
   </div>}
 ```
 
+### State Machines
+
 Components are just state machines. React thinks of UIs as simple state machines. By thinking of a UI as being in various states and rendering those states, it's easy to keep your UI consistent.
 
 DOM is stateful. Input focus and selection, scroll position, etc.
@@ -31,6 +33,51 @@ DOM is stateful. Input focus and selection, scroll position, etc.
 Unintentional side effects are the bane of code reuse. They occur when multiple functions depend on and manipulate the values of the same variables or object properties. In this situation, it becomes much more difficult to refactor code, because your functions assume too much about the state of the program.
 
 > Remember that components don't have to emit DOM. They only need to provide composition boundaries between UI concerns. - See Smart and Dumb components
+
+## Lifecycle
+
+### componentDidMount
+
+Great for setting up interval
+
+```js
+componentDidMount() {
+  this.interval = setInterval(this.tick, 1000);}
+
+componentWillUnmount() {
+  clearInterval(this.interval);}
+```
+
+### componentWillUpdate
+
+Great for triggering animation.
+
+```js
+componentWillUpdate(nextProps, nextState) {
+  if (nextProps.visibility) {
+    $(??).velocity('slideFadeIn');  } else {
+    $(??).velocity('reverse');  }}
+```
+
+### componentDidUpdate
+
+* [Scroll position with React](http://blog.vjeux.com/2013/javascript/scroll-position-with-react.html)
+
+Happens every time the element is re-rendered. Good for maintaining scroll position.
+
+```js
+componentDidUpdate() {
+  var node = this.getDOMNode();
+  node.scrollTop = node.scrollHeight;}
+```
+
+## Owner-Ownee and Parent-Child
+
+Child component receive immutable properties from their parent. Such an relationship is called ownership. Components that set `props` of other components are owners but not necessarily direct parents in terms of DOM structure. This is one-way data flow.
+
+It is important to draw a distinction between ownership and parent-child relationship.
+
+
 
 ## Playground
 
@@ -56,6 +103,8 @@ React 0.14 switches to [parent-based context](https://github.com/facebook/react/
 Not all lambdas are closures, and not all closures are lambdas. A closure is created when a function references data that is contained outside the function scope. A lambda is a function that is used as a value.
 
 ## Render function
+
+It is generally recommended that you funnel all your complex processing through the `render()` method. Event handlers just `setState()` while `render()` is the hub for all of your core logic.
 
 Decide everything in the `render()` functions. This means all calculations and conditionals! Make use of helper functions if you can like `renderFullName()` etc. Of course for CPU intensive calculations, use [memoization function](https://lodash.com/docs#memoize).
 
@@ -90,6 +139,7 @@ Data binding is a hack around re-rendering.
 * [react-tags](https://github.com/prakhar1989/react-tags)
 * [react-icons](http://jxnblk.com/react-icons/)
 * [react-web-sdk](https://github.com/necolas/react-web-sdk)
+* [react-onclickoutside](https://github.com/Pomax/react-onclickoutside)
 
 ### D3
 

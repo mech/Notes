@@ -60,6 +60,14 @@
 * [js-signals - sort of like EventEmitter](http://millermedeiros.github.io/js-signals/)
 * [Vibrant.js - Extract color from images](https://jariz.github.io/vibrant.js/)
 
+## Fuzzy Search
+
+* [string_score](http://joshaven.com/string_score/)
+
+## Tool Tip
+
+* [Darsa's tooltip](http://darsa.in/tooltip/)
+
 ## HTTP Client
 
 * [Axios - Promise based HTTP client](https://github.com/mzabriskie/axios)

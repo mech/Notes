@@ -137,6 +137,8 @@ FitAgent, Fit4Hire, FitSense
 
 * [How Big Data is Changing the Hiring Game](http://hirevue.com/blog/how-big-data-is-changing-the-hiring-game)
 
+Business transaction data is well-understood and solve by SQL. Unstructured data like text, images and videos can't be solved by SQL.
+
 Data analysis -> Break into group -> Targeted marketing (marketing as in the sense of value awareness)
 
 Can you answer these questions:
@@ -225,6 +227,7 @@ Publish conclusion.
 * [PanDoc](http://johnmacfarlane.net/pandoc/)
 * [PDF Viewing in GitHub](https://github.com/blog/1974-pdf-viewing)
 * [**PDF.js**](https://github.com/mozilla/pdf.js)
+* [HTML to PDF](https://www.designernews.co/stories/51286-html-to-pdf)
 
 ## Email
 

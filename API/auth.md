@@ -1,6 +1,7 @@
 # Authentication
 
 * [MailChimp API v3.0 OAuth2](http://kb.mailchimp.com/api/article/about-oauth2)
+* [Gems you might not need! AdminController and Forbid pattern](https://vimeo.com/39498553)
 
 Provider is at https://api.jobline.com.sg. Consumer will be:
 

@@ -21,6 +21,7 @@ Notable companies in HR domain.
 * [**Zenefits**](http://www.zenefits.com/hr-software)
 * [**Jobvite**](http://www.jobvite.com/products/)
 * [**Blueskyme - Nice interaction and UI**](http://blueskyme.com/)
+* [**Hacker Rank**](https://www.hackerrank.com/)
 * [Kin HR Software](http://kinhr.com/)
 * [doselect](https://doselect.com/#features)
 * [Harvest - Timesheet](http://www.getharvest.com/)

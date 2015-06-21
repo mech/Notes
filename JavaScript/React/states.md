@@ -2,6 +2,10 @@
 
 > Debugging mutable state is a brainteaser: "The butcher lives in the red house on Wed. The odd houses were painted on Sunday..."
 
+---
+
+> An instance of the Go's `Board` class has several attributes that describe what a game of Go looks like at a particular moment in time. This is a common paradigm in React: get familiar with the snapshot concept.
+
 Every serious applications need to represent states *over time*. Root of all evil is state changing over time.
 
 Human mind is not good at keeping track of state changing over time.
@@ -31,6 +35,14 @@ You can have instance properties for state that do not control how a component r
 * Children thus only have the logic to display the data, not modify it.
 * Children also handle events and then inform parents via callback or events. Parents then modify their own state.
 
+## Child to Parent Communication
+
+* [2-way data-binding is one way](http://voidcanvas.com/react-tutorial-two-way-data-binding/)
+* [Why Flux is better than firing events back and forth](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
+* [Context in React.js](https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html)
+
+If you're not using the Flux pattern (where the parent widget listens to Stores that are affected by Action Creators invoked by the child elements), the idiomatic way to do this is to pass callbacks that affect the overall widget through `props` - this can be a bit awkward when you are passing a callback down several levels.
+
 ## Sub-tree
 
 The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.
@@ -44,3 +56,7 @@ The performance cost model of React is very simple to understand: every `setStat
 ```javascript
 model: React.PropTypes.instanceOf(Backbone.Model).isRequired
 ```
+
+## Undo / Redo
+
+* [StateHistory.coffee](https://github.com/jjt/TwiStrug/blob/697dfe756cf40e551ea6ebe1c8e69a587c8de595/src/libs/StateHistory.coffee)

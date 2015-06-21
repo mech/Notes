@@ -2,6 +2,7 @@
 
 * [Prying open the black box](https://www.youtube.com/watch?v=IjbYhE9mWuk)
 * [blame_parent](https://github.com/chancancode/blame_parent)
+* [RailsConf 2015 - Speed Science](https://www.youtube.com/watch?v=m2nj5sUE3hg)
 
 ```
 pp instance_values

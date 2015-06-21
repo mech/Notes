@@ -1,5 +1,7 @@
 # React
 
+> React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
+
 * [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 * [Problem with Backbone rendering view](http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/)
 * [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
@@ -123,6 +125,9 @@ React.initializeTouchEvents(true); // But put where??
 * [Tom Occhino](https://twitter.com/tomocchino)
 * [Michael Johnston](Creator of React Canvas)
 * [Ben Anderson](http://www.banderson.me/)
+* [Kevin Dangoor - Adobe Brackets](http://www.kevindangoor.com/blog/)
+* [Ian Obermiller](http://ianobermiller.com/blog/)
+* [David Nolen](http://swannodette.github.io/)
 
 > "Given the extremely tight coupling between the template and it's context (a controller/component), the concerns are the same, and splitting the DOM into a template is an arbitrary separation of technologies rather than a legit separation of concerns." - Hence in React, everything is a component. There is no template. Just define a `render` function.
 
@@ -612,6 +617,13 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [**pivotal-ui-react**](https://github.com/pivotal-cf/pivotal-ui-react/tree/master/src/media)
 * [react-calendar](https://github.com/erikthedeveloper/react-calendar)
 * [react-tween-state](https://github.com/chenglou/react-tween-state)
+* [Creating Chrome extensions with React](http://brandontilley.com/2014/02/24/creating-chrome-extensions-with-react.html)
+* [Trying out React.js with the Marvel API](http://ryanlanciaux.github.io/blog/2014/05/26/trying-out-reactjs-with-the-marvel-api/)
+* [Implementing the board game Go](http://cjlarose.com/2014/01/09/react-board-game-tutorial.html)
+* [react-phonecat](http://jgebhardt.github.io/blog/react-phonecat/)
+* [React and Adobe Brackets](http://www.kevindangoor.com/2014/05/simplifying-code-with-react/)
+* [Building a board game with React.js](http://jjt.io/2014/07/30/building-a-board-game-with-react-js/)
+* [Some example working with jQuery dialog](http://sterling.ghost.io/working-with-jqueryui-and-reactjs-components/)
 
 ## GitHub Issues
 
@@ -633,6 +645,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 ## Blog to follow
 
 * [Sift Science](http://blog.siftscience.com/)
+* [Simple Studios](http://simblestudios.com/blog)
 
 ## Videos
 
@@ -645,6 +658,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Thinking in Components: Building Powerful UIs in React.js](https://www.youtube.com/watch?v=xSGuffp0o6E)
 * [Learn React, Flux, and Flow - Seattle.js](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
 * [London React meetup - ES6 Modules and React with SystemJS](https://www.youtube.com/watch?t=20&v=NpMnRifyGyw)
+* [E4E Developer Conf 2014 - Reactive, Component-based UIs with React](https://www.youtube.com/watch?v=uwnjDXtJufs)
 
 ## Twitter
 

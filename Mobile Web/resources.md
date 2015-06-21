@@ -179,6 +179,7 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
 * [Figuring responsive images](http://css-tricks.com/video-screencasts/133-figuring-responsive-images/)
 * [Responsive images in practice](http://alistapart.com/article/responsive-images-in-practice)
 * [Adaptive Images](http://adaptive-images.com/)
+* [When responsive images get ugly](http://codepen.io/Tigt/blog/when-responsive-images-get-ugly)
 
 ## Favicon
 

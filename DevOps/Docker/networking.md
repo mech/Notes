@@ -15,6 +15,7 @@ Containers would not be very useful if there was no way to get to them through t
 * [Overriding Docker DNS in case you need to for SingNet](http://blog.markrendle.net/a-quick-note-on-docker-dns-resolution/)
 * [Multi-host Docker network](http://wiredcraft.com/blog/multi-host-docker-network/)
 * [Advanced Docker Networking](http://boynux.com/advanced-docker-networking/)
+* [Docker networking rules - Understanding EXPOSE, -p, -P and --link](http://www.centurylinklabs.com/docker-networking-rules/)
 
 By default the `-p` flag will bind the port to all interfaces on the host (`0.0.0.0`). The `-p` flag can be used multiple times to configure multiple ports.
 
@@ -35,6 +36,8 @@ Binding specific IP and port:
 The `-p` flag can be used multiple times to configure multiple ports like 80 and 443.
 
 There is a difference between exposing a port and publishing a port. Exposing a port simply means Docker will take note that the port in question is used by the container. This can be used for automated mappings and linkings.
+
+Docker implicitly exposes a port that is published. The difference between an exposed port and a published port is that the published port is available on the host, and we can see that in `HostConfig` and `NetworkSettings`.
 
 Publishing a port will map it to the host interface, making it available to the outside world.
 

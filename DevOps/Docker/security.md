@@ -7,12 +7,15 @@
 * [Container Security: Just the Good Parts](https://securityblog.redhat.com/2015/04/29/container-security-just-the-good-parts/)
 * [A field guide to Docker security measures](https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/)
 * [Someone said that 30% of the images on the Docker Registry contain vulnerabilities](http://jpetazzo.github.io/2015/05/27/docker-images-vulnerabilities/)
+* [Video: Securing your application using Docker](https://www.youtube.com/watch?v=KmxOXmPhZbk)
+* [Using Docker Safely - Adrian Mouat](https://www.youtube.com/watch?v=04LOuMgNj9U)
 
 ---
 
 * Treat container services just like regular services. Drop privileges as quickly as possible. Do not run Nginx web server as root.
 * Use read-only mount points like `/sys`, `/proc/sys`.
 * Use capabilities to drop CAP_XX to minimize attack surface.
+* Drop kernel capabilities when starting containers.
 * Remove network namespace for database container because maybe you don't need it.
 * SELinux protect the host system from container processes
 * Container processes only write to container files

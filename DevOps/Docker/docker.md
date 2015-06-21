@@ -12,6 +12,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [**Docker Cheat Sheet**](https://github.com/wsargent/docker-cheat-sheet)
 * [**DevOps Kata**](http://devopsy.com/blog/2013/08/16/devops-kata-single-line-of-code/)
 * [**Docker Forums**](https://forums.docker.com/)
+* [**A very thorough Docker guide**](http://www.dedoimedo.com/computers/docker-guide.html)
 * [Docker News](http://blog.getcrane.com/docker-news/the-best-of-docker-last-week-2nd-march)
 * [Docker Weekly](http://blog.docker.com/docker-weekly-archives/)
 * [Giant Swarm blog](http://blog.giantswarm.io/)
@@ -19,6 +20,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Game Changer blog](http://tech.gc.com/)
 * [Why and how to use Docker for development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24)
 * [Deep dive into Docker storage drivers](https://www.youtube.com/watch?v=9oh_M11-foU)
+* [Docker .bash_history tip](https://zwischenzugs.wordpress.com/2015/06/14/my-favourite-docker-tip/)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 
@@ -81,9 +83,11 @@ Operationalized and Orchestration.
 * [10 Docker tips and tricks](http://nathanleclaire.com/blog/2014/07/12/10-docker-tips-and-tricks-that-will-make-you-sing-a-whale-song-of-joy/)
 * [docker inspect -f](http://container-solutions.com/2015/03/docker-inspect-template-magic/)
 * [Trapping signals in Docker](https://medium.com/@gchudnov/trapping-signals-in-docker-containers-7a57fdda7d86)
+* [Gracefully stopping Docker containers](http://www.centurylinklabs.com/gracefully-stopping-docker-containers/)
 * [Load balancing - The missing piece of the container](http://blog.tutum.co/2015/05/05/load-balancing-the-missing-piece-of-the-container-world/)
 * [Docker - Three Ways Ops](https://blog.docker.com/2015/05/docker-three-ways-ops/)
 * [Marriage of Ansible and Docker](https://bildung.xarif.de/xwiki/bin/Articles/The+Marriage+of+Ansible+and+Docker)
+* [Process management in Docker containers - Using Supervisord](http://blog.zhaw.ch/icclab/process-management-in-docker-containers/)
 
 ```
 docker version
@@ -143,6 +147,8 @@ Prep your images to make it faster.
 * [Understanding Docker cache for faster builds](http://thenewstack.io/understanding-the-docker-cache-for-faster-builds/)
 * [**Security best practices for Dockerfile**](http://linux-audit.com/security-best-practices-for-building-docker-images/)
 * [**Dockerfile best practices**](https://github.com/docker/docker/blob/master/docs/sources/articles/dockerfile_best-practices.md)
+* [ADD vs COPY](http://www.centurylinklabs.com/dockerfile-add-vs-copy/)
+* [ENTRYPOINT vs CMD](http://www.centurylinklabs.com/dockerfile-entrypoint-vs-cmd/)
 
 A Docker image is made up of filesystem layered over each other. First layer is the `bootfs` and next layer is the `rootfs`. More filesystem will be union mounted to appear as one filesystem. Docker calls each of these filesystems images.
 
@@ -204,6 +210,7 @@ ENV SMTP_PORT 250 HTTPD_PORT 80
 ADD latest.tar.gz /var/www/latest/
 
 # Similar to ADD, but no extraction capabilities
+# Hint: Always use COPY if possible
 COPY conf.d/ /etc/apache2/
 
 # Change working directory to run the instructions
@@ -490,3 +497,4 @@ clean:
 * [Docker 101](https://www.youtube.com/watch?v=4W2YY-qBla0)
 * [Lightweight virtualization with LXC and Docker](https://events.yandex.ru/lib/talks/1085/)
 * [5 must watch videos](http://opensource.com/business/15/5/must-watch-docker-videos)
+* [Container Camp SF 2015](http://blog.yld.io/2015/05/07/container-camp-sf-2015-what-you-missed/)

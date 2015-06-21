@@ -126,6 +126,12 @@ sudo dmesg | less
 sudo lspci | less
 sudo ethtool eth0
 
+# Find out which port is being used
+netstat -anp tcp | grep 8080
+
+# Find out which program is using which port
+sudo lsof -i tcp:1337
+
 ip addr show
 ip route show # Show which IP is being linked to
 
