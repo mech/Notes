@@ -8,12 +8,14 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [**Flux solutions compared by example**](http://pixelhunter.me/post/110248593059/flux-solutions-compared-by-example)
+* [**Flux from scratch**](http://ryanfunduk.com/articles/flux-from-scratch/)
 * [**The case for Flux**](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
 * [**Flux: Actions and the Dispatcher**](http://facebook.github.io/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html)
-* [Flux comparison](https://github.com/voronianski/flux-comparison)
+* [**Flux comparison**](https://github.com/voronianski/flux-comparison)
 * [Stores are not models](https://medium.com/@jetupper/hello-react-js-b87c63526e3a)
 * [Facebook flux-chat example](https://github.com/facebook/flux/tree/master/examples/flux-chat/js)
-* [Cortex - centrally managing data with React](https://github.com/mquan/cortex/)
+* [**Cortex - centrally managing data with React**](https://github.com/mquan/cortex/)
 * [Flocks.js](http://www.flocks.rocks/what_is_flocks.html)
 * [Writing complex app using Flux and React](http://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
 * [What is the Flux application architecture?](https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e)
@@ -33,8 +35,10 @@
 * [Some Hacker News discussion on Flux](https://news.ycombinator.com/item?id=7721292)
 * [Flux and Adobe Brackets](http://www.kevindangoor.com/2014/09/intro-to-the-new-brackets-project-tree/)
 * [**Avoiding Event Chains in SPA**](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
-* [Async requests with Flux](http://www.code-experience.com/async-requests-with-react-js-and-flux-revisited/)
+* [**Async requests with Flux**](http://www.code-experience.com/async-requests-with-react-js-and-flux-revisited/)
 * [Flux over the wire](https://blog.rotenberg.io/flux-over-the-wire-3/)
+* [Flux without Flux: Using Flux in plain React](http://gbanis.com/blog/flux-without-flux-using-flux-architecture-plain-react/)
+* [Define the data to fetch in a declarative way with React](http://arqex.com/1058/define-the-data-to-fetch-declaratively-with-react)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -55,6 +59,26 @@ What problem does Flux solve?
 * Code has to be under the right condition
 * Lose code intention
 
+If you treat every input as an action you can see what behaviors are possible in your app.
+
+## The FLOW
+
+1. User click a button that will result in XHR server request. Here an action is created.
+2. Our API object listen for that action and perform the actual XHR request.
+3. When promise resolved, a new action is published.
+4. Any views that are interested in that action will listen for it and update it's UI states.
+
+## Actions
+
+```
+publishAction( actionName, arg1, arg2... )
+```
+
+## Stores
+
+Make store synchronous!
+
+
 ## Data Management Pattern
 
 * [Making your app faster with high-performance components](https://www.youtube.com/watch?v=KYzlpRvWZ6c&t=1351)
@@ -65,6 +89,7 @@ There are plenty of ways to manage your data:
 * Flux - Store
 * Cursor - Clojure Om?
 * Relay
+* Cortex - Centrally managing data with React
 
 
 
@@ -89,6 +114,8 @@ There are plenty of ways to manage your data:
 * [**NuclearJS - Reactive Flux built with ImmutableJS**](https://github.com/optimizely/nuclear-js)
 * [**Redux**](https://github.com/gaearon/redux)
 * [react-transmit - Relay-inspired](https://github.com/RickWong/react-transmit)
+* [**Lux.js**](http://www.smashingmagazine.com/2015/06/22/qualities-of-good-flux-implementations/)
+* [Postal.js - Pub/Sub library](https://github.com/postaljs/postal.js)
 
 **Others**
 

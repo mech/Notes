@@ -48,6 +48,10 @@ gem pristine GEM_NAME
 * [Optimizing Rails for memory usage](http://collectiveidea.com/blog/archives/2015/03/05/optimizing-rails-for-memory-usage-part-3-pluck-and-database-laziness/)
 * [Rails Assets??](https://rails-assets.org/)
 
+## Upgrade Rails
+
+* [`bundle update rails`](http://www.justinweiss.com/blog/2015/01/27/how-to-upgrade-to-rails-4-dot-2/)
+
 ## Router
 
 * [Use routing constraints](http://viget.com/extend/using-routing-constraints-to-root-your-app)

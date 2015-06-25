@@ -35,6 +35,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [Webpack presentation](https://unindented.github.io/webpack-presentation)
 * [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate)
 * [react-starterkit](https://github.com/wbkd/react-starterkit)
+* [react-kickstart](https://github.com/vesparny/react-kickstart)
 * [Official Webpack's react-starter](https://github.com/webpack/react-starter)
 * [webpack_assets](https://github.com/knomedia/webpack_assets)
 * [Browserify vs Webpack JS Drama](http://blog.namangoel.com/browserify-vs-webpack-js-drama)

@@ -9,6 +9,12 @@
 * [Complex Drag and Drop Lists using React.js](https://reactjsnews.com/complex-drag-and-drop-lists-using-react/)
 * [React Dropzone for File Upload](https://github.com/felixrieseberg/React-Dropzone-Component)
 
+## Sortable
+
+* [A sortable list component in React using HTML5 Drag & Drop API](http://webcloud.se/sortable-list-component-react-js/)
+* [A truly reactive sortable component](http://webcloud.se/truly-reactive-sortable-component/)
+* [Image demo of sortable](http://vn38minhtran.github.io/react-sortable-component/)
+
 DnD needs `mousedown`, `mousemove`, and `mouseup` for selecting the element, dragging it, and releasing it.
 
 Most libraries handle `mousemove` and not a lot using HTML5 Drag and Drop API.

@@ -6,6 +6,7 @@
 * [JSON API 1.0 Released](http://www.cerebris.com/blog/2015/06/04/jsonapi-1-0/)
 * [A well-designed API approach](https://www.airpair.com/rest/posts/a-well-designed-api-approach)
 * [OAuth.io blog](http://blog.oauth.io/)
+* [REST API concept](https://www.youtube.com/watch?v=7YcW25PHnAA)
 
 You can't design the API well if you don't know the product well.
 

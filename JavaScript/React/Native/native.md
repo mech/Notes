@@ -23,14 +23,16 @@ react-native@0.3.1 node_modules/react-native
 └── ws@0.4.31 (tinycolor@0.0.1, options@0.0.6, commander@0.6.1, nan@0.3.2)
 ```
 
+* [**awesome-react-native**](https://github.com/jondot/awesome-react-native)
 * [AsyncDisplayKit](http://asyncdisplaykit.org/) - React Native flexbox is done on a background thread, no blocking of scroll
 * [React Native Playground](https://rnplay.org/)
 * [First impressions using React Native](http://jlongster.com/First-Impressions-using-React-Native)
+* [Universal app](http://blog.typework.com/react-native-universal/)
 
 ## Libraries
 
 * [react-native-camera](https://github.com/lwansbrough/react-native-camera)
-* [React Parts](http://react.parts/native-ios)
+* [**React Parts**](http://react.parts/native-ios)
 
 ## Examples
 

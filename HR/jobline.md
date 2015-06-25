@@ -211,6 +211,10 @@ Send an email that says "We noticed for the past 3 months your TS hours are the 
 
 Remove NRIC on TS PDF.
 
+**Timesheet and leaves and a reactive system**
+
+What happen when timesheet was submitted for pending approval and CA take leaves? Approver should get alert/warning that there is pending leaves being add on to a populated timesheet day's hours. If the leave is approved on that day, the timesheet must null out all the hours and reflect the new total hours being logged. **Make it reactive!**
+
 ## Change of Approver
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.

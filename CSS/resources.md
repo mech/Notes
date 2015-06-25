@@ -8,6 +8,7 @@ https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
 
+* [Taming CSS](https://github.com/keithjgrant/Taming-CSS)
 * [Another style reset](https://github.com/mblode/marx)
 * [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
 * [**CSS Reference**](http://tympanus.net/codrops/css_reference/)

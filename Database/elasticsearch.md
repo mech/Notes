@@ -36,6 +36,10 @@ $ plugin -i elasticsearch/marvel/latest
 $ plugin -i polyfractal/elasticsearch-segmentspy
 ```
 
+## With Rails
+
+* [How we integrated ES and Rails at Pose](http://blog.andrewvc.com/elasticsearch-rails-stretcher-at-pose/)
+
 ## Backup and Restore
 
 * [Introducing snapshot and restore](http://www.elasticsearch.org/blog/introducing-snapshot-restore/)

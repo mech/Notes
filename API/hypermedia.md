@@ -1,6 +1,8 @@
 # Hypermedia APIs
 
 * [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
+* [Haters gonna HATEOAS](http://timelessrepo.com/haters-gonna-hateoas)
+* [HAL Primer](http://phlyrestfully.readthedocs.org/en/latest/halprimer.html)
 
 ## Examples
 

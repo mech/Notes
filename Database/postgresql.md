@@ -2,6 +2,7 @@
 
 https://vividcortex.com/pricing/
 
+* [**pgcli**](http://pgcli.com/)
 * [**Use the Index, Luke**](http://use-the-index-luke.com/)
 * [**Discovering indexes**](http://patshaughnessy.net/2014/11/11/discovering-the-computer-science-behind-postgres-indexes)
 * [Aggregating NBA data, PostgreSQL vs MongoDB](http://tapoueh.org/blog/2014/02/17-aggregating-nba-data-PostgreSQL-vs-MongoDB)
@@ -15,11 +16,18 @@ https://vividcortex.com/pricing/
 * [Embracing SQL in Postgres](http://rob.conery.io/2015/02/24/embracing-sql-in-postgres/)
 * [Simple continuous archiving for Postgres](https://github.com/wal-e/wal-e)
 * [s3cmd](http://s3tools.org/s3cmd)
+* [MADlib - For data science](https://github.com/madlib/madlib)
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!
 
 Use Neo4j for candidate's relationship with each other.
+
+## Rails
+
+* [Porting ActiveRecord validations to Postgres](http://shuber.io/porting-activerecord-validations-to-postgres/)
+* [Rails support for UUID](http://blog.nakonieczny.it/posts/rails-support-for-uuid/)
+* [Rails Guides](http://edgeguides.rubyonrails.org/active_record_postgresql.html)
 
 ## WITH
 

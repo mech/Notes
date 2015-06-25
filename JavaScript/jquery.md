@@ -1,10 +1,16 @@
 # jQuery
 
-* [You might not need jQuery](http://youmightnotneedjquery.com/)
 * [jQuery's browser bug workarounds](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit)
 * [129 fixes](https://gist.github.com/rwaldron/8720084#file-reasons-md)
 * [Coding standards & best practices](http://lab.abhinayrathore.com/jquery-standards/)
 * [Complete beginners guide](https://ihatetomatoes.net/jquery-complete-beginners-datatypes-selectors/)
+
+## You don't need jQuery
+
+* [**bling.js**](https://gist.github.com/paulirish/12fb951a8b893a454b32)
+* [You might not need jQuery](http://youmightnotneedjquery.com/)
+* [diy.js](http://diy.lab.io/)
+* [Why you might need jQuery](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit#)
 
 ## Plugins and Libraries
 

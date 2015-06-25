@@ -6,6 +6,8 @@
 * [Composition](https://medium.com/dev-channel/javascript-application-architecture-on-the-road-to-2015-d8125811101b)
 * [Some component example from Eric Elliott](https://gist.github.com/ericelliott/7e05747b891673eb704b#file-react-reusable-component-md)
 * [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
+* [Truly encapsulated React components?? Avoid classes?](https://github.com/anvaka/maco)
+* [Many ways to write React component without using ES6 classes](https://gist.github.com/jquense/47bbd2613e0b03d7e51c)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -33,6 +35,17 @@ DOM is stateful. Input focus and selection, scroll position, etc.
 Unintentional side effects are the bane of code reuse. They occur when multiple functions depend on and manipulate the values of the same variables or object properties. In this situation, it becomes much more difficult to refactor code, because your functions assume too much about the state of the program.
 
 > Remember that components don't have to emit DOM. They only need to provide composition boundaries between UI concerns. - See Smart and Dumb components
+
+## Controller View
+
+You will often hear React developers refer to controller views - a React component that typically sits at or near the top of a section of the page, which listens to one or more stores for changes in their state. As stores emit change events, the controller view updates with the new state and passes changes down to its children via props.
+
+Controller view must be capable of:
+
+* Publishing actions
+* Listening to stores
+
+
 
 ## Lifecycle
 
@@ -121,6 +134,13 @@ Data binding is a hack around re-rendering.
 
 ## Libraries
 
+* [React Components](http://react-components.com/)
+* [React Parts](http://react.parts/web)
+* [React Rocks](http://react.rocks/)
+
+---
+
+* [**React Rocks - A list of useful components**](http://react.rocks/)
 * [**Elemental UI**](http://elemental-ui.com/)
 * [**TouchstoneJS**](https://github.com/jedwatson/touchstonejs)
 * [Nuka Carousel](http://kenwheeler.github.io/nuka-carousel)
@@ -140,6 +160,15 @@ Data binding is a hack around re-rendering.
 * [react-icons](http://jxnblk.com/react-icons/)
 * [react-web-sdk](https://github.com/necolas/react-web-sdk)
 * [react-onclickoutside](https://github.com/Pomax/react-onclickoutside)
+* [react-paginate](https://github.com/Mosho1/react-paginate)
+* [react-list-view](https://github.com/Morhaus/react-list-view)
+* [react-text-filter](https://github.com/nkbt/react-text-filter)
+* [react-popup](https://github.com/minutemailer/react-popup)
+* [react-date-picker](http://zippyui.com/react-date-picker/)
+* [react-springs](https://github.com/threepointone/react-springs)
+* [react-autocomplete](https://github.com/synapsestudios/react-autocomplete)
+* [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
+* [Task Calendar](http://hilary-l.github.io/)
 
 ### D3
 
@@ -149,3 +178,31 @@ Data binding is a hack around re-rendering.
 * [react-d3](https://github.com/esbullington/react-d3)
 * [D3 with React.js](http://busypeoples.github.io/post/d3-with-react-js/)
 * [d3-react-squared](https://github.com/bgrsquared/d3-react-squared)
+* [React and D3 Part 1: Layout](http://formidablelabs.com/blog/2015/05/21/react-d3-layouts/)
+
+## Integrate with jQuery
+
+```js
+var Datepicker = React.createClass({
+  render() {
+    return React.createElement('input', {type: 'text'});  }
+  	
+  runJQ() {
+    $(React.findDOMNode(this)).datepicker(this.props);  }  
+  componentDidMount() {
+    this.runJQ();  }
+  
+  componentDidUpdate(prevProps) {
+    if (!propsEqual(this.props, prevProps)) {
+    	this.runJQ();    }  }});
+```
+
+```js
+$.fn.react = function(component, props) {
+  React.render(
+    React.createElement(component, props),
+    this.get(0)
+  );};
+
+$('body').react(TodoList, {items: ['Get milk']});
+```

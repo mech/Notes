@@ -23,6 +23,10 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [**Reactive MVC and Virtual DOM**](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
 * [react-cursor](https://github.com/dustingetz/react-cursor)
 * [RxMarbles??](http://rxmarbles.com/)
+* [**Functional React**](https://github.com/aickin/functional-react)
+* [Atom-React - Inspired by Om, but in JavaScript](https://github.com/stample/atom-react)
+* [Simpler UI reasoning with unidirectional data flow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+* [Elegant functional architecture for React](https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 

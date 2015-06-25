@@ -22,6 +22,7 @@ There's a deeper reason why it's so important to make data flow clear and simple
 * [Expose component functions](http://facebook.github.io/react/tips/expose-component-functions.html)
 * [Best Practices for Component State](http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html)
 * [What the Flux](https://ochronus.com/react-what-the-flux/)
+* [Simpler UI reasoning with unidirectional data flow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 
 > Once you've grokked the basics, this is perhaps the most important thing to know about React. To think in React is to find the minimal amount of state necessary to represent your app, and calculate everything based on that. This is because state is unpredictable. Props are, for the most part, derived from other props and state, but state can be anything. The more state in your application, the harder it is to reason about it. As much as possible, state in React should be an implementation detail — a necessary evil, not a crutch.
 

@@ -1,10 +1,16 @@
 # React
 
+[**https://github.com/sindresorhus/awesome**](https://github.com/sindresorhus/awesome)
+
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
 * [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 * [Problem with Backbone rendering view](http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/)
 * [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
+* [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
+* [Context in React and Dependency Injection](http://jaysoo.ca/2015/06/09/react-contexts-and-dependency-injection/)
+
+> The value of DI is that we can depend on abstract ideas instead of concrete implementations.
 
 Why SPA? Imagine using Facebook where every like and every comment made you refresh the page.
 
@@ -44,6 +50,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [Atomic](http://thenextweb.com/creativity/2015/02/19/meet-atomic-missing-tool-interface-design-thats-entirely-browser/)
 * [Idiomatic React](https://github.com/netgusto/IdiomaticReact)
 * [Web publishing platform](https://github.com/vesparny/morpheus)
+* [sprintly-kanban](https://github.com/sprintly/sprintly-kanban)
 
 ### File Structure Examples
 
@@ -53,6 +60,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 
 ## Style Guides
 
+* [JSX style guide from Airbnb](https://github.com/airbnb/javascript/tree/master/react)
 * [React-starter kit style guide](https://github.com/kriasoft/react-starter-kit/blob/master/docs/react-style-guide.md)
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
@@ -230,6 +238,7 @@ Model your UI as pure function.
 * [React.js and how does it fit in with everything else?](http://www.funnyant.com/reactjs-what-is-it/)
 * [Pete Hunt response to side-by-side AngularJS comparison](http://www.quora.com/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look)
 * [**Isomorphic React app with Rails**](https://medium.com/@olance/isomorphic-reactjs-app-with-ruby-on-rails-part-1-server-side-rendering-8438bbb1ea1c)
+* [Reactive Rails](http://www.inspire.nl/blog/2015/5/19/reactive-rails-all-you-have-to-know-about-reactjs-library)
 * [React for stupid people](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
 * [React.rb using Opal](https://github.com/zetachang/react.rb)
@@ -252,6 +261,8 @@ Model your UI as pure function.
 * [React 0.13 and Autobinding](https://medium.com/@goatslacker/react-0-13-x-and-autobinding-b4906189425d)
 * [Baby's first reaction](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd)
 * [**React, Part I: Building Reactive, Component-based UIs**](http://www.banderson.me/2014/11/01/react-series-intro/)
+* [React from scratch](http://ryanfunduk.com/articles/react-from-scratch/)
+* [**Introduction to React.js diff algorithm**](http://www.schibsted.pl/2015/06/react-internals-introduction-to-react-js-diff-algorithm/)
 
 ```
 var gulp = require('gulp');
@@ -659,6 +670,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Learn React, Flux, and Flow - Seattle.js](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
 * [London React meetup - ES6 Modules and React with SystemJS](https://www.youtube.com/watch?t=20&v=NpMnRifyGyw)
 * [E4E Developer Conf 2014 - Reactive, Component-based UIs with React](https://www.youtube.com/watch?v=uwnjDXtJufs)
+* [All you need to know to get started with React](https://www.youtube.com/watch?v=gzl80JozIZE)
 
 ## Twitter
 
