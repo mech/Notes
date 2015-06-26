@@ -57,11 +57,16 @@ Location is used to match the URI of the request. These locations may be nested 
 
 ## Reverse Proxy
 
+Sub-URL vs Sub-Domain, Multiple apps
+
 * [Virtual hosts on nginx](https://gist.github.com/soheilhy/8b94347ff8336d971ad0)
 * [Using Nginx as a reverse proxy/load balancer with Weave and Docker](http://weave.works/guides/weave-docker-nginx-ubuntu-simple.html)
 * [How to setup Rails with Puma and Nginx](http://ruby-journal.com/how-to-setup-rails-app-with-puma-and-nginx/)
 * [Multiple Rails 4 apps using Nginx and Unicorn](http://stackoverflow.com/questions/18134046/multiple-rails-4-app-using-nginx-unicorn)
-* [Sub-URL vs sub-domain](http://www.redmine.org/projects/redmine/wiki/Sub_URI_for_multisites_at_one_domain)
+* [**Sub-URL vs sub-domain**](http://www.redmine.org/projects/redmine/wiki/Sub_URI_for_multisites_at_one_domain)
+* [Nginx, Unicorn and multiple Rails apps](http://jrochelly.com/post/2013/08/nginx-unicorn-multiple-rails-apps/)
+* [Hosting rails on sub-uri](http://stackoverflow.com/questions/19594542/hosting-rails-app-on-thins-nginx-on-a-sub-uri-behind-a-reverse-proxy)
+* [How to create your own website based on Docker with Nginx reverse proxy](http://project-webdev.blogspot.de/2015/06/create-site-based-on-docker-part10-nginx-reverse-proxy-docker-image.html)
 
 A reverse proxy is a web server that terminates connections with clients and makes new ones to upstream servers on their behalf.
 

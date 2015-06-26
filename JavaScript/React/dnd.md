@@ -9,6 +9,10 @@
 * [Complex Drag and Drop Lists using React.js](https://reactjsnews.com/complex-drag-and-drop-lists-using-react/)
 * [React Dropzone for File Upload](https://github.com/felixrieseberg/React-Dropzone-Component)
 
+## Examples
+
+* [Kanban](https://github.com/tryolabs/react-examples/tree/master/kanban)
+
 ## Sortable
 
 * [A sortable list component in React using HTML5 Drag & Drop API](http://webcloud.se/sortable-list-component-react-js/)

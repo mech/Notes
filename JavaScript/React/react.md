@@ -1,6 +1,8 @@
 # React
 
-[**https://github.com/sindresorhus/awesome**](https://github.com/sindresorhus/awesome)
+- [**https://github.com/sindresorhus/awesome**](https://github.com/sindresorhus/awesome)
+- [**React Primer**](https://github.com/mikechau/react-primer-draft)
+- [**Essential JavaScript links**](https://github.com/ericelliott/essential-javascript-links#essential-javascript-links)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 

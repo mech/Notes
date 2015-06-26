@@ -82,6 +82,7 @@ Make store synchronous!
 ## Data Management Pattern
 
 * [Making your app faster with high-performance components](https://www.youtube.com/watch?v=KYzlpRvWZ6c&t=1351)
+* [Model Management](https://github.com/facebook/react/wiki/Complementary-Tools#model-management)
 
 There are plenty of ways to manage your data:
 

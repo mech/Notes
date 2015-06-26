@@ -32,6 +32,16 @@ If you have an object or an array. Changing the object's properties or pushing a
 
 Or just don't use objects in `props` and `state`.
 
+## Baobab
+
+* [Performance of `push`](https://github.com/Yomguithereal/baobab/issues/268)
+* [Plant a Baobab tree in your Flux application](http://christianalfoni.github.io/javascript/2015/02/06/plant-a-baobab-tree-in-your-flux-application.html)
+
+## Zipper
+
+* [Getting acquainted with Clojure zippers](http://josf.info/blog/2014/03/21/getting-acquainted-with-clojure-zippers/)
+* [neith - JavaScript zipper library](https://github.com/mattbierner/neith)
+
 ## Examples
 
 * [react-immutable-demo](https://github.com/pk11/react-immutable-demo)

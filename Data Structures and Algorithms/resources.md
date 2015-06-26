@@ -10,6 +10,9 @@
 * [A very nice JavaScript recursion tutorial](http://www.htmlgoodies.com/primers/jsp/article.php/3622321)
 * [**Data structures for JS**](http://jsclass.jcoglan.com/)
 * [Implementing the board game Go with React.js](http://cjlarose.com/2014/01/09/react-board-game-tutorial.html)
+* [Computer Science in JavaScript](https://github.com/nzakas/computer-science-in-javascript)
+* [Sorting data into a tree](http://stackoverflow.com/questions/8241342/sorting-data-into-a-tree)
+* [deque - Extremely fast double-ended queue](https://github.com/petkaantonov/deque)
 
 ## Lectures
 

@@ -36,6 +36,8 @@ Unintentional side effects are the bane of code reuse. They occur when multiple 
 
 > Remember that components don't have to emit DOM. They only need to provide composition boundaries between UI concerns. - See Smart and Dumb components
 
+A state machine always have initial state as model by `getInitialState`.
+
 ## Controller View
 
 You will often hear React developers refer to controller views - a React component that typically sits at or near the top of a section of the page, which listens to one or more stores for changes in their state. As stores emit change events, the controller view updates with the new state and passes changes down to its children via props.
@@ -86,11 +88,11 @@ componentDidUpdate() {
 
 ## Owner-Ownee and Parent-Child
 
+* [Ownership and children in React](http://ctheu.com/2015/02/10/ownership-and-children-in-reactjs/)
+
 Child component receive immutable properties from their parent. Such an relationship is called ownership. Components that set `props` of other components are owners but not necessarily direct parents in terms of DOM structure. This is one-way data flow.
 
 It is important to draw a distinction between ownership and parent-child relationship.
-
-
 
 ## Playground
 
@@ -137,6 +139,7 @@ Data binding is a hack around re-rendering.
 * [React Components](http://react-components.com/)
 * [React Parts](http://react.parts/web)
 * [React Rocks](http://react.rocks/)
+* [UI Components](https://github.com/facebook/react/wiki/Complementary-Tools#ui-components)
 
 ---
 
@@ -169,6 +172,7 @@ Data binding is a hack around re-rendering.
 * [react-autocomplete](https://github.com/synapsestudios/react-autocomplete)
 * [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
 * [Task Calendar](http://hilary-l.github.io/)
+* [react-select-search](https://github.com/tbleckert/react-select-search)
 
 ### D3
 

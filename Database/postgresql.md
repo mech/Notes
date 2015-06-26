@@ -2,6 +2,7 @@
 
 https://vividcortex.com/pricing/
 
+* [**Discovering the science behind Postgres indexes**](http://blog.codeship.com/discovering-computer-science-behind-postgres-indexes/)
 * [**pgcli**](http://pgcli.com/)
 * [**Use the Index, Luke**](http://use-the-index-luke.com/)
 * [**Discovering indexes**](http://patshaughnessy.net/2014/11/11/discovering-the-computer-science-behind-postgres-indexes)
@@ -17,17 +18,53 @@ https://vividcortex.com/pricing/
 * [Simple continuous archiving for Postgres](https://github.com/wal-e/wal-e)
 * [s3cmd](http://s3tools.org/s3cmd)
 * [MADlib - For data science](https://github.com/madlib/madlib)
+* [Why should you learn Postgres](http://www.brightball.com/postgresql/why-should-you-learn-postgresql)
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!
 
 Use Neo4j for candidate's relationship with each other.
 
+## CLI
+
+```
+▶ psql -l
+▶ createdb demo
+
+▶ \dx # List of installed extensions
+▶ \dt # List of relations
+▶ \d users
+
+▶ \c EVA_development # Switch database
+
+▶ analyze verbose users;
+▶ vacuum users; # Remove dead rows!
+
+▶ \p # Access the buffer
+
+▶ \e # Open VIM to type in query
+▶ \i ~/sql_scripts/my_query.sql
+
+▶ \! mkdir ~/reports
+▶ psql demo 'select * from users' -H -o ~/reports/users.html
+
+▶ \copy users to ~/reports/users.csv cvs
+
+▶ select name,setting from pg_settings;
+```
+
 ## Rails
 
 * [Porting ActiveRecord validations to Postgres](http://shuber.io/porting-activerecord-validations-to-postgres/)
 * [Rails support for UUID](http://blog.nakonieczny.it/posts/rails-support-for-uuid/)
 * [Rails Guides](http://edgeguides.rubyonrails.org/active_record_postgresql.html)
+
+## Migration from MySQL
+
+* [Things to note when migration from MySQL](https://wiki.postgresql.org/wiki/Things_to_find_out_about_when_moving_from_MySQL_to_PostgreSQL)
+* [mysql2postgres](https://github.com/maxlapshin/mysql2postgres)
+
+Postgres is case-sensitive for string comparison
 
 ## WITH
 
@@ -62,12 +99,24 @@ Remember, whenever you apply functions on columns in the `WHERE` clause, the ind
 
 > Inform the database whenever you don't need all rows.
 
+* [**Discovering the science behind Postgres indexes**](http://blog.codeship.com/discovering-computer-science-behind-postgres-indexes/)
 * [Partial indexing with Rails](http://rny.io/rails/postgresql/2013/08/20/postgresql-indexing-in-rails.html)
-* [! Results of the SQL performance quiz](http://use-the-index-luke.com/blog/2014-02/results-three-minutes-sql-performance-quiz)
+* [Results of the SQL performance quiz](http://use-the-index-luke.com/blog/2014-02/results-three-minutes-sql-performance-quiz)
 * [Function-based indexes](http://use-the-index-luke.com/sql/where-clause/functions/case-insensitive-search)
 * [What makes a SQL statement sargable](http://stackoverflow.com/questions/799584/what-makes-a-sql-statement-sargable)
+* [pg_idx_advisor - Give indexing advise](https://github.com/cohenjo/pg_idx_advisor)
 
 In Postgres, you can index certain functions and maintain sargability.
+
+```sql
+CREATE UNIQUE INDEX posts_title ON posts (lower(title));
+
+CREATE INDEX tags_index ON posts USING gin(to_tsvector('english'::regconfig, tags::text));
+```
+
+* btree - Good for equality, range, sorting
+* rtree - Good for lines, spatial, volumetric
+* gin - Good for full-text search
 
 ### Multi-column Indexes
 
@@ -113,7 +162,7 @@ numrange(5,15) * numrange(10,20);
 * [PostgreSQL's own FTS](http://www.postgresql.org/docs/current/static/textsearch.html)
 * [FTS examples](http://citusdata.com/blog/57-postgresql-full-text-search)
 * [Building faceted search](http://tech.pro/tutorial/1142/building-faceted-search-with-postgresql)
-* [Why Solr is so much faster than Postgres](http://stackoverflow.com/questions/10053050/why-is-solr-so-much-faster-than-postgres/10054078)
+* [**Why Solr is so much faster than Postgres?**](http://stackoverflow.com/questions/10053050/why-is-solr-so-much-faster-than-postgres/10054078)
 * [Updating index with trigger](http://1fifty9.com/post/42878706283/auto-updating-full-text-search-with-postgres)
 
 ## Statistics
@@ -172,6 +221,10 @@ CREATE TYPE squid AS (
 
 * [pg_activity](https://github.com/julmon/pg_activity)
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail)
+
+## Backup
+
+* [How to backup your Postgres to Amazon nightly](http://rob.conery.io/2011/11/01/how-to-backup-your-postgres-db-to-amazon-nightly/)
 
 ## People
 

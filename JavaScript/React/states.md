@@ -38,9 +38,14 @@ You can have instance properties for state that do not control how a component r
 
 ## Child to Parent Communication
 
+Here we are talking about component-component communication, not data-fetching problem which are solved by Flux.
+
 * [2-way data-binding is one way](http://voidcanvas.com/react-tutorial-two-way-data-binding/)
 * [Why Flux is better than firing events back and forth](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
 * [Context in React.js](https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html)
+* [How to communicate between React components](http://ctheu.com/2015/02/12/how-to-communicate-between-react-components/)
+* [Comparison between different Observer Pattern implementations](https://github.com/millermedeiros/js-signals/wiki/Comparison-between-different-Observer-Pattern-implementations)
+* [React team is using js-signals](http://millermedeiros.github.io/js-signals/)
 
 If you're not using the Flux pattern (where the parent widget listens to Stores that are affected by Action Creators invoked by the child elements), the idiomatic way to do this is to pass callbacks that affect the overall widget through `props` - this can be a bit awkward when you are passing a callback down several levels.
 
