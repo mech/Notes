@@ -24,3 +24,6 @@ git show <SHA>
 git blame <SHA>^ <filename>
 ```
 
+## Byebug
+
+* [Byebug Guide](https://github.com/deivid-rodriguez/byebug/blob/master/GUIDE.md)

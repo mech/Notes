@@ -1,5 +1,7 @@
 # Animation
 
+> Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
+
 * [**The Future of Web Animation**](http://dailyjs.com/2015/05/15/interview-the-future-of-web-animation-with-julian-shapiro/)
 * [**FLIP your Animations**](http://aerotwist.com/blog/flip-your-animations/)
 * [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
@@ -58,6 +60,7 @@
 ## Videos
 
 * [**Val Head on All the Right Moves: Putting UIs in Motion**](https://vimeo.com/125545020)
+* [Benjamin De Cock - Let's Move!](https://www.youtube.com/watch?v=J6wUmQDQBkw)
 
 ---
 
@@ -78,7 +81,7 @@
 * [Tweene](http://tweene.com/)
 * [React tween state](https://github.com/chenglou/react-tween-state)
 * [Bounce.js](http://bouncejs.com/)
-* 
+* [Simple animation library](https://github.com/bendc/animate)
 
 ## Tips
 
@@ -96,6 +99,7 @@
 * [Animated headlines](http://codyhouse.co/demo/animated-headlines/)
 * [Text input effect](http://tympanus.net/Development/TextInputEffects/)
 * [**Checkout concept**](http://tympanus.net/Development/CheckoutConcepts/sidebar.html)
+* [Animated sign-up flow](http://codyhouse.co/gem/animated-sign-up-flow/)
 
 
 ## Famo.us

@@ -39,6 +39,7 @@
 * [Flux over the wire](https://blog.rotenberg.io/flux-over-the-wire-3/)
 * [Flux without Flux: Using Flux in plain React](http://gbanis.com/blog/flux-without-flux-using-flux-architecture-plain-react/)
 * [Define the data to fetch in a declarative way with React](http://arqex.com/1058/define-the-data-to-fetch-declaratively-with-react)
+* [Getting to know Flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -100,6 +101,7 @@ There are plenty of ways to manage your data:
 
 ## Flux Libraries
 
+* [React Flux libraries](https://gist.github.com/epeli/167e7258a3f9ac626c8e)
 * [**Original Flux by Facebook**](https://github.com/facebook/flux)
 * [**Alt** - A library for managing data within JavaScript applications](http://alt.js.org/)
 * [**Flummox** - Idiomatic, modular, testable, isomorphic Flux. No singletons required.](http://acdlite.github.io/flummox)

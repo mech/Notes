@@ -37,6 +37,7 @@
 * [Colors are important](https://medium.com/design-with-gravit/colors-are-important-5313b1bed59c)
 * [Tints, tones, and shades](http://viget.com/inspire/tints-tones-shades)
 * [How do you present a color palette](https://news.layervault.com/stories/38755-how-do-you-present-a-color-pallette)
+* [Designing for color blindness](https://medium.com/@aaron10buuren/designing-for-and-with-color-blindness-48392aab3d87)
 
 
 ## Flat Design
@@ -84,6 +85,8 @@
 
 ## Google Material Design
 
+* [**The spec itself!**](http://www.google.com/design/spec/material-design/introduction.html)
+* [**Mateiral Design is design science**](https://medium.com/@danhollick/material-design-is-design-science-6c99c1d76498)
 * [Reaction](http://venturebeat.com/2014/06/27/top-designers-react-to-googles-new-material-design-language/)
 * [Video](http://www.youtube.com/watch?v=dZqzz5lZFvo)
 * [Motion design](http://paulstamatiou.com/design-provide-meaning-with-motion/)

@@ -15,8 +15,13 @@ document.getElementsByTagName('video')[0].playbackRate = 1.25;
 * [NDC Conference](https://vimeo.com/ndcoslo)
 * [List of programming screencast series](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
 
-
-
-
 Ultra HD 4K resolution is the headline act here, and the KD-65X9005B is fitted with the latest specifications to support 4K content: HDMI 2.0 standard across all four HDMI inputs, and the HEVC/H.265 decoder that’s crucial for streaming 4K content from Netflix.
 Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
+
+## TOWATCH
+
+* [PGConf US](https://www.youtube.com/channel/UCsJkVvxwoM7R9oRbzvUhbPQ/videos)
+* [CSSConf Australia](https://www.youtube.com/channel/UCaitlwoIzU4HIkkRgmpDO8w/videos)
+* [Lean Agile Scotland](https://vimeo.com/leanagilescotland/videos)
+* [Inspirational videos for designers](http://thenuschool.com/inspirational-videos-for-designers-the-full-collection/)
+* [CSSConf New York June 2015](https://2015.cssconf.com/#videos)

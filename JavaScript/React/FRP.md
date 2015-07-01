@@ -12,7 +12,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [**Reactive stream with Bacon.js**](http://joshbassett.info/2014/reactive-uis-with-react-and-bacon/)
 * [Mori - Persistent data structures](https://github.com/swannodette/mori)
 * [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
-* [Cycle - Reactive framework](https://github.com/staltz/cycle)
+* [**Cycle - Reactive framework**](https://github.com/staltz/cycle)
 * [Functional Reactive React.js](https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540)
 * [javascript-allonge - Book](https://leanpub.com/javascript-allonge)
 * [Read JavaScript Allonge](https://leanpub.com/javascript-allonge/read)
@@ -25,17 +25,35 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [RxMarbles??](http://rxmarbles.com/)
 * [**Functional React**](https://github.com/aickin/functional-react)
 * [Atom-React - Inspired by Om, but in JavaScript](https://github.com/stample/atom-react)
-* [Simpler UI reasoning with unidirectional data flow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
-* [Elegant functional architecture for React](https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b)
+* [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+* [**Elegant functional architecture for React**](https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b)
+* [Ramda.js - Functional library for JavaScript](http://ramdajs.com/0.15/index.html)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
 Or just don't use objects in `props` and `state`.
 
+## Observable
+
+* [Making React reactive](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
+
+Observable is a concept from the world of Functional Reactive Programming. They are used in other UI framework like Ember and Knockout.
+
+## Cerebral
+
+* [Inspired by Baobab and Flux](http://www.christianalfoni.com/articles/2015_05_18_Cerebral-developer-preview)
+
+## RxJS
+
+* [Using RxJS for data flow instead of Flux](http://qiita.com/kimagure/items/22cf4bb2a967fcba376e)
+
 ## Baobab
 
 * [Performance of `push`](https://github.com/Yomguithereal/baobab/issues/268)
 * [Plant a Baobab tree in your Flux application](http://christianalfoni.github.io/javascript/2015/02/06/plant-a-baobab-tree-in-your-flux-application.html)
+* [Handling states in your React Flux application with Baobab](https://www.codementor.io/reactjs/tutorial/flux-reactjs-state-baobab-library)
+
+A cursor is a pointer to some data in your tree. The brilliant thing that cursors give you is the ability to listen for changes, but not only changes to the value the cursor points to.
 
 ## Zipper
 
@@ -51,3 +69,4 @@ Or just don't use objects in `props` and `state`.
 * [The Language of the System - Rich Hickey](https://www.youtube.com/watch?v=ROor6_NGIWU)
 * [Boundaries - Gary Bernhardt](https://www.destroyallsoftware.com/talks/boundaries)
 * [Async JavaScript with Reactive Extensions at Netflix](https://www.youtube.com/watch?v=XRYN2xt11Ek)
+* [Functional Reactive Programming in Elm](https://www.youtube.com/watch?v=DiZ1CfLQvIU)

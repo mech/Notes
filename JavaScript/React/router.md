@@ -6,6 +6,8 @@
 * [react-crossroads](https://github.com/react-crossroads/react-crossroads)
 * [monorouter](https://github.com/matthewwithanm/monorouter)
 * [nested-router - New experiment](https://github.com/ryanflorence/nested-router)
+* [**A React Router with Hasher?**](https://medium.com/@collardeau/a-react-router-a058a05ded46)
+* [**Passing props with React Router**](http://blog.pavan.io/post/122405568754/passing-props-with-react-router-a-beginners)
 
 In React Router, unlike Ember, nested route do not correspond to nested URL. It gives you complete freedom of what your URL look like. Just because you nest a route doesn't mean you need to append a segment to the URL to match.
 

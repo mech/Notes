@@ -119,6 +119,8 @@ Not all lambdas are closures, and not all closures are lambdas. A closure is cre
 
 ## Render function
 
+* [react-pure-render](https://github.com/gaearon/react-pure-render)
+
 It is generally recommended that you funnel all your complex processing through the `render()` method. Event handlers just `setState()` while `render()` is the hub for all of your core logic.
 
 Decide everything in the `render()` functions. This means all calculations and conditionals! Make use of helper functions if you can like `renderFullName()` etc. Of course for CPU intensive calculations, use [memoization function](https://lodash.com/docs#memoize).
@@ -171,8 +173,12 @@ Data binding is a hack around re-rendering.
 * [react-springs](https://github.com/threepointone/react-springs)
 * [react-autocomplete](https://github.com/synapsestudios/react-autocomplete)
 * [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
-* [Task Calendar](http://hilary-l.github.io/)
+* [**Task Calendar**](http://hilary-l.github.io/)
 * [react-select-search](https://github.com/tbleckert/react-select-search)
+* [react-avatr](https://github.com/studiofrenetic/react-avatr)
+* [react-absolute-grid](https://github.com/jrowny/react-absolute-grid)
+* [instatype - Simple React Typeahead](https://github.com/gragland/instatype)
+* [react-mentions](https://github.com/effektif/react-mentions)
 
 ### D3
 

@@ -1,5 +1,7 @@
 # SQL
 
+Database is not a place to store your data. Database is a platform to enforce your business rules. It is a ethnological problem.
+
 | -------- | ------ |
 | Relation | Table  |
 | Tuple    | Row    |
@@ -22,6 +24,7 @@
 
 To combat these concurrency problem we need **concurrency control** through some **isolation level**.
 
+* [A gentle introduction to isolation levels](https://blog.engineyard.com/2010/a-gentle-introduction-to-isolation-levels)
 
 
 `DELETE` is a row-level action. `DROP TABLE` is a schema-level action.
@@ -76,3 +79,7 @@ For example, teaching: you want to make sure a teacher is in only one room each 
 An EMPTY SET is still a set.
 
 If SQL make empty set a NULL concept, maybe there will be error.
+
+## EAV - Entity-Attribute-Value Model
+
+* [Is EAV bad in all scenarios](http://programmers.stackexchange.com/questions/93124/eav-is-it-really-bad-in-all-scenarios)

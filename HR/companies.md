@@ -44,6 +44,11 @@ Notable companies in HR domain.
 * [Pay Asia - Payroll service](http://www.payasia.asia/)
 * [myEdu - Connecting students with companies](https://www.myedu.com/)
 * [SAP Scouting](http://awards.ixda.org/entry/2014/sap-scouting/)
+* [**Gild**](http://www.gild.com/)
+* [**Entelo**](https://www.entelo.com/)
+* [**Textio**](https://textio.com/)
+* [**Doxa**](http://www.doxascore.com/)
+* [**Gap Jumpers**](https://www.gapjumpers.me/)
 
 ## Executive Search
 

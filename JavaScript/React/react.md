@@ -3,6 +3,8 @@
 - [**https://github.com/sindresorhus/awesome**](https://github.com/sindresorhus/awesome)
 - [**React Primer**](https://github.com/mikechau/react-primer-draft)
 - [**Essential JavaScript links**](https://github.com/ericelliott/essential-javascript-links#essential-javascript-links)
+- [**Nice survey tutorial**](http://www.browniesblog.com/A55CBC/blog.nsf/dx/reactjs_tutorial.html)
+- [**Navigating the React ecosystem**](http://www.toptal.com/react/navigating-the-react-ecosystem)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
@@ -265,6 +267,7 @@ Model your UI as pure function.
 * [**React, Part I: Building Reactive, Component-based UIs**](http://www.banderson.me/2014/11/01/react-series-intro/)
 * [React from scratch](http://ryanfunduk.com/articles/react-from-scratch/)
 * [**Introduction to React.js diff algorithm**](http://www.schibsted.pl/2015/06/react-internals-introduction-to-react-js-diff-algorithm/)
+* [Ask HN: React - Do you use it? Do you like it?](https://news.ycombinator.com/item?id=9751539)
 
 ```
 var gulp = require('gulp');
@@ -459,6 +462,7 @@ Take a moment and think more critically about where `state` should be owned in t
 
 * [Radium - inline styles on React elements](http://projects.formidablelabs.com/radium/)
 * [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
+* [**Interoperable CSS**](http://glenmaddern.com/articles/interoperable-css)
 
 ## React Mount Runtime
 
@@ -605,11 +609,10 @@ BUT: You can't just throw out the DOM and rebuild on every update? Lose form sta
 
 * [Mithril - with Virtual DOM diff](http://lhorie.github.io/mithril/)
 
-## Animation
-
-* [Applying React.js CSS Transitions on initial render](http://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
-
 ## Mixins
+
+* [react-mixin](https://github.com/brigand/react-mixin)
+* [Mixins are dead. Long live composition](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)
 
 Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 

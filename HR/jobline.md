@@ -4,6 +4,8 @@
 
 **Jobline is a simple app. Don’t overcomplicate it.**
 
+**What is your organization VALUE STREAM**
+
 Enterprise system is a complex, adaptive system. It cannot be understood by reductionism. One one single person can understand the whole system. It will have emergence behaviours. You cannot stop that behaviours.
 
 > Today my Jawbone is a fairly basic data collection device. It knows that I walked 8,000 steps and slept too little, but it doesn't drive me to action other than providing me with a visualization of the data. In the Age of Context this will change, as larger and larger data sets of sensor data, combined with other data combined with intelligent analytics allows data to become actionable.
@@ -132,6 +134,19 @@ FitAgent, Fit4Hire, FitSense
 ```
 (1 of 2378) -> too large? Narrow your search terms or use the filter
 ```
+
+## Behavioural Design and Sociology Study
+
+> Productivity failed to increase in step with increases in mechanization - Eric Trist (The Evolution of Socio-Technical Systems)
+
+* Implement a streak workflow like the GitHub commit activities.
+* Adaptive System
+* The Bus Problem - some killed by a bus and you lost all the knowledge
+* Constraints - TPC
+* Resiliency
+* Knowledge adjacency - you know what I do, I know what you do.
+* Move to managing boundaries vs tasks! Don't tell people what to do, tell them the boundaries and the whole system views.
+* If I tell you how to do it, the brain cannot scale.
 
 ## Data
 

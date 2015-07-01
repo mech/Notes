@@ -34,6 +34,7 @@ Use Neo4j for candidate's relationship with each other.
 ▶ \dx # List of installed extensions
 ▶ \dt # List of relations
 ▶ \d users
+▶ \pset
 
 ▶ \c EVA_development # Switch database
 
@@ -51,6 +52,8 @@ Use Neo4j for candidate's relationship with each other.
 ▶ \copy users to ~/reports/users.csv cvs
 
 ▶ select name,setting from pg_settings;
+
+▶ select * from pg_stat_archiver;
 ```
 
 ## Rails
@@ -93,6 +96,10 @@ CREATE TABLE events (
 
 ## Indexing and Sargable
 
+```
+▶ \di+
+```
+
 Don't use expression on your `WHERE` clause. Make sure you don't use function like `YEAR(date_column)`, `WHERE actor_id + 1 = 5`, `UPPER(name_column)`, `TRIM(name_column)`, etc.
 
 Remember, whenever you apply functions on columns in the `WHERE` clause, the index no longer can be used.
@@ -128,6 +135,41 @@ The column order of a composite index has great impact on its usability so it mu
 
 * [Virtual columns and expression indexes](http://momjian.us/main/blogs/pgblog/2013.html#April_6_2013)
 
+## GIN - Generalized Inverted Indexes
+
+GIN is just a B-tree, with efficient storage of duplicates. If you have need for unique index, GIN may not be a good fit due to no duplicates. Use regular B-tree for unique index instead.
+
+## JSONB
+
+* [Using Postgres and jsonb with Rails](http://nandovieira.com/using-postgresql-and-jsonb-with-ruby-on-rails)
+* [An explanation of JSONB](http://stackoverflow.com/questions/22654170/explanation-of-jsonb-introduced-by-postgresql)
+* [complex??](http://stackoverflow.com/questions/18404055/index-for-finding-an-element-in-a-json-array)
+* [Some nice gist to follow](https://gist.github.com/fnando/f672c9243186933b3c8e)
+
+```sql
+-- Last array
+SELECT '[{"a":"foo"},{"b":"bar"},{"c":"baz"}]'::json->2;
+
+-- Find by key
+SELECT '{"a": {"b":"bar"}}'::json->'a';
+
+-- Double arrow return text only
+SELECT '{"b":"bar"}'::json->>'b';
+
+select json_build_array(json_build_object('foo', 1), json_build_object('bar', true));
+
+[{"foo" : 1}, {"bar" : true}]
+
+-- Full containment support
+SELECT '{"a":1, "b":2}'::jsonb @> '{"b":2}'::jsonb;
+
+-- Existence
+SELECT '{"a":1, "b":2}'::jsonb ? 'b';
+
+-- Any exist?
+SELECT '{"a":1, "b":2}'::jsonb ?| ARRAY['b', 'd'];
+```
+
 ## Range
 
 See http://www.postgresql.org/docs/9.2/static/functions-range.html
@@ -149,6 +191,7 @@ numrange(5,15) * numrange(10,20);
 
 * [Aggregations with hstore](http://big-elephants.com/2012-10/aggregations-with-pg-hstore/)
 * [Use subqueries to count distinct 50x faster](https://periscope.io/blog/use-subqueries-to-count-distinct-50x-faster.html)
+* [Moving aggregates]()
 
 ## SQL Windowing Functions
 
@@ -175,6 +218,20 @@ pg_cancel_backend()
 ```
 
 * [Visibility using `pg_stat_statements` and `cubism` from Square](https://github.com/will/datascope)
+* `percentile_cont()`
+* `percentile_disc()`
+* `rank()`
+* `dense_rank()`
+* `percent_rank()`
+* `mode()`
+
+```sql
+SELECT COUNT(*), min(amount), max(amount),
+percentile_cont(array[0.5, 0.9])
+WITHIN GROUP (ORDER BY amount)
+FROM payment;
+```
+
 
 ## Performance
 
@@ -198,6 +255,7 @@ CREATE TYPE squid AS (
 ## Videos
 
 * [Postgres - The bits you haven't found](https://vimeo.com/61044807)
+* [PGCon 2014](https://www.youtube.com/watch?v=oQ1LSW31Y1A&list=PLWW0CjV-Tafa2jvcjihXwSvZZKsLAsb9Y#t=2492)
 
 ## Stories
 
@@ -221,6 +279,11 @@ CREATE TYPE squid AS (
 
 * [pg_activity](https://github.com/julmon/pg_activity)
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail)
+* [pg_view]()
+* [PGObserver]()
+* [OPM]()
+* [PoWA]()
+* [pg_prewarm - Loading relation data into memory]()
 
 ## Backup
 
@@ -230,3 +293,4 @@ CREATE TYPE squid AS (
 
 * Michael Stonebraker
 * Peter van Hardenberg
+* Andrew Dunstan (jsonb)

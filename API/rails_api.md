@@ -19,6 +19,26 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [Fake JSON server - Good for testing](https://github.com/typicode/json-server)
 * [Consumer-Driven Contracts](http://martinfowler.com/articles/consumerDrivenContracts.html)
 * [**Designing REST + JSON APIs**](https://stormpath.com/blog/designing-rest-json-apis/)
+* [Understanding Rails Authenticity Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token?rq=1)
+
+
+## Rails ORM/ActiveModel attributes
+
+* [Hashie Considered Harmful - An Ode to Hash and OpenStruct](http://www.schneems.com/2014/12/15/hashie-considered-harmful.html)
+* [Struct inheritance is overused](http://thepugautomatic.com/2013/08/struct-inheritance-is-overused/)
+* [Right way to override a setter in Rails](http://stackoverflow.com/questions/10464793/what-is-the-right-way-to-override-a-setter-method-in-ruby-on-rails)
+* [Overwriting default accessor for ActiveRecord model](http://api.rubyonrails.org/classes/ActiveRecord/Base.html#class-ActiveRecord%3a%3aBase-label-Overwriting+default+accessors)
+* [Avoid Rails when generating JSON responses with Postgres](https://dockyard.com/blog/2014/05/27/avoid-rails-when-generating-json-responses-with-postgresql)
+
+```ruby
+def questions=(value)
+  super('hijack')
+  
+  # Or
+  
+  self[:questions] = 'hijack'
+end
+```
 
 ## API Gateway
 

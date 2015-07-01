@@ -91,6 +91,7 @@ It's not about the product, it's about your users.
 * [Asking who's the customer](http://kottke.org/15/05/asking-whos-the-customer)
 * [Design & Delivery](http://www.wightco.com/design-delivery)
 * [Habituation - People can't predict the future](https://www.youtube.com/watch?v=9uOMectkCCs)
+* [Un-suck the Enterprise](http://alistapart.com/column/unsuck-the-enterprise)
 
 ## Research
 
@@ -101,6 +102,8 @@ User research == Customer development
 * [Ethnographic Research](http://robots.thoughtbot.com/ethnographic-research-exercise)
 
 ## Product Design
+
+* [Convergent and divergent thinking](http://blog.dobt.co/2015/06/23/project-management/)
 
 Product design is a set of problem solving processes and methods used to make better products for people everywhere.
 

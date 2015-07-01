@@ -134,6 +134,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [A-Z of free plugins](http://marketblog.envato.com/resources/z-free-sketch-app-plugins/)
 * [Wireframe](https://github.com/teracyhq/wireframe)
 * [Material design color palette](https://github.com/t32k/material-design-color-palette-sketch-plugin)
+* [Sketch Data Populator](https://github.com/preciousforever/sketch-data-populator)
 
 ## Videos
 
