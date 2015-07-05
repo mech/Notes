@@ -107,6 +107,8 @@ If you disable icc via `--icc=false`, container A cannot access container B unle
 
 ## docker0
 
+* [Set the IP of the Docker bridge with Systemd](http://container-solutions.com/set-the-ip-of-the-docker-bridge-with-systemd/)
+
 Every Docker container is assigned an IP address though the `docker0` interface.
 
 ```

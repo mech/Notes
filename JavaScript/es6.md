@@ -50,6 +50,20 @@ let [x, y, ...rest] = ['a', 'b', 'c', 'd']; // rest = ['c', 'd']
 let {city: c, state: s} = getAddress();
 ```
 
+```js
+const {clone, assign} = require('lodash'); // Means _.clone and _.assign
+
+function makeRequest(url, method, params) {
+  var config = {url, method, params};
+
+  // Same as  var config = {
+    url: url,
+    method: method,
+    params: params  }}
+
+var o = {p: 42, q: true};
+var {p, q} = o; // Means o.p and o.q```
+
 ## Object.assign, Cloning, Extending
 
 * [Merging objects via `Object.assign()`](http://www.2ality.com/2014/01/object-assign.html)
@@ -80,6 +94,8 @@ class Person extends React.Component {
   static propTypes = {
     user: React.PropTypes.object.isRequired  }
   
+  static defaultProps = { initialCount: 0 };
+  
   setName(name) {
     this.setState({ name: name });  }    
   render() {
@@ -89,10 +105,27 @@ class Person extends React.Component {
 // No more getDefaultProps
 Person.defaultProps = { name: 'anonymous' };
 ```
+	
+## Generator
+
+* [CO - Control flow goodness](https://github.com/tj/co)
+
+A generator is basically a function whose execution can be paused and then resumed later, remembering its state.
+
+ES7 introduce the `async` and `await` keywords, removing the need for a generator library altogether.
 
 ## Async and Await
 
 * [ecmascript-asyncawait](https://github.com/lukehoban/ecmascript-asyncawait)
+
+```js
+// Using Alt.js
+async login(data) {
+  try {
+    const response = await axios.post('/login', data);
+    this.dispatch({ok: true, user: response.data});  } catch (err) {
+    this.dispatch({ok: false, error: err.data});  }}
+```
 
 # DOM
 

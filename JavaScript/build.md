@@ -101,6 +101,7 @@ No context between transformations. More tasks, more slow-down. TMP file hell!
 * [grunt-release](https://github.com/geddski/grunt-release)
 * [grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent)
 * [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
+* [grunticon](http://www.grunticon.com/)
 
 ## Broccoli
 

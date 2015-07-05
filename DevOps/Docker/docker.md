@@ -20,6 +20,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Game Changer blog](http://tech.gc.com/)
 * [Why and how to use Docker for development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24)
 * [Deep dive into Docker storage drivers](https://www.youtube.com/watch?v=9oh_M11-foU)
+* [Notes on devicemapper](http://www.projectatomic.io/blog/2015/06/notes-on-fedora-centos-and-docker-storage-drivers/)
 * [Docker .bash_history tip](https://zwischenzugs.wordpress.com/2015/06/14/my-favourite-docker-tip/)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
@@ -88,6 +89,7 @@ Operationalized and Orchestration.
 * [Docker - Three Ways Ops](https://blog.docker.com/2015/05/docker-three-ways-ops/)
 * [Marriage of Ansible and Docker](https://bildung.xarif.de/xwiki/bin/Articles/The+Marriage+of+Ansible+and+Docker)
 * [Process management in Docker containers - Using Supervisord](http://blog.zhaw.ch/icclab/process-management-in-docker-containers/)
+* [Optimizing your Docker workflow](http://www.koddi.com/optimizing-workflow-docker/)
 
 ```
 docker version
@@ -167,6 +169,9 @@ docker pull (Preemptively pull down images)
 One of the reasons Docker is so lightweight is because of these layers. When you change a Docker image, like update an application to a new version, a new layer gets built. Thus, rather than replacing the whole image or entirely rebuilding, only that layer is added or updated. You don't need to distribute a whole new image, just the update, making it faster and simpler.
 
 ### Building our own images
+
+* [What is a Dockerfile?](https://www.conetix.com.au/blog/what-is-a-dockerfile)
+* [Containerizing opinionated applications](http://blog.codeship.com/containerizing-opinionated-applications/)
 
 2 ways to do it:
 

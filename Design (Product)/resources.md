@@ -93,6 +93,10 @@ It's not about the product, it's about your users.
 * [Habituation - People can't predict the future](https://www.youtube.com/watch?v=9uOMectkCCs)
 * [Un-suck the Enterprise](http://alistapart.com/column/unsuck-the-enterprise)
 
+## Data-Driven Design
+
+* [Designing data-driven interfaces](https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631)
+
 ## Research
 
 User research == Customer development
@@ -104,6 +108,7 @@ User research == Customer development
 ## Product Design
 
 * [Convergent and divergent thinking](http://blog.dobt.co/2015/06/23/project-management/)
+* [Slack - Teach users why they need your product](http://firstround.com/review/From-0-to-1B-Slacks-Founder-Shares-Their-Epic-Launch-Strategy/)
 
 Product design is a set of problem solving processes and methods used to make better products for people everywhere.
 

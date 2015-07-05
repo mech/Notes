@@ -100,6 +100,7 @@
 * [Text input effect](http://tympanus.net/Development/TextInputEffects/)
 * [**Checkout concept**](http://tympanus.net/Development/CheckoutConcepts/sidebar.html)
 * [Animated sign-up flow](http://codyhouse.co/gem/animated-sign-up-flow/)
+* []
 
 
 ## Famo.us
@@ -135,6 +136,7 @@
 ## Examples
 
 * [Nice breakdown of Dropbox Guide](http://websitedeconstructions.com/dropbox-guide/)
+* [Dropbox 2-blocks template](http://codyhouse.co/gem/2-blocks-template/)
 
 To move heading down a bit, and paragraph to move up a bit:
 

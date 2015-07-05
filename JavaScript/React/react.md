@@ -10,8 +10,6 @@
 
 * [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 * [Problem with Backbone rendering view](http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/)
-* [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
-* [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
 * [Context in React and Dependency Injection](http://jaysoo.ca/2015/06/09/react-contexts-and-dependency-injection/)
 
 > The value of DI is that we can depend on abstract ideas instead of concrete implementations.
@@ -69,6 +67,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
 * Domain-specific components are "containers" and atomic components are "components"
+* [MediaMath's Strand - Using Web Components](http://mediamath.github.io/strand/)
 
 ```
 { this.state.show && 'This is Shown' }
@@ -199,6 +198,7 @@ Render (and re-render) a view hierarchy to any sort of backend you want. It is D
 What makes UI so hard? State changing over time is evil.
 Model your UI as pure function.
 
+* [**A small open-source app made with React and Rails-api**](http://jamesknelson.com/introducing-memamug-a-small-open-source-app-made-with-react-and-rails-api/)
 * [**Build with React**](http://buildwithreact.com/)
 * [**Nice tutorial to start**](http://blog.risingstack.com/the-react-way-getting-started-tutorial/)
 * [**$19 book**](http://swizec.com/reactd3js)
@@ -463,6 +463,9 @@ Take a moment and think more critically about where `state` should be owned in t
 * [Radium - inline styles on React elements](http://projects.formidablelabs.com/radium/)
 * [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
 * [**Interoperable CSS**](http://glenmaddern.com/articles/interoperable-css)
+* [The debate around 'Do we even need CSS anymore?'](https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/)
+* [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
+* [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
 
 ## React Mount Runtime
 
@@ -676,6 +679,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [London React meetup - ES6 Modules and React with SystemJS](https://www.youtube.com/watch?t=20&v=NpMnRifyGyw)
 * [E4E Developer Conf 2014 - Reactive, Component-based UIs with React](https://www.youtube.com/watch?v=uwnjDXtJufs)
 * [All you need to know to get started with React](https://www.youtube.com/watch?v=gzl80JozIZE)
+* [Learn React, Flux, and Flow](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
 
 ## Twitter
 

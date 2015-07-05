@@ -10,6 +10,7 @@ Use R as your calculator and spreadsheet. Anything you can do it in spreadsheet,
 * [Quick-R](http://www.statmethods.net/)
 * [Public heath with R](https://www.youtube.com/watch?v=m3vJJHyL2Os)
 * [NYT](https://github.com/TheUpshot/leo-senate-model)
+* [Wes Anderson color palette for R](https://github.com/karthik/wesanderson)
 
 ```
 // If you encounter LC_CTYPE error

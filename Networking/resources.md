@@ -56,10 +56,12 @@ Use serial port for COM interface, but now a lot of modern switch has USB or min
 **Enable Default Gateway**
 
 ```
-switch>enable
-switch#
-switch(config)#ip default-gateway 192.168.1.1
-switch(config)#end
+Switch>enable
+Switch#
+Switch(config)#ip default-gateway 192.168.1.1
+Switch(config)#end
+
+Switch#show run
 ```
 
 ## Router

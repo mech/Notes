@@ -33,6 +33,8 @@ Semantic interface, anti-corruption in DDD. Mostly at persistence layer.
 
 ## Microservices
 
+Single "job to be done" that are exposed via an API!
+
 Disruptor: Continuous Delivery with Containerized Microservices.
 
 Built for replacement (not reuse). You should not be afraid to throw away your implementation if it suck. Make it micro.

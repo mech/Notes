@@ -248,6 +248,7 @@ Remember to enable "Memory and Swap Accounting".
 * [**The memory cgroups and swap accounting**](http://docs.docker.com/installation/ubuntulinux/#memory-and-swap-accounting)
 * [UFW - Uncomplicated Firewall](https://help.ubuntu.com/community/UFW)
 * [How to setup a firewall with UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+* [Upgrading Docker](http://blog.thestateofme.com/2015/06/23/upgrading-docker/)
 
 We need to use the Docker team's DEB packages.
 

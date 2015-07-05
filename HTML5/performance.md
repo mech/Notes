@@ -34,7 +34,6 @@
 * [async vs defer](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 * [Scroll problem](http://aerotwist.com/blog/some-gotchas-that-got-me/)
 * [Web Performance Matters](http://www.perf.rocks/)
-* [Setting a performance budget](http://timkadlec.com/2013/01/setting-a-performance-budget/)
 * [loadCSS](https://github.com/filamentgroup/loadCSS)
 * [Solving rendering perf puzzles](http://jakearchibald.com/2013/solving-rendering-perf-puzzles/)
 * [fastdom](https://github.com/wilsonpage/fastdom)
@@ -62,7 +61,11 @@ Perceived = f(Expected Performance, UX, Actual Performance)
   transition: height 0.4s ease-out;	}
 ```
 
-**Set your performance budget**
+## Set your performance budget
+
+* [Setting a performance budget](http://timkadlec.com/2013/01/setting-a-performance-budget/)
+* [Performance Budget Metrics](http://timkadlec.com/2014/11/performance-budget-metrics/)
+* [How to make a performance budget](http://danielmall.com/articles/how-to-make-a-performance-budget/)
 
 ```
 window.performance.mark('foo-bar');

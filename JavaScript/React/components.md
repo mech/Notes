@@ -8,6 +8,7 @@
 * [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 * [Truly encapsulated React components?? Avoid classes?](https://github.com/anvaka/maco)
 * [Many ways to write React component without using ES6 classes](https://gist.github.com/jquense/47bbd2613e0b03d7e51c)
+* [react-class](https://github.com/zippyui/react-class/blob/master/README.md)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -65,7 +66,7 @@ componentWillUnmount() {
 
 ### componentWillUpdate
 
-Great for triggering animation.
+Great for triggering animation. You cannot use `this.setState()` here!
 
 ```js
 componentWillUpdate(nextProps, nextState) {
@@ -172,6 +173,7 @@ Data binding is a hack around re-rendering.
 * [react-date-picker](http://zippyui.com/react-date-picker/)
 * [react-springs](https://github.com/threepointone/react-springs)
 * [react-autocomplete](https://github.com/synapsestudios/react-autocomplete)
+* [react-pikaday](https://github.com/thomasboyt/react-pikaday)
 * [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
 * [**Task Calendar**](http://hilary-l.github.io/)
 * [react-select-search](https://github.com/tbleckert/react-select-search)

@@ -61,6 +61,9 @@ Use Neo4j for candidate's relationship with each other.
 * [Porting ActiveRecord validations to Postgres](http://shuber.io/porting-activerecord-validations-to-postgres/)
 * [Rails support for UUID](http://blog.nakonieczny.it/posts/rails-support-for-uuid/)
 * [Rails Guides](http://edgeguides.rubyonrails.org/active_record_postgresql.html)
+* [Postgres, the best tool you're already using](http://adamsanderson.github.io/railsconf_2013/)
+* [Using arrays in Rails](http://blog.arkency.com/2014/10/how-to-start-using-arrays-in-rails-with-postgresql/)
+* [Postgres arrays the right way](http://blog.heapanalytics.com/dont-iterate-over-a-postgres-array-with-a-loop/)
 
 ## Migration from MySQL
 
@@ -145,6 +148,7 @@ GIN is just a B-tree, with efficient storage of duplicates. If you have need for
 * [An explanation of JSONB](http://stackoverflow.com/questions/22654170/explanation-of-jsonb-introduced-by-postgresql)
 * [complex??](http://stackoverflow.com/questions/18404055/index-for-finding-an-element-in-a-json-array)
 * [Some nice gist to follow](https://gist.github.com/fnando/f672c9243186933b3c8e)
+* [What I think of jsonb](http://pgeoghegan.blogspot.in/2014/03/what-i-think-of-jsonb.html)
 
 ```sql
 -- Last array

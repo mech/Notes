@@ -55,6 +55,7 @@ Interaction design (IxD) focuses on user behaviors and motivations. IxD asks WHY
 * [Rich Corinthian Leather](http://www.macintosh.fm/transcript/1)
 * [Design UI with data](https://medium.com/@joshpuckett/modern-design-tools-using-real-data-62d499e97482)
 * [Designing with Data](https://medium.com/design-at-depop/designing-with-data-7f6bcd907f0a)
+* [Legibility ≠ Optional](https://medium.com/@colm_roche/legibility-optional-764710e769f4)
 
 Interaction design begin with computer. The need for feedback loop and mental model.
 

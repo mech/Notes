@@ -40,6 +40,7 @@
 * [Flux without Flux: Using Flux in plain React](http://gbanis.com/blog/flux-without-flux-using-flux-architecture-plain-react/)
 * [Define the data to fetch in a declarative way with React](http://arqex.com/1058/define-the-data-to-fetch-declaratively-with-react)
 * [Getting to know Flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
+* [Combining Flux and FRP](https://medium.com/@milankinen/combining-flux-and-frp-hello-ffux-b04ff20fcbc6)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -149,6 +150,10 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 ## Authentication with Flux
 
 * [Adding authentication to your React Flux app](https://auth0.com/blog/2015/04/09/adding-authentication-to-your-react-flux-app/)
+
+## Alt
+
+* [Alt.js - Flux for fun](http://s3.jrw.fi/wwweeklies-altjs/index.html#/)
 
 ## Flummox
 

@@ -103,3 +103,42 @@ At the host, prepare your `jobline_app_config` to include secrets and other API 
 ▶ docker run -d -t --env-file jobline_app_config nginx
 ```
 
+## Dockerfile examples
+
+```dockerfile
+FROM ruby:2.2.2
+
+RUN apt-get update -qq && apt-get install -y build-essential
+# for postgres
+RUN apt-get install -y libpq-dev
+
+# for nokogiri
+RUN apt-get install -y libxml2-dev libxslt1-dev
+
+# for a JS runtime
+# patch the version of Node since apt-get would grab an old version
+RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+RUN apt-get install -y nodejs
+
+# for npm task runners
+# grab newer version, not from apt-get
+RUN curl -L https://www.npmjs.com/install.sh | sh
+
+ENV APP_HOME /project
+RUN mkdir $APP_HOME
+
+WORKDIR /tmp
+COPY Gemfile Gemfile
+COPY Gemfile.lock Gemfile.lock
+COPY package.json package.json
+RUN bundle install
+RUN npm install
+
+ADD . $APP_HOME
+WORKDIR $APP_HOME
+
+# for running grunt task, which builds SVG sprites
+RUN npm install -g grunt-cli
+
+ADD . $APP_HOME
+```

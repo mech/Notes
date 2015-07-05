@@ -21,6 +21,10 @@ DPDK accelerated OVS integration.
 * Backup strategy
 * Database tuning
 
+## Mesos
+
+* [Mesos Sandbox using Docker Compose](https://spof.io/blog/2015/06/23/mesos-sandbox-using-docker-compose/)
+
 ## Calico
 
 * [Project Calico Experiments](http://www.greenhills.co.uk/2015/05/22/projectcalico-experiments.html)

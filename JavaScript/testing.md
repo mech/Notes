@@ -4,10 +4,16 @@
 * [TraceGL](http://badassjs.com/post/48702496345/tracegl-a-javascript-codeflow-visualization-and)
 * [Mock Builder - Save HAR file](https://github.com/jakefeasel/mockbuilder)
 
-## karma
+## Test Runners
+
+There are 2 test runners, Karma.js or Venus.js.
+
+### karma
 
 * [karma-browserify](https://github.com/xdissent/karma-browserify)
 * [Karma and browserify](http://shcatula.wordpress.com/2014/02/16/karma-browserify/)
+
+### Venus
 
 ## Integration Testing
 
