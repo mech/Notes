@@ -20,6 +20,7 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [Consumer-Driven Contracts](http://martinfowler.com/articles/consumerDrivenContracts.html)
 * [**Designing REST + JSON APIs**](https://stormpath.com/blog/designing-rest-json-apis/)
 * [Understanding Rails Authenticity Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token?rq=1)
+* [Comply with JSON API specification](https://github.com/cerebris/jsonapi-resources)
 
 
 ## Rails ORM/ActiveModel attributes
@@ -77,6 +78,8 @@ There is also token revocation that allows us to invalidate a specific token and
 ## Sorting
 
 ## Pagination
+
+* [Issue #977 - Pagination Serializer](https://github.com/rails-api/active_model_serializers/pull/977)
 
 ## Videos
 

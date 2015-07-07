@@ -6,6 +6,7 @@ From tables to graphs. From CSV to plot. Numbers are central to our understandin
 
 Numbers have an important story to tell, and it is up to us to help them tell it.
 
+* [**Designing data-driven interfaces**](https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631)
 * [The Data Visualisation Catalogue](http://www.datavizcatalogue.com/)
 * [**Data visualization for server library**](http://lightning-viz.org/)
 * [**Dataveyes**](http://dataveyes.com/#!/en/works)
@@ -34,6 +35,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Build charts using SQL](http://fnordmetric.io/chartsql/)
 * [Best data visualization projects of 2014](http://flowingdata.com/2014/12/19/the-best-data-visualization-projects-of-2014-2/)
 * [Some nice examples](http://duhoang.com/)
+* [**Three charts are all I need**](https://signalvnoise.com/posts/3388-three-charts-are-all-i-need)
 
 ---
 
@@ -46,6 +48,11 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Well-Formed Data](http://well-formed-data.net/)
 * [Sankey diagram](http://www.sankey-diagrams.com/)
 * [Andy Woodruff](http://www.cartogrammar.com/blog/)
+
+## Tools
+
+* [charted.co - By Medium](https://medium.com/data-lab/introducing-charted-15161b2cd71e)
+* [Designing better charts with Goole sheets](https://medium.com/product-design-adventures/designing-better-charts-with-google-sheets-illustrator-and-sketch-bbdae473cf9)
 
 ## Mobile Visualization
 

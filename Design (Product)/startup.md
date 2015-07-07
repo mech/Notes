@@ -21,6 +21,27 @@
 
 > It would never have happened without the CEO making it happen. It was nobody else's top priority.
 
+## Tips
+
+* Charge user first (no freemium)
+* Made customer feedback the epicentre of its efforts
+* The importance of prioritising your product's unique features (and why you can let go of the rest)
+* Becoming essential to your customers right away.
+* Teach users why they need your product
+* Feedback
+* Did I mention feedback?
+* Make changes and "watch" what happened.
+* Compare to existing ___, priming your product as a better solution.
+* Build for #team, rather than whole company?
+* Make active listening your core competency.
+* Finding little oversights exercise.
+* If your product is Great, it doesn't need to be Good - Paul Buchheit
+* If you do a few things incredibly well, the rest doesn't really matter.
+* Always have a solid good search.
+* Suddenly you're ahead of the game because you're the best at the things that really impact your users.
+* "Everyone has a plan until they get punch in the face" - Customer is the true reality.
+
+
 ## Growth
 
 * [Launch step by step - Winning one customer at a time](http://www.launchsolid.com/launching-myth/)

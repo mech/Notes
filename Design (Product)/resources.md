@@ -109,6 +109,7 @@ User research == Customer development
 
 * [Convergent and divergent thinking](http://blog.dobt.co/2015/06/23/project-management/)
 * [Slack - Teach users why they need your product](http://firstround.com/review/From-0-to-1B-Slacks-Founder-Shares-Their-Epic-Launch-Strategy/)
+* [This is how you get people to trust your product](http://firstround.com/review/Urbansitter-Lynn-Perkins/)
 
 Product design is a set of problem solving processes and methods used to make better products for people everywhere.
 

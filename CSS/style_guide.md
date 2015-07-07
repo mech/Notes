@@ -148,6 +148,7 @@ grep "info" * -R
 * [Code guide by @mdo](http://codeguide.co/#css)
 * [OpenUI5 from SAP](http://openui5.org/getstarted.html)
 * [MediaMath's Strand using Web Components](http://mediamath.github.io/strand/)
+* [**Basscss**](http://www.basscss.com/)
 
 ## Naming Convention
 

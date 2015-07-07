@@ -151,6 +151,15 @@ FitAgent, Fit4Hire, FitSense
 ## Data
 
 * [How Big Data is Changing the Hiring Game](http://hirevue.com/blog/how-big-data-is-changing-the-hiring-game)
+* [Everything we wish we'd known about building data products](http://firstround.com/review/everything-we-wish-wed-known-about-building-data-products/)
+
+> Deciding what data to expose to people isn't just about how much - it's about what it says too. One idea Patil and Belkin played around with was marketing jobs to people - like, "Hey, you should apply for this job because it matches your skills!" Soon, they realized this approach was fraught with peril.
+> 
+> "There was too high of a chance that we'd accidentally recommend a more senior person should apply for an internship, or that a confirmed California resident should move to Idaho for work. When stuff like that happens, people get pretty pissed off, and it can mess up your brand pretty fast," Patil says. "You have to think about what that particular feature will actually be like for a user when he or she sees it. This is where you need to be clever - and when it comes to data products, clever beats smart nine times out of ten."
+> 
+> The clever solution in this case was to approach job recommendations from a different angle. If "Bill" is the user they are trying to reach, then instead of sending recommended job openings directly to Bill, they decided to send them to his network with the short note: Recommend Bill for this job. It used the exact same algorithm, but with a little twist, it took care of the hard relevancy problems
+> 
+> "If Bill hears from one of his friends that they think he should take a job, he can still say, 'Yeah sure man, you're an asshole,' but that's rarer, and the site would never be blamed," Patil says. "Beyond that, we get to collect all the data that allows use to figure out what's going on with this feature and make it even better."
 
 Business transaction data is well-understood and solve by SQL. Unstructured data like text, images and videos can't be solved by SQL.
 
