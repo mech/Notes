@@ -9,6 +9,7 @@
 * [Truly encapsulated React components?? Avoid classes?](https://github.com/anvaka/maco)
 * [Many ways to write React component without using ES6 classes](https://gist.github.com/jquense/47bbd2613e0b03d7e51c)
 * [react-class](https://github.com/zippyui/react-class/blob/master/README.md)
+* [**Best example of distributed component: react-soundplayer**](http://labs.voronianski.com/react-soundplayer/)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -181,6 +182,10 @@ Data binding is a hack around re-rendering.
 * [react-absolute-grid](https://github.com/jrowny/react-absolute-grid)
 * [instatype - Simple React Typeahead](https://github.com/gragland/instatype)
 * [react-mentions](https://github.com/effektif/react-mentions)
+* [react-ux-password-field - Using zxcvbn](https://seethroughtrees.github.io/react-ux-password-field/)
+* [**react-soundplayer**](http://labs.voronianski.com/react-soundplayer/)
+* [**Amazing constraint-base grid system**](https://github.com/jxnblk/rgx)
+* [Spectacle - Presentation with good PDF support](https://github.com/FormidableLabs/spectacle)
 
 ### D3
 

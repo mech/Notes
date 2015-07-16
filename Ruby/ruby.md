@@ -20,6 +20,20 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Basic tools for sniffing out errors](http://6ftdan.com/allyourdev/2015/02/20/some-basic-ruby-tools-for-sniffing-out-errors/#J7YH)
 * [Replace rake with thor?](http://codecrate.com/2014/01/replace-rake-with-thor.html)
 
+## Service Object
+
+> Service object defines an application boundary that establishes a set of available operations.
+> 
+> Service object encapsulate cross-cutting operations.
+> 
+> Service object is standalone operation. Typically only one instance of each service type within the execution context.
+> 
+> In Rails, is everything that happens in the controller without all the HTTP-related stuff (`params`, `render`, `redirect`).
+> 
+> Service object encapsulates a single process of the business logic.
+> 
+> Service object is also not RESTful API, SOA, or even microservices.
+
 ## Gem Authoring
 
 Short story: `bundle gem gem_name`

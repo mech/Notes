@@ -382,6 +382,8 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [Dribbble new API](http://developer.dribbble.com/v1/)
 * [Hacker News API](http://blog.ycombinator.com/hacker-news-api)
 * [NYTimes](http://developer.nytimes.com/docs/read/article_search_api_v2)
+* [Nylas](https://nylas.com/docs/api#overview)
+* [Quip API](https://quip.com/api/reference)
 
 ## Videos
 

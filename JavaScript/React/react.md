@@ -67,7 +67,8 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
 * Domain-specific components are "containers" and atomic components are "components"
-* [MediaMath's Strand - Using Web Components](http://mediamath.github.io/strand/)
+* [**MediaMath's Strand - Using Web Components**](http://mediamath.github.io/strand/)
+* [**Material Design Lite**](http://www.getmdl.io/)
 
 ```
 { this.state.show && 'This is Shown' }
@@ -268,6 +269,7 @@ Model your UI as pure function.
 * [React from scratch](http://ryanfunduk.com/articles/react-from-scratch/)
 * [**Introduction to React.js diff algorithm**](http://www.schibsted.pl/2015/06/react-internals-introduction-to-react-js-diff-algorithm/)
 * [Ask HN: React - Do you use it? Do you like it?](https://news.ycombinator.com/item?id=9751539)
+* [**Making performant React application**](http://greweb.me/2015/08/making-performant-react-applications/)
 
 ```
 var gulp = require('gulp');
@@ -344,6 +346,7 @@ React.initializeTouchEvents(true);
 ## JSX
 
 * [A case for JSX](https://medium.com/@thinkfunctional/a-case-for-jsx-73763ee9aa03)
+* [WTF is JSX](https://gist.github.com/developit/da77a4d3bbf365908c8c)
 
 JSX is the key to React and it's purpose is to build composable tree/hierarchical UI.
 
@@ -466,6 +469,7 @@ Take a moment and think more critically about where `state` should be owned in t
 * [The debate around 'Do we even need CSS anymore?'](https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/)
 * [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
 * [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
+* [Styling React components in Sass](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
 
 ## React Mount Runtime
 

@@ -2,6 +2,7 @@
 
 https://vividcortex.com/pricing/
 
+* [**Don't let your data out of the database**](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
 * [**Discovering the science behind Postgres indexes**](http://blog.codeship.com/discovering-computer-science-behind-postgres-indexes/)
 * [**pgcli**](http://pgcli.com/)
 * [**Use the Index, Luke**](http://use-the-index-luke.com/)
@@ -149,6 +150,7 @@ GIN is just a B-tree, with efficient storage of duplicates. If you have need for
 * [complex??](http://stackoverflow.com/questions/18404055/index-for-finding-an-element-in-a-json-array)
 * [Some nice gist to follow](https://gist.github.com/fnando/f672c9243186933b3c8e)
 * [What I think of jsonb](http://pgeoghegan.blogspot.in/2014/03/what-i-think-of-jsonb.html)
+* [**Unleash the power of storing JSON in Postgres**](http://blog.codeship.com/unleash-the-power-of-storing-json-in-postgres/)
 
 ```sql
 -- Last array
@@ -288,6 +290,7 @@ CREATE TYPE squid AS (
 * [OPM]()
 * [PoWA]()
 * [pg_prewarm - Loading relation data into memory]()
+* [Wagon - SQL Editor](http://www.wagonhq.com/)
 
 ## Backup
 

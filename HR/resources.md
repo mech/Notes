@@ -8,6 +8,7 @@ HR silo - HR-optimized organization represent friction. Barriers. The danger of 
 
 **Hiring Pipeline** - First, Pipeline Construction. Map out your Stages. Prescribed, but you can add your own stages. Pipeline stages are "feedback opportunity" between recruiter, candidate, and clients. Each stage can have rules, checklist, milestone, checker, linter, etc. Confidence level will be high as the stages progresses to Hired. Increasing confidence as the stage progresses. Beware of ineffective notification on pipeline. Alert fatigue.
 
+* [**What is the future of HR?**](http://www.quora.com/What-is-the-future-of-human-resources-technology)
 * [**Can an Algorithm Hire Better Than a Human?**](http://www.nytimes.com/2015/06/26/upshot/can-an-algorithm-hire-better-than-a-human.html)
 * [Guess who doesn't fit in at work](http://www.nytimes.com/2015/05/31/opinion/sunday/guess-who-doesnt-fit-in-at-work.html)
 * [Top 100 ExOs](http://top100.exponentialorgs.com/)
@@ -46,6 +47,8 @@ HR silo - HR-optimized organization represent friction. Barriers. The danger of 
 * [Stop Using LinkedIn](http://www.stopusinglinkedin.com/)
 * [Assessing Employee Performance](https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a)
 * [Why hiring is so hard in tech](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017)
+* [**Using Trello for candidate tracking**](http://www.looksgoodworkswell.com/using-trello-for-candidate-tracking/)
+* [How to hire a lot of talented people, very quickly](http://ryancarson.com/post/23990414000/how-to-hire-a-lot-of-talented-people-very-quickly)
 
 ## Interview
 

@@ -92,3 +92,7 @@
 * [Motion design](http://paulstamatiou.com/design-provide-meaning-with-motion/)
 * [The shape of materials to come](http://five.agency/the-shape-of-materials-to-come/)
 * [Showcase of the best Material Design](http://www.materialup.com/)
+* [Material design icons, goodies and starter kits](http://www.smashingmagazine.com/2015/07/08/material-design-icons-templates-tools/)
+* [Material palette](http://www.materialpalette.com/)
+* [Material Up](http://www.materialup.com/posts/c/resources)
+* [Polymer starter kit](https://www.youtube.com/watch?v=xz-yixRxZN8)

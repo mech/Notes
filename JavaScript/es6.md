@@ -84,11 +84,16 @@ var six = [1, 2, 3].reduce((sum, n) => {
 ## React
 
 ```js
-class Person extends React.Component {
-  constructor(props) {
-    super(props);
+import React from 'react';
+
+let { PropTypes, Component } = React;
+
+class Person extends Component {
+  constructor(...args) {
+    super(...args);
     // No more getInitialState
-    this.state = { name: props.name };  }
+    this.state = {      name: props.name
+    };  }
   
   // ES7
   static propTypes = {
@@ -102,8 +107,13 @@ class Person extends React.Component {
     return();  }}
 
 // ES6, not ES7
+Person.propTypes = {
+  items: PropTypes.array.isRequired};
+
 // No more getDefaultProps
 Person.defaultProps = { name: 'anonymous' };
+
+export default Person;
 ```
 	
 ## Generator

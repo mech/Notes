@@ -20,6 +20,8 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 > 
 > Be harsh, in the interest of being excellent.
 
+* [Quip](https://quip.com)
+
 ## Normalised list of skill
 
 If enough people add the same skill, we can normalize it. See https://vimeo.com/110012665
@@ -152,6 +154,8 @@ FitAgent, Fit4Hire, FitSense
 
 * [How Big Data is Changing the Hiring Game](http://hirevue.com/blog/how-big-data-is-changing-the-hiring-game)
 * [Everything we wish we'd known about building data products](http://firstround.com/review/everything-we-wish-wed-known-about-building-data-products/)
+* [Why you need to embrace the big data trend in HR](http://www.entrepreneur.com/article/244326)
+* [Hire better talent with a big data scientist](http://www.entrepreneur.com/article/235211)
 
 > Deciding what data to expose to people isn't just about how much - it's about what it says too. One idea Patil and Belkin played around with was marketing jobs to people - like, "Hey, you should apply for this job because it matches your skills!" Soon, they realized this approach was fraught with peril.
 > 
@@ -239,6 +243,12 @@ Remove NRIC on TS PDF.
 
 What happen when timesheet was submitted for pending approval and CA take leaves? Approver should get alert/warning that there is pending leaves being add on to a populated timesheet day's hours. If the leave is approved on that day, the timesheet must null out all the hours and reflect the new total hours being logged. **Make it reactive!**
 
+---
+
+When email for timesheet approval, we can show the overall total-hour taken by each candidates.
+
+If there is only 1 candidate to approve, we can show all the details in the email and one "Approve" button which will approve without requiring them to login, or login automatically.
+
 ## Change of Approver
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
@@ -261,6 +271,8 @@ Publish conclusion.
 
 * [POP in iPhone](http://support.apple.com/en-sg/HT201855)
 * [POP vs IMAP](http://www.pop2imap.com/)
+
+We send reminder to approve timesheets for client (approver) and list down the candidate names. If they are like Chris Goh who need to approve 47 candidates, and he only approve 20, our next email reminder will "encourage" him to close it in the last mile by introducing some cute animation? characters? Or we can show checkboxes where those approved candidates will get checked or strike off to let him know he is so close to approving for all.
 
 ## Account Management
 

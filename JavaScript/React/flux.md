@@ -120,6 +120,7 @@ There are plenty of ways to manage your data:
 * [react-transmit - Relay-inspired](https://github.com/RickWong/react-transmit)
 * [**Lux.js**](http://www.smashingmagazine.com/2015/06/22/qualities-of-good-flux-implementations/)
 * [Postal.js - Pub/Sub library](https://github.com/postaljs/postal.js)
+* [Arch - SPA framework inspired by Om](https://github.com/arch-js/arch)
 
 **Others**
 
@@ -176,7 +177,9 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * `waitFor` is replaced in favour to handle serial and parallel data flows.
 * Action creators not needed.
 
+## Redux
 
+* [awesome-redux](https://github.com/xgrommx/awesome-redux)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# States and Props
+# Props, States and Instance Variables
 
 > Debugging mutable state is a brainteaser: "The butcher lives in the red house on Wed. The odd houses were painted on Sunday..."
 
@@ -59,6 +59,28 @@ The performance cost model of React is very simple to understand: every `setStat
 ## State
 
 **Warning**: Do not sync states, you will screw it up and make it out of sync! Because you need a single source of truth.
+
+Do not use state, use props unless you absolutely know what you are doing!
+
+States are for things that are temporary and don't need to be persisted. Like whether the modal `isVisible`, whether the editor `isEditing`. Modal component won't worry if that state is lost for example.
+
+## Instance Variables
+
+Good for non-renderable data:
+
+* Removing event listeners
+* Callback cancellations
+* Caches (often things from render)
+* Timer IDs
+
+```js
+componentWillMount() {
+  this.listenerId = AppStore.addListener((state) => {
+    this.setState({user: state.user})  });}
+
+componentWillUnmount() {
+  AppStore.removeListener(this.listenerId);}
+```
 
 ## PropTypes
 

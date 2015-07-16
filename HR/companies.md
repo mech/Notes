@@ -49,6 +49,8 @@ Notable companies in HR domain.
 * [**Textio**](https://textio.com/)
 * [**Doxa**](http://www.doxascore.com/)
 * [**Gap Jumpers**](https://www.gapjumpers.me/)
+* [Paysavvy](https://paysavvy.com/)
+* [Quip](https://quip.com)
 
 ## Executive Search
 

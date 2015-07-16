@@ -36,11 +36,13 @@ Routing is just data: `location.hash.substr(1)`
 3. You simply use the `<RouteHandler />` component and it will render the active child route.
 
 ```
-<Route name="app" path="/" handler={App}>
-  <Route name="inbox" handler={Inbox} />
-  <Route name="calendar" handler={Calendar} />
-  <DefaultRoute handler={Dashboard} />
-</Route>
+<Router>
+  <Route name="app" path="/" component={App}>
+    <Route name="inbox" component={Inbox} />
+    <Route name="calendar" component={Calendar} />
+    <DefaultRoute component={Dashboard} />
+  </Route>
+</Router>
 
 Router.run(routes, function(Handler) {
   React.render(<Handler />, document.body);});

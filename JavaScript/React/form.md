@@ -5,6 +5,7 @@
 * [Disable submit button when making Ajax requests](https://medium.com/@collardeau/to-react-from-jquery-disable-a-button-f5f6cc0ea885)
 * [react-json](https://github.com/arqex/react-json)
 * [react-radio-group](https://github.com/chenglou/react-radio-group)
+* [zxcvbn - Password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
 
 Either store the form state within the component or Flux store.
 

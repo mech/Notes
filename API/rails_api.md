@@ -21,6 +21,7 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [**Designing REST + JSON APIs**](https://stormpath.com/blog/designing-rest-json-apis/)
 * [Understanding Rails Authenticity Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token?rq=1)
 * [Comply with JSON API specification](https://github.com/cerebris/jsonapi-resources)
+* [Convert to/from camel case and underscores](https://gist.github.com/timruffles/2780508)
 
 
 ## Rails ORM/ActiveModel attributes
@@ -66,10 +67,16 @@ Every single request will require the token. This token should be sent in the HT
 
 There is also token revocation that allows us to invalidate a specific token and even a group of tokens based on the same **authorization grant**.
 
+## ActiveModel::Serializer
+
+* [Serializer with array](http://stackoverflow.com/questions/17542793/how-do-you-initialize-an-activemodelserializer-class-with-an-activerecordrel)
+
 ## has_secure_password
 
 * [Validating Users with `has_secure_password`](https://quickleft.com/blog/rails-tip-validating-users-with-has_secure_password/)
 * [Why I roll my own authentication](http://www.rvdh.de/2012/01/12/why-i-roll-my-own-authentication/)
+* [**Don't use BCrypt**](http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html)
+* [Taking password storage up a notch](https://blog.8thlight.com/adam-gooch/2012/11/04/taking-password-storage-up-a-notch.html)
 
 ## Sparse Fieldsets
 
