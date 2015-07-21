@@ -1,5 +1,24 @@
 # UI Component
 
+* [AutoResponsive React](http://xudafeng.github.io/autoresponsive-react/)
+* [RxJS at Modern Web UI for Netflix](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
+
+## Style Guides
+
+* [Belle - Configurable React Components with great UX](http://nikgraf.github.io/belle/#/)
+* [MediaMath's Strand - Using Web Components](http://mediamath.github.io/strand/)
+* [Material Design Lite](http://www.getmdl.io/)
+* [Learn from Web Component gallery](http://customelements.io/)
+* [Khan Academy reusable components](http://khan.github.io/react-components/)
+* [Touchstone](https://github.com/jedwatson/touchstonejs)
+* [material-ui](http://material-ui.com/#/)
+* [Reapp](http://reapp.io/)
+* [React Bootstrap](https://react-bootstrap.github.io/components.html)
+* [Elemental UI](http://elemental-ui.com/)
+* [MUI](https://www.muicss.com/)
+* [Grommet](http://grommet.io/docs/)
+* [material-ui](https://github.com/firetix/material-ui)
+
 > At any point in time, you describe how you want your UI to look like.
 
 * [Decomplexifying Code with React](https://www.youtube.com/watch?list=PLYRxaDweTODWcfe6V7XMPn40pE6iNd9ij&v=rI0GQc__0SM)

@@ -6,3 +6,4 @@
 * [Jest in Practice](http://marmelab.com/blog/2015/06/24/jest-in-practice.html)
 * [Testing React components with Karma and Webpack](https://www.codementor.io/reactjs/tutorial/test-reactjs-components-karma-webpack)
 * [Testing with React.js at Codecademy](https://medium.com/about-codecademy/testing-with-reactjs-at-codecademy-2aec88cc4e36)
+* [How React Components Make UI Testing Easy](http://www.toptal.com/react/how-react-components-make-ui-testing-easy)

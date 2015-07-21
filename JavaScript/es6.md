@@ -3,13 +3,18 @@
 * [**Exploring ES6**](https://leanpub.com/exploring-es6/read)
 * [TC39 ECMA262 status and process](https://github.com/tc39/ecma262)
 * [Babel 5.0 released on March 2015](http://babeljs.io/blog/2015/03/31/5.0.0/)
-* [ES6 Features](https://github.com/lukehoban/es6features#enhanced-object-literals)
+* [**ES6 Features**](https://github.com/lukehoban/es6features#enhanced-object-literals)
 * [.eslintrc example](https://github.com/jquery/esprima/blob/master/.eslintrc)
 * [Another .eslintrc example](https://gist.github.com/ericelliott/ce988c1a808ad903a528#file-eslintrc)
 * [**Eric Elliott's eslintrc example**](https://github.com/ericelliott/react-hello/blob/master/.eslintrc)
 * [Babel call for contributors](https://github.com/babel/babel/issues/1347)
 * [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
 * [CoreJS](https://github.com/zloirock/core-js)
+* [**The Boolean Trap**](http://ariya.ofilabs.com/2011/08/hall-of-api-shame-boolean-trap.html)
+* [**JS Rocks**](http://jsrocks.org/)
+* [React on ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/)
+* [**Why Babel Matters**](http://codemix.com/blog/why-babel-matters)
+* [Function Bind](https://github.com/zenparsing/es-function-bind)
 
 `indexOf` uses Strict Equality Comparison. See SameValueZero comparison.
 
@@ -80,6 +85,10 @@ var a = Object.keys(toggleStates).reduce((newStates, key) => {
 var six = [1, 2, 3].reduce((sum, n) => {
 	return sum + n;}, 0);
 ```
+
+## Decorators
+
+* [Exploring ES2016 Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
 
 ## React
 

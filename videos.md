@@ -25,3 +25,5 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [Lean Agile Scotland](https://vimeo.com/leanagilescotland/videos)
 * [Inspirational videos for designers](http://thenuschool.com/inspirational-videos-for-designers-the-full-collection/)
 * [CSSConf New York June 2015](https://2015.cssconf.com/#videos)
+* [Mountain West JavaScript 2015](http://confreaks.tv/events/mwjs2015)
+* [Interaction15](http://interaction15.ixda.org/videos/)

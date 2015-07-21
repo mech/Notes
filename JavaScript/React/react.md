@@ -5,6 +5,8 @@
 - [**Essential JavaScript links**](https://github.com/ericelliott/essential-javascript-links#essential-javascript-links)
 - [**Nice survey tutorial**](http://www.browniesblog.com/A55CBC/blog.nsf/dx/reactjs_tutorial.html)
 - [**Navigating the React ecosystem**](http://www.toptal.com/react/navigating-the-react-ecosystem)
+- [ReactConf 2015 notes](http://chantastic.io/2015-reactjs-conf/)
+- [React Cheatsheet](http://ricostacruz.com/cheatsheets/react.html)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
@@ -53,6 +55,8 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [Idiomatic React](https://github.com/netgusto/IdiomaticReact)
 * [Web publishing platform](https://github.com/vesparny/morpheus)
 * [sprintly-kanban](https://github.com/sprintly/sprintly-kanban)
+* [reddit-mobile](https://github.com/reddit/reddit-mobile)
+* [Tchaik](https://github.com/tchaik/tchaik)
 
 ### File Structure Examples
 
@@ -67,8 +71,6 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
 * Domain-specific components are "containers" and atomic components are "components"
-* [**MediaMath's Strand - Using Web Components**](http://mediamath.github.io/strand/)
-* [**Material Design Lite**](http://www.getmdl.io/)
 
 ```
 { this.state.show && 'This is Shown' }
@@ -307,15 +309,6 @@ Well-written components don't even need state, so:
 
 This introduces the concept of idempotency and immutability.
 
-* [Learn from Web Component gallery](http://customelements.io/)
-* [Khan Academy reusable components](http://khan.github.io/react-components/)
-* [Touchstone](https://github.com/jedwatson/touchstonejs)
-* [material-ui](http://material-ui.com/#/)
-* [**Reapp**](http://reapp.io/)
-* [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
-* [react-nexus](https://github.com/elierotenberg/react-nexus)
-* [React Bootstrap](https://react-bootstrap.github.io/components.html)
-
 ```
 React.renderComponent();   // Deprecated
 React.render();            // Use this
@@ -470,6 +463,7 @@ Take a moment and think more critically about where `state` should be owned in t
 * [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
 * [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
 * [Styling React components in Sass](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
+* [ReactCSS???](http://reactcss.com/)
 
 ## React Mount Runtime
 

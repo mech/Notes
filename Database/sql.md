@@ -1,5 +1,8 @@
 # SQL
 
+* [4 ways to join only the first row in SQL](https://www.periscope.io/blog/4-ways-to-join-only-the-first-row-in-sql.html)
+* [Correlated subquery](https://en.wikipedia.org/wiki/Correlated_subquery)
+
 Database is not a place to store your data. Database is a platform to enforce your business rules. It is a ethnological problem.
 
 | -------- | ------ |

@@ -24,7 +24,6 @@
 * [How to design for huge screen](http://scotthurff.com/posts/how-to-design-for-thumbs-in-the-era-of-huge-screens)
 * [Ultimate guide to iPhone resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 * [Simulator status](https://github.com/shinydevelopment/SimulatorStatusMagic)
-* [AsyncDisplayKit](http://asyncdisplaykit.org/)
 * [Apple on Hamburger menu](http://blog.manbolo.com/2014/06/30/apple-on-hamburger-menus)
 * [iOS design](http://iosdesign.ivomynttinen.com/)
 * [The UX of mobile settings](http://setentaydos.com/the-ux-of-mobile-settings/)
@@ -58,6 +57,9 @@
 
 * [PaintCode - Turn drawings into code in Xcode](http://www.paintcodeapp.com/intro)
 * [Reveal](http://revealapp.com/)
+* [ComponentKit - Inspired by React](http://componentkit.org/)
+* [AsyncDisplayKit](http://asyncdisplaykit.org/)
+* [Pop - Physics-based animation](https://github.com/facebook/pop)
 
 ## Case Studies
 

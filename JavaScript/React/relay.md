@@ -11,6 +11,8 @@ Relay is a GraphQL client library for React.
 * [Reference implementation in JavaScript](https://github.com/graphql/graphql-js)
 * [Issue #26: Reducing executor](https://github.com/graphql/graphql-js/issues/26)
 * [**Creating a GraphQL Server**](https://www.youtube.com/watch?v=gY48GW87Feo)
+* [GraphQL overview](https://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
+* [Your first GraphQL Server?](https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2)
 
 ---
 

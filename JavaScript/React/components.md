@@ -1,5 +1,9 @@
 # Components
 
+For EVA mistake, the `<Editor>` is too heavy and we did not break it down into even smaller components. The `<Editor>` itself is the DnD container which should not be the case. Whenever there is a drag event, the whole `<Editor>` will be affected and the `<AddPreview>` will be unnecessarily wasted in its rendering effort.
+
+**Always break your component down into single responsibility! And break it down further after that!**
+
 * [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
 * [JSX, a year in](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
@@ -10,6 +14,9 @@
 * [Many ways to write React component without using ES6 classes](https://gist.github.com/jquense/47bbd2613e0b03d7e51c)
 * [react-class](https://github.com/zippyui/react-class/blob/master/README.md)
 * [**Best example of distributed component: react-soundplayer**](http://labs.voronianski.com/react-soundplayer/)
+* [End-to-end hypermedia](https://lostechies.com/jimmybogard/2015/07/01/end-to-end-hypermedia-building-a-react-client/)
+* [**How to write a React Component**](http://theghostin.me/2015/07/06/how-to-write-a-react-component.html)
+* [Controller View Pattern](http://blog.andrewray.me/the-reactjs-controller-view-pattern/)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -100,6 +107,7 @@ It is important to draw a distinction between ownership and parent-child relatio
 
 * [component-playground](http://projects.formidablelabs.com/component-playground/)
 * [reactview](https://github.com/zackify/reactview)
+* [react-heatpack: Quick React development with webpack hot reloading](https://github.com/insin/react-heatpack)
 
 ## Higher-order Components
 
@@ -144,6 +152,7 @@ Data binding is a hack around re-rendering.
 * [React Parts](http://react.parts/web)
 * [React Rocks](http://react.rocks/)
 * [UI Components](https://github.com/facebook/react/wiki/Complementary-Tools#ui-components)
+* [Build your own component libraries](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
 
 ---
 
@@ -186,6 +195,17 @@ Data binding is a hack around re-rendering.
 * [**react-soundplayer**](http://labs.voronianski.com/react-soundplayer/)
 * [**Amazing constraint-base grid system**](https://github.com/jxnblk/rgx)
 * [Spectacle - Presentation with good PDF support](https://github.com/FormidableLabs/spectacle)
+* [sliding-window](https://github.com/gre/sliding-window)
+* [react-paginator-box](https://github.com/abaddonGIT/react-paginator-box)
+* [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
+* [react-nexus](https://github.com/elierotenberg/react-nexus)
+* [react-popups](https://github.com/Radivarig/react-popups)
+* [Format.js](http://formatjs.io/react/)
+* [Joi - Validation](https://github.com/hapijs/joi)
+* [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
+* [cpr-select](https://github.com/CanopyTax/cpr-select)
+* [react-sparklines](https://github.com/borisyankov/react-sparklines)
+* [react-progress-button](https://github.com/mathieudutour/react-progress-button)
 
 ### D3
 
@@ -196,6 +216,8 @@ Data binding is a hack around re-rendering.
 * [D3 with React.js](http://busypeoples.github.io/post/d3-with-react-js/)
 * [d3-react-squared](https://github.com/bgrsquared/d3-react-squared)
 * [React and D3 Part 1: Layout](http://formidablelabs.com/blog/2015/05/21/react-d3-layouts/)
+* [Pyxley: Python Powered Dashboards](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
+* [On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3)
 
 ## Integrate with jQuery
 

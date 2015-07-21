@@ -144,7 +144,12 @@ Fixed IP on a container is a hard issue.
 * [Pipework](https://github.com/jpetazzo/pipework)
 * [How to configure Docker to start containers on a specific IP address range](http://jpetazzo.github.io/2013/10/16/configure-docker-bridge-network/)
 
+## Multi-Host Networking
+
+* [Docker multicast networking using overlay driver with docker-machine and boot2docker](http://sirile.github.io/2015/07/14/docker-multihost-networking-using-overlay-driver-with-docker-machine-and-boot2docker.html)
+
 ## libnetwork and Container Network Model (CNM)
 
 * [First post on libnetwork](http://blog.docker.com/2015/04/docker-networking-takes-a-step-in-the-right-direction-2/)
 * [Proposal: Network Drivers](https://github.com/docker/docker/issues/9983)
+

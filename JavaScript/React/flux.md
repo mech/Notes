@@ -121,6 +121,7 @@ There are plenty of ways to manage your data:
 * [**Lux.js**](http://www.smashingmagazine.com/2015/06/22/qualities-of-good-flux-implementations/)
 * [Postal.js - Pub/Sub library](https://github.com/postaljs/postal.js)
 * [Arch - SPA framework inspired by Om](https://github.com/arch-js/arch)
+* [Miniflux](http://jorin.me/miniflux/)
 
 **Others**
 

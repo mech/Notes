@@ -3,6 +3,8 @@
 * [Why Go?](http://nathany.com/why-go/)
 * [Go Object Oriented Design](http://nathany.com/good/)
 * [Golang for Network Ops](http://networkstatic.net/golang-network-ops/)
+* [Effective Go](http://golang.org/doc/effective_go.html)
+* [Getting started with Go](http://spf13.com/presentation/first-go-app/)
 
 Pass by value, rather than by reference.
 

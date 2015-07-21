@@ -8,3 +8,4 @@
 * [Kevin Doughty](https://twitter.com/KvnDy)
 * [Kevin Doughty's blog](http://kxdx.org/)
 * [Applying React.js CSS Transitions on initial render](http://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
+* [**react-motion - A spring that solves your animation problems**](https://github.com/chenglou/react-motion)

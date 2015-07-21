@@ -8,6 +8,7 @@
 * [Rich Drag and Drop in React.js](http://kentwilliam.com/articles/rich-drag-and-drop-in-react-js)
 * [Complex Drag and Drop Lists using React.js](https://reactjsnews.com/complex-drag-and-drop-lists-using-react/)
 * [React Dropzone for File Upload](https://github.com/felixrieseberg/React-Dropzone-Component)
+* [High performance touch interactions](http://maketea.co.uk/2015/02/16/high-performance-touch-interactions.html)
 
 ## Examples
 

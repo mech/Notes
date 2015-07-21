@@ -6,6 +6,7 @@
 
 Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 
+* [**SCUT: Sass utilities for the front-end**](https://davidtheclark.github.io/scut/)
 * [**Sass Guideline - READ THIS FIRST!**](http://sass-guidelin.es/)
 * [**A vision for Sass**](http://alistapart.com/article/a-vision-for-our-sass)
 * [**An auto-enforceable SCSS styleguide**](http://davidtheclark.com/scss-lint-styleguide/)

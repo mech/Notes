@@ -11,6 +11,7 @@
 * [You might not need jQuery](http://youmightnotneedjquery.com/)
 * [diy.js](http://diy.lab.io/)
 * [Why you might need jQuery](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit#)
+* [jQuery vs raw JavaScript](http://www.sitepoint.com/jquery-vs-raw-javascript-1-dom-forms/)
 
 ## Plugins and Libraries
 

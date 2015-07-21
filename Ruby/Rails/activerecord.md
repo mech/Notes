@@ -3,6 +3,8 @@
 * [20,000 Leagues under ActiveRecord](http://patshaughnessy.net/2014/9/17/20000-leagues-under-activerecord)
 * [How Arel converts Ruby queries into SQL statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements)
 * [Advanced ARel - When ActiveRecord just isn't enough](https://www.youtube.com/watch?v=ShPAxNcLm3o)
+* [Scuttle](http://www.scuttle.io/)
+* [Don't let your data out of the database](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
 
 ## ActiveRecord::Querying
 
@@ -53,3 +55,19 @@ users.project(*)
      .take(1)
 ```
 
+```ruby
+Post
+  .joins(:comments)
+  .joins(Comment.joins(:author).join_sources)
+  .where(
+    Author[:name].eq("mech").and(Post[:active].eq(true))
+  )
+
+Post.select(
+  Arel::Nodes::NamedFunction.new(
+    "LENGTH", [Post[:text]]
+  ).as("length")
+).to_sql
+
+# => SELECT LENGTH(`posts`.`text`) AS length FROM `posts`
+```

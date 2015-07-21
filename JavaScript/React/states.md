@@ -56,6 +56,10 @@ If you're not using the Flux pattern (where the parent widget listens to Stores 
 
 The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.
 
+## Props (Immutable)
+
+A component can change its state but its props are immutable, which is good feature because there should ideally be a **single source of truth**.
+
 ## State
 
 **Warning**: Do not sync states, you will screw it up and make it out of sync! Because you need a single source of truth.

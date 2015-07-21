@@ -151,6 +151,7 @@ GIN is just a B-tree, with efficient storage of duplicates. If you have need for
 * [Some nice gist to follow](https://gist.github.com/fnando/f672c9243186933b3c8e)
 * [What I think of jsonb](http://pgeoghegan.blogspot.in/2014/03/what-i-think-of-jsonb.html)
 * [**Unleash the power of storing JSON in Postgres**](http://blog.codeship.com/unleash-the-power-of-storing-json-in-postgres/)
+* [Query array of objects in JSONB field](http://stackoverflow.com/questions/28486192/postgresql-query-array-of-objects-in-jsonb-field)
 
 ```sql
 -- Last array
@@ -174,6 +175,9 @@ SELECT '{"a":1, "b":2}'::jsonb ? 'b';
 
 -- Any exist?
 SELECT '{"a":1, "b":2}'::jsonb ?| ARRAY['b', 'd'];
+
+-- First array item 
+SELECT questions->0->>'text' AS text from templates;
 ```
 
 ## Range

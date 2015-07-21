@@ -13,6 +13,7 @@ People suck at repetitive tasks.
 * [Takana - Like BrowserSync?](http://usetakana.com/)
 * [Creating a web app with Grunt](http://tech.tmw.co.uk/2014/10/creating-a-web-app-with-grunt-part-1/)
 * [Brunch](http://brunch.io/)
+* [Auto-formatting JavaScript Code Style](https://medium.com/@addyosmani/auto-formatting-javascript-code-style-fe0f98a923b8)
 
 ## Make?
 

@@ -7,6 +7,7 @@
 * [**Transducers.js**](http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data)
 * [fun.js with lemonad](http://fogus.github.io/lemonad/)
 * [jsclass??](http://jsclass.jcoglan.com/comparable.html)
+* [**Curry or Partial Application?**](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
 
 `bind` wrap up, change context and make a new function. Whilst `call` and `apply` do not make a new function.
 

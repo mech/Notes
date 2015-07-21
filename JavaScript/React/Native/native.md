@@ -29,6 +29,7 @@ react-native@0.3.1 node_modules/react-native
 * [First impressions using React Native](http://jlongster.com/First-Impressions-using-React-Native)
 * [Universal app](http://blog.typework.com/react-native-universal/)
 * [React Native introduction](http://www.appcoda.com/react-native-introduction/)
+* [Persisting TabBars in React Native](http://richardkho.com/persisting-tabbars-in-react-native/)
 
 ## ListView
 

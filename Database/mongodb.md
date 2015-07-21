@@ -4,6 +4,8 @@
 * [Aggregation framework example - Tag count?](http://blog.mongolab.com/2012/07/aggregation-example/)
 * [MMS blog](http://blog.mms.mongodb.com/)
 * [6 rules of thumb for MongoDB schema design](http://blog.mongodb.org/post/87200945828/6-rules-of-thumb-for-mongodb-schema-design-part-1)
+* [Why you should never use MongoDB](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/)
+* [Developer happiness through MongoDB](https://www.youtube.com/watch?v=ch07bP0WOOc&t=27m12s)
 
 If running on single server, use the `--journal` option.
 

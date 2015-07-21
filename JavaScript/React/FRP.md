@@ -6,6 +6,8 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [Mostly adequate guide to FP](https://github.com/DrBoolean/mostly-adequate-guide)
+* [**The introduction to Reactive Programming you've been missing**](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [**Reactive Streams**](http://www.reactive-streams.org/)
 * [Swarm.js](http://swarmjs.github.io/)
 * [react-nexus](https://github.com/elierotenberg/react-nexus)
@@ -28,14 +30,24 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 * [**Elegant functional architecture for React**](https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b)
 * [Ramda.js - Functional library for JavaScript](http://ramdajs.com/0.15/index.html)
+* [What color is your function?](http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)
+* [Monads: From Web 2.0 to Hardware Drivers](http://www.well-typed.com/blog/105/)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
 Or just don't use objects in `props` and `state`.
 
+## Om
+
+* [Om Next - David Nolan (Blow your mind!)](https://www.youtube.com/watch?v=ByNs9TG30E8)
+
 ## Observable
 
-* [Making React reactive](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
+Observable === Collections + Time
+
+Able to tell when I am done.
+
+* [**Making React reactive using MOBservable**](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 
 Observable is a concept from the world of Functional Reactive Programming. They are used in other UI framework like Ember and Knockout.
 
@@ -46,6 +58,10 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 ## RxJS
 
 * [Using RxJS for data flow instead of Flux](http://qiita.com/kimagure/items/22cf4bb2a967fcba376e)
+* [irecord - An immutable store that exposes an RxJS observable](https://github.com/ericelliott/irecord)
+* [react-rx-component - Yet another RxJS library for React](https://github.com/acdlite/react-rx-component)
+* [RxJS at Modern Web UI for Netflix](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
+* [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=XE692Clb5LU)
 
 ## Baobab
 
