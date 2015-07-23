@@ -1,9 +1,16 @@
 # UI Component
 
+Segmentation of the UI along these functional boundaries. Black-boxing. Predictable input and output. 
+
+Create dependency graph for your UI! To help coder to visual hierarchy also.
+
 * [AutoResponsive React](http://xudafeng.github.io/autoresponsive-react/)
 * [RxJS at Modern Web UI for Netflix](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
+* [Nicolas Gallagher - Thinking beyond "Scalable CSS"](https://www.youtube.com/watch?v=L8w3v9m6G04)
 
-## Style Guides
+## UI Widget Names
+
+## UI Libraries
 
 * [Belle - Configurable React Components with great UX](http://nikgraf.github.io/belle/#/)
 * [MediaMath's Strand - Using Web Components](http://mediamath.github.io/strand/)
@@ -18,6 +25,14 @@
 * [MUI](https://www.muicss.com/)
 * [Grommet](http://grommet.io/docs/)
 * [material-ui](https://github.com/firetix/material-ui)
+
+## CSS
+
+* [Beware of contextual styling](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
+* [Styling React components in Sass](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
+* [Using Webpack to build React components and their assets](http://simonsmith.io/using-webpack-to-build-react-components-and-their-assets/)
+
+## ?
 
 > At any point in time, you describe how you want your UI to look like.
 

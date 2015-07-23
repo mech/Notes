@@ -70,6 +70,8 @@ Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 /vendors-extension
 ```
 
+You can also split variables into `base/_typography.scss`, `base/_colors.scss`
+
 ## Color
 
 * [Name that color](http://chir.ag/projects/name-that-color/#CA4ED4)

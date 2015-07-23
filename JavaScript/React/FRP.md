@@ -6,6 +6,7 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [What is Reactive Programming?](http://paulstovell.com/blog/reactive-programming)
 * [Mostly adequate guide to FP](https://github.com/DrBoolean/mostly-adequate-guide)
 * [**The introduction to Reactive Programming you've been missing**](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [**Reactive Streams**](http://www.reactive-streams.org/)
@@ -37,6 +38,21 @@ If you have an object or an array. Changing the object's properties or pushing a
 
 Or just don't use objects in `props` and `state`.
 
+## What exactly is FRP?
+
+* Values "over time". If you do computation over those values, it will also change over time.
+* Continuous, not discrete
+* FRP is a form of Functional Programming, which is a form of Declarative Programming
+* Everything is a stream: variables, user inputs, properties, caches, data structures, etc. You listen to that stream and react accordingly.
+* You `combine` the stream, you `filter` the stream, and you generally use functional programming to do whatever you like to the stream to make it consumable.
+* The stream is the observable. The official terminology for a stream is "Observable", for the fact that it can be observed.
+* The listener is the observer
+* And yes, a Promise is an observable
+
+## Spreadsheet Analogy
+
+A spreadsheet cell reacts to changes in other cells (pulls) but doesn't reach out and change others (doesn't push). The end result is that you can change one cell and a zillion others 'independently' update their own displays. The others react to you! You don't manually change them. Let them react  to you!
+
 ## Om
 
 * [Om Next - David Nolan (Blow your mind!)](https://www.youtube.com/watch?v=ByNs9TG30E8)
@@ -47,7 +63,10 @@ Observable === Collections + Time
 
 Able to tell when I am done.
 
+> If I am interested in the keystroke "a" followed by "b" followed by "c" I can create an event that notifies me when this occurs. The observable pattern has huge benefits for code simplification.
+
 * [**Making React reactive using MOBservable**](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
+* [Cold vs Hot Observables](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/creating.md#cold-vs-hot-observables)
 
 Observable is a concept from the world of Functional Reactive Programming. They are used in other UI framework like Ember and Knockout.
 
@@ -62,6 +81,11 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 * [react-rx-component - Yet another RxJS library for React](https://github.com/acdlite/react-rx-component)
 * [RxJS at Modern Web UI for Netflix](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
 * [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=XE692Clb5LU)
+
+```js
+// Convert a Promise to an Observable
+var stream = Rx.Observable.fromPromise(promise);
+```
 
 ## Baobab
 

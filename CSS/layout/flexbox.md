@@ -43,6 +43,10 @@ Flexbox layout algorithm is direction-based unlike the block or inline layout wh
 
 Flexbox will override floats, table-cell and inline-block. It will not override absolute positioning.
 
+## MISTAKES
+
+* In EVA, `main-container` has `flex-direction: row` which is very limiting. What happen if for the next screen you need to style it in column?
+
 ## calc() and flexbox
 
 `calc()` and flexbox make for an awesome combo!

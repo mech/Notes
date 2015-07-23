@@ -382,9 +382,11 @@ Homebrew makes installing Redis, MySQL, Postgres, MongoDB all very straightforwa
 
     brew install redis
     brew install postgres
-    brew install mongodb
     brew install mysql
     brew install elasticsearch
+    
+    brew search mongodb
+    brew install homebrew/versions/mongodb26
 
 Use https://github.com/jimbojsb/launchrocket at the PreferencePane.
 

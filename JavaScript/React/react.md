@@ -462,8 +462,9 @@ Take a moment and think more critically about where `state` should be owned in t
 * [The debate around 'Do we even need CSS anymore?'](https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/)
 * [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
 * [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
-* [Styling React components in Sass](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
+* [**Styling React components in Sass**](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
 * [ReactCSS???](http://reactcss.com/)
+* [Contextual styling](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
 
 ## React Mount Runtime
 
