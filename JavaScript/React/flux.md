@@ -8,6 +8,7 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [**Why make a framework on React and Flux?**](http://gunnariauvinen.com/why-make-a-framework-on-react-and-flux/)
 * [**Flux solutions compared by example**](http://pixelhunter.me/post/110248593059/flux-solutions-compared-by-example)
 * [**Flux from scratch**](http://ryanfunduk.com/articles/flux-from-scratch/)
 * [**The case for Flux**](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
@@ -181,6 +182,7 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 ## Redux
 
 * [awesome-redux](https://github.com/xgrommx/awesome-redux)
+* [Redux isomorphic example](https://github.com/coodoo/react-redux-isomorphic-example)
 
 ## Examples
 

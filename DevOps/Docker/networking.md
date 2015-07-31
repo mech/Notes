@@ -16,6 +16,8 @@ Containers would not be very useful if there was no way to get to them through t
 * [Multi-host Docker network](http://wiredcraft.com/blog/multi-host-docker-network/)
 * [Advanced Docker Networking](http://boynux.com/advanced-docker-networking/)
 * [Docker networking rules - Understanding EXPOSE, -p, -P and --link](http://www.centurylinklabs.com/docker-networking-rules/)
+* [SO: How to configure a Docker container to be reachable from outside the host machine?](http://stackoverflow.com/questions/25407434/how-to-configure-a-docker-container-to-be-reachable-by-container-ipport-from-ou)
+* [SO: How to expose Docker container's IP to outside host without port mapping?](http://stackoverflow.com/questions/25036895/how-to-expose-docker-containers-ip-and-port-to-outside-docker-host-without-port/25041782#25041782)
 
 By default the `-p` flag will bind the port to all interfaces on the host (`0.0.0.0`). The `-p` flag can be used multiple times to configure multiple ports.
 
@@ -41,7 +43,13 @@ Docker implicitly exposes a port that is published. The difference between an ex
 
 Publishing a port will map it to the host interface, making it available to the outside world.
 
-### Linking
+## Linking (Local Service Discovery)
+
+With link alias to `database`, your application can refer to it consistently:
+
+```
+tcp://database:3306
+```
 
 Besides network port mappings, you can communicate with other containers through Docker linking system.
 
@@ -109,6 +117,8 @@ If you disable icc via `--icc=false`, container A cannot access container B unle
 
 * [Set the IP of the Docker bridge with Systemd](http://container-solutions.com/set-the-ip-of-the-docker-bridge-with-systemd/)
 
+In single-host machine, you deal with 2 specific networks. The first network is the one that your computer is connected to (no surprises here). The second is a virtual network that Docker creates called `docker0` to act as a bridge for containers to connect to the first network.
+
 Every Docker container is assigned an IP address though the `docker0` interface.
 
 ```
@@ -134,6 +144,35 @@ Inside your container when you do `mount`
 Is it better to set `--icc=false` and just using linking to let containers communicate with each other?
 
 Disabling inter-container communication (ICC) is an important step in any Docker enabled environment. In doing so, you create an environment where explicit dependencies must be declared in order to work properly.
+
+## Network Isolation
+
+There are 4 network container types:
+
+* Closed container - does not allow any network traffic. Basically dead and could not use the network or internet. No connection to `docker0`.
+* Bridged container - The default. Connected to internet through `docker0`. It can also connect to your host private network.
+* Joined container
+* Open container
+
+```
+// Closed container
+▶ docker run --rm --net none busybox:latest ifconfig
+▶ docker run --rm --net none busybox:latest ping -w 2 8.8.8.8
+▶ docker run --rm busybox:latest ifconfig
+
+// Open container
+▶ docker run --rm --net host busybox:latest ifconfig
+```
+
+Bridged containers are not accessible from the host network by default. They are protected by your host's firewall system. There is no route from the host's external interface (eth0) to a container interface. That means that there is just no way to get to a container from outside the host.
+
+Containers would not be very useful if there was no way to get to them through the network. Luckily that is not the case. The `--publish` allow you to create a port mapping between container and host and thus outside network can talk to your container.
+
+By default, any container is fully accessible from any other local container if they are on the same `docker0` bridge. In multi-tenant environment, it is better to disable it by '--icc=false'.
+
+Control outbound traffic using DNS.
+
+Control inbound traffic using firewall rules.
 
 ## Static IP Addresses
 

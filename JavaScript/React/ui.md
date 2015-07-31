@@ -7,6 +7,7 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 * [AutoResponsive React](http://xudafeng.github.io/autoresponsive-react/)
 * [RxJS at Modern Web UI for Netflix](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
 * [Nicolas Gallagher - Thinking beyond "Scalable CSS"](https://www.youtube.com/watch?v=L8w3v9m6G04)
+* [**React-UI**](https://github.com/React-UI)
 
 ## UI Widget Names
 

@@ -1,5 +1,7 @@
 # Design
 
+Document-driven development. Test-driven also! Code style-guide. Code review. Pair-programming.
+
 * [HTTP API design guide extracted from work on the Heroku Platform API](https://github.com/interagent/http-api-design)
 * [Heroku's HTTP API Design Guide](http://www.infoq.com/news/2014/08/heroku-http-design-guide)
 * [API Evangelist](http://101.apievangelist.com/)

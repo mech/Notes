@@ -23,7 +23,6 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Immutability in React](http://www.sitepoint.com/immutability-react/)
 * [Reactive React using Reactive Streams](http://aryweb.nl/2015/02/16/Reactive-React-using-reactive-streams/)
 * [Functional Programming on Front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
-* [**Reactive MVC and Virtual DOM**](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
 * [react-cursor](https://github.com/dustingetz/react-cursor)
 * [RxMarbles??](http://rxmarbles.com/)
 * [**Functional React**](https://github.com/aickin/functional-react)
@@ -33,6 +32,8 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Ramda.js - Functional library for JavaScript](http://ramdajs.com/0.15/index.html)
 * [What color is your function?](http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)
 * [Monads: From Web 2.0 to Hardware Drivers](http://www.well-typed.com/blog/105/)
+* [ancient-oak: Immutable data trees](https://github.com/brainshave/ancient-oak)
+* [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
@@ -67,6 +68,8 @@ Able to tell when I am done.
 
 * [**Making React reactive using MOBservable**](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 * [Cold vs Hot Observables](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/creating.md#cold-vs-hot-observables)
+* [Silent subscriptions](https://discuss.reactjs.org/t/reactjs-mobservable-as-the-easiest-and-fastest-way-to-propagate-changes-to-the-ui/811)
+* [Pure rendering in the light of time and state](https://medium.com/@mweststrate/pure-rendering-in-the-light-of-time-and-state-4b537d8d40b1)
 
 Observable is a concept from the world of Functional Reactive Programming. They are used in other UI framework like Ember and Knockout.
 
@@ -76,11 +79,15 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 
 ## RxJS
 
+While Flux suggests using low-level EventEmitter which requires manual event handling, RxJS and similar event processing tools are powerhouses capable of replacing a lot of boilerplate that a typical Flux application contains.
+
 * [Using RxJS for data flow instead of Flux](http://qiita.com/kimagure/items/22cf4bb2a967fcba376e)
 * [irecord - An immutable store that exposes an RxJS observable](https://github.com/ericelliott/irecord)
 * [react-rx-component - Yet another RxJS library for React](https://github.com/acdlite/react-rx-component)
 * [RxJS at Modern Web UI for Netflix](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
 * [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=XE692Clb5LU)
+* [**Reactive MVC and Virtual DOM**](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
+* [2-minute intro to Rx](https://medium.com/@andrestaltz/2-minute-introduction-to-rx-24c8ca793877)
 
 ```js
 // Convert a Promise to an Observable
@@ -92,8 +99,13 @@ var stream = Rx.Observable.fromPromise(promise);
 * [Performance of `push`](https://github.com/Yomguithereal/baobab/issues/268)
 * [Plant a Baobab tree in your Flux application](http://christianalfoni.github.io/javascript/2015/02/06/plant-a-baobab-tree-in-your-flux-application.html)
 * [Handling states in your React Flux application with Baobab](https://www.codementor.io/reactjs/tutorial/flux-reactjs-state-baobab-library)
+* [Declarative data fetching in React with Baobab](https://medium.com/@mistadikay/declarative-data-fetching-in-react-components-with-baobab-e43184c43852)
 
 A cursor is a pointer to some data in your tree. The brilliant thing that cursors give you is the ability to listen for changes, but not only changes to the value the cursor points to.
+
+## Omniscient
+
+* [Simpler UI reasoning with unidirectional data flow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 
 ## Zipper
 
@@ -110,3 +122,4 @@ A cursor is a pointer to some data in your tree. The brilliant thing that cursor
 * [Boundaries - Gary Bernhardt](https://www.destroyallsoftware.com/talks/boundaries)
 * [Async JavaScript with Reactive Extensions at Netflix](https://www.youtube.com/watch?v=XRYN2xt11Ek)
 * [Functional Reactive Programming in Elm](https://www.youtube.com/watch?v=DiZ1CfLQvIU)
+* [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=a8W5VVGO-jA)

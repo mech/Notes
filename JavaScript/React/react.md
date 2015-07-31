@@ -34,6 +34,11 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 
 * [NativeScript??](https://www.nativescript.org/blog/answering-nativescript-beta-webinar-questions)
 
+## Real-time
+
+* [Create a character voting app with Socket.IO](http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/)
+* [React and Socket.IO chat app](http://danialk.github.io/blog/2013/06/16/reactjs-and-socket-dot-io-chat-application/)
+
 ## Examples to Learn
 
 * [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
@@ -456,6 +461,7 @@ Take a moment and think more critically about where `state` should be owned in t
 
 ## CSS
 
+* [Responsive breakpoints in JavaScript](https://github.com/nygardk/BreakJS)
 * [Radium - inline styles on React elements](http://projects.formidablelabs.com/radium/)
 * [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
 * [**Interoperable CSS**](http://glenmaddern.com/articles/interoperable-css)
@@ -664,6 +670,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 * [Sift Science](http://blog.siftscience.com/)
 * [Simple Studios](http://simblestudios.com/blog)
+* [Futurice](http://futurice.com/blog/)
 
 ## Videos
 

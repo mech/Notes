@@ -2,6 +2,22 @@
 
 Functional CSS and not visual CSS!
 
+## MISTAKES
+
+If you have solid and outline button, you need to think of positive and negative variants also:
+
+```css
+.btn-solid {}
+.btn-plain {}
+.btn-outline {}
+
+.btn-solid--positive {}
+.btn-solid--negative {}
+
+.btn-outline--positive {}
+.btn-outline--negative {}
+```
+
 ## .btn
 
 ```

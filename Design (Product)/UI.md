@@ -2,6 +2,7 @@
 
 * [**Pure-UI**](http://rauchg.com/2015/pure-ui/)
 * [**The Command Pattern**](http://gameprogrammingpatterns.com/command.html)
+* [Well-designed interfaces look boring](https://medium.com/mission-log/well-designed-interfaces-look-boring-568faa4559e0)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
 * **Symmetry of interaction**. How you trigger is how you will will reverse the action. Activation and deactivation actions must be symmetrical.
@@ -18,6 +19,9 @@
 * Avoid unnecessary reporting
 * Elegance - Graceful way of solving a design problem
 * Design is the process of taking the available data and coming up with its representation. See [Pure-UI](http://rauchg.com/2015/pure-ui/)
+* They want "fast" and "good-enough". Make boring UI.
+* Computers are starting to outpace the computational abilities of our brains. The more we can do with a tool, the more the interface has to get out of the way. Sometimes, we can do so much with a tool, that we need the help of AI to unlock its full potential. This isn't just a simplification of interface; it's a complete shift in how we design our digital tools.
+* When you do things right, people won't be sure you've done anything at all.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

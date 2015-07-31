@@ -2,6 +2,8 @@
 
 > How long would it take your organization to deploy a change that involves just one single line of code? (Lead time, cycle time) - Poppendieck (Release Cadence)
 
+Where are companies feeling the most pain? Shipping software at the speed expected in today's world is hard to do well.
+
 Deming Cycle - Plan, Do, Check, Act
 
 Scientific Method - Hypothesize, Experiment, Evaluate

@@ -384,6 +384,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [NYTimes](http://developer.nytimes.com/docs/read/article_search_api_v2)
 * [Nylas](https://nylas.com/docs/api#overview)
 * [Quip API](https://quip.com/api/reference)
+* [IBM Watson](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/)
 
 ## Videos
 

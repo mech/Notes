@@ -5,6 +5,7 @@
 * [Advanced ARel - When ActiveRecord just isn't enough](https://www.youtube.com/watch?v=ShPAxNcLm3o)
 * [Scuttle](http://www.scuttle.io/)
 * [Don't let your data out of the database](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
+* [Referential integrity with foreign keys](https://robots.thoughtbot.com/referential-integrity-with-foreign-keys)
 
 ## ActiveRecord::Querying
 

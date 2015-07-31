@@ -2,7 +2,7 @@
 
 Volumes are files/folders that exist outside of a container, but are available to a container through mount points. Container can mount 0 or many volumes. Volumes can be shared between containers and the host itself. AuFS is wonderful for building images as layer but it is less than ideal for working with shared or dynamic data.
 
-All volumes are "shared with the host" one way or another. There are 2 distinct types of volumes: Docker managed volumes (data-only container) and bind-mounts volumes.
+All volumes are "shared with the host" one way or another. There are 2 distinct types of volumes: Docker managed volumes (data-only container) and bind-mounts volumes (any host directories).
 
 A volume can be a directory that is located outside of the root filesystem of your container. This allows you to import this directory in other containers. You can also use volumes to mount directories from your host machine inside a container.
 

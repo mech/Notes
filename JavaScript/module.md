@@ -3,6 +3,7 @@
 * [Library best practices](https://github.com/volojs/volo/wiki/Library-best-practices)
 * [JavaScript Modules](http://jsmodules.io/)
 * [Scalable maintainable JavaScript](http://www.innoarchitech.com/scalable-maintainable-javascript/)
+* [**Module Best Practices**](https://github.com/mattdesl/module-best-practices)
 
 ## ES6 Module Transpiler
 

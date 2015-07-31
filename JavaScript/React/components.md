@@ -206,6 +206,7 @@ Data binding is a hack around re-rendering.
 * [cpr-select](https://github.com/CanopyTax/cpr-select)
 * [react-sparklines](https://github.com/borisyankov/react-sparklines)
 * [react-progress-button](https://github.com/mathieudutour/react-progress-button)
+* [react-table-sorter](https://github.com/bgerm/react-table-sorter-demo)
 
 ### D3
 

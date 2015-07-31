@@ -108,7 +108,13 @@ class Person extends Component {
   static propTypes = {
     user: React.PropTypes.object.isRequired  }
   
+  // ES7
   static defaultProps = { initialCount: 0 };
+  
+  // ES7
+  state = { isEditing: false };
+  	
+  // ES7 - Good for event handler and callback which need binding  change = env => this.setState({isEditing: true});
   
   setName(name) {
     this.setState({ name: name });  }    

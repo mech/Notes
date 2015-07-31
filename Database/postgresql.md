@@ -100,6 +100,8 @@ CREATE TABLE events (
 
 ## Indexing and Sargable
 
+Creating a foreign key does not automatically create an index for it. You still have to create an index separately.
+
 ```
 ▶ \di+
 ```

@@ -43,6 +43,7 @@ Control + Command + Space to bring up the Emoji box.
 
 ```
 var languageName: String = "Swift"
+var weight: Float = 43
 
 // Constant if your variable does not vary!
 // SAFE: Prefer immutability by default and only opt
@@ -102,7 +103,7 @@ for (key, value) in dictionary {
 
 ## Optional
 
-A better "Weak pointer".
+Only certain variables are allowed to be nil and they are called optional. A better "Weak pointer".
 
 ```
 // I have a variable called firstName that may or may not have value
@@ -140,6 +141,7 @@ if let legCount = possibleLegCount {
 
 ```
 // Option string that is guarantee to exist, unlike String?, which may or may not exist.
+// More dangerous
 var firstName: String!
 ```
 
@@ -167,7 +169,7 @@ func buildGreeting(name: String = "World") -> String {
 }
 
 // To return multiple values, use a tuple
-func refreshWebPage() -> (code: Int, message: String) {
+func refreshWebPage() -> (code: Int, #message: String) {
   // ...try to refresh...
   return (200, "Success")
 }
@@ -184,6 +186,16 @@ func makeIncrementer() -> (Int -> Int) {
   
   return addOne
 }
+
+// Variadic
+func addManyNumbers(numbers: Int ...) -> Int {
+  return numbers[0];}
+
+// inout???
+func swapVariables(inout first: Int, inout second: Int) {
+  var temp = second
+  second = first
+  first = temp}
 ```
 
 ## Closures
@@ -215,6 +227,16 @@ repeat(2, {
 repeat(2) {
   println("Hello!")
 }
+
+// A function that return a function that return an Int
+func createAdder(numberToAdd: Int) -> Int -> Int {
+  func theAdder(number: Int) -> Int {
+    return number + numberToAdd  }
+  
+  return theAdder}
+
+let addTwo = createAdder(2)
+addTwo(5)
 ```
 
 ## Classes
