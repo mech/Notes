@@ -135,6 +135,8 @@ Using themes examples from Deckset app, we can convert each candidate's CV into 
 * [Remote jobs sites](https://news.layervault.com/stories/36437-ask-dn-remote-jobs-sites)
 * [Weekly Design Jobs](http://weeklydesignjobs.com/)
 
+**See PostGIS (Foreign Data Wrapper) for distance proximity.**
+
 ## Salary
 
 * [JobsDB's Search by Salary promo](http://sg.jobsdb.com/sg/en/staticcontent/search-by-salary/index.html)

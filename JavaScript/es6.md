@@ -1,5 +1,6 @@
 # ES6
 
+* [**CoreJS**](https://github.com/zloirock/core-js)
 * [**Exploring ES6**](https://leanpub.com/exploring-es6/read)
 * [TC39 ECMA262 status and process](https://github.com/tc39/ecma262)
 * [Babel 5.0 released on March 2015](http://babeljs.io/blog/2015/03/31/5.0.0/)
@@ -9,7 +10,6 @@
 * [**Eric Elliott's eslintrc example**](https://github.com/ericelliott/react-hello/blob/master/.eslintrc)
 * [Babel call for contributors](https://github.com/babel/babel/issues/1347)
 * [eslint-config-strict](https://github.com/keithamus/eslint-config-strict)
-* [CoreJS](https://github.com/zloirock/core-js)
 * [**The Boolean Trap**](http://ariya.ofilabs.com/2011/08/hall-of-api-shame-boolean-trap.html)
 * [**JS Rocks**](http://jsrocks.org/)
 * [React on ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/)

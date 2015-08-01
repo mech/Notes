@@ -18,6 +18,23 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
 The header will be sent on every request. Assuming you use HTTPS, this is a secure way to authenticate users.
 
+## Separate Logins Table
+
+```sql
+CREATE TABLE logins(
+  id bigint PRIMARY KEY DEFAULT id_generator(),
+  user_id bigint NOT NULL,
+  provider VARCHAR(50) NOT NULL DEFAULT 'local',
+  provider_key VARCHAR(255), -- email
+  provider_token VARCHAR(255) NOT NULL -- password
+);
+
+ALTER TABLE logins
+ADD CONSTRAINT logins_users
+FOREIGN KEY (user_id) REFERENCES users(id)
+ON DELETE CASCADE;
+```
+
 ## The flow
 
 * [OAuth 2 Resource Owner Password Credentials flow](http://stackoverflow.com/questions/19912551/oauth2-resource-owner-password-credentials-flow)

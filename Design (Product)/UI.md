@@ -2,6 +2,7 @@
 
 * [**Pure-UI**](http://rauchg.com/2015/pure-ui/)
 * [**The Command Pattern**](http://gameprogrammingpatterns.com/command.html)
+* [**A Good UI**](https://www.goodui.org)
 * [Well-designed interfaces look boring](https://medium.com/mission-log/well-designed-interfaces-look-boring-568faa4559e0)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
@@ -22,6 +23,8 @@
 * They want "fast" and "good-enough". Make boring UI.
 * Computers are starting to outpace the computational abilities of our brains. The more we can do with a tool, the more the interface has to get out of the way. Sometimes, we can do so much with a tool, that we need the help of AI to unlock its full potential. This isn't just a simplification of interface; it's a complete shift in how we design our digital tools.
 * When you do things right, people won't be sure you've done anything at all.
+* A great designer knows how to work with text not just as content, he treats text as a user interface.
+* Each section in your site needs to tell a story. It needs a reason and a final outcome for the user, The layout needs to help the content highlighting what are the most important pieces in that story. In reality there shouldn't be too many call outs on a page so everything should drive to that final "What can I do here".
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

@@ -118,6 +118,7 @@ Remember, whenever you apply functions on columns in the `WHERE` clause, the ind
 * [Function-based indexes](http://use-the-index-luke.com/sql/where-clause/functions/case-insensitive-search)
 * [What makes a SQL statement sargable](http://stackoverflow.com/questions/799584/what-makes-a-sql-statement-sargable)
 * [pg_idx_advisor - Give indexing advise](https://github.com/cohenjo/pg_idx_advisor)
+* [Should you index a boolean field?](http://stackoverflow.com/questions/12539772/adding-an-index-on-a-boolean-field)
 
 In Postgres, you can index certain functions and maintain sargability.
 
@@ -180,6 +181,18 @@ SELECT '{"a":1, "b":2}'::jsonb ?| ARRAY['b', 'd'];
 
 -- First array item 
 SELECT questions->0->>'text' AS text from templates;
+```
+
+**Using PLV8**
+
+```sql
+CREATE FUNCTION save_user()
+RETURNS jsonb
+AS $$
+  var newUser = {name: "mech", email: "mech@test.com"};
+  plv8.execute("INSERT INTO user_docs(body) VALUES($1)", JSON.stringify(newUser));
+  return newUser;
+$$ LANGUAGE plv8;
 ```
 
 ## Range
@@ -256,11 +269,21 @@ FROM payment;
 
 ## Custom Type
 
-```
+```sql
 CREATE TYPE squid AS (
   length float,
   tentacles integer,
   weight float
+);
+```
+
+## Enum Type
+
+```sql
+CREATE TYPE question_type AS ENUM(
+  'TextInstruction',
+  'MultipleChoice',
+  'OpenEnded'
 );
 ```
 
@@ -285,7 +308,43 @@ CREATE TYPE squid AS (
 * [Sharding & IDs at Instagram](http://instagram-engineering.tumblr.com/post/10853187575/sharding-ids-at-instagram)
 * [Sharding at Disqus](http://mike-clarke.com/2013/03/sharding-with-the-django-orm/)
 
+```
+set search_path = membership;
+create sequence id_sequence;
+create or replace function id_generator(out new_id bigint)
+as $$
+DECLARE
+  our_epoch bigint := 1072915200000; -- Pluralsight founding
+  seq_id bigint;
+  now_ms bigint;
+  shard_id int := 1;
+BEGIN
+  SELECT nextval('id_sequence') %1024 INTO seq_id;
+  SELECT FLOOR(EXTRACT(EPOCH FROM now()) * 1000) INTO now_ms;
+  new_id := (now_ms - our_epoch) << 23;
+  new_id := new_id | (shard_id << 10);
+  new_id := new_id | (seq_id);
+END;
+$$
+LANGUAGE PLPGSQL;
+
+SELECT id_generator();
+```
+
 > A large part of how we've been able to scale Instagram with very few engineers is by choosing simple, easy-to-understand solutions that we trust.
+
+## Functions
+
+You have to know what is business logic (Ruby) and what is data logic (PLPGSQL).
+
+```
+create or replace function random_string(len int default 36)
+returns text
+as $$
+select upper(substring(md5(random()::text), 0, len + 1));
+$$
+language sql;
+```
 
 ## Tools
 

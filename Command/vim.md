@@ -303,6 +303,7 @@ Type `ZZ` or `:q` to get out of help.
 * [simplefold](http://www.vim.org/scripts/script.php?script_id=1868)
 * [ragtag](http://www.vim.org/scripts/script.php?script_id=1896)
 * [emmet-vim](https://github.com/mattn/emmet-vim)
+* [vim-testkey](https://github.com/botandrose/vim-testkey)
 
 ## Dotfiles
 

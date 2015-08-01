@@ -17,6 +17,7 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 * [End-to-end hypermedia](https://lostechies.com/jimmybogard/2015/07/01/end-to-end-hypermedia-building-a-react-client/)
 * [**How to write a React Component**](http://theghostin.me/2015/07/06/how-to-write-a-react-component.html)
 * [Controller View Pattern](http://blog.andrewray.me/the-reactjs-controller-view-pattern/)
+* [Autobind using core-js](https://github.com/andreypopp/autobind-decorator)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
