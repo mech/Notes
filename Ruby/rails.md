@@ -47,6 +47,7 @@ gem pristine GEM_NAME
 * [Gulp Rails asset pipeline](http://viget.com/extend/gulp-rails-asset-pipeline)
 * [Optimizing Rails for memory usage](http://collectiveidea.com/blog/archives/2015/03/05/optimizing-rails-for-memory-usage-part-3-pluck-and-database-laziness/)
 * [Rails Assets??](https://rails-assets.org/)
+* [`content_tag` and `capture`](http://thepugautomatic.com/2013/06/helpers/)
 
 ## Upgrade Rails
 

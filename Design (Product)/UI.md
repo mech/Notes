@@ -4,6 +4,7 @@
 * [**The Command Pattern**](http://gameprogrammingpatterns.com/command.html)
 * [**A Good UI**](https://www.goodui.org)
 * [Well-designed interfaces look boring](https://medium.com/mission-log/well-designed-interfaces-look-boring-568faa4559e0)
+* [**Spatial Interfaces**](https://medium.com/elepath-exports/spatial-interfaces-886bccc5d1e9)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
 * **Symmetry of interaction**. How you trigger is how you will will reverse the action. Activation and deactivation actions must be symmetrical.

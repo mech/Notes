@@ -7,6 +7,8 @@
 - [**Navigating the React ecosystem**](http://www.toptal.com/react/navigating-the-react-ecosystem)
 - [ReactConf 2015 notes](http://chantastic.io/2015-reactjs-conf/)
 - [React Cheatsheet](http://ricostacruz.com/cheatsheets/react.html)
+- [**React Kung Fu**](http://reactkungfu.com/)
+- [**Easy React Book**](http://easyreactbook.com/book/intro)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
@@ -671,6 +673,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Sift Science](http://blog.siftscience.com/)
 * [Simple Studios](http://simblestudios.com/blog)
 * [Futurice](http://futurice.com/blog/)
+* [Little Blimp Dev Blog](http://blog.littleblimp.com/)
 
 ## Videos
 

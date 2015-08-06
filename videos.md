@@ -30,3 +30,5 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [CSSConf Australia](https://www.youtube.com/channel/UCaitlwoIzU4HIkkRgmpDO8w/videos)
 * [CSSConf Melbourne April 2014](http://2014.cssconf.com.au/news/videos/)
 * [CSSConf New York June 2015](https://2015.cssconf.com/#videos)
+* [London React meetup](http://red-badger.com/blog/2015/07/08/london-react-meetup-june-2015/)
+* [Five Simple Steps free videos](http://www.fivesimplesteps.com/collections/all-videos)

@@ -20,6 +20,7 @@ https://vividcortex.com/pricing/
 * [s3cmd](http://s3tools.org/s3cmd)
 * [MADlib - For data science](https://github.com/madlib/madlib)
 * [Why should you learn Postgres](http://www.brightball.com/postgresql/why-should-you-learn-postgresql)
+* [**Rob Conery's node-db-project**](https://github.com/robconery/node-db-project)
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!

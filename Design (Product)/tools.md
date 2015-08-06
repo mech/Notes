@@ -38,6 +38,10 @@ Rule of Optimization: Prototype before polishing. Get it working before you opti
 * [Proto.io vs Invision vs Marvel](https://www.enolalabs.com/blog/archives/best-app-prototyping-tool-proto.io-vs.-invision-vs.-marvel)
 * [Rapidly animating with Keynote](http://blog.uxtree.io/rapidly-animating-with-keynote/)
 
+## Keynote
+
+* [Design in Sketch then animate in Keynote](https://medium.com/@_jshmllr/design-in-sketch-then-animate-in-keynote-c7f40e59f8f8)
+
 ## Framer
 
 * [Framer Code](http://framerco.de/)

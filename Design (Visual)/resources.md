@@ -12,6 +12,7 @@
 * [Mood lines?](http://www.zevendesign.com/mood-lines-giving-designs-attitude/)
 * [25 epic design tips](http://designschool.canva.com/blog/graphic-design-tips-non-designers/)
 * [Cheap assets no cheap designers](https://medium.com/@webalys/cheap-assets-no-cheap-designers-44451afe2bf2)
+* [**Designers and Books**](http://www.designersandbooks.com/)
 
 ## Videos
 

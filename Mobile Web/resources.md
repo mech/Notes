@@ -105,6 +105,8 @@ if (window.matchMedia("(min-width: 40em)").matches) {
 
 ```
 // Mobile-first style
+// By default is width 100%, which is good for mobile-first
+// Only when at least 800px do we apply the following styles
 @media screen and (min-width: 50em) {
 	.col {
 		float: left;
@@ -118,6 +120,7 @@ if (window.matchMedia("(min-width: 40em)").matches) {
 	width: 50%;
 }
 
+// Device is at most 800px and not over this limit
 @media screen and (max-width: 50em) {
 	.col {
 		float: none;

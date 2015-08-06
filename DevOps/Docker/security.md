@@ -10,6 +10,10 @@
 * [Video: Securing your application using Docker](https://www.youtube.com/watch?v=KmxOXmPhZbk)
 * [Using Docker Safely - Adrian Mouat](https://www.youtube.com/watch?v=04LOuMgNj9U)
 
+```
+docker run -d --name my_db --memory 512m --cpu-shares 512 --user nobody --cap-drop all mysql
+```
+
 ---
 
 * Treat container services just like regular services. Drop privileges as quickly as possible. Do not run Nginx web server as root.

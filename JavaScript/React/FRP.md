@@ -34,6 +34,8 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Monads: From Web 2.0 to Hardware Drivers](http://www.well-typed.com/blog/105/)
 * [ancient-oak: Immutable data trees](https://github.com/brainshave/ancient-oak)
 * [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable)
+* [**The power of immutability and React**](https://medium.com/@sharifsbeat/the-power-of-immutability-and-react-daf46f2a5f4d)
+* [**JSON Graph: Reactive REST at Netflix**](http://applicative.acm.org/speaker-JafarHusain.html)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 

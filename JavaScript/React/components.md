@@ -131,6 +131,7 @@ Not all lambdas are closures, and not all closures are lambdas. A closure is cre
 ## Render function
 
 * [react-pure-render](https://github.com/gaearon/react-pure-render)
+* [A quick look at rendering whitespace using JSX](http://www.bennadel.com/blog/2880-a-quick-look-at-rendering-white-space-using-jsx-in-reactjs.htm)
 
 It is generally recommended that you funnel all your complex processing through the `render()` method. Event handlers just `setState()` while `render()` is the hub for all of your core logic.
 
