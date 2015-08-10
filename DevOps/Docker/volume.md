@@ -15,6 +15,13 @@ New volume is created in `/var/lib/docker/volumes`. Use `docker inspect` to see 
   "/data": true}
 ```
 
+To see all your mount points inside your container:
+
+```
+▶ docker run --rm -it --read-only=true -v /temp_data:/data ubuntu:latest /bin/bash
+▶ root@123:/# mount
+```
+
 AuFS `mount()` is fast, so creation of containers is quick. But initial `open()` is expensive when writing big files like databases. We ended up putting all important data on volumes.
 
 * [Under the hood](https://github.com/docker/docker/issues/111#issuecomment-16074795)

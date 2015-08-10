@@ -1,5 +1,11 @@
 # Jobline's Problem
 
+What's Jobline's North Star?
+
+Jobline no doubt is an existing product. We can "still" improve it. What we think is missing from Jobline? What improvement to work on. To make it better. To be more well-crafted. Where we lose people?
+
+> And so the other half of what we do is just making the products that we have better. Better meaning easier to use, meaning more well crafted, meaning introducing improvements constantly, week over week, and month over month, to the things that people are using like newsfeed or how they share photos and videos, or groups or all of the features that people know about Facebook. We're constantly making improvements to those. And a lot of how we figure out what improvements to make is by doing user research, is by responding to user feedback, is by doing a bunch of brainstorms with our teams, saying "What do you think is missing from this? What do you think we can do to make this better and better?". We have a much more structured way of figuring out what are those things that we should be making improvements on so that every single month we're doing something that's pushing this product forward. - [Design for impact](http://drt.fm/julie-zhuo/)
+
 **Why focusing on UI can boost productivity!**
 
 **Jobline is a simple app. Don’t overcomplicate it.**

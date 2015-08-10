@@ -1,5 +1,9 @@
 # Style Guides
 
+* [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
+* [**Atomic Design**](http://atomicdesign.bradfrost.com/chapter-1/)
+* [**Design Machine**](https://louderthanten.com/articles/story/design-machines)
+
 Nobody wants to email back and forth style guides. Confusion about latest version, hard to distribute, hard to edit and change, etc.
 
 Instead, create a living style guide made with real HTML and CSS and you can versioned it.
@@ -97,6 +101,7 @@ grep "info" * -R
 * [Medium CSS](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
 * [Bugsnag CSS](https://bugsnag.com/blog/bugsnags-css-architecture)
 * [Github's Primer](http://primercss.io/)
+* [Google Style Guide](https://github.com/google/styleguide)
 
 ## Playbook
 

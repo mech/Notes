@@ -20,6 +20,7 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 
 ## TO-WATCH
 
+* [**Screenings**](http://screenings.io/)
 * [PGConf US](https://www.youtube.com/channel/UCsJkVvxwoM7R9oRbzvUhbPQ/videos)
 * [Lean Agile Scotland](https://vimeo.com/leanagilescotland/videos)
 * [Inspirational videos for designers](http://thenuschool.com/inspirational-videos-for-designers-the-full-collection/)
@@ -32,3 +33,5 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [CSSConf New York June 2015](https://2015.cssconf.com/#videos)
 * [London React meetup](http://red-badger.com/blog/2015/07/08/london-react-meetup-june-2015/)
 * [Five Simple Steps free videos](http://www.fivesimplesteps.com/collections/all-videos)
+* [JSON Graph](http://applicative.acm.org/speaker-JafarHusain.html)
+* [React videos](http://codewinds.com/blog/2015-05-29-jsconf-reactjs.html)

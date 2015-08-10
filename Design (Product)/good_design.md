@@ -2,6 +2,7 @@
 
 > When you first start off trying to solve a problem, the first solutions you come up with are very complex, and most people stop there. But if you keep going, and live with the problem and peel more layers of the onion off, you can often times arrive at some very elegant and simple solutions - Steve Jobs
 
+* [**Journey of design in tech: Don't narrow yourself!**](https://medium.com/@imran_parvez/journey-of-design-in-tech-4e830ee8a208)
 * [**de zeen**](http://www.dezeen.com/)
 * [**Ello: A design disaster**](https://medium.com/@jvdgoot/ello-a-design-disaster-d53022ab3a62)
 * [We put a chip in it](http://weputachipinit.tumblr.com/)

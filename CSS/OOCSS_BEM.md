@@ -7,6 +7,7 @@
 * [Respect the global css namespace](http://blog.kaelig.fr/post/44554267597/please-respect-the-global-css-namespace)
 * [**Pros and cons of modular CSS**](https://github.com/staltz/cycle/issues/128)
 * [BEM - Tech pick of the week](http://futurice.com/blog/tech-pick-of-the-week-bem)
+* [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	

@@ -9,6 +9,7 @@
 - [React Cheatsheet](http://ricostacruz.com/cheatsheets/react.html)
 - [**React Kung Fu**](http://reactkungfu.com/)
 - [**Easy React Book**](http://easyreactbook.com/book/intro)
+- [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
@@ -252,6 +253,8 @@ Model your UI as pure function.
 * [React.js and how does it fit in with everything else?](http://www.funnyant.com/reactjs-what-is-it/)
 * [Pete Hunt response to side-by-side AngularJS comparison](http://www.quora.com/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look)
 * [**Isomorphic React app with Rails**](https://medium.com/@olance/isomorphic-reactjs-app-with-ruby-on-rails-part-1-server-side-rendering-8438bbb1ea1c)
+* [What is an isomorphic application](https://www.lullabot.com/articles/what-is-an-isomorphic-application)
+* [True isomorphic app with baobab](https://www.codementor.io/reactjs/tutorial/true-isomorphic-apps-react-baobab#/)
 * [Reactive Rails](http://www.inspire.nl/blog/2015/5/19/reactive-rails-all-you-have-to-know-about-reactjs-library)
 * [React for stupid people](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
@@ -473,6 +476,7 @@ Take a moment and think more critically about where `state` should be owned in t
 * [**Styling React components in Sass**](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
 * [ReactCSS???](http://reactcss.com/)
 * [Contextual styling](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
+* [A system for structuring your React application's styles](http://jamesknelson.com/a-system-for-structuring-your-react-applications-styles/)
 
 ## React Mount Runtime
 

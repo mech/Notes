@@ -42,6 +42,7 @@ Real-time analytics stack. Real-time ingestion and flexible, low-latency queries
 * [Kafka](http://kafka.apache.org/)
 * [Storm](http://storm.incubator.apache.org/)
 * [Science](https://github.com/github/dat-science)
+* [Mozilla Heka - Tool for collecting and processing data](https://github.com/mozilla-services/heka)
 
 ## Data Structure
 

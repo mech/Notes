@@ -1,5 +1,7 @@
 # System Installation with Mavericks
 
+[**Various OS-X dotfiles**](https://github.com/mathiasbynens/dotfiles/blob/master/.osx)
+
 http://couleursapp.com/
 
 Only use wkhtmltopdf 0.9.9 or else will have Mac OS X Dock issue. See https://github.com/blueheadpublishing/bookshop/wiki/Installing-wkhtmltopdf

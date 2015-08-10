@@ -8,6 +8,8 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [**The React.js Way: Flux Architecture with Immutable.js**](https://blog.risingstack.com/the-react-js-way-flux-architecture-with-immutable-js/)
+* [**Flux: Getting data from an API**](https://medium.com/@tribou/flux-getting-data-from-an-api-b73b6478c015)
 * [**Why make a framework on React and Flux?**](http://gunnariauvinen.com/why-make-a-framework-on-react-and-flux/)
 * [**Flux solutions compared by example**](http://pixelhunter.me/post/110248593059/flux-solutions-compared-by-example)
 * [**Flux from scratch**](http://ryanfunduk.com/articles/flux-from-scratch/)
@@ -183,6 +185,11 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 
 * [awesome-redux](https://github.com/xgrommx/awesome-redux)
 * [Redux isomorphic example](https://github.com/coodoo/react-redux-isomorphic-example)
+* [Simplest redux + react example](https://github.com/jackielii/simplest-redux-example)
+* [Issue#20](https://github.com/gaearon/react-redux/issues/20#issuecomment-127168519)
+* [Universal infinite scrolling stars Redux](http://react.rocks/blog/post/roundup-2015-Aug-09/)
+* [What the Flux?! Let's Redux](https://blog.andyet.com/2015/08/06/what-the-flux-lets-redux)
+* [Handcrafting an isomorphic Redux application](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 
 ## Examples
 

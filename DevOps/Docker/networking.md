@@ -185,6 +185,8 @@ Fixed IP on a container is a hard issue.
 
 ## Multi-Host Networking
 
+Docker 1.7 has native multi-host networking.
+
 * [Docker multicast networking using overlay driver with docker-machine and boot2docker](http://sirile.github.io/2015/07/14/docker-multihost-networking-using-overlay-driver-with-docker-machine-and-boot2docker.html)
 
 ## libnetwork and Container Network Model (CNM)

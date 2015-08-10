@@ -4,6 +4,7 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 
 **Always break your component down into single responsibility! And break it down further after that!**
 
+* [**Building React plugins**](https://nylas.com/blog/react-plugins)
 * [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
 * [JSX, a year in](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
@@ -60,6 +61,8 @@ Controller view must be capable of:
 
 
 ## Lifecycle
+
+* [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
 
 ### componentDidMount
 
@@ -209,6 +212,7 @@ Data binding is a hack around re-rendering.
 * [react-sparklines](https://github.com/borisyankov/react-sparklines)
 * [react-progress-button](https://github.com/mathieudutour/react-progress-button)
 * [react-table-sorter](https://github.com/bgerm/react-table-sorter-demo)
+* [react-ui-tree](http://pqx.github.io/react-ui-tree/example/)
 
 ### D3
 
@@ -221,6 +225,7 @@ Data binding is a hack around re-rendering.
 * [React and D3 Part 1: Layout](http://formidablelabs.com/blog/2015/05/21/react-d3-layouts/)
 * [Pyxley: Python Powered Dashboards](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
 * [On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3)
+* [Visualizing data in React.js](https://www.codementor.io/reactjs/tutorial/visualizing-data-react-js-cross-filtering-hover-interaction-histogram)
 
 ## Integrate with jQuery
 

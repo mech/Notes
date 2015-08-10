@@ -2,6 +2,11 @@
 
 * [iPhone and Wireshark](http://stackoverflow.com/questions/1598407/iphone-and-wireshark)
 * [Building a graphics card for the Internet](https://imgix.exposure.co/building-a-graphics-card-for-the-internet)
+* [**Very good network youtube channel**](https://www.youtube.com/user/abcd13619/videos)
+
+## NAT
+
+* [A look inside NAT](http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_7-3/anatomy.html)
 
 ## Ethernet
 

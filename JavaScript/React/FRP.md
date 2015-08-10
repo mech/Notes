@@ -6,6 +6,7 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [**Functional Reactive JS**](http://channikhabra.github.io/frp-with-rxjs-jschannel-conf/#/)
 * [What is Reactive Programming?](http://paulstovell.com/blog/reactive-programming)
 * [Mostly adequate guide to FP](https://github.com/DrBoolean/mostly-adequate-guide)
 * [**The introduction to Reactive Programming you've been missing**](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -16,6 +17,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Mori - Persistent data structures](https://github.com/swannodette/mori)
 * [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
 * [**Cycle - Reactive framework**](https://github.com/staltz/cycle)
+* [Cycle.js](http://cycle.js.org/)
 * [Functional Reactive React.js](https://medium.com/@garychambers108/functional-reactive-react-js-b04a8d97a540)
 * [javascript-allonge - Book](https://leanpub.com/javascript-allonge)
 * [Read JavaScript Allonge](https://leanpub.com/javascript-allonge/read)
@@ -36,6 +38,8 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable)
 * [**The power of immutability and React**](https://medium.com/@sharifsbeat/the-power-of-immutability-and-react-daf46f2a5f4d)
 * [**JSON Graph: Reactive REST at Netflix**](http://applicative.acm.org/speaker-JafarHusain.html)
+* [Functional programming on front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
+* [Smart immutable state for React](https://github.com/mistadikay/doob)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
@@ -68,6 +72,7 @@ Able to tell when I am done.
 
 > If I am interested in the keystroke "a" followed by "b" followed by "c" I can create an event that notifies me when this occurs. The observable pattern has huge benefits for code simplification.
 
+* [**RSS sample app using observable**](https://github.com/channikhabra/yarr/)
 * [**Making React reactive using MOBservable**](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 * [Cold vs Hot Observables](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/creating.md#cold-vs-hot-observables)
 * [Silent subscriptions](https://discuss.reactjs.org/t/reactjs-mobservable-as-the-easiest-and-fastest-way-to-propagate-changes-to-the-ui/811)
@@ -83,6 +88,7 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 
 While Flux suggests using low-level EventEmitter which requires manual event handling, RxJS and similar event processing tools are powerhouses capable of replacing a lot of boilerplate that a typical Flux application contains.
 
+* [**RxJS version 3.0 on Aug 2015**](https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.0.0)
 * [Using RxJS for data flow instead of Flux](http://qiita.com/kimagure/items/22cf4bb2a967fcba376e)
 * [irecord - An immutable store that exposes an RxJS observable](https://github.com/ericelliott/irecord)
 * [react-rx-component - Yet another RxJS library for React](https://github.com/acdlite/react-rx-component)
@@ -102,6 +108,7 @@ var stream = Rx.Observable.fromPromise(promise);
 * [Plant a Baobab tree in your Flux application](http://christianalfoni.github.io/javascript/2015/02/06/plant-a-baobab-tree-in-your-flux-application.html)
 * [Handling states in your React Flux application with Baobab](https://www.codementor.io/reactjs/tutorial/flux-reactjs-state-baobab-library)
 * [Declarative data fetching in React with Baobab](https://medium.com/@mistadikay/declarative-data-fetching-in-react-components-with-baobab-e43184c43852)
+* [True isomorphic app with baobab](https://www.codementor.io/reactjs/tutorial/true-isomorphic-apps-react-baobab#/)
 
 A cursor is a pointer to some data in your tree. The brilliant thing that cursors give you is the ability to listen for changes, but not only changes to the value the cursor points to.
 

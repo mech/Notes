@@ -12,6 +12,14 @@
 ▶ sudo apt-get install htop dstat
 ▶ sudo dmidecode --type memory
 ▶ dstat --top-io --top-bio
+
+▶ sudo bash -c 'echo "deploy ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'
+```
+
+## Install GUI on Server
+
+```
+▶ 
 ```
 
 ## Disable IPv6
@@ -241,7 +249,12 @@ The following packages have been kept back:
     - CVE-2014-0224
 ```
 
-## Installing Docker
+## Installing Docker Engine
+
+```
+// Edit DOCKER_OPTS AT:
+▶ vi /etc/default/docker
+```
 
 Remember to enable "Memory and Swap Accounting".
 
@@ -255,6 +268,10 @@ We need to use the Docker team's DEB packages.
 ```
 ▶ apt-get update
 
+// Most easy way
+▶ wget -qO- https://get.docker.com/ | sh
+
+// lxc-docker - Old way
 ▶ curl -s https://get.docker.com/gpg | sudo apt-key add -
 ▶ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
 ▶ sudo apt-get update

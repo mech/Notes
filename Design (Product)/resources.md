@@ -276,6 +276,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Duolingo design](http://www.theguardian.com/education/2014/feb/28/gaming-spanish-duolingo-language-challenge)
 * [Design Details - Carousel by Dropbox](http://blog.brianlovin.com/design-details-carousel-by-dropbox/)
 * [**Planetary**](https://planetary.io/)
+* [Intercom Blog](https://blog.intercom.io/)
 
 ## Product News
 

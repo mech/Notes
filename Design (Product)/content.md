@@ -16,6 +16,7 @@
 * [Tone and language](http://www.helpscout.net/blog/tone-and-language/)
 * [Writer Pro can help you?](http://sayzlim.net/editing-ia-writer-pro-syntax-control/)
 * [Make your company write better](http://inboundrocket.co/blog/a-formula-that-will-make-you-and-everyone-in-your-company-write-better/)
+* [**Templates are dead!**](http://www.core77.com/posts/36473/Templates-Are-Dead-5-Ways-Scalable-Design-Will-Change-The-Way-We-Build-Websites)
 
 Purpose of layouts:
 

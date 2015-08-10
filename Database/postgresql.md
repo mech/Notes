@@ -2,6 +2,7 @@
 
 https://vividcortex.com/pricing/
 
+* [**Postgres Guide**](http://www.postgresguide.com/)
 * [**Don't let your data out of the database**](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
 * [**Discovering the science behind Postgres indexes**](http://blog.codeship.com/discovering-computer-science-behind-postgres-indexes/)
 * [**pgcli**](http://pgcli.com/)

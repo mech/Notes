@@ -31,6 +31,9 @@ react-native@0.3.1 node_modules/react-native
 * [React Native introduction](http://www.appcoda.com/react-native-introduction/)
 * [Persisting TabBars in React Native](http://richardkho.com/persisting-tabbars-in-react-native/)
 * [Intro a new world of rapid iOS development](http://www.ibm.com/developerworks/library/mo-bluemix-react-native-ios8/index.html)
+* [React-native animated ScrollView row swipe action](http://browniefed.com/blog/2015/08/01/react-native-animated-listview-row-swipe/)
+* [Accessing iPhone camera](http://www.gettopical.com/reactjs/cd58c200b8cfd217e9ed03fc7f0c0cc6?src=twitter)
+* [So you want to dynamically update your React Native app](https://medium.com/@clayallsopp/so-you-want-to-dynamically-update-your-react-native-app-d1d88bf11ede)
 
 ## ListView
 

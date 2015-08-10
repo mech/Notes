@@ -1,5 +1,14 @@
 # Docker
 
+The fundamental architecture of Docker is a simple client/server model. Underneath this simple exterior, Docker heavily leverages kernel mechanisms like:
+
+* Iptables
+* Virtual bridging
+* cgroups, namespaces, capabilities
+* Filesystem drivers
+
+The `docker` executable is both a client as well as a server daemon. `docker` listens to TCP port 2375 (un-encrypted) and 2376 (encrypted).
+
 > How long would it take your organization to deploy a change that involves just one single line of code? (Lead time, cycle time) - Poppendieck (Release Cadence)
 
 Where are companies feeling the most pain? Shipping software at the speed expected in today's world is hard to do well.
@@ -22,7 +31,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Game Changer blog](http://tech.gc.com/)
 * [Why and how to use Docker for development](https://medium.com/@treeder/why-and-how-to-use-docker-for-development-a156c1de3b24)
 * [Deep dive into Docker storage drivers](https://www.youtube.com/watch?v=9oh_M11-foU)
-* [Notes on devicemapper](http://www.projectatomic.io/blog/2015/06/notes-on-fedora-centos-and-docker-storage-drivers/)
+* [Notes on device-mapper](http://www.projectatomic.io/blog/2015/06/notes-on-fedora-centos-and-docker-storage-drivers/)
 * [Docker .bash_history tip](https://zwischenzugs.wordpress.com/2015/06/14/my-favourite-docker-tip/)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
@@ -146,7 +155,7 @@ Prep your images to make it faster.
 * [Caching and `apt-get update`](https://github.com/docker/docker/issues/3313)
 * [Dockerfile Best Practices - take 2](http://crosbymichael.com/dockerfile-best-practices-take-2.html)
 * Instructions like `ADD` are not cache friendly. `ADD` stuff as late as possible in the Dockerfile.
-* [Amazon S3 registry](https://github.com/dogestry/dogestry)
+* [**Dogestry - Amazon S3 registry**](https://github.com/dogestry/dogestry)
 * [Docker tricks of the trade and best practices thoughts](http://www.carlboettiger.info/2014/08/29/docker-notes.html)
 * [Understanding Docker cache for faster builds](http://thenewstack.io/understanding-the-docker-cache-for-faster-builds/)
 * [**Security best practices for Dockerfile**](http://linux-audit.com/security-best-practices-for-building-docker-images/)
@@ -393,6 +402,16 @@ Inspect the container:
 ▶ docker inspect --format='{{.NetworkSettings.Ports}}' container_name
 ▶ docker inspect --format='{{.HostConfig.Binds}}' container_name
 ▶ docker inspect --format='{{.State.Pid}}' container_name
+```
+
+With environment variables
+
+```
+▶ docker run -d -p 5000:5000 \
+  -v /var/lib/registry:/tmp/registry \
+  -e STANDALONE=false \
+  -e MIRROR_SOURCE=https://registry-1.docker.io \
+  registry
 ```
 
 ### Container Restart Policy

@@ -38,6 +38,16 @@ Bundler.setup
 Bundler.require
 ```
 
+## Authentication and Authorization gems
+
+* [access-granted](https://github.com/chaps-io/access-granted)
+* [proof](https://github.com/undercase/proof)
+
+## Validation gems
+
+* [strip_attributes](https://github.com/rmm5t/strip_attributes)
+* [auto_strip_attributes](https://github.com/holli/auto_strip_attributes)
+
 ## Date gems
 
 * [stamp](https://github.com/jeremyw/stamp)

@@ -18,6 +18,7 @@ Properties can't be changed because they are inherited every time the component 
 
 There's a deeper reason why it's so important to make data flow clear and simple: it encourages you to keep state in as few places as possible and make most of your components stateless.
 
+* [**The problem of state**](https://www.new-bamboo.co.uk/blog/2015/07/23/the-problem-of-state/)
 * [**State is an anti-pattern**](http://www.reddit.com/r/reactjs/comments/3bjdoe/state_is_an_antipattern/)
 * [Communicate between components](http://facebook.github.io/react/tips/communicate-between-components.html)
 * [Expose component functions](http://facebook.github.io/react/tips/expose-component-functions.html)

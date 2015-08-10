@@ -35,6 +35,7 @@ Things that help you to remember when you start to design:
 
 > If you’re a leader of a team, empower your designers (and your entire team, really) to make these hard decisions and to own the consequences. As much as indecision can damage a project or team, so can constantly asking for permission.
 
+* [**Speed Matters**](http://jsomers.net/blog/speed-matters)
 * [**Designer Checklists**](http://adrien-heury.net/designers-checklists/)
 * [Building habits](http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product)
 * [**IDEO Design Kit**](http://www.designkit.org/methods)
@@ -110,6 +111,8 @@ Something to break the ICE:
 ## Jobs to be done (JTDB)
 
 * [Converting to Jobs stories](http://robots.thoughtbot.com/converting-to-jobs-stories)
+* [Replacing the user story with the job story](https://medium.com/the-job-to-be-done/replacing-the-user-story-with-the-job-story-af7cdee10c27)
+* [The most common user story mistake](https://medium.com/@kamil/the-most-common-user-story-mistake-68f1d7dabc43)
 
 ## Prototyping
 

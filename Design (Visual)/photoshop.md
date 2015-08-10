@@ -33,6 +33,7 @@
 * [The Stocks](http://thestocks.im/)
 * [Travel Coffee Book](http://travelcoffeebook.tumblr.com/)
 * [All the free stock](http://allthefreestock.com/)
+* [Only great wallpapers](http://only-great-wallpapers.tumblr.com/)
 
 ## Layers
 

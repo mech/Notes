@@ -7,6 +7,7 @@
 * [Container monitoring with Sysdig Cloud](https://sysdig.com/distributed-container-monitoring-sysdig-cloud-revolution/)
 * [Comprehensive monitoring for Docker](https://www.sumologic.com/2015/06/16/comprehensive-monitoring-for-docker-more-than-just-logs/)
 * [Log Docker events with a Ruby gem](http://blog.scoutapp.com/articles/2015/06/05/monitoring-docker-events)
+* [Docker 1.8 with fluentd as logging driver](http://blog.treasuredata.com/blog/2015/08/03/5-use-cases-docker-fluentd/)
 
 Options:
 

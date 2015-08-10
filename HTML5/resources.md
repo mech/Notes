@@ -2,6 +2,7 @@
 
 **http://www.broken-links.com/2015/04/28/the-future-of-the-open-web/**
 
+* [Web design is dead?](http://blog.usabilitytools.com/web-design-not-dead-on-ux-therapy)
 * [**frontend-feeds**](https://github.com/impressivewebs/frontend-feeds)
 * [**Web Design Weekly**](https://web-design-weekly.com)
 * [**Know which polyfill to use**](https://cdn.polyfill.io/v1/docs/)
