@@ -11,6 +11,8 @@
 
 Options:
 
+* [Spotify's syslog-redirector](https://github.com/spotify/syslog-redirector)
+* [supervisor-remote-logging](https://github.com/newrelic/supervisor-remote-logging)
 * [logstash](http://logstash.net/)
 * [logspout - Log routing for Docker](https://github.com/gliderlabs/logspout)
 * [logentries](https://logentries.com/)
@@ -32,9 +34,43 @@ Stream all your Docker logs to a centralized logging service. Never write to a l
 
 ## Syslog
 
-* [Syslog logging driver for Docker](http://www.wolfe.id.au/2015/05/03/syslog-logging-driver-for-docker/)
+**Mac OS-X: syslogd and aslmanager**
+
+```
+▶ cat /etc/syslog.conf
+▶ cat /etc/asl.conf
+
+# Rules for /var/log/system.log
+> system.log mode=0640 format=bsd rotate=seq compress file_max=5M all_max=50M
+```
+
+* [**Syslog logging driver for Docker**](http://www.wolfe.id.au/2015/05/03/syslog-logging-driver-for-docker/)
+
+```
+▶ dmesg | grep something | less
+▶ tail -n 10 -f /var/log/syslog
+```
 
 ## Docker Logging Solution
+
+If you're running a process on a box, you might expect the output to go to a local log file, or you might expect the output to simply be logged to the kernel buffer where it can be read from `dmesg`. Because of container's restrictions, neither of these will work without some gyrations to do so.
+
+By default, log is sent to `stdout` or `stderr` in the container by Docker daemon and stream into a configurable backend. This backend resides at `/var/lib/docker/containers/:container_id`
+
+```
+▶ docker logs -f container_id
+
+// Turn off logging by
+--log-driver=none
+```
+
+While Docker automatically captures logs for you, it does not also rotate them. YOU NEED TO FIND YOUR LOG STREAMING SOLUTION!
+
+Best practice is to send your container logs to syslog with `--log-driver=syslog`. Docker will now write to `/dev/log` which will be read by the syslog daemon. You also cannot use `docker logs` anymore as there is no more JSON log file to view.
+
+```
+▶ docker run -d -p 80:80 --log-driver=syslog nginx:latest
+```
 
 * [How to centralise your Docker logs with Fluentd and ElasticSearch on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-centralize-your-docker-logs-with-fluentd-and-elasticsearch-on-ubuntu-14-04)
 * [Collection Docker container stdout/stderr logs](http://www.fluentd.org/guides/recipes/docker-logging)
@@ -52,5 +88,16 @@ Stream all your Docker logs to a centralized logging service. Never write to a l
 
 # Monitoring
 
+```
+▶ docker stats container_id
+
+// To see process tree and docker-proxy
+▶ ps axlfww
+▶ ps -ejH
+▶ pstree `pidof docker`
+▶ pstree -p `pidof docker`
+```
+
+* [**cAdvisor - Google graphs for understanding resource usage**](https://github.com/google/cadvisor)
 * [How to setup Docker monitoring](https://www.brianchristner.io/how-to-setup-docker-monitoring/)
 * [Docker-mon - Console monitoring](https://github.com/icecrime/docker-mon)

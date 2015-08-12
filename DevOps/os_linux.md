@@ -76,7 +76,13 @@ id:5:initdefault:
 ## Logs
 
 ```
+// Display message or driver message
+// Show Kernel ring buffers
 ▶ dmesg
+▶ dmesg | grep -i eth0
+▶ dmesg | grep something | less
+
+▶ tail -n 10 -f /var/log/syslog
 ▶ less /var/log/messages
 ▶ less /var/log/secure
 ▶ less /var/log/auth

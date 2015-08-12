@@ -17,6 +17,7 @@ Deming Cycle - Plan, Do, Check, Act
 
 Scientific Method - Hypothesize, Experiment, Evaluate
 
+* [Docker engine - A tale of 3 versions](http://blog.tutum.co/2015/07/28/docker-engine-in-tutum-a-tale-of-three-versions/)
 * [**Awesome Docker**](http://getawesomeness.com/get/docker)
 * [**On Docker**](https://medium.com/on-docker)
 * [**Valuable Docker Links**](http://www.nkode.io/2014/08/24/valuable-docker-links.html)
@@ -33,6 +34,7 @@ Scientific Method - Hypothesize, Experiment, Evaluate
 * [Deep dive into Docker storage drivers](https://www.youtube.com/watch?v=9oh_M11-foU)
 * [Notes on device-mapper](http://www.projectatomic.io/blog/2015/06/notes-on-fedora-centos-and-docker-storage-drivers/)
 * [Docker .bash_history tip](https://zwischenzugs.wordpress.com/2015/06/14/my-favourite-docker-tip/)
+* [Another init script](http://garywiz.github.io/chaperone/index.html)
 
 Docker is a workflow and tooling. Docker wants you to make lots of small changes instead of huge, big bang updates. Smaller changes mean reduced risk and more uptime.
 

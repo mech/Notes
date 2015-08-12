@@ -128,6 +128,9 @@ Every Docker container is assigned an IP address though the `docker0` interface.
 
 ▶ sudo iptables -L -n
 ▶ sudo iptables -t nat -L -n
+
+// Reveal the docker-proxy
+▶ sudo netstat -anp | grep docker
 ```
 
 `docker0` is a virtual switch created entirely in software.

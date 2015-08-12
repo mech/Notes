@@ -4,6 +4,10 @@
 // docker run is just like
 ▶ docker create // 1
 ▶ docker start  // 2
+
+// At /var/lib/docker/containers/???
+▶ cat config.json | python -m json.tool
+▶ cat hostconfig.json | python -m json.tool
 ```
 
 ## docker run
@@ -23,6 +27,12 @@
 ```
 
 ## docker inspect
+
+## docker exec
+
+```
+▶ docker exec -it 567656787 /bin/bash
+```
 
 ## CPU pinning, shares and memory restriction
 

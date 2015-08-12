@@ -42,8 +42,9 @@ You can have many Dockerfiles for your single repository project.
 The following ask docker to find `Dockerfile_web` as the `Dockerfile` and set where to find it at `docker_web` folder.
 
 ```
-▶ docker build --tag jobline-web:cny --file Dockerfile_web ./docker_web
-▶ docker build -t jobline-web:cny -f Dockerfile_web ./docker_web
+▶ docker build --tag jobline/web:cny --file Dockerfile_web ./docker_web
+▶ docker build -t jobline/web:cny -f Dockerfile_web ./docker_web
+▶ docker build -t jobline/web -f web.df
 ```
 
 * [Dockerfile Reference](https://docs.docker.com/reference/builder/)

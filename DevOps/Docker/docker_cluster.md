@@ -123,6 +123,8 @@ web:
 
 ## Container Orchestration
 
+Orchestration allow you to coordinate the **configuration** and **deployment** of your application onto multiple Docker daemons.
+
 * [Fig is now docker-compose](http://chrisbarra.me/posts/docker-orchestration.html)
 * [Crane - Lift containers with ease](https://github.com/michaelsauter/crane)
 * [A Docker environment - See some bash scripts](https://blog.relateiq.com/a-docker-dev-environment-in-24-hours-part-2-of-2/)
