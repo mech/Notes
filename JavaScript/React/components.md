@@ -213,6 +213,7 @@ Data binding is a hack around re-rendering.
 * [react-progress-button](https://github.com/mathieudutour/react-progress-button)
 * [react-table-sorter](https://github.com/bgerm/react-table-sorter-demo)
 * [react-ui-tree](http://pqx.github.io/react-ui-tree/example/)
+* [react-object-inspector](https://github.com/xyc/react-object-inspector)
 
 ### D3
 

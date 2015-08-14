@@ -96,6 +96,7 @@ While Flux suggests using low-level EventEmitter which requires manual event han
 * [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=XE692Clb5LU)
 * [**Reactive MVC and Virtual DOM**](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
 * [2-minute intro to Rx](https://medium.com/@andrestaltz/2-minute-introduction-to-rx-24c8ca793877)
+* [react-rx-immutable-example](https://github.com/newtriks/react-rx-immutable-example)
 
 ```js
 // Convert a Promise to an Observable

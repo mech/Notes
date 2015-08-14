@@ -15,6 +15,7 @@
 * [IP geolocation - Go language actually](https://github.com/fiorix/freegeoip)
 * [ransack - Object-based searching (rewrite of MetaSearch)](https://github.com/activerecord-hackery/ransack)
 * [accepts_nested_ids](https://github.com/uberllama/accepts_nested_ids)
+* [**Queue using NSQ**](https://github.com/wistia/nsq-ruby)
 
 ## Bundler
 

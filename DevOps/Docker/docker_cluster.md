@@ -1,5 +1,7 @@
 # Docker Cluster
 
+Cluster (Swarm), Dynamic Scheduler (Mesos, Kubernetes)
+
 * [Benefits of Docker for application deployment](http://knitatoms.net/2013/12/benefits-of-docker-for-application-deployment/)
 * [SDN, Docker and the Real Changes Ahead](http://thenewstack.io/sdn-docker-real-changes-ahead/)
 * [SocketPlane == Open vSwitch + Consul + VXLAN + Docker](http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/)
@@ -72,53 +74,6 @@ ZooKeeper, dozed and etcd are all similar in their architecture.
 ▶ docker-machine start dev
 
 ▶ docker-machine rm dev
-```
-
-
-
-## docker-compose
-
-```
-export COMPOSE_FILE=docker-compose-old.yml
-```
-
-* [Orchestrate containers for development with compose](http://blog.codeship.com/orchestrate-containers-for-development-with-docker-compose/)
-* [Don't stop containers when fig up exits](https://github.com/docker/compose/issues/741)
-* [Data only containers / No run containers](https://github.com/docker/compose/issues/942)
-* [centurion from NewRelic](https://github.com/newrelic/centurion)
-* [maestro-ng](https://github.com/signalfuse/maestro-ng)
-* [How we used Docker to deploy](http://www.schibsted.pl/2015/05/how-we-used-docker-when-developing-schibstedpl/)
-* [With the `extends` keyword](http://bfischer.blogspot.com/2015/05/first-experiences-with-docker-compose.html)
-
-Multi-container apps are a hassle.
-
-* Build images from Dockerfiles
-* Pull images from the Hub
-* Configure and create containers
-* Start and stop containers
-* Stream their logs
-
-```
-mysql:
-  image: tutum/mysql
-  environment:
-    MYSQL_USER: root
-    MYSQL_PASSWORD: ???
-  volumes:
-    - /mnt/sda1/var/lib/mysql_data:/var/lib/mysql
-  ports:
-    - "3306:3306"
-web:
-  build: .
-  links:
-    - mysql
-    - mongodb
-    - redis:redis
-    - memcached
-  volumes:
-    - .:/var/www/webapp
-  ports:
-    - "80:80"
 ```
 
 ## Container Orchestration

@@ -28,6 +28,13 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 * [Quip](https://quip.com)
 
+```
+// Jobline CLI - Using Go program
+▶ jobline login
+▶ jobline users
+▶ jobline colleagues
+```
+
 ## Normalised list of skill
 
 If enough people add the same skill, we can normalize it. See https://vimeo.com/110012665
@@ -274,6 +281,8 @@ Publish conclusion.
 * [HTML to PDF](https://www.designernews.co/stories/51286-html-to-pdf)
 
 ## Email
+
+Our email template got to be more flexible. What if we need long table? We should not fixed the width too much and allow for different email layout template. See use-case: 'Sending client contract expiration'
 
 * [POP in iPhone](http://support.apple.com/en-sg/HT201855)
 * [POP vs IMAP](http://www.pop2imap.com/)

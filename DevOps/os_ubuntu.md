@@ -268,7 +268,7 @@ We need to use the Docker team's DEB packages.
 ```
 ▶ apt-get update
 
-// Most easy way
+// Most easy way, install + upgrade
 ▶ wget -qO- https://get.docker.com/ | sh
 
 // lxc-docker - Old way

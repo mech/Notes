@@ -1,5 +1,7 @@
 # Container
 
+Containers are separated from the data, and therefore interchangeable and immutable and ephemeral.
+
 ```
 // docker run is just like
 ▶ docker create // 1

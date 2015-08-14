@@ -9,6 +9,7 @@
 * [Someone said that 30% of the images on the Docker Registry contain vulnerabilities](http://jpetazzo.github.io/2015/05/27/docker-images-vulnerabilities/)
 * [Video: Securing your application using Docker](https://www.youtube.com/watch?v=KmxOXmPhZbk)
 * [Using Docker Safely - Adrian Mouat](https://www.youtube.com/watch?v=04LOuMgNj9U)
+* [**TUF - The Update Framework**](http://theupdateframework.com/)
 
 ```
 docker run -d --name my_db --memory 512m --cpu-shares 512 --user nobody --cap-drop all mysql

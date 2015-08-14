@@ -148,6 +148,14 @@ Is it better to set `--icc=false` and just using linking to let containers commu
 
 Disabling inter-container communication (ICC) is an important step in any Docker enabled environment. In doing so, you create an environment where explicit dependencies must be declared in order to work properly.
 
+## docker-proxy and NAT
+
+Incoming traffic **to** your container will meet the docker-proxy first before reaching the container. The proxy will look at the port and decide which container the traffic is for. Return traffic from the request flows through the same route.
+
+Outgoing traffic **from** your container will go through NAT. It is 1-way direction. No proxy will be involved.
+
+For high throughput application, use `--net=host` instead of going through docker0.
+
 ## Network Isolation
 
 There are 4 network container types:
@@ -197,3 +205,4 @@ Docker 1.7 has native multi-host networking.
 * [First post on libnetwork](http://blog.docker.com/2015/04/docker-networking-takes-a-step-in-the-right-direction-2/)
 * [Proposal: Network Drivers](https://github.com/docker/docker/issues/9983)
 
+SDN, micro-segmentation, VXLAN, etc.

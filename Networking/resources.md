@@ -3,6 +3,7 @@
 * [iPhone and Wireshark](http://stackoverflow.com/questions/1598407/iphone-and-wireshark)
 * [Building a graphics card for the Internet](https://imgix.exposure.co/building-a-graphics-card-for-the-internet)
 * [**Very good network youtube channel**](https://www.youtube.com/user/abcd13619/videos)
+* [**How DNS Works**](https://howdns.works/episodes/)
 
 ## NAT
 

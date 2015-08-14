@@ -154,6 +154,7 @@ Use `assets-webpack-plugin` to access the JSON stats object.
 * [Basic React.js with Rails without react-rails gem](https://labs.chie.do/creating-a-basic-reactjs-app-with-rails-serving-the-api-without-react-rails/)
 * [rails-starter](https://github.com/chiedojohn/rails-starter/tree/react/#sthash.KExty8ov.dpuf)
 * [**react-universal-starter**](https://github.com/vasanthk/react-universal-starter)
+* [hjs-webpack - Helpers/presets for setting up webpack](https://github.com/HenrikJoreteg/hjs-webpack)
 
 Use JSON manifest file for production fingerprinting.
 

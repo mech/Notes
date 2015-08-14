@@ -59,6 +59,7 @@ Location is used to match the URI of the request. These locations may be nested 
 
 Sub-URL vs Sub-Domain, Multiple apps
 
+* [**Nginx proxy for Docker containers**](http://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers/)
 * [Virtual hosts on nginx](https://gist.github.com/soheilhy/8b94347ff8336d971ad0)
 * [Using Nginx as a reverse proxy/load balancer with Weave and Docker](http://weave.works/guides/weave-docker-nginx-ubuntu-simple.html)
 * [How to setup Rails with Puma and Nginx](http://ruby-journal.com/how-to-setup-rails-app-with-puma-and-nginx/)

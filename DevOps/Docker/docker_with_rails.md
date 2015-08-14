@@ -1,5 +1,9 @@
 # Docker with Rails
 
+```
+gem 'rails_12factor'
+```
+
 Maybe we install nginx on host that acts as a load balancer also. Then the downstream will all be containers.
 
 Requirements:
@@ -53,6 +57,7 @@ Mounting configuration files.
 * [Ghost and MariaDB with Docker and Fig](http://blog.mewm.org/ghost-mariadb-with-docker-fig/)
 * [Automate your dev workflow with Docker](http://blog.codeship.com/automate-your-dev-workflow-with-docker/)
 * [What are the Steps to containerize my Monolithic App](https://www.joyent.com/blog/what-are-the-steps-to-containerize-my-monolithic-app)
+* [**Standing up Rails with Docker**](http://blog.tutum.co/2015/07/07/standing-up-ruby-on-rails-with-docker-and-tutum/)
 
 We can write bash script to stop, start and update our environment. We can even write script to go into maintenance mode and remove scheduled jobs first for FM to restart.
 

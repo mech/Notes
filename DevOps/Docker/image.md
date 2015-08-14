@@ -1,5 +1,8 @@
 # Image
 
+* [EJSON - managing secrets](https://github.com/Shopify/ejson)
+* [Vault - managing secrets](https://github.com/hashicorp/vault)
+
 Everything starts from the image. `Dockerfile` is just a text file. You have to build it to make an image. With that image, you can proceed to run it as a running container.
 
 * Build - `docker build` from Dockerfile

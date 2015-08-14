@@ -19,6 +19,7 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Implementing Repository pattern](http://hawkins.io/2013/10/implementing_the_repository_pattern/)
 * [Basic tools for sniffing out errors](http://6ftdan.com/allyourdev/2015/02/20/some-basic-ruby-tools-for-sniffing-out-errors/#J7YH)
 * [Replace rake with thor?](http://codecrate.com/2014/01/replace-rake-with-thor.html)
+* [Build your own code climate analysis engine](http://blog.codeclimate.com/blog/2015/07/07/build-your-own-codeclimate-engine/)
 
 ## Service Object
 

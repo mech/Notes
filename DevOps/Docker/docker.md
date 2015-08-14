@@ -136,6 +136,19 @@ Ephemeral: Container is dump. Spin and terminate. Log elsewhere! DB elsewhere!
 
 It's important to understand that it is far simpler to manage Docker if you view it as **role-based** VM rather than as deployable single-purpose processes. Go for role-based containers (app, db, cache, etc.)
 
+## Docker Daemon
+
+In Docker 1.8, you need to use `docker daemon` instead of `docker -d`
+
+```
+// Docker upstart configuration file
+▶ cat /etc/default/docker
+▶ echo 'DOCKER_OPTS="-b=bridge0"' >> /etc/default/docker
+▶ sudo service docker start
+
+DOCKER_OPTS="--icc=false"
+```
+
 ## Image - Build --tag
 
 Containers are nothing. It is already too late to do anything at run-time. Images are the "shippable" units and where it matters most.
@@ -501,12 +514,6 @@ hubot.tar: | hubot
 clean:
   rm -rf hubot && rm -f hubot.tar
 ```
-
-## Redis
-
-## Postgres
-
-## Sphinx
 
 ## Examples
 

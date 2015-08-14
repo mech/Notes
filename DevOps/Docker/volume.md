@@ -135,3 +135,12 @@ Benefits of data-only containers:
 ▶ docker run --name consumer -d --volume-from tools mysql
 ▶ docker exec consumer /tools/backup.sh
 ```
+
+**Backup data container (example: web-data)**
+
+```
+▶ docker run --rm \  --volumes-from web-data \
+  -v ${pwd}:/backup \
+  debian \
+  cp -r /var/www/html/uploads /backup
+```
