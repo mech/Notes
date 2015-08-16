@@ -11,6 +11,7 @@
 - [**Easy React Book**](http://easyreactbook.com/book/intro)
 - [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 - [Comprehensive list of React resources](http://www.gajotres.net/a-comprehensive-list-of-reactjs-resources/)
+- [Learn React in 8 mins](https://blog.skcript.com/learn-react-js-in-7-min-92a1ef023003)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
@@ -253,10 +254,6 @@ Model your UI as pure function.
 * [Facebook's Immutable.js](https://github.com/facebook/immutable-js)
 * [React.js and how does it fit in with everything else?](http://www.funnyant.com/reactjs-what-is-it/)
 * [Pete Hunt response to side-by-side AngularJS comparison](http://www.quora.com/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look)
-* [**Isomorphic React app with Rails**](https://medium.com/@olance/isomorphic-reactjs-app-with-ruby-on-rails-part-1-server-side-rendering-8438bbb1ea1c)
-* [What is an isomorphic application](https://www.lullabot.com/articles/what-is-an-isomorphic-application)
-* [True isomorphic app with baobab](https://www.codementor.io/reactjs/tutorial/true-isomorphic-apps-react-baobab#/)
-* [Rendering React - Server-side](https://www.beaconreader.com/beacon-engineering-blog/rendering-react)
 * [Reactive Rails](http://www.inspire.nl/blog/2015/5/19/reactive-rails-all-you-have-to-know-about-reactjs-library)
 * [React for stupid people](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Do it myself or callback](https://gist.github.com/jamesgpearce/53a6fc57677870f93248)
@@ -350,6 +347,7 @@ React.initializeTouchEvents(true);
 
 ## JSX
 
+* [**JSX: The other side of the coin**](https://medium.com/@housecor/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98)
 * [A case for JSX](https://medium.com/@thinkfunctional/a-case-for-jsx-73763ee9aa03)
 * [WTF is JSX](https://gist.github.com/developit/da77a4d3bbf365908c8c)
 
@@ -695,6 +693,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [E4E Developer Conf 2014 - Reactive, Component-based UIs with React](https://www.youtube.com/watch?v=uwnjDXtJufs)
 * [All you need to know to get started with React](https://www.youtube.com/watch?v=gzl80JozIZE)
 * [Learn React, Flux, and Flow](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
+* [**Netflix JavaScript Talks**](https://www.youtube.com/watch?feature=youtu.be&list=PLfXiENmg6yyU5kEHyo1kYkq7HEzBOoiTT&v=FAZJsxcykPs&app=desktop)
 
 ## Twitter
 

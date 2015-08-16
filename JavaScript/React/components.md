@@ -19,6 +19,7 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 * [**How to write a React Component**](http://theghostin.me/2015/07/06/how-to-write-a-react-component.html)
 * [Controller View Pattern](http://blog.andrewray.me/the-reactjs-controller-view-pattern/)
 * [Autobind using core-js](https://github.com/andreypopp/autobind-decorator)
+* [Experimenting with higher-order components in React](http://www.bennadel.com/blog/2888-experimenting-with-higher-order-components-in-reactjs.htm)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -214,6 +215,8 @@ Data binding is a hack around re-rendering.
 * [react-table-sorter](https://github.com/bgerm/react-table-sorter-demo)
 * [react-ui-tree](http://pqx.github.io/react-ui-tree/example/)
 * [react-object-inspector](https://github.com/xyc/react-object-inspector)
+* [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer)
+* [react-tunnel](https://github.com/gnoff/react-tunnel)
 
 ### D3
 

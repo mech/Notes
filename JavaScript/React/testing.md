@@ -12,3 +12,4 @@
 * [Approaches to testing React components - an overview](http://reactkungfu.com/2015/07/approaches-to-testing-react-components-an-overview/)
 * [React unit test and code coverage with Jest and Istanbul](https://blog.sergiocruz.me/reactjs-unit-test-and-code-coverage-with-jest/)
 * [React testing tricks](http://react.rocks/blog/post/react-testing-tricks/)
+* [Unit and functional testing React components](https://reactjsnews.com/testing-in-react/)

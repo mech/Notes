@@ -1,5 +1,6 @@
 # Email
 
+* [Campaign Monitor guide](https://www.campaignmonitor.com/dev-resources/guides/coding/)
 * [**Really Good Emails**](http://reallygoodemails.com/)
 * [**Email design workflow**](http://www.leemunroe.com/email-design-workflow/)
 * [**Future of email marketing**](http://marketblog.envato.com/trends/future-email-marketing/)

@@ -9,6 +9,8 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 * [Nicolas Gallagher - Thinking beyond "Scalable CSS"](https://www.youtube.com/watch?v=L8w3v9m6G04)
 * [**React-UI**](https://github.com/React-UI)
 * [**Pure UI**](http://rauchg.com/2015/pure-ui/)
+* [Managing UI complexity with React - Part 1](http://alanbsmith.io/managing-ui-complexity-with-react-part-1/)
+* [Managing UI complexity with React - Part 2](http://alanbsmith.io/managing-ui-complexity-with-react-part-ii/)
 
 ## UI Widget Names
 

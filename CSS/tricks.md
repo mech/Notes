@@ -32,6 +32,7 @@
 * [Use CSS `:not()`](https://twitter.com/wesbos/status/606144483562913792)
 * [Page scroll effect](http://codyhouse.co/demo/page-scroll-effects/)
 * [Some nice CSS](http://demos.creative-tim.com/presentation)
+* [Background image opacity](https://www.designernews.co/stories/54294-css-backgroundimageopacity-would-be-great)
 
 
 ```

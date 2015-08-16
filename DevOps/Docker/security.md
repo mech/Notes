@@ -36,6 +36,16 @@ Breaking out of a container requires root privilege.
 ▶ sudo docker create -user deploy
 ```
 
+## UID:GID
+
+Root (UID 0) inside a container is a jailed root (UID 0) on the host! Don't run as root inside of a container. Containers running application level code never need root access anyway.
+
+```dockerfile
+RUN groupadd -r postgres && useradd -r -g postgres postgres
+```
+
+* [Docker User Problems and Patterns](https://medium.com/on-docker/what-s-montague-docker-user-problems-and-patterns-79750c504aa1)
+
 ## CIS Benchmark
 
 * [Understanding Docker security and best practices](https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/)

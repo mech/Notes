@@ -55,6 +55,7 @@
 * [Font pairing](http://www.newmediacampaigns.com/blog/resources-for-font-pairing-typography-inspiration)
 * [The State of Web Type](http://stateofwebtype.com/)
 * [Font Pair for Google fonts](http://fontpair.co/)
+* [What are some of your favourite font combinations](https://www.designernews.co/stories/54276-ask-dn-what-are-some-of-your-favourite-font-combinations)
 
 ```
 // New for Firefox 25

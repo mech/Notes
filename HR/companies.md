@@ -17,6 +17,7 @@ Notable companies in HR domain.
 
 ## Notable Companies
 
+* [**sleekr**](http://sleekr.co/)
 * [**Toptal**](http://www.toptal.com/)
 * [**Zenefits**](http://www.zenefits.com/hr-software)
 * [**Jobvite**](http://www.jobvite.com/products/)

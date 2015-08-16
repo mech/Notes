@@ -4,6 +4,7 @@
 * [Running Docker in development](http://blog.cloud66.com/running-docker-in-development/)
 * [Tips for running Docker in development](http://blog.cloud66.com/tips-for-running-docker-in-development/)
 * [Working with Rails and Docker](http://pothibo.com/2015/6/now-i-understand-a-little-bit-how-docker-works)
+* [Dusty - Docker-powered development environment](http://dusty.gc.com/)
 
 ## Boot2Docker
 

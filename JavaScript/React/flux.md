@@ -44,6 +44,7 @@
 * [Define the data to fetch in a declarative way with React](http://arqex.com/1058/define-the-data-to-fetch-declaratively-with-react)
 * [Getting to know Flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 * [Combining Flux and FRP](https://medium.com/@milankinen/combining-flux-and-frp-hello-ffux-b04ff20fcbc6)
+* [A simple web architecture using Flux, CSP, and FRP concepts](http://codrspace.com/allenkim67/a-simpler-web-architecture-using-flux-csp-and-frp-concepts/)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -190,6 +191,8 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * [Universal infinite scrolling stars Redux](http://react.rocks/blog/post/roundup-2015-Aug-09/)
 * [What the Flux?! Let's Redux](https://blog.andyet.com/2015/08/06/what-the-flux-lets-redux)
 * [Handcrafting an isomorphic Redux application](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
+* [redux-devtools](https://github.com/gaearon/redux-devtools)
+* [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
 
 ## Examples
 

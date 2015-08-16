@@ -8,6 +8,7 @@ It's not about the product, it's about your users.
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [**Design Thinking come of age**](https://hbr.org/2015/09/design-thinking-comes-of-age)
 * [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
 * [**Platform stack**](http://platformed.info/platform-stack/)
 * [**Bringing Design to Software**](http://hci.stanford.edu/publications/bds/)
@@ -46,6 +47,8 @@ It's not about the product, it's about your users.
 * [Simple design is what you need not what you want](http://firstround.com/article/Simple-Design-is-What-You-Need-Not-What-You-Want-1)
 * [Only openings](http://frankchimero.com/talks/only-openings/transcript/)
 * [Slack's product design](https://medium.com/medium-long/4c59524d650d)
+* [Rethink designs Slack's first ads](http://www.marketingmag.ca/advertising/look-at-this-rethink-designs-slacks-first-ads-153411)
+* [Slack product marketing](http://threadling.com/slack-product-marketing/)
 * [Principles of product design](http://bokardo.com/principles-of-product-design/)
 * [Observe your user](http://blog.simplease.at/2014/05/the-user-is-always-right-wrong/)
 * [Experiments at Airbnb](http://nerds.airbnb.com/experiments-at-airbnb/)

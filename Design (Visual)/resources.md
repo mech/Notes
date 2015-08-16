@@ -23,6 +23,7 @@
 
 ## Color
 
+* [Color Hunt](http://colorhunt.co/)
 * [**Generate color scheme using spacebar**](http://coolors.co/)
 * **Color Mode** - A way to describe color with numbers. RGB, CMYK, Lab, HSL
 * **Color Space** - A range of colors. Adobe RGB, sRGB, ProPhoto RGB (BIG), monitor, inkjet printer.

@@ -289,6 +289,12 @@ Our email template got to be more flexible. What if we need long table? We shoul
 
 We send reminder to approve timesheets for client (approver) and list down the candidate names. If they are like Chris Goh who need to approve 47 candidates, and he only approve 20, our next email reminder will "encourage" him to close it in the last mile by introducing some cute animation? characters? Or we can show checkboxes where those approved candidates will get checked or strike off to let him know he is so close to approving for all.
 
+## Developer Dashboard
+
+Quickly put up pages for developer. Can be event logs, metrics, etc.
+
+* [Example of dashboard](https://www.youtube.com/watch?v=PZ6coq2Rmgs)
+
 ## Account Management
 
 * Invitation (invite collaborator, co-worker, etc. See Dropbox example - https://www.dropbox.com/guide/business/highlights/getting-started)
@@ -316,6 +322,9 @@ Map permissions to a specific business function.
 * http://gangasudhan.com/blog/2008/07/nric-fin-number-suffix-checker.html
 * 
 
+## Designers
+
+* [Alex Tass](http://alextass.com/gallery/logo-design-portfolio)
 
 Histograms
 Sparklines

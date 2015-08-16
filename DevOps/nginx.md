@@ -68,6 +68,7 @@ Sub-URL vs Sub-Domain, Multiple apps
 * [Nginx, Unicorn and multiple Rails apps](http://jrochelly.com/post/2013/08/nginx-unicorn-multiple-rails-apps/)
 * [Hosting rails on sub-uri](http://stackoverflow.com/questions/19594542/hosting-rails-app-on-thins-nginx-on-a-sub-uri-behind-a-reverse-proxy)
 * [How to create your own website based on Docker with Nginx reverse proxy](http://project-webdev.blogspot.de/2015/06/create-site-based-on-docker-part10-nginx-reverse-proxy-docker-image.html)
+* [Nginx, node, redis example](http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/)
 
 A reverse proxy is a web server that terminates connections with clients and makes new ones to upstream servers on their behalf.
 

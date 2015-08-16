@@ -12,6 +12,7 @@
 * [React Dropzone for File Upload](https://github.com/felixrieseberg/React-Dropzone-Component)
 * [High performance touch interactions](http://maketea.co.uk/2015/02/16/high-performance-touch-interactions.html)
 * [Cross browser drag cursor](http://blog.vjeux.com/2012/css/css-cross-browser-drag-cursor.html)
+* [react-anything-sortable](https://github.com/jasonslyvia/react-anything-sortable)
 
 ## Examples
 

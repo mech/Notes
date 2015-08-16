@@ -14,6 +14,8 @@ export COMPOSE_FILE=docker-compose-old.yml
 * [maestro-ng](https://github.com/signalfuse/maestro-ng)
 * [How we used Docker to deploy](http://www.schibsted.pl/2015/05/how-we-used-docker-when-developing-schibstedpl/)
 * [With the `extends` keyword](http://bfischer.blogspot.com/2015/05/first-experiences-with-docker-compose.html)
+* [docker-compose-ui](https://github.com/francescou/docker-compose-ui)
+* [Cheatsheet for compose](http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet/)
 
 Multi-container apps are a hassle.
 

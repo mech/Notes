@@ -6,6 +6,7 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [**Pros and cons of using immutability with React.js**](http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/)
 * [**Functional Reactive JS**](http://channikhabra.github.io/frp-with-rxjs-jschannel-conf/#/)
 * [What is Reactive Programming?](http://paulstovell.com/blog/reactive-programming)
 * [Mostly adequate guide to FP](https://github.com/DrBoolean/mostly-adequate-guide)
@@ -40,6 +41,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [**JSON Graph: Reactive REST at Netflix**](http://applicative.acm.org/speaker-JafarHusain.html)
 * [Functional programming on front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
 * [Smart immutable state for React](https://github.com/mistadikay/doob)
+* [Reactive Programming with Kefir.js and React](https://medium.com/@carloM/reactive-programming-with-kefir-js-and-react-a0e8bb3af636)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
@@ -97,6 +99,7 @@ While Flux suggests using low-level EventEmitter which requires manual event han
 * [**Reactive MVC and Virtual DOM**](http://futurice.com/blog/reactive-mvc-and-the-virtual-dom)
 * [2-minute intro to Rx](https://medium.com/@andrestaltz/2-minute-introduction-to-rx-24c8ca793877)
 * [react-rx-immutable-example](https://github.com/newtriks/react-rx-immutable-example)
+* [Using Rx.js to create a scroll table with adjustable width](https://www.codementor.io/reactjs/tutorial/using-rxjs-to-create-a-scroll-table-with-adjustable-width)
 
 ```js
 // Convert a Promise to an Observable

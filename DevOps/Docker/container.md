@@ -1,5 +1,7 @@
 # Container
 
+* [Spring cleaning your container](http://odino.org/spring-cleaning-of-your-docker-containers/)
+
 Containers are separated from the data, and therefore interchangeable and immutable and ephemeral.
 
 ```
