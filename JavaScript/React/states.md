@@ -53,6 +53,8 @@ Here we are talking about component-component communication, not data-fetching p
 
 If you're not using the Flux pattern (where the parent widget listens to Stores that are affected by Action Creators invoked by the child elements), the idiomatic way to do this is to pass callbacks that affect the overall widget through `props` - this can be a bit awkward when you are passing a callback down several levels.
 
+Promises are great to use when a child component needs to wait on a parent component's asynchronous request.
+
 ## Sub-tree
 
 The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.
@@ -60,6 +62,8 @@ The performance cost model of React is very simple to understand: every `setStat
 ## Props (Immutable)
 
 A component can change its state but its props are immutable, which is good feature because there should ideally be a **single source of truth**.
+
+**Don't feed any data as props to your ROOT component (if you can help it) Have your root component manage state.**
 
 ## State
 

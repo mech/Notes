@@ -44,6 +44,7 @@ To verify if your kernel has downloaded the patch you can:
 
 * [SysV Init to Systemd cheatsheet](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet)
 * [Socket Activation](http://0pointer.de/blog/projects/socket-activation.html)
+* [Getting started with systemd](https://coreos.com/docs/launching-containers/launching/getting-started-with-systemd/)
 
 ```
 ▶ systemctl list-unit-files

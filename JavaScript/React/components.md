@@ -38,6 +38,8 @@ render() {
   </div>}
 ```
 
+Try passing in components to other components if you have similar components that have slightly different displays. Or you can use `this.props.children` and put it inside.
+
 ### State Machines
 
 Components are just state machines. React thinks of UIs as simple state machines. By thinking of a UI as being in various states and rendering those states, it's easy to keep your UI consistent.

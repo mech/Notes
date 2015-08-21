@@ -1,5 +1,9 @@
 # Tools
 
+Design is a process best served by consistent, frequent feedback. It's about messy iterations, interdisciplinary collaboration, and problem-solving.
+
+Design decisions don't live independently of business or engineering goals - their impact is deeply intertwined with how well a business performs.
+
 * [On Design Tools](https://speakerdeck.com/joshpuckett/on-design-tools)
 
 ---
@@ -14,6 +18,8 @@
 * [Flinto](https://www.flinto.com/)
 * [Framer](http://framerjs.com/)
 * [Atomic](atomic.io)
+* [Wake](https://wake.io/)
+* [Principle](http://principleformac.com/)
 * [Keynote](http://www.lindadong.com/blog/keynotemotiongraphic)
 
 ## Prototyping

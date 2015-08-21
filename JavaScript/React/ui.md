@@ -16,6 +16,7 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 
 ## UI Libraries
 
+* [**react-container**](https://github.com/JedWatson/react-container)
 * [Belle - Configurable React Components with great UX](http://nikgraf.github.io/belle/#/)
 * [MediaMath's Strand - Using Web Components](http://mediamath.github.io/strand/)
 * [Material Design Lite](http://www.getmdl.io/)
@@ -94,3 +95,10 @@ React allow you to write your own DSL, your own components, your own HR lexicon!
 ## Root Component
 
 Your render tree.
+
+**Don't feed any data as props to your ROOT component (if you can help it) Have your root component manage state.**
+
+A root component is a very good place to manage overall application shell's state. It is also a good place to do data caching!
+
+Container-displayer relationship.
+

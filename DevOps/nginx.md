@@ -1,5 +1,58 @@
 # Nginx
 
+What can Nginx do:
+
+* Proxy to Rails, Node application
+* Software load balancer
+* HTTP cache
+* Off-load SSL
+* Acts as SMTP, POP3 and IMAP
+* Event-driven architecture and Reactor pattern
+* Single-thread per worker process
+* Multiplexing and event notifications
+
+```
+--prefix=/usr/local/Cellar/nginx/1.8.0
+--conf-path=/usr/local/etc/nginx/nginx.conf
+
+▶ sudo apt-get install build-essentials
+▶ sudo apt-get install libpcre3 libpcre3-dev
+▶ sudo apt-get install zlib1g zlib1g-dev
+▶ sudo apt-get install openssl openssl-dev
+
+▶ ./configure --conf-path=/etc/nginx/nginx.conf \
+              --with-http_ssl_module \
+              --with-http_spdy_module \
+              --with-http_realip_module \
+              --with-http_stub_status_module \
+              --with-http_gzip_static_module \
+              --with-google_perftools_module
+              
+▶ make
+▶ sudo make install
+
+// Find out where your nginx.conf file is at and test it
+▶ nginx -t
+
+// Ubuntu
+/etc/nginx/nginx.conf
+
+▶ kill -HUP `cat /var/run/nginx.pid`
+▶ kill -HUP $(cat /var/run/nginx.pid)
+```
+
+Nginx master will run as root so that it can bind to port 80 and worker processes will run as least privileged user typically.
+
+```
+root      Ss   03:21   0:00 nginx: master process nginx -g daemon off;
+nginx     S    03:21   0:00 nginx: worker process
+```
+
+The master process reads and executes the nginx configuration, binds the necessary ports, and runs the worker processes.
+
+---
+
+* [Nginx Tips](http://www.nginxtips.com/)
 * [Tutum's Nginx tag](https://learn.tutum.co/tag/12/nginx)
 * [ngx_pagespeed](https://github.com/pagespeed/ngx_pagespeed)
 * [How to install latest version of nginx](https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-version-of-nginx-on-ubuntu-12-10)
@@ -17,6 +70,81 @@
 * [Running a Nginx in a container](https://rubyplus.com/articles/2371)
 * [Some nginx example](http://tech.yunojuno.com/trifecta-part-2-docker)
 * [Nginx + Passenger](https://gist.github.com/mikhailov/711913)
+
+## nginx.conf
+
+* [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
+* [Best nginx configuration?](https://gist.github.com/plentz/6737338)
+
+2 types of directives: Simple Directives and Context Directives
+
+```
+worker_processes 6; # 6-core, 12 Hyper-Threading
+
+// Context Directive
+events {
+  worker_connections 1024;}
+
+http {
+  server {
+    // Simple Directive
+    listen *:80 ssl backlog=511;  }	}
+```
+
+There is an implied main context. Nginx also has a lightweight inheritance model where you can overwrite previously defined directives in nested contexts.
+
+## Location
+
+Location is used to match the URI of the request. These locations may be nested or otherwise ordered to ensure that requests get routed to the right areas of the filesystem or application server.
+
+There are 3 types of location patterns: simple, exact, and regular expression.
+
+```
+# Simple
+location /images {
+  root /usr/local/html/images;}
+
+# Will serve from folder /data/images for URL matching http://host/gifs/a.gif
+location /gifs/ {
+  alias /data/images/;}
+
+# Not very useful, will match exactly, but is quick to search
+location = /foobar/images/a.gif {}
+
+# Case-sensitive
+location ~ \.(gif|jpg)$ {}
+
+# Case-insensitive
+location ~* \.(gif|jpg)$ {}
+
+# Non-regular expression, if found, skip any regular expression coming next
+location ^~ /foobar/images {}
+
+# Cache API related requests for 10m
+location /api {
+  expires 10m;}
+```
+
+## Assets
+
+```
+location ~* \.(css|js|gif|jpe?g|png)$ {
+  expires 168h;}
+```
+
+## tcp_nodelay, tcp_nopush
+
+* [Some nice discussion](https://news.ycombinator.com/item?id=9045125)
+
+## Virtual Hosting
+
+1 public IP with many different domains.
+
+```
+server_name 'api.jobline.com.sg'
+
+server_name 'jobline.com.sg'
+```
 
 ## Passenger 5
 
@@ -51,11 +179,11 @@ To test configuration file, use:
 ▶ nginx -t -c nginx.conf
 ```
 
-## Location
-
-Location is used to match the URI of the request. These locations may be nested or otherwise ordered to ensure that requests get routed to the right areas of the filesystem or application server.
-
 ## Reverse Proxy
+
+Unlike Apache with mod_php, Nginx do not embed interpreter into the webserver. Instead it delegate to a separate server and proxies upstream.
+
+A Load Balancer is in fact a Reverse Proxy!
 
 Sub-URL vs Sub-Domain, Multiple apps
 
@@ -137,7 +265,8 @@ server {
   return 301 https://$host$request_uri;}
 
 server {
-  listen 443 ssl spdy;
+  listen 58.124.12.8:80; // Can listen multiple ports
+  listen 58.124.12.8:443 ssl spdy;
   server_name jobline.com.sg www.jobline.com.sg;
   
   ssl on;
@@ -182,3 +311,31 @@ server {
     proxy_set_header ssl_client_cert $ssl_client_cert;
     proxy_pass https://127.0.0.1:3000;  }}
 ```
+
+## Security
+
+* [Hardening Nginx](https://www.acunetix.com/blog/articles/nginx-server-security-hardening-configuration-1/)
+* [Gist for self-signed cert](https://gist.github.com/hansode/1121067)
+* [Is TLS fast yet?](https://istlsfastyet.com/)
+
+## Performance and Linux tuning
+
+* [Some nice benchmark example](https://www.youtube.com/watch?v=FJrs0Ar9asY)
+* [Tuning Nginx for best performance](http://dak1n1.com/blog/12-nginx-performance-tuning/)
+* [Nginx optimization: Understanding TCP_NODELAY and TCP_NOPUSH](https://t37.net/nginx-optimization-understanding-sendfile-tcp_nodelay-and-tcp_nopush.html)
+
+```
+// 1000 requests
+// 100 concurrency
+▶ ab -n 1000 -c 100 http://22.22.22.4/
+
+▶ brew install httperf
+▶ httperf --server 192.168.1.10 --port 80 --uri /index.html --rate 300 --num-conn 30000 --num-call 1 --timeout 5
+```
+
+Kernel flags set with `sysctl` tool will be lost upon reboot. In order to persist them, you must add them to `/etc/sysctl.conf` or `/etc/sysctl.d/`.
+
+
+## Videos
+
+* [5 things you didn't know Nginx could do](https://www.youtube.com/watch?v=7Y7ORypoHhE)

@@ -21,6 +21,7 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 ## TO-WATCH
 
 * [**Screenings**](http://screenings.io/)
+* [**GOTO Conference**](https://www.youtube.com/watch?v=ZnIiFWD7yUw)
 * [PGConf US](https://www.youtube.com/channel/UCsJkVvxwoM7R9oRbzvUhbPQ/videos)
 * [Lean Agile Scotland](https://vimeo.com/leanagilescotland/videos)
 * [Inspirational videos for designers](http://thenuschool.com/inspirational-videos-for-designers-the-full-collection/)

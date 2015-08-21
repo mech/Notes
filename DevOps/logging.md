@@ -86,6 +86,14 @@ Best practice is to send your container logs to syslog with `--log-driver=syslog
 
 * [Understanding logrotate utility](http://www.rackspace.com/knowledge_center/article/understanding-logrotate-utility)
 * [How to manage log files with logrotate](https://www.digitalocean.com/community/tutorials/how-to-manage-log-files-with-logrotate-on-ubuntu-12-10)
+* [How to rotate logs to S3](http://www.dowdandassociates.com/blog/content/howto-rotate-logs-to-s3/)
+* [Copy your server logs to S3](http://www.shanestillwell.com/2013/04/04/copy-your-server-logs-to-amazon-s3-using-logrotate-and-s3cmd/)
+* [Logrotate with 10 examples](http://www.thegeekstuff.com/2010/07/logrotate-examples/)
+* [Rotating log](http://www.ducea.com/2006/06/06/rotating-linux-log-files-part-1-syslog/)
+
+## Sending log to email using command line
+
+* [ssmtp and mpack](http://ozzmaker.com/2012/12/03/send-email-from-the-raspberry-pi-or-linux-command-line-with-attachments/)
 
 # Monitoring
 

@@ -14,6 +14,9 @@
 ▶ dstat --top-io --top-bio
 
 ▶ sudo bash -c 'echo "deploy ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'
+
+// Choose startup services like ntsysv
+▶ apt-get install sysv-rc-conf
 ```
 
 ## Install GUI on Server
@@ -78,6 +81,19 @@ Port ??
 ```
 
 Then restart by `sudo service ssh restart`
+
+## sysctl.conf
+
+Kernel flags set with `sysctl` tool will be lost upon reboot. In order to persist them, you must add them to `/etc/sysctl.conf` or `/etc/sysctl.d/`.
+
+Typical thing to tweak here is increase open files limit, increase queue for listening on new connection like `net.core.somaxconn`.
+
+* [Linux tuning](https://rtcamp.com/tutorials/linux/sysctl-conf/)
+
+```
+▶ sysctl -A
+▶ sysctl net.core.somaxconn
+```
 
 ## Harden Network
 
