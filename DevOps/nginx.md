@@ -75,6 +75,7 @@ The master process reads and executes the nginx configuration, binds the necessa
 
 * [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 * [Best nginx configuration?](https://gist.github.com/plentz/6737338)
+* [Unicorn example from defunkt](https://github.com/defunkt/unicorn/blob/master/examples/nginx.conf)
 
 2 types of directives: Simple Directives and Context Directives
 
@@ -317,6 +318,11 @@ server {
 * [Hardening Nginx](https://www.acunetix.com/blog/articles/nginx-server-security-hardening-configuration-1/)
 * [Gist for self-signed cert](https://gist.github.com/hansode/1121067)
 * [Is TLS fast yet?](https://istlsfastyet.com/)
+
+```
+// Remove passphrase
+▶ openssl rsa -in original.key -out unencripted.key
+```
 
 ## Performance and Linux tuning
 

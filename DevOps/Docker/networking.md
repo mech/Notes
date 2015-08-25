@@ -8,6 +8,7 @@ With bridge, containers can access the Internet, but not from the host by defaul
 
 Containers would not be very useful if there was no way to get to them through the network. Luckily that is not the case. We can publish port for outside world to communicate with our container by using the `-p` or `--publish` flag.
 
+* [**Docker inter container networking explained**](http://blog.sequenceiq.com/blog/2014/08/12/docker-networking/)
 * [**Network configuration - More advanced**](https://docs.docker.com/articles/networking/)
 * [**Introducing Linux Network Namespaces**](http://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/)
 * [Network port mapping](http://docs.docker.com/userguide/dockerlinks/#network-port-mapping-refresher)

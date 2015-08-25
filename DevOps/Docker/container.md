@@ -1,6 +1,8 @@
 # Container
 
 * [Spring cleaning your container](http://odino.org/spring-cleaning-of-your-docker-containers/)
+* [Gracefully stopping containers](https://labs.ctl.io/gracefully-stopping-docker-containers/)
+* [What to inspect](https://labs.ctl.io/what-to-inspect-when-youre-inspecting/)
 
 Containers are separated from the data, and therefore interchangeable and immutable and ephemeral.
 

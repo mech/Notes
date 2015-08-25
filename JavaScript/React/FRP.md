@@ -136,3 +136,4 @@ A cursor is a pointer to some data in your tree. The brilliant thing that cursor
 * [Async JavaScript with Reactive Extensions at Netflix](https://www.youtube.com/watch?v=XRYN2xt11Ek)
 * [Functional Reactive Programming in Elm](https://www.youtube.com/watch?v=DiZ1CfLQvIU)
 * [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=a8W5VVGO-jA)
+* [Big retail goes reactive](http://www.typesafe.com/resources/video/big-retail-goes-reactive)

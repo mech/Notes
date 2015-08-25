@@ -62,6 +62,7 @@ sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/mysql/my.cnf
 ## .dot
 
 * [mrmartineau](https://github.com/mrmartineau/dotfiles)
+* [Xinjiang](https://github.com/soleo/dotfiles)
 
 ## find
 
