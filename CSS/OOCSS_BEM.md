@@ -1,5 +1,6 @@
 # OOCSS, SMACSS, BEM
 
+* [**CSS Modules**](http://glenmaddern.com/articles/css-modules)
 * [MVCSS??](http://mvcss.github.io/resources/)
 * [Can CSS be too modular - We need to find the sweet spot](http://csswizardry.com/2015/03/can-css-be-too-modular/)
 * [Single Responsibility Principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)

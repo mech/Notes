@@ -654,6 +654,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [React and Adobe Brackets](http://www.kevindangoor.com/2014/05/simplifying-code-with-react/)
 * [Building a board game with React.js](http://jjt.io/2014/07/30/building-a-board-game-with-react-js/)
 * [Some example working with jQuery dialog](http://sterling.ghost.io/working-with-jqueryui-and-reactjs-components/)
+* [Integrate with jQuery](http://winterbe.com/posts/2015/08/24/integrate-reactjs-into-jquery-webapps/)
 
 ## GitHub Issues
 

@@ -12,6 +12,8 @@ Step 1 is to bring up an empty MySQL database with `MYSQL_ROOT_PASSWORD`. Subseq
     --volumes-from mysql-data \
     -e MYSQL_ROOT_PASSWORD=??? \
     --name jobline-mysql \
+    --log-driver=syslog \
+    --restart \
     mysql:5.6
 ```
 
@@ -43,9 +45,18 @@ To perform daily hourly backup.
 ▶ docker run --rm -it --link jobline-mysql:mysql mysql:5.6 sh -c 'exec mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_MYSQL_ROOT_PASSWORD"'
 ```
 
-
-
 ## MongoDB
+
+```
+▶ docker create --name mongo-data -v /data/db mongo:2.6
+
+▶ docker run -d \
+    --volumes-from mongo-data \
+    --name jobline-mongo \
+    --log-driver=syslog \
+    --restart \
+    mongo:2.6
+```
 
 ## Redis
 
@@ -55,6 +66,7 @@ To perform daily hourly backup.
     -v /docker/host/redis.conf:/usr/local/etc/redis/redis.conf \
     --name jobline-redis \
     --log-driver=syslog \
+    --restart \
     redis redis-server --appendonly yes
 ```
 

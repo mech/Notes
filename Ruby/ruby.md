@@ -20,6 +20,8 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Basic tools for sniffing out errors](http://6ftdan.com/allyourdev/2015/02/20/some-basic-ruby-tools-for-sniffing-out-errors/#J7YH)
 * [Replace rake with thor?](http://codecrate.com/2014/01/replace-rake-with-thor.html)
 * [Build your own code climate analysis engine](http://blog.codeclimate.com/blog/2015/07/07/build-your-own-codeclimate-engine/)
+* [Hound rubocop yml](https://github.com/thoughtbot/hound/blob/master/config/style_guides/ruby.yml)
+* [Default rubocop yml](https://github.com/bbatsov/rubocop/blob/master/config/default.yml)
 
 ## Service Object
 

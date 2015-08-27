@@ -6,6 +6,10 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [**A General Theory of Reactivity**](https://github.com/kriskowal/gtor/blob/master/README.md)
+* [**The Dao of Immutability**](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
+* [Life after JavaScript](http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/)
+* [**A simpler web architecture using Flux, CSP, and FRP concepts**](http://codrspace.com/allenkim67/a-simpler-web-architecture-using-flux-csp-and-frp-concepts/)
 * [**Pros and cons of using immutability with React.js**](http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/)
 * [**Functional Reactive JS**](http://channikhabra.github.io/frp-with-rxjs-jschannel-conf/#/)
 * [What is Reactive Programming?](http://paulstovell.com/blog/reactive-programming)

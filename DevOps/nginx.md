@@ -52,6 +52,8 @@ The master process reads and executes the nginx configuration, binds the necessa
 
 ---
 
+* [**Tips for deploying Nginx**](https://blog.docker.com/2015/04/tips-for-deploying-nginx-official-image-with-docker/)
+* [**rails-nginx-unicorn**](https://github.com/seapy/dockerfiles/tree/master/rails-nginx-unicorn)
 * [Nginx Tips](http://www.nginxtips.com/)
 * [Tutum's Nginx tag](https://learn.tutum.co/tag/12/nginx)
 * [ngx_pagespeed](https://github.com/pagespeed/ngx_pagespeed)
@@ -76,6 +78,7 @@ The master process reads and executes the nginx configuration, binds the necessa
 * [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 * [Best nginx configuration?](https://gist.github.com/plentz/6737338)
 * [Unicorn example from defunkt](https://github.com/defunkt/unicorn/blob/master/examples/nginx.conf)
+* [**nginx-boilerplate**](https://github.com/Umkus/nginx-boilerplate)
 
 2 types of directives: Simple Directives and Context Directives
 

@@ -8,6 +8,7 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [Simplifying Flux using CSP FRP](https://github.com/juliangamble/simplifying-flux-using-csp-frp)
 * [**The React.js Way: Flux Architecture with Immutable.js**](https://blog.risingstack.com/the-react-js-way-flux-architecture-with-immutable-js/)
 * [**Flux: Getting data from an API**](https://medium.com/@tribou/flux-getting-data-from-an-api-b73b6478c015)
 * [**Why make a framework on React and Flux?**](http://gunnariauvinen.com/why-make-a-framework-on-react-and-flux/)

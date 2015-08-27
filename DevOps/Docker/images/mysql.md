@@ -1,5 +1,6 @@
 # MySQL
 
+* [**MySQL Persistence**](http://blog.arungupta.me/docker-mysql-persistence/)
 * [**The new Oracle maintained Dockerfile**](https://registry.hub.docker.com/u/mysql/mysql-server/)
 * [docker-mysql](https://github.com/sameersbn/docker-mysql)
 * [Official repo for MySQL](https://github.com/docker-library/mysql)
@@ -64,6 +65,7 @@ fi
 * [Backup MySQL to S3 in 30 seconds](https://fogstack.wordpress.com/2013/05/25/backup-mysql-to-s3-in-30-seconds/)
 * [s3cmd options](http://s3tools.org/usage)
 * [**Restoring and backing up Postgres**](http://vinceyuan.blogspot.sg/2015/05/restoringbacking-up-postgres-database.html)
+* [Postgres backups](http://blog.danivovich.com/2015/07/23/postgres-backups-to-s3-with-docker-and-systemd/)
 
 ```
 mysqldump -h localhost -u root -p --databases jobline_pro > /tmp/backup.sql

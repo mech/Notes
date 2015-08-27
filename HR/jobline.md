@@ -35,6 +35,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 ▶ jobline colleagues
 ```
 
+> Genetic programming is the process of simulating nature’s evolution system by producing populations of candidate programs and filtering out the programs that don’t pass the tests. The candidates that do pass the tests survive and form the basis of the next generation.
+
+> Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
+
 ## Normalised list of skill
 
 If enough people add the same skill, we can normalize it. See https://vimeo.com/110012665
