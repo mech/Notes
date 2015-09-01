@@ -33,6 +33,7 @@
 * [Page scroll effect](http://codyhouse.co/demo/page-scroll-effects/)
 * [Some nice CSS](http://demos.creative-tim.com/presentation)
 * [Background image opacity](https://www.designernews.co/stories/54294-css-backgroundimageopacity-would-be-great)
+* [Berlin layout](http://jonyablonski.com/2014/berlin-layout/)
 
 
 ```

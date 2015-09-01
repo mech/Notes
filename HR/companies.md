@@ -2,6 +2,7 @@
 
 Notable companies in HR domain.
 
+* [**How we designed the new Salesforce at scale**](https://medium.com/salesforce-ux/how-we-designed-the-new-salesforce-at-scale-6d3607fd92e5)
 * [List of staffing companies 2014](https://www.bestofstaffing.com/best-of-staffing-list/2014/client)
 * [#hrwins HR companies to watch](http://www.larocqueinc.com/2014/03/11/2014-hrwins-hr-companies-to-watch/)
 * [The CSI Companies](http://thecsicompanies.com/)

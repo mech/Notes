@@ -7,10 +7,8 @@ Reactive programming is a programming paradigm which attempts to address this in
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
 * [**A General Theory of Reactivity**](https://github.com/kriskowal/gtor/blob/master/README.md)
-* [**The Dao of Immutability**](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
 * [Life after JavaScript](http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/)
 * [**A simpler web architecture using Flux, CSP, and FRP concepts**](http://codrspace.com/allenkim67/a-simpler-web-architecture-using-flux-csp-and-frp-concepts/)
-* [**Pros and cons of using immutability with React.js**](http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/)
 * [**Functional Reactive JS**](http://channikhabra.github.io/frp-with-rxjs-jschannel-conf/#/)
 * [What is Reactive Programming?](http://paulstovell.com/blog/reactive-programming)
 * [Mostly adequate guide to FP](https://github.com/DrBoolean/mostly-adequate-guide)
@@ -27,29 +25,48 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [javascript-allonge - Book](https://leanpub.com/javascript-allonge)
 * [Read JavaScript Allonge](https://leanpub.com/javascript-allonge/read)
 * [Persistent and optionally immutable data tree with cursors](https://github.com/Yomguithereal/baobab)
-* [Immutability in React](http://www.sitepoint.com/immutability-react/)
 * [Reactive React using Reactive Streams](http://aryweb.nl/2015/02/16/Reactive-React-using-reactive-streams/)
 * [Functional Programming on Front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
 * [react-cursor](https://github.com/dustingetz/react-cursor)
 * [RxMarbles??](http://rxmarbles.com/)
 * [**Functional React**](https://github.com/aickin/functional-react)
 * [Atom-React - Inspired by Om, but in JavaScript](https://github.com/stample/atom-react)
-* [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 * [**Elegant functional architecture for React**](https://medium.com/@gilbox/an-elegant-functional-architecture-for-react-faa3fb42b75b)
 * [Ramda.js - Functional library for JavaScript](http://ramdajs.com/0.15/index.html)
 * [What color is your function?](http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)
 * [Monads: From Web 2.0 to Hardware Drivers](http://www.well-typed.com/blog/105/)
-* [ancient-oak: Immutable data trees](https://github.com/brainshave/ancient-oak)
-* [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable)
-* [**The power of immutability and React**](https://medium.com/@sharifsbeat/the-power-of-immutability-and-react-daf46f2a5f4d)
 * [**JSON Graph: Reactive REST at Netflix**](http://applicative.acm.org/speaker-JafarHusain.html)
 * [Functional programming on front-end with React and ClojureScript](http://blog.scalac.io/2015/04/02/clojurescript-reactjs-reagent.html)
-* [Smart immutable state for React](https://github.com/mistadikay/doob)
 * [Reactive Programming with Kefir.js and React](https://medium.com/@carloM/reactive-programming-with-kefir-js-and-react-a0e8bb3af636)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
 Or just don't use objects in `props` and `state`.
+
+## Immutability
+
+* [A brief talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c)
+* [**The Dao of Immutability**](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
+* [ancient-oak: Immutable data trees](https://github.com/brainshave/ancient-oak)
+* [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable)
+* [**The power of immutability and React**](https://medium.com/@sharifsbeat/the-power-of-immutability-and-react-daf46f2a5f4d)
+* [**Pros and cons of using immutability with React.js**](http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/)
+* [Immutability in React](http://www.sitepoint.com/immutability-react/)
+* [Smart immutable state for React](https://github.com/mistadikay/doob)
+* [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+
+```js
+// Use map(), filter(), concat() for non-destructive array
+// Use concat() instead of push()
+let updatedPassengers = this.state.passengers.concat('mech');
+
+// Use Object.assign for getting a new copy instead of mutating existing
+// After the assignment, updatedTicket is an entirely different object than this.state.ticket
+var updatedTicket = Object.assign({}, this.state.ticket, {flightNo: 'SQ112'});
+this.setState({ticket: updatedTicket});
+```
+
+If you are using nested object, you are in trouble as neither Array's non-destructive methods nor `Object.assign` makes deep copies. Making a deep clone will be expensive on performance and even impossible to do in some cases. However, React provides a set of utility called Immutability Helpers that can help to update more complex and nested models.
 
 ## What exactly is FRP?
 

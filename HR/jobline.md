@@ -194,6 +194,8 @@ Can you answer these questions:
 
 Check out histogram so as not to skew data reading.
 
+**Put like product together. Put similar job posting together to increase the likelihood of CA applying for that job. See Amazon recommended books.**
+
 ## Pipelines
 
 ```

@@ -22,6 +22,7 @@ Having a button anchor to the bottom you'd have to make it position absolute.
 * [Positioning in Web Design](http://blog.froont.com/positioning-in-web-design/)
 * [4 methods for equal height columns](http://www.vanseodesign.com/css/equal-height-columns/)
 * [An `inline-block` intervention](https://medium.com/@drewisthe/an-inline-block-intervention-6ce18a3f7edf)
+* [CSS `display` property](https://css-tricks.com/almanac/properties/d/display/)
 
 ## Overflow
 

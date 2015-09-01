@@ -10,6 +10,7 @@ Internet of thing security can kill people. Like insulin injection from a blue-b
 
 Might be a kid, might be after your server (botnet), might be after your users. Or found you randomly.
 
+* [**The problem with securing Single Page Applications**](https://stormpath.com/blog/secure-single-page-app-problem/)
 * [Pineapple WiFi](https://hakshop.myshopify.com/products/wifi-pineapple)
 * [DroidSheep]
 * [zANTI]

@@ -152,6 +152,8 @@ server_name 'jobline.com.sg'
 
 ## Passenger 5
 
+* [Running a Rails app on Docker using the Passenger image](https://rossfairbanks.com/2015/03/06/rails-app-on-docker-using-passenger-image.html)
+
 ```
 ▶ passenger-config --root
 ▶ rbenv which ruby

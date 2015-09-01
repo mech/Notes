@@ -59,13 +59,15 @@
 * [burger menu](https://github.com/mblode/burger)
 * [js-signals - sort of like EventEmitter](http://millermedeiros.github.io/js-signals/)
 * [Vibrant.js - Extract color from images](https://jariz.github.io/vibrant.js/)
+* [Wallop - Much more than just a slider](http://pedroduarte.me/wallop/)
 
 ## Fuzzy Search
 
 * [string_score](http://joshaven.com/string_score/)
 
-## Tool Tip
+## Popover and Tool Tip
 
+* [**Tether**](http://github.hubspot.com/tether/docs/welcome/)
 * [Darsa's tooltip](http://darsa.in/tooltip/)
 
 ## HTTP Client

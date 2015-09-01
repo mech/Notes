@@ -4,6 +4,10 @@
 
 **READ this first**: [Measuring emotion](http://warpspire.com/posts/emotional-understanding/)
 
+Rapid cycle time.
+
+Product to be in touch with customer.
+
 Things that help you to remember when you start to design:
 
 1. User Story Map

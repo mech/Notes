@@ -77,6 +77,8 @@ There are a number of individual states at which interaction is possible. We cal
 
 ### Drop-down Editor
 
+* [**Tether**](http://github.hubspot.com/tether/docs/welcome/)
+
 ![](UI_Patterns/drop_down_editor.png)
 
 ### Group Edit

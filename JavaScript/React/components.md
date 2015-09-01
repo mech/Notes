@@ -4,6 +4,7 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 
 **Always break your component down into single responsibility! And break it down further after that!**
 
+* [**Component is what you should be doing now for modern UI**](http://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/)
 * [**Building React plugins**](https://nylas.com/blog/react-plugins)
 * [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
@@ -219,6 +220,7 @@ Data binding is a hack around re-rendering.
 * [react-object-inspector](https://github.com/xyc/react-object-inspector)
 * [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer)
 * [react-tunnel](https://github.com/gnoff/react-tunnel)
+* [**react-inline-grid**](http://broucz.github.io/react-inline-grid/)
 
 ### D3
 

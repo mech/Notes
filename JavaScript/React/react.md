@@ -466,6 +466,7 @@ Take a moment and think more critically about where `state` should be owned in t
 
 ## CSS
 
+* [**CSS in JS - techniques comparison**](https://github.com/MicheleBertoli/css-in-js)
 * [Responsive breakpoints in JavaScript](https://github.com/nygardk/BreakJS)
 * [Radium - inline styles on React elements](http://projects.formidablelabs.com/radium/)
 * [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)

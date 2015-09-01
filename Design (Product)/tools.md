@@ -5,6 +5,9 @@ Design is a process best served by consistent, frequent feedback. It's about mes
 Design decisions don't live independently of business or engineering goals - their impact is deeply intertwined with how well a business performs.
 
 * [On Design Tools](https://speakerdeck.com/joshpuckett/on-design-tools)
+* [**A better tool can't make you a better designer**](https://deardesignstudent.com/mo-tools-mo-problems-9ff8abeb98ee)
+
+> Being a jack-of-all-tools feels deceptively productive, preparing to work is not the same thing as actually working.
 
 ---
 
@@ -21,6 +24,7 @@ Design decisions don't live independently of business or engineering goals - the
 * [Wake](https://wake.io/)
 * [Principle](http://principleformac.com/)
 * [Keynote](http://www.lindadong.com/blog/keynotemotiongraphic)
+* [Flinto for Mac](https://www.flinto.com/mac)
 
 ## Prototyping
 

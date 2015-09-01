@@ -194,6 +194,7 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * [Handcrafting an isomorphic Redux application](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 * [redux-devtools](https://github.com/gaearon/redux-devtools)
 * [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
+* [redux-requests - Manages in-flight requests](https://github.com/idolize/redux-requests)
 
 ## Examples
 

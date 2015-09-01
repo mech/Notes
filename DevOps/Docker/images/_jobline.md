@@ -1,5 +1,10 @@
 # _jobline
 
+## Amazon S3
+
+* [Bucket policy?](https://forums.aws.amazon.com/thread.jspa?messageID=188183)
+* [How do I display protected S3 images](http://stackoverflow.com/questions/5172630/how-do-i-display-protected-amazon-s3-images-on-my-secure-site-using-php)
+
 ## MySQL
 
 Step 1 is to bring up an empty MySQL database with `MYSQL_ROOT_PASSWORD`. Subsequently, we will not provide the password variable anymore as it is not needed.

@@ -3,6 +3,7 @@
 * [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
 * [**Atomic Design**](http://atomicdesign.bradfrost.com/chapter-1/)
 * [**Design Machine**](https://louderthanten.com/articles/story/design-machines)
+* [Front-end principles](http://jonyablonski.com/2015/front-end-principles-for-designers/)
 
 Nobody wants to email back and forth style guides. Confusion about latest version, hard to distribute, hard to edit and change, etc.
 
