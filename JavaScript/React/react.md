@@ -17,7 +17,6 @@
 
 * [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 * [Problem with Backbone rendering view](http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/)
-* [Context in React and Dependency Injection](http://jaysoo.ca/2015/06/09/react-contexts-and-dependency-injection/)
 
 > The value of DI is that we can depend on abstract ideas instead of concrete implementations.
 
@@ -38,6 +37,12 @@ https://github.com/reactjs/react-future/blob/master/09%20-%20Reduce%20State/01%2
 After a while, you will see the "cascading updates" problem, where a ListView will trigger a side drawer for input and once done, hide the drawer, update the ListView and update the counter, present a new dialog based on the newly added list, etc.
 
 * [NativeScript??](https://www.nativescript.org/blog/answering-nativescript-beta-webinar-questions)
+
+## Context
+
+* [Context in React and Dependency Injection](http://jaysoo.ca/2015/06/09/react-contexts-and-dependency-injection/)
+* [The land of the undocumented: The Context](https://medium.com/@skwee357/the-land-of-undocumented-react-js-the-context-99b3f931ff73)
+* [Issue #2112 - Switch the Context to use the parent tree instead of the owner tree](https://github.com/facebook/react/issues/2112)
 
 ## Real-time
 

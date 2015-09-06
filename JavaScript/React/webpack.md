@@ -23,6 +23,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 ▶ npm install --save-dev assets-webpack-plugin
 ```
 
+* [**A new Webpack boilerplate with hot reloading**](https://github.com/gaearon/react-transform-boilerplate)
 * [**Very nice component library setup**](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
 * [**Backend Apps with Webpack**](http://jlongster.com/Backend-Apps-with-Webpack--Part-I)
 * [**Survive JS**](http://survivejs.com/)
@@ -50,10 +51,13 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [Fetch polyfill with webpack](https://gist.github.com/Couto/b29676dd1ab8714a818f)
 * [Modularity](http://jlongster.com/Modularity)
 * [**react-bare-bones-starter-kit**](https://github.com/rob-balfre/react-bare-bones-starter-kit)
+* [**react-boilerplate**](https://github.com/mxstbr/react-boilerplate)
 
 ## Loaders
 
 The loaders will only kick into action when you try to `require` something that match the `test` patterns.
+
+## Plugins
 
 ## webpack.config.js
 
@@ -66,6 +70,22 @@ The loaders will only kick into action when you try to `require` something that 
 * [react-boilerplate](https://github.com/hudakdidit/react-boilerplate)
 * [react-way-getting-started](https://github.com/RisingStack/react-way-getting-started)
 * [react-component-boilerplate](https://github.com/bebraw/react-component-boilerplate)
+
+```js
+// Here when you compile the code it will be temporarily saved into build/js folder.
+// Webpack Dev Server will in turn make that folder's scripts available at the URL /public/assets/js
+
+module.exports = {
+  context: path.resolve('js').
+  entry: [],
+  output: {
+    path: path.resolve('build/js/),
+    publicPath: '/public/assets/js',
+    filename: 'bundle.js'  },
+  
+  devServer: {
+    contentBase: 'public'  }};
+```
 
 Single entry or multiple entries for code splitting.
 
@@ -104,6 +124,8 @@ style!css!sass?includePaths[]=
 `style-loader` injects `<style>` tag at runtime so it should not work server-side. You can load CSS as just text and then inject it manually.
 
 ## webpack-dev-server
+
+Deprecated? Replaced by Webpack Hot Middleware?
 
 A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 

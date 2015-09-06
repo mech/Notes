@@ -7,6 +7,7 @@
 * [react-radio-group](https://github.com/chenglou/react-radio-group)
 * [zxcvbn - Password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
 * [RESTful forms with React, Part 1](http://blog.littleblimp.com/post/124492420923/restful-forms-with-react-part-1)
+* [Complex, validated JSON-based forms in React](https://github.com/andrewhathaway/Winterfell)
 
 Either store the form state within the component or Flux store.
 

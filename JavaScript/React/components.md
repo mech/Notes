@@ -221,6 +221,8 @@ Data binding is a hack around re-rendering.
 * [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer)
 * [react-tunnel](https://github.com/gnoff/react-tunnel)
 * [**react-inline-grid**](http://broucz.github.io/react-inline-grid/)
+* [trello-react](https://github.com/mgiulio/trello-react)
+* [react-hammerjs](https://github.com/JedWatson/react-hammerjs)
 
 ### D3
 
@@ -234,6 +236,7 @@ Data binding is a hack around re-rendering.
 * [Pyxley: Python Powered Dashboards](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
 * [On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3)
 * [Visualizing data in React.js](https://www.codementor.io/reactjs/tutorial/visualizing-data-react-js-cross-filtering-hover-interaction-histogram)
+* [**Building D3-inspired charts with React**](http://blog.scottlogic.com/2015/09/03/d3-without-d3.html)
 
 ## Integrate with jQuery
 
