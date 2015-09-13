@@ -1,5 +1,6 @@
 # Email
 
+* [**Email design guide**](http://mailchimp.com/resources/email-design-guide/)
 * [Campaign Monitor guide](https://www.campaignmonitor.com/dev-resources/guides/coding/)
 * [**Really Good Emails**](http://reallygoodemails.com/)
 * [**Email design workflow**](http://www.leemunroe.com/email-design-workflow/)

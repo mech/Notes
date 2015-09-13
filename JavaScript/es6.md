@@ -152,6 +152,20 @@ async login(data) {
     this.dispatch({ok: false, error: err.data});  }}
 ```
 
+## Reflect and Proxy
+
+* [Reflect](https://github.com/tvcutsem/harmony-reflect/wiki)
+
+```js
+Function.prototype.apply.call(f, obj, args);
+
+Reflect.apply(f, obj, args);
+```
+
+## Concise Methods and Lexical Identifier
+
+* [Concise methods](http://blog.getify.com/es6-concise-methods-lexical-or-not/)
+
 # DOM
 
 * [`DOMStringList`](https://developer.mozilla.org/en-US/docs/Web/API/DOMStringList)

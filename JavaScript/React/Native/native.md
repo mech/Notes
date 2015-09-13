@@ -36,6 +36,7 @@ react-native@0.3.1 node_modules/react-native
 * [Accessing iPhone camera](http://www.gettopical.com/reactjs/cd58c200b8cfd217e9ed03fc7f0c0cc6?src=twitter)
 * [So you want to dynamically update your React Native app](https://medium.com/@clayallsopp/so-you-want-to-dynamically-update-your-react-native-app-d1d88bf11ede)
 * [React-native animated API with PanResponder](http://browniefed.com/blog/2015/08/15/react-native-animated-api-with-panresponder/)
+* [React Native Periscope Hearts Animation](http://browniefed.com/blog/2015/09/07/react-native-periscope-hearts-animation/)
 
 ## ListView
 

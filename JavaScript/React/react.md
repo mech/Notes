@@ -1,5 +1,6 @@
 # React
 
+- [**React Inspire - Curated sites built with React.js**](http://reactinspire.com/)
 - [**https://github.com/sindresorhus/awesome**](https://github.com/sindresorhus/awesome)
 - [**React Primer**](https://github.com/mikechau/react-primer-draft)
 - [**Essential JavaScript links**](https://github.com/ericelliott/essential-javascript-links#essential-javascript-links)
@@ -12,6 +13,7 @@
 - [Setting up Vim for React.js](https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015)
 - [Comprehensive list of React resources](http://www.gajotres.net/a-comprehensive-list-of-reactjs-resources/)
 - [Learn React in 8 mins](https://blog.skcript.com/learn-react-js-in-7-min-92a1ef023003)
+- [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 

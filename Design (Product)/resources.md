@@ -235,6 +235,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 
 ## Design Studio with Case Studies
 
+* [**What are some of the best case studies you've read?**](https://www.designernews.co/stories/55428-what-are-some-of-the-best-case-studies-youve-read)
 * [**Design Details Series**](http://blog.brianlovin.com/)
 * [Focus Lab](http://focuslabllc.com/)
 * [teehan+lax](http://www.teehanlax.com/)
@@ -280,6 +281,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Design Details - Carousel by Dropbox](http://blog.brianlovin.com/design-details-carousel-by-dropbox/)
 * [**Planetary**](https://planetary.io/)
 * [Intercom Blog](https://blog.intercom.io/)
+* [CheapOair and OneTravel Confirmation](http://jim-silverman.com/work/confirmation/)
 
 ## Product News
 

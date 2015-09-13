@@ -32,6 +32,7 @@ JavaScript dynamic duo (static type is overrated):
 * [The Jackal of JavaScript](http://thejackalofjavascript.com/)
 * [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
 * [7 essential JavaScript functions](http://davidwalsh.name/essential-javascript-functions)
+* [Signup autocompletion with Gravatar](https://cloudup.com/blog/signup-autocompletion-with-gravatar)
 
 ## Design Patterns
 

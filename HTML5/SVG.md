@@ -37,6 +37,7 @@ JavaScript inside SVG is disabled for image-based SVG.
 * [Best of SVG icons in 2014](http://www.noupe.com/essentials/freebies-tools-templates/best-of-svg-2014-icons-tools-and-resources-86159.html)
 * [Optimizing SVG for the web](http://calendar.perfplanet.com/2014/tips-for-optimising-svg-delivery-for-the-web/)
 * [The SVG Canvas, Coordinate System, and Viewport](http://www.vanseodesign.com/web-design/svg-viewport/)
+* [Write SVG is a PostCSS plugin](https://github.com/jonathantneal/postcss-write-svg)
 
 ```
 <text>

@@ -8,6 +8,7 @@ HR silo - HR-optimized organization represent friction. Barriers. The danger of 
 
 **Hiring Pipeline** - First, Pipeline Construction. Map out your Stages. Prescribed, but you can add your own stages. Pipeline stages are "feedback opportunity" between recruiter, candidate, and clients. Each stage can have rules, checklist, milestone, checker, linter, etc. Confidence level will be high as the stages progresses to Hired. Increasing confidence as the stage progresses. Beware of ineffective notification on pipeline. Alert fatigue.
 
+* [How to build a high velocity development team](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)
 * [Twitter Emoji](https://github.com/twitter/twemoji)
 * [**What is the future of HR?**](http://www.quora.com/What-is-the-future-of-human-resources-technology)
 * [**Can an Algorithm Hire Better Than a Human?**](http://www.nytimes.com/2015/06/26/upshot/can-an-algorithm-hire-better-than-a-human.html)

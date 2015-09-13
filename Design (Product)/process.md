@@ -117,6 +117,7 @@ Something to break the ICE:
 * [Converting to Jobs stories](http://robots.thoughtbot.com/converting-to-jobs-stories)
 * [Replacing the user story with the job story](https://medium.com/the-job-to-be-done/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 * [The most common user story mistake](https://medium.com/@kamil/the-most-common-user-story-mistake-68f1d7dabc43)
+* Job-stories
 
 ## Prototyping
 
@@ -146,6 +147,7 @@ Something to break the ICE:
 * [1 person design sprint](https://medium.com/@makeshowlearn/personal-design-sprint-ii-food-tracking-af853a78a210)
 * [Thoughbot's Product Design Sprint](http://robots.thoughtbot.com/the-product-design-sprint)
 * [Thoughbot Playbook on Design Sprint](http://playbook.thoughtbot.com/#product-design-sprint)
+* [**Thoughbot Design Sprint**](https://github.com/thoughtbot/design-sprint)
 * [Gibbon Design Sprint resources](https://gibbon.co/chrisnaylor/design-sprints)
 * [8 shortcuts for faster design research](http://www.gv.com/lib/8-shortcuts-for-better-faster-design-research)
 * [Design Sprint Case Study](http://robots.thoughtbot.com/design-sprint-case-study-merck-development-portal)
@@ -154,6 +156,13 @@ Something to break the ICE:
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)
+
+FACTS : ASSUMPTION : QUESTIONS
+
+- We assume people will be interested in this, that, etc...
+- We assume it is free
+
+Identify the problem first before you try to solve them.
 
 ## Lean UX
 

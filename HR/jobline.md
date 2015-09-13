@@ -1,5 +1,8 @@
 # Jobline's Problem
 
+- Economy of APIs
+- Platform system
+
 What's Jobline's North Star?
 
 Jobline no doubt is an existing product. We can "still" improve it. What we think is missing from Jobline? What improvement to work on. To make it better. To be more well-crafted. Where we lose people?

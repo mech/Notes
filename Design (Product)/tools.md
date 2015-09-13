@@ -6,10 +6,13 @@ Design decisions don't live independently of business or engineering goals - the
 
 * [On Design Tools](https://speakerdeck.com/joshpuckett/on-design-tools)
 * [**A better tool can't make you a better designer**](https://deardesignstudent.com/mo-tools-mo-problems-9ff8abeb98ee)
+* [Why Sketch and Atomic are the best prototyping duo](https://webdesignledger.com/sketch-atomic-io)
 
 > Being a jack-of-all-tools feels deceptively productive, preparing to work is not the same thing as actually working.
 
 ---
+
+> It's not about the code. It's not even about the tools. Prototyping is about asking reality for feedback. [Put the "designers should code" debate to rest](http://www.the-haystack.com/2015/09/02/put-the-designers-should-code-debate-to-rest/)
 
 * [proto.io](https://proto.io/)
 * [Invision](http://www.invisionapp.com/)
@@ -47,6 +50,7 @@ Rule of Optimization: Prototype before polishing. Get it working before you opti
 * [Live wire](http://ngenworks.com/blog/live-wires-better-prototyping/)
 * [Proto.io vs Invision vs Marvel](https://www.enolalabs.com/blog/archives/best-app-prototyping-tool-proto.io-vs.-invision-vs.-marvel)
 * [Rapidly animating with Keynote](http://blog.uxtree.io/rapidly-animating-with-keynote/)
+* [Prototyping with iAd Producer](http://www.lindadong.com/blog/prototyping-with-iad-producer)
 
 ## Keynote
 

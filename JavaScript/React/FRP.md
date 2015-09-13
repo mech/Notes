@@ -6,6 +6,7 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [**Coding with React like a Game Developer**](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 * [**A General Theory of Reactivity**](https://github.com/kriskowal/gtor/blob/master/README.md)
 * [Life after JavaScript](http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/)
 * [**A simpler web architecture using Flux, CSP, and FRP concepts**](http://codrspace.com/allenkim67/a-simpler-web-architecture-using-flux-csp-and-frp-concepts/)
@@ -92,7 +93,29 @@ A spreadsheet cell reacts to changes in other cells (pulls) but doesn't reach ou
 
 Observable === Collections + Time
 
+Observables are a representation of any collection of values over any amount of time.
+
+```js
+// Using traditional Array's filter(), map(), reduce() will kill performance
+// as you are iterating the entire set of array!
+array.filter(x => x % 2 === 1).map(x => x + '!!!');
+
+// Using observable is different as it is streaming and efficient
+// the whole filter and map only happen once
+observable.filter(x => x % 2 === 1).map(x => x + '!!!');
+```
+
 Able to tell when I am done.
+
+A stream of mouse click events can be an observable, but not an array.
+
+Observables can be merged, concatenated and zipped like any other collection.
+
+Observables are a pattern to:
+
+* Start a data stream
+* Emit 0 to N messages
+* Teardown the data stream
 
 > If I am interested in the keystroke "a" followed by "b" followed by "c" I can create an event that notifies me when this occurs. The observable pattern has huge benefits for code simplification.
 
@@ -112,6 +135,7 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 
 While Flux suggests using low-level EventEmitter which requires manual event handling, RxJS and similar event processing tools are powerhouses capable of replacing a lot of boilerplate that a typical Flux application contains.
 
+* [Reactive Frontend](https://auth0.com/events/oscon-reactive-frontend)
 * [**RxJS version 3.0 on Aug 2015**](https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.0.0)
 * [Using RxJS for data flow instead of Flux](http://qiita.com/kimagure/items/22cf4bb2a967fcba376e)
 * [irecord - An immutable store that exposes an RxJS observable](https://github.com/ericelliott/irecord)

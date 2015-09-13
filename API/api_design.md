@@ -10,6 +10,8 @@ Document-driven development. Test-driven also! Code style-guide. Code review. Pa
 * [OAuth.io blog](http://blog.oauth.io/)
 * [REST API concept](https://www.youtube.com/watch?v=7YcW25PHnAA)
 * [**JSON Graph: Reactive REST at Netflix**](http://applicative.acm.org/speaker-JafarHusain.html)
+* [Single Page Apps in Depth](http://singlepageappbook.com/index.html)
+* [Endpoints Framework](http://endpointsjs.com/)
 
 You can't design the API well if you don't know the product well.
 
