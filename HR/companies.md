@@ -53,6 +53,7 @@ Notable companies in HR domain.
 * [**Gap Jumpers**](https://www.gapjumpers.me/)
 * [Paysavvy](https://paysavvy.com/)
 * [Quip](https://quip.com)
+* [Resume Builder](http://resumebuilder.rowanhogan.com/#!/)
 
 ## Executive Search
 

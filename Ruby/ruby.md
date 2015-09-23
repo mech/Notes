@@ -170,6 +170,10 @@ Thing.new.hi()
 * [Developing with PDF Book](http://shop.oreilly.com/product/0636920025269.do)
 * [pdf-reader](https://github.com/yob/pdf-reader)
 
+## Enumerator
+
+* [Creating enumerators on the fly](http://blog.honeybadger.io/creating-ruby-enumerators-on-the-fly/)
+
 ## Strange looking code
 
 ```

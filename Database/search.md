@@ -14,3 +14,36 @@
 We are looking at some filter of the total data set.
 
 Pre-compute query result. May be costly!
+
+# Design
+
+Search is a journey. Search is an exploration. The journey itself may be more important than the destination. Either you are exploring or you know precisely and exactly what you want to find.
+
+> It should be less about searching and more about finding.
+
+Information seeking behavior, information foraging and sense-making.
+
+The "Dimensions" of search experience:
+
+* Who is doing the search? The User.
+* What they are trying to achieve? The Goal. Precise or uncertain.
+* Under what circumstances? The Context.
+* How they are going about it? The Search Mode.
+
+Are we querying body of text or metadata?
+
+```
+"perfect pitch" -baseball +music
+```
+
+The search box is also a CLI. You can issue commands to it.
+
+Search is the world's most popular teacher. As designers, we must expand our vision beyond finding to incorporate learning.
+
+We simply fail to search. We live uninformed without seeing what we miss, for the cost of the unsearched is an unseen drag on commerce and culture, as invisible as it is incalculable.
+
+Far from being static, search is an interactive, iterative process in which the answer can change the question.
+
+> What we find changes what we seek
+
+Search is not a quest for the perfect document but a conversation that helps us understand the right questions to ask.

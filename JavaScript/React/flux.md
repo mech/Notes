@@ -23,7 +23,7 @@
 * [Flocks.js](http://www.flocks.rocks/what_is_flocks.html)
 * [Writing complex app using Flux and React](http://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
 * [What is the Flux application architecture?](https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e)
-* [flux-react-router-example](https://github.com/gaearon/flux-react-router-example/)
+* [**flux-react-router-example**](https://github.com/gaearon/flux-react-router-example/)
 * [React and Flux interview](http://ianobermiller.com/blog/2014/09/15/react-and-flux-interview/)
 * [The React.js Way: Flux Architecture with Immutable.js](http://blog.risingstack.com/the-react-js-way-flux-architecture-with-immutable-js/)
 * [React + Flux backed by Rails API](http://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
@@ -185,6 +185,7 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 
 ## Redux
 
+* [**Full-stack Redux tutorial**](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
 * [awesome-redux](https://github.com/xgrommx/awesome-redux)
 * [Redux isomorphic example](https://github.com/coodoo/react-redux-isomorphic-example)
 * [Simplest redux + react example](https://github.com/jackielii/simplest-redux-example)
@@ -195,6 +196,9 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * [redux-devtools](https://github.com/gaearon/redux-devtools)
 * [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
 * [redux-requests - Manages in-flight requests](https://github.com/idolize/redux-requests)
+* [**redux-blog-example**](https://github.com/GetExpert/redux-blog-example)
+* [react-reversi](https://github.com/jhewlett/react-reversi)
+* [**State Management with Redux**](http://konkle.us/state-management-with-redux/)
 
 ## Examples
 

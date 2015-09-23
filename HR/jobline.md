@@ -253,6 +253,11 @@ Have a concept of a "Account Holder" and their own CRM.
 INR accrual can only have all same `work_year`.
 @mech - not sure what this meant, but must be something to do with Xero accrual import on that year where work_year is not the same.
 
+## Leave
+
+* Take leave screen should have some helpful tips, recovery, approval process info.
+* Show whole year public holidays.
+
 ## Timesheet
 
 Have option that allow CA to indicate that TS should follow the previous month values. Sort of like how IRAS file your income tax. It will be automatic if you do not have any new things to add/change.
@@ -274,6 +279,10 @@ If there is only 1 candidate to approve, we can show all the details in the emai
 ## Change of Approver
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
+
+## Interview
+
+* Do we need separate interviewers table besides looking at the `JobPrivilege`?
 
 ## Pub/Sub
 
@@ -305,6 +314,8 @@ Quickly put up pages for developer. Can be event logs, metrics, etc.
 * [Example of dashboard](https://www.youtube.com/watch?v=PZ6coq2Rmgs)
 
 ## Account Management
+
+See [Atlas Owner and Group](https://www.youtube.com/watch?t=1&v=qRMc1KYG8Ec). Owner can be individual or a Group.
 
 * Invitation (invite collaborator, co-worker, etc. See Dropbox example - https://www.dropbox.com/guide/business/highlights/getting-started)
 * Transfer Ownership

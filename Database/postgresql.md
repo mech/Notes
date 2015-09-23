@@ -106,6 +106,9 @@ Creating a foreign key does not automatically create an index for it. You still 
 
 ```
 ▶ \di+
+
+-- Check the size of the index
+SELECT pg_size_pretty(pg_relation_size('index_name'::regales)) as big_index;
 ```
 
 Don't use expression on your `WHERE` clause. Make sure you don't use function like `YEAR(date_column)`, `WHERE actor_id + 1 = 5`, `UPPER(name_column)`, `TRIM(name_column)`, etc.
@@ -121,6 +124,7 @@ Remember, whenever you apply functions on columns in the `WHERE` clause, the ind
 * [What makes a SQL statement sargable](http://stackoverflow.com/questions/799584/what-makes-a-sql-statement-sargable)
 * [pg_idx_advisor - Give indexing advise](https://github.com/cohenjo/pg_idx_advisor)
 * [Should you index a boolean field?](http://stackoverflow.com/questions/12539772/adding-an-index-on-a-boolean-field)
+* [**How to index concurrently in Rails**](https://robots.thoughtbot.com/how-to-create-postgres-indexes-concurrently-in)
 
 In Postgres, you can index certain functions and maintain sargability.
 
@@ -150,13 +154,23 @@ GIN is just a B-tree, with efficient storage of duplicates. If you have need for
 
 ## JSONB
 
+JSONB does not store duplicate keys. It also clear whitespace. JSONB is stored as binary.
+
+**Note**: JSONB will always perform a Seq Scan if you use the `->>` operator on a path that have no expression index. So if you don't know beforehand which keys you'll query, or if you can query any path, make sure you define an GIN index and use the `@>` that benefits from that index.
+
+**Note**: If you need to query arrays inside JSON, make sure you create an expression index.
+
+```sql
+CREATE INDEX preferences_interests_on_users ON users USING GIN ((preferences->'interests'))
+```
+
 * [Using Postgres and jsonb with Rails](http://nandovieira.com/using-postgresql-and-jsonb-with-ruby-on-rails)
 * [An explanation of JSONB](http://stackoverflow.com/questions/22654170/explanation-of-jsonb-introduced-by-postgresql)
 * [complex??](http://stackoverflow.com/questions/18404055/index-for-finding-an-element-in-a-json-array)
 * [Some nice gist to follow](https://gist.github.com/fnando/f672c9243186933b3c8e)
 * [What I think of jsonb](http://pgeoghegan.blogspot.in/2014/03/what-i-think-of-jsonb.html)
 * [**Unleash the power of storing JSON in Postgres**](http://blog.codeship.com/unleash-the-power-of-storing-json-in-postgres/)
-* [Query array of objects in JSONB field](http://stackoverflow.com/questions/28486192/postgresql-query-array-of-objects-in-jsonb-field)
+* [**Query array of objects in JSONB field**](http://stackoverflow.com/questions/28486192/postgresql-query-array-of-objects-in-jsonb-field)
 
 ```sql
 -- Last array
@@ -183,6 +197,24 @@ SELECT '{"a":1, "b":2}'::jsonb ?| ARRAY['b', 'd'];
 
 -- First array item 
 SELECT questions->0->>'text' AS text from templates;
+
+-- Find all {text: '??'} inside the array [{text: '??'}, {text: '??'}, {text: '??'}]
+SELECT jsonb_array_elements(questions)->>'text' FROM survey_responses WHERE id=1;
+
+-- Will return unknown
+SELECT pg_typeof('{"name": "mech"}');
+
+-- x is the alias
+SELECT row_to_json(x) FROM (SELECT id, name FROM artists) x;
+SELECT json_agg(x) FROM (SELECT id, name FROM artists) x;
+
+-- Here a is an alias for the entire bracket SQL statement
+SELECT *,
+(SELECT json_agg(a) FROM (SELECT * FROM albums WHERE artist_id == artists.artist_id) a) AS albums
+FROM artists;
+
+SELECT * FROM templates
+WHERE (questions ->> 'id')::int > 100;
 ```
 
 **Using PLV8**
@@ -195,6 +227,13 @@ AS $$
   plv8.execute("INSERT INTO user_docs(body) VALUES($1)", JSON.stringify(newUser));
   return newUser;
 $$ LANGUAGE plv8;
+```
+
+## Date
+
+```
+// only check last year records
+WHERE created_at > now() - '1 year'::interval;
 ```
 
 ## Range
@@ -228,12 +267,41 @@ numrange(5,15) * numrange(10,20);
 
 ## Full-Text Search
 
+In your `postgresql.conf`, the `default_text_search_config` is set to `pg_catalog.english`.
+
 * [pg_search Ruby gem](http://isotope11.com/blog/postgres-search-using-pg-search)
 * [PostgreSQL's own FTS](http://www.postgresql.org/docs/current/static/textsearch.html)
 * [FTS examples](http://citusdata.com/blog/57-postgresql-full-text-search)
 * [Building faceted search](http://tech.pro/tutorial/1142/building-faceted-search-with-postgresql)
 * [**Why Solr is so much faster than Postgres?**](http://stackoverflow.com/questions/10053050/why-is-solr-so-much-faster-than-postgres/10054078)
 * [Updating index with trigger](http://1fifty9.com/post/42878706283/auto-updating-full-text-search-with-postgres)
+* [**FTS Part 1**](http://shisaa.jp/postset/postgresql-full-text-search-part-1.html)
+* [FTS in ms](https://blog.lateral.io/2015/05/full-text-search-in-milliseconds-with-postgresql/)
+* [**Search across multiple models**](https://robots.thoughtbot.com/implementing-multi-table-full-text-search-with-postgres)
+
+Good things to have:
+
+* Ignore diacritical marks (accents like ü)
+* Searching for soundalikes (double metaphone)
+* Searching for misspelled (trigrams)
+
+2 data type: `tsvector` and `tsquery` and many functions and operators to work on them.
+
+```
+Full document (table, view, select) -> tsvector (document) -> tsquery (query)
+```
+
+`to_tsvector()` is the function to parse document into token.
+
+```
+SELECT to_tsvector('english', '!!!!....hello, 14');
+```
+
+```
+▶ \dF+
+▶ \dFp+
+```
+
 
 ## Statistics
 

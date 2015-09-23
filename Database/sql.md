@@ -14,6 +14,13 @@ Database is not a place to store your data. Database is a platform to enforce yo
 * Restrictions pick up tuples - `WHERE`
 * Projections pick up attributes - `SELECT`
 
+## Indexing
+
+If your table have large number of rows and it makes good use of an index, then the lookup will take place in the index instead of sequentially scan (Seq Scan) your table for the matching rows.
+
+* [Using additional indexes](https://tomafro.net/2009/08/using-indexes-in-rails-choosing-additional-indexes)
+* [Postgres indexing in Rails](http://rny.io/rails/postgresql/2013/08/20/postgresql-indexing-in-rails.html)
+
 ## Transaction Phenomena
 
 |           Mode           |                                                                                      Description                                                                                      |
@@ -76,6 +83,32 @@ For example, teaching: you want to make sure a teacher is in only one room each 
 
 ```
 {StudentID, Lecture} → TA
+```
+
+## Common Table Expression (CTE)
+
+It is just one query after another after another
+
+```sql
+WITH vendors AS (
+  SELECT DISTINCT(body -> 'vendor' -> 'id') AS id,
+  (body -> 'vendor' ->> 'name') AS vendor
+  FROM products
+), rollups AS (
+  SELECT vendors.vendor AS artist,
+  1 AS count,
+  ((body ->> 'price')::int)/100 AS price,
+  (body ->> 'name') AS title
+  FROM products
+  INNER JOIN vendors ON vendors.id = body -> 'vendor' -> 'id'
+), avg_album_price AS (
+  SELECT artist, AVG(price)::money AS avg_price
+  FROM rollups
+  GROUP BY artist
+  ORDER BY avg_price DESC
+)
+
+SELECT * FROM avg_album_price;
 ```
 
 ## NULL

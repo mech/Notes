@@ -15,6 +15,7 @@ It's not about the product, it's about your users.
 * [**The Web's Grain**](http://frankchimero.com/talks/the-webs-grain/transcript/)
 * [Gibbon university](http://blog.gibbon.co/posts/2015-03-04-introducing-gibbon-university.html)
 * [**Design the user, not the experience**](https://userbrain.net/blog/design-the-user)
+* [**Ideating 101**](https://medium.com/hh-design/product-design-i-d6db36b73364)
 * [Balancing short and long term product thinking](https://medium.com/@lissalauren/balancing-short-and-long-term-product-thinking-c88d9b51452b)
 * [Humanize experiences with technology and data](http://www.wired.com/2014/11/rise-of-data-artists/)
 * [Don't give your user shit work](http://zachholman.com/posts/shit-work/)
@@ -95,6 +96,7 @@ It's not about the product, it's about your users.
 * [Design & Delivery](http://www.wightco.com/design-delivery)
 * [Habituation - People can't predict the future](https://www.youtube.com/watch?v=9uOMectkCCs)
 * [Un-suck the Enterprise](http://alistapart.com/column/unsuck-the-enterprise)
+* [Should design learn how to code?](https://medium.com/twenty-years-in-the-valley/one-of-the-biggest-mistakes-i-ve-made-in-my-career-72bf27c538b4)
 
 ## Data-Driven Design
 
@@ -171,6 +173,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Brain gems for decision-makers](http://coglode.com/)
 * [History of cognitive overload](http://www.farnamstreetblog.com/2014/09/the-history-of-cognitive-overload/)
 * [Cognitive science and design](https://www.youtube.com/watch?v=z2exxj4COhU)
+* [Psychology of Numbers in Design](https://blog.growth.supply/the-psychology-of-numbers-in-design-d6a7a011e8b1)
 
 > Don't listen to user. Observe their behaviors.
 
@@ -282,6 +285,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [**Planetary**](https://planetary.io/)
 * [Intercom Blog](https://blog.intercom.io/)
 * [CheapOair and OneTravel Confirmation](http://jim-silverman.com/work/confirmation/)
+* [**Grammarly**](http://www.getvero.com/resources/grammarly)
 
 ## Product News
 

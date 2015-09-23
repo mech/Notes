@@ -12,6 +12,7 @@ Document-driven development. Test-driven also! Code style-guide. Code review. Pa
 * [**JSON Graph: Reactive REST at Netflix**](http://applicative.acm.org/speaker-JafarHusain.html)
 * [Single Page Apps in Depth](http://singlepageappbook.com/index.html)
 * [Endpoints Framework](http://endpointsjs.com/)
+* [React.js and Spring Data REST](http://spring.io/blog/2015/09/15/react-js-and-spring-data-rest-part-2-hypermedia)
 
 You can't design the API well if you don't know the product well.
 
@@ -80,6 +81,11 @@ Use `?expand=directory` to pull in more data and cache it.
 Use `?_body=false` to skip body response when POST to create a new resource.
 
 ## Pagination
+
+* [GitHub: Traversing with Pagination](https://developer.github.com/guides/traversing-with-pagination/)
+* [Pagination done the Postgres Way](https://wiki.postgresql.org/images/3/35/Pagination_Done_the_PostgreSQL_Way.pdf)
+* [Kaminari recipes](https://github.com/amatsuda/kaminari/wiki/Kaminari-recipes)
+* [How does Kaminari paginate?](http://patshaughnessy.net/2011/9/10/how-does-kaminari-paginate)
 
 ```
 ?offset=50&limit=25

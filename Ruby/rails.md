@@ -23,6 +23,7 @@ bundle open GEM_NAME
 gem pristine GEM_NAME
 ```
 
+* [**42 things you didn't know Rails could do**](https://gist.github.com/xdite/3109315)
 * [**Reinteractive blog**](https://www.reinteractive.net/blog)
 * [**BIGBinary blog**](http://blog.bigbinary.com)
 * [**Cookies on Rails**](http://blog.bigbinary.com/2013/03/19/cookies-on-rails.html)

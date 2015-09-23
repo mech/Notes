@@ -17,7 +17,7 @@
 * [Product CEO paradox](http://www.bhorowitz.com/why_founders_fail_the_product_ceo_paradox)
 * [The real reason Slack became a billion dollar company](https://medium.com/@satyavh/the-real-reason-slack-became-a-billion-dollar-company-f14c22b15a29)
 * [The single biggest reason why startups succeed](https://www.ted.com/talks/bill_gross_the_single_biggest_reason_why_startups_succeed)
-* 
+* [Andrew Chen's entrepreneurship blog](http://andrewchen.co/)
 
 > It would never have happened without the CEO making it happen. It was nobody else's top priority.
 

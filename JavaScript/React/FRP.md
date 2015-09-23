@@ -56,6 +56,7 @@ Or just don't use objects in `props` and `state`.
 * [Immutability in React](http://www.sitepoint.com/immutability-react/)
 * [Smart immutable state for React](https://github.com/mistadikay/doob)
 * [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
+* [Why should I care about immutable data?](http://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm)
 
 ```js
 // Use map(), filter(), concat() for non-destructive array
@@ -135,6 +136,7 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 
 While Flux suggests using low-level EventEmitter which requires manual event handling, RxJS and similar event processing tools are powerhouses capable of replacing a lot of boilerplate that a typical Flux application contains.
 
+* [A visualizer for reactive streams](http://jaredforsyth.com/rxvision/)
 * [Reactive Frontend](https://auth0.com/events/oscon-reactive-frontend)
 * [**RxJS version 3.0 on Aug 2015**](https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.0.0)
 * [Using RxJS for data flow instead of Flux](http://qiita.com/kimagure/items/22cf4bb2a967fcba376e)
@@ -146,6 +148,8 @@ While Flux suggests using low-level EventEmitter which requires manual event han
 * [2-minute intro to Rx](https://medium.com/@andrestaltz/2-minute-introduction-to-rx-24c8ca793877)
 * [react-rx-immutable-example](https://github.com/newtriks/react-rx-immutable-example)
 * [Using Rx.js to create a scroll table with adjustable width](https://www.codementor.io/reactjs/tutorial/using-rxjs-to-create-a-scroll-table-with-adjustable-width)
+* [Writing marble tests](https://github.com/ReactiveX/RxJS/blob/master/doc/writing-marble-tests.md)
+* [JWT with observables](https://auth0.com/blog/2015/09/10/jwt-authentication-with-observables/)
 
 ```js
 // Convert a Promise to an Observable
@@ -183,3 +187,4 @@ A cursor is a pointer to some data in your tree. The brilliant thing that cursor
 * [Functional Reactive Programming in Elm](https://www.youtube.com/watch?v=DiZ1CfLQvIU)
 * [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=a8W5VVGO-jA)
 * [Big retail goes reactive](http://www.typesafe.com/resources/video/big-retail-goes-reactive)
+* [Bringing Observable Data to React](https://www.youtube.com/watch?v=wC6BKH4JyO4)

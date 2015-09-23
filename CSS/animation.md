@@ -57,6 +57,7 @@
 * [**Stripe - Improve the payment experience with animations**](https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e)
 * [Crafting easing curves for UI](https://medium.com/@ryan_brownhill/crafting-easing-curves-for-user-interfaces-34f39e1b4a43)
 * [Rubberhose - Animation rigging for AE](http://www.battleaxe.co/rubberhose/)
+* [Using multiple class-based CSS transitions to create staged animations](http://dancort.es/web-design/2015/09/10/how-to-css-transition-delay-animation.html)
 
 ## Videos
 

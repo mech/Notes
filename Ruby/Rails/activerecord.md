@@ -7,6 +7,29 @@
 * [Scuttle](http://www.scuttle.io/)
 * [Don't let your data out of the database](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
 * [Referential integrity with foreign keys](https://robots.thoughtbot.com/referential-integrity-with-foreign-keys)
+* [SQL Views](http://blog.pivotal.io/labs/labs/rails-and-sql-views-part-2-migrations)
+* [**How to index concurrently in Rails**](https://robots.thoughtbot.com/how-to-create-postgres-indexes-concurrently-in)
+* [Zero downtime migration](http://blog.codeship.com/rails-migrations-zero-downtime/)
+* [Gems to unlock advanced PSQL features](http://www.brightball.com/ruby-postgresql/rails-gems-to-unlock-advanced-postgresql-features)
+
+## `serialize` and `store_accessor`
+
+```ruby
+class User < AR::Base
+  serialize :preferences, HashSerializer
+  store_accessor: preferences, :blog, :github, :twitter
+end
+
+class HashSerializer
+  def self.dump(hash)
+    hash.to_json
+  end
+  
+  def self.load(hash)
+    (hash || {}).with_indifferent_access
+  end
+end
+```
 
 ## Role-based Authorization
 

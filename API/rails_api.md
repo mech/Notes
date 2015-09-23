@@ -12,6 +12,7 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [**How to build a Rails 5 API only app**](http://wyeworks.com/blog/2015/6/11/how-to-build-a-rails-5-api-only-and-backbone-application)
 * [**React + Flux backed by Rails API**](http://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
 * [**Proposal for v1.0 rc2 of json-api**](https://github.com/json-api/json-api/pull/341)
+* [**normalizr - Flat structure for JSON schema**](https://github.com/gaearon/normalizr)
 * [Using Rails for API-only Apps - wycats](https://github.com/rails/rails/blob/efd557a60cd976ac17be9e238111a551599caeb5/railties/guides/source/api_app.textile)
 * [State of Rails API](http://hawkins.io/2012/03/state_of_rails_apis/)
 * [RESTful thinking considered harmful](http://www.shopify.com/technology/5898287-restful-thinking-considered-harmful)

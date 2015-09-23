@@ -15,6 +15,7 @@
 * [React on ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/)
 * [**Why Babel Matters**](http://codemix.com/blog/why-babel-matters)
 * [Function Bind](https://github.com/zenparsing/es-function-bind)
+* [Elegant React with ES6](https://www.youtube.com/watch?v=GzChMXy-Es0)
 
 `indexOf` uses Strict Equality Comparison. See SameValueZero comparison.
 

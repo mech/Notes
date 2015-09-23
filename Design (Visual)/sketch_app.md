@@ -58,6 +58,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch Talk - A forum](http://sketchtalk.io/)
 * [Sketch color preset](https://github.com/RayPS/my-sketch-colors)
 * [How Sketch took over 200GB](https://medium.com/@thomasdegry/how-sketch-took-over-200gb-of-our-macbooks-cb7dd10c8163)
+* [Color mismatch when exporting?](https://www.designernews.co/stories/55640-color-saturation-on-sketch-exports)
 
 ## Tutorials
 

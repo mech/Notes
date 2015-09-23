@@ -139,6 +139,7 @@ Not all lambdas are closures, and not all closures are lambdas. A closure is cre
 
 * [react-pure-render](https://github.com/gaearon/react-pure-render)
 * [A quick look at rendering whitespace using JSX](http://www.bennadel.com/blog/2880-a-quick-look-at-rendering-white-space-using-jsx-in-reactjs.htm)
+* [Is render() being called too many times?](http://www.bennadel.com/blog/2905-setstate-shouldcomponentupdate-and-render-timing-in-reactjs.htm)
 
 It is generally recommended that you funnel all your complex processing through the `render()` method. Event handlers just `setState()` while `render()` is the hub for all of your core logic.
 
@@ -185,7 +186,6 @@ Data binding is a hack around re-rendering.
 * [react-icons](http://jxnblk.com/react-icons/)
 * [react-web-sdk](https://github.com/necolas/react-web-sdk)
 * [react-onclickoutside](https://github.com/Pomax/react-onclickoutside)
-* [react-paginate](https://github.com/Mosho1/react-paginate)
 * [react-list-view](https://github.com/Morhaus/react-list-view)
 * [react-text-filter](https://github.com/nkbt/react-text-filter)
 * [react-popup](https://github.com/minutemailer/react-popup)
@@ -205,7 +205,6 @@ Data binding is a hack around re-rendering.
 * [**Amazing constraint-base grid system**](https://github.com/jxnblk/rgx)
 * [Spectacle - Presentation with good PDF support](https://github.com/FormidableLabs/spectacle)
 * [sliding-window](https://github.com/gre/sliding-window)
-* [react-paginator-box](https://github.com/abaddonGIT/react-paginator-box)
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
 * [react-nexus](https://github.com/elierotenberg/react-nexus)
 * [react-popups](https://github.com/Radivarig/react-popups)
@@ -223,6 +222,15 @@ Data binding is a hack around re-rendering.
 * [**react-inline-grid**](http://broucz.github.io/react-inline-grid/)
 * [trello-react](https://github.com/mgiulio/trello-react)
 * [react-hammerjs](https://github.com/JedWatson/react-hammerjs)
+* [react-selectize](https://github.com/furqanZafar/react-selectize)
+* [react-joyride](https://github.com/gilbarbara/react-joyride)
+
+### Pagination
+
+* [react-paginator-box](https://github.com/abaddonGIT/react-paginator-box)
+* [react-paginate](https://github.com/Mosho1/react-paginate)
+* [react-pagify](http://bebraw.github.io/react-pagify/)
+* [react-paginate](https://github.com/eliseumds/react-paginate)
 
 ### D3
 
@@ -237,6 +245,7 @@ Data binding is a hack around re-rendering.
 * [On D3, React, and a little bit of Flux](https://medium.com/@sxywu/on-d3-react-and-a-little-bit-of-flux-88a226f328f3)
 * [Visualizing data in React.js](https://www.codementor.io/reactjs/tutorial/visualizing-data-react-js-cross-filtering-hover-interaction-histogram)
 * [**Building D3-inspired charts with React**](http://blog.scottlogic.com/2015/09/03/d3-without-d3.html)
+* [D3 with React the right way](http://oli.me.uk/2015/09/09/d3-within-react-the-right-way/)
 
 ## Integrate with jQuery
 

@@ -3,6 +3,7 @@
 * [Overuse of global state and class methods. With ActiveRecord, it is very hard not to use class methods.](http://googletesting.blogspot.sg/2008/11/clean-code-talks-global-state-and.html)
 * [MVC: How to write controllers](http://andrzejonsoftware.blogspot.sg/2008/07/mvc-how-to-write-controllers.html)
 * [A defence of @ivars in Rails controllers](http://naildrivin5.com/blog/2014/02/09/a-defense-of-ivars-in-rails-controllers.html)
+* [See the `Dashboard` facade pattern](https://robots.thoughtbot.com/sandi-metz-rules-for-developers)
 
 ## Composite Pattern (Delegation)
 

@@ -7,3 +7,4 @@ Virtual DOM (difference algorithm), event delegation, batched DOM updates all co
 * [**Perf audit for reddit-mobile**](https://github.com/reddit/reddit-mobile/issues/247)
 * [Rendering large datasets with AngularJS and React](http://www.bennadel.com/blog/2864-rendering-large-datasets-with-angularjs-and-reactjs.htm)
 * [Using MOBservable for FRP](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
+* [**Optimizing React performance using keys, component lifecycle, and performance tools**](http://jaero.space/blog/react-performance-1/)

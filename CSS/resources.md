@@ -8,6 +8,7 @@ https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
 
+* [**CSS tools**](https://medium.com/@vilcins/css-tools-that-i-use-67cb8bfa2e2d)
 * [**12 little known CSS facts**](http://www.sitepoint.com/12-little-known-css-facts-the-sequel/)
 * [Taming CSS](https://github.com/keithjgrant/Taming-CSS)
 * [Another style reset](https://github.com/mblode/marx)
@@ -126,3 +127,6 @@ $input-height-base: ($line-height-computed + ($padding-base-vertical * 2) + 2) !
 
 Using the `rgba` will preserve the content opacity.
 
+## Form
+
+* [Style file inputs](http://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/)

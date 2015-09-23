@@ -2,6 +2,7 @@
 
 * [**Sloppy UI**](http://sloppyui.tumblr.com/)
 * [**10 insanely great iOS developers sites**](https://medium.com/ios-apprentice/11-insanely-great-ios-developers-sites-95686a523ea8)
+* [**Making sense of iOS themes**](http://www.jeremysanty.com/making-sense-out-of-the-ios-themes-clarity-part-2/)
 * [iOS touch visualizer](http://blog.joeblau.com/ios-touch-visualizer)
 * [Incredible web replication of iOS UI](https://github.com/nolimits4web/Framework7)
 * [iOS UI - Storyboards vs NIBs vs custom code](http://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
