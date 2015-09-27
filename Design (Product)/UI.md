@@ -103,6 +103,12 @@ There are a number of individual states at which interaction is possible. We cal
 
 Use when you have a list of items stacking together. Balance between visual noise and discoverability.
 
+### Empty state, Skeleton, Blank Slate
+
+* [Facebook placeholder for unloaded content](https://www.designernews.co/stories/56465-facebook-placeholders-for-unloaded-content)
+* [Avoid the spinner](http://www.lukew.com/ff/entry.asp?1797)
+* [Tips for creating a blank slate](http://blog.teamtreehouse.com/tips-for-creating-a-blank-slate)
+
 ## Menu Buttons (Muttons)
 
 * You have a default action, but alternate actions are still fairly frequent

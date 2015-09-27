@@ -16,6 +16,11 @@ Notable companies in HR domain.
 * [**10x - A talent company in Silicon Valley**](http://www.10xmanagement.com/)
 * [Authentic Jobs](http://www.authenticjobs.com/pricing/)
 
+## HR Conference
+
+* [HR Technology Conference](http://www.hrtechconference.com/)
+* [Singapore Human Capital Summit](http://www.singaporehcsummit.com/)
+
 ## Notable Companies
 
 * [**sleekr**](http://sleekr.co/)

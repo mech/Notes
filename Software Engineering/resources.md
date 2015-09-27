@@ -25,6 +25,7 @@
 * [Thoughtbot Guides](https://github.com/thoughtbot/guides)
 * [Producing open source software](http://producingoss.com/en/producingoss.html)
 * [Deep???](http://engineering.flipboard.com/2015/05/scaling-convnets/)
+* [A Little Structure](http://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html)
 
 ## Agile
 
