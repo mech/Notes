@@ -28,6 +28,15 @@ git push heroku master
 rake smoke:production
 ```
 
+## Cron with Whenever
+
+* If you are using ZSH, then `/bin/bash -l -c` may not load the `PATH`.
+* [/bin/bash -l -c Explained](http://blog.scoutapp.com/articles/2010/09/07/rvm-and-cron-in-production)
+
+> The -l bash option runs an interactive shell, which should execute your startup files. Do you have eval "$(rbenv init -)" in your .bash_profile?
+
+See [Issue #486](https://github.com/javan/whenever/issues/486)
+
 ## SSL
 
 * [Setting up SSL for your Rails app](https://intercityup.com/blog/setting-up-ssl-for-your-rails-app.html)

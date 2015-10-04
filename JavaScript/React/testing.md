@@ -1,6 +1,7 @@
 # Testing
 
 * [**Testing in React**](http://brandonokert.com/2015/08/04/TestingInReact/)
+* [**Essential TDD/BDD React list**](https://github.com/Cmdv/Essential-TDD-BDD-React-list)
 * [**What's the preferred way to test React.js components?**](https://discuss.reactjs.org/t/whats-the-prefered-way-to-test-react-js-components/26)
 * [Example](https://github.com/Granze/react-starterify/blob/master/test/components/mycomponent-test.js)
 * [Unit testing React components without a DOM](http://simonsmith.io/unit-testing-react-components-without-a-dom/)
@@ -13,3 +14,5 @@
 * [React unit test and code coverage with Jest and Istanbul](https://blog.sergiocruz.me/reactjs-unit-test-and-code-coverage-with-jest/)
 * [React testing tricks](http://react.rocks/blog/post/react-testing-tricks/)
 * [Unit and functional testing React components](https://reactjsnews.com/testing-in-react/)
+* [Why I use Tap instead of Mocha](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
+* [React testing with Webpack + Tape](https://github.com/Cmdv/React-Testing-Webpack-Tape)

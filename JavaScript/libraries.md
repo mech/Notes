@@ -60,6 +60,8 @@
 * [js-signals - sort of like EventEmitter](http://millermedeiros.github.io/js-signals/)
 * [Vibrant.js - Extract color from images](https://jariz.github.io/vibrant.js/)
 * [Wallop - Much more than just a slider](http://pedroduarte.me/wallop/)
+* [Clipboard - Copy and paste text](http://zenorocha.github.io/clipboard.js/)
+* [**Pt.js**](https://github.com/williamngan/pt)
 
 ## Fuzzy Search
 

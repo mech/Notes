@@ -59,3 +59,4 @@ Rule of Optimization: Prototype before polishing. Get it working before you opti
 ## Framer
 
 * [Framer Code](http://framerco.de/)
+* [Prototyping 3D touch interactions](http://blog.framerjs.com/posts/prototyping-3D-touch-interactions.html)

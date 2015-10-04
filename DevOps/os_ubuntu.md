@@ -19,6 +19,20 @@
 ▶ apt-get install sysv-rc-conf
 ```
 
+## Create Bootable USB for PC and Mac
+
+```
+▶ hdiutil convert -format UDRW -o ~/Desktop/Ubuntu/ubuntu-14.04.3-server-amd64 ubuntu-14.04.3-server-amd64.iso
+
+// Identify your USB device, take note of /dev/diskN where N is the number
+▶ diskutil list
+
+▶ diskutil unmountDisk /dev/diskN
+
+▶ sudo dd if=/Users/mech/Desktop/Ubuntu/ubuntu-14.04.3-server-amd64.dmg of=/dev/rdiskN bs=1m
+▶ diskutil eject /dev/diskN
+```
+
 ## Install GUI on Server
 
 ```
@@ -138,6 +152,7 @@ Restart using `sudo service procps start`
 
 64-bit is called `amd64` and 32-bit is called `i386`. It is called `amd64` because AMD developed the 64-bit instruction extensions. Athlon 64 was the first to release 64-bit x86(x86-64) CPUs.
 
+* 14.04.3 - 3.19.0-26
 * 14.10 - Utopic (3.16.0-23-generic)
 * 14.04.2 - (3.16.0-30-generic)
 * 14.04 - Trusty
@@ -165,6 +180,8 @@ Restart using `sudo service procps start`
 ▶ apt-get update
 ▶ apt-get upgrade
 ▶ apt-get dist-upgrade
+
+▶ shutdown -r now
 ```
 
 ## Locale

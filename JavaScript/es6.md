@@ -25,6 +25,10 @@ Objects in JavaScript have reference equality.
 {error: error} === {error}
 ```
 
+## Template String
+
+Can be a security concern if you allow user to input template string.
+
 ## Block scope
 
 ```js
@@ -39,6 +43,27 @@ if (x > y) {
   x = y;
   y = tmp;}
 console.log(tmp === x); // ReferenceError: tmp is not defined
+```
+
+## Spread Operator
+
+```
+[..."abc"] // Will become [ 'a', 'b', 'c' ]
+
+var a = [1, 2, 3];
+var b = [...a, 4, 5];
+
+var a, b, c;
+[a, b, ...c] = [1, 2, 3, 4, 5];
+
+// With function
+
+function bar(a, b, c) {}
+
+var args = [1, 2, 3];
+bar(...args);
+
+function bar(a, ...params) {}
 ```
 
 ## Destructuring
@@ -91,6 +116,12 @@ var six = [1, 2, 3].reduce((sum, n) => {
 
 * [Exploring ES2016 Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
 
+
+## Iterators
+
+
+
+
 ## React
 
 ```js
@@ -139,6 +170,16 @@ export default Person;
 A generator is basically a function whose execution can be paused and then resumed later, remembering its state.
 
 ES7 introduce the `async` and `await` keywords, removing the need for a generator library altogether.
+
+Generators don't have to terminate which make it very useful.
+
+```
+function *myGen(x) {
+  yield x;}
+
+var iterator = myGen();
+iterator.next();
+```
 
 ## Async and Await
 

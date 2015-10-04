@@ -5,6 +5,32 @@
 * [Bucket policy?](https://forums.aws.amazon.com/thread.jspa?messageID=188183)
 * [How do I display protected S3 images](http://stackoverflow.com/questions/5172630/how-do-i-display-protected-amazon-s3-images-on-my-secure-site-using-php)
 
+## Passenger
+
+```
+▶ docker run --rm -t -i phusion/passenger-ruby22 bash -l
+▶ docker build -t jobline/eva .
+
+▶ docker run --rm -t -i jobline/eva bash -l
+▶ 
+```
+
+
+
+## Nginx
+
+Nginx using links from web servers (multiples) and acts as load balancer. Web servers links from databases and other services.
+
+Where do we put the nginx config file?
+
+## Postgres
+
+```
+▶ docker create --name postgres-data -v /var/lib/postgresql/data postgres:9.4
+
+▶ 
+```
+
 ## MySQL
 
 Step 1 is to bring up an empty MySQL database with `MYSQL_ROOT_PASSWORD`. Subsequently, we will not provide the password variable anymore as it is not needed.

@@ -23,6 +23,7 @@ Notable companies in HR domain.
 
 ## Notable Companies
 
+* [Hire Right Partners](http://www.hireright.com/partners)
 * [**sleekr**](http://sleekr.co/)
 * [**Toptal**](http://www.toptal.com/)
 * [**Zenefits**](http://www.zenefits.com/hr-software)

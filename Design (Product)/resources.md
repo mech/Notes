@@ -97,6 +97,8 @@ It's not about the product, it's about your users.
 * [Habituation - People can't predict the future](https://www.youtube.com/watch?v=9uOMectkCCs)
 * [Un-suck the Enterprise](http://alistapart.com/column/unsuck-the-enterprise)
 * [Should design learn how to code?](https://medium.com/twenty-years-in-the-valley/one-of-the-biggest-mistakes-i-ve-made-in-my-career-72bf27c538b4)
+* [What it means to be great](http://www.asymco.com/2015/09/29/what-it-means-to-be-great/)
+* [Invisibility, A Designer's Superpower](http://jeremypaul.me/blog/invisibility-a-designers-superpower.html)
 
 ## Data-Driven Design
 

@@ -6,6 +6,7 @@
 * [Front-end principles](http://jonyablonski.com/2015/front-end-principles-for-designers/)
 * [**Examples**](https://www.designernews.co/stories/55696-design-style-guides-examples)
 * [**The Language of Modular Design**](http://alistapart.com/article/language-of-modular-design)
+* [**Corpus**](http://corpuscss.com/)
 
 Nobody wants to email back and forth style guides. Confusion about latest version, hard to distribute, hard to edit and change, etc.
 

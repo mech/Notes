@@ -137,6 +137,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Material design color palette](https://github.com/t32k/material-design-color-palette-sketch-plugin)
 * [Sketch Data Populator](https://github.com/preciousforever/sketch-data-populator)
 * [sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes)
+* [Sketch Constraints](https://github.com/bouchenoiremarc/Sketch-Constraints)
 
 ## Videos
 

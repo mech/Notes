@@ -297,6 +297,7 @@ Publish conclusion.
 * [PDF Viewing in GitHub](https://github.com/blog/1974-pdf-viewing)
 * [**PDF.js**](https://github.com/mozilla/pdf.js)
 * [HTML to PDF](https://www.designernews.co/stories/51286-html-to-pdf)
+* [Generating complex PDF with Prawn](http://www.yoniweisbrod.com/generating-complex-pdf-documents-in-rails-with-prawn/)
 
 ## Email
 
