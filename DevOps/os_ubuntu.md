@@ -7,6 +7,7 @@
 * [Hardening 14.04](http://blog.mattbrock.co.uk/hardening-the-security-on-ubuntu-server-14-04/)
 * [Disable IPv6](http://askubuntu.com/questions/440649/how-to-disable-ipv6-in-ubuntu-14-04)
 * [How to add and delete users on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
+* [Enter SSH passphrase once](http://askubuntu.com/questions/362280/enter-ssh-passphrase-once)
 
 ```
 ▶ sudo apt-get install htop dstat
@@ -291,7 +292,7 @@ The following packages have been kept back:
 
 Remember to enable "Memory and Swap Accounting".
 
-* [**The memory cgroups and swap accounting**](http://docs.docker.com/installation/ubuntulinux/#memory-and-swap-accounting)
+* [**The memory cgroups and swap accounting**](http://docs.docker.com/installation/ubuntulinux/#memory-and-swap-accounting). Use `GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"`.
 * [UFW - Uncomplicated Firewall](https://help.ubuntu.com/community/UFW)
 * [How to setup a firewall with UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 * [Upgrading Docker](http://blog.thestateofme.com/2015/06/23/upgrading-docker/)
@@ -302,7 +303,7 @@ We need to use the Docker team's DEB packages.
 ▶ apt-get update
 
 // Most easy way, install + upgrade
-▶ wget -qO- https://get.docker.com/ | sh
+▶ curl -sSL https://get.docker.com/ | sh
 
 // lxc-docker - Old way
 ▶ curl -s https://get.docker.com/gpg | sudo apt-key add -

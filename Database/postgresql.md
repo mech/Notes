@@ -28,6 +28,28 @@ When you follow a candidate, use PubSub to get notify of all his activities!
 
 Use Neo4j for candidate's relationship with each other.
 
+## Config files
+
+```
+▶ echo $PGDATA
+
+▶ SHOW hba_file;
+  /usr/local/var/postgres/pg_hba.conf
+  /var/lib/postgresql/data/pg_hba.conf
+▶ SHOW config_file;
+  /usr/local/var/postgres/postgresql.conf
+  /var/lib/postgresql/data/postgresql.conf
+
+▶ ps aux | grep postgres
+```
+
+* **shared_buffers = 2GB** - Default value is really small. Set it to 30% of total RAM. So 30% of 8GB is 2GB. High GB like 8GB is not worth it though. Real allocation of memory.
+* **work_mem = 10MB** - A higher value improves query performance faster with in-memory sort.
+* **maintenance_work_mem = 1GB** - Helps improve performance of maintenance operations like VACCUM, CREATE INDEX, etc. Set to 2GB for 64GB RAM is safe.
+* **random_page_cost = 2.0** - ??
+* **effective_cache_size = 8GB** - 50%  to 80% of your RAM. Promote index scans. Just an indicator, not real memory allocation.
+* 
+
 ## CLI
 
 ```

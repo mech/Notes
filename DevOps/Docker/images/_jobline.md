@@ -4,6 +4,7 @@
 
 * [Bucket policy?](https://forums.aws.amazon.com/thread.jspa?messageID=188183)
 * [How do I display protected S3 images](http://stackoverflow.com/questions/5172630/how-do-i-display-protected-amazon-s3-images-on-my-secure-site-using-php)
+* [Restoring/Backing up Postgres in a Docker container](http://vinceyuan.blogspot.sg/2015/05/restoringbacking-up-postgres-database.html)
 
 ## Passenger
 
@@ -12,10 +13,21 @@
 ▶ docker build -t jobline/eva .
 
 ▶ docker run --rm -t -i jobline/eva bash -l
-▶ 
+▶ docker exec -it ?? bash -l
+
+// Do not name it! Since you are going to deploy often!
+▶ docker run -d \
+  -p 80:80 \
+  --log-driver=syslog \
+  --link postgres-db \
+  -e POSTMARK_API_KEY=? \
+  -e FILEMAKER_HOST=? \
+  -e FILEMAKER_ACCOUNT_NAME=? \
+  -e FILEMAKER_PASSWORD=? \
+  -e DATABASE_URL=postgres://postgres:@postgres-db/EVA_production \
+  -e SECRET_KEY_BASE=? \
+  jobline/eva
 ```
-
-
 
 ## Nginx
 
@@ -25,10 +37,23 @@ Where do we put the nginx config file?
 
 ## Postgres
 
+Config files:
+
+* /var/lib/postgresql/data/pg_hba.conf
+* /var/lib/postgresql/data/postgresql.conf
+
 ```
 ▶ docker create --name postgres-data -v /var/lib/postgresql/data postgres:9.4
 
-▶ 
+▶ docker run -d --volumes-from postgres-data --name postgres postgres:9.4
+
+▶ docker exec -it postgres bash -l
+```
+
+To backup
+
+```
+▶ docker run --rm -it -v $(pwd)/psql:/backup --link postgres-db:db postgres:9.4  sh -c 'exec pg_dump -h db -U postgres EVA_production | gzip -c > /backup/1.sql.gz'
 ```
 
 ## MySQL

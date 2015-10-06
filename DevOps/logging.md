@@ -86,6 +86,11 @@ Best practice is to send your container logs to syslog with `--log-driver=syslog
 
 ## Logrotate
 
+```
+/etc/cron.daily/logrotate
+/etc/logrotate.d/rsyslog
+```
+
 * [Understanding logrotate utility](http://www.rackspace.com/knowledge_center/article/understanding-logrotate-utility)
 * [How to manage log files with logrotate](https://www.digitalocean.com/community/tutorials/how-to-manage-log-files-with-logrotate-on-ubuntu-12-10)
 * [How to rotate logs to S3](http://www.dowdandassociates.com/blog/content/howto-rotate-logs-to-s3/)

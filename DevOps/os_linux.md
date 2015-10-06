@@ -75,8 +75,10 @@ id:5:initdefault:
 
 ## Logs
 
+`dmesg` prints the contents of the "Kernel Ring Buffer". This information is also send in real-time to `syslogd` and ends up in `/var/log/messages`. Where `dmesg` is most useful is in capturing boot-time messages before `syslogd` started.
+
 ```
-// Display message or driver message
+// Display message or driver message, thus the "D" in dmesg
 // Show Kernel ring buffers
 ▶ dmesg
 ▶ dmesg | grep -i eth0
@@ -87,6 +89,8 @@ id:5:initdefault:
 ▶ less /var/log/secure
 ▶ less /var/log/auth
 ```
+
+There are several things logged into `/var/log/messages` including mail, cron, daemon, kern, auth, etc.
 
 
 ## Networking

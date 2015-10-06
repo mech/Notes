@@ -73,6 +73,18 @@ The master process reads and executes the nginx configuration, binds the necessa
 * [Some nginx example](http://tech.yunojuno.com/trifecta-part-2-docker)
 * [Nginx + Passenger](https://gist.github.com/mikhailov/711913)
 
+## SSL
+
+To concatenate primary certificate and intermediate certificate:
+
+```
+▶ cat jobline.com.sg.crt RapidSSLCA.crt >> bundle.crt
+
+ssl on;
+ssl_certificate bundle.crt
+ssl_certificate_key jobline.com.sg.key
+```
+
 ## nginx.conf
 
 * [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)

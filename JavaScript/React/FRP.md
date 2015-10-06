@@ -58,6 +58,8 @@ Or just don't use objects in `props` and `state`.
 * [Smart immutable state for React](https://github.com/mistadikay/doob)
 * [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 * [Why should I care about immutable data?](http://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm)
+* [Immutability in JavaScript](http://www.sitepoint.com/immutability-javascript/)
+* [Immutability in React](http://www.sitepoint.com/immutability-react/)
 
 ```js
 // Use map(), filter(), concat() for non-destructive array
