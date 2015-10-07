@@ -97,6 +97,14 @@ Port ??
 
 Then restart by `sudo service ssh restart`
 
+**Enter passphrase once so that git pull won't repeatedly ask for passphrase**
+
+```
+▶ ssh-agent bash
+▶ ssh-add /home/username/.ssh/id_rsa
+▶ 
+```
+
 ## sysctl.conf
 
 Kernel flags set with `sysctl` tool will be lost upon reboot. In order to persist them, you must add them to `/etc/sysctl.conf` or `/etc/sysctl.d/`.
@@ -214,6 +222,14 @@ iface eth0 inet static
 
 iface eth0 inet static
   address 172.16.24.11/24
+  
+iface eth0 inet static 
+  address 10.1.2.3 
+  netmask 255.255.240.0 
+  broadcast 10.1.255.255
+  dns-nameservers 10.1.2.3 10.1.2.3
+  dns-search example.com
+  gateway ...
   
 // Activate these settings without reboot
 // Must be in one line or else your SSH session will not survive
