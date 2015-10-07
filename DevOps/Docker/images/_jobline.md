@@ -8,6 +8,9 @@
 
 ## Passenger
 
+* [How we've made Passenger 5 up to 4x faster than Unicorn, up to 2x faster than Puma](http://www.rubyraptor.org/how-we-made-raptor-up-to-4x-faster-than-unicorn-and-up-to-2x-faster-than-puma-torquebox/)
+* [Cache bundle install](http://ilikestuffblog.com/2014/01/06/how-to-skip-bundle-install-when-deploying-a-rails-app-to-docker/)
+
 ```
 ▶ docker run --rm -t -i phusion/passenger-ruby22 bash -l
 ▶ docker build -t jobline/eva .
@@ -50,7 +53,9 @@ Config files:
 ▶ docker exec -it postgres bash -l
 ```
 
-To backup
+**To backup**
+
+* [Backup Postgres to S3](http://rob.conery.io/2011/11/01/how-to-backup-your-postgres-db-to-amazon-nightly/)
 
 ```
 ▶ docker run --rm -it -v $(pwd)/psql:/backup --link postgres-db:db postgres:9.4  sh -c 'exec pg_dump -h db -U postgres EVA_production | gzip -c > /backup/1.sql.gz'

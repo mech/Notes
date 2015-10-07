@@ -144,9 +144,15 @@ In Docker 1.8, you need to use `docker daemon` instead of `docker -d`
 // Docker upstart configuration file
 ▶ cat /etc/default/docker
 ▶ echo 'DOCKER_OPTS="-b=bridge0"' >> /etc/default/docker
-▶ sudo service docker start
+▶ sudo restart docker
 
 DOCKER_OPTS="--icc=false"
+```
+
+Popular option:
+
+```
+DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog --icc=false"
 ```
 
 ## Image - Build --tag

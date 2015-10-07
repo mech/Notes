@@ -205,6 +205,7 @@ A Load Balancer is in fact a Reverse Proxy!
 
 Sub-URL vs Sub-Domain, Multiple apps
 
+* [**docker-nginx-loadbalancer**](https://github.com/jasonwyatt/docker-nginx-loadbalancer)
 * [**Nginx proxy for Docker containers**](http://blog.danivovich.com/2015/07/09/nginx-proxy-for-docker-containers/)
 * [Virtual hosts on nginx](https://gist.github.com/soheilhy/8b94347ff8336d971ad0)
 * [Using Nginx as a reverse proxy/load balancer with Weave and Docker](http://weave.works/guides/weave-docker-nginx-ubuntu-simple.html)
