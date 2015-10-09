@@ -23,6 +23,11 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [SANS Institute](http://www.sans.org/online-security-training/)
 * [metasploit - penetration testing software](http://www.metasploit.com/)
 
+## SSL
+
+* [Deploying Diffie-Hellman for TLS](https://weakdh.org/sysadmin.html)
+* 
+
 ## XSS and Content Security Policy
 
 XSS happen when you have comment box that accept input from others but you did not escape it properly, or it can happen if you are too CMS.

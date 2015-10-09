@@ -9,6 +9,7 @@ Microservices:
 
 Large software projects stand a slim chance of ever being finished. Build for composability and disposability.
 
+* [**Building a JSON API with Rails 5**](http://blog.codeship.com/building-a-json-api-with-rails-5/)
 * [**How to build a Rails 5 API only app**](http://wyeworks.com/blog/2015/6/11/how-to-build-a-rails-5-api-only-and-backbone-application)
 * [**React + Flux backed by Rails API**](http://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
 * [**Proposal for v1.0 rc2 of json-api**](https://github.com/json-api/json-api/pull/341)

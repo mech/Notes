@@ -205,6 +205,7 @@ Restart using `sudo service procps start`
 ## IP Addresses
 
 * [Assign multiple IP addresses to one interface](http://askubuntu.com/questions/547289/how-can-i-from-cli-assign-multiple-ip-addresses-to-one-interface)
+* [Subnet Calculator](http://www.subnet-calculator.com/)
 
 ```
 // Will be lost after reboot

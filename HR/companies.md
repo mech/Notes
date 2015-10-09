@@ -60,6 +60,10 @@ Notable companies in HR domain.
 * [Paysavvy](https://paysavvy.com/)
 * [Quip](https://quip.com)
 * [Resume Builder](http://resumebuilder.rowanhogan.com/#!/)
+* [Ramco](http://www.ramco.com/hcm/campaign/hcm/asean/)
+* [In-memory???](http://www.ramco.com/products/music/in-memory/)
+* [Visier](http://www.visier.com/)
+* [**Workday**](https://www.workday.com/payroll_ebook.php#page/6)
 
 ## Executive Search
 
