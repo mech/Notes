@@ -12,6 +12,10 @@
 
 Gradual rollout, dark launching
 
+## Engineering Blogs
+
+* [Instagram](http://engineering.instagram.com/)
+
 ## Promise Theory
 
 * [The Promises of DevOps](http://markburgess.org/blog_devops.html)

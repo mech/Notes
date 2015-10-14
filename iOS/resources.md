@@ -36,6 +36,7 @@
 * [Introduction to adaptive design](http://code.tutsplus.com/tutorials/an-introduction-to-adaptive-design--cms-22888)
 * [Replacing Photoshop with NSString](http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/)
 * [Replacing Photoshop with `NSString`](http://asciimage.org/)
+* [UIVisualEffectView](http://bg-d.net/jony/)
 
 ## Animation
 
@@ -45,6 +46,10 @@
 * [Motion blur](http://holko.pl/2014/07/21/motion-blur/)
 * [SplashView](https://github.com/callumboddy/CBZSplashView)
 * [Animation in Swift](http://mathewsanders.com/animations-in-swift-part-two/)
+
+## 3D Touch
+
+* [Exploring Apple's 3D Touch](https://medium.com/@rknla/exploring-apple-s-3d-touch-f5980ef45af5)
 
 ## Quartz Composer and Origami
 

@@ -5,6 +5,8 @@
 * [Golang for Network Ops](http://networkstatic.net/golang-network-ops/)
 * [Effective Go](http://golang.org/doc/effective_go.html)
 * [Getting started with Go](http://spf13.com/presentation/first-go-app/)
+* [Interfaces](http://research.swtch.com/interfaces)
+* [Go at Google](https://talks.golang.org/2012/splash.article)
 
 Pass by value, rather than by reference.
 

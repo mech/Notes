@@ -1,5 +1,6 @@
 ## UI
 
+* [**UXmill**](http://uxmill.com/)
 * [**Visibility of system status**](http://www.nngroup.com/articles/ten-usability-heuristics/)
 * [**Destroying Apple's legacy**](http://cheerfulsw.com/2015/destroying-apples-legacy)
 * [**Pure-UI**](http://rauchg.com/2015/pure-ui/)
@@ -12,6 +13,7 @@
 * [How to use photography in UI](http://designerfund.com/bridge/how-to-use-photography-in-ui/)
 * [Design smarter push notifications](https://medium.com/ux-for-india/smarter-push-notifications-9bdaf7a35f3c)
 * [**Responsive sidebar**](http://codyhouse.co/gem/responsive-sidebar-navigation/)
+* [**Wayfinding**](https://viget.com/inspire/wayfinding)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
 * **Symmetry of interaction**. How you trigger is how you will will reverse the action. Activation and deactivation actions must be symmetrical.

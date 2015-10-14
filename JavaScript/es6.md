@@ -25,6 +25,11 @@ Objects in JavaScript have reference equality.
 {error: error} === {error}
 ```
 
+## Class
+
+* [How to use classes and sleep at night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4)
+* [Not Awesome: ES6 Classes](https://github.com/joshburgess/not-awesome-es6-classes/)
+
 ## Template String
 
 Can be a security concern if you allow user to input template string.

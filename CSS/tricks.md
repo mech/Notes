@@ -1,5 +1,6 @@
 # Tricks
 
+* [**Cody House**](https://codyhouse.co/)
 * [Skewed hit boxes with CSS transforms](http://viget.com/inspire/skewed-hit-boxes-with-css-transforms)
 * [7 things your didn't know you could do with CSS](http://davidwalsh.name/css-facts)
 * [Pure CSS slide up and down](http://davidwalsh.name/css-slide)
@@ -48,6 +49,19 @@
 * * * * { background-color: rgba(255,0,255,.2); }
 * * * * * { background-color: rgba(0,255,255,.2); }
 * * * * * * { background-color: rgba(255,255,0,.2); }
+```
+
+## Link
+
+```
+a {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 200ms, border-color 200ms;}
+
+a:not(.hidden-link):hover {
+  color: #43acfb;
+  border-color: #43acfb;}
 ```
 
 ## Off-Canvas

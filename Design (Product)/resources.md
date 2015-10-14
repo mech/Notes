@@ -288,6 +288,9 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Intercom Blog](https://blog.intercom.io/)
 * [CheapOair and OneTravel Confirmation](http://jim-silverman.com/work/confirmation/)
 * [**Grammarly**](http://www.getvero.com/resources/grammarly)
+* [Instagram War Stories](https://medium.com/backchannel/war-stories-3696d00207ff)
+* [Codepen redesign](http://codepen.seesparkbox.com/)
+* [**Redesigning ActiveCollab**](https://blog.activecollab.com/redesigning-active-collab-393608cb019b)
 
 ## Product News
 

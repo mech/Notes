@@ -23,9 +23,12 @@ Notable companies in HR domain.
 
 ## Notable Companies
 
+**http://www.capterra.com/human-resource-software/hr-landscape**
+
 * [Hire Right Partners](http://www.hireright.com/partners)
 * [**sleekr**](http://sleekr.co/)
 * [**Toptal**](http://www.toptal.com/)
+* [Toptal for designer](http://techcrunch.com/2015/10/07/the-biggest-startup-no-one-talks-about/)
 * [**Zenefits**](http://www.zenefits.com/hr-software)
 * [**Jobvite**](http://www.jobvite.com/products/)
 * [**Blueskyme - Nice interaction and UI**](http://blueskyme.com/)

@@ -22,6 +22,10 @@ https://vividcortex.com/pricing/
 * [MADlib - For data science](https://github.com/madlib/madlib)
 * [Why should you learn Postgres](http://www.brightball.com/postgresql/why-should-you-learn-postgresql)
 * [**Rob Conery's node-db-project**](https://github.com/robconery/node-db-project)
+* [**pgFouine  -Log analyzer**](http://pgfouine.projects.pgfoundry.org/)
+* [Simpel continuous archiving for Postgres](https://github.com/wal-e/wal-e)
+
+> PGFouine is our core tool in analysing database performance and figuring out which queries could use memcached in front of them, which ones are fetching more data than is necessary, etc; as DBs showed signs of stress on launch day, we would run PGFouine, deploy targeted code improvement to relieve hotspots, and then run it again to make sure those changes had the correct effect.
 
 Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!

@@ -166,6 +166,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [Infield top aligned form labels](http://uxmovement.com/forms/why-infield-top-aligned-form-labels-are-quickest-to-scan)
 * [Drop-downs should be the UI of last resort](https://storify.com/lukew/drop-downs-are-the-ui-of-last-resort)
 * [Uploading files in Ajax using `FormData`](http://blog.teamtreehouse.com/uploading-files-ajax)
+* [Inline validation in web forms](http://alistapart.com/article/inline-validation-in-web-forms)
 
 ## Content Strategy
 

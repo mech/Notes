@@ -1,5 +1,6 @@
 # Vim
 
+* [**A vim primer**](https://danielmiessler.com/study/vim/)
 * [**Learn VimScript the hard way**](http://learnvimscriptthehardway.stevelosh.com/)
 * [**Coming home to Vim**](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
 * [**Thoughtbot VIM tags**](http://robots.thoughtbot.com/tags/vim)

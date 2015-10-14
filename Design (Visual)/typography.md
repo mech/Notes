@@ -56,6 +56,7 @@
 * [The State of Web Type](http://stateofwebtype.com/)
 * [Font Pair for Google fonts](http://fontpair.co/)
 * [What are some of your favourite font combinations](https://www.designernews.co/stories/54276-ask-dn-what-are-some-of-your-favourite-font-combinations)
+* [Best type games](https://medium.com/@order_group/best-type-games-for-designers-e51f17bbe464)
 
 ```
 // New for Firefox 25

@@ -2,6 +2,8 @@
 
 > Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
 
+* [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97)
+* [Your UI isn't a Disney Movie](https://medium.com/startups-venture-capital/your-ui-isn-t-a-disney-movie-703f7fbd24d2)
 * [**The Future of Web Animation**](http://dailyjs.com/2015/05/15/interview-the-future-of-web-animation-with-julian-shapiro/)
 * [**FLIP your Animations**](http://aerotwist.com/blog/flip-your-animations/)
 * [**Pixels are expensive**](http://aerotwist.com/blog/pixels-are-expensive/)
@@ -58,6 +60,7 @@
 * [Crafting easing curves for UI](https://medium.com/@ryan_brownhill/crafting-easing-curves-for-user-interfaces-34f39e1b4a43)
 * [Rubberhose - Animation rigging for AE](http://www.battleaxe.co/rubberhose/)
 * [Using multiple class-based CSS transitions to create staged animations](http://dancort.es/web-design/2015/09/10/how-to-css-transition-delay-animation.html)
+* [**Motion UI**](http://zurb.com/playground/motion-ui)
 
 ## Videos
 
@@ -102,8 +105,6 @@
 * [Text input effect](http://tympanus.net/Development/TextInputEffects/)
 * [**Checkout concept**](http://tympanus.net/Development/CheckoutConcepts/sidebar.html)
 * [Animated sign-up flow](http://codyhouse.co/gem/animated-sign-up-flow/)
-* []
-
 
 ## Famo.us
 

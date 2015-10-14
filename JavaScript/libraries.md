@@ -62,6 +62,7 @@
 * [Wallop - Much more than just a slider](http://pedroduarte.me/wallop/)
 * [Clipboard - Copy and paste text](http://zenorocha.github.io/clipboard.js/)
 * [**Pt.js**](https://github.com/williamngan/pt)
+* [Floating label](http://datuhealth.github.io/floating-label/)
 
 ## Fuzzy Search
 
@@ -71,6 +72,7 @@
 
 * [**Tether**](http://github.hubspot.com/tether/docs/welcome/)
 * [Darsa's tooltip](http://darsa.in/tooltip/)
+* [Isotip](http://datuhealth.github.io/isotip/)
 
 ## HTTP Client
 

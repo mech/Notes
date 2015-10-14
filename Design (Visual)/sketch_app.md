@@ -2,6 +2,7 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [Designing at 1x](https://medium.com/sketch-app-sources/designing-at-1x-33240842180c)
 * [Learn Sketch](http://learnsketch.com/)
 * [Understanding export options](http://webdesign.tutsplus.com/tutorials/understanding-sketchs-export-options--cms-22207)
 * [**Aligning everything**](http://www.sketchtips.info/articles/aligning-everything)

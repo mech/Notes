@@ -66,6 +66,7 @@ Closures minimize shared state and side-effects.
 * [Hugo Giraudel](http://hugogiraudel.com/)
 * [Sam Dutton](http://simpl.info/)
 * [Volkan](http://volkan.io/)
+* [Mike Engel](http://mike-engel.com/)
 
 ## Macros
 
