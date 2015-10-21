@@ -222,6 +222,11 @@ egrep '[bash|false]$' /etc/passwd # Find all that ends with bash or false
 grep lisa * 2> /dev/null # If we do not want to see too many error output
 
 grep -B 3 -A 2 foo README.txt
+
+// To show surround lines, After, Before, and Within
+cat production.log | grep -A 5 'bot'
+cat production.log | grep -B 5 'bot'
+cat production.log | grep -C 5 'bot'
 ```
 
 ## Filtering

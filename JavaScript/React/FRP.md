@@ -41,6 +41,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Reactive Programming with Kefir.js and React](https://medium.com/@carloM/reactive-programming-with-kefir-js-and-react-a0e8bb3af636)
 * [Functional reactive UI library?](https://github.com/Gozala/reflex)
 * [Grokking RxJava Part 1](http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/)
+* [Reactive Frontend](https://auth0.com/events/oscon-reactive-frontend)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 

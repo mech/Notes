@@ -49,11 +49,13 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 ## BOTS
 
 * http://www.majestic12.co.uk/bot.php?
-* http://www.baidu.com/search/spider.html
+* Baiduspider/2.0; +http://www.baidu.com/search/spider.html
 * http://www.bing.com/bingbot.htm
 * http://www.jobrapido.com
 * http://www.google.com/bot.html
 * http://ahrefs.com/robot/
+* http://www.feedly.com/fetcher.html; like FeedFetcher-Google
+* 
 
 ## Normalised list of skill
 
@@ -288,6 +290,8 @@ What happen when timesheet was submitted for pending approval and CA take leaves
 When email for timesheet approval, we can show the overall total-hour taken by each candidates.
 
 If there is only 1 candidate to approve, we can show all the details in the email and one "Approve" button which will approve without requiring them to login, or login automatically.
+
+* TS approver did not track reject timestamp.. no history.... Jason need to always get the created_at and approved_at. But there is no rejected_at.
 
 ## Change of Approver
 

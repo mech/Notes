@@ -11,6 +11,7 @@
 * [**How to index concurrently in Rails**](https://robots.thoughtbot.com/how-to-create-postgres-indexes-concurrently-in)
 * [Zero downtime migration](http://blog.codeship.com/rails-migrations-zero-downtime/)
 * [Gems to unlock advanced PSQL features](http://www.brightball.com/ruby-postgresql/rails-gems-to-unlock-advanced-postgresql-features)
+* [4 ways to speed up your Rails app](http://blog.skylight.io/4-easy-ways-to-speed-up-your-rails-app/)
 
 ## `serialize` and `store_accessor`
 

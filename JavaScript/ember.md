@@ -23,6 +23,7 @@ The compiler see the template fragment, identifying any binding expressions, eve
 * dom-helper
 * [Long comment to read](https://github.com/emberjs/rfcs/pull/3)
 * [EmberShare using Share.js](http://embershare.com/)
+* [**Controller vs Component**](http://discuss.emberjs.com/t/diving-deeper-into-ember/8929/3)
 
 Routes drive components instead of controller + view. Think of it as iOS ViewController. So it is a Web Component == Component == ViewController.
 

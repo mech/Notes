@@ -136,6 +136,7 @@ A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 * [Don't trigger module reloading when there were errors generating the bundle](https://github.com/webpack/webpack-dev-server/issues/42)
 * [**You need to do module.hot at main entry file**](https://github.com/christianalfoni/react-webpack-cookbook/wiki/Hot-loading-components)
 * [Troubleshooting guide for react-hot-loader issues](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
+* [**react-transform-webpack-hmr**](https://github.com/rackt/redux/pull/690/files)
 
 
 ## Feature Flags

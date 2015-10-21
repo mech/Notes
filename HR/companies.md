@@ -25,6 +25,7 @@ Notable companies in HR domain.
 
 **http://www.capterra.com/human-resource-software/hr-landscape**
 
+* [JustWorks](https://www.justworks.com/)
 * [Hire Right Partners](http://www.hireright.com/partners)
 * [**sleekr**](http://sleekr.co/)
 * [**Toptal**](http://www.toptal.com/)

@@ -26,6 +26,10 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [Comply with JSON API specification](https://github.com/cerebris/jsonapi-resources)
 * [Convert to/from camel case and underscores](https://gist.github.com/timruffles/2780508)
 
+## API Wrapper and Serialisation
+
+* [Ruby API wrapper using Virtus](http://www.nickdesteffen.com/blog/ruby-api-wrapper-using-virtus-and-typhoeus)
+
 
 ## Rails ORM/ActiveModel attributes
 

@@ -4,6 +4,7 @@
 * [129 fixes](https://gist.github.com/rwaldron/8720084#file-reasons-md)
 * [Coding standards & best practices](http://lab.abhinayrathore.com/jquery-standards/)
 * [Complete beginners guide](https://ihatetomatoes.net/jquery-complete-beginners-datatypes-selectors/)
+* [**jQuery Recipes Your Mom Should Know**](https://github.com/AllThingsSmitty/jquery-your-mom-should-know)
 
 ## You don't need jQuery
 

@@ -17,6 +17,13 @@
 * [accepts_nested_ids](https://github.com/uberllama/accepts_nested_ids)
 * [**Queue using NSQ**](https://github.com/wistia/nsq-ruby)
 
+## Performance gems
+
+Always profile in production mode as development will produce all kinds of garbage in order to support hot reloading.
+
+* [memory_profiler](https://github.com/SamSaffron/memory_profiler)
+* [allocation_tracer](https://github.com/ko1/allocation_tracer)
+
 ## Bundler
 
 * Constraint satisfaction

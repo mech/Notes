@@ -2,7 +2,7 @@
 
 Document-driven development. Test-driven also! Code style-guide. Code review. Pair-programming.
 
-* [Best practices for a pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+* [**Best practices for a pragmatic RESTful API**](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 * [HTTP API design guide extracted from work on the Heroku Platform API](https://github.com/interagent/http-api-design)
 * [Heroku's HTTP API Design Guide](http://www.infoq.com/news/2014/08/heroku-http-design-guide)
 * [API Evangelist](http://101.apievangelist.com/)
@@ -29,6 +29,42 @@ https://api.jobline.com.sg/getAccount
 // Better and make use of HTTP method instead
 https://api.jobline.com.sg/account
 ```
+
+## Platform
+
+It makes more sense to build platforms instead of just products or applications. Platforms are like ecosystems interconnecting different applications, services, users, developers and partners.
+
+## Problem + Abstraction
+
+Every model is just an approximation of reality, able to produce an outcome (i.e. a solution to a problem).
+
+Everything can be a problem space in which you find solution.
+
+## Web
+
+The Web represents an abstraction of HTTP. REST represents an abstraction of the Web. The Web is an application and it respects the "constraints" by REST.
+
+## Constraints
+
+Constraints may be imposed for technical, policy, or other reasons.
+
+Architectural constraints for REST:
+
+* **Orthogonal** - Clear separation of concerns and functions between client and server. Server components are kept simple to improve scalability while client are complex and ever-changing. Components can be developed and evolved independently.
+* **Stateless** - Requests are treated independently. Requests must carry all necessary information. The message is self-descriptive, meaning all the information needed to complete the task is actually contained in the message.
+* **Cacheable**
+* **Layered and hierarchical** - Like OSI model. Each component "sees" and operates only with the layer with which it is immediately interacting.
+* **Code-on-demand** - Control state. The control state resides in the requested resource representation. Therefore obtaining the "first" representation is top priority. Links are flow control.
+
+For example in a HR application for CA, the Leave is a resource representation that is the initial request and is of top priority. From this first representation, we can link to other state like "cancel" state, "approve" state, etc.
+	
+## Error Handling
+
+Everything is distributed and asynchronous. Many potential breaking points! How do you handle it gracefully? Retry? Re-authentication?
+
+# Resource
+
+Resource representation. Topology of connected components. Draw a map of your resources, your components.
 
 ## Collection Resource
 
@@ -91,9 +127,6 @@ Use `?_body=false` to skip body response when POST to create a new resource.
 ```
 ?offset=50&limit=25
 ```
-
-## Error
-
 
 ## Usage Patterns
 

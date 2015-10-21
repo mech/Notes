@@ -191,6 +191,9 @@ Restart using `sudo service procps start`
 ▶ apt-get dist-upgrade
 
 ▶ shutdown -r now
+
+// To see what updates are available
+▶ /usr/lib/update-notifier/apt-check -p
 ```
 
 ## Locale

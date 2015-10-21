@@ -14,6 +14,7 @@
 - [Comprehensive list of React resources](http://www.gajotres.net/a-comprehensive-list-of-reactjs-resources/)
 - [Learn React in 8 mins](https://blog.skcript.com/learn-react-js-in-7-min-92a1ef023003)
 - [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
+- [**React.js Best Practices and Tips**](http://www.toptal.com/react/tips-and-practices)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
