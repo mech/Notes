@@ -1,5 +1,7 @@
 # RxJS
 
+* [Rx-book](http://xgrommx.github.io/rx-book/index.html)
+
 We have many PUSH APIs:
 
 * DOM

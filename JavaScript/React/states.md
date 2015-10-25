@@ -18,6 +18,7 @@ Properties can't be changed because they are inherited every time the component 
 
 There's a deeper reason why it's so important to make data flow clear and simple: it encourages you to keep state in as few places as possible and make most of your components stateless.
 
+* [**State is an anti-pattern**](https://www.reddit.com/r/reactjs/comments/3bjdoe/state_is_an_antipattern/)
 * [**The problem of state**](https://www.new-bamboo.co.uk/blog/2015/07/23/the-problem-of-state/)
 * [**State is an anti-pattern**](http://www.reddit.com/r/reactjs/comments/3bjdoe/state_is_an_antipattern/)
 * [Communicate between components](http://facebook.github.io/react/tips/communicate-between-components.html)
@@ -27,6 +28,7 @@ There's a deeper reason why it's so important to make data flow clear and simple
 * [Simpler UI reasoning with unidirectional data flow and immutable data](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
 * [**A React-style Architecture for the Debugger**](https://www.youtube.com/watch?v=Isxar7y7eMU)
 * [**Local State, Global Concerns**](http://blog.circleci.com/local-state-global-concerns/)
+* [setState() accept a 2nd argument that is invoked after the state changes have been flushed to the DOM](http://www.bennadel.com/blog/2915-setting-the-state-based-on-rendered-dom-elements-in-reactjs.htm)
 
 > Once you've grokked the basics, this is perhaps the most important thing to know about React. To think in React is to find the minimal amount of state necessary to represent your app, and calculate everything based on that. This is because state is unpredictable. Props are, for the most part, derived from other props and state, but state can be anything. The more state in your application, the harder it is to reason about it. As much as possible, state in React should be an implementation detail — a necessary evil, not a crutch.
 

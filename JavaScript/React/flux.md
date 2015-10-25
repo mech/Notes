@@ -8,6 +8,9 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [**React+Flux can do in just 137 lines what jQuery can do in 10**](http://swizec.com/blog/reactflux-can-do-in-just-137-lines-what-jquery-can-do-in-10/swizec/6740)
+* [Which Flux should I use with React?](http://jamesknelson.com/which-flux-implementation-should-i-use-with-react/)
+* [React + Flux backed by Rails API](https://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
 * [Simplifying Flux using CSP FRP](https://github.com/juliangamble/simplifying-flux-using-csp-frp)
 * [**The React.js Way: Flux Architecture with Immutable.js**](https://blog.risingstack.com/the-react-js-way-flux-architecture-with-immutable-js/)
 * [**Flux: Getting data from an API**](https://medium.com/@tribou/flux-getting-data-from-an-api-b73b6478c015)
@@ -46,6 +49,8 @@
 * [Getting to know Flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 * [Combining Flux and FRP](https://medium.com/@milankinen/combining-flux-and-frp-hello-ffux-b04ff20fcbc6)
 * [A simple web architecture using Flux, CSP, and FRP concepts](http://codrspace.com/allenkim67/a-simpler-web-architecture-using-flux-csp-and-frp-concepts/)
+* [Adding a Service Layer to the Flux Architecture](https://medium.com/developers-writing/adding-a-service-layer-to-the-flux-architecture-410bc7661c45#.o1eamk32v)
+* [Going isomorphic with React and Flux](https://medium.com/@fteissier/going-isomorphic-with-reactjs-and-flux-73873a2f7f8#.hnxnht6nn)
 
 > Manipulation of state should be restricted to the Stores and if there's a need to enqueue atomic updates based on previous values, it can be done within the callback of `this.setState`, and never directly on `this.state`. The latter should only be read from and never manipulated on.
 > 
@@ -185,7 +190,11 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 
 ## Redux
 
+Just like Docker, but for React data. Immutable snapshot of state.
+
 * [**Full-stack Redux tutorial**](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
+* [**Understanding Redux (how I fell in love with a state container)**](http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container)
+* [**James Long's Redux Blog**](http://jlongster.com/The-Seasonal-Blog-Redux)
 * [awesome-redux](https://github.com/xgrommx/awesome-redux)
 * [Redux isomorphic example](https://github.com/coodoo/react-redux-isomorphic-example)
 * [Simplest redux + react example](https://github.com/jackielii/simplest-redux-example)
@@ -199,6 +208,10 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * [**redux-blog-example**](https://github.com/GetExpert/redux-blog-example)
 * [react-reversi](https://github.com/jhewlett/react-reversi)
 * [**State Management with Redux**](http://konkle.us/state-management-with-redux/)
+* [redux-store-visualizer](https://github.com/romseguy/redux-store-visualizer)
+* [redux-undo](https://github.com/omnidan/redux-undo)
+* [Redux interview by Survive.js](http://survivejs.com/blog/redux-interview/)
+* [redux-tutorial](https://github.com/happypoulp/redux-tutorial)
 
 ## Examples
 

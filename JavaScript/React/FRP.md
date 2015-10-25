@@ -6,6 +6,7 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [**Hello, declarative world**](http://codon.com/hello-declarative-world)
 * [**Coding with React like a Game Developer**](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 * [**A General Theory of Reactivity**](https://github.com/kriskowal/gtor/blob/master/README.md)
 * [Life after JavaScript](http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/)
@@ -42,6 +43,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Functional reactive UI library?](https://github.com/Gozala/reflex)
 * [Grokking RxJava Part 1](http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/)
 * [Reactive Frontend](https://auth0.com/events/oscon-reactive-frontend)
+* [Why should you care about re-frame?](https://github.com/Day8/re-frame#why-should-you-care-about-re-frame)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
@@ -49,6 +51,7 @@ Or just don't use objects in `props` and `state`.
 
 ## Immutability
 
+* [**Immutable Data Structures and JavaScript**](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
 * [A brief talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c)
 * [**The Dao of Immutability**](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
 * [ancient-oak: Immutable data trees](https://github.com/brainshave/ancient-oak)
@@ -154,6 +157,7 @@ While Flux suggests using low-level EventEmitter which requires manual event han
 * [Using Rx.js to create a scroll table with adjustable width](https://www.codementor.io/reactjs/tutorial/using-rxjs-to-create-a-scroll-table-with-adjustable-width)
 * [Writing marble tests](https://github.com/ReactiveX/RxJS/blob/master/doc/writing-marble-tests.md)
 * [JWT with observables](https://auth0.com/blog/2015/09/10/jwt-authentication-with-observables/)
+* [A dead-simple Todo with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/)
 
 ```js
 // Convert a Promise to an Observable

@@ -1,5 +1,9 @@
 # Jobline's Problem
 
+Why Nokia is no longer in the game? It's all about Strategic Agility. Not being to understand where they are as an organization, not able to communicate properly with others so they can grow.
+
+TESCO + Asia = Insider Ethnography for Strategic Renewal
+
 [**Print tees**](http://www.realthread.com/what-we-do)
 
 https://www.youtube.com/watch?v=_6Zfz2_Nt-A
@@ -45,6 +49,19 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 > Genetic programming is the process of simulating nature’s evolution system by producing populations of candidate programs and filtering out the programs that don’t pass the tests. The candidates that do pass the tests survive and form the basis of the next generation.
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
+
+## Articulating Design
+
+* CEO Button
+* Homepage Syndrome
+
+Ask yourself these:
+
+1. What problem does this solve?
+2. How does this affect the user?
+3. Why is it better than the alternatives? What set the solution apart so people can agree with you?
+
+
 
 ## BOTS
 

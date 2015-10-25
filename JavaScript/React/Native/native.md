@@ -23,6 +23,8 @@ react-native@0.3.1 node_modules/react-native
 └── ws@0.4.31 (tinycolor@0.0.1, options@0.0.6, commander@0.6.1, nan@0.3.2)
 ```
 
+* [**Handcrafting an iOS app with React Native**](http://stanleycyang.github.io/technology/reactjs/native/ios/2015/10/04/react-native-tutorial-with-navigation-and-animation.html)
+* [**Apps using React Native**](http://facebook.github.io/react-native/showcase.html)
 * [Must-have plugins for React Native](http://www.gajotres.net/must-have-plugins-for-react-native/)
 * [**awesome-react-native**](https://github.com/jondot/awesome-react-native)
 * [AsyncDisplayKit](http://asyncdisplaykit.org/) - React Native flexbox is done on a background thread, no blocking of scroll
@@ -37,6 +39,9 @@ react-native@0.3.1 node_modules/react-native
 * [So you want to dynamically update your React Native app](https://medium.com/@clayallsopp/so-you-want-to-dynamically-update-your-react-native-app-d1d88bf11ede)
 * [React-native animated API with PanResponder](http://browniefed.com/blog/2015/08/15/react-native-animated-api-with-panresponder/)
 * [React Native Periscope Hearts Animation](http://browniefed.com/blog/2015/09/07/react-native-periscope-hearts-animation/)
+* [Use iOS camera in your React Native](https://blog.nraboy.com/2015/09/use-the-ios-camera-in-your-react-native-mobile-app/)
+* [React Native for OS X](https://github.com/ptmt/react-native-desktop)
+* [Responding to keyboard](https://medium.com/man-moon/writing-modern-react-native-ui-e317ff956f02#.a02p0hh2e)
 
 ## ListView
 
@@ -56,3 +61,4 @@ react-native@0.3.1 node_modules/react-native
 * [Building a flashcard](http://herman.asia/building-a-flashcard-app-with-react-native)
 * [Nortal TechDay](https://github.com/mikkoj/NortalTechDay)
 * [Den](https://github.com/asamiller/den)
+* [Ziliun article reader app](https://github.com/sonnylazuardi/ziliun-react-native)

@@ -1,5 +1,7 @@
 # Performance
 
+Don't look at code, measure it! It is very hard to tell from code where the performance is.
+
 * [**Performance Calendar**](http://calendar.perfplanet.com/2014/)
 * [**Rendering Performance**](https://developers.google.com/web/fundamentals/performance/rendering/)
 * [**Better data from Good UI**](http://www.goodui.org/betterdata/)
@@ -63,6 +65,39 @@ Perceived = f(Expected Performance, UX, Actual Performance)
 .expanded {
   height: 400px;
   transition: height 0.4s ease-out;	}
+```
+
+## High Speed UX
+
+**Synthetic measurement is bad and not accurate, we need RUM (Real User Measurement)**
+
+```
+curl 'https://eva.jobline.com.sg/' -H 'If-None-Match: W/"babaa3198f3c8a816f88d06340b79500"' -H 'DNT: 1' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8,pt;q=0.6,ja;q=0.4,de;q=0.2,zh-TW;q=0.2,zh;q=0.2,zh-CN;q=0.2,fr;q=0.2' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Cookie: __utma=202529802.1875141668.1423443808.1445477289.1445528994.375; __utmz=202529802.1423443808.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _EVA_session=bEpwQmxSVjRNcSt5aWxyRkRCRmV6dXBjRHR4aU5tZG5MR2tONkZvbUtkWEJsbGFVRHI0ZkVnZStoRFJ3WTdRODhjc0NPelRYRXRaZ1p3ZzdITWdJQVU0SnJkOHgvRUlmRDYyeXd0Y2k5czNuYXE5Zk1GL1V1VVZqeXpkNnJCWlJBRlM4bGIwck56Sk9TVUVBbE5ySkR4VEhvZzZoK21RcTlueEVqQytteHBGWFpyVHZoL1hMRnVQejZZL3lOUmtCcEtMclQ2MTNJVnNFRTUxRzg1amdYUT09LS1yL3BBdWtlRG4wNVd6d2VRbnFBZ1F3PT0%3D--d67fda257ed4031dab126991d80803b6d707f9a9' -H 'Connection: keep-alive' --compressed -w "\ndownload response time = %{time_total} seconds\n"
+```
+
+**Cheap window.onload RUM**
+
+```
+<script>
+var t_top = new Date().getTime();
+window.onload = function() {
+  var t_onload = new Date().getTime();
+  new Image().src = "beacon.gif?loadtime=" + (t_onload - t_top);}
+</script>
+```
+
+First Page View = DNS Resolution time + Cache + ..?
+
+## Using Web Performance Timing
+
+Load a new page in Incognito and at the console, type `performance.timing`
+
+```
+performance.timing
+
+loadEventStart: 1445657264694
+
+
 ```
 
 ## Set your performance budget

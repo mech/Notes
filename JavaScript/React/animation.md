@@ -11,3 +11,5 @@
 * [**react-motion - A spring that solves your animation problems**](https://github.com/chenglou/react-motion)
 * [SO: How to wait for fade out before adding content to fade in?](http://stackoverflow.com/questions/31782330/reactjs-animate-replace-how-to-wait-for-fade-out-before-adding-content-to-fade)
 * [**React.js animation done in 2 ways**](http://www.chloechen.io/react-animation-done-in-two-ways/)
+* [react-page-transitions](https://github.com/jaing/react-page-transitions)
+* [Fabric - VelocityReact](http://fabric.io/blog/introducing-the-velocityreact-library)

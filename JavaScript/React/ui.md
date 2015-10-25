@@ -1,5 +1,12 @@
 # UI Component
 
+Big ideas:
+
+* Purely functional UIs
+* Single atom app states
+* Immutability
+* State container
+
 Segmentation of the UI along these functional boundaries. Black-boxing. Predictable input and output. 
 
 Create dependency graph for your UI! To help coder to visual hierarchy also.
@@ -11,6 +18,10 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 * [**Pure UI**](http://rauchg.com/2015/pure-ui/)
 * [Managing UI complexity with React - Part 1](http://alanbsmith.io/managing-ui-complexity-with-react-part-1/)
 * [Managing UI complexity with React - Part 2](http://alanbsmith.io/managing-ui-complexity-with-react-part-ii/)
+
+## Showcase
+
+* [FatFileFinder](https://github.com/pwambach/fat-file-finder)
 
 ## UI Widget Names
 
@@ -32,6 +43,7 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 * [material-ui](https://github.com/firetix/material-ui)
 * [Modals in React](http://www.mybridge.co/view/1943)
 * [React components with Material Design Lite](http://quaintous.com/2015/07/09/react-components-with-mdl/)
+* [react-look](https://github.com/rofrischmann/react-look)
 
 ## CSS
 

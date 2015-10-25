@@ -1,5 +1,8 @@
 # React
 
+- [**React and ES6 - Part 1**](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)
+- [React Cheat Sheet](http://reactcheatsheet.com/)
+- [**RAW React!**](http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/)
 - [**React Inspire - Curated sites built with React.js**](http://reactinspire.com/)
 - [**https://github.com/sindresorhus/awesome**](https://github.com/sindresorhus/awesome)
 - [**React Primer**](https://github.com/mikechau/react-primer-draft)
@@ -75,6 +78,8 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [sprintly-kanban](https://github.com/sprintly/sprintly-kanban)
 * [reddit-mobile](https://github.com/reddit/reddit-mobile)
 * [Tchaik](https://github.com/tchaik/tchaik)
+* [Creating a real-time photo experience with Socket.io](http://ditrospecta.com/javascript/react/es6/socketio/nodejs/realtime/2015/08/21/creating-real-time-instagram-socketio-react.html)
+* [Trader desktop](http://coenraets.org/blog/2015/03/real-time-trader-desktop-with-react-node-js-and-socket-io/)
 
 ### File Structure Examples
 
@@ -84,7 +89,8 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 
 ## Style Guides
 
-* [JSX style guide from Airbnb](https://github.com/airbnb/javascript/tree/master/react)
+* [**JSX style guide from Airbnb**](https://github.com/airbnb/javascript/tree/master/react)
+* [Khan Academy's style guide](https://github.com/Khan/style-guides/blob/master/style/react.md)
 * [React-starter kit style guide](https://github.com/kriasoft/react-starter-kit/blob/master/docs/react-style-guide.md)
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
@@ -688,6 +694,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 * [Simple Studios](http://simblestudios.com/blog)
 * [Futurice](http://futurice.com/blog/)
 * [Little Blimp Dev Blog](http://blog.littleblimp.com/)
+* [James K Nelson](http://jamesknelson.com/)
 
 ## Videos
 

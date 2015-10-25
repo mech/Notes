@@ -1,9 +1,5 @@
 # Components
 
-For EVA mistake, the `<Editor>` is too heavy and we did not break it down into even smaller components. The `<Editor>` itself is the DnD container which should not be the case. Whenever there is a drag event, the whole `<Editor>` will be affected and the `<AddPreview>` will be unnecessarily wasted in its rendering effort.
-
-**Always break your component down into single responsibility! And break it down further after that!**
-
 * [**Component is what you should be doing now for modern UI**](http://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/)
 * [**Building React plugins**](https://nylas.com/blog/react-plugins)
 * [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
@@ -21,6 +17,7 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 * [Controller View Pattern](http://blog.andrewray.me/the-reactjs-controller-view-pattern/)
 * [Autobind using core-js](https://github.com/andreypopp/autobind-decorator)
 * [Experimenting with higher-order components in React](http://www.bennadel.com/blog/2888-experimenting-with-higher-order-components-in-reactjs.htm)
+* [**Interacting with the DOM**](http://jamesknelson.com/react-js-by-example-interacting-with-the-dom/)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
@@ -52,6 +49,16 @@ Unintentional side effects are the bane of code reuse. They occur when multiple 
 > Remember that components don't have to emit DOM. They only need to provide composition boundaries between UI concerns. - See Smart and Dumb components
 
 A state machine always have initial state as model by `getInitialState`.
+
+## Mistakes and Best Practices
+
+For EVA mistake, the `<Editor>` is too heavy and we did not break it down into even smaller components. The `<Editor>` itself is the DnD container which should not be the case. Whenever there is a drag event, the whole `<Editor>` will be affected and the `<AddPreview>` will be unnecessarily wasted in its rendering effort.
+
+**Always break your component down into single responsibility! And break it down further after that!**
+
+* Components are just views, don't place business logic in it. For example, in a Todo app, if a button creates a Todo item for each click event, you are doing it wrong. A better way is to ship that code off to another object or Action.
+* A component shouldn't worry about networking.
+* 
 
 ## Controller View
 
@@ -224,6 +231,10 @@ Data binding is a hack around re-rendering.
 * [react-hammerjs](https://github.com/JedWatson/react-hammerjs)
 * [react-selectize](https://github.com/furqanZafar/react-selectize)
 * [react-joyride](https://github.com/gilbarbara/react-joyride)
+* [react-text-trail](https://github.com/trevorsenior/react-text-trail)
+* [react-autosuggest](https://github.com/moroshko/react-autosuggest)
+* [Chosen](http://harvesthq.github.io/chosen/)
+* [react-data-grid](https://github.com/adazzle/react-data-grid)
 
 ### Pagination
 

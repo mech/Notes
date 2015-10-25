@@ -218,6 +218,7 @@ The aim of a component/template/object-oriented architecture is to be able to de
 * Base - normalize and element selector. Base are not for button, table, input, those are modules.
 * Layout - Application shell and grid system. No call-out, no drawer, etc. Just the shell structure. A lot broader than module. Module is more constrained to its content.
 * Module - List views, buttons, tabs, content container. Always 100% width. Leave the width constraint to Layout. Modules expand to fill Layout. Module should decide what margin they should have instead of letting Layout to decide.
+* Color-Variables
 
 Similar patterns repeating over different content type. So don't name your class too specific according to the content.
 

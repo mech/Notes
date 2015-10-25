@@ -25,6 +25,8 @@ Notable companies in HR domain.
 
 **http://www.capterra.com/human-resource-software/hr-landscape**
 
+* [**Jazz (formerly Resumator)**](https://jazz.co/blog/)
+* [The Resumator Relaunches As Jazz, Aims To Bring Data To The Recruiting Process](http://techcrunch.com/2015/06/23/the-resumator-relaunches-as-jazz-aims-to-bring-data-to-the-recruiting-process/)
 * [JustWorks](https://www.justworks.com/)
 * [Hire Right Partners](http://www.hireright.com/partners)
 * [**sleekr**](http://sleekr.co/)
@@ -68,6 +70,8 @@ Notable companies in HR domain.
 * [In-memory???](http://www.ramco.com/products/music/in-memory/)
 * [Visier](http://www.visier.com/)
 * [**Workday**](https://www.workday.com/payroll_ebook.php#page/6)
+* [Resume builder](http://resumator.qwilr.com/)
+* [Jazz](https://jazz.co/product)
 
 ## Executive Search
 

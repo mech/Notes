@@ -2,6 +2,7 @@
 
 * [Things Organized Neatly](http://thingsorganizedneatly.tumblr.com/)
 * [Portfolio sites](https://news.layervault.com/stories/20196-whats-your-favorite-portfolio-site)
+* [ilikethesepixels](http://ilikethesepixels.com/)
 
 ## Inspiration
 

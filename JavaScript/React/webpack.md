@@ -23,6 +23,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 ▶ npm install --save-dev assets-webpack-plugin
 ```
 
+* [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
 * [**A new Webpack boilerplate with hot reloading**](https://github.com/gaearon/react-transform-boilerplate)
 * [**Very nice component library setup**](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
 * [**Backend Apps with Webpack**](http://jlongster.com/Backend-Apps-with-Webpack--Part-I)
@@ -70,6 +71,8 @@ The loaders will only kick into action when you try to `require` something that 
 * [react-boilerplate](https://github.com/hudakdidit/react-boilerplate)
 * [react-way-getting-started](https://github.com/RisingStack/react-way-getting-started)
 * [react-component-boilerplate](https://github.com/bebraw/react-component-boilerplate)
+* [**starter-kit**](http://unicornstandard.com/packages/boilerplate.html)
+* [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
 
 ```js
 // Here when you compile the code it will be temporarily saved into build/js folder.

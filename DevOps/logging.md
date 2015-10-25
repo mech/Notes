@@ -1,5 +1,6 @@
 # Logging
 
+* [Docker logging with slides](http://blog.sematext.com/2015/10/13/docker-logging-webinar-video-and-slides/)
 * [**The Log: What every software engineer should know about real-time data's unifying abstraction**](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 * [Log Injection](https://www.owasp.org/index.php/Log_injection)
 * [From Rails to Syslog](https://blog.flameeyes.eu/2012/01/from-rails-to-syslog-or-how-i-learned-to-stop-worrying-and-ditch-production-log#gsc.tab=0)
