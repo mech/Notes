@@ -5,6 +5,8 @@ Relay is a GraphQL client library for React.
 * [Turbine](https://medium.com/chute-engineering/turbine-a1f55d4b7d91)
 * [react-transmit: Relay-inspired based on Promises instead of GraphQL](https://github.com/RickWong/react-transmit)
 * [**Relay for visual learners**](http://sgwilym.github.io/relay-visual-learners/)
+* [The Problem with Data Fetching in React](http://www.sitepoint.com/react-data-fetching-with-relay/)
+* [Relay-inspired based on Promises instead of GraphQL](https://github.com/RickWong/react-transmit)
 
 ## GraphQL
 

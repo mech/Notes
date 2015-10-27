@@ -478,21 +478,6 @@ Refs are automatically destroyed for you. No worrying about memory leaking unles
 
 Take a moment and think more critically about where `state` should be owned in the component hierarchy.
 
-## CSS
-
-* [**CSS in JS - techniques comparison**](https://github.com/MicheleBertoli/css-in-js)
-* [Responsive breakpoints in JavaScript](https://github.com/nygardk/BreakJS)
-* [Radium - inline styles on React elements](http://projects.formidablelabs.com/radium/)
-* [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
-* [**Interoperable CSS**](http://glenmaddern.com/articles/interoperable-css)
-* [The debate around 'Do we even need CSS anymore?'](https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/)
-* [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
-* [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
-* [**Styling React components in Sass**](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
-* [ReactCSS???](http://reactcss.com/)
-* [Contextual styling](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
-* [A system for structuring your React application's styles](http://jamesknelson.com/a-system-for-structuring-your-react-applications-styles/)
-
 ## React Mount Runtime
 
 ## React Router

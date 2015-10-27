@@ -280,6 +280,10 @@ Who "owns" the customer relationship? The Account Manager? Sales?
 
 Have a concept of a "Account Holder" and their own CRM.
 
+## Payroll
+
+ZenPayroll's Platform team, where we build automated systems to detect fraud and make sure people get paid in full, on time.
+
 ## Accrual
 
 INR accrual can only have all same `work_year`.

@@ -18,6 +18,7 @@
 * [Autobind using core-js](https://github.com/andreypopp/autobind-decorator)
 * [Experimenting with higher-order components in React](http://www.bennadel.com/blog/2888-experimenting-with-higher-order-components-in-reactjs.htm)
 * [**Interacting with the DOM**](http://jamesknelson.com/react-js-by-example-interacting-with-the-dom/)
+* [Recompose - A microcomponentization toolkit for React](https://github.com/acdlite/recompose)
 
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 

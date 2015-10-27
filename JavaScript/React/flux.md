@@ -8,6 +8,7 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [**A cartoon guide to Flux**](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#.i8mmjizk3)
 * [**React+Flux can do in just 137 lines what jQuery can do in 10**](http://swizec.com/blog/reactflux-can-do-in-just-137-lines-what-jquery-can-do-in-10/swizec/6740)
 * [Which Flux should I use with React?](http://jamesknelson.com/which-flux-implementation-should-i-use-with-react/)
 * [React + Flux backed by Rails API](https://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
@@ -193,6 +194,7 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 Just like Docker, but for React data. Immutable snapshot of state.
 
 * [**Full-stack Redux tutorial**](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
+* [**A cartoon guide to Redux**](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.isxvwd9em)
 * [**Understanding Redux (how I fell in love with a state container)**](http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container)
 * [**James Long's Redux Blog**](http://jlongster.com/The-Seasonal-Blog-Redux)
 * [awesome-redux](https://github.com/xgrommx/awesome-redux)
@@ -212,6 +214,7 @@ Just like Docker, but for React data. Immutable snapshot of state.
 * [redux-undo](https://github.com/omnidan/redux-undo)
 * [Redux interview by Survive.js](http://survivejs.com/blog/redux-interview/)
 * [redux-tutorial](https://github.com/happypoulp/redux-tutorial)
+* [Redux best practices](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.g7ayoa8i6)
 
 ## Examples
 

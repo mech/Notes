@@ -53,6 +53,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [Modularity](http://jlongster.com/Modularity)
 * [**react-bare-bones-starter-kit**](https://github.com/rob-balfre/react-bare-bones-starter-kit)
 * [**react-boilerplate**](https://github.com/mxstbr/react-boilerplate)
+* [Webpack aliases and relative paths](http://xabikos.com/javascript%20module%20bundler/javascript%20dependencies%20management/2015/10/03/webpack-aliases-and-relative-paths.html)
 
 ## Loaders
 

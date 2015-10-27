@@ -50,6 +50,20 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 * [Beware of contextual styling](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
 * [Styling React components in Sass](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
 * [Using Webpack to build React components and their assets](http://simonsmith.io/using-webpack-to-build-react-components-and-their-assets/)
+* [**Atomic Components**](https://medium.com/@yejodido/atomic-components-managing-dynamic-react-components-using-atomic-design-part-1-5f07451f261f#.rl6hul3o5)
+* [**Modularise CSS the React Way**](https://medium.com/@jviereck/modularise-css-the-react-way-1e817b317b04#.q40t5faup)
+* [**CSS in JS - techniques comparison**](https://github.com/MicheleBertoli/css-in-js)
+* [Responsive breakpoints in JavaScript](https://github.com/nygardk/BreakJS)
+* [**Radium - inline styles on React elements**](http://projects.formidablelabs.com/radium/)
+* [Applying CSS transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)
+* [**Interoperable CSS**](http://glenmaddern.com/articles/interoperable-css)
+* [The debate around 'Do we even need CSS anymore?'](https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/)
+* [The end of global CSS](https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284)
+* [The future of CSS](http://keithjgrant.com/posts/into-the-future-of-css.html)
+* [**Styling React components in Sass**](http://hugogiraudel.com/2015/06/18/styling-react-components-in-sass/)
+* [ReactCSS???](http://reactcss.com/)
+* [Contextual styling](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
+* [A system for structuring your React application's styles](http://jamesknelson.com/a-system-for-structuring-your-react-applications-styles/)
 
 ## ?
 
