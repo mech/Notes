@@ -19,6 +19,8 @@ Jobline no doubt is an existing product. We can "still" improve it. What we thin
 
 **Why focusing on UI can boost productivity!**
 
+If you take a look at the FileMaker UI, it is very compressed and compact, like bloomberg-style. But it is what the recruiter is familiar with. And they won't want to trade that for a more clean with many whitespace kind of UI. Or UI that require them to page through from screen to screen even if the screen is easy to use and do a single thing which supposedly is a good thing. But to recruiter having everything in one screen is good.
+
 **Jobline is a simple app. Don’t overcomplicate it.**
 
 **What is your organization VALUE STREAM**

@@ -190,6 +190,7 @@ JSONB does not store duplicate keys. It also clear whitespace. JSONB is stored a
 CREATE INDEX preferences_interests_on_users ON users USING GIN ((preferences->'interests'))
 ```
 
+* [Anti-pattern: Unnecessary JSON](http://blog.2ndquadrant.com/postgresql-anti-patterns-unnecessary-jsonhstore-dynamic-columns/)
 * [Using Postgres and jsonb with Rails](http://nandovieira.com/using-postgresql-and-jsonb-with-ruby-on-rails)
 * [An explanation of JSONB](http://stackoverflow.com/questions/22654170/explanation-of-jsonb-introduced-by-postgresql)
 * [complex??](http://stackoverflow.com/questions/18404055/index-for-finding-an-element-in-a-json-array)

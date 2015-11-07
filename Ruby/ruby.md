@@ -23,6 +23,10 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Hound rubocop yml](https://github.com/thoughtbot/hound/blob/master/config/style_guides/ruby.yml)
 * [Default rubocop yml](https://github.com/bbatsov/rubocop/blob/master/config/default.yml)
 
+## Duck typing, parametric polymorphism
+
+* [What is the difference between dynamic typing, duck typing and parametric polymorphism?](http://stackoverflow.com/questions/14625654/what-is-the-difference-between-dynamic-typing-duck-typing-and-parametric-polym)
+
 ## Service Object
 
 > Service object defines an application boundary that establishes a set of available operations.

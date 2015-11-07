@@ -14,6 +14,8 @@
 * [Design smarter push notifications](https://medium.com/ux-for-india/smarter-push-notifications-9bdaf7a35f3c)
 * [**Responsive sidebar**](http://codyhouse.co/gem/responsive-sidebar-navigation/)
 * [**Wayfinding**](https://viget.com/inspire/wayfinding)
+* [**Which input when?**](http://morgancarter.com.au/design-solutions/which-input-when/)
+* [**Design principles: Choosing the right patterns**](https://blog.intercom.io/design-principles-choosing-the-right-patterns/)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
 * **Symmetry of interaction**. How you trigger is how you will will reverse the action. Activation and deactivation actions must be symmetrical.
@@ -111,6 +113,12 @@ Use when you have a list of items stacking together. Balance between visual nois
 * [Facebook placeholder for unloaded content](https://www.designernews.co/stories/56465-facebook-placeholders-for-unloaded-content)
 * [Avoid the spinner](http://www.lukew.com/ff/entry.asp?1797)
 * [Tips for creating a blank slate](http://blog.teamtreehouse.com/tips-for-creating-a-blank-slate)
+
+## Lists
+
+Anytime you have a list, you need to think about categorisation, grouping, filtering. Sooner or later, the list will become huge and unmanageable. You should study the information architecture of your lists of things and consider segmentation and categorisation.
+
+
 
 ## Menu Buttons (Muttons)
 
