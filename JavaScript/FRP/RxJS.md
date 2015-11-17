@@ -1,5 +1,9 @@
 # RxJS
 
+Few applications are completely synchronous, and writing async code is necessary to keep applications responsive.
+
+Application is all about "data flow".
+
 * [Rx-book](http://xgrommx.github.io/rx-book/index.html)
 
 We have many PUSH APIs:
@@ -20,9 +24,23 @@ Each has their own way of dealing with asynchronous data like:
 
 > What does SQL, spreadsheet has in common with Reactive system?
 
+## Thinking in Stream
 
+You have to twist your mind and think in stream.
+
+Imagine every variable is a stream. To get it, you need to figure out where it comes from. It could come from other variables, or it could come from an event. Figure out your side effects, these are the exit points for your data flow.
+
+## Memory Cleaning
+
+No need for external state tracking. No need to cleanup after yourself either.
 
 ## Observables
+
+* [Lifted Observable?](https://github.com/ReactiveX/RxJS/issues/60)
+
+**Observable** == Stream of events from a data source like mouse events, network requests, array of strings, etc.
+
+**Observer** == Handlers or listeners to do "your things" like combine or transformation, etc.
 
 Observable is a datatype by Reactive Extensions (Rx). It abstracts away the concept of a data source that represent a stream of events. We treat mouse, click, network events as a "database" that we can query from.
 
@@ -48,6 +66,41 @@ Observables don't do anything until at least one Observer subscribes to them.
 
 > Observable is not a replacement for Enumerable. I would not recommend trying to take something that is naturally pull-based and force it to be push-based.
 
+```js
+// Autocomplete example
+var q = document.querySelector('#q');
+var resultList = document.querySelector('#result');
+
+var Observable = Rx.Observable;
+
+var keyups = Rx.Observable.fromEvent(q, 'keyup');
+
+keyups.throttle(500)
+  .map(() => q.value)
+  .do(() => q.classList.add('spinner))
+  .flatMapLatest(query => Rx.DOM.ajax({
+    method: 'GET',
+    url: '/autocomplete?q=' + query,
+    responseType: 'json'  }))
+  .do(() => q.classList.remove('spinner')) // Do side effect
+  .map(r => r.response)
+  .map(results => results.reduce((html, result) => `${html}<li>${result}</li>`))
+  .subscribe(resultsHTML => resultList.innerHTML = resultsHTML);
+```
+
+## Observer
+
+Observer is the handler.
+
+```js
+var observer = Observer.create(function next(x) {});
+
+myObservable.subscribe(observer);
+myObservable.subscribe(function next(x) {}); // Same
+
+myObservable.subscribe(success, error, complete);
+```
+
 ## Operators
 
 * [Docs for Operators](https://github.com/Reactive-Extensions/RxJS/tree/master/doc/api/core/operators)
@@ -56,3 +109,14 @@ In RxJS, methods that transform (map) or query sequences are called operators.
 
 `create` and `fromEvent` are all creation operators. They create Observables for common sources.
 
+Observables are immutable, and every operator applied to them creates a new Observables.
+
+* `map`
+* `flatMap`
+* `filter`
+* `reduce`
+* `catch`
+
+# Videos
+
+* [Ben Lesh Talks RxJS at Modern Web UI](https://www.youtube.com/watch?v=yk_6eU3Hcwo)

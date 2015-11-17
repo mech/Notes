@@ -79,6 +79,8 @@ Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 
 ## Design Patterns
 
+* [Design patterns to avoid](http://stackoverflow.com/questions/449731/design-patterns-to-avoid)
+
 Good and bad of patterns. GoF is a terrible implementation guide. It is not a cookbook.
 
 OO framework tends to be large and coarse-grained.

@@ -15,6 +15,12 @@ People suck at repetitive tasks.
 * [Brunch](http://brunch.io/)
 * [Auto-formatting JavaScript Code Style](https://medium.com/@addyosmani/auto-formatting-javascript-code-style-fe0f98a923b8)
 
+## Babel 6
+
+* [Babel plugins](https://www.npmjs.com/search?q=babel-plugin)
+* [Documentation.js](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)
+* [ES Class Fields & Static Properties](https://github.com/jeffmo/es-class-static-properties-and-fields)
+
 ## Make?
 
 * [Tim Lucas's approach](https://gist.github.com/toolmantim/6200029)

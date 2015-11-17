@@ -1,6 +1,7 @@
 ## UI
 
 * [**UXmill**](http://uxmill.com/)
+* [**Object-Oriented UX**](http://alistapart.com/article/object-oriented-ux)
 * [**Visibility of system status**](http://www.nngroup.com/articles/ten-usability-heuristics/)
 * [**Destroying Apple's legacy**](http://cheerfulsw.com/2015/destroying-apples-legacy)
 * [**Pure-UI**](http://rauchg.com/2015/pure-ui/)
@@ -16,6 +17,8 @@
 * [**Wayfinding**](https://viget.com/inspire/wayfinding)
 * [**Which input when?**](http://morgancarter.com.au/design-solutions/which-input-when/)
 * [**Design principles: Choosing the right patterns**](https://blog.intercom.io/design-principles-choosing-the-right-patterns/)
+* [**Gimmicks and patterns in interface design**](https://blog.intercom.io/gimmicks-and-patterns-in-interface-design/)
+* [Will UI designers be unemployed soon?](https://medium.com/swlh/will-ui-designers-be-unemployed-soon-edaffe9e5f1b)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
 * **Symmetry of interaction**. How you trigger is how you will will reverse the action. Activation and deactivation actions must be symmetrical.
@@ -39,6 +42,7 @@
 * Each section in your site needs to tell a story. It needs a reason and a final outcome for the user, The layout needs to help the content highlighting what are the most important pieces in that story. In reality there shouldn't be too many call outs on a page so everything should drive to that final "What can I do here".
 * Satisficing - Sacrifice the "perfect" for "good enough" in order to conserve mental resources.
 * Redundancy in cues is an asset, not a liability
+* 
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
@@ -63,6 +67,11 @@ When companies *do* focus on users, they tend to pay too much attention to the *
 
 ## Goal-Oriented vs Activity-Centered Design
 
+
+## Component Libraries
+
+* [Multi-select](http://davidstutz.github.io/bootstrap-multiselect/)
+* 
 
 
 **Principles**
@@ -118,8 +127,14 @@ Use when you have a list of items stacking together. Balance between visual nois
 
 Anytime you have a list, you need to think about categorisation, grouping, filtering. Sooner or later, the list will become huge and unmanageable. You should study the information architecture of your lists of things and consider segmentation and categorisation.
 
+### Autocomplete and Pick list
 
 
 ## Menu Buttons (Muttons)
 
 * You have a default action, but alternate actions are still fairly frequent
+
+# Videos
+
+* [User Interface (UX) Techniques](https://www.youtube.com/watch?v=7OSkB4BCx00)
+* [Why you're over-thinking your UI/UX](https://www.youtube.com/watch?v=Is2O666qDPs)

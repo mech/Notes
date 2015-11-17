@@ -8,6 +8,8 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 
 ## General
 
+* [**Longterm UX**](https://medium.com/swlh/longterm-user-experience-ab830deb9380)
+* [OO-UX](http://alistapart.com/article/object-oriented-ux)
 * [1 hour of research saves 10 hours of development time](http://bokardo.com/archives/1-hour-of-research-saves-10-hours-of-development-time/)
 * [User Experience for Product Designers](https://medium.com/@paulhershey/user-experience-for-product-designers-e9fa621ce3bc)
 * [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
@@ -23,6 +25,7 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 * [**The best UX links of 2014**](https://medium.com/@kennycheny/the-best-user-experience-links-of-2014-7405f7d1668a)
 * [**Lean UXmas**](http://leanuxmas.com/)
 * [**UX KPI you need to track**](http://designmodo.com/ux-kpi/)
+* [**Gamification is bullshit**](http://bogost.com/blog/gamification_is_bullshit/)
 * [Users Know](http://usersknow.blogspot.sg/)
 * [Designer Fund's blog](http://designerfund.com/bridge/blog/)
 * [Design Mind - Frog](http://designmind.frogdesign.com/)

@@ -602,6 +602,7 @@ DOM operation is very expensive! Because modifying the DOM will also apply and c
 * [A Virtual DOM and diffing algorithm](https://github.com/Matt-Esch/virtual-dom)
 * [Issues/3](https://github.com/Matt-Esch/virtual-dom/issues/3)
 * [Virtual DOM and diffing algorithm](https://gist.github.com/Raynos/8414846)
+* [Getting started with Virtual DOM](https://www.youtube.com/watch?v=lXJGTtHlf9U)
 
 ## Re-render
 

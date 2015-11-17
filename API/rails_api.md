@@ -9,6 +9,7 @@ Microservices:
 
 Large software projects stand a slim chance of ever being finished. Build for composability and disposability.
 
+* [Simple Rails APIs with Stitches](http://multithreaded.stitchfix.com/blog/2015/11/04/simple-rails-apis-with-stitches/)
 * [**React + Flux Part 1**](https://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
 * [**React + Flux Part 2**](https://fancypixel.github.io/blog/2015/01/29/react-plus-flux-backed-by-rails-api-part-2/)
 * [Got some CORS example](http://slides.com/alanpeabody/breaking-up-with-the-asset-pipeline)

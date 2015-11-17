@@ -17,3 +17,7 @@ All functions are stateless. All data is immutable.
 ## Cycle
 
 ## Este
+
+## Ramda
+
+* [A practical functional library](http://ramdajs.com)

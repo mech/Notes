@@ -9,6 +9,7 @@ DIGIT = ASCII.grep(/[[:digit:]]/)
 PUNCT = ASCII.grep(/[[:punct:]]/)
 ```
 
+* [The Bastards Book of Ruby](http://ruby.bastardsbook.com/)
 * [**All Ruby Books**](http://www.allrubybooks.com/)
 * Don't mutate state unnecessarily. It will lead to bugs.
 * [Polymorphism and Ruby](http://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby)

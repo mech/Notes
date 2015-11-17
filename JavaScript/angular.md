@@ -458,11 +458,8 @@ describe('filter', function() {
 
 * [AngularJS + REST Made Simple](https://www.youtube.com/watch?v=aGHzqwQU06g)
 * [Introduction to Angular in 50 examples](http://www.youtube.com/watch?v=TRrL5j3MIvo)
-
-### Paid
-
-* [egghead.io - Paid Angular.js, Node.js, D3.js resources](https://egghead.io/)
-
+* [Angular U](https://www.youtube.com/channel/UCBWXtgwaUqyvI50euTYlUWQ)
+* [AngularConnect 2015](https://www.youtube.com/channel/UCzrskTiT_ObAk3xBkVxMz5g/videos)
 
 ## People
 

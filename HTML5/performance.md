@@ -67,6 +67,17 @@ Perceived = f(Expected Performance, UX, Actual Performance)
   transition: height 0.4s ease-out;	}
 ```
 
+## Cache
+
+* [**Things Caches Do**](http://2ndscale.com/rtomayko/2008/things-caches-do)
+
+---
+
+1. Cache as much on the client-side and server-side. Use CDN + browser caching. User reverse proxy cache on the server-side.
+2. Queuing - Do not delay user experience for tasks that can be executed in the background.
+3. Async - Optimize work to execute concurrently / asynchronously
+
+
 ## High Speed UX
 
 **Synthetic measurement is bad and not accurate, we need RUM (Real User Measurement)**

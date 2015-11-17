@@ -3,19 +3,15 @@
 **http://www.broken-links.com/2015/04/28/the-future-of-the-open-web/**
 
 * [Web design is dead?](http://blog.usabilitytools.com/web-design-not-dead-on-ux-therapy)
-* [**frontend-feeds**](https://github.com/impressivewebs/frontend-feeds)
 * [**Web Design Weekly**](https://web-design-weekly.com)
 * [**Know which polyfill to use**](https://cdn.polyfill.io/v1/docs/)
 * [**2014 year in review for Web Design**](http://sideproject.io/an-exhaustive-look-at-the-year-in-web-design/)
 * [Let's build a browser engine](http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
 * [**The dot Post**](http://www.thedotpost.com/)
-* [**Frontend resources**](http://beaqn.in/frontend/)
 * [**Web design resources**](http://beaqn.in/webdesign/)
-* [**Frontend Front**](http://frontendfront.com/)
 * [Standard Markdown](http://standardmarkdown.com/)
 * [**Google Web Fundamentals**](https://developers.google.com/web/fundamentals/)
 * [**Web Design Repo**](http://www.webdesignrepo.com/)
-* [Frontend Folder](https://github.com/dnomak/frontend-folder)
 * [Design System](http://css-tricks.com/design-systems-building-future/)
 * [Build flexible modules, not pages. Design a system. Make it modular.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 * [The Art of HTML Semantics](http://kevinsuttle.com/posts/the-art-of-html-semantics-pt1/)
@@ -28,14 +24,12 @@
 * [Web Field Manual](http://webfieldmanual.com/)
 * [Image sizes for web branding](https://github.com/waako/web-brand-images)
 * [Backbone responsive framework](http://www.cloud-eight.com/github/backbone/)
-* [What every frontend developer should know about webpage rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
 * [:focus accessibility](http://viget.com/inspire/managing-focus-styles-without-breaking-accessibility)
 * [Web Designer Checklist](http://webdesignerschecklist.com/)
 * [HTML5 for game developer](https://hacks.mozilla.org/2014/07/resources-for-html5-game-developers/)
 * [Key Code](http://keycod.es/)
 * [favicon](http://css-tricks.com/favicon-quiz/)
-* [Frontends](http://www.frontends.org/)
 * [DevTools Tips](http://devtoolstips.com/)
 * [Tools for static websites](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
 * [Andy Hall](http://andyhall.github.io/)
@@ -43,6 +37,19 @@
 * [5 ways to use Google Analytics](http://www.sitepoint.com/5-ways-use-google-analytics-ux-research/)
 * [Modern web development](http://jtaby.com/blog/2012/04/23/modern-web-development-part-1)
 * [The history of the HTML5Shiv](http://www.paulirish.com/2011/the-history-of-the-html5-shiv/)
+* [The new favicon](http://blog.iconfactory.com/2015/11/the-new-favicon/)
+
+## Front-end
+
+* [Front-end developer interview questions](http://h5bp.github.io/Front-end-Developer-Interview-Questions/)
+* [Front-end Masters](https://frontendmasters.gitbooks.io)
+* [**frontend-feeds**](https://github.com/impressivewebs/frontend-feeds)
+* [Frontends](http://www.frontends.org/)
+* [**Frontend resources**](http://beaqn.in/frontend/)
+* [**Frontend Front**](http://frontendfront.com/)
+* [Frontend Folder](https://github.com/dnomak/frontend-folder)
+* [What every frontend developer should know about webpage rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
+* [Frontend Guidelines](https://github.com/bendc/frontend-guidelines)
 
 ## Accessibility
 

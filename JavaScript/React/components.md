@@ -236,6 +236,7 @@ Data binding is a hack around re-rendering.
 * [react-autosuggest](https://github.com/moroshko/react-autosuggest)
 * [Chosen](http://harvesthq.github.io/chosen/)
 * [react-data-grid](https://github.com/adazzle/react-data-grid)
+* [react-list - Infinite scroll](https://github.com/orgsync/react-list)
 
 ### Pagination
 

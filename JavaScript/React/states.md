@@ -52,6 +52,7 @@ Here we are talking about component-component communication, not data-fetching p
 * [How to communicate between React components](http://ctheu.com/2015/02/12/how-to-communicate-between-react-components/)
 * [Comparison between different Observer Pattern implementations](https://github.com/millermedeiros/js-signals/wiki/Comparison-between-different-Observer-Pattern-implementations)
 * [React team is using js-signals](http://millermedeiros.github.io/js-signals/)
+* [Container component?](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
 
 If you're not using the Flux pattern (where the parent widget listens to Stores that are affected by Action Creators invoked by the child elements), the idiomatic way to do this is to pass callbacks that affect the overall widget through `props` - this can be a bit awkward when you are passing a callback down several levels.
 

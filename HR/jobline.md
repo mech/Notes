@@ -1,5 +1,10 @@
 # Jobline's Problem
 
+There are lots of confusion on:
+
+* Multiple companies for employer
+* Multiple employments for candidate
+
 Why Nokia is no longer in the game? It's all about Strategic Agility. Not being to understand where they are as an organization, not able to communicate properly with others so they can grow.
 
 TESCO + Asia = Insider Ethnography for Strategic Renewal
@@ -51,6 +56,12 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 > Genetic programming is the process of simulating nature’s evolution system by producing populations of candidate programs and filtering out the programs that don’t pass the tests. The candidates that do pass the tests survive and form the basis of the next generation.
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
+
+## Terms
+
+* Encounter, Prospect, Context
+* JobRadar, JobKind
+* 
 
 ## Articulating Design
 
@@ -235,6 +246,8 @@ Check out histogram so as not to skew data reading.
 
 ## Pipelines
 
+With "end-to-end audits".
+
 ```
 Sources -> Filters -> Sinks
 (CA/JD) -> ATS     -> Hired/Rejected
@@ -319,6 +332,15 @@ If there is only 1 candidate to approve, we can show all the details in the emai
 ## Change of Approver
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
+
+## Notification
+
+Trackers, notifiers, 
+
+## Claim
+
+* [Trippeo - Travel & Expense Management](https://www.trippeo.com/)
+* [File your claim with receipt - Proof of purchase](https://blog.trippeo.com/expense-management-iOS-receipt-capture/)
 
 ## Interview
 
