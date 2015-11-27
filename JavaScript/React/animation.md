@@ -13,3 +13,5 @@
 * [**React.js animation done in 2 ways**](http://www.chloechen.io/react-animation-done-in-two-ways/)
 * [react-page-transitions](https://github.com/jaing/react-page-transitions)
 * [Fabric - VelocityReact](http://fabric.io/blog/introducing-the-velocityreact-library)
+
+Use state transition like `componentWillReceiveProps`, `componentWillUpdate`, `componentDidUpdate` to do animations and reverse it.

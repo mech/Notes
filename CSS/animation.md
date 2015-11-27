@@ -2,6 +2,7 @@
 
 > Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
 
+* [**MoJS**](http://mojs.io/)
 * [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97)
 * [Your UI isn't a Disney Movie](https://medium.com/startups-venture-capital/your-ui-isn-t-a-disney-movie-703f7fbd24d2)
 * [**The Future of Web Animation**](http://dailyjs.com/2015/05/15/interview-the-future-of-web-animation-with-julian-shapiro/)

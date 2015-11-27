@@ -7,7 +7,7 @@ https://smacss.com/signin
 https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
-
+* [**The new code**](http://thenewcode.com/)
 * [**CSS tools**](https://medium.com/@vilcins/css-tools-that-i-use-67cb8bfa2e2d)
 * [**12 little known CSS facts**](http://www.sitepoint.com/12-little-known-css-facts-the-sequel/)
 * [Taming CSS](https://github.com/keithjgrant/Taming-CSS)

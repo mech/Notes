@@ -96,14 +96,14 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
 * Domain-specific components are "containers" and atomic components are "components"
 
-```
+```js
 { this.state.show && 'This is Shown' }
 { this.state.on ? 'On' :  Off }
 ```
 	
 Move complex JSX out of `render`
 
-```
+```js
 // Notice the parentheses here.
 var complexHtml = (
   <Section>
@@ -119,7 +119,7 @@ return (
 );
 ```
 
-```
+```js
 import React, { Component } from 'react';
 
 class Builder extends Component {

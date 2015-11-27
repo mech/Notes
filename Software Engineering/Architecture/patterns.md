@@ -80,6 +80,7 @@ Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 ## Design Patterns
 
 * [Design patterns to avoid](http://stackoverflow.com/questions/449731/design-patterns-to-avoid)
+* [Reused Abstraction Principle](http://codemanship.co.uk/parlezuml/blog/?postid=934)
 
 Good and bad of patterns. GoF is a terrible implementation guide. It is not a cookbook.
 

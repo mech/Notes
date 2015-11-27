@@ -70,6 +70,18 @@ So for new gem, how do you `require` things? Every gem you installed gets its `l
 * [Why Ruby blocks exist Part 3](http://programming.oreilly.com/2014/05/why-ruby-blocks-exist-part-iii.html)
 * [Callbacks and Ruby](http://janjiss.github.io/blog/2014/05/14/callbacks-and-ruby/)
 
+## Symbol
+
+The `&` operator turn Symbol into proc.
+
+```ruby
+class Symbol
+  def to_proc
+    proc { |obj, *args| obj.send(self, *args) }
+  end
+end
+```
+
 ## Hash
 
 ```

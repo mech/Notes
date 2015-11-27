@@ -4,6 +4,8 @@
 
 We're still stuck with mostly "von Neumann" style languages that talk about state and assignment and memory and stuff.
 
+> Functional units of small size are key to evolvable code. This makes for a fine grained "code sand" which can be brought into ever changing shapes.
+
 ## Programming Paradigms - Styles
 
 * Unstructured - Assembly languages, linear sequence of instructions interrupted with occasional jump.
@@ -16,6 +18,7 @@ We're still stuck with mostly "von Neumann" style languages that talk about stat
 
 ---
 
+* [**SOLID: The next step is Functional**](http://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/)
 * [Functional is not procedural](http://thesmithfam.org/blog/2010/01/05/functional-is-not-procedural/)
 * [Understanding the difference between procedural and functional](http://stackoverflow.com/questions/5226055/truly-understanding-the-difference-between-procedural-and-functional)
 * [Why the debate on OO vs Functional is all about composition](http://zeroturnaround.com/rebellabs/why-the-debate-on-object-oriented-vs-functional-programming-is-all-about-composition/)
@@ -24,3 +27,4 @@ We're still stuck with mostly "von Neumann" style languages that talk about stat
 
 * [Bret Victor - Inventing on Principle](https://vimeo.com/36579366)
 * [Functional programming design patterns by Scott Wlaschin](https://vimeo.com/113588389)
+* [Hello, declarative world](https://skillsmatter.com/skillscasts/6523-hello-declarative-world)

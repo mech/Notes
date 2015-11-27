@@ -2,6 +2,9 @@
 
 Document-driven development. Test-driven also! Code style-guide. Code review. Pair-programming.
 
+One of the central notions of the Web is that we separate the identity of a resource from its representation and implementation.
+
+* [**Caring doesn't scale**](https://www.oreilly.com/ideas/caring-doesnt-scale)
 * [**Best practices for a pragmatic RESTful API**](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 * [HTTP API design guide extracted from work on the Heroku Platform API](https://github.com/interagent/http-api-design)
 * [Heroku's HTTP API Design Guide](http://www.infoq.com/news/2014/08/heroku-http-design-guide)

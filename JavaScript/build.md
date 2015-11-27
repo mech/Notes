@@ -17,9 +17,12 @@ People suck at repetitive tasks.
 
 ## Babel 6
 
+* [**The complete guide to ES6 with Babel 6**](http://jamesknelson.com/the-complete-guide-to-es6-with-babel-6/)
+* [6 things you need to know about Babel 6](http://jamesknelson.com/the-six-things-you-need-to-know-about-babel-6/)
 * [Babel plugins](https://www.npmjs.com/search?q=babel-plugin)
 * [Documentation.js](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)
 * [ES Class Fields & Static Properties](https://github.com/jeffmo/es-class-static-properties-and-fields)
+* [**Babel Plugin Handbook**](https://github.com/thejameskyle/babel-plugin-handbook)
 
 ## Make?
 

@@ -19,6 +19,15 @@ Create dependency graph for your UI! To help coder to visual hierarchy also.
 * [Managing UI complexity with React - Part 1](http://alanbsmith.io/managing-ui-complexity-with-react-part-1/)
 * [Managing UI complexity with React - Part 2](http://alanbsmith.io/managing-ui-complexity-with-react-part-ii/)
 
+## Button
+
+```js
+class Button extends React.Component {
+  render() {
+    var className = cx('btn', this.props.primary && 'btn-primary');
+    return <button type="button" className={className} onClick={this.props.onClick}>{this.props.children}</button>;  }}
+```
+
 ## Showcase
 
 * [FatFileFinder](https://github.com/pwambach/fat-file-finder)

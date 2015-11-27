@@ -1,5 +1,10 @@
 # Components
 
+Remember, components in React are pretty much like functions, you can spit a function into many and compose or combine in any way you want.
+
+By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!
+
+* [JavaScript Application Architecture on the road to 2015](https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b#.5tt9t7j05)
 * [**Component is what you should be doing now for modern UI**](http://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/)
 * [**Building React plugins**](https://nylas.com/blog/react-plugins)
 * [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
@@ -69,8 +74,6 @@ Controller view must be capable of:
 
 * Publishing actions
 * Listening to stores
-
-
 
 ## Lifecycle
 
@@ -174,6 +177,7 @@ Data binding is a hack around re-rendering.
 
 ---
 
+* [classie](https://github.com/desandro/classie)
 * [**React Rocks - A list of useful components**](http://react.rocks/)
 * [**Elemental UI**](http://elemental-ui.com/)
 * [**TouchstoneJS**](https://github.com/jedwatson/touchstonejs)
@@ -237,6 +241,7 @@ Data binding is a hack around re-rendering.
 * [Chosen](http://harvesthq.github.io/chosen/)
 * [react-data-grid](https://github.com/adazzle/react-data-grid)
 * [react-list - Infinite scroll](https://github.com/orgsync/react-list)
+* [react-input-slider](https://github.com/wangzuo/react-input-slider)
 
 ### Pagination
 

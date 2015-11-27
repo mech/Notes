@@ -16,6 +16,33 @@
 * [ransack - Object-based searching (rewrite of MetaSearch)](https://github.com/activerecord-hackery/ransack)
 * [accepts_nested_ids](https://github.com/uberllama/accepts_nested_ids)
 * [**Queue using NSQ**](https://github.com/wistia/nsq-ruby)
+* [Facets](https://github.com/rubyworks/facets)
+
+## Required Gems in new project
+
+```Gemfile
+group :development do
+  gem 'puma'
+
+  gem 'quiet_assets'
+  gem 'awesome_print'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+  gem 'pry-rails'
+
+  gem 'rails_best_practices'
+  gem 'brakeman', require: false
+  gem 'rubocop'
+  gem 'sandi_meter'
+  gem 'rubycritic', require: false
+
+  gem 'bullet'
+  
+  gem 'rack-mini-profiler', require: false
+end
+```
 
 ## Performance gems
 

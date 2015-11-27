@@ -2,6 +2,7 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+* [Saving time in Sketch](https://medium.com/sketch-app-sources/saving-time-in-sketch-7042142c8a8e#.p6kt6z53c)
 * [Designing at 1x](https://medium.com/sketch-app-sources/designing-at-1x-33240842180c)
 * [Learn Sketch](http://learnsketch.com/)
 * [Understanding export options](http://webdesign.tutsplus.com/tutorials/understanding-sketchs-export-options--cms-22207)
@@ -119,6 +120,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 ## Plugins
 
+* [**Fluide - Auto Layout-like Constraints**](https://github.com/matt-curtis/Fluid-for-Sketch)
 * [List of plugins](https://news.layervault.com/stories/24626-ask-dn-what-are-your-favourite-sketch-plugins)
 * [Dynamic Button](https://github.com/ddwht/sketch-dynamic-button)
 * [List of Sketch plugins](https://gist.github.com/bomberstudios/7694497)

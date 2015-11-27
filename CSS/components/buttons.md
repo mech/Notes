@@ -5,6 +5,12 @@ Functional CSS and not visual CSS!
 * [CSS Buttons](http://cssbuttons.tumblr.com/)
 * [How our CSS framework enforce accessibility](http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/)
 
+## HTML
+
+```html
+<button type="button"></button>
+```
+
 ## MISTAKES
 
 If you have solid and outline button, you need to think of positive and negative variants also:

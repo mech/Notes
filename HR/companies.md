@@ -16,6 +16,11 @@ Notable companies in HR domain.
 * [**10x - A talent company in Silicon Valley**](http://www.10xmanagement.com/)
 * [Authentic Jobs](http://www.authenticjobs.com/pricing/)
 
+## Metrics
+
+* [Customer.io](https://customer.io/)
+* [Vero](http://www.getvero.com/)
+
 ## HR Conference
 
 * [HR Technology Conference](http://www.hrtechconference.com/)
@@ -24,6 +29,8 @@ Notable companies in HR domain.
 ## Notable Companies
 
 **http://www.capterra.com/human-resource-software/hr-landscape**
+
+**http://stacklist.com/tools/human-resources/insperity/**
 
 * [**Jazz (formerly Resumator)**](https://jazz.co/blog/)
 * [The Resumator Relaunches As Jazz, Aims To Bring Data To The Recruiting Process](http://techcrunch.com/2015/06/23/the-resumator-relaunches-as-jazz-aims-to-bring-data-to-the-recruiting-process/)

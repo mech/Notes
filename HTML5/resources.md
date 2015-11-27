@@ -1,8 +1,12 @@
 # Resources
 
+* [HTML5 Boilerplate](https://html5boilerplate.com/)
+* [Google Web Starter Kit](https://github.com/google/web-starter-kit)
+
 **http://www.broken-links.com/2015/04/28/the-future-of-the-open-web/**
 
 * [Web design is dead?](http://blog.usabilitytools.com/web-design-not-dead-on-ux-therapy)
+* [**The new code**](http://thenewcode.com/)
 * [**Web Design Weekly**](https://web-design-weekly.com)
 * [**Know which polyfill to use**](https://cdn.polyfill.io/v1/docs/)
 * [**2014 year in review for Web Design**](http://sideproject.io/an-exhaustive-look-at-the-year-in-web-design/)
@@ -55,6 +59,10 @@
 
 * [Accessibility Wins](http://a11ywins.tumblr.com/)
 * [Contrast Checker - AAA](http://contrastchecker.com/)
+
+## Service Worker
+
+* [Instant loading web apps with an application shell architecture](https://medium.com/@addyosmani/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73#.kml8poivj)
 
 ## Offline-first
 

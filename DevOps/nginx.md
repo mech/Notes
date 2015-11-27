@@ -87,7 +87,7 @@ ssl_certificate_key jobline.com.sg.key
 
 ## nginx.conf
 
-* [server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
+* [**server-configs-nginx**](https://github.com/h5bp/server-configs-nginx)
 * [Best nginx configuration?](https://gist.github.com/plentz/6737338)
 * [Unicorn example from defunkt](https://github.com/defunkt/unicorn/blob/master/examples/nginx.conf)
 * [**nginx-boilerplate**](https://github.com/Umkus/nginx-boilerplate)

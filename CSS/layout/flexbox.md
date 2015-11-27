@@ -1,5 +1,14 @@
 # Flexbox
 
+> Flexbox let the DOM know that elements on the page have a relationship (or relationships).
+
+Basically 4 rules:
+
+1. Direction - row or column
+2. Alignment
+3. Order
+4. Flexibility
+
 Global = 92%, Unprefixed = 72%
 
 IE9, Opera 12 don't support flexbox.

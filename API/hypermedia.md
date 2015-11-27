@@ -3,6 +3,7 @@
 * [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html)
 * [Haters gonna HATEOAS](http://timelessrepo.com/haters-gonna-hateoas)
 * [HAL Primer](http://phlyrestfully.readthedocs.org/en/latest/halprimer.html)
+* [On choosing a hypermedia format](http://sookocheff.com/post/api/on-choosing-a-hypermedia-format/)
 
 ## Examples
 

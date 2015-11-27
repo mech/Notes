@@ -125,6 +125,10 @@ See [Monterail's list of useful gems](https://github.com/monterail/guidelines/bl
 * [Lograge - Taming Rails' default request logging](https://github.com/roidrage/lograge)
 * [Figaro - For configuring Rails application like ENV settings](https://github.com/laserlemon/figaro)
 
+## Background Jobs
+
+* [Sending uploaded file to Resque worker to be processed](http://stackoverflow.com/questions/6977968/sending-uploaded-file-to-resque-worker-to-be-processed)
+
 ## Security
 
 * [OWASP's cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)

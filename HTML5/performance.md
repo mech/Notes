@@ -2,6 +2,12 @@
 
 Don't look at code, measure it! It is very hard to tell from code where the performance is.
 
+```
+▶ npm install -g sitespeed.io
+▶ npm install -g psi
+```
+
+* [**Sitespeed**](https://www.sitespeed.io/)
 * [**Performance Calendar**](http://calendar.perfplanet.com/2014/)
 * [**Rendering Performance**](https://developers.google.com/web/fundamentals/performance/rendering/)
 * [**Better data from Good UI**](http://www.goodui.org/betterdata/)
@@ -43,6 +49,7 @@ Don't look at code, measure it! It is very hard to tell from code where the perf
 * [loadCSS](https://github.com/filamentgroup/loadCSS)
 * [Solving rendering perf puzzles](http://jakearchibald.com/2013/solving-rendering-perf-puzzles/)
 * [fastdom](https://github.com/wilsonpage/fastdom)
+* [The script loader pattern](http://www.lognormal.com/blog/2012/12/12/the-script-loader-pattern/)
 
 ```html
 <!-- Unblock fonts -->

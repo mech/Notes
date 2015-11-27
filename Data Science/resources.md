@@ -3,6 +3,8 @@
 * [Command line tools can be 235x faster than your Hadoop cluster](http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
 * [Why external data is valuable?](http://enterprise.import.io/post/why-now-is-the-perfect-time-to-go-all-in-on-external-data-analytics/)
 * [Everything we wish we'd known about building data products](http://firstround.com/review/everything-we-wish-wed-known-about-building-data-products/)
+* [**Making the most of your customer data**](https://segment.com/academy/intro/making-the-most-of-your-customer-data/)
+* [**How to think about event data**](https://keen.io/blog/53958349217/analytics-for-hackers-how-to-think-about-event-data)
 
 You generate business value when your code is running, not when it is written. So running code with metrics is all that matters.
 

@@ -8,6 +8,7 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+* [Beyond the to-do app: Writing complex apps using Flux](https://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
 * [**A cartoon guide to Flux**](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#.i8mmjizk3)
 * [**React+Flux can do in just 137 lines what jQuery can do in 10**](http://swizec.com/blog/reactflux-can-do-in-just-137-lines-what-jquery-can-do-in-10/swizec/6740)
 * [Which Flux should I use with React?](http://jamesknelson.com/which-flux-implementation-should-i-use-with-react/)

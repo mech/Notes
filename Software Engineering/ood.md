@@ -19,6 +19,9 @@ Both paradigms need to be used "together" in terms of front-end UI code and back
 
 OOP is definitely good for business logics and processes. It is good for Domain-Driven development.
 
+* [Design smell](http://blog.ploeh.dk/2011/05/24/Poka-yokeDesignFromSmelltoFragrance/)
+* [Closures and Objects are equivalent](http://c2.com/cgi/wiki?ClosuresAndObjectsAreEquivalent)
+* [RoleInterface](http://martinfowler.com/bliki/RoleInterface.html)
 
 # Videos
 
