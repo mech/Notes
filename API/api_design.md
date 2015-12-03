@@ -1,5 +1,7 @@
 # Design
 
+> Always separate thinking about real-world things from the documents which describe those things. Resource before representation. - Mike Atherton
+
 Document-driven development. Test-driven also! Code style-guide. Code review. Pair-programming.
 
 One of the central notions of the Web is that we separate the identity of a resource from its representation and implementation.

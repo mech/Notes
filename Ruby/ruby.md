@@ -24,6 +24,17 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Hound rubocop yml](https://github.com/thoughtbot/hound/blob/master/config/style_guides/ruby.yml)
 * [Default rubocop yml](https://github.com/bbatsov/rubocop/blob/master/config/default.yml)
 
+## String
+
+```ruby
+AVATAR_URL = 'http://www.gravatar.com/avatar/%{hash}'
+
+def gravatar_url
+  AVATAR_URL % {
+    hash: hashed_email(email.downcase)  }
+end
+```
+
 ## Duck typing, parametric polymorphism
 
 * [What is the difference between dynamic typing, duck typing and parametric polymorphism?](http://stackoverflow.com/questions/14625654/what-is-the-difference-between-dynamic-typing-duck-typing-and-parametric-polym)

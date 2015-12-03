@@ -8,7 +8,7 @@ History of layout in CSS is table, float, inline-block, display:table, flexbox, 
 // The parent block element MUST specify their sizes
 html, body { height: 100%; margin: 0; padding: 0; }
 ```
-
+* [**Layout Math with CSS: Understanding calc**](http://thenewcode.com/953/Layout-Math-with-CSS-Understanding-calc)
 * [CSS vw and vh](http://www.weareconvoy.com/2014/07/24/css-vw-and-vh-units-are-they-worth-using-yet/)
 * [Absolute 100% height with top:0 and bottom:0](http://stackoverflow.com/questions/5070189/css-100-height-with-absolute-positioning-top-0-bottom-0)
 * [Make full screen sections with 1 line of CSS](https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd)

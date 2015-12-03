@@ -1,5 +1,27 @@
 # TDD
 
+Always call out these phases intentionally.
+
+AAA/GWT
+
+1. Arrange - Given - Set stuffs up
+2. Act - When - Invoke things
+3. Assert - Then - Verify behaviors
+
+AAA/GWT conscious tests:
+
+* Are easier to read
+* Point out potentially superfluous test code
+* Can highlight certain test design smells
+
+If you have many "Given" steps, maybe you have too many dependencies or complex arguments.
+
+If you have many "When" steps, is the API confusing and hard or awkward to invoke?
+
+If you have many "Then" steps, then you code is doing too much and is complex.
+
+---
+
 In term of doing TDD, look at your Quality Problem. If it is not worth the trouble to up-keep the quality, then it is not worth to write tests as it will definitely slow development.
 
 The reason to test is a new behaviour or new use-case, not because of a new method on a class.
@@ -92,6 +114,7 @@ Here, we let the message/method do the taking. We are not relying on our intimat
 
 * [Shared example in Minitest is just Ruby](https://canaryup.com/blog/shared-examples-with-minitest)
 * [Exception handling and testing it with Minitest](http://eftimov.net/exception-handling-and-testing/)
+* [minitest-given](https://github.com/blowmage/minitest-given)
 
 ## RSpec
 

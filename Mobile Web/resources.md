@@ -1,5 +1,9 @@
 # Resources
 
+> I was still thinking desktop-first, worrying about positioning, as opposed to prioritization.
+
+> I took a stab at persistent top-level navigation, instead of focusing on the content modules first.
+
 * [Why Mobile-First may already be outdated](https://blog.intercom.io/why-mobile-first-may-already-be-outdated/)
 * [**react-container and react-tappable**](https://www.youtube.com/watch?v=ctwmd5L1U_Q)
 * [The state of RWD](http://webdesign.tutsplus.com/articles/the-state-of-responsive-web-design--cms-22878)
@@ -104,6 +108,8 @@ if (window.matchMedia("(min-width: 40em)").matches) {
 ```
 
 ### Mobile-first
+
+> To me, mobile first simply means forced prioritization. It means think about layout later. Start with a single column “design” (also known as a list), and force yourself to prioritize content and functionality with sequential ranking.
 
 ```
 // Mobile-first style

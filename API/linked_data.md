@@ -2,6 +2,7 @@
 
 * [Intro to Linked Data](https://voicethread.com/myvoice/#thread/5669601/28932684/31215885)
 * [Fostering intelligence by enabling it](http://ruben.verborgh.org/blog/2015/02/25/fostering-intelligence-by-enabling-it/)
+* [JSON-LD and why I hate the Semantic Web](http://manu.sporny.org/2014/json-ld-origins-2/)
 
 The world is a graph databases.
 

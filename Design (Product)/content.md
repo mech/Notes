@@ -1,5 +1,9 @@
 # Content
 
+> Strategies involving content sometimes fall on deaf ears
+
+* [**Object-Oriented UX**](http://alistapart.com/article/object-oriented-ux)
+* [**Content Modelling: A Master Skill**](http://alistapart.com/article/content-modelling-a-master-skill)
 * [Adapting ourselves to adaptive content](http://karenmcgrane.com/2012/09/04/adapting-ourselves-to-adaptive-content-video-slides-and-transcript-oh-my/)
 * [Adapting ourselves to adaptive content - An Event Apart](https://vimeo.com/56705945)
 * [Content-out layout](http://alistapart.com/article/content-out-layout)

@@ -167,6 +167,7 @@ Use `assets-webpack-plugin` to access the JSON stats object.
 
 ## Webpack with Rails
 
+* [**react-rails-webpack**](https://netguru.co/blog/react-rails-webpack)
 * [**Building stateless Rails API with React**](http://fredguest.com/2015/03/06/building-a-stateless-rails-api-with-react-and-twitter-oauth/)
 * [**Flux/Flummox, React/Router, Immutable, Webpack, Babel on Rails**](https://github.com/zepplock/FFRRIWB)
 * [How to use webpack with Rails](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)

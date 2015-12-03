@@ -398,6 +398,10 @@ Map permissions to a specific business function.
 * Your JSON data cannot be Google searchable. See robot.txt
 * 
 
+## Audit Trails
+
+See AWS CloudTrail. Let's have a JoblineTrail also?? Global visibility of the whole system.
+
 ## NRIC
 
 * http://www.arjun.com.np/blog/all-about-nric-number-in-singapore/

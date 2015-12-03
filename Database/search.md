@@ -1,5 +1,11 @@
 # Search
 
+> If a user is reading a recipe, where might they want to go next? We should anticipate how they might want to explore based on the recipe they are reading, and not leave it up to them to peck through a hierarchical menu or come up with a search term. And we certainly should not leave them with a few “related recipes” and consider our work done. They might want to see all the recipes that the chef has posted. Or maybe they want to see more recipes that use swiss chard, pivoting by ingredient?
+
+> Just a recipe recommendation is not enough. Have a link to all the recipe keywords.
+
+> If we are thinking object-orientedly, we will experiment with ways that each object might relate to other objects, looking beyond the obvious. Maybe chefs have favorite ingredients? In the object-oriented design below, a user can continually explore instances of these three objects (recipe, chef, ingredient) without ever hitting a dead end. The content is the navigation, and it’s all in context.
+
 * [Twigkit](http://twigkit.com/)
 * [Designing the search experience](http://designingthesearchexperience.com/)
 

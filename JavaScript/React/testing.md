@@ -9,7 +9,7 @@
 * [Jest in Practice](http://marmelab.com/blog/2015/06/24/jest-in-practice.html)
 * [Testing React components with Karma and Webpack](https://www.codementor.io/reactjs/tutorial/test-reactjs-components-karma-webpack)
 * [Testing with React.js at Codecademy](https://medium.com/about-codecademy/testing-with-reactjs-at-codecademy-2aec88cc4e36)
-* [How React Components Make UI Testing Easy](http://www.toptal.com/react/how-react-components-make-ui-testing-easy)
+* [**How React Components Make UI Testing Easy**](http://www.toptal.com/react/how-react-components-make-ui-testing-easy)
 * [Approaches to testing React components - an overview](http://reactkungfu.com/2015/07/approaches-to-testing-react-components-an-overview/)
 * [React unit test and code coverage with Jest and Istanbul](https://blog.sergiocruz.me/reactjs-unit-test-and-code-coverage-with-jest/)
 * [React testing tricks](http://react.rocks/blog/post/react-testing-tricks/)

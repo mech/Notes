@@ -633,6 +633,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 ## Examples
 
+* [**Mattermost**](https://github.com/mattermost/platform/tree/release-1.1.0/web/react/components)
 * [Ryan Florence HYPE](https://github.com/ryanflorence/reactconf-2015-HYPE)
 * [React tutorial](https://github.com/phaedryx/react-tutorial)
 * [5 practical examples for learning React](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)

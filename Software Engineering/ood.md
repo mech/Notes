@@ -22,6 +22,7 @@ OOP is definitely good for business logics and processes. It is good for Domain-
 * [Design smell](http://blog.ploeh.dk/2011/05/24/Poka-yokeDesignFromSmelltoFragrance/)
 * [Closures and Objects are equivalent](http://c2.com/cgi/wiki?ClosuresAndObjectsAreEquivalent)
 * [RoleInterface](http://martinfowler.com/bliki/RoleInterface.html)
+* [In Praise of Small Classes](http://www.drdobbs.com/architecture-and-design/in-praise-of-small-classes/230300002)
 
 # Videos
 

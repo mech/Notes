@@ -18,6 +18,8 @@ document.getElementsByTagName('video')[0].playbackRate = 1.25;
 Ultra HD 4K resolution is the headline act here, and the KD-65X9005B is fitted with the latest specifications to support 4K content: HDMI 2.0 standard across all four HDMI inputs, and the HEVC/H.265 decoder that’s crucial for streaming 4K content from Netflix.
 Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 
+[Netflix APK](https://www.apkmirror.com/apk/netflix-inc/netflix-for-android-tv/netflix-android-tv-2-4-1-build-1035-android-apk-download/)
+
 ## TO-WATCH
 
 * [**Screenings**](http://screenings.io/)

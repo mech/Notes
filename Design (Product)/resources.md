@@ -114,6 +114,7 @@ User research == Customer development
 
 ## Product Design
 
+* [**Product Design course at Udacity**](https://www.udacity.com/course/progress#!/c-ud509)
 * [Convergent and divergent thinking](http://blog.dobt.co/2015/06/23/project-management/)
 * [Slack - Teach users why they need your product](http://firstround.com/review/From-0-to-1B-Slacks-Founder-Shares-Their-Epic-Launch-Strategy/)
 * [This is how you get people to trust your product](http://firstround.com/review/Urbansitter-Lynn-Perkins/)

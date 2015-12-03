@@ -8,6 +8,7 @@
 * [prawn-svg](https://github.com/mogest/prawn-svg)
 * [Reform - Form Object](https://github.com/apotonick/reform)
 * [money from Shopify](https://github.com/Shopify/money) - See all Shopify's open source projects at [here](http://shopify.github.io/)
+* [Money](http://rubymoney.github.io/money/)
 * [Simple immutable Value Objects for Ruby](https://github.com/tcrayford/values)
 * [rails_12factor](https://github.com/heroku/rails_12factor)
 * [keyset pagination](https://github.com/glebm/order_query)
@@ -29,6 +30,8 @@ group :development do
 
   gem 'better_errors'
   gem 'binding_of_caller'
+  
+  gem 'money'
 
   gem 'pry-rails'
 

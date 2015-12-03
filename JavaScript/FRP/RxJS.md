@@ -5,6 +5,7 @@ Few applications are completely synchronous, and writing async code is necessary
 Application is all about "data flow".
 
 * [Rx-book](http://xgrommx.github.io/rx-book/index.html)
+* [Reactive course at Coursera](https://www.coursera.org/course/reactive)
 
 We have many PUSH APIs:
 
