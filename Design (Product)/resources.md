@@ -166,6 +166,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 
 ## Behavioural
 
+> Understanding the psychology and science behind how people interpret information, make decisions, and take action enables us to deliver more effective designs.
+
 * [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
 * [Asking users to adopt new behaviors or even modify their existing behaviors is very hard](http://www.subtraction.com/2014/06/12/designing-products-for-existing-behaviors/)
 * [Persuasion: Applying the elaboration likelihood model to design](http://alistapart.com/article/persuasion-applying-the-elaboration-likelihood-model-to-design)
@@ -177,6 +179,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [History of cognitive overload](http://www.farnamstreetblog.com/2014/09/the-history-of-cognitive-overload/)
 * [Cognitive science and design](https://www.youtube.com/watch?v=z2exxj4COhU)
 * [Psychology of Numbers in Design](https://blog.growth.supply/the-psychology-of-numbers-in-design-d6a7a011e8b1)
+* [A Behavioral Approach to Product Design](https://medium.com/swlh/a-behavioral-approach-to-product-design-166d22628970#.p1q26a2vq)
+* [The Behavioral Age](https://vimeo.com/120403188)
 
 > Don't listen to user. Observe their behaviors.
 

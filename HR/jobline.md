@@ -57,6 +57,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
 
+## New feature tour
+
+* [Headway - To announce new feature](https://headwayapp.co/)
+
 ## Terms
 
 * Encounter, Prospect, Context
@@ -369,6 +373,8 @@ Our email template got to be more flexible. What if we need long table? We shoul
 * [POP vs IMAP](http://www.pop2imap.com/)
 
 We send reminder to approve timesheets for client (approver) and list down the candidate names. If they are like Chris Goh who need to approve 47 candidates, and he only approve 20, our next email reminder will "encourage" him to close it in the last mile by introducing some cute animation? characters? Or we can show checkboxes where those approved candidates will get checked or strike off to let him know he is so close to approving for all.
+
+Email template - Use CodeMirror to enhance template mark-up like `<Candidate Name>` using matchbrackets.js and closebrackets.js.
 
 ## Developer Dashboard
 

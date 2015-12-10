@@ -6,6 +6,7 @@ Callbacks -> Promises
 Views -> Web Component
 ```
 
+* [**Ember.js - Functional Programming and the Observer Effect**](https://emberway.io/ember-js-functional-programming-and-the-observer-effect-48901c3b84d7#.apqix8835)
 * [**EmberConf 2015**](https://github.com/poteto/emberconf-2015)
 * [An Agile Design Manifesto for Ember.js](https://medium.com/@hhff/an-agile-design-manifesto-for-emberjs-faae08ce7869)
 

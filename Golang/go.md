@@ -11,6 +11,7 @@
 * [Go at Google](https://talks.golang.org/2012/splash.article)
 * [Less is more - Or why C++ programmers don't care about Go](http://commandcenter.blogspot.sg/2012/06/less-is-exponentially-more.html)
 * [Vim as Go IDE](http://farazdagi.com/blog/2015/vim-as-golang-ide/)
+* [Flame Graphs](https://medium.com/@calavera/docker-flame-graphs-f9523e98d57d?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57uUtWqC%2BlMI%2F0ER3fOvrPUfGjI4DTMJgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D#.gtiftw5ee)
 
 **Parametric Polymorphism**
 

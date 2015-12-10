@@ -1,7 +1,10 @@
 # Docker Cluster
 
+Different types of clustering like master-salve, two-phase commit, consensus, etc.
+
 Cluster (Swarm), Dynamic Scheduler (Mesos, Kubernetes)
 
+* [wagl](https://ahmetalpbalkan.com/blog/wagl/?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57uUtWqC%2BlMI%2F0ER3fOvrPUfGjI4DTMJgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D)
 * [Benefits of Docker for application deployment](http://knitatoms.net/2013/12/benefits-of-docker-for-application-deployment/)
 * [SDN, Docker and the Real Changes Ahead](http://thenewstack.io/sdn-docker-real-changes-ahead/)
 * [SocketPlane == Open vSwitch + Consul + VXLAN + Docker](http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/)
@@ -9,6 +12,7 @@ Cluster (Swarm), Dynamic Scheduler (Mesos, Kubernetes)
 * [Calico - Pure Layer 3 Virtual Networking](http://www.projectcalico.org/)
 * [Migrating MongoDB data with Mesos and Flocker](https://mesosphere.com/blog/2015/05/21/demo-migrating-mongodb-data-with-mesos-and-powerstrip/)
 * [Jenkins, Packer, Kubernetes](http://googlecloudplatform.blogspot.com/2015/05/Automated-Compute-Engine-and-Docker-Image-Builds-with-Jenkins-Packer-and-Kubernetes.html)
+* [Service Discovery: Zookeeper vs Etcd vs Consul](http://technologyconversations.com/2015/09/08/service-discovery-zookeeper-vs-etcd-vs-consul/)
 
 VXLAN - extend the LAN.
 

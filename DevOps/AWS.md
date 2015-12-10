@@ -43,6 +43,10 @@ Source and protocol filtering. Subnet level traffic firewall. At the subnet leve
 
 ## S3 Bucket Policy vs IAM Policy
 
+* [A very nice gem for file uploading](https://github.com/refile/refile)
+* [10 useful CLI commands](http://cloudacademy.com/blog/aws-cli-10-useful-commands/)
+* [AWS Signature Version 4](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-query-string-auth.html)
+
 S3 is not a filesystem. It is a key-value store.
 
 3 security settings for S3:

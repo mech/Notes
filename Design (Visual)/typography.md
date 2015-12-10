@@ -1,6 +1,7 @@
 # Typography
 
 * [Seriously, don't use icon font](http://blog.cloudfour.com/seriously-dont-use-icon-fonts/)
+* [Seriously, use icon font](http://benfrain.com/seriously-use-icon-fonts/)
 * [Great font combination](http://designmodo.com/great-font-combinations/)
 * [**Practical Typography**](http://practicaltypography.com/)
 * [**Free Alternatives**](http://www.typewolf.com/free-alternatives)

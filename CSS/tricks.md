@@ -1,5 +1,6 @@
 # Tricks
 
+* [**CSS Protips**](https://github.com/AllThingsSmitty/css-protips)
 * [**Cody House**](https://codyhouse.co/)
 * [Skewed hit boxes with CSS transforms](http://viget.com/inspire/skewed-hit-boxes-with-css-transforms)
 * [7 things your didn't know you could do with CSS](http://davidwalsh.name/css-facts)

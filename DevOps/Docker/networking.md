@@ -44,7 +44,7 @@ Docker implicitly exposes a port that is published. The difference between an ex
 
 Publishing a port will map it to the host interface, making it available to the outside world.
 
-## Linking (Local Service Discovery)
+## Linking (Local Service Discovery) - Deprecated in 1.9?
 
 With link alias to `database`, your application can refer to it consistently:
 
@@ -196,6 +196,8 @@ Fixed IP on a container is a hard issue.
 * [How to configure Docker to start containers on a specific IP address range](http://jpetazzo.github.io/2013/10/16/configure-docker-bridge-network/)
 
 ## Multi-Host Networking
+
+> Docker networking was a long awaited feature that allows us to distribute containers without the fear whether they will be able to communicate with each other. We can, finally, distribute containers without the restrictions that links introduced (linked container had to run on the same server). There is no more need for workarounds that some of us had to employ in the past. It is an exciting feature that will surely allow Docker Swarm to move to the next level.
 
 Docker 1.7 has native multi-host networking.
 

@@ -6,6 +6,10 @@ Just like Docker, but for React data. Immutable snapshot of state.
 
 Falcor as solving data fetching problem and Redux as predictable state management library.
 
+```js
+(state, action) => state
+```
+
 * [**Flux vs Single State Tree**](http://www.christianalfoni.com/articles/2015_11_16_Flux-vs-Single-State-Tree)
 * [Interview with Dan Abramov](http://softwareengineeringdaily.com/2015/09/18/flux-redux-and-react-hot-loader-with-dan-abramov/)
 * [**Full-stack Redux tutorial**](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
@@ -31,11 +35,19 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 * [redux-tutorial](https://github.com/happypoulp/redux-tutorial)
 * [Redux best practices](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.g7ayoa8i6)
 
-## Single Store Concept
+## Single Store Concept (Root Store?)
 
 You App need to hold states. Where should you "store" it? Redux and Flux both has the "Store" concept where states are resided.
 	
 ## Single State Tree
+
+* [Umbrella: Externalize the State Tree (or alternatives)](https://github.com/facebook/react/issues/4595)
+
+## Middleware
+
+Intercept action.
+
+## Selector and Memoization
 
 
 

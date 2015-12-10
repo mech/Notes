@@ -1,5 +1,6 @@
 ## UI
 
+* [Good Design](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
 * [**UXmill**](http://uxmill.com/)
 * [**Object-Oriented UX**](http://alistapart.com/article/object-oriented-ux)
 * [**Visibility of system status**](http://www.nngroup.com/articles/ten-usability-heuristics/)
@@ -18,6 +19,7 @@
 * [**Which input when?**](http://morgancarter.com.au/design-solutions/which-input-when/)
 * [**Design principles: Choosing the right patterns**](https://blog.intercom.io/design-principles-choosing-the-right-patterns/)
 * [**Gimmicks and patterns in interface design**](https://blog.intercom.io/gimmicks-and-patterns-in-interface-design/)
+* [Designing for various states](https://medium.com/@_mikehlee/designing-for-various-states-823816e49c8d#.m3v9p5re7)
 * [Will UI designers be unemployed soon?](https://medium.com/swlh/will-ui-designers-be-unemployed-soon-edaffe9e5f1b)
 * [Can you code this UI concept?](https://stories.uplabs.io/can-you-code-this-design-concept-efe0132b9744#.sx31zywjf)
 * Construct your page with **hierarchy**. Visual weight.

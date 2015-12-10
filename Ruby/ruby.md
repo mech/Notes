@@ -23,6 +23,8 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Build your own code climate analysis engine](http://blog.codeclimate.com/blog/2015/07/07/build-your-own-codeclimate-engine/)
 * [Hound rubocop yml](https://github.com/thoughtbot/hound/blob/master/config/style_guides/ruby.yml)
 * [Default rubocop yml](https://github.com/bbatsov/rubocop/blob/master/config/default.yml)
+* [Ruby - #tap that!](http://seejohncode.com/2012/01/02/ruby-tap-that/)
+* [Tempfile](https://viget.com/extend/make-remote-files-local-with-ruby-tempfile)
 
 ## String
 

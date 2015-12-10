@@ -530,6 +530,8 @@ clean:
 
 * [Brian Goff - @cpuguy83](http://container42.com/)
 * [Nathan LeClaire](http://nathanleclaire.com/post/)
+* [Viktor Farcic](http://technologyconversations.com/)
+* [Jeff Lindsay](http://progrium.com/blog/)
 
 ## Videos
 

@@ -2,6 +2,7 @@
 
 Swift makes your code SAFE, MODERN, and POWER.
 
+* [A better way to learn Swift](https://thinkster.io/a-better-way-to-learn-swift)
 * [**15 Open Source Swift projects**](https://medium.com/swift-programming/15-swift-ios-open-source-projects-you-cannot-ignore-6bd4ac37d7dd)
 * [Official Apple's Swift blog](https://developer.apple.com/swift/blog/)
 * [All the Swift things](http://thechangelog.com/all-the-swift-things/)

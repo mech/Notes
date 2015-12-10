@@ -125,6 +125,10 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 
 ## Cross-site request forgery
 
+* [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)
+* [Do I need CSRF token for Ajax?](http://stackoverflow.com/questions/9089909/do-i-need-a-csrf-token-for-jquery-ajax)
+* [CSRF Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet)
+
 You won't have CSRF if you use localstorage for token authentication and refuse to use cookie. If you must use cookie, HTTPS it and use `HttpOnly` so that JavaScript cannot read it.
 
 70 ways to encode `>` :( so you can't always filter out using blacklists.
