@@ -4,9 +4,9 @@
 * [Gems you might not need! AdminController and Forbid pattern](https://vimeo.com/39498553)
 * [proof - Secure Authentication for SPA](https://github.com/undercase/proof)
 
-Provider is at https://api.jobline.com.sg. Consumer will be:
+Provider is at https://api.jobline.com.sg/v1. Consumer will be:
 
-* Jobline Web: https://www.jobline.com.sg
+* Jobline Web (React.js): https://www.jobline.com.sg
 * Jobline Mobile (iOS and Android)
 * Companies? Maybe some access
 * Candidates? Maybe not!
@@ -62,6 +62,26 @@ With the `access_token`, use it to make protected requests.
 ```
 curl -X POST -H "Authorization: Bearer ???" -H "Content-Type: application/json;charset=UTF8" -d '{"title":"demo"}' https://api.jobline.com.sg/protected/resources
 ```
+
+## Token Based API
+
+* [The ins and outs of token based authentication](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication)
+* [Getting to know JSON Web Tokens](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
+* [Token based authentication in Rails](https://www.codeschool.com/blog/2014/02/03/token-based-authentication-rails/)
+* [Why Devise remove token authentication](http://blog.plataformatec.com.br/2013/08/devise-3-1-now-with-more-secure-defaults/)
+* [Is Devise token secure?](http://stackoverflow.com/questions/18605294/is-devises-token-authenticatable-secure)
+* [Place API key in headers](http://stackoverflow.com/questions/5517281/place-api-key-in-headers-or-url)
+* [A Lesson in Timing Attacks](http://codahale.com/a-lesson-in-timing-attacks/)
+* [Stateless Authentication with REST API](http://www.kaleidos.net/blog/295/stateless-authentication-with-api-rest/)
+* [How Rails Sessions Work](http://www.justinweiss.com/articles/how-rails-sessions-work/)
+* [Where to store your JWT? Cookies vs Web Storage](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage/)
+
+Token based authentication is stateless. We are not storing any information about our user on the server or in a session (cookie).
+
+Every single request will require the token. This token should be sent in the HTTP header. Token stored on client side. Completely stateless, and ready to be scaled. Load balancers are able to pass a user along to any of our servers since there is no state or session information anywhere.
+
+There is also token revocation that allows us to invalidate a specific token and even a group of tokens based on the same **authorization grant**.
+
 	
 ## Using `has_secure_password`
 
