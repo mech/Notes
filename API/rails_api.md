@@ -71,6 +71,9 @@ With a collapsed single request optimized for client, we pay the price of WAN la
 * [Getting to know JSON Web Tokens](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
 * [Token based authentication in Rails](https://www.codeschool.com/blog/2014/02/03/token-based-authentication-rails/)
 * [Why Devise remove token authentication](http://blog.plataformatec.com.br/2013/08/devise-3-1-now-with-more-secure-defaults/)
+* [Is Devise token secure?](http://stackoverflow.com/questions/18605294/is-devises-token-authenticatable-secure)
+* [Place API key in headers](http://stackoverflow.com/questions/5517281/place-api-key-in-headers-or-url)
+* [A Lesson in Timing Attacks](http://codahale.com/a-lesson-in-timing-attacks/)
 
 Token based authentication is stateless. We are not storing any information about our user on the server or in a session (cookie).
 
