@@ -1,11 +1,22 @@
 # Design
 
+1. Model around business domain. See DDD. Bounded context and sub-domain.
+2. Embrace culture of automation.
+3. Hide implementation details. Hide your database. Always use API service to affect your database.
+4. Decentralise all the things
+5. Deploy independently. Consumer-Driven Contracts.
+6. Consumer first
+7. Isolate failure. Don't do distributed point of failure!
+8. Highly observable
+
 > Always separate thinking about real-world things from the documents which describe those things. Resource before representation. - Mike Atherton
 
 Document-driven development. Test-driven also! Code style-guide. Code review. Pair-programming.
 
 One of the central notions of the Web is that we separate the identity of a resource from its representation and implementation.
 
+* [Humane Registry](http://martinfowler.com/bliki/HumaneRegistry.html)
+* [Distributed Systems and the End of the API](http://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-the-api/)
 * [**Caring doesn't scale**](https://www.oreilly.com/ideas/caring-doesnt-scale)
 * [**Best practices for a pragmatic RESTful API**](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 * [HTTP API design guide extracted from work on the Heroku Platform API](https://github.com/interagent/http-api-design)

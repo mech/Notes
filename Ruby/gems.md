@@ -100,6 +100,7 @@ Bundler.require
 * [Wrapping your API in a custom Ruby gem](https://blog.engineyard.com/2014/wrapping-your-api-in-a-ruby-gem)
 * [Writing an API wrapper in Ruby with TDD](http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875)
 * [Ruby API wrapper using Virtus and Typhoeus](http://www.nickdesteffen.com/blog/ruby-api-wrapper-using-virtus-and-typhoeus)
+* [Pact: TDD for API](https://github.com/realestate-com-au/pact)
 
 ## API wrapper examples
 

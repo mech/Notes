@@ -155,6 +155,26 @@ Popular option:
 DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog --icc=false"
 ```
 
+---
+
+You can find boot2docker's config file at `/var/lib/boot2docker/profile`
+
+```
+EXTRA_ARGS='
+--label provider=virtualbox
+--cluster-store consul://localhost:8500
+--cluster-advertise eth1:2376
+'
+CACERT=/var/lib/boot2docker/ca.pem
+DOCKER_HOST='-H tcp://0.0.0.0:2376'
+DOCKER_STORAGE=aufs
+DOCKER_TLS=auto
+SERVERKEY=/var/lib/boot2docker/server-key.pem
+SERVERCERT=/var/lib/boot2docker/server.pem
+```
+
+Then do a `docker-machine restart dev`
+
 ## Image - Build --tag
 
 Containers are nothing. It is already too late to do anything at run-time. Images are the "shippable" units and where it matters most.
@@ -532,6 +552,7 @@ clean:
 * [Nathan LeClaire](http://nathanleclaire.com/post/)
 * [Viktor Farcic](http://technologyconversations.com/)
 * [Jeff Lindsay](http://progrium.com/blog/)
+* [Jeff Nickoloff](https://medium.com/@allingeek)
 
 ## Videos
 

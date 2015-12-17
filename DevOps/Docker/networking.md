@@ -202,6 +202,10 @@ Fixed IP on a container is a hard issue.
 Docker 1.7 has native multi-host networking.
 
 * [Docker multicast networking using overlay driver with docker-machine and boot2docker](http://sirile.github.io/2015/07/14/docker-multihost-networking-using-overlay-driver-with-docker-machine-and-boot2docker.html)
+* [Multi-Host Docker Networking is now ready for production in Docker 1.9](https://blog.docker.com/2015/11/docker-multi-host-networking-ga/)
+* [Life and Docker Networking - One Year On](http://blog.weave.works/2015/11/03/docker-networking-1-9-weave-plugin/)
+* [Why Open vSwitch?](https://github.com/openvswitch/ovs/blob/master/WHY-OVS.md)
+* [Proposal: Native Docker Multi-Host Networking](https://github.com/docker/docker/issues/8951)
 
 ## libnetwork and Container Network Model (CNM)
 

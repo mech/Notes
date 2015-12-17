@@ -46,6 +46,7 @@ Source and protocol filtering. Subnet level traffic firewall. At the subnet leve
 * [A very nice gem for file uploading](https://github.com/refile/refile)
 * [10 useful CLI commands](http://cloudacademy.com/blog/aws-cli-10-useful-commands/)
 * [AWS Signature Version 4](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-query-string-auth.html)
+* [Signing CloudFront URLs for serving private content](https://github.com/dylanvaughn/aws_cf_signer)
 
 S3 is not a filesystem. It is a key-value store.
 

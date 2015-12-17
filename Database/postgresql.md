@@ -457,6 +457,7 @@ language sql;
 ## Backup
 
 * [How to backup your Postgres to Amazon nightly](http://rob.conery.io/2011/11/01/how-to-backup-your-postgres-db-to-amazon-nightly/)
+* [WAL-E: Backup to S3](https://github.com/wal-e/wal-e)
 
 ## People
 

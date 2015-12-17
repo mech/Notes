@@ -112,6 +112,7 @@ Here, we let the message/method do the taking. We are not relying on our intimat
 
 ## Minitest
 
+* [Getting started with Minitest](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
 * [Shared example in Minitest is just Ruby](https://canaryup.com/blog/shared-examples-with-minitest)
 * [Exception handling and testing it with Minitest](http://eftimov.net/exception-handling-and-testing/)
 * [minitest-given](https://github.com/blowmage/minitest-given)

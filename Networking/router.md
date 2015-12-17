@@ -1,5 +1,7 @@
 # Router
 
+L3 device. Not many ports. Divide boundary.
+
 **From user mode to privilege mode**
 
 ```

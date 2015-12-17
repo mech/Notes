@@ -74,6 +74,7 @@ No shared persistence. Each services use their own mini database.
 * [Simulating service discovery with Docker and etcd](http://talwai.github.io/#/blog/post/discovery)
 * [Architecture without Architects](https://www.youtube.com/watch?v=qVyt3qQ_7TA)
 * [Practical considerations for microservice architectures - Sam Newman](https://vimeo.com/105751281)
+* [Pattern: Backends For Frontends](http://samnewman.io/patterns/architectural/bff/)
 
 Gene Kim, Andrew Phillips, Gary Gruver, Randy Shoup
 

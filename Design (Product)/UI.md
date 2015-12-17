@@ -1,5 +1,6 @@
 ## UI
 
+* [7 rules for creating nice UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.qd6qv5nia)
 * [Good Design](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
 * [**UXmill**](http://uxmill.com/)
 * [**Object-Oriented UX**](http://alistapart.com/article/object-oriented-ux)
@@ -45,7 +46,10 @@
 * Each section in your site needs to tell a story. It needs a reason and a final outcome for the user, The layout needs to help the content highlighting what are the most important pieces in that story. In reality there shouldn't be too many call outs on a page so everything should drive to that final "What can I do here".
 * Satisficing - Sacrifice the "perfect" for "good enough" in order to conserve mental resources.
 * Redundancy in cues is an asset, not a liability
-* 
+* Pretty conceptual, but Scorekeeper does a great job of creating focus
+* Creating focus
+* Isolates modes
+* Detailed & actionable
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

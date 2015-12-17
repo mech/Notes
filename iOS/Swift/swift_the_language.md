@@ -1,5 +1,12 @@
 # Swift
 
+Swift is:
+
+* Extremely modern language
+* Extremely fast due to LLVM
+* Strong safety
+* Interesting features like optionals, cool error-handling, protocol-oriented architecture
+
 No more `@` like `@interface`, `@property`, `@end`, `@implementation`, `@synthesize`.
 
 **This is a very ugly class model**
@@ -36,6 +43,8 @@ player.rating = 4;
 
 ## Optional Type
 
+In Swift, values are not allowed to be nil.
+
 In Obj-C, if you try to call a method with a pointer variable that is nil, it is a no-op. This may sound nice, but is unpredictable. In Swift, optional type make the possibility of a nil optional value very clear.
 
 * Not Set (nil)
@@ -44,6 +53,12 @@ In Obj-C, if you try to call a method with a pointer variable that is nil, it is
 ```
 // Optional string - It's Optional that "can" be a String. Not a String that can be optional.
 String?
+
+var name : String
+name = nil // Error!
+
+var name : String?
+name = nil // Allowed
 ```
 
 To unwrap an optional, use `!`. It will crash if the value is `nil`. Sometime crashing is good as it is predictable and you can fix it before you ship it.

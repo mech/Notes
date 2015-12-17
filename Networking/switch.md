@@ -1,5 +1,7 @@
 # Switch
 
+L2 device. Has many ports.
+
 Cisco 3750 StackWise
 
 You can use various `show` commands to:
