@@ -85,6 +85,7 @@ Bundler.require
 
 * [strip_attributes](https://github.com/rmm5t/strip_attributes)
 * [auto_strip_attributes](https://github.com/holli/auto_strip_attributes)
+* [Cleaner validations using the Either monad](https://blog.abevoelker.com/you-got-haskell-in-my-ruby-cleaner-ruby-validations-using-either-monad-kleisli-gem/)
 
 ## Date gems
 

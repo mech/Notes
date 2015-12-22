@@ -6,3 +6,4 @@
 * [True isomorphic app with baobab](https://www.codementor.io/reactjs/tutorial/true-isomorphic-apps-react-baobab#/)
 * [Rendering React - Server-side](https://www.beaconreader.com/beacon-engineering-blog/rendering-react)
 * [Foundation of Universal JavaScript](https://strongloop.com/strongblog/the-foundations-of-universal-or-isomorphic-javascript/)
+* [From AirBnB](https://github.com/goatslacker/iso)

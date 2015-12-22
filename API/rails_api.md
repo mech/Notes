@@ -69,13 +69,13 @@ With a collapsed single request optimized for client, we pay the price of WAN la
 
 * [Serializer with array](http://stackoverflow.com/questions/17542793/how-do-you-initialize-an-activemodelserializer-class-with-an-activerecordrel)
 
-## has_secure_password
-
-* [Validating Users with `has_secure_password`](https://quickleft.com/blog/rails-tip-validating-users-with-has_secure_password/)
-* [Why I roll my own authentication](http://www.rvdh.de/2012/01/12/why-i-roll-my-own-authentication/)
-* [**Don't use BCrypt**](http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html)
-* [Taking password storage up a notch](https://blog.8thlight.com/adam-gooch/2012/11/04/taking-password-storage-up-a-notch.html)
-* [Some best practices for authentication in Ruby on Rails](http://www.fngtps.com/2015/some-best-practices-for-authentication-in-ruby-on-rails/)
+```ruby
+class PostSerializer < ActiveModel::Serializer
+  # Fragment caching title only
+  cache key: 'post', expires_in: 3.hours, only: [:title]
+  attributes :title, :body
+end
+```
 
 ## Sparse Fieldsets
 
@@ -87,6 +87,40 @@ With a collapsed single request optimized for client, we pay the price of WAN la
 
 * [Issue #977 - Pagination Serializer](https://github.com/rails-api/active_model_serializers/pull/977)
 
+## HTTP Status Code
+
+* **201 - :created**
+* 202 - :accepted
+* **204 - :no_content**
+* 205 - :reset_content
+* 206 - :partial_content
+* 
+* 301 - :moved_permanently
+* 302 - :found
+* 303 - :see_other
+* **304 - :not_modified**
+* 305 - :use_proxy
+* 307 - :temporary_redirect
+* 
+* 400 - :bad_request
+* **401 - :unauthorized**
+* 402 - :payment_required
+* 403 - :forbidden
+* **404 - :not_found**
+* 405 - :method_not_allowed
+* 406 - :not_acceptable
+* 408 - :request_timeout
+* 409 - :conflict
+* 410 - :gone
+* **422 - :unprocessable_entity**
+* 423 - :locked
+* 
+* 500 - :internal_server_error
+* 501 - :not_implemented
+* 502 - :bad_gateway
+* 503 - :service_unavailable
+
 ## Videos
 
 * [Creating RESTful, Hypermedia-based Microservices](https://www.youtube.com/watch?v=zbeMDM-zDNI)
+* [RailsConf 2015 - AMS, API, Rails and a developer, a love story](https://www.youtube.com/watch?v=PqgQNgWdUB8)

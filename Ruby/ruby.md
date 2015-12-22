@@ -37,6 +37,13 @@ def gravatar_url
 end
 ```
 
+## Boolean Blindness
+
+* [Boolean Externalities](http://devblog.avdi.org/2014/09/17/boolean-externalities/)
+* [Boolean Blindness](https://existentialtype.wordpress.com/2011/03/15/boolean-blindness/)
+* [Boolean Blindness](http://dev.stephendiehl.com/hask/#boolean-blindness)
+
+
 ## Duck typing, parametric polymorphism
 
 * [What is the difference between dynamic typing, duck typing and parametric polymorphism?](http://stackoverflow.com/questions/14625654/what-is-the-difference-between-dynamic-typing-duck-typing-and-parametric-polym)

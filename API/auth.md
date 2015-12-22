@@ -3,6 +3,7 @@
 * [MailChimp API v3.0 OAuth2](http://kb.mailchimp.com/api/article/about-oauth2)
 * [Gems you might not need! AdminController and Forbid pattern](https://vimeo.com/39498553)
 * [proof - Secure Authentication for SPA](https://github.com/undercase/proof)
+* [How to handle users with a Rails API and JS front-end](https://www.reddit.com/r/rails/comments/3dzvha/how_to_handle_users_with_a_rails_api_and_js/)
 
 Provider is at https://api.jobline.com.sg/v1. Consumer will be:
 
@@ -18,6 +19,14 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 ```
 
 The header will be sent on every request. Assuming you use HTTPS, this is a secure way to authenticate users.
+
+## Resource Owner Password Credential Grant
+
+A temporary transitional phase.
+
+Authenticate the "resource owner" with credential (username/password) in order to exchange for a token.
+
+The token returned can be random Bearer token or JSON Web Tokens (JWT).
 
 ## Separate Logins Table
 
@@ -82,11 +91,16 @@ Every single request will require the token. This token should be sent in the HT
 
 There is also token revocation that allows us to invalidate a specific token and even a group of tokens based on the same **authorization grant**.
 
+## XSS, CSRF?
 	
-## Using `has_secure_password`
+## Using `has_secure_password` and `has_secure_token`
 
 `has_secure_password` already checks for existence and confirmation on create.
 
 * [How to safely store a password](http://codahale.com/how-to-safely-store-a-password/)
 * [**Simple Authentication with BCrypt**](https://gist.github.com/thebucknerlife/10090014)
-* [With Rails 4.1](http://robert-reiz.com/2014/04/12/has_secure_password-with-rails-4-1/)
+* [With Rails 4.1](http://robert-reiz.com/2014/04/12/has_secure_password-with-rails-4-1/)* [Validating Users with `has_secure_password`](https://quickleft.com/blog/rails-tip-validating-users-with-has_secure_password/)
+* [Why I roll my own authentication](http://www.rvdh.de/2012/01/12/why-i-roll-my-own-authentication/)
+* [**Don't use BCrypt**](http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html)
+* [Taking password storage up a notch](https://blog.8thlight.com/adam-gooch/2012/11/04/taking-password-storage-up-a-notch.html)
+* [Some best practices for authentication in Ruby on Rails](http://www.fngtps.com/2015/some-best-practices-for-authentication-in-ruby-on-rails/)

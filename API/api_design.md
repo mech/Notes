@@ -8,6 +8,8 @@
 6. Consumer first
 7. Isolate failure. Don't do distributed point of failure!
 8. Highly observable
+9. Good API should be Scalable, Reusable, Evolvable, Performant, Easy to learn, use, Hard to misuse, and with good documentation.
+10. API must be FAST (Use caching and short circuiting)
 
 > Always separate thinking about real-world things from the documents which describe those things. Resource before representation. - Mike Atherton
 
@@ -46,6 +48,63 @@ https://api.jobline.com.sg/getAccount
 https://api.jobline.com.sg/account
 ```
 
+## Service-Oriented vs Data-Oriented
+
+Service-oriented API hide data behind operations like `getPerson`, `getProduct`, etc.
+
+Data-oriented hide operations behind data. The primary value is the data it exposes. Data-oriented is simpler. You lean the data vs learning the services + the data.
+
+Given:
+
+```
+http://api.jobline.com.sg/v1/candidates
+http://api.jobline.com.sg/v1/candidates/{caid}
+http://api.jobline.com.sg/v1/candidates/{caid}/employments
+```
+
+Examples of service-oriented:
+
+```
+{
+  "id": "53",
+  "type": "Candidate",
+  "name": "Dell Curry",
+  "owner": "2344"
+}
+```
+
+Examples of data-oriented:
+
+```
+{
+  "self": "https://api.jobline.com.sg/v1/candidates/53",
+  "type": "Candidate",
+  "name": "Dell Curry",
+  "owner": "https://api.jobline.com.sg/v1/employers/2344"
+}
+```
+
+## Caching
+
+`curl -i https://api.jobline.com.sg/employments/S6414 -H 'If-None-Match: "{Etag}"'`
+
+```ruby
+# 304 Not Modified
+# etag: Model#cache_key
+# last_modified: Model#updated_at
+class PostsController < ApplicationController
+  def show
+    @post = Post.find(params[:id])
+
+    if stale? @post
+      respond_with @post
+    end
+  end
+end
+```
+
+Gateway caching.
+
 ## Platform
 
 It makes more sense to build platforms instead of just products or applications. Platforms are like ecosystems interconnecting different applications, services, users, developers and partners.
@@ -59,6 +118,30 @@ Everything can be a problem space in which you find solution.
 ## Web
 
 The Web represents an abstraction of HTTP. REST represents an abstraction of the Web. The Web is an application and it respects the "constraints" by REST.
+
+## Content Negotiation - RFC 7231
+
+* [Content Negotiation for Web API Longevity](http://nordicapis.com/content-negotiation/)
+* [The Ultimate Solution to Versioning REST APIs: Content Negotiation](http://www.mashery.com/blog/ultimate-solution-versioning-rest-apis-content-negotiation)
+
+The process of selecting the best representation for a given response when there are multiple representations available.
+
+Allow client to specify their preferred media types.
+
+```
+GET /users/334/avatar
+
+Accept: image/png,
+        image/jpeg; q=0.8,
+        image/gif; q=0.8,
+        image/*; q=0.5,
+        application/json; q=0.1
+```
+
+If the above avatar cannot be found, we return JSON error message.
+
+Exposing resources, not representations, and not encoding file format into the URL.
+
 
 ## Constraints
 
@@ -104,12 +187,30 @@ Resource representation. Topology of connected components. Draw a map of your re
 
 Use ISO 8601
 
-## Use camelCase
+## snake_case vs camelCase
 
-```
+* [Attribute Names](http://apigee.com/about/blog/technology/restful-api-design-what-about-attribute-names)
+
+Many popular JSON APIs use snake_case. This is mainly due to serialization libraries following naming conventions of the underlying language.
+
+```json
 {
   'userName': 'mech'
   'createdTimestamp': '2012-07-10T18:02:23.345Z'}
+```
+
+## Enveloping
+
+Justification for using envelop is to make it easy to include additional metadata or pagination information. With CORS and Link header from RFC 5988, enveloping become unnecessary.
+
+```json
+{
+  "employment": {
+    "bankAccountNo": "5545667",
+    "companyName": "Jobline Resources Pte Ltd",
+    "serviceCode": "S6414"
+  }
+}
 ```
 
 ## Linking

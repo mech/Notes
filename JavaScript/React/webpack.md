@@ -21,6 +21,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 ▶ npm install --save-dev extract-text-webpack-plugin
 ▶ npm install --save-dev webpack-dev-server
 ▶ npm install --save-dev assets-webpack-plugin
+▶ npm install --save camelize
 ```
 
 * [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
