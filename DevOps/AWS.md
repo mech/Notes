@@ -43,6 +43,9 @@ Source and protocol filtering. Subnet level traffic firewall. At the subnet leve
 
 ## S3 Bucket Policy vs IAM Policy
 
+* [Best Rails image uploader](https://infinum.co/the-capsized-eight/articles/best-rails-image-uploader-paperclip-carrierwave-refile)
+* [AWS Ruby Blog](https://ruby.awsblog.com/)
+* [Downloading Objects from S3 using AWS SDK for Ruby](https://ruby.awsblog.com/post/Tx354Y6VTZ421PJ/Downloading-Objects-from-Amazon-S3-using-the-AWS-SDK-for-Ruby)
 * [A very nice gem for file uploading](https://github.com/refile/refile)
 * [10 useful CLI commands](http://cloudacademy.com/blog/aws-cli-10-useful-commands/)
 * [AWS Signature Version 4](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-query-string-auth.html)

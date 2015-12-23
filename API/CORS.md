@@ -2,6 +2,7 @@
 
 JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues.
 
+* [**MDN for CORS**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 * [Browser supports for CORS](http://caniuse.com/#feat=cors)
 * [The Same-Origin Saga](https://vimeo.com/54121245)
 * [Origin policy enforcement in modern browser](https://www.youtube.com/watch?v=PbvxtMCUG8U)
@@ -102,9 +103,38 @@ use Rack::Cors do
 end
 ```
 
+```
+▶ curl -H "Origin: http://localhost:8000" --verbose http://localhost:3000/employments/S6414
+```
+
+## Headers
+
+Only the following **simple headers** are allowed to to cross domain:
+
+* Accept
+* Accept-Language
+* Content-Language
+* Last-Event-ID
+* Content-Type
+
 ### Pre-flight Checks
 
 Debug with `chrome://net-internals/#events`
+
+```
+Preflight Headers:
+  Content-Type: text/plain
+  Access-Control-Allow-Origin: http://localhost:8000
+  Access-Control-Allow-Methods: GET, POST, DELETE, PUT, PATCH, OPTIONS, HEAD
+  Access-Control-Expose-Headers:
+  Access-Control-Max-Age: 1728000
+  Access-Control-Allow-Credentials: true
+  Access-Control-Allow-Headers: accept, authorization, x-user-email
+Incoming Headers:
+  Origin: http://localhost:8000
+  Access-Control-Request-Method:
+  Access-Control-Request-Headers:
+```
 
 ### Authorization
 

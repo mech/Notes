@@ -132,6 +132,7 @@ See [Monterail's list of useful gems](https://github.com/monterail/guidelines/bl
 ## Security
 
 * [OWASP's cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
+* [Ruby on Rails Security Guide](http://guides.rubyonrails.org/security.html)
 
 ## Tips
 

@@ -2,6 +2,7 @@
 
 https://vividcortex.com/pricing/
 
+* [**Using Repository Pattern to Migrate Rails app from MongoDB to Postgres**](https://www.amberbit.com/blog/2015/11/30/using-repository-pattern-to-migrate-rails-app-from-mongodb-to-postgresql/)
 * [**Postgres Guide**](http://www.postgresguide.com/)
 * [**Don't let your data out of the database**](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
 * [**Discovering the science behind Postgres indexes**](http://blog.codeship.com/discovering-computer-science-behind-postgres-indexes/)

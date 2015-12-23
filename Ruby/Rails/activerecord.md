@@ -12,6 +12,7 @@
 * [Zero downtime migration](http://blog.codeship.com/rails-migrations-zero-downtime/)
 * [Gems to unlock advanced PSQL features](http://www.brightball.com/ruby-postgresql/rails-gems-to-unlock-advanced-postgresql-features)
 * [4 ways to speed up your Rails app](http://blog.skylight.io/4-easy-ways-to-speed-up-your-rails-app/)
+* [Scope DSL and Class Methods are different](http://ruby-journal.com/rails/the-difference-between-activerecord-scope-dsl-and-class-method/)
 
 ## `serialize` and `store_accessor`
 

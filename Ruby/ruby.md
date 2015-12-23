@@ -9,6 +9,7 @@ DIGIT = ASCII.grep(/[[:digit:]]/)
 PUNCT = ASCII.grep(/[[:punct:]]/)
 ```
 
+* [Ruby 2.3 features](http://nithinbekal.com/posts/ruby-2-3-features/)
 * [The Bastards Book of Ruby](http://ruby.bastardsbook.com/)
 * [**All Ruby Books**](http://www.allrubybooks.com/)
 * Don't mutate state unnecessarily. It will lead to bugs.
@@ -28,6 +29,8 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 
 ## String
 
+* [Immutable String in Ruby 2.3](https://wyeworks.com/blog/2015/12/1/immutable-strings-in-ruby-2-dot-3/)
+
 ```ruby
 AVATAR_URL = 'http://www.gravatar.com/avatar/%{hash}'
 
@@ -35,6 +38,14 @@ def gravatar_url
   AVATAR_URL % {
     hash: hashed_email(email.downcase)  }
 end
+```
+
+# squiggly HEREDOC
+
+```ruby
+<<~SQL
+  SELECT * FROM users;
+SQL
 ```
 
 ## Boolean Blindness
@@ -103,6 +114,8 @@ end
 ```
 
 ## Hash
+
+In Ruby 2.3, you can `dig` through nested hash.
 
 ```
 def method_missing(name, *args, &block)

@@ -221,6 +221,8 @@ FitAgent, Fit4Hire, FitSense
 
 ## Data
 
+> Also this summer, Google bought music-streaming service Songza for an estimated $39 million. Songza is a music streaming service. Like The Echo Nest, one of their key characteristics is that they are able to combine curated music selections with contextual signals like the weather, time of day, and user location to make personal music recommendations.
+
 * [How Big Data is Changing the Hiring Game](http://hirevue.com/blog/how-big-data-is-changing-the-hiring-game)
 * [Everything we wish we'd known about building data products](http://firstround.com/review/everything-we-wish-wed-known-about-building-data-products/)
 * [Why you need to embrace the big data trend in HR](http://www.entrepreneur.com/article/244326)

@@ -1,5 +1,7 @@
 # Design
 
+API [Platform](http://platformed.info/) -> Ecosystem
+
 1. Model around business domain. See DDD. Bounded context and sub-domain.
 2. Embrace culture of automation.
 3. Hide implementation details. Hide your database. Always use API service to affect your database.
@@ -32,6 +34,8 @@ One of the central notions of the Web is that we separate the identity of a reso
 * [Single Page Apps in Depth](http://singlepageappbook.com/index.html)
 * [Endpoints Framework](http://endpointsjs.com/)
 * [React.js and Spring Data REST](http://spring.io/blog/2015/09/15/react-js-and-spring-data-rest-part-2-hypermedia)
+* [Designing Evolvable APIs for the Web](http://nordicapis.com/designing-evolvable-apis-for-the-web-identification/)
+* [3 ways APIs create value](http://nordicapis.com/3-ways-apis-create-value-and-5-acquisitions-that-prove-it/)
 
 You can't design the API well if you don't know the product well.
 
@@ -117,7 +121,17 @@ Everything can be a problem space in which you find solution.
 
 ## Web
 
+* [Architecture of the World Wide Web, Volume One](http://www.w3.org/TR/webarch/)
+
 The Web represents an abstraction of HTTP. REST represents an abstraction of the Web. The Web is an application and it respects the "constraints" by REST.
+
+3 pillars of the Web:
+
+* Identification - URI/URL/URN
+* Interaction - GET, PUT, POST, DELETE, OPTION, HEAD, PATCH
+* Formats - XML, JSON, JPEG, SVG, HTML
+
+Instead of "resource local identifiers" (e.g. S6414) and operations (e.g. `GetEmploymentById`), the Web provides us with "global identifiers" like https://api.jobline.com.sg/v1/employments/S6414 and generic interaction operations (e.g. HTTP GET, PUT, POST, etc)
 
 ## Content Negotiation - RFC 7231
 
@@ -142,6 +156,13 @@ If the above avatar cannot be found, we return JSON error message.
 
 Exposing resources, not representations, and not encoding file format into the URL.
 
+A resource may express one or more representations of its data based on the state of the resource.
+
+```
+application/vnd.jobline.v3+json
+application/json; profile=vnd.jobline.hrms version=3
+application/json;vnd.jobline.hrms+v3
+```
 
 ## Constraints
 
@@ -161,9 +182,15 @@ For example in a HR application for CA, the Leave is a resource representation t
 
 Everything is distributed and asynchronous. Many potential breaking points! How do you handle it gracefully? Retry? Re-authentication?
 
-# Resource
+# Resources
 
 Resource representation. Topology of connected components. Draw a map of your resources, your components.
+
+## URL
+
+The URI path component contains data, usually organized in **hierarchical** form.
+
+Non-hierarchical data such as sorting, filtering, pagination should be in the query string.
 
 ## Collection Resource
 
@@ -236,6 +263,8 @@ Use `?_body=false` to skip body response when POST to create a new resource.
 
 ## Pagination
 
+Hypermedia control make sense for pagination.
+
 * [GitHub: Traversing with Pagination](https://developer.github.com/guides/traversing-with-pagination/)
 * [Pagination done the Postgres Way](https://wiki.postgresql.org/images/3/35/Pagination_Done_the_PostgreSQL_Way.pdf)
 * [Kaminari recipes](https://github.com/amatsuda/kaminari/wiki/Kaminari-recipes)
@@ -249,3 +278,7 @@ Use `?_body=false` to skip body response when POST to create a new resource.
 
 Always track your API usage patterns. How many calls to each endpoint.
 
+## Resources
+
+* [TIBCO Mashery Blog](http://www.mashery.com/blog/ultimate-solution-versioning-rest-apis-content-negotiation)
+* [Nordic API Blog](http://nordicapis.com/blog/)

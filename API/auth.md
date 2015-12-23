@@ -84,6 +84,9 @@ curl -X POST -H "Authorization: Bearer ???" -H "Content-Type: application/json;c
 * [Stateless Authentication with REST API](http://www.kaleidos.net/blog/295/stateless-authentication-with-api-rest/)
 * [How Rails Sessions Work](http://www.justinweiss.com/articles/how-rails-sessions-work/)
 * [Where to store your JWT? Cookies vs Web Storage](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage/)
+* [simple_token_authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
+* [Auth token from Devise](https://gist.github.com/gonzalo-bulnes/7659739)
+* [Original gist from Jose Valim](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
 
 Token based authentication is stateless. We are not storing any information about our user on the server or in a session (cookie).
 
@@ -92,6 +95,16 @@ Every single request will require the token. This token should be sent in the HT
 There is also token revocation that allows us to invalidate a specific token and even a group of tokens based on the same **authorization grant**.
 
 ## XSS, CSRF?
+
+Forged requests are nasty attacks. They rely on the fact that browser automatically adds cookies to HTTP requests if it has cookies associated with the target domain and path. That include session cookies.
+
+CSRF target state-changing requests, not theft of data, since attacker has no way to see the response to the forged request.
+
+CSRF is not the same as XSS. It only work if target is logged in and thus have a small attack footprint.
+
+Without the browser to automatically attach cookie, there will be no CSRF attack!
+
+* [CSRF Protection Bypass in Rails 3.0.2](http://weblog.rubyonrails.org/2011/2/8/csrf-protection-bypass-in-ruby-on-rails/)
 	
 ## Using `has_secure_password` and `has_secure_token`
 

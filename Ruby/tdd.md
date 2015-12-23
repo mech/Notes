@@ -116,6 +116,8 @@ Here, we let the message/method do the taking. We are not relying on our intimat
 * [Shared example in Minitest is just Ruby](https://canaryup.com/blog/shared-examples-with-minitest)
 * [Exception handling and testing it with Minitest](http://eftimov.net/exception-handling-and-testing/)
 * [minitest-given](https://github.com/blowmage/minitest-given)
+* [Minitest Let() is Lazy](http://ruby-journal.com/minitest-let-is-lazy/)
+* [Minimalicious testing in Ruby 1.9 with Minitest](http://blog.arvidandersson.se/2012/03/28/minimalicous-testing-in-ruby-1-9)
 
 ## RSpec
 

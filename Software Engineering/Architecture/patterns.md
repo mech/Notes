@@ -33,6 +33,8 @@ Semantic interface, anti-corruption in DDD. Mostly at persistence layer.
 
 ## Microservices
 
+> ...surprising effect subtle changes in wording on the Facebook photo violations page eventually encouraged people to admit that they just didn’t like the photo. One of the key findings was the difference between "embarrassing" and "it's embarrassing" - the implication being that the photo is embarrassing, not you. The key enabler for this research? The ability to easily put out subtle changes and measure results, to create multiple versions of behaviors that differ in measurable ways. Facebook eventually saved untold amounts of money in manpower to sort through pictures because their architecture supported incremental, controlled change.
+
 Single "job to be done" that are exposed via an API!
 
 Disruptor: Continuous Delivery with Containerized Microservices.

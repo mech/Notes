@@ -22,6 +22,7 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [BSIMM](http://bsimm.com/)
 * [SANS Institute](http://www.sans.org/online-security-training/)
 * [metasploit - penetration testing software](http://www.metasploit.com/)
+* [10 Moist Common Web Security Vulnerabilities](http://www.toptal.com/security/10-most-common-web-security-vulnerabilities)
 
 ## SSL
 

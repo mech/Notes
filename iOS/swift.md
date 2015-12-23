@@ -2,6 +2,8 @@
 
 Swift makes your code SAFE, MODERN, and POWER.
 
+* [**Learn Swift**](http://books.aidanf.net/learn-swift)
+* [Swift for Ruby developers](http://www.aidanf.net/posts/an-introduction-to-swift-for-ruby-developers)
 * [A better way to learn Swift](https://thinkster.io/a-better-way-to-learn-swift)
 * [**15 Open Source Swift projects**](https://medium.com/swift-programming/15-swift-ios-open-source-projects-you-cannot-ignore-6bd4ac37d7dd)
 * [Official Apple's Swift blog](https://developer.apple.com/swift/blog/)
@@ -26,6 +28,7 @@ Swift makes your code SAFE, MODERN, and POWER.
 
 ## Swift Libraries
 
+* [Top 10 Swift Libraries](https://infinum.co/the-capsized-eight/articles/top-10-ios-swift-libraries-every-ios-developer-should-know-about)
 * Swift Standard Library
 * Cocoa/Cocoa Touch Frameworks
 * Xcode 6 exposes Objective-C APIs in Swift format

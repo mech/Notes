@@ -105,6 +105,11 @@ let optionalSquare: Square? = Square(sideLength: 2.4)
 // You no need to check for nil and can invoke method call
 // if optionalSquare is nil, the sideLength will not bother to be called
 let sideLength = optionalSquare?.sideLength
+
+// In Ruby 2.3
+if user&.admin?
+  # Same as if user && user.admin?
+end
 ```
 
 Optionals are safer and more expressive than `nil` pointers in Objective-C and are at the heart of many of Swift's most powerful features. Can you imagine that?
@@ -135,3 +140,7 @@ No more string token replacement `%s, %d, %@`.
 ## Namespaces
 
 No more `NSArray`, `NSString`, just normal `Array` and `String`. Obj-C lack namespaces but not in Swift!
+
+## Mixins and Traits
+
+* [Mixins and Traits in Swift 2.0](http://matthijshollemans.com/2015/07/22/mixins-and-traits-in-swift-2/)
