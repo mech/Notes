@@ -129,11 +129,6 @@ See [Monterail's list of useful gems](https://github.com/monterail/guidelines/bl
 
 * [Sending uploaded file to Resque worker to be processed](http://stackoverflow.com/questions/6977968/sending-uploaded-file-to-resque-worker-to-be-processed)
 
-## Security
-
-* [OWASP's cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
-* [Ruby on Rails Security Guide](http://guides.rubyonrails.org/security.html)
-
 ## Tips
 
 ```

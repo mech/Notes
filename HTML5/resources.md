@@ -5,6 +5,7 @@
 
 **http://www.broken-links.com/2015/04/28/the-future-of-the-open-web/**
 
+* [How the Web Works](https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.h2gsor3d3)
 * [Web design is dead?](http://blog.usabilitytools.com/web-design-not-dead-on-ux-therapy)
 * [**The new code**](http://thenewcode.com/)
 * [**Web Design Weekly**](https://web-design-weekly.com)

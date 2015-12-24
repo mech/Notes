@@ -2,13 +2,13 @@
 
 JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues.
 
+* [CORS for JSON and Rails](http://www.tsheffler.com/blog/2011/02/22/cross-origin-resource-sharing-for-json-and-rails/)
 * [**MDN for CORS**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
-* [Browser supports for CORS](http://caniuse.com/#feat=cors)
+* [Nicholas C.Zakas's explanation of CORS](https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/)
 * [The Same-Origin Saga](https://vimeo.com/54121245)
 * [Origin policy enforcement in modern browser](https://www.youtube.com/watch?v=PbvxtMCUG8U)
 * [HTTP Strict Transport Security](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security)
 * [Enable CORS](http://enable-cors.org/)
-* [rack-cors](https://github.com/cyu/rack-cors)
 * [RubyConf 12 - Building modular, scalable web apps? Of CORS!](https://www.youtube.com/watch?v=VQA2yrpI7Xk)
 * [Example](https://github.com/mbleigh/cors-talk-example)
 * [Cross-domain Ajax with CORS - Nicholas C. Zakas](http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/)
@@ -30,9 +30,13 @@ CORS is unique in that it has both a server-side and client-side component.
 
 The browser's same-origin policy limit client code (i.e. JavaScript) from making HTTP requests to different origins.
 
+However, server-side code is not affected. That's why to overcome SAMEORIGIN, people traditionally use server-side proxying.
+
 ## The CORS Request
 
-```
+Firefox 3.5+, Safari 4+, and Chrome all automatically send the `Origin` header when using XHR. When attempting to open a resource on a different origin, this behavior automatically gets triggered without any extra code.
+
+```js
 ('withCredentials' in (new XMLHttpRequest()));
 ```
 
@@ -42,9 +46,23 @@ By setting `xhr.withCredentials = true;` you include cookie. Your server also mu
 
 IE8 and IE9 support a limited set of cross-origin requests using `XDomainRequest` object.
 
+```js
+function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+  if ('withCredentials' in xhr) {
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != 'undefined') {
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    xhr = null;
+  }
+}
+```
+
 jQuery's `dataType` indicates that the response should be parsed as JSON. This saves the developer the additional step of using `JSON.parse` to parse the  response text into a JSON object.
 
-```
+```js
 $.ajax(url, {
 	dataType: "json",
 	xhrFields: { withCredentials: true },

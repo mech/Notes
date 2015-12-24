@@ -10,6 +10,7 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 (state, action) => state
 ```
 
+* [**Awesome Redux Course Note**](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
 * [**Flux vs Single State Tree**](http://www.christianalfoni.com/articles/2015_11_16_Flux-vs-Single-State-Tree)
 * [Interview with Dan Abramov](http://softwareengineeringdaily.com/2015/09/18/flux-redux-and-react-hot-loader-with-dan-abramov/)
 * [**Full-stack Redux tutorial**](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)

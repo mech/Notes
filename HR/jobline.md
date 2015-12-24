@@ -1,5 +1,9 @@
 # Jobline's Problem
 
+[Data, not source code. Company workers will change their activities to align with the company data feed.](http://techcrunch.com/2015/12/15/the-golden-age-of-open-source-has-arrived/)
+
+> Amazon owns the service that lets users instantly view, investigate and select products. Uber owns the service that connects people immediately needing a ride to cars that will take them to their destination. What service does your business own, and who and what does it connect? Therein lies the secret to monetization, and ultimately long-term success.
+
 There are lots of confusion on:
 
 * Multiple companies for employer
