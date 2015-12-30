@@ -20,6 +20,18 @@
 BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=f9868a3d-1a9c-4161-9f88-326eecf54f25 ro
 ```
 
+## Cron
+
+* [Schedule Tasks on Linux Using Crontab](http://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/)
+
+---
+
+- minute (from 0 to 59)
+- hour (from 0 to 23)
+- day of month (from 1 to 31)
+- month (from 1 to 12)
+- day of week (from 0 to 6) (0=Sunday)
+
 ## Init
 
 * Systemd

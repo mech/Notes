@@ -24,12 +24,7 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [metasploit - penetration testing software](http://www.metasploit.com/)
 * [10 Moist Common Web Security Vulnerabilities](http://www.toptal.com/security/10-most-common-web-security-vulnerabilities)
 
-## SSL
-
-* [Deploying Diffie-Hellman for TLS](https://weakdh.org/sysadmin.html)
-* 
-
-## XSS and Content Security Policy
+## Cross-Site Scripting (XSS)
 
 XSS happen when you have comment box that accept input from others but you did not escape it properly, or it can happen if you are too CMS.
 
@@ -48,6 +43,7 @@ Fixing XSS once and for all - Using CSP
 * [We're struggling to keep up](https://www.youtube.com/watch?v=mj-U9FlbAl0)
 * [An extensible approach to browser security policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
 * [ember-cli CSP](https://github.com/rwjblue/ember-cli-content-security-policy#options)
+* [Using CSP with Rails](https://github.com/blog/1477-content-security-policy)
 
 CSP - HTTP header that allows policies such as:
 
@@ -61,6 +57,85 @@ Other client-side security mechanisms
 * X-Frame-Options (clickjacking)
 * HTTP Strict Transport Security (force SSL)
 * X-Content-Type-Options: nosniff;
+
+Untrusted and unsanitized input.
+
+```
+<div>[Untrusted Data]</div>
+```
+
+OWASP ESAPI is on such encoding.
+
+Input fuzzing?
+ReDoS - Regular Expression Denial of Service
+http://taylor.fausak.me/2013/02/10/redos-regular-expression-denial-of-service/
+
+Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
+
+
+## Cross-Site Request Forgery (CSRF/XSRF)
+
+> We're of the belief that, much like its XSS cousin, failure to mitigate this vulnerability through secure coding practices borders on the negligent.
+>
+> A vulnerability that is so easily prevented can lead to absolute mayhem, particularly when bundled with other attacks. Worse still, identifying the attacker is even more difficult as the attack occurs in the context of the authenticated user.
+
+* [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)
+* [DEFCON 17: CSRF! Yeah, It Still Works](https://www.youtube.com/watch?v=5Np8PrSctuM)
+* [Do I need CSRF token for Ajax?](http://stackoverflow.com/questions/9089909/do-i-need-a-csrf-token-for-jquery-ajax)
+* [CSRF Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet)
+
+Any tags which fires a request to an external resource can be used to perform a hidden CSRF attack: `<img>`, `<link>`, `<meta>`, `<embed>`, `<object>`, etc.
+
+You won't have CSRF if you use localStorage (but you will have XSS) for token authentication and refuse to use cookie. If you must use cookie, HTTPS it and use `HttpOnly` so that JavaScript cannot read it.
+
+70 ways to encode `>` :( so you can't always filter out using blacklists.
+
+One example:
+
+```js
+<a href=”http://www.example.com/#?id='”>
+<img/src=”x”onerror=eval(String.fromCharCode(119,105,110,100,111,119,
+46,108,111,99,97,108,83,116,111,114,97,103,101,46,115,101,116,
+73,116,101,109,40,39,105,100,39,44,39,34,62,60,105,109,103,47,
+115,114,99,61,92,34,120,92,34,111,110,101,114,114,111,114,61,
+97,108,101,114,116,40,49,41,62,39,41))>
+```
+
+The `String.fromCharCode` makes it easier to insert the needed injection code into `localStorage` without excessive quote escaping:
+
+```js
+window.localStorage.setItem(‘id’,'”><img/src=\”x\”onerror=alert(1)>’)
+```
+
+* DO NOT trust user input
+* DO NOT allow GETs to modify state
+* DO NOT rely on blacklists
+* DO escape and sanitise HTML
+* DO use whitelists or a non-HTML format like Markdown
+* Do generate anti-CSRF tokens and validate them
+* DO validate Referrer headers (but people can fake it)
+
+### Protection
+
+* [NoScript ABE - Application Boundaries Enforcer](https://noscript.net/abe/)
+* [Request Policy](https://www.requestpolicy.com/faq.html)
+* Ensure 'safe' HTTP operations, such as `GET`, `HEAD`, and `OPTIONS` cannot be used to alter any server-side state.
+* Ensure 'unsafe' HTTP operations, such as `POST`, `PUT`, `PATCH`, and `DELETE` always require a valid CSRF authenticity token.
+* CSP - Content Security Policy
+* Using tokens for actions that store/update/delete mail information. Can be circumvent using XSS.
+* Using `Referrer` or `Origin` check. Can be spoof (Flash). Proxy strips `Origin` header. `<img>` request do not contain `Origin` header.
+* Using CAPTCHAS. UX problem!
+
+## TLS
+
+* [Deploying Diffie-Hellman for TLS](https://weakdh.org/sysadmin.html)
+* [HTTPS Performance Tuning](http://blog.httpwatch.com/2009/01/15/https-performance-tuning/)
+* [Mozilla Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_configurations)
+
+## JSON Hijacking
+
+* [Re-Securing JSON](http://ejohn.org/blog/re-securing-json/)
+* [JSON Hijacking](http://haacked.com/archive/2009/06/25/json-hijacking.aspx/)
 
 ## Tools
 
@@ -102,49 +177,16 @@ X-Frame-Options: DENY
 * DO hash and salt passwords
 * Or use token and store in `localStorage`. No CSRF attack?
 
-## Cross-site scripting (XSS)
-
-Untrusted and unsanitized input.
-
-```
-<div>[Untrusted Data]</div>
-```
-
-OWASP ESAPI is on such encoding.
-
-Input fuzzing?
-ReDoS - Regular Expression Denial of Service
-http://taylor.fausak.me/2013/02/10/redos-regular-expression-denial-of-service/
-
-Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
-
-* [Using CSP with Rails](https://github.com/blog/1477-content-security-policy)
-
 ## Security misconfiguration
 
 ## Sensitive data exposure
-
-## Cross-site request forgery
-
-* [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)
-* [Do I need CSRF token for Ajax?](http://stackoverflow.com/questions/9089909/do-i-need-a-csrf-token-for-jquery-ajax)
-* [CSRF Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet)
-
-You won't have CSRF if you use localstorage for token authentication and refuse to use cookie. If you must use cookie, HTTPS it and use `HttpOnly` so that JavaScript cannot read it.
-
-70 ways to encode `>` :( so you can't always filter out using blacklists.
-
-* DO NOT trust user input
-* DO NOT allow GETs to modify state
-* DO NOT rely on blacklists
-* DO escape and sanitise HTML
-* DO use whitelists or a non-HTML format like Markdown
-* Do generate anti-CSRF tokens and validate them
-* DO validate Referer headers (but people can fake it)
-
 
 ## Unvalidated redirects and forwards
 
 ## Content-Security Policy
 
 Enforced by the browser.
+
+```
+X-Content-Security-Policy: default-src 'self' *.jobline.com.sg
+```

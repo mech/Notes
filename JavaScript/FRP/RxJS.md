@@ -6,6 +6,7 @@ Application is all about "data flow".
 
 * [Rx-book](http://xgrommx.github.io/rx-book/index.html)
 * [Reactive course at Coursera](https://www.coursera.org/course/reactive)
+* [How to debug RxJS code](http://staltz.com/how-to-debug-rxjs-code.html)
 
 We have many PUSH APIs:
 

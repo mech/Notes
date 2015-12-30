@@ -1,9 +1,10 @@
 # Cross-Origin Resource Sharing
 
-JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues.
+JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues. Although JSON-P is useful, it is strictly limited to GET requests. CORS builds on top of XHR to allow developers to make cross-domain requests.
 
 * [CORS for JSON and Rails](http://www.tsheffler.com/blog/2011/02/22/cross-origin-resource-sharing-for-json-and-rails/)
 * [**MDN for CORS**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+* [HTML5 Rocks: Using CORS](http://www.html5rocks.com/en/tutorials/cors/)
 * [Nicholas C.Zakas's explanation of CORS](https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/)
 * [The Same-Origin Saga](https://vimeo.com/54121245)
 * [Origin policy enforcement in modern browser](https://www.youtube.com/watch?v=PbvxtMCUG8U)
@@ -29,6 +30,8 @@ CORS is unique in that it has both a server-side and client-side component.
 ## The Problem
 
 The browser's same-origin policy limit client code (i.e. JavaScript) from making HTTP requests to different origins.
+
+SOP is a Web Application Security Model. It is a policy by a web browser to permit script to access data that are within the same domain.
 
 However, server-side code is not affected. That's why to overcome SAMEORIGIN, people traditionally use server-side proxying.
 
@@ -136,6 +139,9 @@ Only the following **simple headers** are allowed to to cross domain:
 * Content-Type
 
 ### Pre-flight Checks
+
+* [Solving the OPTIONS performance issue](http://www.soasta.com/blog/options-web-performance-with-single-page-applications/)
+* []()
 
 Debug with `chrome://net-internals/#events`
 

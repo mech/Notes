@@ -32,6 +32,8 @@ Notable companies in HR domain.
 
 **http://stacklist.com/tools/human-resources/insperity/**
 
+The Big 3: SalesForce, Oracle HRMS, Workday
+
 * [**Jazz (formerly Resumator)**](https://jazz.co/blog/)
 * [The Resumator Relaunches As Jazz, Aims To Bring Data To The Recruiting Process](http://techcrunch.com/2015/06/23/the-resumator-relaunches-as-jazz-aims-to-bring-data-to-the-recruiting-process/)
 * [JustWorks](https://www.justworks.com/)

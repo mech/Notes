@@ -117,3 +117,7 @@ Without the browser to automatically attach cookie, there will be no CSRF attack
 * [**Don't use BCrypt**](http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html)
 * [Taking password storage up a notch](https://blog.8thlight.com/adam-gooch/2012/11/04/taking-password-storage-up-a-notch.html)
 * [Some best practices for authentication in Ruby on Rails](http://www.fngtps.com/2015/some-best-practices-for-authentication-in-ruby-on-rails/)
+
+## Hack Study
+
+* [How I hacked GitHub again](http://homakov.blogspot.sg/2014/02/how-i-hacked-github-again.html)

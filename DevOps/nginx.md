@@ -75,6 +75,8 @@ The master process reads and executes the nginx configuration, binds the necessa
 
 ## SSL
 
+* [HTTPS Performance Tuning](http://blog.httpwatch.com/2009/01/15/https-performance-tuning/)
+
 To concatenate primary certificate and intermediate certificate:
 
 ```

@@ -9,6 +9,7 @@
 
 ## WebSocket
 
+* [**WebSocket, Caution Required!**](https://discuss.samsaffron.com/t/websockets-caution-required/228)
 * [Rack socket hijacking](http://old.blog.phusion.nl/2013/01/23/the-new-rack-socket-hijacking-api/)
 * [Web Application Messaging Protocol](http://wamp.ws/)
 
