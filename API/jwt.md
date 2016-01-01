@@ -6,6 +6,7 @@
 * [Decode JWT in iOS](http://popdevelop.com/2013/12/decode-json-web-token-jwt-in-ios-objective-c/)
 * [Where to store your JWTs - Cookies vs localStorage](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage/)
 * [Use JWT the Right Way](https://stormpath.com/blog/jwt-the-right-way/)
+* [Discuss JWT at Auth0 Forum](https://ask.auth0.com/c/jwt)
 
 JWT give you a structured and stateless way to declare a user and what they can access (their scope).
 
@@ -40,4 +41,6 @@ But cookies are susceptible to CSRF attacks. To prevent this, you need to synchr
 
 In rails-api, controller do not have layouts, templates rendering, cookies, sessions, flash, assets, etc.
 
-CORS has the `Origin` header. Can that be enough to prevent CSRF?
+CORS has the `Origin` header. Can that be enough to prevent CSRF? Unlikely.
+
+If we use `protect_from_forgery`, Rails will store the token in the session, to which the attacker does not have access.

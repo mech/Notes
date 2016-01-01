@@ -28,6 +28,8 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 
 XSS happen when you have comment box that accept input from others but you did not escape it properly, or it can happen if you are too CMS.
 
+> Preventing XSS with data inserted between HTML elements is very straightforward. On the other hand, preventing XSS with data inserted directly into JavaScript code is considerably more difficult and sometimes impossible.
+
 ```html
 <!-- XSS can happen here, even if you quote it -->
 <div style="background-color: {userSpecifiedColor}"></div>
@@ -38,12 +40,15 @@ XSS happen when you have comment box that accept input from others but you did n
 
 Fixing XSS once and for all - Using CSP
 
+* [AN Introduction to CSP](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)
 * [Towards a Post-XSS world](http://2013.jsconf.eu/speakers/mike-west-towards-a-postxss-world.html)
+* [Postcards from the post-XSS world](http://lcamtuf.coredump.cx/postxss/)
 * [Making CSP work for you](https://www.youtube.com/watch?v=IIcYRiVyOlw)
 * [We're struggling to keep up](https://www.youtube.com/watch?v=mj-U9FlbAl0)
 * [An extensible approach to browser security policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
 * [ember-cli CSP](https://github.com/rwjblue/ember-cli-content-security-policy#options)
 * [Using CSP with Rails](https://github.com/blog/1477-content-security-policy)
+* [XSS prevention through CSP](http://security.stackexchange.com/questions/38001/xss-prevention-through-content-security-policy)
 
 CSP - HTTP header that allows policies such as:
 
@@ -51,6 +56,8 @@ CSP - HTTP header that allows policies such as:
 * No inline scripts for styles
 * Load scripts only from https://trusted.com
 * Enforced by browsers
+* Not a silver bullet. Defence in depth.
+* CSP stops most forms of script injection, but it does not stop markup injection.
 
 Other client-side security mechanisms
 
@@ -80,9 +87,11 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 > A vulnerability that is so easily prevented can lead to absolute mayhem, particularly when bundled with other attacks. Worse still, identifying the attacker is even more difficult as the attack occurs in the context of the authenticated user.
 
 * [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)
+* [Anatomy of a CSRF Attack](http://haacked.com/archive/2009/04/02/anatomy-of-csrf-attack.aspx/)
 * [DEFCON 17: CSRF! Yeah, It Still Works](https://www.youtube.com/watch?v=5Np8PrSctuM)
 * [Do I need CSRF token for Ajax?](http://stackoverflow.com/questions/9089909/do-i-need-a-csrf-token-for-jquery-ajax)
 * [CSRF Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet)
+* [Rails API design without disabling CSRF protection](http://stackoverflow.com/questions/7600347/rails-api-design-without-disabling-csrf-protection)
 
 Any tags which fires a request to an external resource can be used to perform a hidden CSRF attack: `<img>`, `<link>`, `<meta>`, `<embed>`, `<object>`, etc.
 
@@ -115,6 +124,8 @@ window.localStorage.setItem(‘id’,'”><img/src=\”x\”onerror=alert(1)>’
 * Do generate anti-CSRF tokens and validate them
 * DO validate Referrer headers (but people can fake it)
 
+For SPA, when logging in, we need to have true proper anti-CSRF token from `csurf` (Node) or `protect_from_forgery` (Rails).
+
 ### Protection
 
 * [NoScript ABE - Application Boundaries Enforcer](https://noscript.net/abe/)
@@ -125,6 +136,18 @@ window.localStorage.setItem(‘id’,'”><img/src=\”x\”onerror=alert(1)>’
 * Using tokens for actions that store/update/delete mail information. Can be circumvent using XSS.
 * Using `Referrer` or `Origin` check. Can be spoof (Flash). Proxy strips `Origin` header. `<img>` request do not contain `Origin` header.
 * Using CAPTCHAS. UX problem!
+* X-Requested-With? Problematic with CORS since it is not part of simple headers?
+
+```js
+// X-Requested-With header
+// For cross-domain requests, seeing as conditions for a preflight are
+// akin to a jigsaw puzzle, we simply never set it to be sure.
+// (it can always be set on a per-request basis or even using ajaxSetup)
+// For same-domain requests, won't change header if already provided.
+if ( !s.crossDomain && !headers["X-Requested-With"] ) {
+  headers[ "X-Requested-With" ] = "XMLHttpRequest";
+}
+```
 
 ## TLS
 

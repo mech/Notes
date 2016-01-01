@@ -3,7 +3,7 @@
 JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues. Although JSON-P is useful, it is strictly limited to GET requests. CORS builds on top of XHR to allow developers to make cross-domain requests.
 
 * [CORS for JSON and Rails](http://www.tsheffler.com/blog/2011/02/22/cross-origin-resource-sharing-for-json-and-rails/)
-* [**MDN for CORS**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+* [**CORS on MDN**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 * [HTML5 Rocks: Using CORS](http://www.html5rocks.com/en/tutorials/cors/)
 * [Nicholas C.Zakas's explanation of CORS](https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/)
 * [The Same-Origin Saga](https://vimeo.com/54121245)
@@ -141,7 +141,6 @@ Only the following **simple headers** are allowed to to cross domain:
 ### Pre-flight Checks
 
 * [Solving the OPTIONS performance issue](http://www.soasta.com/blog/options-web-performance-with-single-page-applications/)
-* []()
 
 Debug with `chrome://net-internals/#events`
 
@@ -159,6 +158,8 @@ Incoming Headers:
   Access-Control-Request-Method:
   Access-Control-Request-Headers:
 ```
+
+Don't do the preflight dance with `X-Requested-With`. Avoid it!
 
 ### Authorization
 
