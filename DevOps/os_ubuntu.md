@@ -245,6 +245,7 @@ iface eth0 inet static
 
 ```
 ▶ apt-cache search ??
+▶ aptitude search "?name(^bind)"
 ```
 
 When you run `apt-get update`, a list of packages will get downloaded and these files are then stored in `/var/lib/apt/lists/`. You can safely remove the contents of that directory as it is recreated when you refresh the package lists.

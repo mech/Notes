@@ -6,6 +6,8 @@ If you're creating constructor functions and inheriting from them, you haven't l
 
 JavaScript dynamic duo (static type is overrated):
 
+* [**10 Most Recommended JS articles of 2015**](https://medium.com/javascript-scene/10-most-recommended-javascript-scene-articles-of-2015-292be655d6cc#.icygu4pco)
+* [**A special issue looking back at the best of 2015**](http://javascriptweekly.com/issues/264)
 * [**Documentation**](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)
 * [JSFeeds](http://jsfeeds.com/)
 * [**Want to learn JavaScript in 2015?**](https://medium.com/@_cmdv_/i-want-to-learn-javascript-in-2015-e96cd85ad225)
@@ -69,6 +71,7 @@ Closures minimize shared state and side-effects.
 * [Sam Dutton](http://simpl.info/)
 * [Volkan](http://volkan.io/)
 * [Mike Engel](http://mike-engel.com/)
+* [Felix Kling](http://felix-kling.de/)
 
 ## Macros
 

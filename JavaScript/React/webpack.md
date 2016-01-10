@@ -5,6 +5,46 @@ We want to write modular code. But browsers cannot run modularised code, so we n
 Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 
 ```
+npm init -y
+
+npm i webpack --save-dev
+
+npm i file-loader --save-dev
+npm i url-loader --save-dev
+
+npm i css-loader --save-dev
+npm i style-loader --save-dev
+npm i postcss-loader --save-dev
+npm i postcss-cssnext --save-dev
+
+npm i babel-core --save-dev
+npm i babel-loader --save-dev
+
+npm i eslint --save-dev
+npm i eslint-loader --save-dev
+npm i babel-eslint --save-dev
+
+npm i babel-preset-es2015 babel-preset-react --save-dev
+
+npm i babel-plugin-syntax-class-properties --save-dev
+npm i babel-plugin-syntax-decorators --save-dev
+npm i babel-plugin-syntax-object-rest-spread --save-dev
+
+npm i babel-plugin-transform-class-properties --save-dev
+npm i babel-plugin-transform-decorators-legacy --save-dev
+npm i babel-plugin-transform-object-rest-spread --save-dev
+
+npm i babel-plugin-react-transform --save-dev
+npm i react-transform-hmr --save-dev
+
+npm i babel-preset-react-hmre --save-dev
+
+npm i react react-dom --save
+```
+
+OLD
+
+```
 ▶ npm install react --save --save-exact
 ▶ npm install --save normalize.css
 ▶ npm install --save-dev babel-loader # Will add webpack also
@@ -41,6 +81,7 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [react-starterkit](https://github.com/wbkd/react-starterkit)
 * [react-kickstart](https://github.com/vesparny/react-kickstart)
 * [Official Webpack's react-starter](https://github.com/webpack/react-starter)
+* [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack)
 * [webpack_assets](https://github.com/knomedia/webpack_assets)
 * [Browserify vs Webpack JS Drama](http://blog.namangoel.com/browserify-vs-webpack-js-drama)
 * [Browserify for webpack users](https://gist.github.com/substack/68f8d502be42d5cd4942)
@@ -55,6 +96,8 @@ Webpack uses "loaders" to preprocess files while browserify uses "transforms".
 * [**react-bare-bones-starter-kit**](https://github.com/rob-balfre/react-bare-bones-starter-kit)
 * [**react-boilerplate**](https://github.com/mxstbr/react-boilerplate)
 * [Webpack aliases and relative paths](http://xabikos.com/javascript%20module%20bundler/javascript%20dependencies%20management/2015/10/03/webpack-aliases-and-relative-paths.html)
+
+The webpack core can be extended with loaders and plugins.
 
 ## Loaders
 
@@ -75,6 +118,7 @@ The loaders will only kick into action when you try to `require` something that 
 * [react-component-boilerplate](https://github.com/bebraw/react-component-boilerplate)
 * [**starter-kit**](http://unicornstandard.com/packages/boilerplate.html)
 * [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
+* [React+Webpack+Express+Redux](https://github.com/choonkending/react-webpack-node)
 
 ```js
 // Here when you compile the code it will be temporarily saved into build/js folder.
@@ -128,9 +172,11 @@ style!css!sass?includePaths[]=
 
 `style-loader` injects `<style>` tag at runtime so it should not work server-side. You can load CSS as just text and then inject it manually.
 
+If `include` isn't set, Webpack will traverse all files within the base directory. This can hurt performance! It is a good idea to set up `include` always. There's also `exclude` option that may come in handy. Prefer `include`, however.
+
 ## webpack-dev-server
 
-Deprecated? Replaced by Webpack Hot Middleware?
+Deprecated? Replaced by webpack-hot-middleware? webpack-hot-middleware allows you to add hot reloading into an existing server without webpack-dev-server.
 
 A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 
@@ -143,6 +189,7 @@ A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 * [Troubleshooting guide for react-hot-loader issues](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
 * [**react-transform-webpack-hmr**](https://github.com/rackt/redux/pull/690/files)
 
+Without hot loading, the browser essentially refreshes with a flash and loses all states.
 
 ## Feature Flags
 
@@ -165,6 +212,10 @@ webpack -p -d // source-map in production (minified also)
 * [template-html-loader](https://github.com/jtangelder/template-html-loader)
 
 Use `assets-webpack-plugin` to access the JSON stats object.
+
+## Splits and Lazy Loading
+
+Webpack allows you to split bundles in various ways. You can even load them dynamically as your application gets executed. This sort of lazy loading comes in handy for large applications. You can load dependencies as you need them.
 
 ## Webpack with Rails
 

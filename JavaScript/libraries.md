@@ -63,6 +63,8 @@
 * [Clipboard - Copy and paste text](http://zenorocha.github.io/clipboard.js/)
 * [**Pt.js**](https://github.com/williamngan/pt)
 * [Floating label](http://datuhealth.github.io/floating-label/)
+* [Rich Text Editor from Basecamp](https://github.com/basecamp/trix)
+* [Asynchronous flow control with a functional taste to it](https://github.com/bevacqua/contra)
 
 ## Fuzzy Search
 

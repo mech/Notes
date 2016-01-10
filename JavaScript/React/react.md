@@ -365,6 +365,9 @@ React.initializeTouchEvents(true);
 * [A case for JSX](https://medium.com/@thinkfunctional/a-case-for-jsx-73763ee9aa03)
 * [WTF is JSX](https://gist.github.com/developit/da77a4d3bbf365908c8c)
 
+> Angular, Ember and Knockout put "JS" in your HTML.
+React puts "HTML" in your JS.
+
 JSX is the key to React and it's purpose is to build composable tree/hierarchical UI.
 
 **Scale by composition** - Build it small, compose it and scale it big.
@@ -599,6 +602,9 @@ Dirty-checking model can be slow. Virtual DOM is using tree, as we all know, tre
 
 DOM operation is very expensive! Because modifying the DOM will also apply and calculate CSS styles, layouts, etc.
 
+* [Snabbdom](https://github.com/paldepind/snabbdom)
+* [virtual-dom](https://github.com/Matt-Esch/virtual-dom)
+* [Virtual DOM Benchmark](http://vdom-benchmark.github.io/vdom-benchmark/)
 * [A Virtual DOM and diffing algorithm](https://github.com/Matt-Esch/virtual-dom)
 * [Issues/3](https://github.com/Matt-Esch/virtual-dom/issues/3)
 * [Virtual DOM and diffing algorithm](https://gist.github.com/Raynos/8414846)

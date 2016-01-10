@@ -58,3 +58,16 @@ S3 is not a filesystem. It is a key-value store.
 1. IAM policies
 2. Bucket policies
 3. ACLs - Legacy!
+
+## s3cmd and aws-cli
+
+```
+▶ brew install s3cmd
+▶ brew install python
+▶ pip install awscli
+▶ aws configure
+
+▶ aws s3 ls s3://jobline-assets/avatars/ | wc -l
+▶ aws s3 ls --recursive s3://jobline-assets/claims/ | wc -l
+▶ aws s3 ls --recursive s3://jobline-assets/timesheets/ | wc -l
+```

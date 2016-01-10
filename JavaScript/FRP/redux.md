@@ -35,6 +35,8 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 * [Redux interview by Survive.js](http://survivejs.com/blog/redux-interview/)
 * [redux-tutorial](https://github.com/happypoulp/redux-tutorial)
 * [Redux best practices](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.g7ayoa8i6)
+* [redux-thunk - Middleware](https://github.com/gaearon/redux-thunk)
+* [Is Redux too much?](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.qncruotht)
 
 ## Single Store Concept (Root Store?)
 

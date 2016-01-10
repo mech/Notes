@@ -23,10 +23,11 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [SANS Institute](http://www.sans.org/online-security-training/)
 * [metasploit - penetration testing software](http://www.metasploit.com/)
 * [10 Moist Common Web Security Vulnerabilities](http://www.toptal.com/security/10-most-common-web-security-vulnerabilities)
+* [Top 3 biggest mistakes enterprises make in application security](http://www.net-security.org/article.php?id=2362)
 
 ## Cross-Site Scripting (XSS)
 
-XSS happen when you have comment box that accept input from others but you did not escape it properly, or it can happen if you are too CMS.
+XSS happen when you have comment box that accept input from others but you did not escape it properly, or it can happen if you are too into CMS.
 
 > Preventing XSS with data inserted between HTML elements is very straightforward. On the other hand, preventing XSS with data inserted directly into JavaScript code is considerably more difficult and sometimes impossible.
 
@@ -47,17 +48,18 @@ Fixing XSS once and for all - Using CSP
 * [We're struggling to keep up](https://www.youtube.com/watch?v=mj-U9FlbAl0)
 * [An extensible approach to browser security policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
 * [ember-cli CSP](https://github.com/rwjblue/ember-cli-content-security-policy#options)
-* [Using CSP with Rails](https://github.com/blog/1477-content-security-policy)
+* [**Github: Using CSP with Rails**](https://github.com/blog/1477-content-security-policy)
 * [XSS prevention through CSP](http://security.stackexchange.com/questions/38001/xss-prevention-through-content-security-policy)
 
 CSP - HTTP header that allows policies such as:
 
 * No eval and friends
-* No inline scripts for styles
+* No inline scripts and no inline styles
 * Load scripts only from https://trusted.com
 * Enforced by browsers
 * Not a silver bullet. Defence in depth.
 * CSP stops most forms of script injection, but it does not stop markup injection.
+* Use data-xxx attributes for everything
 
 Other client-side security mechanisms
 
@@ -79,6 +81,9 @@ http://taylor.fausak.me/2013/02/10/redos-regular-expression-denial-of-service/
 
 Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 
+### Prevention
+
+* [OWASP's Cheat Sheet](https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet)
 
 ## Cross-Site Request Forgery (CSRF/XSRF)
 
@@ -92,6 +97,8 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 * [Do I need CSRF token for Ajax?](http://stackoverflow.com/questions/9089909/do-i-need-a-csrf-token-for-jquery-ajax)
 * [CSRF Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet)
 * [Rails API design without disabling CSRF protection](http://stackoverflow.com/questions/7600347/rails-api-design-without-disabling-csrf-protection)
+* [Flaw in CSRF Handling in Django and Rails](https://www.djangoproject.com/weblog/2011/feb/08/security/)
+* [Is exposing a session's CSRF-protection token safe?](http://stackoverflow.com/questions/144696/is-exposing-a-sessions-csrf-protection-token-safe)
 
 Any tags which fires a request to an external resource can be used to perform a hidden CSRF attack: `<img>`, `<link>`, `<meta>`, `<embed>`, `<object>`, etc.
 
@@ -126,11 +133,17 @@ window.localStorage.setItem(‘id’,'”><img/src=\”x\”onerror=alert(1)>’
 
 For SPA, when logging in, we need to have true proper anti-CSRF token from `csurf` (Node) or `protect_from_forgery` (Rails).
 
-### Protection
+### Prevention
+
+Most common prevention is to use Synchronizer Token. You can use the same token over again, but it's better to have it be a nonce (i.e. a one-time use token) to prevent Replay Attacks.
+
+It is challenging to do Synchronizer Token in SPA as SPA templates are typically pre-compiled, static pages. Using a "Double Submit Cookie" we can send the token via cookie only for the client to send back that token via `X-Csrf-Token` header to the server. This can sort of defeat CSRF as evil.com will not be able to set custom header for a site at a different URL.
+
+Synchronizer Token only protect against forged `POST` requests. `GET` request is still vulnerable. Just make sure you do not use `GET` requests to modify server state.
 
 * [NoScript ABE - Application Boundaries Enforcer](https://noscript.net/abe/)
 * [Request Policy](https://www.requestpolicy.com/faq.html)
-* Ensure 'safe' HTTP operations, such as `GET`, `HEAD`, and `OPTIONS` cannot be used to alter any server-side state.
+* Ensure 'safe' HTTP operations, such as `GET`, `HEAD`, and `OPTIONS` cannot be used to alter any server-side state. `GET` requests should never modify server state.
 * Ensure 'unsafe' HTTP operations, such as `POST`, `PUT`, `PATCH`, and `DELETE` always require a valid CSRF authenticity token.
 * CSP - Content Security Policy
 * Using tokens for actions that store/update/delete mail information. Can be circumvent using XSS.
@@ -208,8 +221,57 @@ X-Frame-Options: DENY
 
 ## Content-Security Policy
 
+Real world security is usually provided in layers and CSP intends to be only one layer.
+
+CSRF is not the primary focus of CSP, but XSS is!
+
+Will fall back to Same Origin Policy if browsers don't support CSP.
+
+* [CSP Level 2: July 2015](http://www.w3.org/TR/CSP11/)
+* [**Check the headers**](https://securityheaders.io)
+* [**HPKP: HTTP Public Key Pinning**](https://scotthelme.co.uk/hpkp-http-public-key-pinning/)
+* [**Twitter: CSP to the Rescue**](https://blog.twitter.com/2013/csp-to-the-rescue-leveraging-the-browser-for-security)
+* [An Intro to CSP](https://websec.io/2012/10/02/Intro-to-Content-Security-Policy.html)
+* [The Promises of CSP](http://www.novogeek.com/post/The-promises-of-Content-Security-Policy-to-secure-the-web.aspx)
+* [Using CSP to Prevent XSS](http://blog.sendsafely.com/post/42277333593/using-content-security-policy-to-prevent)
+* [CSP Reference](http://content-security-policy.com/)
+* [CSP proposal by Mozilla](https://wiki.mozilla.org/Security/CSP)
+* [ember-cli-content-security-policy](https://github.com/rwjblue/ember-cli-content-security-policy)
+* [Neil Matatall's blog](https://oreoshake.github.io/)
+* [Twitter's CSP Report Collector](https://oreoshake.github.io/csp/twitter/2014/07/25/twitters-csp-report-collector-design.html)
+* [CSP Reporting](https://report-uri.io/)
+
 Enforced by the browser.
 
 ```
 X-Content-Security-Policy: default-src 'self' *.jobline.com.sg
+```
+
+What Response Headers you will generally see:
+
+```
+Content-Encoding: gzip
+
+X-CSRF-Token: K7lk3JRbv9gP/JDx
+
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: default-src https:
+X-Content-Security-Policy: 
+
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+
+Public-Key-Pins
+```
+
+Twitter's CSP example
+
+```
+content-security-policy: default-src https: data:; report-uri https://twitter.com/i/csp_report?a=M5QXUZLCN4%3D%3D%3D%3D%3D%3D&ro=false; img-src https: data: ; script-src https://*.twitter.com https://*.twimg.com https://*.vine.co https://ssl.google-analytics.com https://bat.bing.com 'unsafe-eval' ; font-src https: data: ; frame-src https://* chrome-extension: about: javascript: ; connect-src https: ; media-src https: ; object-src https: ; style-src https:
+
+content-security-policy: default-src https: data:; report-uri https://twitter.com/i/csp_report?a=M5QXUZLCN4%3D%3D%3D%3D%3D%3D&ro=false; img-src https: data: ; script-src https://*.twitter.com https://*.twimg.com https://*.vine.co https://ssl.google-analytics.com https://bat.bing.com 'unsafe-eval' ; font-src https: data: ; frame-src https://* chrome-extension: about: javascript: ; connect-src https: ; media-src https: ; object-src https: ; style-src 'unsafe-inline' https:
 ```

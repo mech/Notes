@@ -17,6 +17,7 @@ Deming Cycle - Plan, Do, Check, Act
 
 Scientific Method - Hypothesize, Experiment, Evaluate
 
+* [**DevOps Bookmarks**](http://www.devopsbookmarks.com/)
 * [Docker engine - A tale of 3 versions](http://blog.tutum.co/2015/07/28/docker-engine-in-tutum-a-tale-of-three-versions/)
 * [**Awesome Docker**](http://getawesomeness.com/get/docker)
 * [**On Docker**](https://medium.com/on-docker)

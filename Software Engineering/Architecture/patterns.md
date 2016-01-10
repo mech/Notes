@@ -8,7 +8,7 @@ Make decisions in the face of incomplete and uncertain knowledge.
 
 > Aware of the consequences and Live with the consequences
 
-* **Traditional layered architecture** - Presentation layer, business layer, persistence layer, database layer, etc. Have separation of concerns. Layer isolation. Service layer is an "open" layer and the rest is "close". Good general purpose architecture. Easy to implement, test and govern. Not very performant like finance or trading applications.
+* **Traditional layered architecture** - Presentation layer, business layer, persistence layer, database layer, etc. Have separation of concerns. Layer isolation. Service layer is an "open" layer and the rest is "close". Good general purpose architecture. Easy to implement, test and govern. Not very performant like finance or trading applications. MVC like Spring, Rails, etc. Separation of concerns.
 * **Event-driven architecture (EDA)** - Event and process. Broker and broker-less (no mediator) topology. Highly de-couple and distributed. You can add and remove processes and great for business that change often! High degree of complexity!
 * **Service-oriented architecture** - Business services (BS). Enterprise services (ES). BS - Message bus - ES. ProcessClaim, ExecuteTrade are all examples of BS. CreateCustomer, CheckCompliance, CalculateQuote is ES, not BS. You don't create customer as a business. addDriver, getInventoryCount are AS (Application services). writeAuditLog, checkUserAccess, writeErrorLog, singleSignOn are all Infrastructure services (IS)
 * **Pipeline architecture** - Pipe and filter. Pipe is one-way, uni-directional only. Point-to-point for high performance. Filter is self-contained and independent and perform one single, very specific task. "producer", "transformer", "tester", and "consumer" filter. Not the same as event-driven architecture! EDA is asynchronous, but pipe is synchronous.
@@ -32,6 +32,8 @@ Semantic interface, anti-corruption in DDD. Mostly at persistence layer.
 * Software architecture - Brain ++
 
 ## Microservices
+
+Build services as capabilities.
 
 > ...surprising effect subtle changes in wording on the Facebook photo violations page eventually encouraged people to admit that they just didn’t like the photo. One of the key findings was the difference between "embarrassing" and "it's embarrassing" - the implication being that the photo is embarrassing, not you. The key enabler for this research? The ability to easily put out subtle changes and measure results, to create multiple versions of behaviors that differ in measurable ways. Facebook eventually saved untold amounts of money in manpower to sort through pictures because their architecture supported incremental, controlled change.
 

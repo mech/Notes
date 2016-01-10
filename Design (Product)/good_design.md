@@ -10,6 +10,10 @@
 >
 > That said, a mouse that can't be charged while in use is definitely not a sign of good design.
 
+---
+
+> Good Design is as little design as possible. Less but Better.
+
 * [**Good Design**](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
 * [Why the best modern design is invisible](http://www.slate.com/blogs/the_eye/2014/12/02/facebook_s_julie_zhuo_on_invisible_design_in_make_your_mark_a_business_book.html)
 * [How Apple is giving design a bad name](https://www.fastcodesign.com/3053406/how-apple-is-giving-design-a-bad-name)

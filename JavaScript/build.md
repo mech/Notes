@@ -23,6 +23,9 @@ People suck at repetitive tasks.
 * [Documentation.js](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)
 * [ES Class Fields & Static Properties](https://github.com/jeffmo/es-class-static-properties-and-fields)
 * [**Babel Plugin Handbook**](https://github.com/thejameskyle/babel-plugin-handbook)
+* [See all the monorepo for Babel packages here](https://github.com/babel/babel/tree/master/packages)
+
+Babel 6 relies on plugins. There are 2 types of plugins: syntax and transform.You use presets to consume plugins. Each preset comes with a set of plugins so you don't have to wire them up separately.
 
 ## Make?
 

@@ -6,6 +6,7 @@ Reactive programming is a programming paradigm which attempts to address this in
 
 Rather than dealing with discrete events, you can think of streams as a continuous flow of data. Streams are first-class values and can be manipulated using all of your usual functional programming tools (e.g. `map`, `reduce`, `filter`, etc). They are also like little garden hoses which can be split, joined, and interleaved.
 
+* [Breaking down FRP](https://blogs.janestreet.com/breaking-down-frp/)
 * [**Ember.js - Functional Programming and the Observer Effect**](https://emberway.io/ember-js-functional-programming-and-the-observer-effect-48901c3b84d7#.apqix8835)
 * [**Hello, declarative world**](http://codon.com/hello-declarative-world)
 * [**Coding with React like a Game Developer**](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)

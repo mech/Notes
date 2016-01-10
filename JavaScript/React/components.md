@@ -25,6 +25,20 @@ By having taken the data out and put all actions elsewhere, your components shou
 * [**Interacting with the DOM**](http://jamesknelson.com/react-js-by-example-interacting-with-the-dom/)
 * [Recompose - A microcomponentization toolkit for React](https://github.com/acdlite/recompose)
 
+```js
+// This is a quick component in file Note.jsx
+import React from 'react'
+export default () => <div>A very simple component</div>
+
+// To use
+<Note />
+
+// Essentially it is just returning a React Element
+export default function() {
+  return <div>A very simple component</div>;
+};
+```
+
 **A good rule of thumb in React is that everything that can be expressed as a component, should be.** Think React-Router and DragDropContext wrapping - [Component vs Mixin](https://github.com/acdlite/flummox/blob/v3.5.1/docs/docs/guides/why-flux-component-is-better-than-flux-mixin.md)
 
 ```js

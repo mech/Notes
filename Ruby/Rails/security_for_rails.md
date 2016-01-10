@@ -4,6 +4,7 @@
 * [OWASP's cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
 * [Sakurity Blog](http://sakurity.com/blog)
 * [Mathias's Blog](https://mathiasbynens.be/)
+* [Prevoty's Blog](http://blog.prevoty.com/)
 * [OWASP Rails Cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
 * [OWASP Singapore Chapter](https://www.owasp.org/index.php/Singapore)
 * [Open Redirect Vulnerability](http://homakov.blogspot.sg/2014/01/evolution-of-open-redirect-vulnerability.html)
@@ -32,6 +33,12 @@
 ▶ cat yob*.txt | cut -d , -f 1 | sort | uniq | awk '{print tolower($0)}' > firstnames.txt
 ▶ cat firstnames.txt | sed -e 's/$/@onemonthsimple.com/' > usernames-onemonthsimple.txt
 ```
+
+## Sanitizer
+
+* [Sanitize: A whitelist-based Ruby HTML sanitizer](http://wonko.com/post/sanitize)
+* `ActionView::Helpers::SanitizeHelper`
+* [The new HTML sanitizer in Rails 4.2](http://blog.plataformatec.com.br/2014/07/the-new-html-sanitizer-in-rails-4-2/)
 
 ## System Commands
 

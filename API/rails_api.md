@@ -120,6 +120,45 @@ end
 * 502 - :bad_gateway
 * 503 - :service_unavailable
 
+```ruby
+# Always use the correct status code. 202 is job accepted for processing, but not yet finished.
+class ReportsController < ApplicationController
+  def create
+    ReportJob.perform_later
+    head 202
+  end
+end
+```
+
+## API Tests
+
+API is not the time nor place to test business logic. You should leave that for Unit Tests.
+
+Test only these 3 things for API:
+
+1. Status Code
+2. Mime Types
+3. Authentication
+
+Requesting endpoints and verifying responses. That's all. Do your business logic testing at Unit Tests.
+
+Use integration test for API testing.
+
+```ruby
+require 'test_helper'
+
+class ListingProjectsTest < ActionDispatch::IntegrationTest
+  setup { host! 'api.example.com' }
+
+  test 'returns list of projects' do
+    get '/projects', {}, { Authorization: "Token token=#{@user.auth_token}" }
+    assert_equal 200, response.status
+    assert_equal Mime::JSON, response.content_type
+    refute_empty response.body
+  end
+end
+```
+
 ## Videos
 
 * [Creating RESTful, Hypermedia-based Microservices](https://www.youtube.com/watch?v=zbeMDM-zDNI)
