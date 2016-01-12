@@ -8,6 +8,7 @@
 * [OWASP Rails Cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
 * [OWASP Singapore Chapter](https://www.owasp.org/index.php/Singapore)
 * [Open Redirect Vulnerability](http://homakov.blogspot.sg/2014/01/evolution-of-open-redirect-vulnerability.html)
+* [Encrypt fields like NRIC and still make it searchable?](http://blog.iempire.ru/2015/12/18/simple-rails-encryption/)
 
 ## Basic Tools
 
@@ -15,7 +16,7 @@
 * [URL Encode/Decode](http://www.url-encode-decode.com/)
 * [Harvest emails](https://github.com/laramies/theHarvester)
 * [OWASP ZAP](https://github.com/zaproxy/zaproxy)
-* [Search Code](https://searchcode.com)
+* [**Search Code**](https://searchcode.com)
 * [Beef: XSS](http://beefproject.com/)
 * Brakeman
 

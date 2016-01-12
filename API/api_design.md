@@ -180,6 +180,8 @@ For example in a HR application for CA, the Leave is a resource representation t
 	
 ## Error Handling
 
+* [Catching invalid JSON parse errors with middleware](https://robots.thoughtbot.com/catching-json-parse-errors-with-custom-middleware)
+
 Everything is distributed and asynchronous. Many potential breaking points! How do you handle it gracefully? Retry? Re-authentication?
 
 # Resources
@@ -217,6 +219,7 @@ Use ISO 8601
 ## snake_case vs camelCase
 
 * [Attribute Names](http://apigee.com/about/blog/technology/restful-api-design-what-about-attribute-names)
+* [**JSON API mapping of camelCase to snake_case**](https://github.com/rails/rails/pull/20389)
 
 Many popular JSON APIs use snake_case. This is mainly due to serialization libraries following naming conventions of the underlying language.
 
@@ -269,6 +272,7 @@ Hypermedia control make sense for pagination.
 * [Pagination done the Postgres Way](https://wiki.postgresql.org/images/3/35/Pagination_Done_the_PostgreSQL_Way.pdf)
 * [Kaminari recipes](https://github.com/amatsuda/kaminari/wiki/Kaminari-recipes)
 * [How does Kaminari paginate?](http://patshaughnessy.net/2011/9/10/how-does-kaminari-paginate)
+* [Using Kaminari to paginate non-AR query](http://blog.iempire.ru/2015/11/08/kaminari-custom-query/)
 
 ```
 ?offset=50&limit=25

@@ -8,6 +8,7 @@
 * [OAuth and JavaScript](http://alexbilbie.com/2014/11/oauth-and-javascript/)
 * [How to do auth with a REST API right?](http://stackoverflow.com/questions/15051712/how-to-do-authentication-with-a-rest-api-right-browser-native-clients)
 * [Building a Stateless Rails API with React](http://fredguest.com/2015/03/06/building-a-stateless-rails-api-with-react-and-twitter-oauth/)
+* [**See the shortcoming part!**](http://emberigniter.com/implementing-authentication-with-ember-services/)
 
 Provider is at https://api.jobline.com.sg/v1. Consumer will be:
 
@@ -90,7 +91,7 @@ curl -X POST -H "Authorization: Bearer ???" -H "Content-Type: application/json;c
 * [How Rails Sessions Work](http://www.justinweiss.com/articles/how-rails-sessions-work/)
 * [Where to store your JWT? Cookies vs Web Storage](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage/)
 * [simple_token_authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
-* [Auth token from Devise](https://gist.github.com/gonzalo-bulnes/7659739). See also [Original gist from Jose Valim](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
+* [**Auth token from Devise**](https://gist.github.com/gonzalo-bulnes/7659739). See also [**Original gist from Jose Valim**](https://gist.github.com/josevalim/fb706b1e933ef01e4fb6)
 
 Token based authentication is stateless. We are not storing any information about our user on the server or in a session (cookie).
 

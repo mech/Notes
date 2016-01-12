@@ -9,6 +9,7 @@ Microservices:
 
 Large software projects stand a slim chance of ever being finished. Build for composability and disposability.
 
+* [**Building a modern bridge between Ember 2 and Rails 5 with JSON API**](http://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/)
 * [Simple Rails APIs with Stitches](http://multithreaded.stitchfix.com/blog/2015/11/04/simple-rails-apis-with-stitches/)
 * [**React + Flux Part 1**](https://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)
 * [**React + Flux Part 2**](https://fancypixel.github.io/blog/2015/01/29/react-plus-flux-backed-by-rails-api-part-2/)
@@ -29,6 +30,12 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [Understanding Rails Authenticity Token](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token?rq=1)
 * [Comply with JSON API specification](https://github.com/cerebris/jsonapi-resources)
 * [Convert to/from camel case and underscores](https://gist.github.com/timruffles/2780508)
+
+```
+▶ curl -H "Content-Type: application/json; charset=utf-8" -d '{"user": {"name":"mech"}}' http://localhost:3000/users
+
+▶ curl -H "Accept: application/json" -H "Content-Type: application/json" 'http://localhost:3000/users' -d '{??}'
+```
 
 ## API Wrapper and Serialisation
 
@@ -68,6 +75,10 @@ With a collapsed single request optimized for client, we pay the price of WAN la
 ## ActiveModel::Serializer
 
 * [Serializer with array](http://stackoverflow.com/questions/17542793/how-do-you-initialize-an-activemodelserializer-class-with-an-activerecordrel)
+* [**jsonapi-resources**](https://github.com/cerebris/jsonapi-resources)
+* [**WIP - Deserializer implementation**](https://github.com/rails-api/active_model_serializers/pull/950)
+
+> Right now AMS can serialize JSON API but can't deserialize it so it won't work correctly. AMS is making progress on that regard and we should be seeing a new version supporting JSON API in both directions soon. - Santiago Pastorino
 
 ```ruby
 class PostSerializer < ActiveModel::Serializer
@@ -76,6 +87,12 @@ class PostSerializer < ActiveModel::Serializer
   attributes :title, :body
 end
 ```
+
+## ParamsParser
+
+* [Mostly remove the ParamsParser middleware](https://github.com/rails/rails/commit/38d2bf5fd1f3e014f2397898d371c339baa627b1)
+
+
 
 ## Sparse Fieldsets
 
