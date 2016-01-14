@@ -1,5 +1,7 @@
 # Express.js
 
+Node has a built in `http` module that allows us to create a server. The problem is that configuration is pretty overwhelming and difficult (memory leaks, etc.). Most people use express.js even there is still a bit of configuration going on, but it has a welcoming API.
+
 * [Production best practices](http://expressjs.com/en/advanced/best-practice-performance.html)
 
 Node.js is a single-threaded event loop. It enqueues and dequeues events. That's all.
@@ -26,6 +28,12 @@ server.listen(app.get('port'), function() {
 });
 ```
 
+## nodemon
+
+```
+npm i -g nodemon
+```
+
 ## Structuring
 
 * [Code structure](https://github.com/focusaurus/express_code_structure)
@@ -42,6 +50,21 @@ module.exports = function(app, express) {
 ```
 
 ## Routes
+
+With Express 4, we can now have more than one router. Think of router as module with its own routing and middleware stack and functionality. The global `app` will still control global middleware and configuration and setup routing for the other routers we make.
+
+Finally, we can have more than one router.
+
+```js
+var app = express();
+var candidateRouter = express.Router();
+
+candidateRouter.get('/profile', function(req, res) {
+  // This will be /ca/profile
+});
+
+app.use('/ca', candidateRouter);
+```
 
 ```js
 // At app.js or server/index.js
@@ -68,6 +91,67 @@ module.exports = function(app) {
 };
 ```
 
+## Request and Response
+
+```js
+res.json()
+res.send() // also convert to JSON
+
+res.status(500).send(error)
+
+req.body // using Fetch API with JSON.stringify body and express will convert the JSON to JavaScript object
+req.params
+```
+
+## Middleware
+
+Express uses middleware to modify and inspect incoming request.
+
+Middleware can run any code, change the request and response objects, end the request-response cycle, and call the next middleware in the stack.
+
+Middleware is an amazingly useful pattern that allows developers to reuse code and share it with others via NPM modules.
+
+```js
+// Mounting by prefixing the middleware
+app.use('/admin', function(req, res, next) {
+  
+  next();
+});
+```
+
+There are 3rd party, router-level, application-level, error-handling and built-in middleware.
+
+```js
+// Error-handling middleware
+app.use(function (err, req, res, next) {});
+```
+
+Nice for handling authentication also. Here, we are using middleware on a route.
+
+```js
+var checkAuth = require('./util/checkauth');
+
+app.get('/users', [checkAuth()], function(req, res) {
+  // Auth is good here
+});
+```
+
+It is sort of like Rails's `before_action`.
+
+```js
+app.all('/ca/*', [isAuthenticated, isCandidate], function(req, res, next) {
+});
+
+app.all('*', function(req, res, next) {
+  if (req.isAuthenticated()) {
+    next();
+  } else {
+    next(new Error(401)); // 401 Unauthorized
+    // Or
+    res.status(401).send({message: 'access denied'});
+  }
+});
+```
 
 ## Security
 
