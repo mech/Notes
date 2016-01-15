@@ -62,6 +62,12 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [How to center in CSS](http://howtocenterincss.com/)
 * [SRP applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
 
+## JS and CSS
+
+* [Please don't use CSS in JS](https://medium.com/@ajsharp/please-please-don-t-use-css-in-js-ffeae26f20f#.n1e0tog7i)
+* [css-modules](https://github.com/css-modules/css-modules)
+* [Khan Academy's aphrodite](https://github.com/khan/aphrodite)
+
 ## Linting
 
 * [CSScomb type ordering](https://github.com/csscomb/csscomb.js/blob/master/config/csscomb.json)

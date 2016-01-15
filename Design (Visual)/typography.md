@@ -6,6 +6,7 @@
 * [**Practical Typography**](http://practicaltypography.com/)
 * [**Free Alternatives**](http://www.typewolf.com/free-alternatives)
 * [**Popular fonts in 2014**](http://www.typewolf.com/blog/most-popular-fonts-of-2014)
+* [**Popular fonts in 2015**](https://www.typewolf.com/blog/most-popular-fonts-of-the-year)
 * [**Fav fonts in 2014**](http://www.typewolf.com/blog/favorite-sites-of-2014)
 * [**Professional Web Typography**](https://prowebtype.com/)
 * [101 quality free fonts](http://www.webdesignerdepot.com/2015/06/101-best-free-logo-fonts/)

@@ -3,6 +3,7 @@
 Node has a built in `http` module that allows us to create a server. The problem is that configuration is pretty overwhelming and difficult (memory leaks, etc.). Most people use express.js even there is still a bit of configuration going on, but it has a welcoming API.
 
 * [Production best practices](http://expressjs.com/en/advanced/best-practice-performance.html)
+* [jshttp - Low-level JavaScript HTTP-related Modules](https://github.com/jshttp)
 
 Node.js is a single-threaded event loop. It enqueues and dequeues events. That's all.
 
@@ -151,6 +152,43 @@ app.all('*', function(req, res, next) {
     res.status(401).send({message: 'access denied'});
   }
 });
+```
+
+Name your function:
+
+```js
+app.use(function forceLiveDomain(req, res, next) {
+  // ...
+  return next();
+});
+```
+
+## Controllers
+
+```js
+var controller = require('./controller');
+
+module.exports.initialize = function(app, router) {
+  router.get('/', controller.index);
+
+  router.get('/login', controller.login);
+  router.post('/login', controller.processLogin);
+
+  router.post('/movies', controller.addMovie);
+
+  app.use('/', router);
+};
+
+// In controller.js
+var request = require('request');
+
+module.exports = {
+  index: function(req, res) {
+  },
+
+  addMovie: function(req, res) {
+  }
+};
 ```
 
 ## Security

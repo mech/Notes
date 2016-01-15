@@ -33,6 +33,8 @@ Design decisions don't live independently of business or engineering goals - the
 
 Rule of Optimization: Prototype before polishing. Get it working before you optimize it.
 
+Prototyping has become an integral part of product design.
+
 * [**Prototyping with Framer**](http://nlevin.com/whitespace/)
 * [Rule of optimization](http://www.faqs.org/docs/artu/ch01s06.html#id2879078)
 * [Composite](http://www.getcomposite.com/)

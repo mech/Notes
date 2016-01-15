@@ -8,6 +8,7 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 
 ## General
 
+* [**Feature Blindness**](http://appcues.com/blog/3-ways-to-cure-feature-blindness-and-blaze-beyond-wow/)
 * [**Longterm UX**](https://medium.com/swlh/longterm-user-experience-ab830deb9380)
 * [OO-UX](http://alistapart.com/article/object-oriented-ux)
 * [1 hour of research saves 10 hours of development time](http://bokardo.com/archives/1-hour-of-research-saves-10-hours-of-development-time/)

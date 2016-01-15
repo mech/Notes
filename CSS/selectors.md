@@ -126,3 +126,10 @@ div.error {
 .flex-car-list li:nth-child(3n+1) {
   clear: both;}
 ```
+
+```css
+:nth-last-child(-n+6):first-child,
+:nth-last-child(-n+6):first-child ~ * {
+  // Styles sibling elements if there are 6 or more of them in quantity
+}
+```

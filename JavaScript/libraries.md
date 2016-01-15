@@ -89,6 +89,7 @@
 * [flickity](http://flickity.metafizzy.co/)
 * [React slideout](https://mango.github.io/slideout/)
 * [ItemSlide.js](http://itemslide.github.io/)
+* [**Clusterize**](https://clusterize.js.org/)
 
 ## Date
 

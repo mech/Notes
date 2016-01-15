@@ -181,6 +181,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Psychology of Numbers in Design](https://blog.growth.supply/the-psychology-of-numbers-in-design-d6a7a011e8b1)
 * [A Behavioral Approach to Product Design](https://medium.com/swlh/a-behavioral-approach-to-product-design-166d22628970#.p1q26a2vq)
 * [The Behavioral Age](https://vimeo.com/120403188)
+* [How UI twist your words](https://medium.com/user-experience-design-1/facebook-and-how-uis-twist-your-words-4ceedc5fd93#.838m03i70)
 
 > Don't listen to user. Observe their behaviors.
 

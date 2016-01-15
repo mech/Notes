@@ -120,6 +120,11 @@ Something to break the ICE:
 * [Replacing the user story with the job story](https://medium.com/the-job-to-be-done/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 * [The most common user story mistake](https://medium.com/@kamil/the-most-common-user-story-mistake-68f1d7dabc43)
 * Job-stories
+* [Clients want the solution, not the service](http://thenuschool.com/clients-want-solution-not-service)
+
+> Clients don't hire a service. Clients hire a solution to their problem.
+
+Users of your app are there to get things done. They build behavior patterns and workflows around the features they really need, and in doing so, start to forget about the others. As they sink into your app, they become feature blind.
 
 ## Prototyping
 

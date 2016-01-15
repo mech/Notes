@@ -36,6 +36,7 @@ grep "info" * -R
 ```
 
 * [**React Style Guide**](https://github.com/pocotan001/react-styleguide-generator)
+* [react-styleguidist](https://github.com/sapegin/react-styleguidist)
 * [**Thinking beyond Scalable CSS - UI Component like React - Nicolas Gallagher**](https://www.youtube.com/watch?v=L8w3v9m6G04)
 * [**Build Scalable, Automated CSS**](https://www.youtube.com/watch?v=Tk_0qYEFtAY)
 * [Think modularly](http://webstandardssherpa.com/reviews/think-modularly/)
