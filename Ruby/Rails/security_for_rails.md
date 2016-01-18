@@ -9,6 +9,7 @@
 * [OWASP Singapore Chapter](https://www.owasp.org/index.php/Singapore)
 * [Open Redirect Vulnerability](http://homakov.blogspot.sg/2014/01/evolution-of-open-redirect-vulnerability.html)
 * [Encrypt fields like NRIC and still make it searchable?](http://blog.iempire.ru/2015/12/18/simple-rails-encryption/)
+* [With new features come new vulnerability](http://homakov.blogspot.sg/2012/06/saferweb-with-new-features-come-new.html)
 
 ## Basic Tools
 

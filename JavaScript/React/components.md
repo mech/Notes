@@ -4,6 +4,7 @@ Remember, components in React are pretty much like functions, you can spit a fun
 
 By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!
 
+* [**Component Brick and Mortar**](https://medium.com/making-internets/component-brick-and-mortar-8bde51899b00#.6mnu551fs)
 * [JavaScript Application Architecture on the road to 2015](https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b#.5tt9t7j05)
 * [**Component is what you should be doing now for modern UI**](http://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/)
 * [**Building React plugins**](https://nylas.com/blog/react-plugins)
@@ -78,9 +79,15 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 
 * Components are just views, don't place business logic in it. For example, in a Todo app, if a button creates a Todo item for each click event, you are doing it wrong. A better way is to ship that code off to another object or Action.
 * A component shouldn't worry about networking.
-* 
+* Composable. Self-contained and stateless. In order to be self-contained, the component cannot rely on any other specific components. But of course it can be and must "composed" of other components.
+* Component should be stateless. Most components should not maintain its own state. Instead it should defer state-management to a parent container sometimes called container components.
+* Container components should not have any styling! Leave it to the presentation components.
+* Don't be clever and pass a giant object which is consumed by a child component.
+* Don't pass in whole collection object, pass in the `fetch` method as prop and call that prop within `componentWillMount` instead. Then you can do spinner at that component instead of knowing when to spin from the parent.
 
-## Controller View
+## Controller View? Container Components? Presentation Components?
+
+* [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005#.ddbg3nt33)
 
 You will often hear React developers refer to controller views - a React component that typically sits at or near the top of a section of the page, which listens to one or more stores for changes in their state. As stores emit change events, the controller view updates with the new state and passes changes down to its children via props.
 
@@ -88,6 +95,10 @@ Controller view must be capable of:
 
 * Publishing actions
 * Listening to stores
+
+Creating a good container components will take you awhile to really get the hang of.
+
+If different parts of your app require fetching a model, create one container component for fetching data, then pass that state down into any number of different presentation components. From there, handle any interactions your user might cause.
 
 ## Lifecycle
 
@@ -159,6 +170,58 @@ React 0.14 switches to [parent-based context](https://github.com/facebook/react/
 **Note**: Lambdas are frequently confused with anonymous functions, closures, first-class functions, and higher-order functions. The concepts are all similar, but they mean different things.
 
 Not all lambdas are closures, and not all closures are lambdas. A closure is created when a function references data that is contained outside the function scope. A lambda is a function that is used as a value.
+
+> HoCs are very similar to higher-order functions. In higher-order functions you pass one function to another function which returns a function. How does that help us? Well, with higher-order components, you pass a component (which as we know is just a function) to another function, which returns a component (again, is just a function).
+
+```js
+// This is a higher-order container component accepting
+// a presentation component which is a pure-function.
+// The container component just handle all the states logic.
+const ContainerHoC = function(PresentationComponent) {
+  return React.createClass({
+    componentDidMount() {
+      const success = (notifications) => {
+        this.setState({ notifications: notifications });
+      };
+
+      $.ajax({ url: '/notifications', success: success });
+    },
+
+    onMarkAsRead(id) {},
+
+    render() {
+      return (
+        <PresentationComponent
+          notification={this.state.notifications}
+          onMarkAsRead={this.onMarkAsRead} />
+      );
+    }
+  });
+}
+
+const Notifications = ContainerHoC(React.createClass({
+  renderNotification({notification}) {
+    const { id, date, message } = notification;
+
+    return (
+      <div>
+        <span>{message} - {date}</span>
+        <button onClick={this.props.onMarkAsRead.bind(null, id)}>Mark as Read</button>
+      </div>
+    );
+  },
+
+  render() {
+    return <div>{this.props.notifications.map(renderNotification)}</div>;
+  }
+}));
+
+const App = React.createClass({
+  render() {
+    return <Notifications />
+  }
+});
+```
 
 ## Render function
 

@@ -1,5 +1,7 @@
 # Node.js
 
+* [**The Future of Node is in Microsoft's Fork**](https://blog.andyet.com/2015/12/31/the-future-of-node-is-microsofts-fork/)
+* [**libuv**](http://libuv.org/)
 * [Node Forward](http://nodeforward.org/)
 * [gremlins.js - Monkey testing](https://github.com/marmelab/gremlins.js)
 * [Node School](http://nodeschool.io/)

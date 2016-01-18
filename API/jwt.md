@@ -1,5 +1,7 @@
 # JWT
 
+Is JWT just a re-implementation of Rails signed cookie?
+
 * [**Using JSON Web Tokens to authenticate JavaScript front-ends on Rails**](http://zacstewart.com/2015/05/14/using-json-web-tokens-to-authenticate-javascript-front-ends-on-rails.html)
 * [Cookie-free authentication with JWT](http://www.toptal.com/web/cookie-free-authentication-with-json-web-tokens-an-example-in-laravel-and-angularjs)
 * [Draft IETF](http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html)

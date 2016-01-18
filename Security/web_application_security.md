@@ -24,6 +24,7 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [metasploit - penetration testing software](http://www.metasploit.com/)
 * [10 Moist Common Web Security Vulnerabilities](http://www.toptal.com/security/10-most-common-web-security-vulnerabilities)
 * [Top 3 biggest mistakes enterprises make in application security](http://www.net-security.org/article.php?id=2362)
+* [**Html5sec**](http://html5sec.org/)
 
 ## Cross-Site Scripting (XSS)
 
@@ -50,6 +51,7 @@ Fixing XSS once and for all - Using CSP
 * [ember-cli CSP](https://github.com/rwjblue/ember-cli-content-security-policy#options)
 * [**Github: Using CSP with Rails**](https://github.com/blog/1477-content-security-policy)
 * [XSS prevention through CSP](http://security.stackexchange.com/questions/38001/xss-prevention-through-content-security-policy)
+* [Ambiguous RFC leads to XSS](http://biasedcoin.com/blog/2012/04/12/ambiguous-RFC-leads-to-cross-site-scripting/)
 
 CSP - HTTP header that allows policies such as:
 
@@ -91,6 +93,8 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 >
 > A vulnerability that is so easily prevented can lead to absolute mayhem, particularly when bundled with other attacks. Worse still, identifying the attacker is even more difficult as the attack occurs in the context of the authenticated user.
 
+* [**BREACH - leaking of information**](http://security.stackexchange.com/questions/43669/with-breach-attack-is-session-based-csrf-token-still-secure)
+* [**Rails issue#22275 - Per-form CSRF Tokens**](https://github.com/rails/rails/pull/22275)
 * [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)
 * [Anatomy of a CSRF Attack](http://haacked.com/archive/2009/04/02/anatomy-of-csrf-attack.aspx/)
 * [DEFCON 17: CSRF! Yeah, It Still Works](https://www.youtube.com/watch?v=5Np8PrSctuM)
@@ -99,6 +103,7 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 * [Rails API design without disabling CSRF protection](http://stackoverflow.com/questions/7600347/rails-api-design-without-disabling-csrf-protection)
 * [Flaw in CSRF Handling in Django and Rails](https://www.djangoproject.com/weblog/2011/feb/08/security/)
 * [Is exposing a session's CSRF-protection token safe?](http://stackoverflow.com/questions/144696/is-exposing-a-sessions-csrf-protection-token-safe)
+* [Caching the uncacheable: CSRF Security](https://www.fastly.com/blog/Caching-the-Uncacheable-CSRF-security)
 
 Any tags which fires a request to an external resource can be used to perform a hidden CSRF attack: `<img>`, `<link>`, `<meta>`, `<embed>`, `<object>`, etc.
 
@@ -162,6 +167,11 @@ if ( !s.crossDomain && !headers["X-Requested-With"] ) {
 }
 ```
 
+Some implementation of CSRF Token can use the same token multiple times in multiple request/response cycle. We can call this session-based CSRF Token. This may be a problem when it comes to such attacks like BREACH. It is recommended to have crypto-nonce to establish token per request/response.
+
+* [Rails adds the token to the session cookie under the `_csrf_token` key](https://github.com/rails/rails/blob/0450642c27af3af35b449208b21695fd55c30f90/actionpack/lib/action_controller/metal/request_forgery_protection.rb#L322)
+* [Learn more about Rails CSRF implementation here](https://github.com/rails/rails/issues/21948)
+
 ## TLS
 
 * [Deploying Diffie-Hellman for TLS](https://weakdh.org/sysadmin.html)
@@ -221,16 +231,21 @@ X-Frame-Options: DENY
 
 ## Content-Security Policy
 
-Real world security is usually provided in layers and CSP intends to be only one layer.
+Real world security is usually provided in layers and CSP intends to be only one layer. It is nothing by a declarative policy operating on browsers that whitelists content sources. CSP is a mitigation or defence-in-depth, not a solution.
 
 CSRF is not the primary focus of CSP, but XSS is!
 
 Will fall back to Same Origin Policy if browsers don't support CSP.
 
+Note: Best to set `default-src` to `none`!
+
+* [**CSP 2015: CSP bypass in a Twitter bug**](https://blog.innerht.ml/csp-2015/)
+* [**CSP The Reality**](https://embedthis.com/blog/posts/content-security-policy/)
 * [CSP Level 2: July 2015](http://www.w3.org/TR/CSP11/)
 * [**Check the headers**](https://securityheaders.io)
 * [**HPKP: HTTP Public Key Pinning**](https://scotthelme.co.uk/hpkp-http-public-key-pinning/)
 * [**Twitter: CSP to the Rescue**](https://blog.twitter.com/2013/csp-to-the-rescue-leveraging-the-browser-for-security)
+* [**Dropbox experience on CSP**](https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/)
 * [An Intro to CSP](https://websec.io/2012/10/02/Intro-to-Content-Security-Policy.html)
 * [The Promises of CSP](http://www.novogeek.com/post/The-promises-of-Content-Security-Policy-to-secure-the-web.aspx)
 * [Using CSP to Prevent XSS](http://blog.sendsafely.com/post/42277333593/using-content-security-policy-to-prevent)
@@ -275,3 +290,13 @@ content-security-policy: default-src https: data:; report-uri https://twitter.co
 
 content-security-policy: default-src https: data:; report-uri https://twitter.com/i/csp_report?a=M5QXUZLCN4%3D%3D%3D%3D%3D%3D&ro=false; img-src https: data: ; script-src https://*.twitter.com https://*.twimg.com https://*.vine.co https://ssl.google-analytics.com https://bat.bing.com 'unsafe-eval' ; font-src https: data: ; frame-src https://* chrome-extension: about: javascript: ; connect-src https: ; media-src https: ; object-src https: ; style-src 'unsafe-inline' https:
 ```
+
+## Subresource Integrity
+
+## Entry Point Regulation
+
+## Blog
+
+* [blog.innerht.ml](https://blog.innerht.ml)
+* [Patrick Toomey](http://biasedcoin.com/)
+* [Egor Homakov](http://homakov.blogspot.sg/)

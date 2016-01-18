@@ -22,3 +22,9 @@ Test the whole stack. Don't do any mocking.
 Rails back-end. Ember front-end.
 
 Integrating test on ember front-end only?
+
+## Examples
+
+* [express](https://github.com/strongloop/express/tree/master/test)
+* [hapi](https://github.com/hapijs/hapi/tree/master/test)
+* [Ghost](https://github.com/TryGhost/Ghost/tree/master/core/test)

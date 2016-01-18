@@ -1,5 +1,7 @@
 # Router
 
+* [**Original router code**](https://gist.github.com/ryanflorence/21ce8cb052eebbe7dac3)
+* [React Router's Future to 2.0](https://medium.com/rackt-and-roll/react-router-s-future-c026c0f2874f#.y0m3xcsbi)
 * [**React Router Changes**](https://github.com/rackt/react-router/pull/1158)
 * [React Router Component - Another solution](http://strml.viewdocs.io/react-router-component)
 * [rrouter - A newer version](https://github.com/andreypopp/rrouter)
@@ -69,6 +71,12 @@ transition.abort();
 
 ## Link
 
+## Code Splitting and Partial Application Loading
+
+* [Welcome to Future of Web App Delivery](https://medium.com/@ryanflorence/welcome-to-future-of-web-application-delivery-9750b7564d9f#.92jy4id68)
+* [example-react-router-server-rendering-lazy-routes](https://github.com/rackt/example-react-router-server-rendering-lazy-routes)
+
+You no need to define your entire route config up front anymore as 1.0 brings first-class support for code-splitting on routes so that adding routes deep in your app doesn't increase the size of the initial bundle.
 
 ## DFA and NFA?
 

@@ -213,9 +213,25 @@ webpack -p -d // source-map in production (minified also)
 
 Use `assets-webpack-plugin` to access the JSON stats object.
 
-## Splits and Lazy Loading
+## Code Splitting and Lazy Loading
+
+* [Welcome to Future of Web App Delivery](https://medium.com/@ryanflorence/welcome-to-future-of-web-application-delivery-9750b7564d9f#.92jy4id68)
 
 Webpack allows you to split bundles in various ways. You can even load them dynamically as your application gets executed. This sort of lazy loading comes in handy for large applications. You can load dependencies as you need them.
+
+```js
+const login = require('./login'); // will be bundled
+
+login(() => {
+  // hints to webpack to split this code out of the bundle
+  // but "ensure" that it is available before the callback runs
+
+  require.ensure([], () => {
+    // webpack will load this dynamically when needed
+    var willNotBeBundled = require('./DashboardPage');
+  });
+});
+```
 
 ## Webpack with Rails
 

@@ -30,6 +30,7 @@ IE9, Opera 12 don't support flexbox.
 * [Harnessing flexbox for today's web app](http://www.smashingmagazine.com/2015/03/02/harnessing-flexbox-for-todays-web-apps/)
 * [Flexbox reference](http://tympanus.net/codrops/css_reference/flexbox/)
 * [Create the perfect website layout system](http://www.creativebloq.com/web-design/create-perfect-website-layout-system-121518553)
+* [Designing a product page layout with Flexbox](https://css-tricks.com/designing-a-product-page-layout-with-flexbox/)
 
 Playground
 

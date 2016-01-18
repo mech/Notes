@@ -26,7 +26,7 @@
 * [Big background video popular on Facebook Paper](https://news.layervault.com/stories/19508-fullscreen-background-html5-video-best-practices)
 * [Detect bandwidth using Networking API](http://www.csskarma.com/blog/detecting-for-bandwidth/)
 * [Application Cache is a douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
-* [Web Field Manual](http://webfieldmanual.com/)
+* [**Web Field Manual**](http://webfieldmanual.com/)
 * [Image sizes for web branding](https://github.com/waako/web-brand-images)
 * [Backbone responsive framework](http://www.cloud-eight.com/github/backbone/)
 * [Pixels are expensive](http://aerotwist.com/blog/pixels-are-expensive/)
@@ -56,6 +56,8 @@
 * [Frontend Folder](https://github.com/dnomak/frontend-folder)
 * [What every frontend developer should know about webpage rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
 * [Frontend Guidelines](https://github.com/bendc/frontend-guidelines)
+* [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [Front-end Developer Employer Questions](https://github.com/komejo/front-end-developer-employer-questions)
 
 ## Accessibility
 
@@ -184,6 +186,7 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [Drop-downs should be the UI of last resort](https://storify.com/lukew/drop-downs-are-the-ui-of-last-resort)
 * [Uploading files in Ajax using `FormData`](http://blog.teamtreehouse.com/uploading-files-ajax)
 * [Inline validation in web forms](http://alistapart.com/article/inline-validation-in-web-forms)
+* [Labelling form elements](http://bitsofco.de/labelling-form-elements/)
 
 ## Content Strategy
 

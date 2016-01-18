@@ -3,7 +3,6 @@
 > When you first start off trying to solve a problem, the first solutions you come up with are very complex, and most people stop there. But if you keep going, and live with the problem and peel more layers of the onion off, you can often times arrive at some very elegant and simple solutions - Steve Jobs
 
 ---
-
 > Beauty is subjective, but design isn't about beauty, it's about function, and you can measure how well something succeeds at its functionality.
 >
 > People tend to conflate well designed things with beautiful things because when something is well designed its purpose and functionality are clear and it has nothing extraneous that detracts from its core essence, and people tend to find that appealing.
@@ -11,8 +10,10 @@
 > That said, a mouse that can't be charged while in use is definitely not a sign of good design.
 
 ---
-
 > Good Design is as little design as possible. Less but Better.
+
+---
+> The poet always has too many words in his vocabulary, a painter too many colours in his palette, a musician too many notes on his keyboard - Jean Cocteau (Less is More)
 
 * [**Good Design**](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
 * [Why the best modern design is invisible](http://www.slate.com/blogs/the_eye/2014/12/02/facebook_s_julie_zhuo_on_invisible_design_in_make_your_mark_a_business_book.html)

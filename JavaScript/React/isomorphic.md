@@ -7,3 +7,13 @@
 * [Rendering React - Server-side](https://www.beaconreader.com/beacon-engineering-blog/rendering-react)
 * [Foundation of Universal JavaScript](https://strongloop.com/strongblog/the-foundations-of-universal-or-isomorphic-javascript/)
 * [From AirBnB](https://github.com/goatslacker/iso)
+
+```js
+// on the server you can render the app to a string
+res.write(ReactDOMServer.renderToString(<App />));
+
+// then the client can pick it up
+ReactDOM.render(<App />, elementTheServerRenderedInto);
+```
+
+* [example-react-router-server-rendering-lazy-routes](https://github.com/rackt/example-react-router-server-rendering-lazy-routes)

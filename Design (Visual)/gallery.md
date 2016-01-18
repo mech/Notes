@@ -68,3 +68,4 @@
 * [Beta pttrns](http://beta.pttrns.com/)
 * [app.itize](http://app.itize.us/)
 * [hoverstat](http://hoverstat.es/)
+* [iosup](http://www.ios.uplabs.com/)

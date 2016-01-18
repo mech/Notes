@@ -69,6 +69,8 @@ Agile + DevOps + Microservices
 
 No shared persistence. Each services use their own mini database.
 
+* [**Microservices Resource Guide by Martin Fowler**](http://martinfowler.com/microservices/)
+* [Microservices by Martin Fowler](http://martinfowler.com/articles/microservices.html)
 * [Microservice - 72 resources](http://blog.arkency.com/2014/07/microservices-72-resources/)
 * [Good resources on Microservices](http://microservices.io/)
 * [Cloud trends - Adrian Cockcroft](https://www.youtube.com/watch?v=VaFktjlLp5M)
