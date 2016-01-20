@@ -39,6 +39,8 @@ server.listen(app.get('port'), function() {
 
 ## Structuring
 
+Instead of having Rails-like controllers, models, helpers folder, we can structure our in a service/feature/resource-oriented way where a feature has its own folder to house all controllers, routers, models, etc. This way if a feature is muted, we can delete that feature only instead of looking through several folders. Express's mini-router encourages this setup.
+
 * [Code structure](https://github.com/focusaurus/express_code_structure)
 * [Or simply use Kraken.js](http://krakenjs.com/)
 * [base-express](https://github.com/terlici/base-express)
@@ -66,6 +68,11 @@ candidateRouter.get('/profile', function(req, res) {
   // This will be /ca/profile
 });
 
+// Can also use route for many verbs
+candidateRouter.route('/profile')
+  .get(function(req, res) {})
+  .delete(function(req, res) {});
+
 app.use('/ca', candidateRouter);
 ```
 
@@ -92,6 +99,25 @@ module.exports = function(app) {
     res.render('login');
   });
 };
+```
+
+```js
+var staffRouter = require('express').Router();
+
+staffRouter.param('id', function(req, res, next, id) {
+  var staff = _.find(staffs, { id: id });
+
+  if (staff) {
+    req.staff = staff;
+    next();
+  } else {
+    res.send();
+  }
+});
+
+staffRouter.get('/:id', function() {});
+
+staffRouter.put();
 ```
 
 ## Request and Response

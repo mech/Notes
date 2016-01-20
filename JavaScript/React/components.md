@@ -85,6 +85,8 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 * Don't be clever and pass a giant object which is consumed by a child component.
 * Don't pass in whole collection object, pass in the `fetch` method as prop and call that prop within `componentWillMount` instead. Then you can do spinner at that component instead of knowing when to spin from the parent.
 
+> Remember, components don't have to emit DOM. They only need to provide composition boundaries between UI concerns.
+
 ## Controller View? Container Components? Presentation Components?
 
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005#.ddbg3nt33)
@@ -99,6 +101,8 @@ Controller view must be capable of:
 Creating a good container components will take you awhile to really get the hang of.
 
 If different parts of your app require fetching a model, create one container component for fetching data, then pass that state down into any number of different presentation components. From there, handle any interactions your user might cause.
+
+Container component separates data-fetching and rendering concerns.
 
 ## Lifecycle
 

@@ -97,10 +97,13 @@ Is bad. Not worth it.
 To find out your build:
 
 ```
+> show dbs
 > use admin
 > db.runCommand("buildInfo")
 > db.runCommand("compact")
 > db.companies.stats()
+> db.createCollection('toys')
+> show collections
 
 > var j = db.users.findOne({"name": "mech"})
 > j.gender = "male"

@@ -62,6 +62,7 @@
 * [Rubberhose - Animation rigging for AE](http://www.battleaxe.co/rubberhose/)
 * [Using multiple class-based CSS transitions to create staged animations](http://dancort.es/web-design/2015/09/10/how-to-css-transition-delay-animation.html)
 * [**Motion UI**](http://zurb.com/playground/motion-ui)
+* [Grab-bag easing equations](https://github.com/mattdesl/eases)
 
 ## Videos
 

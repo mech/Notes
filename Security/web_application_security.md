@@ -52,6 +52,8 @@ Fixing XSS once and for all - Using CSP
 * [**Github: Using CSP with Rails**](https://github.com/blog/1477-content-security-policy)
 * [XSS prevention through CSP](http://security.stackexchange.com/questions/38001/xss-prevention-through-content-security-policy)
 * [Ambiguous RFC leads to XSS](http://biasedcoin.com/blog/2012/04/12/ambiguous-RFC-leads-to-cross-site-scripting/)
+* [XSS concerns in React](https://github.com/facebook/react/issues/3473)
+* [XSS via a spoofed React Element](http://danlec.com/blog/xss-via-a-spoofed-react-element)
 
 CSP - HTTP header that allows policies such as:
 
@@ -294,6 +296,10 @@ content-security-policy: default-src https: data:; report-uri https://twitter.co
 ## Subresource Integrity
 
 ## Entry Point Regulation
+
+## UI Redressing Attack, Clickjacking, IFRAME Overlay
+
+
 
 ## Blog
 

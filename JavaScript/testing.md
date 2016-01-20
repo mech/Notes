@@ -4,6 +4,10 @@
 * [TraceGL](http://badassjs.com/post/48702496345/tracegl-a-javascript-codeflow-visualization-and)
 * [Mock Builder - Save HAR file](https://github.com/jakefeasel/mockbuilder)
 
+## TAP and Tape
+
+* [Guide on Tape](https://ci.testling.com/guide/tape)
+
 ## Test Runners
 
 There are 2 test runners, Karma.js or Venus.js.

@@ -347,6 +347,7 @@ server {
 
 ## Performance and Linux tuning
 
+* [How to optimize Nginx configuration](https://www.digitalocean.com/community/tutorials/how-to-optimize-nginx-configuration)
 * [Some nice benchmark example](https://www.youtube.com/watch?v=FJrs0Ar9asY)
 * [Tuning Nginx for best performance](http://dak1n1.com/blog/12-nginx-performance-tuning/)
 * [Nginx optimization: Understanding TCP_NODELAY and TCP_NOPUSH](https://t37.net/nginx-optimization-understanding-sendfile-tcp_nodelay-and-tcp_nopush.html)

@@ -8,6 +8,7 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 
 ## General
 
+* [**Utility is more important than Usability**](http://www.elezea.com/2016/01/utility-is-more-important-than-usability/)
 * [**Feature Blindness**](http://appcues.com/blog/3-ways-to-cure-feature-blindness-and-blaze-beyond-wow/)
 * [**Longterm UX**](https://medium.com/swlh/longterm-user-experience-ab830deb9380)
 * [OO-UX](http://alistapart.com/article/object-oriented-ux)

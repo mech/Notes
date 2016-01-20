@@ -5,6 +5,16 @@
 * [Scalable maintainable JavaScript](http://www.innoarchitech.com/scalable-maintainable-javascript/)
 * [**Module Best Practices**](https://github.com/mattdesl/module-best-practices)
 
+```js
+// There is difference between exports and module.exports
+
+module.exports = {};
+module.exports = function() {};
+
+exports.mod1 = '';
+exports.mod2 = '';
+```
+
 ## ES6 Module Transpiler
 
 ES6 Module specification has 2 things:

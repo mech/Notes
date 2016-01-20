@@ -313,17 +313,29 @@ gulp.task('scripts', function() {
 
 ## Component - ReactElement
 
+* [ReactNode, ReactElement, ReactFragment, ReactComponent](https://facebook.github.io/react/docs/glossary.html)
+
 In v0.12, you no longer call it as React Component, but rather call it as ReactElement.
 
 React is functional. Components are just like functions. [They take in `props` and `state` and render HTML](http://facebook.github.io/react/docs/displaying-data.html#components-are-just-like-functions).
 
-```
+```js
 f(state, props) = UI Fragment
 
 React.createElement('a', {href: 'http://host'}, 'Hello!')
 
 // In JSX
 <a href="http://host">Hello!</a>
+
+// More examples
+var MyComponent = React.createClass({
+  render() {}
+});
+
+var element = React.createElement(MyComponent);
+
+// MyComponent is ReactComponent and you don't normally instantiate it
+var component = new MyComponent(props); // never do this
 ```
 
 Well-written components don't even need state, so:
@@ -332,7 +344,7 @@ Well-written components don't even need state, so:
 
 This introduces the concept of idempotency and immutability.
 
-```
+```js
 React.renderComponent();   // Deprecated
 React.render();            // Use this
 

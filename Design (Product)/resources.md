@@ -99,6 +99,7 @@ It's not about the product, it's about your users.
 * [Should design learn how to code?](https://medium.com/twenty-years-in-the-valley/one-of-the-biggest-mistakes-i-ve-made-in-my-career-72bf27c538b4)
 * [What it means to be great](http://www.asymco.com/2015/09/29/what-it-means-to-be-great/)
 * [Invisibility, A Designer's Superpower](http://jeremypaul.me/blog/invisibility-a-designers-superpower.html)
+* [Stop making your developers design your product](https://www.bloco.io/blog/2016/stop-making-your-developers-design-your-product)
 
 ## Data-Driven Design
 

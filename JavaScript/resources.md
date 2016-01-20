@@ -6,6 +6,7 @@ If you're creating constructor functions and inheriting from them, you haven't l
 
 JavaScript dynamic duo (static type is overrated):
 
+* [**1 JS Tips Everyday**](https://github.com/loverajoel/jstips)
 * [**10 Most Recommended JS articles of 2015**](https://medium.com/javascript-scene/10-most-recommended-javascript-scene-articles-of-2015-292be655d6cc#.icygu4pco)
 * [**A special issue looking back at the best of 2015**](http://javascriptweekly.com/issues/264)
 * [**Documentation**](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)

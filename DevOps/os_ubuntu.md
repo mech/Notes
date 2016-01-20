@@ -10,6 +10,7 @@
 * [Enter SSH passphrase once](http://askubuntu.com/questions/362280/enter-ssh-passphrase-once)
 
 ```
+▶ grep processor /proc/cpuinfo | wc -l
 ▶ sudo apt-get install htop dstat
 ▶ sudo dmidecode --type memory
 ▶ dstat --top-io --top-bio
