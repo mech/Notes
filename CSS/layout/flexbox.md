@@ -13,11 +13,12 @@ Global = 92%, Unprefixed = 72%
 
 IE9, Opera 12 don't support flexbox.
 
+* [**Flexible Web Design - Classics**](http://www.flexiblewebbook.com/)
 * [**Modern Design Tools: Adaptive Layouts**](https://medium.com/@joshpuckett/modern-design-tools-adaptive-layouts-e236070856e3)
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [**CSS Flexbox**](http://cssflexbox.com/)
 * [**Flexbugs** - Curated list of flexbox issues and workarounds](https://github.com/philipwalton/flexbugs)
-* [**Enhancing responsiveness with flexbox**](https://vimeo.com/124796320)
+* [**Video: Enhancing responsiveness with flexbox**](https://vimeo.com/124796320)
 * [**Using flexbox today**](http://chriswrightdesign.com/experiments/using-flexbox-today/)
 * [Flexbox in 5](http://flexboxin5.com/)
 * [Solved by flexbox](http://philipwalton.github.io/solved-by-flexbox/)
@@ -182,3 +183,4 @@ In IE 10-11, flex items ignore their parent container's height if it's set via t
 ## People
 
 * [Zoe Mickley Gillenwater](http://zomigi.com/blog/)
+* [Rachel Andrew](https://rachelandrew.co.uk/)

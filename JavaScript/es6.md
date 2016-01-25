@@ -53,7 +53,7 @@ console.log(tmp === x); // ReferenceError: tmp is not defined
 
 ## Spread Operator
 
-```
+```js
 [..."abc"] // Will become [ 'a', 'b', 'c' ]
 
 var a = [1, 2, 3];
@@ -70,9 +70,15 @@ var args = [1, 2, 3];
 bar(...args);
 
 function bar(a, ...params) {}
+
+// Spread Properties
+let n = { x, y, ...z }
+n; // { x: 1, y: 2, a: 3, b: 4 }
 ```
 
 ## Destructuring
+
+* [ecmascript-rest-spread](https://github.com/sebmarkbage/ecmascript-rest-spread)
 
 ```js
 // Array destructuring
@@ -84,7 +90,13 @@ let [x, y, ...rest] = ['a', 'b', 'c', 'd']; // rest = ['c', 'd']
 ```
 
 ```js
-let {city: c, state: s} = getAddress();
+let { city: c, state: s } = getAddress();
+
+// Rest Properties
+let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
+x; // 1
+y; // 2
+z; // { a: 3, b: 4 }
 ```
 
 ```js

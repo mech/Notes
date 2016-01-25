@@ -2,6 +2,7 @@
 
 > Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
 
+* [**Motion with Meaning: Semantic Animation in Interface Design**](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design)
 * [**MoJS**](http://mojs.io/)
 * [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97)
 * [Your UI isn't a Disney Movie](https://medium.com/startups-venture-capital/your-ui-isn-t-a-disney-movie-703f7fbd24d2)

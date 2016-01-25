@@ -11,6 +11,11 @@
 * [**A React Router with Hasher?**](https://medium.com/@collardeau/a-react-router-a058a05ded46)
 * [**Passing props with React Router**](http://blog.pavan.io/post/122405568754/passing-props-with-react-router-a-beginners)
 * [**Server-side rendering with React and React Router**](http://ifelse.io/2015/08/27/server-side-rendering-with-react-and-react-router/)
+* [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
+* [React nested router](https://www.youtube.com/watch?v=P6xTa3RRzfA#t=2300)
+* [Dynamically placed outlets vs Ember portal?](https://twitter.com/ryanflorence/status/572992231239372800)
+* [React Router Overview](https://github.com/rackt/react-router/blob/master/docs/guides/overview.md)
+* [Support React 0.13 GitHub issue](https://github.com/rackt/react-router/issues/638)
 
 In React Router, unlike Ember, nested route do not correspond to nested URL. It gives you complete freedom of what your URL look like. Just because you nest a route doesn't mean you need to append a segment to the URL to match.
 

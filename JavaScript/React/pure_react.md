@@ -31,3 +31,5 @@ const list1 = List(['a', 'b']);
 const list2 = list1.push('c');
 list1 === list2; // false
 ```
+
+Immutable or Mori better utilize memory by implementing persistent data structures using structuring sharing.

@@ -1,6 +1,7 @@
 # Selectors
 
 * [Don't use ID in CSS selector?](http://oli.jp/2011/ids/)
+* [CSS 4 Selectors](http://css4-selectors.com/)
 
 Only ever use [selectivizr](http://selectivizr.com/) for IE6-8!
 
@@ -10,8 +11,9 @@ div[id] // select all div with an id attribute
 
 Types of selectors:
 
-* Class
 * Type
+* Class
+* ID
 * Attribute
 * Combinator
 * Descendant
@@ -54,6 +56,8 @@ a[href*='.pdf'] {}
 ```
 
 ## Combinator Selectors
+
+Combinators are character sequences that express a relationship between the selectors on either side of it.
 
 ```
 // Adjacent Sibling Combinator

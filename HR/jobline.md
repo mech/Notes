@@ -1,5 +1,15 @@
 # Jobline's Problem
 
+Make customer WANT and VALUE your product. Bring CLARITY to everything. No out-of-context. Communicate and give context and clarity to the tasks/services you offer.
+
+Transform human capabilities.
+
+Opportunity for impact in HR industry. In the HR, people have jobs to get done.
+
+Faster? But wrong outcome?
+
+Critical success, but business failure.
+
 [Data, not source code. Company workers will change their activities to align with the company data feed.](http://techcrunch.com/2015/12/15/the-golden-age-of-open-source-has-arrived/)
 
 > Amazon owns the service that lets users instantly view, investigate and select products. Uber owns the service that connects people immediately needing a ride to cars that will take them to their destination. What service does your business own, and who and what does it connect? Therein lies the secret to monetization, and ultimately long-term success.
@@ -63,6 +73,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 ## New feature tour
 
+Help people learn and grow. Proactive notification. Prompt people to take action at the right time.
+
+See Facebook's Action You Might Take (AYMT)
+
 * [Headway - To announce new feature](https://headwayapp.co/)
 
 ## Terms
@@ -82,7 +96,9 @@ Ask yourself these:
 2. How does this affect the user?
 3. Why is it better than the alternatives? What set the solution apart so people can agree with you?
 
+## Content Strategy
 
+Work with content strategist to overhaul the taxonomy and information architecture of Jobline.
 
 ## BOTS
 
@@ -380,7 +396,13 @@ Our email template got to be more flexible. What if we need long table? We shoul
 
 We send reminder to approve timesheets for client (approver) and list down the candidate names. If they are like Chris Goh who need to approve 47 candidates, and he only approve 20, our next email reminder will "encourage" him to close it in the last mile by introducing some cute animation? characters? Or we can show checkboxes where those approved candidates will get checked or strike off to let him know he is so close to approving for all.
 
-Email template - Use CodeMirror to enhance template mark-up like `<Candidate Name>` using matchbrackets.js and closebrackets.js.
+Email template - Use CodeMirror to enhance template mark-up like 
+`<Candidate Name>` using matchbrackets.js and closebrackets.js.
+
+## Dashboard
+
+Ask CA what was their objective? Significantly streamline the flow in smart way - See Facebook's business objective. Objective-based design.
+
 
 ## Developer Dashboard
 

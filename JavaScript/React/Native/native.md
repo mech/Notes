@@ -47,6 +47,10 @@ react-native@0.3.1 node_modules/react-native
 
 * [React Native ListView with section headers](http://moduscreate.com/react-native-listview-with-section-headers/)
 
+## Navigator
+
+* [Wrapping React Native Navigator](https://gist.github.com/aphillipo/0583601b0deab1e89dcf)
+
 ## Libraries
 
 * [react-native-camera](https://github.com/lwansbrough/react-native-camera)

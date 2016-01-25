@@ -386,8 +386,23 @@ JSX is the key to React and it's purpose is to build composable tree/hierarchica
 
 Note: In v0.12, no more `/** @jsx React.DOM */`
 
-```
+```js
 <Component /> === React.createElement(Component)
+
+const h = React.createElement;
+
+h('ul', null, [
+  h('li', null, 'Foo'),
+  h('li', null, 'Bar'),
+]);
+
+const ul = React.createFactory('ul');
+const li = React.createFactory('li');
+
+ul(null, [
+  li(null, 'Foo')
+  li(null, 'Bar')
+]);
 ```
 
 Solved cross-site scripting?
@@ -398,7 +413,7 @@ Allow to create composite component. Component is the proper separation of conce
 * [JSX: E4X The Good Parts](http://blog.vjeux.com/2013/javascript/jsx-e4x-the-good-parts.html)
 * [Draft: JSX Specification](http://facebook.github.io/jsx/)
 
-```
+```js
 class HelloMessage extends React.Component {
   tick() {
     this.setState({count: this.state.count + 1});  }
@@ -492,107 +507,6 @@ Refs are a great way to send a message to a particular child instance in a way t
 Refs are automatically destroyed for you. No worrying about memory leaking unless you do something crazy to retain a reference.
 
 Take a moment and think more critically about where `state` should be owned in the component hierarchy.
-
-## React Mount Runtime
-
-## React Router
-
-* [Ryan Florence's and Michael Jackson's brainchild](https://github.com/rackt/react-router)
-* [React nested router](https://www.youtube.com/watch?v=P6xTa3RRzfA#t=2300)
-* [Dynamically placed outlets vs Ember portal?](https://twitter.com/ryanflorence/status/572992231239372800)
-* [React Router Overview](https://github.com/rackt/react-router/blob/master/docs/guides/overview.md)
-* [Support React 0.13 GitHub issue](https://github.com/rackt/react-router/issues/638)
-
-## Flux (CQRS)
-
-Facebook originally build web applications using an MVC architecture. As applications grew in size and complexity development slowed down.
-
-Flux is like a game engine. A single, global dispatcher acts like a event bus to broadcast events and allow other components to registers callbacks to listen for those events.
-
-Because if 2-way data-binding it's not clear how the data flows because it can flow in all directions (including from child components to parents) - this makes it hard to understand the app and understand of impact of model changes in one part of the app on another (seemingly unrelated) part of it.
-
-Tightly coupled method invocations are transformed into loosely coupled data flow by actions.
-
-* Actions - Exports functions that the views can call. Talks to the servers. Builds payloads and sends them to the Dispatcher.
-* Dispatcher - Takes a payload from the Actions. Passes payload to Stores via registered callbacks.
-* Stores - Application state changes here. Takes payloads from Dispatcher and updates state. Tells anyone that cares (likely Views) when it has changed.
-
-Similar issues for Ember:
-
-```
-this.set('controllers.foo.something', 'lol');
-this.set('parentView.something', 'lol');
-
-// No computed properties and observer?
-// So data flow in one direction? How?
-userIsOldEnough: function() {
-  return this.get('user.age') == this.get('minAge');}.property('user.age', 'minAge'),
-
-doSomething: function() {
-  // stuff}.observes('userIsOldEnough');
-```
-
-Like the CSS cascade, if you change some data somewhere in the app, predicting what will happen gets more and more impossible.
-
-```
-// Using Facebook own Dispatcher library
-var AppDispatcher = new Dispatcher();
-```
-
-Some example from [London React Meetup](https://www.youtube.com/watch?v=3wcouW5lXto)
-
-```
-// TopBarComponent.jsx
-SearchActions.search(query, that.state.hdOnly? 'high' : 'any');
-
-// SearchActions.js
-search: function(q, videoDef) {
-  AppDispatcher.handleViewAction({
-    actionType: Constants.QUERY,
-    response: {
-      query: q    }  });
-  
-  Api.searchForVideos(q, videoDef);}
-
-// Api.js
-searchForVideos: function(q, videoDef) {
-  var key = Constants.SEARCH_SUCCESS;
-  
-  request
-    .get('https://www/googleapis.com/youtube/v3/search')
-    (...)
-    .end(function() {
-      dispatch(key, {items: response.body.items});    });}
-	
-// SearchStore.js
-AppDispatcher.register(function() {
-  var action = payload.action;
-  
-  switch(action.actionType) {
-    case Constants.SEARCH_SUCCESS:
-      searchReturned(action.response.items);
-      SearchStore.emitChange();  }});
-```
-
-* [Fluxible](http://fluxible.io/quick-start.html)
-* [Flocks.js](https://github.com/StoneCypher/flocks.js)
-* [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
-* [Flux for stupid people](http://blog.andrewray.me/flux-for-stupid-people/)
-* [Reflux data flow model?](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
-* [Getting to know flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
-* [Simple data flow in React apps using Flux and Backbone](http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone)
-* [NuclearMail - An example app with Flux architecture](https://github.com/ianobermiller/nuclearmail)
-* [Firefox Hello Desktop](https://blog.mozilla.org/standard8/2015/02/09/firefox-hello-desktop-behind-the-scenes-flux-and-react/)
-* [Avoiding event chains in SPA](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
-* [RxFlux](https://github.com/fdecampredon/rx-flux)
-* [The case for Flux](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
-* [Learn React and Flux](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
-
-## Relay
-
-Replacement for Flux?
-
-* [Unofficial Relay FAQ](https://gist.github.com/wincent/598fa75e22bdfa44cf47?)
 
 ## Composition (Composable)
 

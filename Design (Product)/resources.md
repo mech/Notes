@@ -8,6 +8,7 @@ It's not about the product, it's about your users.
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [**Facebook Business Design Principles**](https://medium.com/elegant-tools/facebook-s-four-business-design-principles-for-crafting-elegant-tools-581a7055dee8#.mtpdbunz9)
 * [**Design Thinking come of age**](https://hbr.org/2015/09/design-thinking-comes-of-age)
 * [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)
 * [**Platform stack**](http://platformed.info/platform-stack/)
@@ -100,6 +101,16 @@ It's not about the product, it's about your users.
 * [What it means to be great](http://www.asymco.com/2015/09/29/what-it-means-to-be-great/)
 * [Invisibility, A Designer's Superpower](http://jeremypaul.me/blog/invisibility-a-designers-superpower.html)
 * [Stop making your developers design your product](https://www.bloco.io/blog/2016/stop-making-your-developers-design-your-product)
+
+## Company Design Blog
+
+* [IBM Design](http://www.ibm.com/design)
+* [Facebook Design](https://medium.com/facebook-design)
+* [Microsoft Design](https://www.microsoft.com/en-us/design/)
+* [Twitter Design](https://blog.twitter.com/design)
+* [Google Design](https://design.google.com/)
+* [AirBnB Designairs](http://designairs.com/)
+* [Uber design](https://www.uber.com/design)
 
 ## Data-Driven Design
 

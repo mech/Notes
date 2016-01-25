@@ -95,6 +95,11 @@
 30. Making something look simple is easy; making something simple to use is much harder.
 31. One cannot not communicate. Therefore there is no such thing as a neutral design. Everything has a voice.
 32. [Empathy in Design - See the world in perspective](https://www.youtube.com/watch?v=8jrogFRt8fE)
+33. Good design well crafted.
+34. Good design is vision of the end experience. Clear, high design expectations across organization. Shared understanding of what needs to be done. Priority and commitment.
+35. Technologies enabled, design established.
+36. We are what we repeatedly do. Excellence, therefore, is not an act, but a habit.
+37. Don't try to own the experience. Let the community own it! 
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

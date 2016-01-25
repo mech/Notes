@@ -21,6 +21,10 @@ We are looking at some filter of the total data set.
 
 Pre-compute query result. May be costly!
 
+## Aggregated Fields
+
+* [How to leverage Aggregated fields to solve common search requirements with Search API](https://www.codeenigma.com/build/blog/drupal-and-search-api-unleash-power-aggregated-fields)
+
 # Design
 
 Search is a journey. Search is an exploration. The journey itself may be more important than the destination. Either you are exploring or you know precisely and exactly what you want to find.

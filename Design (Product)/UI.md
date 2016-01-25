@@ -54,6 +54,9 @@
 * Creating focus
 * Isolates modes
 * Detailed & actionable
+* Don't risk oversimplification.
+* Be accurate and predictable
+* Use progressive disclosure (esp. for expert user)
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

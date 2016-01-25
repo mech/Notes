@@ -1,4 +1,4 @@
-# Flux
+# Flux (CQRS)
 
 **How to deal with data?** This is really up to you.
 
@@ -8,6 +8,88 @@
 
 > In order to keep modules decoupled from each other, it's helpful to think of events as reports of what has happened, rather than commands for what should happen next. Other modules can listen for the events they care about and decide what to do next on their own.
 
+Facebook originally build web applications using an MVC architecture. As applications grew in size and complexity development slowed down.
+
+Flux is like a game engine. A single, global dispatcher acts like a event bus to broadcast events and allow other components to registers callbacks to listen for those events.
+
+Because if 2-way data-binding it's not clear how the data flows because it can flow in all directions (including from child components to parents) - this makes it hard to understand the app and understand of impact of model changes in one part of the app on another (seemingly unrelated) part of it.
+
+Tightly coupled method invocations are transformed into loosely coupled data flow by actions.
+
+* Actions - Exports functions that the views can call. Talks to the servers. Builds payloads and sends them to the Dispatcher.
+* Dispatcher - Takes a payload from the Actions. Passes payload to Stores via registered callbacks.
+* Stores - Application state changes here. Takes payloads from Dispatcher and updates state. Tells anyone that cares (likely Views) when it has changed.
+
+Similar issues for Ember:
+
+```
+this.set('controllers.foo.something', 'lol');
+this.set('parentView.something', 'lol');
+
+// No computed properties and observer?
+// So data flow in one direction? How?
+userIsOldEnough: function() {
+  return this.get('user.age') == this.get('minAge');}.property('user.age', 'minAge'),
+
+doSomething: function() {
+  // stuff}.observes('userIsOldEnough');
+```
+
+Like the CSS cascade, if you change some data somewhere in the app, predicting what will happen gets more and more impossible.
+
+```
+// Using Facebook own Dispatcher library
+var AppDispatcher = new Dispatcher();
+```
+
+Some example from [London React Meetup](https://www.youtube.com/watch?v=3wcouW5lXto)
+
+```
+// TopBarComponent.jsx
+SearchActions.search(query, that.state.hdOnly? 'high' : 'any');
+
+// SearchActions.js
+search: function(q, videoDef) {
+  AppDispatcher.handleViewAction({
+    actionType: Constants.QUERY,
+    response: {
+      query: q    }  });
+  
+  Api.searchForVideos(q, videoDef);}
+
+// Api.js
+searchForVideos: function(q, videoDef) {
+  var key = Constants.SEARCH_SUCCESS;
+  
+  request
+    .get('https://www/googleapis.com/youtube/v3/search')
+    (...)
+    .end(function() {
+      dispatch(key, {items: response.body.items});    });}
+	
+// SearchStore.js
+AppDispatcher.register(function() {
+  var action = payload.action;
+  
+  switch(action.actionType) {
+    case Constants.SEARCH_SUCCESS:
+      searchReturned(action.response.items);
+      SearchStore.emitChange();  }});
+```
+
+* [Fluxible](http://fluxible.io/quick-start.html)
+* [Flocks.js](https://github.com/StoneCypher/flocks.js)
+* [Relieving Backbone Pain with Flux and React](http://dev.hubspot.com/blog/moving-backbone-to-flux-react)
+* [Flux for stupid people](http://blog.andrewray.me/flux-for-stupid-people/)
+* [Reflux data flow model?](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
+* [Getting to know flux](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
+* [Simple data flow in React apps using Flux and Backbone](http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone)
+* [NuclearMail - An example app with Flux architecture](https://github.com/ianobermiller/nuclearmail)
+* [Firefox Hello Desktop](https://blog.mozilla.org/standard8/2015/02/09/firefox-hello-desktop-behind-the-scenes-flux-and-react/)
+* [Avoiding event chains in SPA](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
+* [RxFlux](https://github.com/fdecampredon/rx-flux)
+* [The case for Flux](https://medium.com/@dan_abramov/the-case-for-flux-379b7d1982c6)
+* [Learn React and Flux](https://www.youtube.com/watch?v=Pd6Ub7Ju2RM)
 * [Beyond the to-do app: Writing complex apps using Flux](https://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
 * [**A cartoon guide to Flux**](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207#.i8mmjizk3)
 * [**React+Flux can do in just 137 lines what jQuery can do in 10**](http://swizec.com/blog/reactflux-can-do-in-just-137-lines-what-jquery-can-do-in-10/swizec/6740)
@@ -159,7 +241,12 @@ Caching, invalidation, optimistic updates, aggregation, pagination and a lot of 
 
 Flux opens up a lot of possibilities such as recording and replaying UI state just by re-dispatching serialised *actions*.
 
+## Problem with Facebook's Flux
 
+* Multiple stores, sharing states between stores, `waitFor`, circular dependencies, etc. Can be solved with single state tree like Baobab or Redux.
+* Async operations?
+* Verbose
+* Immutability
 
 ## Authentication with Flux
 

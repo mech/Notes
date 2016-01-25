@@ -18,7 +18,6 @@ Relay is a GraphQL client library for React.
 * [GraphQL overview](https://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
 * [Your first GraphQL Server?](https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2)
 * [GraphQL and REST](http://blog.startifact.com/posts/graphql-and-rest.html)
-* []()
 
 ---
 
@@ -45,6 +44,17 @@ Relay is a GraphQL client library for React.
 Does that mean REST is dead. Not really because lots of companies invested heavily on REST APIs.
 
 GraphQL queries go to GraphQL server where it can source from database queries or other REST servers. It can essentially acts as an intelligent proxy.
+
+---
+See Om Next approach on changing a state tree to a graph one, sort of like GraphQL and Falcor.
+
+> The tree is really a graph
+
+A single state tree (i.e. Baobab) can be easily navigated by a cursor. However, visited different branch of a tree prove tedious.
+
+With graph, you can sort of visit anywhere you like! Query let you navigate the graph of your data in all sorts of directions.
+
+Your data is a graph, but what your UI sees is a tree.
 
 ### GraphQL Core
 

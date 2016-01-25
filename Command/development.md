@@ -2,6 +2,10 @@
 
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
 
+See surrounding lines
+
+`cat production.log | grep S6414 -C 10`
+
 `rails new cp -T -d postgresql -B`
 
 `grep "alert" * -R`

@@ -1,5 +1,9 @@
 # Components
 
+> Any Cycle.js app can be reused as a component in a larger Cycle.js app.
+
+Cycle.js treat every component as a mini-program of its own. We should also do that in React. Every React component we built, we should treat it as our `main()` program!
+
 Remember, components in React are pretty much like functions, you can spit a function into many and compose or combine in any way you want.
 
 By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!

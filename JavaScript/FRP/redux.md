@@ -10,6 +10,10 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 (state, action) => state
 ```
 
+Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
+
+* [**Why React/Redux is an inferior paradigm**](http://staltz.com/why-react-redux-is-an-inferior-paradigm.html)
+* [**Why we use Om, and why we're excited for Om Next**](http://blog.circleci.com/why-we-use-om-and-why-were-excited-for-om-next/)
 * [**Awesome Redux Course Note**](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
 * [**Flux vs Single State Tree**](http://www.christianalfoni.com/articles/2015_11_16_Flux-vs-Single-State-Tree)
 * [Interview with Dan Abramov](http://softwareengineeringdaily.com/2015/09/18/flux-redux-and-react-hot-loader-with-dan-abramov/)
@@ -38,13 +42,26 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 * [redux-thunk - Middleware](https://github.com/gaearon/redux-thunk)
 * [Is Redux too much?](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.qncruotht)
 
-## Single Store Concept (Root Store?)
+## Single Store Tree (Root Store?)
 
 You App need to hold states. Where should you "store" it? Redux and Flux both has the "Store" concept where states are resided.
 	
-## Single State Tree
+Redux has single state tree.
+
+State === Model
 
 * [Umbrella: Externalize the State Tree (or alternatives)](https://github.com/facebook/react/issues/4595)
+
+See Om Next approach on changing a state tree to a graph one, sort of like GraphQL and Falcor.
+
+> The tree is really a graph
+
+A single state tree (i.e. Baobab) can be easily navigated by a cursor. However, visited different branch of a tree prove tedious.
+
+With graph, you can sort of visit anywhere you like! Query let you navigate the graph of your data in all sorts of directions.
+
+Your data is a graph, but what your UI sees is a tree.
+
 
 ## Middleware
 
@@ -59,5 +76,44 @@ Intercept action.
 Action is just plain JS object:
 
 ```js
-{ type: 'INCREMENT' }
+{ type: 'TAKE_LEAVES', leaves: [{}, {}] }
 ```
+
+Actions are like newspaper, reporting on something has happened in the world.
+
+Actions are the change in your app. Actions represent mutations of your app state. Explicit, easy to find the places that could trigger a particular action, I can search for it.
+
+In Cycle, it is `intent()` which interpret DOM events as user's intended actions:
+
+```js
+// intent() is Cycle.js's way of Action
+// It's input is the DOM source where the UI world is at
+// It has 2 observables here that interpret 2 DOM events
+function intent(DOM) {
+  return {
+    changeWeight$: DOM.select('#weight').events('input').map(ev => ev.target.value),
+    changeHeight$: DOM.select('#height').events('input').map(ev => ev.target.value)
+  };
+}
+```
+
+## Reducer
+
+* [Issue#328 - Cost of immutability](https://github.com/rackt/redux/issues/328)
+* [Issue#758 - Why can't state be mutated?](https://github.com/rackt/redux/issues/758)
+
+Where the action happen. Where the mutation occurs. In Flux, it is called the STORE. In Redux, it is just a pure function called REDUCER.
+
+Redux assumes you never mutate your data. Since it is JavaScript, it can only assume. With Elm, it is enforced!
+
+> Finally, nothing per se prevents you from mutating your Redux state tree. It is actively discouraged, and you will lose a lot of debugging benefits if you mutate your data, but for performance critical pieces you can write impure reducers that mutate the state in place. (Only do that if you're sure that's where the lag comes from—not likely to be an issue in real apps.)
+
+## I/O, Effects, Async
+
+* [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
+* [From actions creators to sagas](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
+
+Async action creators are suboptimal.
+
+Sync state transition??
+
