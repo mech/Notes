@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+> Easiness is a recipe for crappy design
+
 Make customer WANT and VALUE your product. Bring CLARITY to everything. No out-of-context. Communicate and give context and clarity to the tasks/services you offer.
 
 Transform human capabilities.
@@ -324,6 +326,8 @@ Have a concept of a "Account Holder" and their own CRM.
 ## Payroll
 
 ZenPayroll's Platform team, where we build automated systems to detect fraud and make sure people get paid in full, on time.
+
+* [MOM mandatory itemised payslip in 2016](http://www.aghrm.com/index.php?x=events&id=16)
 
 ## Accrual
 

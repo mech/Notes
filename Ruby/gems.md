@@ -18,6 +18,7 @@
 * [accepts_nested_ids](https://github.com/uberllama/accepts_nested_ids)
 * [**Queue using NSQ**](https://github.com/wistia/nsq-ruby)
 * [Facets](https://github.com/rubyworks/facets)
+* [simple_command](https://github.com/nebulab/simple_command)
 
 ## Required Gems in new project
 

@@ -1,5 +1,7 @@
 # Falcor
 
+> Most data is not a tree.
+
 > The specs for JSON Graph and JSON-LD have some overlap, and likewise Falcor has some overlap with the JSON-LD implementations. How do Falcor and JSON Graph relate to JSON-LD? It appears to me they are very similar, except Falcor requires more changes to the backend server but also provides more control over data shape and caching than is currently provided by JSON-LD framing.
 
 * [The future of web development - React, Falcor, and ES6](http://engineering.widen.com/blog/future-of-the-web-react-falcor/)

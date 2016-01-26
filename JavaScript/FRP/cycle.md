@@ -1,5 +1,7 @@
 # Cycle
 
+* [Unidirectional UI Architectures](http://staltz.com/unidirectional-user-interface-architectures.html)
+
 ## Dataflow Component
 
 > Any Cycle.js app can be reused as a component in a larger Cycle.js app.

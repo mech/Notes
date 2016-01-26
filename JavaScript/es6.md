@@ -17,6 +17,7 @@
 * [Function Bind](https://github.com/zenparsing/es-function-bind)
 * [Elegant React with ES6](https://www.youtube.com/watch?v=GzChMXy-Es0)
 * [Functions without "function"](https://medium.com/@ryanflorence/functions-without-function-bc356ed34a2f#.pi6gbh2r3)
+* [super() considered hmmm-ful](http://raganwald.com/2015/12/23/super-considered-hmmmful.html)
 
 `indexOf` uses Strict Equality Comparison. See SameValueZero comparison.
 
@@ -133,7 +134,15 @@ var six = [1, 2, 3].reduce((sum, n) => {
 ## Decorators
 
 * [Exploring ES2016 Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
+* [Real Mixins with JavaScript Classes](http://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/)
+* [Using ES.later Decorators as Mixins](http://raganwald.com/2015/06/26/decorators-in-es7.html)
+* [Method Advice](http://raganwald.com/2015/08/05/method-advice.html)
+* [mixwith.js](https://github.com/justinfagnani/mixwith.js)
+* [Command Pattern](http://raganwald.com/2016/01/19/command-pattern.html)
 
+Mixin is just metaobject?
+
+Mixin application should create a new class (metaclass) by composing existing ones.
 
 ## Iterators
 

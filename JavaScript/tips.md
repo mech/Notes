@@ -2,6 +2,7 @@
 
 * [Drops](https://kickdrop.me/drops)
 * [Nice tips](http://arqex.com/939/learning-much-javascript-one-line-code)
+* [**JS Tips**](http://www.jstips.co/)
 
 ```
 // querySelectorAll return a NodeList, an array-like list

@@ -1,5 +1,7 @@
 # Elm
 
+* [Starting with Elm](http://www.romanzolotarev.com/elm/)
+
 Immutable and stateless function is the only game in town.
 
 Functional HTML. You don't manipulate DOM directly.

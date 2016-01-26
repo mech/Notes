@@ -73,6 +73,7 @@ Closures minimize shared state and side-effects.
 * [Volkan](http://volkan.io/)
 * [Mike Engel](http://mike-engel.com/)
 * [Felix Kling](http://felix-kling.de/)
+* [Justin Fagnani](http://justinfagnani.com/)
 
 ## Macros
 

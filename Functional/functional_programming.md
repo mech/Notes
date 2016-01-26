@@ -22,6 +22,8 @@ We're still stuck with mostly "von Neumann" style languages that talk about stat
 * [Functional is not procedural](http://thesmithfam.org/blog/2010/01/05/functional-is-not-procedural/)
 * [Understanding the difference between procedural and functional](http://stackoverflow.com/questions/5226055/truly-understanding-the-difference-between-procedural-and-functional)
 * [Why the debate on OO vs Functional is all about composition](http://zeroturnaround.com/rebellabs/why-the-debate-on-object-oriented-vs-functional-programming-is-all-about-composition/)
+* [Don't be scare of FP](https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/)
+* [Julia Lang](http://julialang.org/)
 
 ## Videos
 

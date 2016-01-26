@@ -1,5 +1,9 @@
 # Components
 
+UI are fundamentally tree. Dealing with REST endpoint introduces complexity. Whatever comes out from that endpoint is typically not in the shape my UI expected.
+
+UI components should define what they need. Use a recursive description (JSON, EDN, Transit, etc). Falcor, JSON Graph.
+
 > Any Cycle.js app can be reused as a component in a larger Cycle.js app.
 
 Cycle.js treat every component as a mini-program of its own. We should also do that in React. Every React component we built, we should treat it as our `main()` program!
@@ -12,9 +16,6 @@ By having taken the data out and put all actions elsewhere, your components shou
 * [JavaScript Application Architecture on the road to 2015](https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b#.5tt9t7j05)
 * [**Component is what you should be doing now for modern UI**](http://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/)
 * [**Building React plugins**](https://nylas.com/blog/react-plugins)
-* [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
-* [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
-* [JSX, a year in](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
 * [Composition](https://medium.com/dev-channel/javascript-application-architecture-on-the-road-to-2015-d8125811101b)
 * [Some component example from Eric Elliott](https://gist.github.com/ericelliott/7e05747b891673eb704b#file-react-reusable-component-md)
 * [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
@@ -94,6 +95,9 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 ## Controller View? Container Components? Presentation Components?
 
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005#.ddbg3nt33)
+* [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+* [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
+* [JSX, a year in](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
 
 You will often hear React developers refer to controller views - a React component that typically sits at or near the top of a section of the page, which listens to one or more stores for changes in their state. As stores emit change events, the controller view updates with the new state and passes changes down to its children via props.
 
@@ -106,7 +110,9 @@ Creating a good container components will take you awhile to really get the hang
 
 If different parts of your app require fetching a model, create one container component for fetching data, then pass that state down into any number of different presentation components. From there, handle any interactions your user might cause.
 
-Container component separates data-fetching and rendering concerns.
+Container component separates data-fetching and rendering concerns. Or components can't be concerned with both presentation and data-fetching.
+
+> If you decide to split your components into Data Component and Presentational Component, you might as well write functional stateless components.
 
 ## Lifecycle
 
@@ -375,4 +381,27 @@ $.fn.react = function(component, props) {
   );};
 
 $('body').react(TodoList, {items: ['Get milk']});
+```
+
+## Examples
+
+```js
+class link { // No need extends?
+  render() {
+    var className = this.props.highlighted ? 'highlight' : '';
+    var children = this.props.children;
+    
+    return (
+      <a
+        className={'link-button ' + className}
+        href={this.props.href}
+        rel="prefetch">
+        {children}
+      </a>
+    );
+  }
+}
+
+// Use it as
+<Link highlighted />
 ```

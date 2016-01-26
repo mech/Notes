@@ -40,6 +40,8 @@ Large software projects stand a slim chance of ever being finished. Build for co
 ## API Wrapper and Serialisation
 
 * [Ruby API wrapper using Virtus](http://www.nickdesteffen.com/blog/ruby-api-wrapper-using-virtus-and-typhoeus)
+* [transit-ruby - Better than JSON. From Cognitect.](https://github.com/cognitect/transit-ruby)
+* [MessagePack - It's like JSON but fast and small](http://msgpack.org/)
 
 
 ## Rails ORM/ActiveModel attributes

@@ -64,6 +64,7 @@ OLD
 ▶ npm install --save camelize
 ```
 
+* [**Reduce your bundle.js file size**](https://lacke.mn/reduce-your-bundle-js-file-size/)
 * [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
 * [**A new Webpack boilerplate with hot reloading**](https://github.com/gaearon/react-transform-boilerplate)
 * [**Very nice component library setup**](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
@@ -197,10 +198,25 @@ Without hot loading, the browser essentially refreshes with a flash and loses al
 
 ## Production
 
+* [Tree-shaking with Webpack 2 and Babel 6](http://www.2ality.com/2015/12/webpack-tree-shaking.html)
+
 Run uglify dead-code elimination.
 
 ```
 webpack -p -d // source-map in production (minified also)
+```
+
+Especially with lodash or moment.js:
+
+```js
+// Don't do this
+import { concat, sortBy, map, sample } from 'lodash';
+
+// Instead, require individually
+import concat from 'lodash/concat';
+import sortBy from 'lodash/sortBy';
+import map from 'lodash/map';
+import sample from 'lodash/sample';
 ```
 
 ## HTML Hash Injection
