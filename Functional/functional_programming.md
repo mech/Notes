@@ -6,6 +6,47 @@ We're still stuck with mostly "von Neumann" style languages that talk about stat
 
 > Functional units of small size are key to evolvable code. This makes for a fine grained "code sand" which can be brought into ever changing shapes.
 
+## Recursion and Loop
+
+If we are not allowed to use for-loop, how are we going to access every item in a list. Say hello to your new friend, recursion!
+
+```js
+// Notice we're accepting two values, the list and the current total
+function totalForArray(currentTotal, arr) {
+  
+  currentTotal += arr[0]; 
+
+  // Note to experienced JavaScript programmers, I'm not using Array.shift on 
+  // purpose because we're treating arrays as if they are immutable.
+  var remainingList = arr.slice(1);
+
+  // This function calls itself with the remainder of the list, and the 
+  // current value of the currentTotal variable
+  if(remainingList.length > 0) {
+    return totalForArray(currentTotal, remainingList); 
+  }
+  
+  // Unless of course the list is empty, in which case we can just return
+  // the currentTotal value.
+  else {
+    return currentTotal;
+  }
+}
+```
+
+Another example of async by hand:
+
+```js
+var fs = require('fs');process.chdir('recipes'); // change the working directory
+var concatenation = '';fs.readdir('.', function(err, filenames) {
+  if (err) throw err;  function readFileAt(i) {    var filename = filenames[i];
+    fs.stat(filename, function(err, stats) {      if (err) throw err;      if (! stats.isFile()) return readFileAt(i + 1);      
+      fs.readFile(filename, 'utf8', function(err, text) {
+        if (err) throw err;        concatenation += text;        if (i + 1 === filenames.length) {          // all files read, display the output          return console.log(concatenation);
+        }        readFileAt(i + 1);      });    });
+  }  readFileAt(0);});
+```
+
 ## Programming Paradigms - Styles
 
 * Unstructured - Assembly languages, linear sequence of instructions interrupted with occasional jump.

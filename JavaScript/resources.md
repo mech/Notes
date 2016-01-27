@@ -61,6 +61,13 @@ Closures minimize shared state and side-effects.
 ## V8
 
 * [Optimization killers](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers)
+* [Is JavaScript guaranteed to be single-threaded?](http://stackoverflow.com/questions/2734025/is-javascript-guaranteed-to-be-single-threaded/2734311#2734311)
+* [The JavaScript Event Loop](https://thomashunter.name/blog/the-javascript-event-loop-presentation/)
+* [The JavaScript Event Loop Explained](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+* [What is JavaScript Event Loop?](http://altitudelabs.com/blog/what-is-the-javascript-event-loop/)
+* [Video: What the heck is the event loop anyway?](http://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html)
+
+JavaScript engine. JavaScript queue. Actual OS events.
 
 ## People
 

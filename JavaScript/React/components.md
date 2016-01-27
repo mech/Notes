@@ -114,6 +114,17 @@ Container component separates data-fetching and rendering concerns. Or component
 
 > If you decide to split your components into Data Component and Presentational Component, you might as well write functional stateless components.
 
+```js
+// Pure function
+function App({ items }) {
+  return (
+    <ul>
+      {items.map(item => <li>{item}</li>)}
+    </ul>
+  );
+}
+```
+
 ## Lifecycle
 
 * [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
@@ -341,8 +352,9 @@ Data binding is a hack around re-rendering.
 * [react-pagify](http://bebraw.github.io/react-pagify/)
 * [react-paginate](https://github.com/eliseumds/react-paginate)
 
-### D3
+### D3 or just Victory.js
 
+* [**Victory.js**](https://github.com/FormidableLabs/victory)
 * [d-Threeact](http://blog.siftscience.com/blog/2015/4/6/d-threeact-how-sift-science-made-d3-react-besties)
 * [Integrating D3.js visualizations in a React app](http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/)
 * [Scalable Data Visualization](https://www.youtube.com/watch?v=2ii1lEkIv1s)

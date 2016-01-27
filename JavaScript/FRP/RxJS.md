@@ -1,5 +1,7 @@
 # RxJS
 
+> Treating events as collections and manipulating sets of events with "operators"
+
 Few applications are completely synchronous, and writing async code is necessary to keep applications responsive.
 
 Application is all about "data flow".
@@ -8,21 +10,25 @@ Application is all about "data flow".
 * [Reactive course at Coursera](https://www.coursera.org/course/reactive)
 * [How to debug RxJS code](http://staltz.com/how-to-debug-rxjs-code.html)
 * [Thoughts on RxJS: It is overkill?](https://medium.com/@BrianDiPalma/thoughts-on-rxjs-cf3562e20d74#.euhg705ok)
+* [RxJS vs Async.js](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/mapping/async/comparing.md)
+* [Slide](https://github.com/npm/slide-flow-control)
+* [Step](https://github.com/creationix/step)
 
 We have many PUSH APIs:
 
-* DOM
-* Websockets
+* DOM events
+* WebSockets
 * Node Streams
 * Service Workers
 * Server-Sent Events
-* XHR
+* XHR (1 value, good for Promises)
 * setInterval
+* Animation (Cancellable)
 
 Each has their own way of dealing with asynchronous data like:
 
 * Callback functions - callback hell, poor concurrency
-* Promises - only ever yield a single value, not good for recurring events
+* Promises - only ever yield a single value, not good for recurring events. Can't be cancelled?
 * Event emitters
 
 > What does SQL, spreadsheet has in common with Reactive system?
@@ -38,6 +44,8 @@ Imagine every variable is a stream. To get it, you need to figure out where it c
 No need for external state tracking. No need to cleanup after yourself either.
 
 ## Observables
+
+Note: Observables and Event Emitters are just different variations on the Observer design pattern.
 
 * [Lifted Observable?](https://github.com/ReactiveX/RxJS/issues/60)
 
@@ -108,6 +116,8 @@ myObservable.subscribe(success, error, complete);
 
 * [Docs for Operators](https://github.com/Reactive-Extensions/RxJS/tree/master/doc/api/core/operators)
 
+Operators are methods on `Observable` that allow you to compose new observables.
+
 In RxJS, methods that transform (map) or query sequences are called operators.
 
 `create` and `fromEvent` are all creation operators. They create Observables for common sources.
@@ -119,6 +129,10 @@ Observables are immutable, and every operator applied to them creates a new Obse
 * `filter`
 * `reduce`
 * `catch`
+
+## Schedulers
+
+
 
 # Videos
 

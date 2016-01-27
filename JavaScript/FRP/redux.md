@@ -1,5 +1,15 @@
 # Redux
 
+To give a bit of perspective on complex front-end application, let's consider Google Docs. Every time a user presses a key, a number of things need to happen (doing them all before returning to the event queue would be a recipe for an unresponsive app):
+
+* the new character has to be displayed on the screen
+* the caret has to be moved
+* the action has to be pushed to the local undo history
+* spell-check may have to run
+* word count and page count may need to be updated
+
+We want to use **distributed events**, where a single incident can trigger reactions throughout our application. Event emitter is how you can distribute events.
+
 > Data dominates. Data Structures, not algorithms, are central to programming - Rob Pike
 
 Flux == Unidirectional data flow with changes described as plain objects.
@@ -78,7 +88,7 @@ With graph, you can sort of visit anywhere you like! Query let you navigate the 
 
 Your data is a graph, but what your UI sees is a tree.
 
-**Shape of your data**
+**Shape of your application state**
 
 It's a good idea to think of its shape of your data. Typically we need to store data as well as UI state.
 
@@ -113,6 +123,49 @@ function intent(DOM) {
 ```
 
 Action don't do anything. It don't mutate states. It only describe something has happen and ask Reducer to go deal with it.
+
+### Action Creators
+
+Action creators are just function that create action.
+
+```js
+// This is a simple synchronous dispatch. The UI will render immediately!!
+dispatch({
+  type: ADD_ITEM,
+  status: 'start',
+  name: 'James'
+})
+
+// This is a asynchronous dispatch.
+function addItem(name) {
+  return dispatch => {
+    dispatch({
+      type: ADD_ITEM,
+      status: 'start',
+      name: name
+    });
+
+    setTimeout(() => { // Just a fake XHR request
+      dispatch({
+        type: ADD_ITEM,
+        status: 'finish',
+        name: name
+      });
+    }, 100);
+  }
+}
+
+// Or using some other promise middleware
+const { PROMISE } = require('<promise-middleware>');
+
+function addItem(name) {
+  return {
+    type: ADD_ITEM,
+    name: name,
+    [PROMISE]: api.addItem(name)
+  }
+}
+```
 
 ## Reducer
 

@@ -1,5 +1,25 @@
 # Async and Promises
 
+To give a bit of perspective on complex front-end application, let's consider Google Docs. Every time a user presses a key, a number of things need to happen (doing them all before returning to the event queue would be a recipe for an unresponsive app):
+
+* the new character has to be displayed on the screen
+* the caret has to be moved
+* the action has to be pushed to the local undo history
+* spell-check may have to run
+* word count and page count may need to be updated
+
+We want to use **distributed events**, where a single incident can trigger reactions throughout our application. Event emitter is how you can distribute events.
+
+* Distributing events - Event emitter
+* Single task - Promises
+* Iteration and flow control - Async.js and RxJS. Essentially an Underscore.js for async code.
+
+**What problem does Async.js or RxJS solves?** We want to read I/O which is async operation and predictable construct result back in an orderly fashion. For example reading a DIR of text file and construct a concatenated string in an orderly way. If we read the file synchronously, we can use normal array's `filter`, `map` to construct the final concatenated string, but that will be terribly inefficient.
+
+---
+
+A Promise is an object that represents a task with 2 possible outcomes (success or failure).
+
 A promise is a proxy for a value from another time or place. The promise interface allows us to interact with that value consistently, regardless of whether the value comes from the past or the future, whether that value is near by or far away, or even if the value is demonstrably unavailable.
 
 User uncertainty. Promises is not for async only. It is good to model user flow also. API for all your async.
@@ -9,6 +29,7 @@ Promises is write-once. Once it is resolved, it cannot be resolved again. But fo
 The point of promises:
 
 * Eventual value
+* Stackable callbacks (`.then().then()`)
 * Implicit exception propagation
 * Control flow correspondence
 * Decoupling space and time
@@ -37,16 +58,21 @@ The point of promises:
 * [Generators are like Arrays](https://gist.github.com/jkrems/04a2b34fb9893e4c2b5c)
 * [**We have a problem with Promises**](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 * [Asynchronous control flow in JavaScript](http://dparise.svbtle.com/asynchronous-control-flow-in-javascript)
+* [Debugging async callbacks](http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/)
+
+
+## Deferred vs Promises
+
+A Deferred is a superset of Promise with one critical addition: you can trigger a Deferred directly. A pure Promise only lets you add more callbacks; someone else has to trigger them.
 
 ![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
 
-```
+```js
 // Composition with promises - Parallelism
 $Q.all([step1, step2, step3]).then(step4);
 ```
 
-
-```
+```js
 function getProfileImage(username) {
   var promise = new Promise();
   var image = new Image();
@@ -65,7 +91,7 @@ function getProfileImage(username) {
 
 Using generator with promises
 
-```
+```js
 var FS = require('q-io/fs');
 var readJsonPromise = Q.async(function *(path) {
   var text = yield FS.read(path);
@@ -101,7 +127,7 @@ var readJsonWithNodebacks = function(path, nodeback) {
 
 Nested promises
 
-```
+```js
 return getUsername()
 .then(function(username) {
   return getUser(username);
@@ -120,7 +146,7 @@ return getUsername()
 
 ES6
 
-```
+```js
 import {denodeify} from 'rsvp'
 module fs from 'fs'
 
@@ -165,7 +191,7 @@ RX:
 
 [Adding even more fun to functional programming with RXJS](http://www.youtube.com/watch?v=8EExNfm0gt4)
 
-```
+```js
 var keyups = Observable.fromEvent(searchInput, 'keypress');
 
 var searchResultsSets = keyups
