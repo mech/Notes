@@ -6,6 +6,7 @@ If you're creating constructor functions and inheriting from them, you haven't l
 
 JavaScript dynamic duo (static type is overrated):
 
+* [Captain Obvious on JavaScript](https://github.com/raganwald-deprecated/homoiconic/blob/master/2012/01/captain-obvious-on-javascript.md)
 * [**1 JS Tips Everyday**](https://github.com/loverajoel/jstips)
 * [**10 Most Recommended JS articles of 2015**](https://medium.com/javascript-scene/10-most-recommended-javascript-scene-articles-of-2015-292be655d6cc#.icygu4pco)
 * [**A special issue looking back at the best of 2015**](http://javascriptweekly.com/issues/264)
@@ -39,6 +40,7 @@ JavaScript dynamic duo (static type is overrated):
 * [Avoid forEach](http://aeflash.com/2014-11/avoid-foreach.html)
 * [7 essential JavaScript functions](http://davidwalsh.name/essential-javascript-functions)
 * [Signup autocompletion with Gravatar](https://cloudup.com/blog/signup-autocompletion-with-gravatar)
+* [Global eval. What are the options?](http://perfectionkills.com/global-eval-what-are-the-options/)
 
 ## Design Patterns
 
@@ -81,6 +83,7 @@ JavaScript engine. JavaScript queue. Actual OS events.
 * [Mike Engel](http://mike-engel.com/)
 * [Felix Kling](http://felix-kling.de/)
 * [Justin Fagnani](http://justinfagnani.com/)
+* [kangax](http://perfectionkills.com/)
 
 ## Macros
 

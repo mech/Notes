@@ -1,6 +1,7 @@
 # Cycle
 
 * [Unidirectional UI Architectures](http://staltz.com/unidirectional-user-interface-architectures.html)
+* [Node server with Rx and Cycle.js](https://glebbahmutov.com/blog/node-server-with-rx-and-cycle/)
 
 ## Dataflow Component
 

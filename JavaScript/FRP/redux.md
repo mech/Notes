@@ -24,6 +24,7 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
 
+* [A simple way to route with Redux](http://jlongster.com/A-Simple-Way-to-Route-with-Redux)
 * [**Nothing new in React and Flux**](http://staltz.com/nothing-new-in-react-and-flux-except-one-thing.html)
 * [**Why React/Redux is an inferior paradigm**](http://staltz.com/why-react-redux-is-an-inferior-paradigm.html)
 * [**Why we use Om, and why we're excited for Om Next**](http://blog.circleci.com/why-we-use-om-and-why-were-excited-for-om-next/)
@@ -188,6 +189,8 @@ Redux assumes you never mutate your data. Since it is JavaScript, it can only as
 
 ## Middleware
 
+* [Understanding Redux middleware](https://medium.com/@meagle/understanding-87566abcfb7a#.pv692to4s)
+
 Intercept action. Middleware transforms async actions before they reach the reducer. This is so that reducer will not have to deal with non-pure functional operations.
 
 ## Selector and Memoization
@@ -195,7 +198,8 @@ Intercept action. Middleware transforms async actions before they reach the redu
 ## I/O, Effects, Async
 
 * [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
-* [From actions creators to sagas](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
+* [**From actions creators to sagas**](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
+* [Why do we need middleware for async flow in Redux?](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34623840#34623840)
 
 Async action creators are suboptimal.
 

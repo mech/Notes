@@ -66,7 +66,6 @@ OLD
 
 * [**Reduce your bundle.js file size**](https://lacke.mn/reduce-your-bundle-js-file-size/)
 * [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
-* [**A new Webpack boilerplate with hot reloading**](https://github.com/gaearon/react-transform-boilerplate)
 * [**Very nice component library setup**](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
 * [**Backend Apps with Webpack**](http://jlongster.com/Backend-Apps-with-Webpack--Part-I)
 * [**Survive JS**](http://survivejs.com/)
@@ -100,6 +99,17 @@ OLD
 
 The webpack core can be extended with loaders and plugins.
 
+## Starter Kit, Boilerplate
+
+* [react-for-hipsters-boilerplate](https://github.com/chicoxyzzy/react-for-hipsters-boilerplate/)
+* [A modern React starter pack based on webpack](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
+* [React+Webpack+Express+Redux](https://github.com/choonkending/react-webpack-node)
+* [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
+* [Ultimate hot reloading example](https://github.com/glenjamin/ultimate-hot-reloading-example)
+* [react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
+* [webpack-express-boilerplate](https://github.com/christianalfoni/webpack-express-boilerplate)
+
+
 ## Loaders
 
 The loaders will only kick into action when you try to `require` something that match the `test` patterns.
@@ -118,8 +128,6 @@ The loaders will only kick into action when you try to `require` something that 
 * [react-way-getting-started](https://github.com/RisingStack/react-way-getting-started)
 * [react-component-boilerplate](https://github.com/bebraw/react-component-boilerplate)
 * [**starter-kit**](http://unicornstandard.com/packages/boilerplate.html)
-* [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
-* [React+Webpack+Express+Redux](https://github.com/choonkending/react-webpack-node)
 
 ```js
 // Here when you compile the code it will be temporarily saved into build/js folder.
@@ -148,6 +156,8 @@ Webpack is mainly a JavaScript-bundler. Its "native" language is JavaScript and 
 * [React: CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
 * [JSS](https://github.com/jsstyles/jss)
 * [See issues#31 for Sass import statement](https://github.com/jtangelder/sass-loader/issues/31)
+* [Please don't use CSS in JS](https://medium.com/@ajsharp/please-please-don-t-use-css-in-js-ffeae26f20f#.n1e0tog7i)
+* [Khan Academy's aphrodite](https://github.com/khan/aphrodite)
 
 You divide your modules by folders and include both CSS and JavaScript files in those folders. See `entry`.
 
@@ -188,9 +198,21 @@ A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 * [Don't trigger module reloading when there were errors generating the bundle](https://github.com/webpack/webpack-dev-server/issues/42)
 * [**You need to do module.hot at main entry file**](https://github.com/christianalfoni/react-webpack-cookbook/wiki/Hot-loading-components)
 * [Troubleshooting guide for react-hot-loader issues](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
-* [**react-transform-webpack-hmr**](https://github.com/rackt/redux/pull/690/files)
+* [**react-transform-hmr** -- or just use babel-preset-react-hmr](https://github.com/rackt/redux/pull/690/files)
 
 Without hot loading, the browser essentially refreshes with a flash and loses all states.
+
+If you have this problem:
+
+`GET http://localhost:3000/__webpack_hmr net::ERR_INCOMPLETE_CHUNKED_ENCODING`
+
+It means you cannot use `nodemon` to restart server and have HMR working.
+
+If you get this error:
+
+`Uncaught (in promise) Error: Aborted because 167 is not accepted(…)`
+
+It means you are editing the root component.
 
 ## Feature Flags
 
@@ -226,12 +248,14 @@ import sample from 'lodash/sample';
 * [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin)
 * [html-loader](https://github.com/webpack/html-loader)
 * [template-html-loader](https://github.com/jtangelder/template-html-loader)
+* [Long term caching for vendor files](https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.78z201x62)
 
 Use `assets-webpack-plugin` to access the JSON stats object.
 
 ## Code Splitting and Lazy Loading
 
 * [Welcome to Future of Web App Delivery](https://medium.com/@ryanflorence/welcome-to-future-of-web-application-delivery-9750b7564d9f#.92jy4id68)
+* [Official example of code splitting and multiple entry points](https://github.com/webpack/webpack/tree/master/examples/multiple-entry-points)
 
 Webpack allows you to split bundles in various ways. You can even load them dynamically as your application gets executed. This sort of lazy loading comes in handy for large applications. You can load dependencies as you need them.
 

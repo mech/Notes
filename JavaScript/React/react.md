@@ -95,6 +95,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
 * Domain-specific components are "containers" and atomic components are "components"
+* [**CSS Modules**](http://glenmaddern.com/articles/css-modules)
 
 ```js
 { this.state.show && 'This is Shown' }

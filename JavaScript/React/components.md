@@ -114,8 +114,11 @@ Container component separates data-fetching and rendering concerns. Or component
 
 > If you decide to split your components into Data Component and Presentational Component, you might as well write functional stateless components.
 
+## Pure Functions
+
+* [babel-plugin-react-pure-components](https://github.com/thejameskyle/babel-plugin-react-pure-components)
+
 ```js
-// Pure function
 function App({ items }) {
   return (
     <ul>
@@ -125,9 +128,29 @@ function App({ items }) {
 }
 ```
 
+```js
+export default function Light(props) {
+  const { light, toggleLight, id } = props
+  const status = light.state.on ? 'one' : 'off'
+
+  return (
+    <div>
+      {light.name}
+      <button onClick={() => toggleLight({ ...light, id })}>
+        {status}
+      </button>
+    </div>
+  )
+}
+```
+
 ## Lifecycle
 
 * [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
+
+### Initialization
+
+`defaultProps`
 
 ### componentDidMount
 

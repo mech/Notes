@@ -36,6 +36,7 @@ grep "success" * -R
 grep "info" * -R 
 ```
 
+* [**Smarter CSS build with Webpack**](http://bensmithett.com/smarter-css-builds-with-webpack/)
 * [**React Style Guide**](https://github.com/pocotan001/react-styleguide-generator)
 * [react-styleguidist](https://github.com/sapegin/react-styleguidist)
 * [**Thinking beyond Scalable CSS - UI Component like React - Nicolas Gallagher**](https://www.youtube.com/watch?v=L8w3v9m6G04)
@@ -52,7 +53,6 @@ grep "info" * -R
 * [**Atomic Design**](https://vimeo.com/109130093)
 * [**Front-end Dev Guidelines**](http://tech.tmw.co.uk/code/TMW-frontend-guidelines/)
 * [**What we would change about Rizzo**](http://ianfeather.co.uk/what-we-would-change-about-rizzo/)
-* [Semantic UI](http://semantic-ui.com/)
 * [Yelp style guide](http://www.yelp.com.sg/styleguide)
 * [Apple iOS styleguide, sort of.](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857)
 * [CSS framework vs UI toolkit](https://vimeo.com/95734680)
@@ -108,6 +108,7 @@ grep "info" * -R
 * [Bugsnag CSS](https://bugsnag.com/blog/bugsnags-css-architecture)
 * [Github's Primer](http://primercss.io/)
 * [Google Style Guide](https://github.com/google/styleguide)
+* [Brainly](https://github.com/brainly/style-guide)
 
 ## Playbook
 
@@ -137,6 +138,8 @@ grep "info" * -R
 * [Topcoat](http://topcoat.io/)
 * [Pure](http://purecss.io/)
 * [Bootflat](http://bootflat.github.io/documentation.html)
+* [Semantic UI](http://semantic-ui.com/)
+* [Tachyons](http://tachyons.io/)
 
 ## Architecture
 

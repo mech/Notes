@@ -133,9 +133,14 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 
 ## BEM
 
-* Block - The declaration of independence.
-* Element (sub-component) - Element cannot exist outside of its parent block's context. Detachable elements should become blocks instead.
-* Modifier (sub-module) - A modifier is a property of a block or element that alters its look or behavior.
+* **Block** - The declaration of independence. Independent entity, or component of an application. A block can be either simple or compound (containing other blocks).
+* **Element (sub-component)** - Part of a block that performs a certain function. Element cannot exist outside of its parent block's context. Detachable elements should become blocks instead.
+* **Modifier (sub-module)** - A modifier is a property of a block or element that alters its look or behavior. Modifier us used when we want to add a particular attribute/property/variant that will change our block or element.
+* **Container** - is a compound block, which can contain other blocks. The basic container defines "holes" (placeholders) where other blocks can be put.
+* **Hole** - is a thin wrapper for a block used for changing position, offset, paddings and alignment of the contained components.
+
+---
+
 * [CSSWizardry introducing BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 * [multiple classes vs `@extend`](http://bensmithett.com/bem-modifiers-multiple-classes-vs-extend/)
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)
@@ -203,7 +208,14 @@ You can use `avatar` elsewhere, but `profile__image` belongs to the `profile` co
 <div class="box profile">
   <img class="avatar profile__image" />
 </div>
-```## Dave Shea's Argon
+```
+
+## CSS Modules
+
+* [CSS Modules](http://glenmaddern.com/articles/css-modules)
+* [ICSS](http://glenmaddern.com/articles/interoperable-css)
+* [Please don't use CSS in JS](https://medium.com/@ajsharp/please-please-don-t-use-css-in-js-ffeae26f20f#.n1e0tog7i)
+* [Khan Academy's aphrodite](https://github.com/khan/aphrodite)## Dave Shea's Argon
 
 ```scss
 .swift-project.-activeProject ._filterField {}
