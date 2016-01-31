@@ -37,6 +37,7 @@
 * [Replacing Photoshop with NSString](http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/)
 * [Replacing Photoshop with `NSString`](http://asciimage.org/)
 * [UIVisualEffectView](http://bg-d.net/jony/)
+* [Material Design in Swift](https://github.com/CosmicMind/Material)
 
 ## Animation
 

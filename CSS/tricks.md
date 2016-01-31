@@ -267,3 +267,4 @@ input:checked ~ .input-option {
 ## Videos
 
 * [Smarter UI interactions using `:checked`](https://www.youtube.com/watch?v=XAITicOZCdk)
+* [Editing images in CSS](http://www.thedotpost.com/2015/12/una-kravets-editing-images-in-css)

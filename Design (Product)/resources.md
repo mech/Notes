@@ -8,6 +8,7 @@ It's not about the product, it's about your users.
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [**What I learned about product design**](https://medium.com/@maximebneteau/what-i-learned-about-product-design-from-307217889d9a#.swzlnkov0)
 * [**Facebook Business Design Principles**](https://medium.com/elegant-tools/facebook-s-four-business-design-principles-for-crafting-elegant-tools-581a7055dee8#.mtpdbunz9)
 * [**Design Thinking come of age**](https://hbr.org/2015/09/design-thinking-comes-of-age)
 * [**Look and Feel and Feel**](https://signalvnoise.com/posts/3868-look-and-feel-and-feel)

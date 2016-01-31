@@ -1,5 +1,8 @@
 # Photoshop
 
+* [**Photoshop Etiquette**](http://photoshopetiquette.com/)
+* [**Pixel perfect shape**](https://medium.com/@kieranpblack/pixel-perfect-shape-e4d636d376b5)
+* [**Photoshop Secrets**](http://photoshopsecrets.tumblr.com/)
 * [**Kyle Brushes**](https://gumroad.com/kyletwebster)
 * [**Demo of Kyle Brushes**](https://www.youtube.com/watch?v=UPvp81upXSM)
 * [**Traveling and Photography**](http://paulstamatiou.com/traveling-and-photography-part-1/)
@@ -13,7 +16,6 @@
 * [Guide updates for PS CC :(](http://www.setopacity.com/articles/2014/10/7/guide-updates-for-photoshop-october-2014)
 * [Modular design photoshop](http://blog.tackmobile.com/article/modular-design-photoshop/)
 * [Blend if](http://bjango.com/articles/blendif/)
-* [Pixel perfect shape](https://medium.com/@kieranpblack/pixel-perfect-shape-e4d636d376b5)
 
 ## Tips and Tricks
 
@@ -38,6 +40,10 @@
 ## Layers
 
 * [Layers essential power shortcuts](http://www.photoshopessentials.com/basics/layer-shortcuts/)
+
+## Shortcuts
+
+`Cmd + :` - Hide/show guides
 
 ## Plugins
 

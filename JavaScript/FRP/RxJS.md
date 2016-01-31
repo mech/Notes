@@ -137,3 +137,6 @@ Observables are immutable, and every operator applied to them creates a new Obse
 # Videos
 
 * [Ben Lesh Talks RxJS at Modern Web UI](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
+* [Channel 9 RxJS](https://channel9.msdn.com/Tags/rxjs)
+* [What's new in RxJS 5.0 with Ben Lesh](https://www.youtube.com/watch?v=9on6u7pI3vY)
+* [DevChat.tv - RxJS with Matthew Podwysocki](https://devchat.tv/js-jabber/182-jsj-rxjs-with-matthew-podwysocki)
