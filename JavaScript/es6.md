@@ -1,5 +1,13 @@
 # ES6
 
+**Proposals**
+
+* [ECMAScript Current Proposals](https://github.com/tc39/ecma262/blob/master/README.md)
+
+---
+
+* [**JavaScript Modules**](http://jsmodules.io/)
+* [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html)
 * [**CoreJS**](https://github.com/zloirock/core-js)
 * [**Exploring ES6**](https://leanpub.com/exploring-es6/read)
 * [TC39 ECMA262 status and process](https://github.com/tc39/ecma262)
@@ -26,6 +34,22 @@ Objects in JavaScript have reference equality.
 ```
 {error: error} === {error}
 ```
+
+## Killer Features is Multiple Exports
+
+* [d3-jsnext](https://github.com/rollup/d3-jsnext)
+
+CJS and AMD can only export one thing. Historically, we've worked around that by exporting an object with lots of things - for example, Underscore exports the `_` object with lots of functions attached:
+
+```js
+var _ = {
+  where: fn,
+  memoize: fn,
+  pluck: fn
+};
+```
+
+This single export make it hard to do tree-shaking and choose only the right amount of modules to bundle to decrease file size.
 
 ## Class
 

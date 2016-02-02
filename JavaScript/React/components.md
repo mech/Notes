@@ -144,6 +144,26 @@ export default function Light(props) {
 }
 ```
 
+```js
+const FilterLink = ({
+  filter,
+  children
+}) => {
+  return (
+    <a href="#"
+      onClick={e => {
+        e.preventDefault();
+        store.dispatch({
+          type: 'SET_VISIBILITY_FILTER,
+          filter});
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+```
+
 ## Lifecycle
 
 * [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
@@ -367,6 +387,7 @@ Data binding is a hack around re-rendering.
 * [react-data-grid](https://github.com/adazzle/react-data-grid)
 * [react-list - Infinite scroll](https://github.com/orgsync/react-list)
 * [react-input-slider](https://github.com/wangzuo/react-input-slider)
+* [react-fa - Can study it](https://github.com/andreypopp/react-fa)
 
 ### Pagination
 

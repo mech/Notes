@@ -65,9 +65,15 @@ The point of promises:
 
 A Deferred is a superset of Promise with one critical addition: you can trigger a Deferred directly. A pure Promise only lets you add more callbacks; someone else has to trigger them.
 
-![Promises/A+](https://dl.dropboxusercontent.com/u/6815194/Notes/abstraction.png)
-
 ```js
+var readFile = function() {
+  return new Promise(function(resolve, reject) {
+    fs.readFile('./package.json', function(err, file) {
+      return err ? reject(err) : resolve(file.toString());
+    });
+  });
+};
+
 // Composition with promises - Parallelism
 $Q.all([step1, step2, step3]).then(step4);
 ```
@@ -204,4 +210,10 @@ var searchResultsSets = keyups
   switchLatest();
 ```
 
+# Generators
+
+Very powerful for infinite list. Can be combined with Promises.
+
+* [Asynchronous I/O with Generators and Promises](https://ponyfoo.com/articles/asynchronous-i-o-with-generators-and-promises)
+* [Generator in Depth](https://ponyfoo.com/articles/es6-generators-in-depth)
 

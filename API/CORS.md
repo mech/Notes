@@ -2,6 +2,7 @@
 
 JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues. Although JSON-P is useful, it is strictly limited to GET requests. CORS builds on top of XHR to allow developers to make cross-domain requests.
 
+* [**Test for browser support**](https://test-cors.appspot.com/#technical)
 * [CORS for JSON and Rails](http://www.tsheffler.com/blog/2011/02/22/cross-origin-resource-sharing-for-json-and-rails/)
 * [**CORS on MDN**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 * [HTML5 Rocks: Using CORS](http://www.html5rocks.com/en/tutorials/cors/)
@@ -34,6 +35,13 @@ The browser's same-origin policy limit client code (i.e. JavaScript) from making
 SOP is a Web Application Security Model. It is a policy by a web browser to permit script to access data that are within the same domain.
 
 However, server-side code is not affected. That's why to overcome SAMEORIGIN, people traditionally use server-side proxying.
+
+## Browsers Support
+
+IE10 does support CORS withCredential but you have to be careful of user settings turning it off at Internet Options. A better way is to use P3P Policy:
+
+* [A quick look at P3P](http://blogs.msdn.com/b/ieinternals/archive/2013/09/17/simple-introduction-to-p3p-cookie-blocking-frame.aspx)
+* [Craft a P3P policy to make IE behave](http://www.techrepublic.com/blog/software-engineer/craft-a-p3p-policy-to-make-ie-behave/)
 
 ## The CORS Request
 

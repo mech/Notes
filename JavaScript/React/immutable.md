@@ -12,7 +12,10 @@ Immutable data structure with structure sharing.
 
 ```js
 function getOlder(person) {
-  Object.assign({}, person, { age: person.age + 1 })
+  return Object.assign({}, person, { age: person.age + 1 })
+
+  // Or ES7
+  return {...person, age: person.age + 1}
 }
 
 // Or ES6 spread and deconstruct

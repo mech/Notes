@@ -31,7 +31,9 @@ server.listen(app.get('port'), function() {
 });
 ```
 
-## nodemon
+## nodemon, forever, pm2
+
+* [Production process manager for Node.js](http://pm2.keymetrics.io/)
 
 ```
 ▶ npm i -g nodemon

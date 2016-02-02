@@ -110,4 +110,4 @@ var highlander = {
   name: 'McLeod',
   catchphrase: 'There can be only one'
 };
-```
+```# ES6 Class

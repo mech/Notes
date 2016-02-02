@@ -20,6 +20,16 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 
 ```js
 (state, action) => state
+
+
+// Some usage example:
+
+const store = createStore(counter);
+
+<Counter
+  value={store.getState()}
+  onIncrement={() => store.dispatch({ type: 'INC' })}
+  onDecrement={() => store.dispatch({ type: 'DEC' })} />
 ```
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
@@ -61,6 +71,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [react-slingshot](https://github.com/coryhouse/react-slingshot)
 * [react-starter-kit](https://github.com/kriasoft/react-starter-kit)
 * [react-router-redux](https://github.com/rackt/react-router-redux)
+* [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate)
 
 ## Libraries
 
@@ -106,6 +117,14 @@ Action is just plain JS object:
 ```
 
 Actions are like newspaper, reporting on something has happened in the world.
+
+The component itself do not know how to deal with the action. For example, the component event handler do not ever take upon itself to process business or application logic. For example, a very simple act of paging through a list can be described by this action:
+
+```js
+{ type: 'SET_PAGE_NUMBER', page_number: 12}
+```
+
+So `page_number` here is a state, and the only way to change this read-only state is to dispatch an action.
 
 Actions are the change in your app. Actions represent mutations of your app state. Explicit, easy to find the places that could trigger a particular action, I can search for it.
 
@@ -181,11 +200,44 @@ Redux assumes you never mutate your data. Since it is JavaScript, it can only as
 
 **Things not to do in reducer:**
 
-* Don't perform side effects like API calls and routing transitions. These should happen before an action is dispatched. (??)
+* Don't perform side effects like API calls and routing transitions. These should happen before an action is dispatched. (middleware??)
 * Calling non-pure functions like `Date.now()` or `Math.random()`
 * No surprises. No side effects. No API calls. No mutations. Just calculation.
 
 **Reducer Composition to split your logics**
+
+Depending on your state tree shape, you can have different reducer working on one part of the state for example.
+
+```js
+// This is your single state tree
+{
+  todos: [],
+  visibilityFilter: 'SHOW_ALL'
+}
+
+// You can have 2 reducers, one for todos management and the
+// other to take care of visibility filter logic
+
+const todoApp = (state = {}, action) => {  
+  return {
+    todos: todos(state.todos, action),
+    visibilityFilter: visibilityFilter(state.visibilityFilter, action)
+  }
+}
+
+// Or use combineReducers
+const todoApp = combineReducers({ todos, visibilityFilter })
+
+const todos = (state = [], action) => {
+  // This is a one part of the reducer that take care of the todos management.
+  // Notice that it's state is an array
+}
+
+const visibilityFilter = (state = 'SHOW_ALL', action) => {
+  // This is another part of the reducer that deal with filtering.
+  // Notice that its default state is a string
+}
+```
 
 ## Middleware
 
@@ -205,6 +257,18 @@ Async action creators are suboptimal.
 
 Sync state transition??
 
+## Router
+
+* [#637 - Usage with React Router](https://github.com/rackt/redux/issues/637)
+
+Angular 2 Router exposes route change as an Observable which you can leverage to keep route state synchronized with your Redux Store.
+
+## Context and Provider
+
+> Learning all this React environment and Redux is dragging me down. The connects and mapState make no sense to me and you have to do it for every container?
+
+Convention over configuration is lost JavaScript's obsession with composability.
+
 ## React Component Integration
 
 After the action, the reducer will give you a new state. You can get back the new state using `store.getState()`. You use this new state to re-render your component using `component.setState(newState)`.
@@ -213,3 +277,4 @@ Only top-level components of your app (such as route handler) are aware of Redux
 
 Presentational components don't know WHERE the data comes from, or HOW to change it. They only render what's given to them.
 
+### Connect

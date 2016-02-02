@@ -18,6 +18,8 @@ a.splice(3, 3); // d,e,f
 splice(7, 0, newElement);
 ```
 
+## Slice
+
 ## Sort
 
 `sort()` works very well with strings, but not so well with numbers as it sort lexicographically.
@@ -38,12 +40,28 @@ There is also the reverse `reduceRight()`.
 
 ## map
 
+Immutable as it returns a new array. However, `filter` is mutable!
+
 ```js
 function first(word) {
   return word[0];}
 
 var words = ['for', 'your', 'information'];
 var acronym = words.map(first).join('');
+```
+
+```js
+// Weird - WTF!
+// map actually iterate over values instead of using a regular for loop like join
+// map and join have different semantic!
+
+[undefined, undefined, undefined,].join("+"); // "++"
+
+[undefined, undefined, undefined,].map(x => "+"); // ["+", "+", "+"]
+
+[,,,].join("+"); // "++"
+
+[,,,].map(x => "+"); // Firefox: [ <3 empty slotes> ]
 ```
 
 ## every and some

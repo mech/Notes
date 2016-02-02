@@ -139,6 +139,16 @@ Use cases:
 
 Magic happens in the build process: Browserify and Grunt.
 
+## Equality
+
+4 equality algorithms in ES6:
+
+* Abstract Equality Comparison `==`
+* Strict Equality Comparison `===`. Used in case statement, `Array.prototype.indexOf`, `Array.prototype.lastIndexOf`
+* SameValueZero. `ArrayBuffer` as well as `Map` and `Set`. Also when doing `[NaN].includes(NaN)`
+* SameValue - Used in all other places
+
+
 ## Unicode
 
 * [JavaScript Encoding](http://mathiasbynens.be/notes/javascript-encoding)

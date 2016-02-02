@@ -529,6 +529,7 @@ Dirty-checking model can be slow. Virtual DOM is using tree, as we all know, tre
 
 DOM operation is very expensive! Because modifying the DOM will also apply and calculate CSS styles, layouts, etc.
 
+* [React-less Virtual DOM with Snabbdom](https://medium.com/@yelouafi/react-less-virtual-dom-with-snabbdom-functions-everywhere-53b672cb2fe3#.q046lbm2b)
 * [Snabbdom](https://github.com/paldepind/snabbdom)
 * [virtual-dom](https://github.com/Matt-Esch/virtual-dom)
 * [Virtual DOM Benchmark](http://vdom-benchmark.github.io/vdom-benchmark/)

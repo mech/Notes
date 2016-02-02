@@ -15,8 +15,14 @@ People suck at repetitive tasks.
 * [Brunch](http://brunch.io/)
 * [Auto-formatting JavaScript Code Style](https://medium.com/@addyosmani/auto-formatting-javascript-code-style-fe0f98a923b8)
 
+## jsnext:main
+
+* [Rollup pled to use ES6 modules only](https://github.com/rollup/rollup/wiki/jsnext:main)
+
 ## Babel 6
 
+* [**Controversial state of JavaScript tooling**](https://ponyfoo.com/articles/controversial-state-of-javascript-tooling)
+* [JavaScript Modules](https://medium.com/@trek/last-week-i-had-a-small-meltdown-on-twitter-about-npms-future-plans-around-front-end-packaging-b424dd8d367a#.zellmlthw)
 * [**The complete guide to ES6 with Babel 6**](http://jamesknelson.com/the-complete-guide-to-es6-with-babel-6/)
 * [6 things you need to know about Babel 6](http://jamesknelson.com/the-six-things-you-need-to-know-about-babel-6/)
 * [Babel plugins](https://www.npmjs.com/search?q=babel-plugin)

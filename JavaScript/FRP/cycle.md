@@ -12,3 +12,7 @@ A component is just a Cycle.js app.
 ## Drivers and Effects
 
 To deal with external world with side effects, use a driver.
+
+## Videos
+
+* [What if the user was a function?](https://www.youtube.com/watch?v=1zj7M1LnJV4)

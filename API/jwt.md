@@ -27,6 +27,10 @@ If you want the claims to be further encrypted, you need to use JSON Web Encrypt
 * [Critical vulnerabilities in JWT libraries](https://www.chosenplaintext.ca/2015/03/31/jwt-algorithm-confusion.html)
 * [Does JWT put your web app at risk?](http://blog.prevoty.com/does-jwt-put-your-web-app-at-risk)
 
+### Expiration
+
+Must expire token, you can't let attacker use old token.
+
 ## Where to store JWT?
 
 For Web app, you got 2 options:
