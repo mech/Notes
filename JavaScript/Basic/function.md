@@ -1,5 +1,7 @@
 # Function
 
+Function is just an object. It can have properties and methods attached to it. It even can have functions attached to it. The function body which contain the main code is actually one of the function property that is invocable via `apply`, `call` and `bind`.
+
 * [The `bind` operator](https://medium.com/@matthewwithanm/api-design-the-bind-operator-5a22d255bb18)
 * [What is the use of `bind()`](http://stackoverflow.com/questions/2236747/bind-method-of-javascript)
 * [`apply` vs `call` vs `bind`](http://stackoverflow.com/questions/15455009/js-call-apply-vs-bind)
@@ -24,6 +26,55 @@ Executing a function is called *invoking*, *calling*, or *applying* it.
 As useful as `call` and `apply` can be, they have one serious drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.
 
 The `bind` method is used to permanently set the value of `this` inside the target function to the passed in context object. It was first popularised by Prototype library and added to ES5 later.
+
+```js
+var c = {
+  name: 'The c object',
+  log: function() {
+    this.name = 'Updated c object';
+    
+    var setName = function(newName) {
+      this.name = newName; // Error, will be in global window object
+    }
+
+    setName('Updated again! BUT name will be in global');
+  }
+};
+```
+
+## Function Statements and Function Expressions and IIFE
+
+Expression is a unit of code that results in a value. It doesn't have to save to a variable.
+
+```js
+// These are expression that return value
+a = 3;
+1 + 2;
+
+// This is function expression as Function object is being returned
+// Will have "undefined is not a function" if invoke prematurely
+// Function expression will not be hoisted
+var greet = function() {};
+
+// These are statements
+if (a === 3) {}
+
+// This is function statement as it does not return value
+// The interpreter look at this and just make it note and move on
+// Will be hoisted
+function greet() {}
+```
+**IIEF**
+
+```js
+(function(us, bb) {
+  // Inside an IIEF!
+  // The parenthesis trick the parser to let the function become
+  // an expression
+
+  var safeCode = 'I am safe from outside world';
+})(_, Backbone);
+```
 
 ## Data Thinking - Data as Abstraction
 
@@ -80,6 +131,19 @@ var useIt = splat(abc);
 useIt(xyz);
 ```
 
+## Currying
+
+Function currying is creating a copy of a function but with some preset parameters. Very useful in mathematical situations.
+
+`bind` give you a copy of the function.
+
+```js
+function multiply(a, b) { return a * b; }
+
+var multiplyByTwo = multiply.bind(null, 2);
+var multiplyByThree = multiply.bind(null, 3);
+```
+
 ## Partial Functions
 
 Partial application wraps a function that takes multiple arguments and return a function that takes fewer arguments. It uses closures to fix one or more arguments so that you only need to supply the arguments that are unknown.
@@ -95,6 +159,20 @@ var greet = function(greeting, name) {
 var hello = partial(greet, 'Hello');
 
 hello('mech'); // 'Hello, mech!'
+```
+
+The following is in F# example. You can see the final `hello` is a much cleaner function to use.
+
+```F#
+let name = "Scott"
+printfn "Hello, my name is %s" name
+
+let name = "Scott"
+(printfn "Hello, my name is %s") name
+
+let name = "Scott"
+let hello = (printfn "Hello, my name is %s")
+hello name
 ```
 
 You can also use `Function.prototype.bind` for partial application. The only disadvantage is that you won't be able to override the value of `this` with `call` or `apply`.

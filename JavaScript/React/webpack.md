@@ -101,6 +101,7 @@ The webpack core can be extended with loaders and plugins.
 
 ## Starter Kit, Boilerplate
 
+* [Este.js](https://github.com/este/este)
 * [react-for-hipsters-boilerplate](https://github.com/chicoxyzzy/react-for-hipsters-boilerplate/)
 * [A modern React starter pack based on webpack](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
 * [React+Webpack+Express+Redux](https://github.com/choonkending/react-webpack-node)
@@ -109,6 +110,19 @@ The webpack core can be extended with loaders and plugins.
 * [react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
 * [webpack-express-boilerplate](https://github.com/christianalfoni/webpack-express-boilerplate)
 
+## ESLint
+
+* [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+* [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+* [eslint-config-rackt](https://github.com/rackt/eslint-config-rackt)
+
+```js
+// .eslintignore - from redux examples
+**/dist/*
+**/node_modules/*
+**/server.js
+**/webpack.config*.js
+```
 
 ## Loaders
 

@@ -1,5 +1,6 @@
 # React
 
+- [**9 things every React beginner should know**](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know)
 - [**React and ES6 - Part 1**](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)
 - [React Cheat Sheet](http://reactcheatsheet.com/)
 - [**RAW React!**](http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/)

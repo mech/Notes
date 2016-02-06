@@ -1,5 +1,7 @@
 # Object
 
+A collection of name/value pairs.
+
 > Program to an interface, not an implementation - GoF
 
 Numbers, strings, and booleans are all *immutable*.
@@ -9,6 +11,9 @@ Object, by their very nature is very mutable. And it has to.
 ```
 typeof null // "object"
 ```
+
+* Member Access - dot notation
+* Computed Member Access - Using dynamic string
 
 ## Prototype
 

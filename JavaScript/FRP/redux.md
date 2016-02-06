@@ -1,5 +1,7 @@
 # Redux
 
+> React is not reactive because it does not observe the data
+
 To give a bit of perspective on complex front-end application, let's consider Google Docs. Every time a user presses a key, a number of things need to happen (doing them all before returning to the event queue would be a recipe for an unresponsive app):
 
 * the new character has to be displayed on the screen
@@ -65,9 +67,11 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [Redux best practices](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.g7ayoa8i6)
 * [redux-thunk - Middleware](https://github.com/gaearon/redux-thunk)
 * [Is Redux too much?](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.qncruotht)
+* [Tracker 2.0: The evolution of Tracker and solutions to its core problem](https://medium.com/@faceyspacey/the-evolution-of-tracker-solutions-to-its-core-problems-4b9cb90d479a#.x3o7lt78t)
 
 **Starter Kits**
 
+* [**Shasta - Simple opinionated toolkit for building applications on top of React, Redux, and immutable.js**](https://github.com/shastajs/shasta)
 * [react-slingshot](https://github.com/coryhouse/react-slingshot)
 * [react-starter-kit](https://github.com/kriasoft/react-starter-kit)
 * [react-router-redux](https://github.com/rackt/react-router-redux)
@@ -198,6 +202,8 @@ Redux assumes you never mutate your data. Since it is JavaScript, it can only as
 
 > Finally, nothing per se prevents you from mutating your Redux state tree. It is actively discouraged, and you will lose a lot of debugging benefits if you mutate your data, but for performance critical pieces you can write impure reducers that mutate the state in place. (Only do that if you're sure that's where the lag comes from—not likely to be an issue in real apps.)
 
+Each reducer computes a separate piece of state, which is then all composed together to form the whole application.
+
 **Things not to do in reducer:**
 
 * Don't perform side effects like API calls and routing transitions. These should happen before an action is dispatched. (middleware??)
@@ -247,6 +253,8 @@ Intercept action. Middleware transforms async actions before they reach the redu
 
 ## Selector and Memoization
 
+* [A brief history of Reselect](http://blog.startifact.com/posts/a-brief-history-of-reselect.html)
+
 ## I/O, Effects, Async
 
 * [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
@@ -256,6 +264,10 @@ Intercept action. Middleware transforms async actions before they reach the redu
 Async action creators are suboptimal.
 
 Sync state transition??
+
+## Thunk
+
+* [Callback + Continuable](https://gist.github.com/creationix/b9557dd1dceba7aa90b5)
 
 ## Router
 
@@ -278,3 +290,13 @@ Only top-level components of your app (such as route handler) are aware of Redux
 Presentational components don't know WHERE the data comes from, or HOW to change it. They only render what's given to them.
 
 ### Connect
+
+`connect()` from Redux React does a ton of trickery to be very optimized. It tries hard to be fast whereas functional components don't try at all.
+
+When you always render from the top you are coupling parent components too hard to what child components need to render. You're essentially passing many props that are only required by children, and changing them can involve painful refactoring.
+
+Instead as soon as you see that component passes props down without using it, we suggest generating a "container" component using `connect()`.
+
+## Relay Style?
+
+> That's what I’d do. (But I'm pretty sure one can take Redux + Normalizr and build something more Relay-like around it.)

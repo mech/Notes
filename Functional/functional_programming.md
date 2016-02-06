@@ -1,10 +1,16 @@
 # Functional Programming (FP)
 
-> The whole OOP paradigm is based on sending messages to objects as the only means to interact with their state, therefore making state distributed.
+> The whole OOP paradigm is based on sending messages to objects as the only means to interact with their state, therefore making state **distributed**.
 
 We're still stuck with mostly "von Neumann" style languages that talk about state and assignment and memory and stuff.
 
 > Functional units of small size are key to evolvable code. This makes for a fine grained "code sand" which can be brought into ever changing shapes.
+
+* Pure functions everywhere
+* Immutable values
+* Composition over inheritance
+* Records over classes
+* Taming side-effects
 
 ## Recursion and Loop
 

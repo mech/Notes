@@ -6,6 +6,7 @@ Few applications are completely synchronous, and writing async code is necessary
 
 Application is all about "data flow".
 
+* [ECMAScript Observable](https://github.com/zenparsing/es-observable)
 * [Rx-book](http://xgrommx.github.io/rx-book/index.html)
 * [Reactive course at Coursera](https://www.coursera.org/course/reactive)
 * [How to debug RxJS code](http://staltz.com/how-to-debug-rxjs-code.html)

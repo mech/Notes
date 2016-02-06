@@ -169,6 +169,14 @@ grep "info" * -R
 
 ## Naming Convention
 
+* [Naming CSS stuff is really hard](http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard)
+
+We can fit a given class name into these 3 categories:
+
+1. Functional class names (thinking in system, not pages) - `positive-button`
+2. Content-based class names - `submit-button`
+3. Presentational class names - `green-button`
+
 Structured components consist of the following elements:
 
 * Components - A page module that has a certain purpose and is a wrapper for it's children. Make it as independent as possible.
@@ -211,14 +219,28 @@ ui-modal
 
 All these describe content, thus is not scalable:
 
-    <ul class="jobs">
-    <ul class="candidates">
+```html
+<ul class="jobs">
+<ul class="candidates">
+```    
 
 When you describe the content, you cannot reuse the class name. Rather, derive class name semantics from repeating structural and functional patterns in a design.
 
 > The most reusable components are those with class names that are independent of the content - Nicolas Gallagher
 
 The aim of a component/template/object-oriented architecture is to be able to develop a **limited number** of reusable components that can contain a range of different content types.
+
+```js
+:root {
+  /* Colors */
+  --canvas-color: #fff; /* Name your variable according to function instead of visual presentation */
+  --text-color: #000;
+  --main-color: yellow; /* Indicate the main Jobline brand color (themes) */
+
+  /* Typography */
+  --base-font-size: 16px;
+}
+```
 
 # My Style Guide
 

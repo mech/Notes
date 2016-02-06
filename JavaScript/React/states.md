@@ -20,7 +20,6 @@ There's a deeper reason why it's so important to make data flow clear and simple
 
 * [**State is an anti-pattern**](https://www.reddit.com/r/reactjs/comments/3bjdoe/state_is_an_antipattern/)
 * [**The problem of state**](https://www.new-bamboo.co.uk/blog/2015/07/23/the-problem-of-state/)
-* [**State is an anti-pattern**](http://www.reddit.com/r/reactjs/comments/3bjdoe/state_is_an_antipattern/)
 * [Communicate between components](http://facebook.github.io/react/tips/communicate-between-components.html)
 * [Expose component functions](http://facebook.github.io/react/tips/expose-component-functions.html)
 * [Best Practices for Component State](http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html)
@@ -68,13 +67,28 @@ A component can change its state but its props are immutable, which is good feat
 
 **Don't feed any data as props to your ROOT component (if you can help it) Have your root component manage state.**
 
+A very hard to maintain mistake is to have the root/top component passing props to deeply nested children. You may end up with a lot of intermediate components that pass a lot of props to their children without even using it.
+
 ## State
+
+State for React UI can exists in many forms:
+
+* Server RESTful returned values
+* URL route change
+* UI state, like toggle state, pagination, tab panel, spinner, drawer hide/show
+* Parent app state (`props`)
 
 **Warning**: Do not sync states, you will screw it up and make it out of sync! Because you need a single source of truth.
 
 Do not use state, use props unless you absolutely know what you are doing!
 
 States are for things that are temporary and don't need to be persisted. Like whether the modal `isVisible`, whether the editor `isEditing`. Modal component won't worry if that state is lost for example.
+
+**Don't put business logic in your state**. While UI/render logic in component is OK, business logic is a massive code smell.
+
+But when so much for your application's state is right there in the component, easily accessible by `this.state`, it can become really tempting to start putting things like calculations or validation into the component, where it does not belong.
+
+This makes testing that much harder - you can't test render logic without the business logic getting in the way, and vice versa!
 
 ## Instance Variables
 
@@ -98,6 +112,7 @@ componentWillUnmount() {
 
 ```javascript
 model: React.PropTypes.instanceOf(Backbone.Model).isRequired
+children: React.PropTypes.node
 ```
 
 ## Undo / Redo

@@ -46,6 +46,7 @@
 
 ## Front-end
 
+* [**Forward.js University**](http://forwardjs.com/university)
 * [**Full Stack Radio**](http://www.fullstackradio.com/)
 * [Front-end developer interview questions](http://h5bp.github.io/Front-end-Developer-Interview-Questions/)
 * [Front-end Masters](https://frontendmasters.gitbooks.io)

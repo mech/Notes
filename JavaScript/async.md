@@ -1,4 +1,24 @@
-# Async and Promises
+# Async
+
+* Callbacks
+* Node-style callbacks
+* Promises
+* Generators
+* Async/Await
+* Fibers
+* Observables
+
+[**A General Theory of Reactivity**](https://github.com/kriskowal/gtor/blob/master/README.md)
+
+> Callbacks: lol, async spaghetti guaranteed.
+> 
+> Promises: mainstream, swallow errors, no cancel.
+> 
+> Observables: heaven. - @andrestaltz
+
+---
+
+> Observables are overkill if you need only single value.
 
 To give a bit of perspective on complex front-end application, let's consider Google Docs. Every time a user presses a key, a number of things need to happen (doing them all before returning to the event queue would be a recipe for an unresponsive app):
 
@@ -17,6 +37,8 @@ We want to use **distributed events**, where a single incident can trigger react
 **What problem does Async.js or RxJS solves?** We want to read I/O which is async operation and predictable construct result back in an orderly fashion. For example reading a DIR of text file and construct a concatenated string in an orderly way. If we read the file synchronously, we can use normal array's `filter`, `map` to construct the final concatenated string, but that will be terribly inefficient.
 
 ---
+
+##  Promises
 
 A Promise is an object that represents a task with 2 possible outcomes (success or failure).
 
@@ -60,8 +82,7 @@ The point of promises:
 * [Asynchronous control flow in JavaScript](http://dparise.svbtle.com/asynchronous-control-flow-in-javascript)
 * [Debugging async callbacks](http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/)
 
-
-## Deferred vs Promises
+### Deferred vs Promises
 
 A Deferred is a superset of Promise with one critical addition: you can trigger a Deferred directly. A pure Promise only lets you add more callbacks; someone else has to trigger them.
 
@@ -171,28 +192,6 @@ writeFile('file.txt', 'content!')
 * [CSP and transducers in JavaScript](http://phuu.net/2014/08/31/csp-and-transducers.html)
 * [Transducers.js benchmarks](http://jlongster.com/Transducers.js-Round-2-with-Benchmarks)
 
-## Functional Reactive Programming
-
-Imperative - OOP
-
-Spreadsheet is FRP already. You declare the formula, and you change the data to see the result.
-
-* [Netflix JavaScript - Async JavaScript with Reactive Extensions](http://www.youtube.com/watch?v=XRYN2xt11Ek)
-* [RxJS](https://github.com/Reactive-Extensions/RxJS)
-* [Bacon.js](https://github.com/baconjs/bacon.js)
-* [JavaScript Jabber recording of FRP](http://javascriptjabber.com/061-jsj-functional-reactive-programming-with-juha-paananen-and-joe-fiorini/)
-* [mercury.js - An interesting framework](https://github.com/Raynos/mercury)
-
-RX:
-
-* Map - Transforms data. Replace loop.
-* Filter - Narrows collections. Boolean comparison. Replace `if`.
-* Reduce - Turns a collection into a single value.
-* Zip - Combines two collections.
-* merge - combines items in a collection as each item arrives
-* concat - combines collections in the order they arrived
-* switchLatest - switches to the latest collection
-
 ### Autocomplete in Netflix
 
 [Adding even more fun to functional programming with RXJS](http://www.youtube.com/watch?v=8EExNfm0gt4)
@@ -210,10 +209,17 @@ var searchResultsSets = keyups
   switchLatest();
 ```
 
-# Generators
+## Generators
+
+* [Generators vs Callbacks](https://github.com/creationix/js-git#generators-vs-callbacks)
 
 Very powerful for infinite list. Can be combined with Promises.
 
 * [Asynchronous I/O with Generators and Promises](https://ponyfoo.com/articles/asynchronous-i-o-with-generators-and-promises)
 * [Generator in Depth](https://ponyfoo.com/articles/es6-generators-in-depth)
 
+## Async Await
+
+> Async/await is still Promises (even if you don't call then() yourself) - @dan_abramov
+
+Async/await is Promises under the hood with synchronous appearance and try/catch works.

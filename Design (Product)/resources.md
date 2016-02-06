@@ -310,6 +310,7 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 * [Instagram War Stories](https://medium.com/backchannel/war-stories-3696d00207ff)
 * [Codepen redesign](http://codepen.seesparkbox.com/)
 * [**Redesigning ActiveCollab**](https://blog.activecollab.com/redesigning-active-collab-393608cb019b)
+* [The Inside Story of Uber's Radical Rebranding](http://www.wired.com/2016/02/the-inside-story-behind-ubers-colorful-redesign/)
 
 ## Product News
 

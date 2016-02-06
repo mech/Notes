@@ -6,6 +6,8 @@
 
 Use Sass only for its variable, mixin and imports. Avoid nesting and extend.
 
+* [Sass doesn't create bad code. Bad coders do.](http://thesassway.com/editorial/sass-doesnt-create-bad-code-bad-coders-do)
+* [The problem with CSS pre-processors](http://blog.millermedeiros.com/the-problem-with-css-pre-processors)
 * [Beware the SASS import](http://blog.teamtreehouse.com/tale-front-end-sanity-beware-sass-import)
 * [**SCUT: Sass utilities for the front-end**](https://davidtheclark.github.io/scut/)
 * [**Sass Guideline - READ THIS FIRST!**](http://sass-guidelin.es/)
@@ -98,8 +100,37 @@ You can also split variables into `base/_typography.scss`, `base/_colors.scss`
 	display: block; margin-left: auto; margin-right: auto;}
 
 .image-cover {
-	display: block; margin-left: auto; margin-right: auto;}
+	display: block; margin-left: auto; margin-right: auto;}
 ```
+
+A good example of using `@extend` together with `%placeholder` is when we have a base style but can't find a reasonable functional name for it.
+
+```css
+%blue-box {
+  background: #bac3d6;
+  border: 1px solid #3f2adf;
+}
+
+.contact-box {
+  @extend %blue-box;
+  ...
+}
+.references-box {
+  @extend %blue-box;
+  ...
+}
+
+/* => Output */
+.contact-box,
+.references-box {
+  background: #bac3d6;
+  border: 1px solid #3f2adf;
+}
+```
+
+This approach cuts references in our HTML to presentational class names, but it still lets us use them in our Sass files in a descriptive way. Trying to devise functional names for common styles can have us reaching for terms like `base-box`, which is far less meaningful here.
+
+
 
 ## Lists
 

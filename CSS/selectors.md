@@ -33,6 +33,10 @@ Use child selector, rather than descendant selector to reduce depth of applicabi
 .nav a {}
 ```
 
+## Nesting
+
+Nesting can reduce the portability and maintainability of styles, since selectors are tied to the HTML structure.
+
 ## Attribute Selectors
 
 Apple rules that match elements based on their attributes or attribute values.

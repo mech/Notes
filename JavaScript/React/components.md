@@ -82,7 +82,7 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 
 **Always break your component down into single responsibility! And break it down further after that!**
 
-* Components are just views, don't place business logic in it. For example, in a Todo app, if a button creates a Todo item for each click event, you are doing it wrong. A better way is to ship that code off to another object or Action.
+* Components are just views, don't place business logic in it. For example, in a Todo app, if a button creates a Todo item for each click event, you are doing it wrong. A better way is to ship that code off to another object or Action. Searching through components to determine behaviour is not really something we should be doing anyway.
 * A component shouldn't worry about networking.
 * Composable. Self-contained and stateless. In order to be self-contained, the component cannot rely on any other specific components. But of course it can be and must "composed" of other components.
 * Component should be stateless. Most components should not maintain its own state. Instead it should defer state-management to a parent container sometimes called container components.
@@ -91,6 +91,17 @@ For EVA mistake, the `<Editor>` is too heavy and we did not break it down into e
 * Don't pass in whole collection object, pass in the `fetch` method as prop and call that prop within `componentWillMount` instead. Then you can do spinner at that component instead of knowing when to spin from the parent.
 
 > Remember, components don't have to emit DOM. They only need to provide composition boundaries between UI concerns.
+
+How small should a component be? Take a look at this:
+
+```js
+const LatestPostsComponent = props => (
+  <section>
+    <h1>Latest posts</h1>
+    { props.posts.map(post => <PostPreview key={post.slug} post={post} />) }
+  </section>
+);
+```
 
 ## Controller View? Container Components? Presentation Components?
 
@@ -113,56 +124,6 @@ If different parts of your app require fetching a model, create one container co
 Container component separates data-fetching and rendering concerns. Or components can't be concerned with both presentation and data-fetching.
 
 > If you decide to split your components into Data Component and Presentational Component, you might as well write functional stateless components.
-
-## Pure Functions
-
-* [babel-plugin-react-pure-components](https://github.com/thejameskyle/babel-plugin-react-pure-components)
-
-```js
-function App({ items }) {
-  return (
-    <ul>
-      {items.map(item => <li>{item}</li>)}
-    </ul>
-  );
-}
-```
-
-```js
-export default function Light(props) {
-  const { light, toggleLight, id } = props
-  const status = light.state.on ? 'one' : 'off'
-
-  return (
-    <div>
-      {light.name}
-      <button onClick={() => toggleLight({ ...light, id })}>
-        {status}
-      </button>
-    </div>
-  )
-}
-```
-
-```js
-const FilterLink = ({
-  filter,
-  children
-}) => {
-  return (
-    <a href="#"
-      onClick={e => {
-        e.preventDefault();
-        store.dispatch({
-          type: 'SET_VISIBILITY_FILTER,
-          filter});
-      }}
-    >
-      {children}
-    </a>
-  );
-}
-```
 
 ## Lifecycle
 
@@ -293,6 +254,11 @@ const App = React.createClass({
 
 ## Render function
 
+1. `render` should be idempotent
+2. `render` should not cause side-effects.
+
+---
+
 * [react-pure-render](https://github.com/gaearon/react-pure-render)
 * [A quick look at rendering whitespace using JSX](http://www.bennadel.com/blog/2880-a-quick-look-at-rendering-white-space-using-jsx-in-reactjs.htm)
 * [Is render() being called too many times?](http://www.bennadel.com/blog/2905-setstate-shouldcomponentupdate-and-render-timing-in-reactjs.htm)
@@ -306,6 +272,22 @@ var memoize = require('lodash.memoize');
 ```
 
 Data binding is a hack around re-rendering.
+
+### Re-rendering and `shouldComponentUpdate`
+
+When Parent need to re-render, it will also automatically re-render any Child. This is the most basic functionality of React re-rendering logic.
+
+If you do not want Children to be re-render, you have to use Immutable and compare props at `shouldComponentUpdate`.
+
+Note: `forceUpdate` skip `shouldComponentUpdate`, essentially a full hard refresh.
+
+Once again:
+
+When each component re-renders the children it renders re-render too (unless prevented by `shouldComponentUpdate`).
+
+Re-rendering on every change is impractical unless *all* your component have very strict `shouldComponentUpdate` implementations like those provided by Om.
+
+**Note:** PureRender/`shouldComponentUpdate` really is considered an escape hatch for performance and is not necessarily something that should be blindly applied to every component.
 
 ### Key
 
@@ -328,6 +310,7 @@ Data binding is a hack around re-rendering.
 * [**TouchstoneJS**](https://github.com/jedwatson/touchstonejs)
 * [Nuka Carousel](http://kenwheeler.github.io/nuka-carousel)
 * [React DnD](https://github.com/gaearon/react-dnd)
+* [react-draggable](https://github.com/mzabriskie/react-draggable)
 * [React HotKeys](https://github.com/Chrisui/react-hotkeys)
 * [react-aria-menubutton](http://davidtheclark.com/building-react-aria-menubutton/)
 * [Griddle - Data Table](http://griddlegriddle.github.io/Griddle/)

@@ -49,39 +49,13 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 * [Grokking RxJava Part 1](http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/)
 * [Reactive Frontend](https://auth0.com/events/oscon-reactive-frontend)
 * [Why should you care about re-frame?](https://github.com/Day8/re-frame#why-should-you-care-about-re-frame)
+* [Netflix JavaScript - Async JavaScript with Reactive Extensions](http://www.youtube.com/watch?v=XRYN2xt11Ek)
+* [JavaScript Jabber recording of FRP](http://javascriptjabber.com/061-jsj-functional-reactive-programming-with-juha-paananen-and-joe-fiorini/)
+* [mercury.js - An interesting framework](https://github.com/Raynos/mercury)
 
 If you have an object or an array. Changing the object's properties or pushing a new element into the array will not constitute a change since the original references is still the same. This is why immutable.js or Mori are helpful to get a "pure" function.
 
 Or just don't use objects in `props` and `state`.
-
-## Immutability
-
-* [**Immutable Data Structures and JavaScript**](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
-* [A brief talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c)
-* [**The Dao of Immutability**](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd)
-* [ancient-oak: Immutable data trees](https://github.com/brainshave/ancient-oak)
-* [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable)
-* [**The power of immutability and React**](https://medium.com/@sharifsbeat/the-power-of-immutability-and-react-daf46f2a5f4d)
-* [**Pros and cons of using immutability with React.js**](http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/)
-* [Immutability in React](http://www.sitepoint.com/immutability-react/)
-* [Smart immutable state for React](https://github.com/mistadikay/doob)
-* [**Omniscient.js - Simpler UI reasoning with unidirectional data flow and immutable data**](http://omniscientjs.github.io/guides/01-simpler-ui-reasoning-with-unidirectional/)
-* [Why should I care about immutable data?](http://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm)
-* [Immutability in JavaScript](http://www.sitepoint.com/immutability-javascript/)
-* [Immutability in React](http://www.sitepoint.com/immutability-react/)
-
-```js
-// Use map(), filter(), concat() for non-destructive array
-// Use concat() instead of push()
-let updatedPassengers = this.state.passengers.concat('mech');
-
-// Use Object.assign for getting a new copy instead of mutating existing
-// After the assignment, updatedTicket is an entirely different object than this.state.ticket
-var updatedTicket = Object.assign({}, this.state.ticket, {flightNo: 'SQ112'});
-this.setState({ticket: updatedTicket});
-```
-
-If you are using nested object, you are in trouble as neither Array's non-destructive methods nor `Object.assign` makes deep copies. Making a deep clone will be expensive on performance and even impossible to do in some cases. However, React provides a set of utility called Immutability Helpers that can help to update more complex and nested models.
 
 ## What exactly is FRP?
 
@@ -97,6 +71,8 @@ If you are using nested object, you are in trouble as neither Array's non-destru
 ## Spreadsheet Analogy
 
 A spreadsheet cell reacts to changes in other cells (pulls) but doesn't reach out and change others (doesn't push). The end result is that you can change one cell and a zillion others 'independently' update their own displays. The others react to you! You don't manually change them. Let them react  to you!
+
+Spreadsheet is FRP already. You declare the formula, and you change the data to see the result.
 
 ## Om
 
@@ -133,12 +109,19 @@ Observables are a pattern to:
 > If I am interested in the keystroke "a" followed by "b" followed by "c" I can create an event that notifies me when this occurs. The observable pattern has huge benefits for code simplification.
 
 * [**RSS sample app using observable**](https://github.com/channikhabra/yarr/)
-* [**Making React reactive using MOBservable**](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 * [Cold vs Hot Observables](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/creating.md#cold-vs-hot-observables)
-* [Silent subscriptions](https://discuss.reactjs.org/t/reactjs-mobservable-as-the-easiest-and-fastest-way-to-propagate-changes-to-the-ui/811)
 * [Pure rendering in the light of time and state](https://medium.com/@mweststrate/pure-rendering-in-the-light-of-time-and-state-4b537d8d40b1)
 
 Observable is a concept from the world of Functional Reactive Programming. They are used in other UI framework like Ember and Knockout.
+
+## Mobservable
+
+* [Making React reactive: the pursuit of high performing, easily maintainable React apps](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
+* [Silent subscriptions](https://discuss.reactjs.org/t/reactjs-mobservable-as-the-easiest-and-fastest-way-to-propagate-changes-to-the-ui/811)
+* [Becoming fully reactive: An in-depth explanation of Mobservable](https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254#.pdvu7he6y)
+* [Pure rendering in the light of time and state](https://medium.com/@mweststrate/pure-rendering-in-the-light-of-time-and-state-4b537d8d40b1#.cofzcnv4e)
+* [The evolution of Tracker](https://forums.meteor.com/t/tracker-2-0-the-evolution-of-tracker-solutions-to-its-core-problems/14941)
+* [Some nice discussion on observable](https://forums.meteor.com/t/next-steps-on-blaze-and-the-view-layer/13561/483)
 
 ## Cerebral
 

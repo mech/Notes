@@ -50,3 +50,27 @@ Scope chains and closure underlie:
 
 * [LostTechies: JavaScript Closures Explained](https://lostechies.com/derekgreer/2012/02/17/javascript-closures-explained/)
 * [Brief history of closures](http://www.battersea-locksmith.co.uk/briefings/closures.html)
+
+Every function invocation create a new execution context and add into the stack. Each execution context has access to:
+
+1. Variable environment
+2. `this`
+3. Outer environment - Must be in same lexical position
+
+Outer environment is where the closure is at. It is where you can find those "free variables" left behind by any previous enclosing function calls.
+
+When the function has ended and pop off the execution stack, the Outer environment is still there for the next available function call to take advantage of.
+
+```js
+function makeLabel(language) {
+  return function(price) {
+    if (language === 'en') return `$${price}`
+    if (language === 'uk') return `£${price}`
+  };
+}
+
+// Remember is 2 different execution context, so we have 2
+// outer environments here
+var americanLabel = makeLabel('en');
+var englandLabel = makeLabel('uk');
+```

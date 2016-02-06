@@ -1,5 +1,7 @@
 # UI Component
 
+* [**We will be Game Programmers**](https://www.youtube.com/watch?v=avwDj3KRuLc)
+
 Big ideas:
 
 * Purely functional UIs
