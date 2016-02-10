@@ -68,6 +68,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [redux-thunk - Middleware](https://github.com/gaearon/redux-thunk)
 * [Is Redux too much?](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.qncruotht)
 * [Tracker 2.0: The evolution of Tracker and solutions to its core problem](https://medium.com/@faceyspacey/the-evolution-of-tracker-solutions-to-its-core-problems-4b9cb90d479a#.x3o7lt78t)
+* [Issue#155 - Redux's relation to cursors](https://github.com/rackt/redux/issues/155)
 
 **Starter Kits**
 
@@ -82,7 +83,9 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [react-router-redux](https://github.com/rackt/react-router-redux)
 * [normalizr](https://github.com/gaearon/normalizr)
 
-## Single Store Tree (Root Store?)
+## Single Store Tree (Root Store?) - Single Source of Truth
+
+* [Issue#140 - Rename store to reducer](https://github.com/rackt/redux/pull/140)
 
 > Om Now was one of the early influencers for the single atom app state idea. The only difference is that, instead of using cursors, Redux uses Flux-style actions for mutations.
 
@@ -193,6 +196,13 @@ function addItem(name) {
 
 ## Reducer
 
+```
+   Source ------> Handler ------> Sink
+(don't care)                  (don't care)
+```
+
+Redux manages state by separating it into different reducers. Each reducer managing a little piece of a different branch of the global state tree.
+
 * [Issue#328 - Cost of immutability](https://github.com/rackt/redux/issues/328)
 * [Issue#758 - Why can't state be mutated?](https://github.com/rackt/redux/issues/758)
 
@@ -245,6 +255,13 @@ const visibilityFilter = (state = 'SHOW_ALL', action) => {
 }
 ```
 
+## Transducer
+
+* [Transducer Protocol](https://github.com/cognitect-labs/transducers-js)
+* [Issue#176 - Transducers in Redux](https://github.com/rackt/redux/issues/176)
+* [Issue#569 - Proposal: API for explicit side effects](https://github.com/rackt/redux/pull/569)
+* [Issue#1139 - An alternative side effect model based on Generators and Sagas](https://github.com/rackt/redux/issues/1139)
+
 ## Middleware
 
 * [Understanding Redux middleware](https://medium.com/@meagle/understanding-87566abcfb7a#.pv692to4s)
@@ -254,6 +271,7 @@ Intercept action. Middleware transforms async actions before they reach the redu
 ## Selector and Memoization
 
 * [A brief history of Reselect](http://blog.startifact.com/posts/a-brief-history-of-reselect.html)
+* [Issue#47 - Handling derived data](https://github.com/rackt/redux/issues/47)
 
 ## I/O, Effects, Async
 
@@ -271,9 +289,24 @@ Sync state transition??
 
 ## Router
 
+* [Redial - Route lifecycle management??](https://github.com/markdalgleish/redial)
 * [#637 - Usage with React Router](https://github.com/rackt/redux/issues/637)
+* [Issue#1362 - RFC: syncHistoryWithStore()](https://github.com/rackt/redux/pull/1362)
 
 Angular 2 Router exposes route change as an Observable which you can leverage to keep route state synchronized with your Redux Store.
+
+> Dispatching an action instead of using directly `history.pushState()` is really important. The action will go through the chain of middlewares, meaning (for example) automatic analytics, etc.
+> 
+> About `browserHistory` singleton, singletons and server side = bad idea. Actions and middleware are giving me an easy way to use history without propagating it through context/props on client side.
+
+```js
+// You listen for browser change event and dispatch an action to handle it
+// browserHistory is a singleton??
+import { browserHistory } from 'react-router';
+browserHistory.subscribe(location => store.dispatch({ type: 'NAVIGATE', location }));
+```
+
+Provide ability to change URL location within an action creator. This is very useful because it's not uncommon to have a workflow in an action creator that is something like "authenticate user -> if successful, redirect to /admin".
 
 ## Context and Provider
 
@@ -291,11 +324,19 @@ Presentational components don't know WHERE the data comes from, or HOW to change
 
 ### Connect
 
+Or just do your own `store.subscribe()`.
+
+* [redux-connected-proptypes](https://github.com/conorhastings/redux-connected-proptypes)
+
 `connect()` from Redux React does a ton of trickery to be very optimized. It tries hard to be fast whereas functional components don't try at all.
 
 When you always render from the top you are coupling parent components too hard to what child components need to render. You're essentially passing many props that are only required by children, and changing them can involve painful refactoring.
 
 Instead as soon as you see that component passes props down without using it, we suggest generating a "container" component using `connect()`.
+
+```js
+
+```
 
 ## Relay Style?
 

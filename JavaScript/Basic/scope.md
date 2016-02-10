@@ -14,7 +14,7 @@ When you see the word lexical, just remember it means your code position: Where 
 
 Global is one of the wrapper. And its current context is called `this`. This is the "global context".
 
-There is also "function context" where flow of execution enters a function body.
+There is also "function context" when flow of execution enters a function body.
 
 Each function call creates a new context, which creates a private scope where anything declared inside the function cannot be directly accessed from outside.
 
@@ -45,6 +45,38 @@ Scope chains and closure underlie:
 * functional programming patterns
 * promises and other monads
 * and much more...
+
+Scope chain is all about how similarly position code (lexical positioning) look up variables.
+
+```js
+// b() sit physically with global scope. It's lexical scope is on global.
+function b() {
+  console.log(myVar);
+}
+
+function a() {
+  var myVar = 2;
+  b();
+}
+
+var myVar = 1;
+a(); // => 1
+
+// ---
+// If we change a() to this, then b() sit physically alongside with
+// a()'s scope. It is no longer at the global scope.
+function a() {
+  function b() {
+    console.log(myVar);
+  }
+  
+  var myVar = 2;
+  b();
+}
+
+var myVar = 1;
+a(); // => 2
+```
 
 ## Closure
 

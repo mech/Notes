@@ -1,5 +1,21 @@
 # Good Design
 
+Design is the ability to envision and communicate a range of options; selecting the best one for specific requirements and constraints.
+
+Visual polish is not important. Design must be enduring, like Wikipedia, Craigslist.
+
+Automation looks good on the surface. But how practical is it. Smart washing machine? Smart fridge that anticipate your needs? Isn't your need changes every seconds? What is your relationships with these automated system?
+
+Humble systems. Not smart system. Relationship design is the new UX.
+
+> In the weeks that followed, I looked to my Fitbit to help manage my recovery. Everything about the Fitbit is engineered to encourage you to move more, but I wanted to move less - more slowly, more carefully. My goals no longer matched up with the activity tacker design defaults.
+
+---
+
+> We've done an excellent job of developing products, but a terrible job of designing products. - Design for Dasein
+
+---
+
 > When you first start off trying to solve a problem, the first solutions you come up with are very complex, and most people stop there. But if you keep going, and live with the problem and peel more layers of the onion off, you can often times arrive at some very elegant and simple solutions - Steve Jobs
 
 ---

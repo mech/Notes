@@ -122,6 +122,7 @@ Observable is a concept from the world of Functional Reactive Programming. They 
 * [Pure rendering in the light of time and state](https://medium.com/@mweststrate/pure-rendering-in-the-light-of-time-and-state-4b537d8d40b1#.cofzcnv4e)
 * [The evolution of Tracker](https://forums.meteor.com/t/tracker-2-0-the-evolution-of-tracker-solutions-to-its-core-problems/14941)
 * [Some nice discussion on observable](https://forums.meteor.com/t/next-steps-on-blaze-and-the-view-layer/13561/483)
+* [mobservable-react-boilerplate](https://github.com/mweststrate/mobservable-react-boilerplate)
 
 ## Cerebral
 

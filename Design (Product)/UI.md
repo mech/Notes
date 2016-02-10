@@ -2,6 +2,8 @@
 
 > The UI is part of user's digital body language - [How UI twist your words](https://medium.com/user-experience-design-1/facebook-and-how-uis-twist-your-words-4ceedc5fd93#.838m03i70)
 
+
+* [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)
 * [7 rules for creating nice UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.qd6qv5nia)
 * [Good Design](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
@@ -60,6 +62,26 @@
 * Use progressive disclosure (esp. for expert user)
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
+
+
+## Name
+
+* [Some UI component names for consideration](https://github.com/eonist/Element)
+
+```
+SelectButton
+CheckButton
+TextButton
+SelectTextButton
+Stepper
+LeverStepper
+ComboBox
+VSlider
+HSlider
+ScrubBar
+MovePanel
+HorizontalRuler
+```
 
 ## UI Refactoring and Expansion
 
@@ -126,7 +148,7 @@ There are a number of individual states at which interaction is possible. We cal
 
 * [**Tether**](http://github.hubspot.com/tether/docs/welcome/)
 
-![](UI_Patterns/drop_down_editor.png)
+![d](UI_Patterns/drop_down_editor.png)
 
 ### Group Edit
 

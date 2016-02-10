@@ -165,11 +165,45 @@ $message-types: (
 
 ## Tips
 
-```
-// Tire of writing width and height?
+* [5 Sass mixins](http://www.andrewhoule.me/blog/5-sass-mixins-i-use-on-nearly-every-project/)
+
+```css
+/* Tire of writing width and height? */
 @mixin size($width, $height: $width) {
 	width: $width;
 	height: $height;}
+```
+
+**Trangle**
+
+
+```css
+@mixin triangle($direction, $size: 0.375rem, $color: #222){
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0; width: 0;
+  @if ($direction == 'up') {
+    border-bottom: $size solid $color;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+  }
+  @else if ($direction == 'down') {
+    border-top: $size solid $color;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+  }
+  @else if ($direction == 'left') {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-right: $size solid $color;
+  }
+  @else if ($direction == 'right') {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-left: $size solid $color;
+  }
+}
 ```
 
 **Variables for various font-weight**

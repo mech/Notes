@@ -5,6 +5,8 @@
 
 **http://www.broken-links.com/2015/04/28/the-future-of-the-open-web/**
 
+* [16 web graphic design trends for 2016](https://medium.com/visual-stories/16-web-graphic-design-trends-to-watch-in-2016-bd0b30c9e475#.iitr5jkcp)
+* [**Scotch.io**](https://scotch.io/)
 * [How the Web Works](https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.h2gsor3d3)
 * [Web design is dead?](http://blog.usabilitytools.com/web-design-not-dead-on-ux-therapy)
 * [**The new code**](http://thenewcode.com/)

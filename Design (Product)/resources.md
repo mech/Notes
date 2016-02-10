@@ -105,6 +105,8 @@ It's not about the product, it's about your users.
 
 ## Company Design Blog
 
+
+* [**NYT Labs**](http://nytlabs.com/)
 * [IBM Design](http://www.ibm.com/design)
 * [Facebook Design](https://medium.com/facebook-design)
 * [Microsoft Design](https://www.microsoft.com/en-us/design/)

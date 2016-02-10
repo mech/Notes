@@ -19,6 +19,8 @@ typeof null // "object"
 
 * [A plain english guide to JavaScript prototypes](http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/)
 
+Don't confuse prototype chain with scope chain.
+
 A prototype is just a working sample.
 
 A prototype is just another object that is used as a fallback source of properties. Such a prototype object will itself have a prototype, often `Object.prototype`.
@@ -103,16 +105,41 @@ var spawnEnemyFactory = function() {
   return Object.create(enemyPrototype);};
 ```
 
+## Extend
+
+```js
+_.extend(object, ...sources) // obj[key] = source[key]
+jQuery.extend()
+```
+
 ## GoF and Design Patterns
 
 * [Design Principles from Design Patterns](http://www.artima.com/lejava/articles/designprinciples.html)
 
 Because JavaScript's object system is so powerful and expressive, most of the OO patterns melts away in JavaScript. Like the Singleton pattern is just an object literal:
 
-```
+```js
 // Singleton
 var highlander = {
   name: 'McLeod',
   catchphrase: 'There can be only one'
 };
-```# ES6 Class
+```
+
+## `Object.create`
+
+```js
+var person = {
+  firstName: 'Default',
+  lastName: 'Default',
+  getFullName: function() {}
+}
+
+// Much nicer and pure inheritance than using Function Constructor
+// Some people prefer this to Function Constructor as it let them
+// think more in line with prototypal than classes. They like to
+// see Object.create than `new F()`
+var john = Object.create(person);
+```# ES6 Class
+
+`extends` set the Prototype!

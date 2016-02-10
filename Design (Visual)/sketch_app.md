@@ -120,6 +120,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 ## Plugins
 
+* [Multicultural names with Craft](http://rizwanjavaid.com/blog/2016/2/4/multicultural-names-for-invisions-craft-plugin-sketch-photoshop)
 * [**Fluide - Auto Layout-like Constraints**](https://github.com/matt-curtis/Fluid-for-Sketch)
 * [List of plugins](https://news.layervault.com/stories/24626-ask-dn-what-are-your-favourite-sketch-plugins)
 * [Dynamic Button](https://github.com/ddwht/sketch-dynamic-button)
@@ -153,6 +154,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 ## Gallery
 
+* [**Roman Muradov**](http://bluebed.net/the-End-of-A-Fence)
 * [Mikuloctopus](http://mikuloctopus.tumblr.com/)
 * [SHAPE - The film](http://makeshapechange.com/)
 * [Using 53's Paper](http://angelwhite24.tumblr.com/)

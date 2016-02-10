@@ -2,6 +2,10 @@
 
 > Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
 
+Animation engage the user and enhance storytelling. They make a website seem more like an interactive experience than a simple portal to find information.
+
+It's important not to go overboard. Too much movement can scatter focus, and distract, confuse, and irritate users. Keep animation simple and thematically consistent. When I say "thematically" I mean from a storytelling perspective. Your site should unfold like a well-told narrative, revealing important details and guiding users through a path. Use animations selectively to illustrate important points or to indicate a required action.
+
 * [**Motion with Meaning: Semantic Animation in Interface Design**](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design)
 * [**MoJS**](http://mojs.io/)
 * [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97)

@@ -4,11 +4,17 @@ What types of data can we benefit from Observable and Reactive? Why can't we jus
 
 Observable is good for asynchronous and changing data. Anytime you want to automatically reflect data changes are good for observables and be subscribed to.
 
+Cursor-based? Observable-based?
+
 ## Mobservable
+
+## Baobab
 
 ## Cerebral
 
 * [Cerebral](http://christianalfoni.com/cerebral/)
+
+## Morearty
 
 ## Elm
 

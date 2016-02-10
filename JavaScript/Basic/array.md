@@ -3,6 +3,8 @@
 * Shallow copy
 * Deep copy
 
+Don't use `for..in` in Array as it is an Object.
+
 ## Splice
 
 Create a new array from existing array.

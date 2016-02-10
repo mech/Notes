@@ -24,3 +24,4 @@
 * [Re-branding Google Square](http://jackwmorgan.com/rebranding-google-squared/)
 * [Polaroid - Apple and Leica-like advertising](https://www.youtube.com/watch?v=5jaiq_ZZ_eM)
 * [The best and worst identities of 2014](http://www.underconsideration.com/brandnew/archives/the_best_and_worst_identities_of_2014_part_4_the_worst_noted.php#.VKUIMWSUdBA)
+* [Netflix rebrand and RWD](http://www.webdesignerdepot.com/2015/11/what-netflixs-rebrand-teaches-us-about-responsive-design/)

@@ -12,6 +12,7 @@ Remember, components in React are pretty much like functions, you can spit a fun
 
 By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!
 
+* [**React Components, Elements, and Instances**](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html)
 * [**Component Brick and Mortar**](https://medium.com/making-internets/component-brick-and-mortar-8bde51899b00#.6mnu551fs)
 * [JavaScript Application Architecture on the road to 2015](https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b#.5tt9t7j05)
 * [**Component is what you should be doing now for modern UI**](http://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/)

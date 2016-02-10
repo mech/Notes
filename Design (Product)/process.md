@@ -6,6 +6,8 @@ Concept Driven Design
 
 **READ this first**: [Measuring emotion](http://warpspire.com/posts/emotional-understanding/)
 
+[Idea Debt vs Idea Investment](http://jessicaabel.com/2016/01/27/idea-debt/)
+
 Rapid cycle time.
 
 Product to be in touch with customer.

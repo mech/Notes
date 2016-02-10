@@ -1,4 +1,8 @@
-# OOCSS, SMACSS, BEM
+# OOCSS, SMACSS, BEM, SUIT, CSS Modules
+
+Thinking globally is fine for web document, but not so for web application.
+
+Use `data-attribute` for JavaScript interaction.
 
 * [**CSS Modules**](http://glenmaddern.com/articles/css-modules)
 * [MVCSS??](http://mvcss.github.io/resources/)
@@ -215,7 +219,22 @@ You can use `avatar` elsewhere, but `profile__image` belongs to the `profile` co
 * [CSS Modules](http://glenmaddern.com/articles/css-modules)
 * [ICSS](http://glenmaddern.com/articles/interoperable-css)
 * [Please don't use CSS in JS](https://medium.com/@ajsharp/please-please-don-t-use-css-in-js-ffeae26f20f#.n1e0tog7i)
-* [Khan Academy's aphrodite](https://github.com/khan/aphrodite)## Dave Shea's Argon
+* [Khan Academy's aphrodite](https://github.com/khan/aphrodite)
+* [Video: The case for CSS modules](https://www.youtube.com/watch?v=zR1lOuyQEt8)
+
+This is what a typical `index.css` import look like:
+```css
+@import "vendor/normalize";
+
+@import "config/colors";
+@import "config/media_queries";
+
+@import "modules/buttons";
+@import "modules/dropdown";
+@import "modules/header";
+
+@import "utilities/clearfix";
+```## Dave Shea's Argon
 
 ```scss
 .swift-project.-activeProject ._filterField {}

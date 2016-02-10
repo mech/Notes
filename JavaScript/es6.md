@@ -6,6 +6,7 @@
 
 ---
 
+* [**ES6 Overview in 350 bullet points**](https://ponyfoo.com/articles/es6)
 * [**JavaScript Modules**](http://jsmodules.io/)
 * [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html)
 * [**CoreJS**](https://github.com/zloirock/core-js)

@@ -43,6 +43,10 @@ react-native@0.3.1 node_modules/react-native
 * [React Native for OS X](https://github.com/ptmt/react-native-desktop)
 * [Responding to keyboard](https://medium.com/man-moon/writing-modern-react-native-ui-e317ff956f02#.a02p0hh2e)
 
+**Starter Kits**
+
+* [snowflake - A React-Native Android iOS Starter App](https://github.com/bartonhammond/snowflake)
+
 ## ListView
 
 * [React Native ListView with section headers](http://moduscreate.com/react-native-listview-with-section-headers/)
@@ -50,6 +54,7 @@ react-native@0.3.1 node_modules/react-native
 ## Navigator
 
 * [Wrapping React Native Navigator](https://gist.github.com/aphillipo/0583601b0deab1e89dcf)
+* [Navigation Experimental](https://github.com/ericvicenti/navigation-rfc)
 
 ## Libraries
 
@@ -66,3 +71,7 @@ react-native@0.3.1 node_modules/react-native
 * [Nortal TechDay](https://github.com/mikkoj/NortalTechDay)
 * [Den](https://github.com/asamiller/den)
 * [Ziliun article reader app](https://github.com/sonnylazuardi/ziliun-react-native)
+
+## Videos
+
+* [Reactive 2015 - From React Web to Native Mobile](https://www.youtube.com/watch?v=-XxSCi8TKuk)

@@ -7,6 +7,11 @@
 * [Complete beginners guide](https://ihatetomatoes.net/jquery-complete-beginners-datatypes-selectors/)
 * [**jQuery Recipes Your Mom Should Know**](https://github.com/AllThingsSmitty/jquery-your-mom-should-know)
 
+```js
+jQuery.fn.init
+jQuery.fn = jQuery.prototype
+```
+
 ## You don't need jQuery
 
 * [**bling.js**](https://gist.github.com/paulirish/12fb951a8b893a454b32)

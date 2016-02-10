@@ -46,3 +46,14 @@ Boolean(0);         // Warning: Also false
 // you can safely use double equality for coercion.
 // But beware of ZERO.
 ```
+## `typeof` and `instanceof`
+
+```js
+typeof [] // object
+Object.prototype.toString.call([]) // [object Array]
+
+john instanceof Person
+
+typeof undefined // ok
+typeof null // Bug! object!!!!!
+```

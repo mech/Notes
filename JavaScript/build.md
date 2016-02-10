@@ -15,8 +15,13 @@ People suck at repetitive tasks.
 * [Brunch](http://brunch.io/)
 * [Auto-formatting JavaScript Code Style](https://medium.com/@addyosmani/auto-formatting-javascript-code-style-fe0f98a923b8)
 
-## jsnext:main
+## ESLint
 
+* [Get started with ESLint](http://devnull.guru/get-started-with-eslint/)
+
+## Rollup and jsnext:main
+
+* [Use tree-shaking and topological sorting of dependencies](https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016)
 * [Rollup pled to use ES6 modules only](https://github.com/rollup/rollup/wiki/jsnext:main)
 
 ## Babel 6

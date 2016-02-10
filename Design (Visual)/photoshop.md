@@ -1,5 +1,7 @@
 # Photoshop
 
+The white is a bit whiter and the black is a bit blacker.
+
 * [**Photoshop Etiquette**](http://photoshopetiquette.com/)
 * [**Pixel perfect shape**](https://medium.com/@kieranpblack/pixel-perfect-shape-e4d636d376b5)
 * [**Photoshop Secrets**](http://photoshopsecrets.tumblr.com/)

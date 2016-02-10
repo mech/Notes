@@ -69,6 +69,21 @@ Each chaining will create a brand new instance of `Relation` where the `where`, 
 
 Each call to a scoping method saves a new piece of information about our query, and returns a new instance of the `Relation` class. This is what allows us to easily chain together different method calls. We can add on as many different scopes as we wish; because each new object is also an `Relation`, it implements all of the same methods.
 
+## Null Object Pattern (Active Nothing)
+
+* [Sandi Metz - Nothing is Something](https://www.youtube.com/watch?v=OMPfEXIlTVE)
+
+```ruby
+class GuaranteedAnimal
+  def self.find(id)
+    Animal.find(id) || MissingAnimal.new
+  end
+end
+
+animals = ids.map { |id| GuaranteedAnimal.find(id) }
+animals.each { |animal| puts animal.name }
+```
+
 ## Arel
 
 ```ruby
