@@ -133,7 +133,37 @@ Observables are immutable, and every operator applied to them creates a new Obse
 
 ## Schedulers
 
+## RxJS with React
 
+* [Why I'm tired of using and teaching flux](https://gist.github.com/justinwoo/08f9f8fcdcf865025f18)
+
+```js
+var Counter = React.createClass({
+  componentWillMount() {
+    this.onButtonClick = new Rx.Subject();
+    
+    this.subscription = (
+      this.onButtonClick.start
+      .startWith(0)
+      .scan(acc => acc + 1)
+      .subscribe(count => this.setState({count}))
+    );
+  },
+  
+  componentWillUnmount() {
+    this.subscription.dispose();
+  },
+  
+  render() {
+    return (
+      <div>
+        {this.state.count}
+        <button onClick={() => this.onButtonClick.onNext()}>Increment</button>
+      </div>
+    );
+  }
+});
+```
 
 # Videos
 

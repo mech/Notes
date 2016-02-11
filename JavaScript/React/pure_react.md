@@ -19,6 +19,17 @@ Functional component cannot have `ref` assigned to it. This is a good thing sinc
 Functional component also cannot have state attached to them.
 
 ```js
+const Profile = ({avatar, name}) => {
+  return (
+    <div>
+      <img src={avatar} />
+      <span>{name}</span>
+    </div>
+  );
+}
+```
+
+```js
 function App({ items }) {
   return (
     <ul>

@@ -81,6 +81,8 @@ HSlider
 ScrubBar
 MovePanel
 HorizontalRuler
+RefreshableScrollView
+DismissDialog
 ```
 
 ## UI Refactoring and Expansion

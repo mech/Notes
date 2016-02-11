@@ -2,6 +2,8 @@
 
 > React is not reactive because it does not observe the data
 
+Redux is where interaction happens like `onClick`, `onMouseOver`, etc.
+
 To give a bit of perspective on complex front-end application, let's consider Google Docs. Every time a user presses a key, a number of things need to happen (doing them all before returning to the event queue would be a recipe for an unresponsive app):
 
 * the new character has to be displayed on the screen
@@ -151,7 +153,7 @@ function intent(DOM) {
 
 Action don't do anything. It don't mutate states. It only describe something has happen and ask Reducer to go deal with it.
 
-### Action Creators
+### Action Creators (Where async can happen)
 
 Action creators are just function that create action.
 
@@ -194,12 +196,44 @@ function addItem(name) {
 }
 ```
 
+**More examples of Action Creators**
+
+```js
+function addTodo(text) {
+  const trimmedText = text.trim();
+  return {
+    type: 'ADD_TODO',
+    text: trimmedText
+  };
+}
+
+<button onClick={ dispatch(addTodo('Call Mom')) }>Add Todo</button>
+
+// Or directly use XHR
+export function addTodo(todo) {
+  return (dispatch) => {
+    dispatch({type: 'SAVING_TODO'}); // spinner?
+    
+    ajax.post('/todos', todo)
+      .then(() => {
+        dispatch({type: 'SAVED_TODO'}); // stop spinner?
+        dispatch({
+          type: 'ADD_TODO',
+          todo: todo
+        });
+      });
+  };
+};
+```
+
 ## Reducer
 
 ```
    Source ------> Handler ------> Sink
 (don't care)                  (don't care)
 ```
+
+Reducers are synchronous! Data logic is 100% separated from view logic.
 
 Redux manages state by separating it into different reducers. Each reducer managing a little piece of a different branch of the global state tree.
 
@@ -308,12 +342,6 @@ browserHistory.subscribe(location => store.dispatch({ type: 'NAVIGATE', location
 
 Provide ability to change URL location within an action creator. This is very useful because it's not uncommon to have a workflow in an action creator that is something like "authenticate user -> if successful, redirect to /admin".
 
-## Context and Provider
-
-> Learning all this React environment and Redux is dragging me down. The connects and mapState make no sense to me and you have to do it for every container?
-
-Convention over configuration is lost JavaScript's obsession with composability.
-
 ## React Component Integration
 
 After the action, the reducer will give you a new state. You can get back the new state using `store.getState()`. You use this new state to re-render your component using `component.setState(newState)`.
@@ -321,6 +349,39 @@ After the action, the reducer will give you a new state. You can get back the ne
 Only top-level components of your app (such as route handler) are aware of Redux. The rest are Presentational Components and receive all data via props.
 
 Presentational components don't know WHERE the data comes from, or HOW to change it. They only render what's given to them.
+
+### Context and Provider
+
+> Learning all this React environment and Redux is dragging me down. The connects and mapState make no sense to me and you have to do it for every container?
+
+Convention over configuration is lost JavaScript's obsession with composability.
+
+```js
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import todoApp from './reducers';
+
+let store = createStore(todoApp);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('#app')
+);
+
+
+// App.jsx
+import { connect } from 'react-redux';
+
+const App = ({dispatch, state}) => {
+  return (
+    <button onClick={ dispatch(addTodo('Buy Milk')) }>Add Todo</button>
+  );
+};
+
+export default connect(App);
+```
 
 ### Connect
 
