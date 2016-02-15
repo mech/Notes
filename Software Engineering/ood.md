@@ -10,7 +10,6 @@
 
 > Knowing how software should look when it's done does not cause it to build itself; applications come into existence because some programmer applied the tools. The end result, be it a beautiful cabinet or a rickety chair, reflects its programmer's experience with the tools of design.
 
-
 OO applications are made up of *parts* that interact to produce the behavior of the whole.
 
 In functional programming, the *parts* are functions itself.
@@ -23,6 +22,12 @@ OOP is definitely good for business logics and processes. It is good for Domain-
 * [Closures and Objects are equivalent](http://c2.com/cgi/wiki?ClosuresAndObjectsAreEquivalent)
 * [RoleInterface](http://martinfowler.com/bliki/RoleInterface.html)
 * [In Praise of Small Classes](http://www.drdobbs.com/architecture-and-design/in-praise-of-small-classes/230300002)
+
+## Roles
+
+Roles, not inheritance!
+
+TDD testers hate BIG objects!
 
 # Videos
 

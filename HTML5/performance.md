@@ -74,6 +74,12 @@ Perceived = f(Expected Performance, UX, Actual Performance)
   transition: height 0.4s ease-out;	}
 ```
 
+## Webpage Test
+
+Automate it! Measure early. Measure often. Use `npm install psi`.
+
+FOIT - Flash of Invisible Text
+
 ## Cache
 
 * [**Things Caches Do**](http://2ndscale.com/rtomayko/2008/things-caches-do)

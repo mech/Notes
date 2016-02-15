@@ -24,3 +24,7 @@ Either store the form state within the component or Flux store.
 * [Thinking outside the DOM](http://www.sitepoint.com/thinking-outside-dom-concepts-setup/)
 * [Validating children](http://www.mattzabriskie.com/blog/react-validating-children)
 * [blur-input](https://github.com/Khan/react-components/blob/master/js/blur-input.jsx)
+* [Video - Form validation made simple](https://www.youtube.com/watch?v=FqscLiODo5c)
+* [vacuumlabs/validation](https://github.com/vacuumlabs/validation)
+
+Hack the console.log to show validation also.

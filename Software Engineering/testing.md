@@ -11,6 +11,14 @@
 * When something is painful to test, this acts as design feedback: maybe the test requires too much elaborate setup before the real work can be done, and this could indicate the module you're testing is too coupled to other concerns.
 * The trick is to not let the specifics of the problem cloud your thinking; interacting with a database and receiving messages via a WebSocket are not that different if you ignore what the code 'means' and focus on its 'language-level' properties.
 
+## Arrange, Act, Assert - Given, When, Then
+
+**Too many "Given" steps?** Are there too many dependencies or complex arguments?
+
+**Too many "When" steps?** Could the API be more user-friendly?
+
+**Too many "Then" steps?** Is the code doing too much?
+
 ## Do
 
 * Write modular code

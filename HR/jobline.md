@@ -133,6 +133,10 @@ Social graph. 1 or more degree away from better referral.
 
 Maintain good intel.
 
+Do not "inactive" user, instead "dormant" them. They can come back later.
+
+"How do you study inactive user?"
+
 ## Design for the moment
 
 * [Moments as a currency](http://thenextweb.com/insider/2015/04/24/moments-as-a-currency-brian-wong-on-identifying-and-addressing-customers-needs-at-tnw-europe-conference/)
@@ -271,6 +275,10 @@ Can you answer these questions:
 Check out histogram so as not to skew data reading.
 
 **Put like product together. Put similar job posting together to increase the likelihood of CA applying for that job. See Amazon recommended books.**
+
+
+Exit Survey, longitudinal study, Attitudinal data
+
 
 ## Pipelines
 

@@ -183,6 +183,8 @@ Pager Study. Ask repeated questions. Don't use yes/no, opinion, or number questi
 
 > Understanding the psychology and science behind how people interpret information, make decisions, and take action enables us to deliver more effective designs.
 
+Predict behaviour - not a literal sense. But with enough data to predict. Predictive system? Adaptive UI?
+
 * [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
 * [Asking users to adopt new behaviors or even modify their existing behaviors is very hard](http://www.subtraction.com/2014/06/12/designing-products-for-existing-behaviors/)
 * [Persuasion: Applying the elaboration likelihood model to design](http://alistapart.com/article/persuasion-applying-the-elaboration-likelihood-model-to-design)

@@ -7,7 +7,7 @@ https://smacss.com/signin
 https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
-
+* [**CSS Variables: Why Should You Care?**](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
 * [**Should I Prefix?**](http://shouldiprefix.com/)
 * [**The new code**](http://thenewcode.com/)
 * [**CSS tools**](https://medium.com/@vilcins/css-tools-that-i-use-67cb8bfa2e2d)

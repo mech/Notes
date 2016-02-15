@@ -2,6 +2,9 @@
 
 > React is not reactive because it does not observe the data
 
+
+If you don't have synchronization problem and don't really need single source of truth, you don't need Redux. Local component is perfectly fine for other cases.
+
 Redux is where interaction happens like `onClick`, `onMouseOver`, etc.
 
 To give a bit of perspective on complex front-end application, let's consider Google Docs. Every time a user presses a key, a number of things need to happen (doing them all before returning to the event queue would be a recipe for an unresponsive app):
@@ -38,6 +41,7 @@ const store = createStore(counter);
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
 
+* [Why I'm tired of using and teaching flux](https://gist.github.com/justinwoo/08f9f8fcdcf865025f18)
 * [A simple way to route with Redux](http://jlongster.com/A-Simple-Way-to-Route-with-Redux)
 * [**Nothing new in React and Flux**](http://staltz.com/nothing-new-in-react-and-flux-except-one-thing.html)
 * [**Why React/Redux is an inferior paradigm**](http://staltz.com/why-react-redux-is-an-inferior-paradigm.html)
@@ -85,7 +89,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [react-router-redux](https://github.com/rackt/react-router-redux)
 * [normalizr](https://github.com/gaearon/normalizr)
 
-## Single Store Tree (Root Store?) - Single Source of Truth
+## Single Store Tree (Root Store?) - Single Source of Truth - Single State Atom
 
 * [Issue#140 - Rename store to reducer](https://github.com/rackt/redux/pull/140)
 
@@ -223,6 +227,19 @@ export function addTodo(todo) {
         });
       });
   };
+};
+```
+
+```js
+export function login(email, password) {
+  return ({fetch}) => ({
+    types: [LOGIN, LOGIN_SUCCESS, LOGIN_ERROR],
+    payload: {
+      promise: fetch('auth/login', {
+        body: JSON.stringify({email, password})
+      })
+    }
+  })
 };
 ```
 

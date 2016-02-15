@@ -2,6 +2,7 @@
 
 * [**CSS Protips**](https://github.com/AllThingsSmitty/css-protips)
 * [**Cody House**](https://codyhouse.co/)
+* [**Can your code these UI concepts?**](https://stories.uplabs.com/can-you-code-this-ui-concept-vol-2-9c9763269640#.y8r8028y5)
 * [Skewed hit boxes with CSS transforms](http://viget.com/inspire/skewed-hit-boxes-with-css-transforms)
 * [7 things your didn't know you could do with CSS](http://davidwalsh.name/css-facts)
 * [Pure CSS slide up and down](http://davidwalsh.name/css-slide)

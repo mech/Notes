@@ -4,6 +4,10 @@
 * [Portfolio sites](https://news.layervault.com/stories/20196-whats-your-favorite-portfolio-site)
 * [ilikethesepixels](http://ilikethesepixels.com/)
 
+## Bad
+
+* [We put a chip in it!](http://weputachipinit.tumblr.com/)
+
 ## Inspiration
 
 * [Geisha](http://geisha.io/app/)

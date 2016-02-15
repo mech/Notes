@@ -25,6 +25,7 @@ Might be a kid, might be after your server (botnet), might be after your users. 
 * [10 Moist Common Web Security Vulnerabilities](http://www.toptal.com/security/10-most-common-web-security-vulnerabilities)
 * [Top 3 biggest mistakes enterprises make in application security](http://www.net-security.org/article.php?id=2362)
 * [**Html5sec**](http://html5sec.org/)
+* [Cyber Criminals are getting smarter, Organized and Sophisticated](https://medium.com/swlh/cyber-criminals-are-getting-smarter-organized-and-sophisticated-6f348b7fa408#.ng2jfygnu)
 
 ## Cross-Site Scripting (XSS)
 

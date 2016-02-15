@@ -1,5 +1,7 @@
 # Components
 
+> Basically treat the app as a game engine, and use a lot of the same techniques.
+
 UI are fundamentally tree. Dealing with REST endpoint introduces complexity. Whatever comes out from that endpoint is typically not in the shape my UI expected.
 
 UI components should define what they need. Use a recursive description (JSON, EDN, Transit, etc). Falcor, JSON Graph.
@@ -382,6 +384,8 @@ Re-rendering on every change is impractical unless *all* your component have ver
 
 ### D3 or just Victory.js
 
+Just use Victory.js for new project.
+
 * [**Victory.js**](https://github.com/FormidableLabs/victory)
 * [d-Threeact](http://blog.siftscience.com/blog/2015/4/6/d-threeact-how-sift-science-made-d3-react-besties)
 * [Integrating D3.js visualizations in a React app](http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/)
@@ -395,6 +399,8 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [Visualizing data in React.js](https://www.codementor.io/reactjs/tutorial/visualizing-data-react-js-cross-filtering-hover-interaction-histogram)
 * [**Building D3-inspired charts with React**](http://blog.scottlogic.com/2015/09/03/d3-without-d3.html)
 * [D3 with React the right way](http://oli.me.uk/2015/09/09/d3-within-react-the-right-way/)
+* [D3 and React - the future of charting components?](http://10consulting.com/2014/02/19/d3-plus-reactjs-for-charting/)
+* [D3 for math + ReactJS for rendering](http://formidable.com/blog/2015/05/21/react-d3-layouts/)
 
 ## Integrate with jQuery
 

@@ -1,5 +1,7 @@
 # Selectors
 
+> Selects are matched against everything in the DOM. You need naming strategies to combat against this and keep things efficient (which are hard to enforce and easy to break) - Chris Coyier
+
 * [Don't use ID in CSS selector?](http://oli.jp/2011/ids/)
 * [CSS 4 Selectors](http://css4-selectors.com/)
 
@@ -33,9 +35,28 @@ Use child selector, rather than descendant selector to reduce depth of applicabi
 .nav a {}
 ```
 
-## Nesting
+## Nesting is BAD (Just don't use it, even in CSSNEXT)
+
+CSS (Poop) is an append-only language.
 
 Nesting can reduce the portability and maintainability of styles, since selectors are tied to the HTML structure.
+
+```css
+/* git grep 'div:last-child p' == found nothing as it was nested */
+form {
+  p {
+    margin-bottom: 8px;
+  }
+  
+  div {
+    &:last-child {
+      p {
+        margin-bottom: 0; /* killer nesting, heard to grep to maintain */
+      }
+    }
+  }
+}
+```
 
 ## Attribute Selectors
 

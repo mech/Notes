@@ -57,7 +57,7 @@ If you're not using the Flux pattern (where the parent widget listens to Stores 
 
 Promises are great to use when a child component needs to wait on a parent component's asynchronous request.
 
-## Sub-tree
+## Sub-tree and Re-rendering
 
 The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.
 
@@ -70,6 +70,8 @@ A component can change its state but its props are immutable, which is good feat
 A very hard to maintain mistake is to have the root/top component passing props to deeply nested children. You may end up with a lot of intermediate components that pass a lot of props to their children without even using it.
 
 ## State
+
+* [**Why local component state is a trap - Richard Feldman**](https://www.safaribooksonline.com/blog/2015/10/29/react-local-component-state/)
 
 State for React UI can exists in many forms:
 

@@ -109,6 +109,7 @@ The webpack core can be extended with loaders and plugins.
 * [Ultimate hot reloading example](https://github.com/glenjamin/ultimate-hot-reloading-example)
 * [react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
 * [webpack-express-boilerplate](https://github.com/christianalfoni/webpack-express-boilerplate)
+* [front-stack-boilerplate](http://engineering.blogfoster.com/jumpstart-to-react-redux-development/)
 
 ## ESLint
 

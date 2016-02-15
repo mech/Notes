@@ -23,7 +23,7 @@ https://vividcortex.com/pricing/
 * [MADlib - For data science](https://github.com/madlib/madlib)
 * [Why should you learn Postgres](http://www.brightball.com/postgresql/why-should-you-learn-postgresql)
 * [**Rob Conery's node-db-project**](https://github.com/robconery/node-db-project)
-* [**pgFouine  -Log analyzer**](http://pgfouine.projects.pgfoundry.org/)
+* [**pgFouine -Log analyzer**](http://pgfouine.projects.pgfoundry.org/)
 * [Simpel continuous archiving for Postgres](https://github.com/wal-e/wal-e)
 
 > PGFouine is our core tool in analysing database performance and figuring out which queries could use memcached in front of them, which ones are fetching more data than is necessary, etc; as DBs showed signs of stress on launch day, we would run PGFouine, deploy targeted code improvement to relieve hotspots, and then run it again to make sure those changes had the correct effect.
@@ -86,10 +86,28 @@ Use Neo4j for candidate's relationship with each other.
 ▶ select * from pg_stat_archiver;
 ```
 
+## UUID
+
+* [UUID vs BIGSERIAL for Primary Keys](http://thebuild.com/blog/2015/10/08/uuid-vs-bigserial-for-primary-keys/)
+* [UUID Primary Keys in PostgreSQL](https://blog.starkandwayne.com/2015/05/23/uuid-primary-keys-in-postgresql/)
+* [Rails support for UUID references](http://blog.nakonieczny.it/posts/rails-support-for-uuid/)
+* [Keyspace fragmentation??](http://www.postgresql.org/message-id/20151222124018.bee10b60b3d9b58d7b3a1839@potentialtech.com)
+* [A better ID generator for PostgreSQL](http://rob.conery.io/2014/05/29/a-better-id-generator-for-postgresql/)
+* [Why auto-increment is a terrible idea](https://www.clever-cloud.com/blog/engineering/2015/05/20/why-auto-increment-is-a-terrible-idea/)
+
+Okay to use UUID unless you are faced with a very tight `INSERT` performance requirement; they are surprisingly efficient compared to `BIGSERIAL`.
+
+### pgcrypto `gen_random_uuid()` vs uuid-ossp `uuid_generate_v1()`
+
+Depending on `created_at` to sort is unreliable. 2 records can have the exact same time and your next best bet is the id. If your UUID is random, then all bets are off.
+
+UUID should be sortable by time. We should not rely on `created_at`.
+
+UUID being random, you lose locality and your index ends up scattered and fragmented.
+
 ## Rails
 
 * [Porting ActiveRecord validations to Postgres](http://shuber.io/porting-activerecord-validations-to-postgres/)
-* [Rails support for UUID](http://blog.nakonieczny.it/posts/rails-support-for-uuid/)
 * [Rails Guides](http://edgeguides.rubyonrails.org/active_record_postgresql.html)
 * [Postgres, the best tool you're already using](http://adamsanderson.github.io/railsconf_2013/)
 * [Using arrays in Rails](http://blog.arkency.com/2014/10/how-to-start-using-arrays-in-rails-with-postgresql/)
@@ -459,9 +477,14 @@ language sql;
 
 * [How to backup your Postgres to Amazon nightly](http://rob.conery.io/2011/11/01/how-to-backup-your-postgres-db-to-amazon-nightly/)
 * [WAL-E: Backup to S3](https://github.com/wal-e/wal-e)
+* [Encrypting a gzip file](http://blog.ashurex.com/2012/07/17/encrypting-tar-gz-gzip-file-openssl/)
 
 ## People
 
 * Michael Stonebraker
 * Peter van Hardenberg
 * Andrew Dunstan (jsonb)
+
+## Blog
+
+* [the build](http://thebuild.com/blog/)

@@ -42,6 +42,7 @@ react-native@0.3.1 node_modules/react-native
 * [Use iOS camera in your React Native](https://blog.nraboy.com/2015/09/use-the-ios-camera-in-your-react-native-mobile-app/)
 * [React Native for OS X](https://github.com/ptmt/react-native-desktop)
 * [Responding to keyboard](https://medium.com/man-moon/writing-modern-react-native-ui-e317ff956f02#.a02p0hh2e)
+* [Deco - IDE for React Native](https://www.decosoftware.com)
 
 **Starter Kits**
 

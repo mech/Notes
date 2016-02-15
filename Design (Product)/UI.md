@@ -63,6 +63,13 @@
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
+## Zero UI
+
+Get rid of all the stuff in our UI, primarily is visual. Enjoy the content, not adjusting the settings.
+
+Struggle to learn interface.
+
+## Labelling and Language
 
 ## Name
 
@@ -147,6 +154,8 @@ There are a number of individual states at which interaction is possible. We cal
 * For single entity
 
 ### Drop-down Editor
+
+> Drop downs should be the UI of last resort - @lukew
 
 * [**Tether**](http://github.hubspot.com/tether/docs/welcome/)
 

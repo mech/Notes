@@ -65,6 +65,10 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 * [Brain gems for decision-makers](http://coglode.com/)
 
 
+## Context
+
+* [Contextual Design](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/contextual-design)
+
 ## Process and Methods
 
 * [Stop looking and go create. The act of creating is what drives us.](https://www.drawar.com/posts/stop-looking-and-go-create)

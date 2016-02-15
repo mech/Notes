@@ -1,5 +1,7 @@
 # Resources
 
+
+* [**A Visual Introduction to Machine Learning**](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [Command line tools can be 235x faster than your Hadoop cluster](http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
 * [Why external data is valuable?](http://enterprise.import.io/post/why-now-is-the-perfect-time-to-go-all-in-on-external-data-analytics/)
 * [Everything we wish we'd known about building data products](http://firstround.com/review/everything-we-wish-wed-known-about-building-data-products/)

@@ -77,6 +77,7 @@ The master process reads and executes the nginx configuration, binds the necessa
 
 * [HTTPS Performance Tuning](http://blog.httpwatch.com/2009/01/15/https-performance-tuning/)
 * [SSL Cipher](http://security.stackexchange.com/questions/54639/recommended-ssl-ciphers-for-security-compatibility-perfect-forward-secrecy)
+* [Let's Encrypt](https://letsencrypt.org/)
 
 To concatenate primary certificate and intermediate certificate:
 

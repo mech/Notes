@@ -33,6 +33,12 @@ Design decisions don't live independently of business or engineering goals - the
 
 Rule of Optimization: Prototype before polishing. Get it working before you optimize it.
 
+**Prototype is the cheapest and easiest way to get an idea out of your head and into a testable form**
+
+* To understand
+* To test and improve
+* To communicate
+
 Prototyping has become an integral part of product design.
 
 * [**Prototyping with Framer**](http://nlevin.com/whitespace/)
@@ -62,3 +68,7 @@ Prototyping has become an integral part of product design.
 
 * [Framer Code](http://framerco.de/)
 * [Prototyping 3D touch interactions](http://blog.framerjs.com/posts/prototyping-3D-touch-interactions.html)
+
+## Analysis
+
+* [Hot Jar](https://www.hotjar.com/)

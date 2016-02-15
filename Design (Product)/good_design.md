@@ -8,6 +8,10 @@ Automation looks good on the surface. But how practical is it. Smart washing mac
 
 Humble systems. Not smart system. Relationship design is the new UX.
 
+> You see, even when you have a pack of designers roaming your halls, it's hard for analytical cultures to integrate creative ones. The reason being that analytical cultures traditionally start with an answer, and then break the problem down into its constituent parts, whereas creative cultures start with questions and look at problems holistically. We're not delivering a verdict here that one approach is superior to another, just that one invariably ends up being dominant. From the very beginning, IDEO has been a culture that starts with questions. It's the only way we know how to uncover pressing human needs and design toward them. That's at our core.
+
+---
+
 > In the weeks that followed, I looked to my Fitbit to help manage my recovery. Everything about the Fitbit is engineered to encourage you to move more, but I wanted to move less - more slowly, more carefully. My goals no longer matched up with the activity tacker design defaults.
 
 ---

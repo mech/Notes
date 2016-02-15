@@ -36,6 +36,17 @@ Objects in JavaScript have reference equality.
 {error: error} === {error}
 ```
 
+## Import and Export
+
+```js
+class Radio {}
+
+export { Radio as Player };
+
+import { Player as SportsPlayer } from 'radio';
+var basketball = new SportsPlayer();
+```
+
 ## Killer Features is Multiple Exports
 
 * [d3-jsnext](https://github.com/rollup/d3-jsnext)

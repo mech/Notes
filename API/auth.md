@@ -111,15 +111,22 @@ Without the browser to automatically attach cookie, there will be no CSRF attack
 
 * [CSRF Protection Bypass in Rails 3.0.2](http://weblog.rubyonrails.org/2011/2/8/csrf-protection-bypass-in-ruby-on-rails/)
 	
-## Using `has_secure_password` and `has_secure_token`
+## Bcrypt
+
+Using `has_secure_password` and `has_secure_token`
+
+```
+BCrypt::Engine::DEFAULT_COST = 10
+```
 
 `has_secure_password` already checks for existence and confirmation on create.
 
+* [**Don't use BCrypt**](http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html)
+* [**How we cracked millions of AM bcrypt hashes efficiently**](http://cynosureprime.blogspot.sg/2015/09/how-we-cracked-millions-of-ashley.html)
 * [How to safely store a password](http://codahale.com/how-to-safely-store-a-password/)
 * [**Simple Authentication with BCrypt**](https://gist.github.com/thebucknerlife/10090014)
 * [With Rails 4.1](http://robert-reiz.com/2014/04/12/has_secure_password-with-rails-4-1/)* [Validating Users with `has_secure_password`](https://quickleft.com/blog/rails-tip-validating-users-with-has_secure_password/)
 * [Why I roll my own authentication](http://www.rvdh.de/2012/01/12/why-i-roll-my-own-authentication/)
-* [**Don't use BCrypt**](http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html)
 * [Taking password storage up a notch](https://blog.8thlight.com/adam-gooch/2012/11/04/taking-password-storage-up-a-notch.html)
 * [Some best practices for authentication in Ruby on Rails](http://www.fngtps.com/2015/some-best-practices-for-authentication-in-ruby-on-rails/)
 

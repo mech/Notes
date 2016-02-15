@@ -150,7 +150,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 ## People
 
 * [Sebastien Gabriel from Google](http://sebastien-gabriel.com/)
-
+* [Oscar Grønner](http://www.oscargronner.com/)
 
 ## Gallery
 
@@ -163,3 +163,6 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [John Jay](http://www.johnjayart.com/)
 * [Laura Barnard](http://laurabarnard.co.uk/work/)
 * [Some nice arts](https://felicien-nourry.artstation.com/)
+* [Art Fucks Me](http://artfucksme.com/)
+* [It's Nice That](http://www.itsnicethat.com/)
+* [Colors Magazine](http://www.colorsmagazine.com/)

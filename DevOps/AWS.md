@@ -70,4 +70,9 @@ S3 is not a filesystem. It is a key-value store.
 ▶ aws s3 ls s3://jobline-assets/avatars/ | wc -l
 ▶ aws s3 ls --recursive s3://jobline-assets/claims/ | wc -l
 ▶ aws s3 ls --recursive s3://jobline-assets/timesheets/ | wc -l
+
+// Last check count Feb 15, 2016
+39411
+10923
+5335
 ```

@@ -6,6 +6,8 @@ Observable is good for asynchronous and changing data. Anytime you want to autom
 
 Cursor-based? Observable-based?
 
+[Patched-based issues](https://github.com/gritzko/swarm/blob/master/doc/ver0.3/patch-based-issues.md)
+
 ## Mobservable
 
 ## Baobab
@@ -27,3 +29,7 @@ All functions are stateless. All data is immutable.
 ## Ramda
 
 * [A practical functional library](http://ramdajs.com)
+
+## Dato
+
+* [Dato](https://github.com/datodev/dato)
