@@ -26,6 +26,7 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 * [Default rubocop yml](https://github.com/bbatsov/rubocop/blob/master/config/default.yml)
 * [Ruby - #tap that!](http://seejohncode.com/2012/01/02/ruby-tap-that/)
 * [Tempfile](https://viget.com/extend/make-remote-files-local-with-ruby-tempfile)
+* [Class comparison in Ruby](http://taylor.fausak.me/2014/05/24/class-comparison-in-ruby/)
 
 ## String
 

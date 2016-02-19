@@ -1,5 +1,6 @@
 # Drag and Drop
 
+* [**react-sortable-pane**](https://github.com/bokuweb/react-sortable-pane)
 * [**Dragula**](http://bevacqua.github.io/react-dragula/)
 * [The future of drag and drop APIs](https://medium.com/@dan_abramov/the-future-of-drag-and-drop-apis-249dfea7a15f)
 * [**react-dnd**](https://github.com/gaearon/react-dnd)

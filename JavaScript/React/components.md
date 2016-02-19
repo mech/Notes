@@ -374,6 +374,7 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [react-list - Infinite scroll](https://github.com/orgsync/react-list)
 * [react-input-slider](https://github.com/wangzuo/react-input-slider)
 * [react-fa - Can study it](https://github.com/andreypopp/react-fa)
+* [react-matchmedia-connect](https://github.com/malte-wessel/react-matchmedia-connect)
 
 ### Pagination
 

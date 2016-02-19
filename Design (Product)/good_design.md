@@ -74,6 +74,10 @@ Humble systems. Not smart system. Relationship design is the new UX.
 * [Truth is you aren't a good designer](https://medium.com/the-treachery-of-images/truth-is-you-arent-a-good-designer-304177d2d654)
 * [Becoming a better designer](https://gibbon.co/wdeb/becoming-a-better-designer)
 
+## Books
+
+* [Great books for designers in 2016](https://blog.pttrns.com/great-books-for-designers-to-read-in-2016-d2ebea3763f4#.yuvc5qm03)
+
 ## Design Videos
 
 * [Arrogance and confidence in design - Generate Conference](https://www.youtube.com/watch?v=ngQnoBWsFfc)

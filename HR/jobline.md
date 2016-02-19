@@ -125,7 +125,13 @@ To Bob, the main thing is to take leave. To Alice, main thing is to keep track o
 
 > Paving the cowpaths philosophy - we don’t like to tell you what to do, we like to find out what you’re doing, and then get the obstacles out of your way.
 
-## Talent Networking
+## Talent
+
+"CA Profiling - In-progress"
+
+Show when a CA is currently being profiled. So it act as a awareness meter for other recruiters to gauge the level of engagement.
+
+### Talent Networking
 
 * [SAP Scouting](http://awards.ixda.org/entry/2014/sap-scouting/)
 
@@ -276,9 +282,9 @@ Check out histogram so as not to skew data reading.
 
 **Put like product together. Put similar job posting together to increase the likelihood of CA applying for that job. See Amazon recommended books.**
 
-
 Exit Survey, longitudinal study, Attitudinal data
 
+Treat recruiters as **marketers**, where they have to perform data-driven campaigns. Recruiters need to sell a product (Job Order) to potential customers (candidates) and a well-run campaign supported by data-driven system is the way to go.
 
 ## Pipelines
 

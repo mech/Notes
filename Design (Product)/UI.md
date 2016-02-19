@@ -2,6 +2,7 @@
 
 > The UI is part of user's digital body language - [How UI twist your words](https://medium.com/user-experience-design-1/facebook-and-how-uis-twist-your-words-4ceedc5fd93#.838m03i70)
 
+> You have to zoom in and out between the general and the specific.
 
 * [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)

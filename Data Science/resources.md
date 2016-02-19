@@ -69,6 +69,7 @@ Raw Data -- Data Structure -- Algorithm -- Insight
 
 * [Hilary Mason keynote on FutureStack 2013](http://www.youtube.com/watch?v=LXJgQalT1LU)
 * [FutureStack](http://futurestack.io/videos)
+* [The Difference Engine Blog](http://www.thedifferenceengine.co/blog-1/)
 
 ## People
 

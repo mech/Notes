@@ -84,6 +84,16 @@ animals = ids.map { |id| GuaranteedAnimal.find(id) }
 animals.each { |animal| puts animal.name }
 ```
 
+## Timezone
+
+* [Working with time zones in Ruby on Rails](http://www.elabs.se/blog/36-working-with-time-zones-in-ruby-on-rails)
+
+```ruby
+Time.zone.now
+Time.zone.now.to_datetime
+DateTime.now # is not TZ-aware
+```
+
 ## Arel
 
 ```ruby
