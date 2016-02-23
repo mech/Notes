@@ -1,5 +1,7 @@
 # Falcor
 
+Client won't talk with the backend services directly anymore, instead they will send queries to a Falcor service that will do the routing, aggregations, projections and optimizations. Think of your endpoints as SQL tables, and we have the query language to join and shape the data easily from the client side.
+
 > Most data is not a tree.
 
 > The specs for JSON Graph and JSON-LD have some overlap, and likewise Falcor has some overlap with the JSON-LD implementations. How do Falcor and JSON Graph relate to JSON-LD? It appears to me they are very similar, except Falcor requires more changes to the backend server but also provides more control over data shape and caching than is currently provided by JSON-LD framing.
@@ -7,6 +9,7 @@
 * [The future of web development - React, Falcor, and ES6](http://engineering.widen.com/blog/future-of-the-web-react-falcor/)
 * [REST orthodoxy?](https://news.ycombinator.com/item?id=9473519)
 * [David Nolan on HATEOAS through Falcor lens](https://twitter.com/swannodette/status/642701397813776384)
+* [Querying GraphQL with Falcor](http://hueypetersen.com/posts/2015/10/26/querying-graphql-with-falcor/)
 
 Released on Aug 2015.
 

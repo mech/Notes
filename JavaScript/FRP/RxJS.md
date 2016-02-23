@@ -4,6 +4,8 @@
 
 Few applications are completely synchronous, and writing async code is necessary to keep applications responsive.
 
+Imagine you have a normal array, you can `filter`, `map`, `reduce` all you can. But what happen if the array is asynchronous and streaming?
+
 Application is all about "data flow".
 
 * [ECMAScript Observable](https://github.com/zenparsing/es-observable)
@@ -14,6 +16,8 @@ Application is all about "data flow".
 * [RxJS vs Async.js](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/mapping/async/comparing.md)
 * [Slide](https://github.com/npm/slide-flow-control)
 * [Step](https://github.com/creationix/step)
+* [rxjs-examples](https://github.com/annatomka/rxjs-examples)
+* [React and RxJS](https://github.com/whiteinge/presentations/blob/master/react-rally_2015-08-24_react-rxjs/presentation.rst#rx-)
 
 We have many PUSH APIs:
 

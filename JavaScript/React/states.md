@@ -45,6 +45,7 @@ You can have instance properties for state that do not control how a component r
 
 Here we are talking about component-component communication, not data-fetching problem which are solved by Flux.
 
+* [**8 no-Flux strategies for React component communication**](http://andrewhfarmer.com/component-communication/)
 * [2-way data-binding is one way](http://voidcanvas.com/react-tutorial-two-way-data-binding/)
 * [Why Flux is better than firing events back and forth](http://www.code-experience.com/avoiding-event-chains-in-single-page-applications/)
 * [Context in React.js](https://www.tildedave.com/2014/11/15/introduction-to-contexts-in-react-js.html)

@@ -8,6 +8,7 @@
 * [**The Language of Modular Design**](http://alistapart.com/article/language-of-modular-design)
 * [**Corpus**](http://corpuscss.com/)
 * [ITCSS](http://jordankoschei.com/itcss/)
+* [Polymer Catalog](https://elements.polymer-project.org/)
 
 Nobody wants to email back and forth style guides. Confusion about latest version, hard to distribute, hard to edit and change, etc.
 

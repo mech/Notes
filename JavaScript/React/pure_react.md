@@ -10,9 +10,13 @@ Classes are dirty. One simple method call can mutate them. Who did it? And why? 
 
 ## Stateless Components
 
+* [**ES6 classes or stateless functional components?**](http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/)
 * [babel-plugin-react-pure-components](https://github.com/thejameskyle/babel-plugin-react-pure-components)
 * [Issue#5677 - Stateless functional components and shouldComponentUpdate](https://github.com/facebook/react/issues/5677)
 * [Issue#1176 - Redux + React with only stateless functions](https://github.com/rackt/redux/issues/1176)
+* [thisless-react](https://github.com/jas-chen/thisless-react)
+
+Stateless functions don't have a `this` object. If you need anything defined on `this` other than `props`, you'll need a component class. Meaning no `this.state` or `this.refs`.
 
 Functional component cannot have `ref` assigned to it. This is a good thing since `ref` is always meant as a jQuery-like way to look up it's children which is very imperative approach.
 
@@ -71,6 +75,30 @@ const FilterLink = ({
     >
       {children}
     </a>
+  );
+}
+```
+
+You could still use stateless functional components if all you want to do with `this` is to get a handle to the DOM node:
+
+```js
+const AddTodo = ({
+  onAddClick
+}) => {
+  let input;
+  
+  return (
+    <div>
+      <input ref={node => {
+        input = node;
+      }} />
+      <button onClick={() => {
+        onAddClick(input.value);
+        input.value = '';
+      }}>
+        Add Todo
+      </button>
+    </div>
   );
 }
 ```

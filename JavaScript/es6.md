@@ -187,29 +187,32 @@ Mixin application should create a new class (metaclass) by composing existing on
 
 ## React
 
+* [React on ES6+](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
+
 ```js
 import React from 'react';
 
 let { PropTypes, Component } = React;
 
 class Person extends Component {
+  // Use constructor instead of componentWillMount()
   constructor(...args) {
     super(...args);
     // No more getInitialState
     this.state = {      name: props.name
     };  }
   
-  // ES7
+  // ES7 property initializers
+  state = { isEditing: false };
+  
+  static defaultProps = { initialCount: 0 };
   static propTypes = {
     user: React.PropTypes.object.isRequired  }
   
-  // ES7
-  static defaultProps = { initialCount: 0 };
-  
-  // ES7
-  state = { isEditing: false };
-  	
   // ES7 - Good for event handler and callback which need binding  change = env => this.setState({isEditing: true});
+  
+  // Combining 2 features: Arrow function + property initializers
+  handleClick = (e) => this.setState()
   
   setName(name) {
     this.setState({ name: name });  }    

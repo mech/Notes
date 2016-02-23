@@ -1,5 +1,15 @@
 # Editors
 
+## Atom
+
+* [10 essential add-ons](http://www.sitepoint.com/10-essential-atom-add-ons/)
+
+Open your keymap:
+
+```
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+```
 
 ## Sublime Text
 

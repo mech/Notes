@@ -9,3 +9,7 @@
 <input type="checkbox" aria-checked="true" tabindex="0" />
 <button aria-label="Submit">Submit</button>
 ```
+
+## Roles
+
+* [The Roles Model](https://www.w3.org/WAI/PF/aria/roles)

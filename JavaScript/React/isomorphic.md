@@ -7,6 +7,7 @@
 * [Rendering React - Server-side](https://www.beaconreader.com/beacon-engineering-blog/rendering-react)
 * [Foundation of Universal JavaScript](https://strongloop.com/strongblog/the-foundations-of-universal-or-isomorphic-javascript/)
 * [From AirBnB](https://github.com/goatslacker/iso)
+* [react-dom-stream - A streaming server-side rendering](https://github.com/aickin/react-dom-stream)
 
 ```js
 // on the server you can render the app to a string

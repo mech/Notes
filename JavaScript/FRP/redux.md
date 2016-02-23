@@ -28,7 +28,6 @@ Falcor as solving data fetching problem and Redux as predictable state managemen
 ```js
 (state, action) => state
 
-
 // Some usage example:
 
 const store = createStore(counter);
@@ -41,6 +40,8 @@ const store = createStore(counter);
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
 
+* [fully-reactive-react-example](https://github.com/belfz/fully-reactive-react-example)
+* [**React has no networking/Ajax features**](http://andrewhfarmer.com/react-ajax-best-practices/)
 * [Why I'm tired of using and teaching flux](https://gist.github.com/justinwoo/08f9f8fcdcf865025f18)
 * [A simple way to route with Redux](http://jlongster.com/A-Simple-Way-to-Route-with-Redux)
 * [**Nothing new in React and Flux**](http://staltz.com/nothing-new-in-react-and-flux-except-one-thing.html)
@@ -78,6 +79,9 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 
 **Starter Kits**
 
+* [MERN](http://mern.io/)
+* [**react-ultimate**](https://github.com/Paqmind/react-ultimate)
+* [**thisless-react**](https://github.com/jas-chen/thisless-react)
 * [**Shasta - Simple opinionated toolkit for building applications on top of React, Redux, and immutable.js**](https://github.com/shastajs/shasta)
 * [react-slingshot](https://github.com/coryhouse/react-slingshot)
 * [react-starter-kit](https://github.com/kriasoft/react-starter-kit)
@@ -334,6 +338,11 @@ Async action creators are suboptimal.
 
 Sync state transition??
 
+## Sagas
+
+* [Handling async in Redux with Sagas](http://wecodetheweb.com/2016/01/23/handling-async-in-redux-with-sagas/)
+* [Master complex Redux Workflows with Sagas](http://konkle.us/master-complex-redux-workflows-with-sagas/)
+
 ## Thunk
 
 * [Callback + Continuable](https://gist.github.com/creationix/b9557dd1dceba7aa90b5)
@@ -412,10 +421,14 @@ When you always render from the top you are coupling parent components too hard 
 
 Instead as soon as you see that component passes props down without using it, we suggest generating a "container" component using `connect()`.
 
-```js
+## `mapStateToProps`
 
-```
+* [Issue#291 - Should mapStateToProps be called every time an action is dispatched?](https://github.com/reactjs/react-redux/issues/291)
 
 ## Relay Style?
 
 > That's what I’d do. (But I'm pretty sure one can take Redux + Normalizr and build something more Relay-like around it.)
+
+## Redux and RxJS
+
+* [redux-rx](https://github.com/acdlite/redux-rx)

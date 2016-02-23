@@ -47,10 +47,12 @@ react-native@0.3.1 node_modules/react-native
 **Starter Kits**
 
 * [snowflake - A React-Native Android iOS Starter App](https://github.com/bartonhammond/snowflake)
+* [Native Starter Pro](https://medium.com/@supriya_82884/building-react-native-for-android-ios-native-starter-pro-bdfc186e7bff#.nqftckeas)
 
 ## ListView
 
 * [React Native ListView with section headers](http://moduscreate.com/react-native-listview-with-section-headers/)
+* [react-native-sortable-listview](https://github.com/deanmcpherson/react-native-sortable-listview)
 
 ## Navigator
 

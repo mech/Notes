@@ -44,7 +44,7 @@
 .disabled { pointer-events: none; }
 ```
 
-```
+```css
 * { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
@@ -55,7 +55,7 @@
 
 ## Link
 
-```
+```css
 a {
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -77,7 +77,7 @@ a:not(.hidden-link):hover {
 
 [Sign up shake page](http://www.emojiweather.com/)
 
-```
+```css
 form.shake-me {
   animation: formShakeAnimation 400ms ease-in-out
 }
@@ -111,10 +111,12 @@ form.shake-me {
 
 ## Centering
 
-```
+```html
 <link href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700,300" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="//s3-us-west-2.amazonaws.com/assets.atomic.io/styles/main.061d880f.css">
+```
 
+```css
 .center-panel {
   position: absolute;
   left: 50%;
@@ -143,6 +145,19 @@ form.shake-me {
   outline: 0!important;
   -webkit-transition: background-color .2s ease-out;
   transition: background-color .2s ease-out;
+}
+```
+
+There's a nifty little trick floating around these days for maintaining a perfect vertical centre of an absolutely (or fixed) positioned element relative to its container. It leverages top and transform. The translation of an element by a percentage value is calculated based on the elements dimensions.
+
+So if we nudge something 50% from the top of a container, then translate it back up a negative 50%, it will be perfectly centred. That leaves us with this:
+
+```css
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
 }
 ```
 

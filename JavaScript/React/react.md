@@ -19,6 +19,7 @@
 - [Learn React in 8 mins](https://blog.skcript.com/learn-react-js-in-7-min-92a1ef023003)
 - [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 - [**React.js Best Practices and Tips**](http://www.toptal.com/react/tips-and-practices)
+- [Angular is easy, React is hard?](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c#.xpvodmu4u)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 
@@ -91,6 +92,7 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 ## Style Guides
 
 * [**JSX style guide from Airbnb**](https://github.com/airbnb/javascript/tree/master/react)
+* [react-pacomo](https://github.com/unicorn-standard/react-pacomo)
 * [Khan Academy's style guide](https://github.com/Khan/style-guides/blob/master/style/react.md)
 * [React-starter kit style guide](https://github.com/kriasoft/react-starter-kit/blob/master/docs/react-style-guide.md)
 * [React tips and best practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
@@ -168,6 +170,7 @@ React.initializeTouchEvents(true); // But put where??
 * [Kevin Dangoor - Adobe Brackets](http://www.kevindangoor.com/blog/)
 * [Ian Obermiller](http://ianobermiller.com/blog/)
 * [David Nolen](http://swannodette.github.io/)
+* [Huey Petersen](http://hueypetersen.com/)
 
 > "Given the extremely tight coupling between the template and it's context (a controller/component), the concerns are the same, and splitting the DOM into a template is an arbitrary separation of technologies rather than a legit separation of concerns." - Hence in React, everything is a component. There is no template. Just define a `render` function.
 
@@ -316,6 +319,8 @@ gulp.task('scripts', function() {
 ## Component - ReactElement
 
 * [ReactNode, ReactElement, ReactFragment, ReactComponent](https://facebook.github.io/react/docs/glossary.html)
+
+> While its true that `React.createElement` is an instruction in a way, all it does is return a plain object (i.e. a `ReactElement`). Passing that `ReactElement` to `ReactDOM.render` is what actually creates the `ReactComponent`. So, you can think of the `ReactElement` as the instruction which is passed to `ReactDOM.render`.
 
 In v0.12, you no longer call it as React Component, but rather call it as ReactElement.
 

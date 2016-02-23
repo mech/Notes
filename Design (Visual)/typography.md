@@ -1,5 +1,9 @@
 # Typography
 
+Allow the "content" to speak for themselves. Think about the "word associations" you're trying to make.
+
+A typographic system establishes hierarchy, meaning it helps us prioritize content based on individual elements and relationships between them.
+
 * [Seriously, don't use icon font](http://blog.cloudfour.com/seriously-dont-use-icon-fonts/)
 * [Seriously, use icon font](http://benfrain.com/seriously-use-icon-fonts/)
 * [Great font combination](http://designmodo.com/great-font-combinations/)
@@ -60,6 +64,10 @@
 * [Font Pair for Google fonts](http://fontpair.co/)
 * [What are some of your favourite font combinations](https://www.designernews.co/stories/54276-ask-dn-what-are-some-of-your-favourite-font-combinations)
 * [Best type games](https://medium.com/@order_group/best-type-games-for-designers-e51f17bbe464)
+* [Font hinting](https://www.typotheque.com/articles/hinting)
+* [Type rendering on the Web](http://blog.typekit.com/2010/10/05/type-rendering-on-the-web/)
+* [CSS properties that affect type rendering](http://blog.typekit.com/2011/01/26/css-properties-that-affect-type-rendering/)
+* [Loading Typekit fonts asynchronously](http://blog.typekit.com/2011/05/25/loading-typekit-fonts-asynchronously/)
 
 ```
 // New for Firefox 25
@@ -72,6 +80,18 @@
 * [Glyphr - Online font editor](http://glyphrstudio.com/)
 * [Type Scale](http://type-scale.com/)
 
+## Pairing
+
+Create hierarchy and contrast. A good rule of thumb is to pair a serif and a sans serif. Keep 2 things in mind:
+
+* Distinction
+* Harmony
+
+## `line-height` and RWD
+
+Longer measure should increase their `line-height`.
+
+A true ideal `line-height` doesn't exist, because every typeface is different. A good starting point is about 1.2 to 1.8
 
 ## Notable fonts to use
 

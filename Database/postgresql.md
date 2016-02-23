@@ -25,6 +25,7 @@ https://vividcortex.com/pricing/
 * [**Rob Conery's node-db-project**](https://github.com/robconery/node-db-project)
 * [**pgFouine -Log analyzer**](http://pgfouine.projects.pgfoundry.org/)
 * [Simpel continuous archiving for Postgres](https://github.com/wal-e/wal-e)
+* [Creating a Document-Store Hybrid in Postgres 9.5](https://blog.andyet.com/2016/02/04/postgres-9.5-document-store-hybrid/)
 
 > PGFouine is our core tool in analysing database performance and figuring out which queries could use memcached in front of them, which ones are fetching more data than is necessary, etc; as DBs showed signs of stress on launch day, we would run PGFouine, deploy targeted code improvement to relieve hotspots, and then run it again to make sure those changes had the correct effect.
 
@@ -378,6 +379,7 @@ FROM payment;
 
 * [More on Postgres performance](http://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/)
 * [Handling growth with Postgres from Instagram](http://instagram-engineering.tumblr.com/post/40781627982/handling-growth-with-postgres-5-tips-from-instagram)
+* [Performance Tuning Queries in PostgreSQL](http://www.geekytidbits.com/performance-tuning-postgres/)
 
 ## Batching
 

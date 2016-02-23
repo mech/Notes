@@ -67,7 +67,7 @@ But don't mistake these interactions as the entirety of the users experience. Gr
 
 ## Context
 
-* [Contextual Design](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/contextual-design)
+* [**Contextual Design**](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/contextual-design)
 
 ## Process and Methods
 

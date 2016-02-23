@@ -2,6 +2,7 @@
 
 * [Starting with Elm](http://www.romanzolotarev.com/elm/)
 * [functional-frontend-architecture](https://github.com/paldepind/functional-frontend-architecture)
+* [Learn You an Elm](http://learnyouanelm.github.io/)
 
 Immutable and stateless function is the only game in town.
 

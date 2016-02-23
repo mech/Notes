@@ -102,6 +102,7 @@ It's not about the product, it's about your users.
 * [What it means to be great](http://www.asymco.com/2015/09/29/what-it-means-to-be-great/)
 * [Invisibility, A Designer's Superpower](http://jeremypaul.me/blog/invisibility-a-designers-superpower.html)
 * [Stop making your developers design your product](https://www.bloco.io/blog/2016/stop-making-your-developers-design-your-product)
+* [Don't Just Create Value; Capture It.](https://hbr.org/2013/06/dont-just-create-value-capture-it/)
 
 ## Company Design Blog
 

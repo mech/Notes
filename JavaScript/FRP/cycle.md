@@ -1,7 +1,9 @@
 # Cycle
 
+* [**What's the core differences between the observables/signals approach of Cycle.js and Elm vs React's pseudo FRP?**](https://www.reddit.com/r/javascript/comments/3zr6i0/conversation_whats_the_core_differences_between/)
 * [Unidirectional UI Architectures](http://staltz.com/unidirectional-user-interface-architectures.html)
 * [Node server with Rx and Cycle.js](https://glebbahmutov.com/blog/node-server-with-rx-and-cycle/)
+* [Reactive data flow in Angular 2 inspired by Cycle.js](http://blog.lambda-it.ch/reactive-data-flow-in-angular-2/)
 
 ## Dataflow Component
 

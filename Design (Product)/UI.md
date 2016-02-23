@@ -7,6 +7,7 @@
 * [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)
 * [7 rules for creating nice UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.qd6qv5nia)
+* [19 Best Practices for Faster UI Mockups](https://studio.uxpin.com/blog/19-best-practices-for-faster-ui-mockups/?mkt_tok=3RkMMJWWfF9wsRolvqrJZKXonjHpfsX56%2BsqWqGg38431UFwdcjKPmjr1YEITcJ0aPyQAgobGp5I5FEJSbPYTqJ1t60JWA%3D%3D)
 * [Good Design](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
 * [**UXmill**](http://uxmill.com/)
 * [**Object-Oriented UX**](http://alistapart.com/article/object-oriented-ux)

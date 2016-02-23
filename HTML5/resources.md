@@ -1,5 +1,9 @@
 # Resources
 
+HTML 2, HTML 4.01, XHTML 1.0, XHTML 1.1, XHTML 2.0, HTML5
+
+HTML5 is a living standard.
+
 * [HTML5 Boilerplate](https://html5boilerplate.com/)
 * [Google Web Starter Kit](https://github.com/google/web-starter-kit)
 
@@ -46,6 +50,56 @@
 * [Modern web development](http://jtaby.com/blog/2012/04/23/modern-web-development-part-1)
 * [The history of the HTML5Shiv](http://www.paulirish.com/2011/the-history-of-the-html5-shiv/)
 * [The new favicon](http://blog.iconfactory.com/2015/11/the-new-favicon/)
+
+## Elements
+
+* `<small>` - `<big>` is obsolete. `<small>` means small print.
+* `<b>` - stylistically offset from normal prose. Use `<strong>` for bold instead.
+* `<i>` - alternate voice or mood. Use `<em>` for emphasis instead.
+* `<mark>` - For highlighting search result.
+
+You can wrap block elements inside a single `<a>` element.
+
+```html
+<time datetime="2011-04-07T17:00" pubdate>5pm on April 7th</time>
+```
+
+* `<header>` - introductory or navigational aids
+* `<section>` - thematic grouping
+* `<article>` - independently syndicated and context-free. Self-contained.
+* `<aside>` - tangentially related content
+* `<nav>` - only for major navigation information
+
+```html
+<section>
+  <header>
+    <h1>DOM</h1>
+  </header>
+  <p>Lorem...</p>
+  <footer>
+    <p>By Jeremy</p>
+  </footer>
+</section>
+```
+
+## Content Models
+
+Traditionally we have inline or block element.
+
+* Text-level semantics - many inline elements
+* Grouping content - `<p>`, `<li>`, `<div>`
+* Embedded content - `<img>`, `<video>`, `<audio>`, `<canvas>`
+* Sectioning content - `<section>`, `<article>`
+
+With the sectioning content and outline algorithm, you don't have to keep track of what heading level you should be using - you can just start from `<h1>` each time.
+
+```html
+<h1>Awesome title</h1>
+<article>
+  <h1>I can still be level 1 heading and be truly portable due to outline algorithm.</h1>
+  <p>Lorem</p>
+</article>
+```
 
 ## Front-end
 
@@ -191,6 +245,15 @@ Provides better cross-browser consistency in the default styling of HTML element
 * [Uploading files in Ajax using `FormData`](http://blog.teamtreehouse.com/uploading-files-ajax)
 * [Inline validation in web forms](http://alistapart.com/article/inline-validation-in-web-forms)
 * [Labelling form elements](http://bitsofco.de/labelling-form-elements/)
+
+```html
+<input type="text" name="world" id="world" list="planets">
+<datalist id="planets">
+  <option value="Mercury">
+  <option value="Venus">
+  <option value="Earth">
+</datalist>
+```
 
 ## Content Strategy
 

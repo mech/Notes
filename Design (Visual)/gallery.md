@@ -10,6 +10,7 @@
 
 ## Inspiration
 
+* [Collect UI](http://collectui.com/)
 * [Geisha](http://geisha.io/app/)
 * [Designspiration](http://designspiration.net/)
 * [Frank Chimero](http://ofanother.com/)

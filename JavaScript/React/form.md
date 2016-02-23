@@ -1,5 +1,6 @@
 # Form
 
+* [**Forms in React and Redux**](http://x-team.com/2016/02/tutorial-forms-in-react-and-redux/)
 * [formsy-react](https://github.com/christianalfoni/formsy-react)
 * [newforms](https://github.com/insin/newforms)
 * [Disable submit button when making Ajax requests](https://medium.com/@collardeau/to-react-from-jquery-disable-a-button-f5f6cc0ea885)
@@ -8,16 +9,13 @@
 * [zxcvbn - Password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
 * [RESTful forms with React, Part 1](http://blog.littleblimp.com/post/124492420923/restful-forms-with-react-part-1)
 * [Complex, validated JSON-based forms in React](https://github.com/andrewhathaway/Winterfell)
+* [Form validation tutorial with React](https://html5hive.org/reactjs-form-validation-tutorial/)
 
 Either store the form state within the component or Flux store.
 
 ## Form State
 
 * [2-way data binding with `LinkedStateMixin`](http://facebook.github.io/react/docs/two-way-binding-helpers.html)
-
-```
-
-```
 
 ## Validations
 

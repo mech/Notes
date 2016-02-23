@@ -187,6 +187,10 @@ It is important to draw a distinction between ownership and parent-child relatio
 
 ## Higher-order Components
 
+> You can use HOC in various situations like authentication: `requireAuth({ role: 'admin' })(MyComponent)` (check for a user in higher component and redirect if the user is not logged in) or connecting your component with Flux/Redux store.
+> 
+> You can also separate data fetching and controller-like logic to higher order components and keep our views as simple as possible.
+
 How do you wrap your components? What does wrapping even mean?
 
 A higher-order component is a function that takes an existing component and returns another component that wraps it. The wrapping component will take care to render the wrapped component and also forwards the props to it, but also adds some useful behavior.
@@ -262,6 +266,7 @@ const App = React.createClass({
 
 ---
 
+* [**React Pure Render Performance Anti-Pattern**](https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f#.pazfuwypa)
 * [react-pure-render](https://github.com/gaearon/react-pure-render)
 * [A quick look at rendering whitespace using JSX](http://www.bennadel.com/blog/2880-a-quick-look-at-rendering-white-space-using-jsx-in-reactjs.htm)
 * [Is render() being called too many times?](http://www.bennadel.com/blog/2905-setstate-shouldcomponentupdate-and-render-timing-in-reactjs.htm)
@@ -304,6 +309,7 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [React Rocks](http://react.rocks/)
 * [UI Components](https://github.com/facebook/react/wiki/Complementary-Tools#ui-components)
 * [Build your own component libraries](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
+* [react-component](https://github.com/cd-fe/react-component)
 
 ---
 
@@ -375,6 +381,8 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [react-input-slider](https://github.com/wangzuo/react-input-slider)
 * [react-fa - Can study it](https://github.com/andreypopp/react-fa)
 * [react-matchmedia-connect](https://github.com/malte-wessel/react-matchmedia-connect)
+* [React-Spreadsheet-Component](https://github.com/felixrieseberg/React-Spreadsheet-Component)
+* [react-xhr-uploader](https://rma-consulting.github.io/react-xhr-uploader/)
 
 ### Pagination
 
@@ -388,6 +396,7 @@ Re-rendering on every change is impractical unless *all* your component have ver
 Just use Victory.js for new project.
 
 * [**Victory.js**](https://github.com/FormidableLabs/victory)
+* [Recharts = React + Charts](http://recharts.org/)
 * [d-Threeact](http://blog.siftscience.com/blog/2015/4/6/d-threeact-how-sift-science-made-d3-react-besties)
 * [Integrating D3.js visualizations in a React app](http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/)
 * [Scalable Data Visualization](https://www.youtube.com/watch?v=2ii1lEkIv1s)
@@ -403,6 +412,35 @@ Just use Victory.js for new project.
 * [D3 and React - the future of charting components?](http://10consulting.com/2014/02/19/d3-plus-reactjs-for-charting/)
 * [D3 for math + ReactJS for rendering](http://formidable.com/blog/2015/05/21/react-d3-layouts/)
 
+```js
+import React, { Component } from 'react';
+import d3 from 'd3';
+
+export default class Sparkline extends Component {
+  render() {
+    const { width, data, height, interpolation } = this.props;
+
+    const x = d3.scale.linear()
+      .range([0, width])
+      .domain(d3.extent(data, (d, i) => i))
+
+    const y = d3.scale.linear()
+      .range([height, 0])
+      .domain([0, 100])
+
+    const line = d3.svg.line()
+      .x((d, i) => x(i))
+      .y((d) => y(d))
+      .interpolate(interpolation)
+
+    return (
+      <svg className="sparkline" width={width} height={height}>
+        <path d={line(data)} />
+      </svg>
+    );
+  }
+}
+```
 ## Integrate with jQuery
 
 ```js

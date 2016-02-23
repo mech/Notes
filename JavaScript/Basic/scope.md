@@ -1,5 +1,7 @@
 # Scope
 
+* [Identifier Resolution and Closures in the JavaScript Scope Chain](http://davidshariff.com/blog/javascript-scope-chain-and-closures/)
+
 ## Execution Context, Lexical, Scope
 
 * [What is execution context in JavaScript](http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/)
