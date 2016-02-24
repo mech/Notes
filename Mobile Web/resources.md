@@ -82,6 +82,10 @@
 * [FitText](http://fittextjs.com/)
 * [Responsive line height](http://viljamis.com/blog/2014/responsive-line-height/)
 
+As your site responds to various displays and devices, your type needs to maintain its integrity and adapt with the layout.
+
+If your line lengths grow longer at larger breakpoints, your type size should increase too. Conversely, as your line lengths shorten, your type size can decrease.
+
 ## Media Queries
 
 Style sheets with media queries attached to their `<link>` tags will still download even if it evaluate to `false`.

@@ -75,6 +75,10 @@ A typographic system establishes hierarchy, meaning it helps us prioritize conte
 -moz-osx-font-smoothing: auto;
 ```
 
+## Typographic System
+
+All of typography is based upon a reflexive relationship: the small things inform the big things, and the big things inform the small things. The sum of this give and take means the difference between beautiful and forgettable.
+
 ## Tools
 
 * [Glyphr - Online font editor](http://glyphrstudio.com/)

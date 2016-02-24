@@ -1,5 +1,9 @@
 # Layout
 
+> A sculptor may sit down to sculpt something without a clear idea of the exact form it will take; sometimes we need to start pushing and pulling on the clay to see what comes out of it.
+
+> Composition of our layout and typographic systems needs to take our medium's constraints into account.
+
 History of layout in CSS is table, float, inline-block, display:table, flexbox, then grid.
 
 **Important**: All percentage-based sizes must inherit from parent block elements, and if any of those ancestors fail to specify a size, they are assumed to be sized at 0 x 0 pixels. For that reason, we declare percentages for both `html` and `body`:
@@ -133,6 +137,10 @@ Use of `min-width` and `max-width` common.
 * [FlexGRID](http://www.volumethemes.com/flexgrid)
 
 ## Grids
+
+> While hierarchy lets you plan your typography at a micro level, a grid allows you to arrange the type and everything else it interacts with on the page at a macro level. It helps readers traverse content and exposes an informational system to them.
+> 
+> For example, if you use a grid and your headlines always appear in a certain spot or your images always appear at certain dimensions, readers can recognise that consistency. Those patterns are signposts that light the way for viewers to find what they're looking for in the content and to distinguish between elements.
 
 Invisible grid that hold the structure together.
 

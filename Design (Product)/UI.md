@@ -4,6 +4,8 @@
 
 > You have to zoom in and out between the general and the specific.
 
+> A sculptor may sit down to sculpt something without a clear idea of the exact form it will take; sometimes we need to start pushing and pulling on the clay to see what comes out of it.
+
 * [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)
 * [7 rules for creating nice UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.qd6qv5nia)
@@ -62,6 +64,11 @@
 * Don't risk oversimplification.
 * Be accurate and predictable
 * Use progressive disclosure (esp. for expert user)
+* Always think about your intent - the things you want a visitor to do. What is the "main" JTBD.
+* Anchor a layout
+* If you want someone to watch a video or register for an account, focus on making those elements shine. They don’t need to be the biggest items on the page, but they should have enough heft and visual prominence through placement and color to draw attention.
+* Without contrast, we don't have hierarchy, and without hierarchy, the typography feels indistinguishable and our readers are left without a map.
+* When we first glance at something, we tend to seek patterns; we mentally group similar elements and try to uncover a pecking order.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
