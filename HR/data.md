@@ -1,5 +1,7 @@
 # Data
 
+> Don't draw the wrong conclusion even if you have data.
+
 How data can improve performance. What performance? Please find out from your domain.
 
 To mine data, you need to store metrics, telemetry data. Tiny events that happen in your business processes.
@@ -34,6 +36,12 @@ We do have a stream of "structured data". The schema is well-known.
 Looking at the right data is the only way to understand your world.
 
 "Idle job/application" has some bad data that can make it easy to draw the wrong conclusions.
+
+## Log Analysis
+
+**Root-cause analysis** - Imagine candidate submit or upload Timesheet, but FM is logging different timestamp. How come we definitively know when such action occurs. What POSTed request can we inspect to pin-point "when" the action exactly take place.
+
+`navigator.sendBeacon`
 
 ## Predictive Model
 

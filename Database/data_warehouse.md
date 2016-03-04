@@ -1,5 +1,7 @@
 # Data Warehouse
 
+> BigQuery and/or Redshift are more targeted towards analytics workloads, but you could use them to saw the data into another system that you use for OLAP -- MySQL or Postgres probably.
+
 Operational system users almost always deal with one record at a time. Data warehouse users almost never deal with on record at a time.
 
 A database that is dedicated to data analysis and reporting.

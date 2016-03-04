@@ -25,8 +25,6 @@
 * [Some convenient breakpoint methods](http://restivejs.com/)
 * [Slash build time on RWD](http://www.creativebloq.com/css3/slash-build-time-proportional-rwd-91412846)
 * [Performance testing for RWD](https://github.com/lafikl/RWDPerf)
-* [**Instant Click**](http://instantclick.io/)
-* [Responsive image polyfill](https://github.com/aFarkas/respimage)
 * [Loading web fonts with high performance](http://bdadam.com/blog/loading-webfonts-with-high-performance.html)
 * [Wayfinding in mobile web](http://www.smashingmagazine.com/2014/10/13/wayfinding-for-the-mobile-web/)
 * [Responsive, performant interfaces](https://github.com/mrmrs/tachyons/)
@@ -56,6 +54,11 @@
 | Nexus 7   | 600 x 960              | 323dpi |
 | Nexus 10  | 800 x 1280             | 300dpi |
 | Nexus 5   | 360 x 598              | 445dpi |
+
+## 300ms Delay
+
+* [**Instant Click**](http://instantclick.io/)
+* [300ms tap delay, gone away](https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away?hl=en)
 
 ## Frameworks for Mobile Web
 
@@ -196,6 +199,7 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
 * [Responsive images in practice](http://alistapart.com/article/responsive-images-in-practice)
 * [Adaptive Images](http://adaptive-images.com/)
 * [When responsive images get ugly](http://codepen.io/Tigt/blog/when-responsive-images-get-ugly)
+* [Responsive image polyfill](https://github.com/aFarkas/respimage)
 
 ## Favicon
 

@@ -16,6 +16,8 @@ Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
 * [Atlassian's Git Guide](https://www.atlassian.com/git/)
 * [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 * [How to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
+* [Atlassian has nice doc](https://www.atlassian.com/git/tutorials/undoing-changes)
+* [Read about the Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
 ```
 ▶ git add -u

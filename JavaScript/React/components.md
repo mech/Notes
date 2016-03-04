@@ -334,7 +334,7 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [react-tags](https://github.com/prakhar1989/react-tags)
 * [react-icons](http://jxnblk.com/react-icons/)
 * [react-web-sdk](https://github.com/necolas/react-web-sdk)
-* [react-onclickoutside](https://github.com/Pomax/react-onclickoutside)
+* [**react-onclickoutside**](https://github.com/Pomax/react-onclickoutside)
 * [react-list-view](https://github.com/Morhaus/react-list-view)
 * [react-text-filter](https://github.com/nkbt/react-text-filter)
 * [react-popup](https://github.com/minutemailer/react-popup)

@@ -4,6 +4,7 @@ Allow the "content" to speak for themselves. Think about the "word associations"
 
 A typographic system establishes hierarchy, meaning it helps us prioritize content based on individual elements and relationships between them.
 
+* [**Google Style - Typography**](https://www.google.com/design/spec/style/typography.html#)
 * [Seriously, don't use icon font](http://blog.cloudfour.com/seriously-dont-use-icon-fonts/)
 * [Seriously, use icon font](http://benfrain.com/seriously-use-icon-fonts/)
 * [Great font combination](http://designmodo.com/great-font-combinations/)
@@ -46,12 +47,14 @@ A typographic system establishes hierarchy, meaning it helps us prioritize conte
 * [How much is an Em?](http://learn.scannerlicker.net/2014/07/31/so-how-much-is-an-em/)
 * [Fonts that go together](http://www.typ.io/popular)
 * [rem or em or px](https://news.layervault.com/stories/31455-ask-dn-which-unit-do-you-use-rem-em-or-px)
+* [**REM vs EM - The Great Debate**](http://zellwk.com/blog/rem-vs-em/)
 * [Nice interview with Erik Spiekermann](http://news.gestalten.com/news/interview-erik-spiekermann-typography)
 * [Selecting typefaces for body text](http://practice.typekit.com/lesson/selecting-typefaces-for-body-text/)
 * [What should UI typefaces look like](http://www.design-by-izo.com/2011/10/18/what-should-i-look-for-in-a-ui-typeface/)
 * [7 typefaces for better performance](http://cognition.happycog.com/article/7-alternatives-to-popular-web-typefaces-for-better-performance)
 * [11 tips on kerning](http://99designs.com/designer-blog/2014/01/20/11-kerning-tips/)
-* [Smart quotes](http://smartquotesforsmartpeople.com/)
+* [**Smart quotes**](http://smartquotesforsmartpeople.com/)
+* [**Quotes & Accents**](http://quotesandaccents.com/)
 * [Helpful resources](http://www.tdc.org/helpful-resources/)
 * [Best of Sept 2014](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-september-2014)
 * [The Great Typekit table](http://desandro.github.io/typekit-table/)
@@ -92,6 +95,8 @@ Create hierarchy and contrast. A good rule of thumb is to pair a serif and a san
 * Harmony
 
 ## `line-height` and RWD
+
+* [Optimum line height in relation to font size](http://graphicdesign.stackexchange.com/questions/9147/optimum-line-height-in-relation-to-font-size/9154#9154)
 
 Longer measure should increase their `line-height`.
 

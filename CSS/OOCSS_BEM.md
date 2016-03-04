@@ -1,9 +1,14 @@
 # OOCSS, SMACSS, BEM, SUIT, CSS Modules
 
+> Yes, in some ways, everything is just a component if you look at it the right way.
+
 Thinking globally is fine for web document, but not so for web application.
 
 Use `data-attribute` for JavaScript interaction.
 
+* [**Atomic Classification**](http://trentwalton.com/2016/02/26/atomic-classification/)
+* [**On Classification in Design System**](https://medium.com/eightshapes-llc/on-classification-in-design-systems-6b33b97f4a8f#.sflu9qdic)
+* [**Content Display Patterns**](http://danielmall.com/articles/content-display-patterns/)
 * [**CSS Modules**](http://glenmaddern.com/articles/css-modules)
 * [MVCSS??](http://mvcss.github.io/resources/)
 * [Can CSS be too modular - We need to find the sweet spot](http://csswizardry.com/2015/03/can-css-be-too-modular/)

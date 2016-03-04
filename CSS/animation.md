@@ -1,5 +1,7 @@
 # Animation
 
+UX: Spatial reasoning.
+
 > Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
 
 Animation engage the user and enhance storytelling. They make a website seem more like an interactive experience than a simple portal to find information.

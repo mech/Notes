@@ -83,6 +83,7 @@ Struggle to learn interface.
 ## Name
 
 * [Some UI component names for consideration](https://github.com/eonist/Element)
+* [On Classification in Design Systems](https://medium.com/eightshapes-llc/on-classification-in-design-systems-6b33b97f4a8f#.oye6vi1tq)
 
 ```
 SelectButton
@@ -99,6 +100,9 @@ MovePanel
 HorizontalRuler
 RefreshableScrollView
 DismissDialog
+
+NavigationBar
+ActionBar
 ```
 
 ## UI Refactoring and Expansion

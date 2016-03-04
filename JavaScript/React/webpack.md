@@ -110,6 +110,7 @@ The webpack core can be extended with loaders and plugins.
 * [react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
 * [webpack-express-boilerplate](https://github.com/christianalfoni/webpack-express-boilerplate)
 * [front-stack-boilerplate](http://engineering.blogfoster.com/jumpstart-to-react-redux-development/)
+* [react-slingshot](https://github.com/coryhouse/react-slingshot)
 
 ## ESLint
 

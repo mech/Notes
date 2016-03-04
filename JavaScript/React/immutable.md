@@ -44,6 +44,20 @@ function getOlder(person) {
   return {...person, age: person.age + 1}
 }
 
+// Using Babel
+// Immutable
+function updateUserScore(user, points) {
+  return {
+    ...user,
+    points: user.points + points
+  }
+}
+
+// Mutable
+function updateUserScore(user, points) {
+  user.points += points
+}
+
 // Or ES6 spread and deconstruct
 function getOlder({ age, ...other }) {
   return { age: age + 1, ...other }

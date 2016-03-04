@@ -9,6 +9,7 @@ HTML5 is a living standard.
 
 **http://www.broken-links.com/2015/04/28/the-future-of-the-open-web/**
 
+* [**Remy Sharp's HTML5 Demo**](http://html5demos.com/)
 * [16 web graphic design trends for 2016](https://medium.com/visual-stories/16-web-graphic-design-trends-to-watch-in-2016-bd0b30c9e475#.iitr5jkcp)
 * [**Scotch.io**](https://scotch.io/)
 * [How the Web Works](https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.h2gsor3d3)
@@ -265,6 +266,9 @@ It would be a shame to come up with all these fancy layouts if it turns out ther
 
 * [Metalsmith - Everything is a plugin](http://www.metalsmith.io/)
 
+## Issues
+
+* [Issue#721 - HTML should support self-closing tags in general](https://github.com/whatwg/html/issues/721)
 
 ## Tools
 

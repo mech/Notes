@@ -531,6 +531,8 @@ Easy to predict output for a given input. Immutability gets you idempotence for 
 
 ## Virtual DOM
 
+You would use `requestIdleCallback` to make DOM changes on document fragment, but you would *apply* the DOM patches in the next `requestAnimationFrame` callback, not the idle callback.
+
 Dirty-checking model can be slow. Virtual DOM is using tree, as we all know, tree can be fast.
 
 DOM operation is very expensive! Because modifying the DOM will also apply and calculate CSS styles, layouts, etc.

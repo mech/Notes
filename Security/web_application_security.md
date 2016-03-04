@@ -125,6 +125,12 @@ One example:
 97,108,101,114,116,40,49,41,62,39,41))>
 ```
 
+```js
+// In UTF-7
+// See https://code.google.com/archive/p/doctype-mirror/wikis/ArticleUtf7.wiki
++ADw-script+AD4-alert(1)+ADw-/script+AD4-
+```
+
 The `String.fromCharCode` makes it easier to insert the needed injection code into `localStorage` without excessive quote escaping:
 
 ```js

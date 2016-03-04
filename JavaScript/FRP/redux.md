@@ -411,6 +411,8 @@ export default connect(App);
 
 ### Connect
 
+Sort of like subscription. You wrap the component. When you do the wrapping, you need to "connect" the single state tree to props for your component to consume, thus `connect(stateToProps)`.
+
 Or just do your own `store.subscribe()`.
 
 * [redux-connected-proptypes](https://github.com/conorhastings/redux-connected-proptypes)

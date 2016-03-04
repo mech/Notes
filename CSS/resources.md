@@ -95,7 +95,7 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 
 ![](https://dl.dropboxusercontent.com/u/6815194/Notes/line_height_and_input.png)
 
-```scss
+```css
 $font-size-base: 14px !default;
 $line-height-base: 1.428571429 !default; // 20/14
 

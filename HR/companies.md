@@ -36,6 +36,7 @@ The Big 3: SalesForce, Oracle HRMS, Workday
 
 * [How Authentic Job redesign their new job board](https://medium.com/@authenticjobs/a-radically-new-experience-for-job-seekers-employers-a014da572c44?goal=0_df65b6d7c8-7f28d3384a-58965341&mc_cid=7f28d3384a&mc_eid=b0c1856bac#.ln3xsq13k)
 * [Just Login](https://www.justlogin.com)
+* [**Namely - HR for Humans**](http://www.namely.com/)
 * [**Jazz (formerly Resumator)**](https://jazz.co/blog/)
 * [The Resumator Relaunches As Jazz, Aims To Bring Data To The Recruiting Process](http://techcrunch.com/2015/06/23/the-resumator-relaunches-as-jazz-aims-to-bring-data-to-the-recruiting-process/)
 * [JustWorks](https://www.justworks.com/)
