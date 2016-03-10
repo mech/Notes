@@ -52,6 +52,29 @@ After a while, you will see the "cascading updates" problem, where a ListView wi
 * [The land of the undocumented: The Context](https://medium.com/@skwee357/the-land-of-undocumented-react-js-the-context-99b3f931ff73)
 * [Issue #2112 - Switch the Context to use the parent tree instead of the owner tree](https://github.com/facebook/react/issues/2112)
 
+```js
+const Text = (props, context) =>
+  <p style={context}>{props.children}</p>;
+
+Text.contextTypes = {
+  fontFamily: React.PropTypes.string
+};
+
+class App extends React.Component {
+  static childContextTypes = {
+    fontFamily: React.PropTypes.string
+  }
+  getChildContext() {
+    return {
+      fontFamily: 'Helvetica Neue'
+    };
+  }
+  render() {
+    return <Text>Hello World</Text>;
+  }
+}
+```
+
 ## Real-time
 
 * [Create a character voting app with Socket.IO](http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/)
@@ -319,6 +342,7 @@ gulp.task('scripts', function() {
 ## Component - ReactElement
 
 * [ReactNode, ReactElement, ReactFragment, ReactComponent](https://facebook.github.io/react/docs/glossary.html)
+* [Understanding the difference between React Elements and Components](https://quickleft.com/blog/understanding-the-difference-between-react-elements-and-components/)
 
 > While its true that `React.createElement` is an instruction in a way, all it does is return a plain object (i.e. a `ReactElement`). Passing that `ReactElement` to `ReactDOM.render` is what actually creates the `ReactComponent`. So, you can think of the `ReactElement` as the instruction which is passed to `ReactDOM.render`.
 

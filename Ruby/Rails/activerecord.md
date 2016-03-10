@@ -1,5 +1,6 @@
 # ActiveRecord
 
+* [**ActiveRecord is reinventing Sequel**](http://twin.github.io/activerecord-is-reinventing-sequel/)
 * [**Ode to Sequel**](http://twin.github.io/ode-to-sequel/)
 * [20,000 Leagues under ActiveRecord](http://patshaughnessy.net/2014/9/17/20000-leagues-under-activerecord)
 * [How Arel converts Ruby queries into SQL statements](http://patshaughnessy.net/2014/9/23/how-arel-converts-ruby-queries-into-sql-statements)

@@ -3,6 +3,7 @@
 ## Atom
 
 * [10 essential add-ons](http://www.sitepoint.com/10-essential-atom-add-ons/)
+* [How to use code snippets in Atom](http://www.sitepoint.com/use-code-snippets-atom/)
 
 Open your keymap:
 

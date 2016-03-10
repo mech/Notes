@@ -96,10 +96,13 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 ## Single Store Tree (Root Store?) - Single Source of Truth - Single State Atom
 
 * [Issue#140 - Rename store to reducer](https://github.com/rackt/redux/pull/140)
+* [Issue#1385 - What are the disadvantages of storing all your state in a single immutable atom?](https://github.com/reactjs/redux/issues/1385)
 
 > Om Now was one of the early influencers for the single atom app state idea. The only difference is that, instead of using cursors, Redux uses Flux-style actions for mutations.
 
 You App need to hold states. Where should you "store" it? Redux and Flux both has the "Store" concept where states are resided.
+
+> Redux is basically event-sourcing where there is a single projection to consume.
 	
 Redux has single state tree.
 

@@ -75,6 +75,8 @@ It's important not to go overboard. Too much movement can scatter focus, and dis
 
 * [**Val Head on All the Right Moves: Putting UIs in Motion**](https://vimeo.com/125545020)
 * [Benjamin De Cock - Let's Move!](https://www.youtube.com/watch?v=J6wUmQDQBkw)
+* [Lucas Bebber](http://codepen.io/lbebber/)
+* [Sara Soueidan: Building Better Interfaces with SVG](https://www.youtube.com/watch?v=lMFfTRiipOQ)
 
 ---
 
@@ -114,6 +116,7 @@ It's important not to go overboard. Too much movement can scatter focus, and dis
 * [Text input effect](http://tympanus.net/Development/TextInputEffects/)
 * [**Checkout concept**](http://tympanus.net/Development/CheckoutConcepts/sidebar.html)
 * [Animated sign-up flow](http://codyhouse.co/gem/animated-sign-up-flow/)
+* [Sine Wave and Circles](http://tofuness.github.io/eex/sine/)
 
 ## Famo.us
 

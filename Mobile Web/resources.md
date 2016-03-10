@@ -39,6 +39,13 @@
 * [Why RWD looks like RWD?](http://timkadlec.com/2014/03/why-rwd-looks-like-rwd/)
 * [**Responsive sidebar**](http://codyhouse.co/gem/responsive-sidebar-navigation/)
 
+## People
+
+* [Dave Rupert](http://daverupert.com/)
+* [Luke Wroblewski](http://www.lukew.com/ff/)
+* [Tim Kadlec](https://timkadlec.com/)
+* [Trent Walton](http://trentwalton.com/)
+
 ## List of screen resolution
 
 |   Device  |       Resolution       |  DPI   |
@@ -69,6 +76,7 @@
 
 * [Content Structure - Source Order](https://vimeo.com/89535832)
 * [A matter of workflow - Nathan Ford](http://www.iaskyouanswer.co.uk/nathan-ford.php)
+* [Responsive Deliverables](http://daverupert.com/2013/04/responsive-deliverables/)
 
 > You can't design a good layout if you don't know the content.
 

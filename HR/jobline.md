@@ -1,6 +1,10 @@
 # Jobline's Problem
 
+* [Living Document](https://quip.com/blog/living-document)
+
 > Easiness is a recipe for crappy design
+> 
+> From an army of workers to a network of makers
 
 Make customer WANT and VALUE your product. Bring CLARITY to everything. No out-of-context. Communicate and give context and clarity to the tasks/services you offer.
 
@@ -288,11 +292,17 @@ Treat recruiters as **marketers**, where they have to perform data-driven campai
 
 ## Pipelines
 
+The average consultant needs about 30 new leads to keep their pipeline healthy. Half of those should be inbound leads, referrals, and leads that come in through network. The other half should be leads you contact cold.
+
+**It's all about timing**. Being the first to email a lead to your client will hurt that CA's chance.
+
+> When you email a lead you found via a job post you probably think being one of the first people to contact them is important. That’s not really true. Being one of the first actually means your email gets mixed in with a ton of junk. Sometimes waiting to email a lead will actually help you stand out from the crowd. Some Workshop customers wait weeks or months to email the leads I send them and get better results. - [Workshop](https://medium.com/@letsworkshop/7-lessons-learned-from-finding-hundreds-of-clients-on-job-boards-5982287243ae#.ton9v6tet)
+
 With "end-to-end audits".
 
 ```
 Sources -> Filters -> Sinks
-(CA/JD) -> ATS     -> Hired/Rejected
+(CA/JD) ->   ATS   -> Hired/Rejected
 ```
 
 ## Redis

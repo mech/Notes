@@ -32,5 +32,7 @@
 
 ## Tools
 
+* [Premailer + Jekyll](https://github.com/premailer/premailer)
+* [grunt-email-workflow](https://github.com/leemunroe/grunt-email-workflow)
 * [sendy - Using SES](http://sendy.co/)
 * [EmailOctopus - another using SES](https://emailoctopus.com/)

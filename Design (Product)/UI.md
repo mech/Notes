@@ -6,6 +6,11 @@
 
 > A sculptor may sit down to sculpt something without a clear idea of the exact form it will take; sometimes we need to start pushing and pulling on the clay to see what comes out of it.
 
+---
+
+> All roads lead to a human-centered design approach, where the user is the prime focus. Often considered accessory or secondary, microinteractions actually create a feeling of well-being once they are discovered by users. As a designer, recognizing the invisibility of microinteractions is just as important as designing them. You have to create something that feels human and accomplishes a task.
+
+* [Microinteractions: The Secret of Great App Design](https://uxplanet.org/microinteractions-the-secret-to-great-app-design-4cfe70fbaccf#.mdbktcvp3)
 * [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)
 * [7 rules for creating nice UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.qd6qv5nia)
@@ -69,8 +74,11 @@
 * If you want someone to watch a video or register for an account, focus on making those elements shine. They don’t need to be the biggest items on the page, but they should have enough heft and visual prominence through placement and color to draw attention.
 * Without contrast, we don't have hierarchy, and without hierarchy, the typography feels indistinguishable and our readers are left without a map.
 * When we first glance at something, we tend to seek patterns; we mentally group similar elements and try to uncover a pecking order.
+* "Keep your user informed about what is going on" - Jakob Nielsen
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
+
+> Give user visual rewards. Guide them how to "work the system".
 
 ## Zero UI
 
@@ -103,6 +111,19 @@ DismissDialog
 
 NavigationBar
 ActionBar
+
+DatePicker
+TimePicker
+DateTimePicker
+Spinner
+Editor
+NumericTextBox
+DropDownList
+AutoComplete
+
+<Pagination>
+<DataTable>
+<Center>
 ```
 
 ## UI Refactoring and Expansion

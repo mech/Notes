@@ -175,3 +175,4 @@ var Counter = React.createClass({
 * [Channel 9 RxJS](https://channel9.msdn.com/Tags/rxjs)
 * [What's new in RxJS 5.0 with Ben Lesh](https://www.youtube.com/watch?v=9on6u7pI3vY)
 * [DevChat.tv - RxJS with Matthew Podwysocki](https://devchat.tv/js-jabber/182-jsj-rxjs-with-matthew-podwysocki)
+* [**It was an Observation, I Promise**](https://www.youtube.com/watch?v=XhVyrAFed58)

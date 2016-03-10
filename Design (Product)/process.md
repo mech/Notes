@@ -1,6 +1,10 @@
 # Process
 
+> Cheap iteration help shipping. So make iteration cheap to do!
+
 Concept Driven Design
+
+> We cannot solve our problems with the same thinking we used when we created them.
 
 **You can have the best process, but if you content sucks, it will not save the company.**
 
@@ -83,6 +87,7 @@ Things that help you to remember when you start to design:
 * [Follow design principles then process then A/B, etc.](https://medium.com/@lucabenazzi/the-tyranny-of-testing-over-design-a4ea5be352a6)
 * [Gov.uk](https://www.gov.uk/transformation)
 * [What an actual product design process looks like](http://thebadprince.svbtle.com/design-process)
+* [Unflattening design: Zoom in and out](https://blog.intercom.io/unflattening-design/)
 
 > The obvious problem here is the lack of any design in the first place. Going from the idea directly to implementation with minimum effort on design usually proves to be a very bad idea.
 

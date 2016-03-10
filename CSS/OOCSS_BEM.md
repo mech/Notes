@@ -2,6 +2,8 @@
 
 > Yes, in some ways, everything is just a component if you look at it the right way.
 
+Modules, Patterns, Components, etc. all are interchangeable.
+
 Thinking globally is fine for web document, but not so for web application.
 
 Use `data-attribute` for JavaScript interaction.

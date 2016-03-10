@@ -8,7 +8,13 @@ Classes are dirty. One simple method call can mutate them. Who did it? And why? 
 
 * [Mostly adequate guide to FP](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
+> Functions for pure components, classes for stateful components.
+
 ## Stateless Components
+
+Aka Pure Component, Dumb Component, Functional Stateless Component. Micro-componentization!
+
+These types of components surprisingly compose a large majority of our applications!
 
 * [**ES6 classes or stateless functional components?**](http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/)
 * [babel-plugin-react-pure-components](https://github.com/thejameskyle/babel-plugin-react-pure-components)
@@ -23,7 +29,49 @@ Functional component cannot have `ref` assigned to it. This is a good thing sinc
 Functional component also cannot have state attached to them.
 
 ```js
-const Profile = ({avatar, name}) => {
+// Context is actually not PURE, it has side-effect!
+const Text = (props, context) =>
+  <p>{props.children}</p>
+
+Text.contextTypes = { fontFamily: React.PropTypes.string }
+Text.propTypes = { children: React.PropTypes.string }
+Text.defaultProps = { children: 'Hello World!' }
+
+// Or in a much more PURE way
+const Text = ({ children = 'Hello World!' }) => {}
+
+ReactDOM.render(<Text>Hello</Text>, doc)
+```
+
+```js
+const Fonts = ({ children }) =>
+  <Block fontFamily="Helvetica">
+    {children}
+  </Block>
+
+const Center = ({ children, ...rest }) =>
+  <Flex alignItems="center"
+        justifyContent="center"
+        flexWrap="wrap"
+        {...rest}>
+    {children}
+  </Flex>
+
+const App = () =>
+  <Fonts>
+    <Center width="100vw" height="100vh">
+      <Center>
+        <Button char="Q" />
+        <Button char="W" />
+        <Button char="E" />
+        <Button char="R" />
+      </Center>
+    </Center>
+  </Fonts>
+```
+
+```js
+const Profile = ({ avatar, name }) => {
   return (
     <div>
       <img src={avatar} />

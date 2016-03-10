@@ -12,6 +12,7 @@
 * [Less is more - Or why C++ programmers don't care about Go](http://commandcenter.blogspot.sg/2012/06/less-is-exponentially-more.html)
 * [Vim as Go IDE](http://farazdagi.com/blog/2015/vim-as-golang-ide/)
 * [Flame Graphs](https://medium.com/@calavera/docker-flame-graphs-f9523e98d57d?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57uUtWqC%2BlMI%2F0ER3fOvrPUfGjI4DTMJgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D#.gtiftw5ee)
+* [**Go Training**](https://github.com/ardanlabs/gotraining)
 
 **Parametric Polymorphism**
 
@@ -20,10 +21,10 @@ Pass by value, rather than by reference.
 ## Variables and Constants
 
 ```
-var name string
+var name string // declare + zero value
 name = "mech"
 
-// Same as above
+// Same as above, declare + initialize
 name := "mech"
 
 // Notice the `name` is in lowercase, which mean they cannot be used outside the
@@ -114,6 +115,8 @@ errors.New("Custom error")
 ```
 
 ## Pointers
+
+Do you share or copy. Go is by default pass by copy. They don't share. If you want to share, you need to use pointer. You "share" the memory address via `&`.
 
 Go passes arguments by value. It has pros and cons.
 

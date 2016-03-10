@@ -78,10 +78,11 @@ Purpose of layouts:
 
 These are the options for layout:
 
-1. Flexbox
-2. `display: table`
-3. `inline-block` grid
-4. `float` grid
+1. Flexbox - Very one-dimensional, not really grid-like
+2. `display: table` - Will have redundant markup and positioning oddities
+3. `inline-block` grid - Will have white space issues
+4. `float` grid - Need clearfix hacks
+5. CSS Grid Layout - The holy grail?
 
 ---
 
@@ -154,7 +155,7 @@ Grids exist in relation to the content. We never start with a grid. We start wit
 * [Sass Grid Guide](http://sass-guidelin.es/#grid-systems)
 * [How the grid will automate web design without killing the designer](http://www.fastcodesign.com/3044670/how-the-grid-will-automate-web-design-without-killing-the-designer)
 * [**Foundation - A new grid**](http://zurb.com/article/1333/foundation-a-new-grid)
-* [Skeleton](http://getskeleton.com/)
+* [**Skeleton**](http://getskeleton.com/)
 * [**Complete guide to grid**](http://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Some grids to try](https://news.layervault.com/stories/30928-ask-dn-which-grid-do-you-use)
 * [Nicolas Gallagher's `inline-block` grid system](http://necolas.github.io/griddle/)

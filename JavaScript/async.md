@@ -40,6 +40,10 @@ We want to use **distributed events**, where a single incident can trigger react
 
 ##  Promises
 
+Can't be abort. But standard want to change this. Not easy though.
+
+Event target???
+
 A Promise is an object that represents a task with 2 possible outcomes (success or failure).
 
 A promise is a proxy for a value from another time or place. The promise interface allows us to interact with that value consistently, regardless of whether the value comes from the past or the future, whether that value is near by or far away, or even if the value is demonstrably unavailable.

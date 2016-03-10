@@ -304,6 +304,8 @@ Re-rendering on every change is impractical unless *all* your component have ver
 
 ## Libraries
 
+* [**React Widget**](https://jquense.github.io/react-widgets/docs/#/)
+* [Strand](https://mediamath.github.io/strand/)
 * [React Components](http://react-components.com/)
 * [React Parts](http://react.parts/web)
 * [React Rocks](http://react.rocks/)

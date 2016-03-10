@@ -43,6 +43,8 @@ Looking at the right data is the only way to understand your world.
 
 `navigator.sendBeacon`
 
+Fire off beacon to learn your user's behavior!
+
 ## Predictive Model
 
 Predictive model abstracts away the complexity of the world, focusing in on a particular set of indicators that correlate in some way with a quantity of interest (who will churn, or who will purchase).

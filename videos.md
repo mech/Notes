@@ -24,6 +24,8 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 
 * [**Screenings**](http://screenings.io/)
 * [**GOTO Conference**](https://www.youtube.com/watch?v=ZnIiFWD7yUw)
+* [**Øredev Conference**](https://vimeo.com/user4280938/videos)
+* [**NDC Conference**](https://vimeo.com/ndcconferences/videos)
 * [PGConf US](https://www.youtube.com/channel/UCsJkVvxwoM7R9oRbzvUhbPQ/videos)
 * [Lean Agile Scotland](https://vimeo.com/leanagilescotland/videos)
 * [Inspirational videos for designers](http://thenuschool.com/inspirational-videos-for-designers-the-full-collection/)
@@ -38,3 +40,9 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [Five Simple Steps free videos](http://www.fivesimplesteps.com/collections/all-videos)
 * [JSON Graph](http://applicative.acm.org/speaker-JafarHusain.html)
 * [React videos](http://codewinds.com/blog/2015-05-29-jsconf-reactjs.html)
+
+---
+
+* [Red Badger](https://www.youtube.com/channel/UCHlIVrJki1BxwKe7NtFYZRg/videos)
+* [Curry On!](https://www.youtube.com/channel/UC-WICcSW1k3HsScuXxDrp0w/videos)
+* [SwissJS](https://www.youtube.com/channel/UCazY0-FMbyK5xwn-lFbfkpw/videos)
