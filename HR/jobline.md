@@ -131,6 +131,8 @@ To Bob, the main thing is to take leave. To Alice, main thing is to keep track o
 
 ## Talent
 
+Editing profile is an important process for Jobline. It is how we are able to match CA with jobs. We must find ways to make CA regularly update their profile.
+
 "CA Profiling - In-progress"
 
 Show when a CA is currently being profiled. So it act as a awareness meter for other recruiters to gauge the level of engagement.
@@ -291,6 +293,8 @@ Exit Survey, longitudinal study, Attitudinal data
 Treat recruiters as **marketers**, where they have to perform data-driven campaigns. Recruiters need to sell a product (Job Order) to potential customers (candidates) and a well-run campaign supported by data-driven system is the way to go.
 
 ## Pipelines
+
+Pipeline lifecycle. Timesheet lifecycle, etc.
 
 The average consultant needs about 30 new leads to keep their pipeline healthy. Half of those should be inbound leads, referrals, and leads that come in through network. The other half should be leads you contact cold.
 

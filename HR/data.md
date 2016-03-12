@@ -1,5 +1,7 @@
 # Data
 
+Data is your business. Data-informed, not data-driven.
+
 > Don't draw the wrong conclusion even if you have data.
 
 How data can improve performance. What performance? Please find out from your domain.
@@ -28,6 +30,10 @@ Not a lot of "predictive patterns" to gain ☹️.
 Too many businesses regard data analytics as pertaining mainly to realizing value from some existing data.
 
 ## Data Collection - Gather the right data
+
+> What success metric to measure?
+
+Consciously map how you use data in each phase of the product lifecycle.
 
 Mostly from FileMaker and into other databases. Running schedule scripts to import data at regular interval. How frequent the interval determine the final resolution.
 

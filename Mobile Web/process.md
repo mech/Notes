@@ -16,6 +16,8 @@ Start with markup that is valid, accessible, and functional on almost any device
 
 ## Content
 
+* [Content patterns and Display patterns](http://danielmall.com/articles/content-display-patterns/)
+
 Clean up and prioritize content.
 
 > We think about how to present a design's content and features across a range of screen sizes and devices.

@@ -2,7 +2,6 @@
 
 > React is not reactive because it does not observe the data
 
-
 If you don't have synchronization problem and don't really need single source of truth, you don't need Redux. Local component is perfectly fine for other cases.
 
 Redux is where interaction happens like `onClick`, `onMouseOver`, etc.
@@ -79,6 +78,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 
 **Starter Kits**
 
+* [**react-pure-component-starter**](https://github.com/ericelliott/react-pure-component-starter)
 * [MERN](http://mern.io/)
 * [**react-ultimate**](https://github.com/Paqmind/react-ultimate)
 * [**thisless-react**](https://github.com/jas-chen/thisless-react)
@@ -88,15 +88,50 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [react-router-redux](https://github.com/rackt/react-router-redux)
 * [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate)
 
+## Architectural Discussion
+
+* [Reuse complex components implemented in React + Redux](https://github.com/reactjs/react-redux/issues/278)
+* [DDD in Redux?](https://github.com/reactjs/redux/issues/1315#issuecomment-179164091)
+* [`connect` could be used with a custom `store.subscribe()`](https://github.com/reactjs/react-redux/issues/269)
+* [Performance issues with a tree structure and shouldComponentUpdate in React / Redux](http://stackoverflow.com/questions/34981924/performance-issues-with-a-tree-structure-and-shouldcomponentupdate-in-react-re)
+* [Top-down vs bottom-up](https://github.com/cyclejs/core/issues/191#issuecomment-162320830)
+* [redux-react-local](https://github.com/threepointone/redux-react-local)
+
 ## Libraries
 
 * [react-router-redux](https://github.com/rackt/react-router-redux)
 * [normalizr](https://github.com/gaearon/normalizr)
 
+## Do you need Redux in the first place
+
+* [How to choose between Redux's store and React's state?](https://github.com/reactjs/redux/issues/1287)
+
+If the state of a component doesn't matter to anyone else, just keep that state internal to the component itself.
+
+Redux is primarily intended for "application state".
+
+* UI state - React local state
+* Controlled inputs - React local state as it need fast update time
+* Application state - Redux single state tree
+
+> The way I think about it, if you create an app with Redux, embrace the single state tree. Put UI state there as well. However if it gets tedious and frustrating don’t be afraid to put state into the components. My point is that use single state tree unless it is awkward, and only do this when it simplifies things for you rather than complicates them. That’s the only guideline.
+
+## Redux and Forms
+
+* [Using debounce to save state upstream?](https://gist.github.com/markerikson/554cab15d83fd994dfab)
+* [redux-form](https://github.com/erikras/redux-form)
+
 ## Single Store Tree (Root Store?) - Single Source of Truth - Single State Atom
+
+> We don't intend Redux to be used for all state. Just whatever seems significant to the app. I would argue inputs and animation state should be handled by React (or another ephemeral state abstraction). Redux works better for things like fetched data and locally modified models.
+
+---
+
+> You should do your best to keep the state serializable. Don't put anything inside it that you can't easily turn into JSON.
 
 * [Issue#140 - Rename store to reducer](https://github.com/rackt/redux/pull/140)
 * [Issue#1385 - What are the disadvantages of storing all your state in a single immutable atom?](https://github.com/reactjs/redux/issues/1385)
+* [**Umbrella: Externalize the State Tree (or alternatives)**](https://github.com/facebook/react/issues/4595)
 
 > Om Now was one of the early influencers for the single atom app state idea. The only difference is that, instead of using cursors, Redux uses Flux-style actions for mutations.
 
@@ -108,7 +143,6 @@ Redux has single state tree.
 
 State === Model
 
-* [Umbrella: Externalize the State Tree (or alternatives)](https://github.com/facebook/react/issues/4595)
 
 See Om Next approach on changing a state tree to a graph one, sort of like GraphQL and Falcor.
 
@@ -120,7 +154,7 @@ With graph, you can sort of visit anywhere you like! Query let you navigate the 
 
 Your data is a graph, but what your UI sees is a tree.
 
-**Shape of your application state**
+### Shape of your application state (State Shape)
 
 It's a good idea to think of its shape of your data. Typically we need to store data as well as UI state.
 
@@ -252,6 +286,10 @@ export function login(email, password) {
 
 ## Reducer
 
+> Normally we suggest you to only run a single reducer on any state slice.
+>
+> In general multiple branches with the same state shape but managed by different reducers is an anti-pattern.
+
 ```
    Source ------> Handler ------> Sink
 (don't care)                  (don't care)
@@ -312,6 +350,14 @@ const visibilityFilter = (state = 'SHOW_ALL', action) => {
   // Notice that its default state is a string
 }
 ```
+
+## Reducer Enhancer
+
+* [multireducer](https://github.com/erikras/multireducer)
+* [redux-delegator](https://github.com/lapanoid/redux-delegator)
+* [redux-multiplex](https://github.com/reducks/redux-multiplex)
+* [redux-batched-subscribe???](https://github.com/tappleby/redux-batched-subscribe)
+* [redux-ignore](https://github.com/omnidan/redux-ignore)
 
 ## Transducer
 
@@ -380,6 +426,9 @@ Only top-level components of your app (such as route handler) are aware of Redux
 Presentational components don't know WHERE the data comes from, or HOW to change it. They only render what's given to them.
 
 ### Context and Provider
+
+* [**React, Automatic Redux Providers, and Replicators**](https://medium.com/@timbur/react-automatic-redux-providers-and-replicators-c4e35a39f1#.4au3tepxt)
+* [react-redux-provide](https://github.com/loggur/react-redux-provide)
 
 > Learning all this React environment and Redux is dragging me down. The connects and mapState make no sense to me and you have to do it for every container?
 

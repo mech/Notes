@@ -20,6 +20,7 @@ Immutable data structure with structure sharing.
 * [Why should I care about immutable data?](http://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm)
 * [Immutability in JavaScript](http://www.sitepoint.com/immutability-javascript/)
 * [Immutability in React](http://www.sitepoint.com/immutability-react/)
+* [Understanding Clojure's Persistent Vectors](http://hypirion.com/musings/understanding-persistent-vector-pt-1)
 
 ```js
 // Use map(), filter(), concat() for non-destructive array

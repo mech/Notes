@@ -1,5 +1,7 @@
 # Pure React
 
+* [react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
+
 > The most brilliant principle behind React is functional composition, not VDOM.
 
 Pure function has no side effects. It's hard to violate Single Responsibility Principle, because pure function has obviously only one purpose - to transform input to output. Testing is super easy.

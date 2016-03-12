@@ -108,6 +108,8 @@ const LatestPostsComponent = props => (
 
 ## Controller View? Container Components? Presentation Components?
 
+> My biggest pet peeve is it is harder to compose, reuse, nest, and generally move around container components because there are two independent hierarchies at the same time (views and reducers). It is also not entirely clear how to write reusable components that either use Redux as implementation detail or want to provide Redux-friendly interface. (There are different approaches.) I’m also not impressed about every action having to go “all the way” upwards instead of short-circuiting somewhere. In other words, I would like to see something like React local state model but backed by reducers, and I would like it to be highly practical and tuned to real use cases rather than a beautiful abstraction. - [Issue#1385](https://github.com/reactjs/redux/issues/1385)
+
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005#.ddbg3nt33)
 * [Smart and Dumb Components - ViewController](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 * [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
@@ -385,6 +387,7 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [react-matchmedia-connect](https://github.com/malte-wessel/react-matchmedia-connect)
 * [React-Spreadsheet-Component](https://github.com/felixrieseberg/React-Spreadsheet-Component)
 * [react-xhr-uploader](https://rma-consulting.github.io/react-xhr-uploader/)
+* [react-infinite](https://github.com/seatgeek/react-infinite)
 
 ### Pagination
 
