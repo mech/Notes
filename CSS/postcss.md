@@ -2,6 +2,9 @@
 
 * [Breaking up with Sass](http://benfrain.com/breaking-up-with-sass-postcss/)
 * [Who will save us from the dark side of CSS pre-processors?](http://alistapart.com/column/what-will-save-us-from-the-dark-side-of-pre-processors)
+* [PostCSS](http://seattleladiesjs.github.io/postcss)
+* [An Introduction to PostCSS](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
+* [It's Time for Everyone to Learn About PostCSS](http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/)
 
 ## Against PostCSS
 
@@ -21,6 +24,9 @@
 * [postcss-colorblind](https://github.com/btholt/postcss-colorblind)
 * [postcss-sorting](https://github.com/hudochenkov/postcss-sorting)
 * [postcss-short-size - `size(), min-size()`](https://github.com/jonathantneal/postcss-short-size)
+* [**rucksack**](https://github.com/simplaio/rucksack)
+* [postcss-sprites](https://github.com/2createStudio/postcss-sprites)
+* [postcss-flexbugs-fixes](https://github.com/luisrudge/postcss-flexbugs-fixes)
 
 **Media Queries**
 

@@ -112,6 +112,7 @@ The webpack core can be extended with loaders and plugins.
 * [front-stack-boilerplate](http://engineering.blogfoster.com/jumpstart-to-react-redux-development/)
 * [react-slingshot](https://github.com/coryhouse/react-slingshot)
 * [startupslam-workshop](https://github.com/metalabdesign/startupslam-workshop)
+* [react-starter](https://github.com/richardkall/react-starter)
 
 ## ESLint
 
@@ -210,12 +211,14 @@ A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 
 ## Hot Module Replacement (HMR)
 
+* [**Live editing**](http://jlongster.com/Backend-Apps-with-Webpack--Part-III)
 * [What exactly is HMR?](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
 * [React hot loader](https://gaearon.github.io/react-hot-loader/2014/07/23/integrating-jsx-live-reload-into-your-react-workflow/)
 * [Don't trigger module reloading when there were errors generating the bundle](https://github.com/webpack/webpack-dev-server/issues/42)
 * [**You need to do module.hot at main entry file**](https://github.com/christianalfoni/react-webpack-cookbook/wiki/Hot-loading-components)
 * [Troubleshooting guide for react-hot-loader issues](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
 * [**react-transform-hmr** -- or just use babel-preset-react-hmr](https://github.com/rackt/redux/pull/690/files)
+* [React Transform not more?](https://medium.com/@dan_abramov/hot-reloading-in-react-1140438583bf#.twy02sj70)
 
 Without hot loading, the browser essentially refreshes with a flash and loses all states.
 

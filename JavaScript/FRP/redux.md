@@ -87,6 +87,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [react-starter-kit](https://github.com/kriasoft/react-starter-kit)
 * [react-router-redux](https://github.com/rackt/react-router-redux)
 * [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate)
+* [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
 
 ## Architectural Discussion
 

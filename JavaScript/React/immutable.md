@@ -6,6 +6,7 @@ Don't use `Array.shift`, use `Array.slice` instead for immutability.
 
 Immutable data structure with structure sharing.
 
+* [ECMAScript proposal](https://github.com/sebmarkbage/ecmascript-immutable-data-structures)
 * [react-cursor - Sort of like Baobab](https://github.com/dustingetz/react-cursor/)
 * [**Immutable Data Structures and JavaScript**](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
 * [A brief talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c)

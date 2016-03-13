@@ -18,6 +18,13 @@ Start with markup that is valid, accessible, and functional on almost any device
 
 * [Content patterns and Display patterns](http://danielmall.com/articles/content-display-patterns/)
 
+---
+
+1. Identify the type of content (Content pattern).
+2. Choose visual option (Display pattern) to render said content.
+
+Content strategists are primarily thinking about Content patterns, designers are primarily thinking about Display patterns, and front-end developers are responsible for bringing the two together.
+
 Clean up and prioritize content.
 
 > We think about how to present a design's content and features across a range of screen sizes and devices.

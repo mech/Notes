@@ -404,9 +404,13 @@ React.initializeTouchEvents(true);
 
 ## JSX
 
+* [Change and Its Detection in JavaScript Frameworks](http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html)
+* [Face-off - Virtual DOM vs Incremental DOM vs Glimmer](https://auth0.com/blog/2015/11/20/face-off-virtual-dom-vs-incremental-dom-vs-glimmer/)
 * [**JSX: The other side of the coin**](https://medium.com/@housecor/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98)
 * [A case for JSX](https://medium.com/@thinkfunctional/a-case-for-jsx-73763ee9aa03)
 * [WTF is JSX](https://gist.github.com/developit/da77a4d3bbf365908c8c)
+* [Static and Dynamic element](https://github.com/facebook/react/issues/3226)
+* [Incremental DOM: What is it and why I should care?](https://auth0.com/blog/2015/10/23/incremental-dom/)
 
 > Angular, Ember and Knockout put "JS" in your HTML.
 React puts "HTML" in your JS.

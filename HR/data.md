@@ -55,6 +55,18 @@ Fire off beacon to learn your user's behavior!
 
 Predictive model abstracts away the complexity of the world, focusing in on a particular set of indicators that correlate in some way with a quantity of interest (who will churn, or who will purchase).
 
+## Case Studies
+
+* [Training and serving NLP models using Spark MLlib](https://www.oreilly.com/ideas/training-and-serving-nlp-models-using-spark-mllib)
+* [Scaling Knowledge at Airbnb](https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091#.bglfxzsj1)
+
+## Tools
+
+* [RMarkdown](http://rmarkdown.rstudio.com/)
+* [Jupyter](http://jupyter.org/)
+* [IPython Notebook](http://ipython.org/notebook.html)
+* [IRuby??](https://github.com/SciRuby/iruby)
+
 ## Questions
 
 * Who are the top 10 customers/clients?
