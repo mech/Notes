@@ -108,6 +108,7 @@ Style sheets with media queries attached to their `<link>` tags will still downl
 * [Essential considerations for crafting quality media queries](http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/)
 * [Logic in media queries](http://css-tricks.com/logic-in-media-queries/)
 * [Another take](http://sassmeister.com/gist/1a0a43f1511b9bd75adf)
+* [Modular CSS with Media Queries and Sass](http://www.impressivewebs.com/modular-css-media-queries-sass/)
 
 Use [Respond.js](https://github.com/scottjehl/Respond) for IE6-8. It supports only `min-width` and `max-width`, but that is enough to kick started.
 

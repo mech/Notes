@@ -2,6 +2,7 @@
 
 * [NPM documentation](https://docs.npmjs.com/folders)
 * [How to build and public ES6 NPM module today](https://booker.codes/how-to-build-and-publish-es6-npm-modules-today-with-babel/)
+* [How to use npm as a build tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
 
 ```js
 exports.setup = function() {};

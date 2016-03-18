@@ -111,6 +111,15 @@ form.shake-me {
 
 ## Centering
 
+```css
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
 ```html
 <link href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700,300" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="//s3-us-west-2.amazonaws.com/assets.atomic.io/styles/main.061d880f.css">

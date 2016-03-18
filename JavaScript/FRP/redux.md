@@ -98,6 +98,10 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [Top-down vs bottom-up](https://github.com/cyclejs/core/issues/191#issuecomment-162320830)
 * [redux-react-local](https://github.com/threepointone/redux-react-local)
 
+`connect()` does a ton of trickery to be very optimized. Always re-rendering from the top means you're doing a bunch of unnecessary reconciliation.
+
+> A widget is an autonomous component that has its own reducer, use something like "connect" to get the state of that reducer. The widget only re-renders when its state changes. I try to make the widget only receive its own state, to make it really independent but it is really a mater of taste and many don't adopt a similar approach and assume the widget should have a global knowledge of the global appstate to select the state it needs to use.
+
 ## Libraries
 
 * [react-router-redux](https://github.com/rackt/react-router-redux)
@@ -475,6 +479,15 @@ Or just do your own `store.subscribe()`.
 When you always render from the top you are coupling parent components too hard to what child components need to render. You're essentially passing many props that are only required by children, and changing them can involve painful refactoring.
 
 Instead as soon as you see that component passes props down without using it, we suggest generating a "container" component using `connect()`.
+
+```js
+// connect() API?
+export default PropTypes.shape({
+  subscribe: PropTypes.func.isRequired,
+  dispatch: PropTypes.func.isRequired,
+  getState: PropTypes.func.isRequired
+})
+```
 
 ## `mapStateToProps`
 

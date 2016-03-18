@@ -15,6 +15,20 @@ exports.mod1 = '';
 exports.mod2 = '';
 ```
 
+## Early days modules
+
+```js
+// Measure.js
+(function(scope) {
+  var Measure = {
+    getTextBounds: function() {},
+    textWidth: function() {}
+  };
+
+  scope.Measure = Measure;
+})(window.StrandLib = window.StrandLib || {});
+```
+
 ## ES6 Module Transpiler
 
 ES6 Module specification has 2 things:
@@ -66,7 +80,7 @@ Traceur is a Google's ambitious project. Another one is Square's es6-transpiler.
 
 # Some ES 6
 
-```
+```js
 [3, 1, 10].sort((a, b) => a - b);
 
 [3, 1, 10].sort(function(a, b) {
@@ -93,7 +107,7 @@ domNode.addEventListener('click', () => {
 
 Prototype based. Mostly syntactic sugar. Working `super()`. Class side inheritance.
 
-```
+```js
 function ColorPoint(x, y, color) {
   Point.call(this, x, y); // super(x, y)
   this.color = color;

@@ -41,6 +41,7 @@ Rule of Optimization: Prototype before polishing. Get it working before you opti
 
 Prototyping has become an integral part of product design.
 
+* [The Hungry Designer](https://medium.com/@we_are_atomic/the-hungry-designer-b295459b29ec#.ucbsjpqqx)
 * [**Prototyping with Framer**](http://nlevin.com/whitespace/)
 * [Rule of optimization](http://www.faqs.org/docs/artu/ch01s06.html#id2879078)
 * [Composite](http://www.getcomposite.com/)

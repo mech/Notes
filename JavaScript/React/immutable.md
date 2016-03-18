@@ -42,7 +42,7 @@ If you are using nested object, you are in trouble as neither Array's non-destru
 function getOlder(person) {
   return Object.assign({}, person, { age: person.age + 1 })
 
-  // Or ES7
+  // Or ES7 - Spread properties
   return {...person, age: person.age + 1}
 }
 

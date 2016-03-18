@@ -14,12 +14,13 @@ Classes are dirty. One simple method call can mutate them. Who did it? And why? 
 
 ## Stateless Components
 
+**Note** At the moment, stateless functions can not be pure-render! Which is slower than normal component with `shouldComponentUpdate` implemented.
+
 Aka Pure Component, Dumb Component, Functional Stateless Component. Micro-componentization!
 
 These types of components surprisingly compose a large majority of our applications!
 
 * [**ES6 classes or stateless functional components?**](http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/)
-* [babel-plugin-react-pure-components](https://github.com/thejameskyle/babel-plugin-react-pure-components)
 * [Issue#5677 - Stateless functional components and shouldComponentUpdate](https://github.com/facebook/react/issues/5677)
 * [Issue#1176 - Redux + React with only stateless functions](https://github.com/rackt/redux/issues/1176)
 * [thisless-react](https://github.com/jas-chen/thisless-react)

@@ -46,3 +46,9 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [Red Badger](https://www.youtube.com/channel/UCHlIVrJki1BxwKe7NtFYZRg/videos)
 * [Curry On!](https://www.youtube.com/channel/UC-WICcSW1k3HsScuXxDrp0w/videos)
 * [SwissJS](https://www.youtube.com/channel/UCazY0-FMbyK5xwn-lFbfkpw/videos)
+
+---
+
+* [Functional Principles in React](https://www.youtube.com/watch?v=1uRC3hmKQnM&app=desktop)
+* ["It was an Observation, I Promise" - The Jeff Cross Show on Modern Web feat Jafar Husain](https://www.youtube.com/watch?v=XhVyrAFed58)
+* [Full Stack Fest 2015: Extreme Object-Oriented Ruby, by John Cinnamond](https://www.youtube.com/watch?v=FDs-sSxo2iY)

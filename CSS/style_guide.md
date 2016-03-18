@@ -171,6 +171,16 @@ grep "info" * -R
 
 ## Naming Convention
 
+Component vs Page-level naming. We should not use Page-level if possible. Prefer Component-level names. However, Page-level can be used to override generic components in very specific contexts:
+
+```css
+.home-page {          /* Page-level */
+  .nav {              /* Component-level */
+    margin-top: 10px; /* Override */
+  }
+}
+```
+
 * [Naming CSS stuff is really hard](http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard)
 
 We can fit a given class name into these 3 categories:
@@ -243,6 +253,10 @@ The aim of a component/template/object-oriented architecture is to be able to de
   --base-font-size: 16px;
 }
 ```
+
+### Avoid run-on classnames
+
+The evolution being: `.button` → `.button-primary` → `.button-primary-dark` → `.button-primary-dark-container` → `.button-primary-dark-container-label`, ad nauseam.
 
 # My Style Guide
 

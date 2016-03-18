@@ -20,6 +20,7 @@ Use `data-attribute` for JavaScript interaction.
 * [**Pros and cons of modular CSS**](https://github.com/staltz/cycle/issues/128)
 * [BEM - Tech pick of the week](http://futurice.com/blog/tech-pick-of-the-week-bem)
 * [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
+* [**Medium CSS is pretty fucking good**](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06#.mvrfqgqey)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	

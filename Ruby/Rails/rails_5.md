@@ -8,3 +8,12 @@
 ## Action Cable
 
 * [Action Cable - Friend or Foe?](https://www.nateberkopec.com/2015/09/30/action-cable.html)
+
+## Rails 5 API
+
+* [Improvements to error responses in Rails 5 API mode](https://wyeworks.com/blog/2016/1/12/improvements-to-error-responses-in-rails-5-api-mode)
+
+## Middlewares
+
+* `ActionDispatch::ParamsParser` is replaced by `ActionDispatch::Request`. See https://github.com/rails/rails/commit/38d2bf5fd1f3e014f2397898d371c339baa627b1
+

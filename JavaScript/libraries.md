@@ -97,6 +97,10 @@
 * [Pikaday](https://github.com/dbushell/Pikaday)
 * [Pickadate](http://amsul.ca/pickadate.js/)
 
+## Phone Numbers
+
+* [Working with Phone Numbers](http://www.sitepoint.com/working-phone-numbers-javascript/)
+
 ## Auto-complete
 
 * [complete.ly](http://complete-ly.appspot.com/)

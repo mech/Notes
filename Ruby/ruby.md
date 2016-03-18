@@ -9,6 +9,7 @@ DIGIT = ASCII.grep(/[[:digit:]]/)
 PUNCT = ASCII.grep(/[[:punct:]]/)
 ```
 
+* [Prefer duplication over the wrong abstraction](http://us3.campaign-archive2.com/?u=1090565ccff48ac602d0a84b4&id=92902a19e4&e=6dbbf45b40)
 * [Ruby 2.3 features](http://nithinbekal.com/posts/ruby-2-3-features/)
 * [The Bastards Book of Ruby](http://ruby.bastardsbook.com/)
 * [**All Ruby Books**](http://www.allrubybooks.com/)

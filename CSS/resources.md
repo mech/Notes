@@ -7,6 +7,8 @@ https://smacss.com/signin
 https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
+
+* [**10 commandments of sane style sheets**](https://benfrain.com/the-ten-commandments-of-sane-style-sheets/)
 * [**CSS Variables: Why Should You Care?**](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
 * [**Should I Prefix?**](http://shouldiprefix.com/)
 * [**The new code**](http://thenewcode.com/)
@@ -67,6 +69,7 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ## People
 
 * [Ben Smithett](http://bensmithett.com/)
+* [Ben Frain](https://benfrain.com)
 
 ## Linting
 
@@ -92,6 +95,15 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [Refine your web type](http://thenextweb.com/dd/2012/10/14/refine-your-web-type-with-this-crash-course-on-the-css-line-height-property/)
 * [All you need to know about vertical-align](http://christopheraue.net/2014/03/05/vertical-align/)
 * [Balancing line length](http://www.smashingmagazine.com/2014/09/29/balancing-line-length-font-size-responsive-web-design/)
+
+When using line height to vertically center a single line of text, be sure to set the line height to the height of the container -1:
+
+```css
+.btn {
+  height: 50px;
+  line-height: 49px;
+}
+```
 
 ![](https://dl.dropboxusercontent.com/u/6815194/Notes/line_height_and_input.png)
 

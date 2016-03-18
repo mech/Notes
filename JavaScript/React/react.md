@@ -20,6 +20,7 @@
 - [Coding with React like a Game Developer](https://medium.com/@PhilPlckthun/coding-with-react-like-a-game-developer-e39ffaed1643)
 - [**React.js Best Practices and Tips**](http://www.toptal.com/react/tips-and-practices)
 - [Angular is easy, React is hard?](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c#.xpvodmu4u)
+- [Why and how to bind methods](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
 
 > React is truly only for UI. Put your business logic elsewhere in plain JavaScript objects.
 

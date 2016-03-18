@@ -28,6 +28,13 @@
 * [Functions without "function"](https://medium.com/@ryanflorence/functions-without-function-bc356ed34a2f#.pi6gbh2r3)
 * [super() considered hmmm-ful](http://raganwald.com/2015/12/23/super-considered-hmmmful.html)
 
+---
+
+**Tools**
+
+* [estraverse](https://github.com/estools/estraverse)
+* [esmangle](https://github.com/estools/esmangle)
+
 `indexOf` uses Strict Equality Comparison. See SameValueZero comparison.
 
 Objects in JavaScript have reference equality.
@@ -88,7 +95,55 @@ if (x > y) {
 console.log(tmp === x); // ReferenceError: tmp is not defined
 ```
 
+## Destructuring
+
+* [ES6 Destructuring in depth](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/)
+
+**Extract data** from <u>arrays</u> or <u>objects</u> using syntax that "mirrors" the construction of array and object literals.
+
+```js
+// Array destructuring
+let [x, y] = ['a', 'b']; //=> x=a, y=b
+
+let [x, y, ...rest] = ['a', 'b', 'c', 'd']; //=> rest = ['c', 'd']
+
+[x, y] = [y, x]; // swap values
+```
+
+```js
+// Object destructuring
+var o = {p: 42, q: true};
+var {p, q} = o; // Means o.p and o.q
+
+const { visible, className, tag } = this.props
+let { city: c, state: s } = getAddress(); //=> c will be obj.city
+
+// Rest Properties
+let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
+x; // 1
+y; // 2
+z; // { a: 3, b: 4 }
+```
+
+```js
+// Destructuring in module loading
+const {clone, assign} = require('lodash'); // Means _.clone and _.assign
+
+function makeRequest(url, method, params) {
+  var config = {url, method, params};
+
+  // Same as  var config = {
+    url: url,
+    method: method,
+    params: params  }}```
+
 ## Spread Operator
+
+A better `apply` and a better `push`.
+
+* [ecmascript-rest-spread](https://github.com/sebmarkbage/ecmascript-rest-spread)
+
+Can be used for destructuring also.
 
 ```js
 [..."abc"] // Will become [ 'a', 'b', 'c' ]
@@ -96,6 +151,7 @@ console.log(tmp === x); // ReferenceError: tmp is not defined
 var a = [1, 2, 3];
 var b = [...a, 4, 5];
 
+// For destructuring
 var a, b, c;
 [a, b, ...c] = [1, 2, 3, 4, 5];
 
@@ -112,43 +168,6 @@ function bar(a, ...params) {}
 let n = { x, y, ...z }
 n; // { x: 1, y: 2, a: 3, b: 4 }
 ```
-
-## Destructuring
-
-* [ecmascript-rest-spread](https://github.com/sebmarkbage/ecmascript-rest-spread)
-
-```js
-// Array destructuring
-let [x, y] = ['a', 'b'];
-
-let [x, y, ...rest] = ['a', 'b', 'c', 'd']; // rest = ['c', 'd']
-
-[x, y] = [y, x]; // swap values
-```
-
-```js
-let { city: c, state: s } = getAddress();
-
-// Rest Properties
-let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
-x; // 1
-y; // 2
-z; // { a: 3, b: 4 }
-```
-
-```js
-const {clone, assign} = require('lodash'); // Means _.clone and _.assign
-
-function makeRequest(url, method, params) {
-  var config = {url, method, params};
-
-  // Same as  var config = {
-    url: url,
-    method: method,
-    params: params  }}
-
-var o = {p: 42, q: true};
-var {p, q} = o; // Means o.p and o.q```
 
 ## Object.assign, Cloning, Extending
 

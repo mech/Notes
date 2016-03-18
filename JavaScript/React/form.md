@@ -13,6 +13,10 @@
 
 Either store the form state within the component or Flux store.
 
+## Controlled and Uncontrolled Components
+
+* [Controllables](https://jquense.github.io/react-widgets/docs/#/controllables)
+
 ## Form State
 
 * [2-way data binding with `LinkedStateMixin`](http://facebook.github.io/react/docs/two-way-binding-helpers.html)
