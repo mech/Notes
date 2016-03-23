@@ -16,7 +16,7 @@ Classes are dirty. One simple method call can mutate them. Who did it? And why? 
 
 **Note** At the moment, stateless functions can not be pure-render! Which is slower than normal component with `shouldComponentUpdate` implemented.
 
-Aka Pure Component, Dumb Component, Functional Stateless Component. Micro-componentization!
+Aka Pure Component, Dumb Component, Stateless Functional Component. Micro-componentization!
 
 These types of components surprisingly compose a large majority of our applications!
 

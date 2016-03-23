@@ -39,6 +39,7 @@ const store = createStore(counter);
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
 
+* [Step by step guide to building React Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.1mzij69r2)
 * [fully-reactive-react-example](https://github.com/belfz/fully-reactive-react-example)
 * [**React has no networking/Ajax features**](http://andrewhfarmer.com/react-ajax-best-practices/)
 * [Why I'm tired of using and teaching flux](https://gist.github.com/justinwoo/08f9f8fcdcf865025f18)
@@ -400,6 +401,8 @@ Sync state transition??
 ## Thunk
 
 * [Callback + Continuable](https://gist.github.com/creationix/b9557dd1dceba7aa90b5)
+* [Thoughts on Thunks](http://blog.getify.com/thoughts-on-thunks)
+* [How to dispatch a Redux action with a timeout?](http://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
 
 ## Router
 
@@ -480,6 +483,8 @@ When you always render from the top you are coupling parent components too hard 
 
 Instead as soon as you see that component passes props down without using it, we suggest generating a "container" component using `connect()`.
 
+The benefit of using `connect(state, dispatch)` is that it takes care of subscribe (responding to state changes) and dispatch for you without having to hook into the React component lifecycle yourself.
+
 ```js
 // connect() API?
 export default PropTypes.shape({
@@ -500,3 +505,7 @@ export default PropTypes.shape({
 ## Redux and RxJS
 
 * [redux-rx](https://github.com/acdlite/redux-rx)
+
+## Videos
+
+* [Redux, a journey from OOP to functional](https://www.youtube.com/watch?v=IdcIbDKar2U)

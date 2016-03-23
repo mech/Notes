@@ -9,6 +9,32 @@ Virtual DOM (difference algorithm), event delegation, batched DOM updates all co
 * [Using MOBservable for FRP](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 * [**Optimizing React performance using keys, component lifecycle, and performance tools**](http://jaero.space/blog/react-performance-1/)
 
+## Keys
+
+Keys are defined in parent components, not in child components.
+
+```js
+class StoogeList extends Component {
+  render() {
+    return (
+      <ul>
+        {this.props.stooges.map (stooge) => {
+          return <Stooge key={stooge.id} />
+        }}
+      </ul>
+    )
+  }
+}
+
+class Stooge extends Component {
+  render() {
+    return <li>{ this.props.stooge.name }</li>
+  }
+}
+```
+
+`StoogeList` has to specify the keys of each of its children. The `Stooge` component doesn't need to worry about keys at all, because **it's only rendering a single element**.
+
 ## Mobile Performance with Text Input
 
 * [pure-render-decorator](https://github.com/felixgirault/pure-render-decorator)

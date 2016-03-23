@@ -26,6 +26,14 @@ All functions are stateless. All data is immutable.
 
 ## Cycle
 
+## Yolk
+
+* [yolk](https://github.com/garbles/yolk)
+
+## Kefir
+
+* [kefir](https://rpominov.github.io/kefir/)
+
 ## Este
 
 ## Ramda

@@ -132,6 +132,10 @@ The webpack core can be extended with loaders and plugins.
 
 The loaders will only kick into action when you try to `require` something that match the `test` patterns.
 
+Loaders and plugins are commonly confused with each other, but they are completely different things.
+
+Roughly speaking, loaders deal with each source file, one at a time, as they are "loaded" by webpack during the build process. Plugins in the other hand do not operate on individual source files: they influence the build process as a whole.
+
 ## Plugins
 
 ## webpack.config.js

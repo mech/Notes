@@ -174,22 +174,6 @@ publishAction( actionName, arg1, arg2... )
 
 Make store synchronous!
 
-
-## Data Management Pattern
-
-* [Making your app faster with high-performance components](https://www.youtube.com/watch?v=KYzlpRvWZ6c&t=1351)
-* [Model Management](https://github.com/facebook/react/wiki/Complementary-Tools#model-management)
-
-There are plenty of ways to manage your data:
-
-* Container component (a.k.a Smart component)
-* Flux - Store
-* Cursor - Clojure Om?
-* Relay
-* Cortex - Centrally managing data with React
-
-
-
 ## Videos
 
 * [Rethinking Web App Development at Facebook](https://www.youtube.com/watch?v=nYkdrAPrdcw)

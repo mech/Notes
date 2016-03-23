@@ -344,6 +344,7 @@ gulp.task('scripts', function() {
 
 * [ReactNode, ReactElement, ReactFragment, ReactComponent](https://facebook.github.io/react/docs/glossary.html)
 * [Understanding the difference between React Elements and Components](https://quickleft.com/blog/understanding-the-difference-between-react-elements-and-components/)
+* [React (Virtual) DOM Terminology](https://gist.github.com/sebmarkbage/fcb1b6ab493b0c77d589#file-react-terminology-md)
 
 > While its true that `React.createElement` is an instruction in a way, all it does is return a plain object (i.e. a `ReactElement`). Passing that `ReactElement` to `ReactDOM.render` is what actually creates the `ReactComponent`. So, you can think of the `ReactElement` as the instruction which is passed to `ReactDOM.render`.
 

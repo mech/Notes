@@ -8,6 +8,8 @@ Imagine you have a normal array, you can `filter`, `map`, `reduce` all you can. 
 
 Application is all about "data flow".
 
+* [Reactive Programming in JavaScript with RxJS](https://dzone.com/refcardz/rxjs-streams)
+* [**Reactive State Implementation**](https://github.com/ivan-kleshnin/reactive-states)
 * [ECMAScript Observable](https://github.com/zenparsing/es-observable)
 * [Rx-book](http://xgrommx.github.io/rx-book/index.html)
 * [Reactive course at Coursera](https://www.coursera.org/course/reactive)

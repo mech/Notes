@@ -1,6 +1,8 @@
 # Components
 
 > Basically treat the app as a game engine, and use a lot of the same techniques.
+> 
+> You can easily build completely isolated, reusable, and composable UI components. Nested views just become a natural extension of the way React works.
 
 UI are fundamentally tree. Dealing with REST endpoint introduces complexity. Whatever comes out from that endpoint is typically not in the shape my UI expected.
 
@@ -14,6 +16,7 @@ Remember, components in React are pretty much like functions, you can spit a fun
 
 By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!
 
+* [**React reconciliation**](http://blog.testdouble.com/posts/2016-02-01-react-reconciliation.html)
 * [**React Components, Elements, and Instances**](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html)
 * [**Component Brick and Mortar**](https://medium.com/making-internets/component-brick-and-mortar-8bde51899b00#.6mnu551fs)
 * [JavaScript Application Architecture on the road to 2015](https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b#.5tt9t7j05)
@@ -211,6 +214,8 @@ Data binding is a hack around re-rendering.
 
 ### Re-rendering and `shouldComponentUpdate`
 
+* [Optimizing with `shouldComponentUpdate`](http://buildwithreact.com/article/optimizing-with-shouldcomponentupdate)
+
 When Parent need to re-render, it will also automatically re-render any Child. This is the most basic functionality of React re-rendering logic.
 
 If you do not want Children to be re-render, you have to use Immutable and compare props at `shouldComponentUpdate`.
@@ -255,7 +260,6 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [Griddle - Data Table](http://griddlegriddle.github.io/Griddle/)
 * [FixedDataTable](https://facebook.github.io/fixed-data-table/)
 * [react-quill - Editor](https://github.com/zenoamaro/react-quill)
-* [PropTypes with validator.js](https://github.com/pwmckenna/react-validator-prop-types)
 * [react-select](http://jedwatson.github.io/react-select/)
 * [react-waypoint - Infinite Scrolling](https://github.com/brigade/react-waypoint)
 * [See also here for more react-waypoint](https://medium.com/brigade-engineering/to-infinity-and-beyond-with-react-waypoint-cb5ba46a9150)
@@ -287,8 +291,6 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
 * [react-nexus](https://github.com/elierotenberg/react-nexus)
 * [react-popups](https://github.com/Radivarig/react-popups)
-* [Format.js](http://formatjs.io/react/)
-* [Joi - Validation](https://github.com/hapijs/joi)
 * [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
 * [cpr-select](https://github.com/CanopyTax/cpr-select)
 * [react-sparklines](https://github.com/borisyankov/react-sparklines)
@@ -314,6 +316,12 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [React-Spreadsheet-Component](https://github.com/felixrieseberg/React-Spreadsheet-Component)
 * [react-xhr-uploader](https://rma-consulting.github.io/react-xhr-uploader/)
 * [react-infinite](https://github.com/seatgeek/react-infinite)
+
+### Validation
+
+* [PropTypes with validator.js](https://github.com/pwmckenna/react-validator-prop-types)
+* [Joi - Validation](https://github.com/hapijs/joi)
+* [Format.js](http://formatjs.io/react/)
 
 ### Pagination
 
