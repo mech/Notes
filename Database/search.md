@@ -8,6 +8,7 @@
 
 * [Twigkit](http://twigkit.com/)
 * [Designing the search experience](http://designingthesearchexperience.com/)
+* [Next-level searching in Slack](https://slackhq.com/next-level-searching-in-slack-1ce56aa8adee#.75osmjbxt)
 
 ## Query Questions
 

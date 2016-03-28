@@ -1,12 +1,16 @@
 # Ruby
 
-```
+```ruby
 ASCII = ('!'..'~')
 UPPER = ASCII.grep(/[[:upper:]]/)
 LOWER = ASCII.grep(/[[:lower:]]/)
 ALPHA = ASCII.grep(/[[:alpha:]]/)
 DIGIT = ASCII.grep(/[[:digit:]]/)
 PUNCT = ASCII.grep(/[[:punct:]]/)
+```
+
+```ruby
+data_source.methods.grep(/^get_(.*)_info$/) { Computer.define_component $1 }
 ```
 
 * [Prefer duplication over the wrong abstraction](http://us3.campaign-archive2.com/?u=1090565ccff48ac602d0a84b4&id=92902a19e4&e=6dbbf45b40)
@@ -95,13 +99,6 @@ So for new gem, how do you `require` things? Every gem you installed gets its `l
 * `require File.expand_path(File.join(File.dirname(__FILE__), 'filename'))`
 * See [aws](https://github.com/appoxy/aws/blob/master/lib/awsbase/require_relative.rb)
 * 
-
-## Block
-
-* [Why Ruby blocks exist Part 1](http://programming.oreilly.com/2014/02/why-ruby-blocks-exist.html)
-* [Why Ruby blocks exist Part 2](http://programming.oreilly.com/2014/03/why-ruby-blocks-exist-part-ii.html)
-* [Why Ruby blocks exist Part 3](http://programming.oreilly.com/2014/05/why-ruby-blocks-exist-part-iii.html)
-* [Callbacks and Ruby](http://janjiss.github.io/blog/2014/05/14/callbacks-and-ruby/)
 
 ## Symbol
 

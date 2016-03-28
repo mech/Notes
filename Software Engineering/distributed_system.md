@@ -8,3 +8,6 @@
 
 ## CRDT - Conflict-Free Replicated Data Types
 
+## Commit Logs
+
+* [Kafka, Logs, and the Policy of Truth](http://blog.codeship.com/kafka-logs-and-the-policy-of-truth/)

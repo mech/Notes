@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+[**How Hour messed up**](https://medium.com/the-hours-blog/we-messed-up-256e13d2caf5#.454fqitqk)
+
 * [Living Document](https://quip.com/blog/living-document)
 
 > Easiness is a recipe for crappy design
@@ -392,6 +394,8 @@ If there is only 1 candidate to approve, we can show all the details in the emai
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
 
 ## Notification
+
+* [Designing smart notifications](https://medium.com/@intercom/designing-smart-notifications-36336b9c58fb#.mm8t4z3za)
 
 Trackers, notifiers, 
 

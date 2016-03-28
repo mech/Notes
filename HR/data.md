@@ -59,6 +59,7 @@ Predictive model abstracts away the complexity of the world, focusing in on a pa
 
 * [Training and serving NLP models using Spark MLlib](https://www.oreilly.com/ideas/training-and-serving-nlp-models-using-spark-mllib)
 * [Scaling Knowledge at Airbnb](https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091#.bglfxzsj1)
+* [Information Is Healthcare's Most Valuable Commodity](https://medium.com/introducing-design-to-new-places/information-is-healthcare-s-most-valuable-commodity-2b3d32aaefb3#.yck9ywtba)
 
 ## Tools
 
