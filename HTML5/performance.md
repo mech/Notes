@@ -74,6 +74,10 @@ Perceived = f(Expected Performance, UX, Actual Performance)
   transition: height 0.4s ease-out;	}
 ```
 
+## Flame Chart
+
+* [CPU Flame Graph](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html)
+
 ## Webpage Test
 
 Automate it! Measure early. Measure often. Use `npm install psi`.

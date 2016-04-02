@@ -22,6 +22,16 @@ splice(7, 0, newElement);
 
 ## Slice
 
+To make arguments a real array:
+
+```js
+Array.prototype.slice.call(arguments)
+[].slice.call(arguments)
+
+var toString = {}.toString;
+var hasOwn = {}.hasOwnProperty;
+```
+
 ## Sort
 
 `sort()` works very well with strings, but not so well with numbers as it sort lexicographically.

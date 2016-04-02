@@ -1,10 +1,22 @@
 # Process
 
+> "A sculptor may sit down to sculpt something without a clear idea of the exact form it will take."
+
+---
+
 > Cheap iteration help shipping. So make iteration cheap to do!
 
 Concept Driven Design
 
 > We cannot solve our problems with the same thinking we used when we created them.
+
+---
+
+> Design it, test it, iterate
+
+---
+
+> There's no real context to the solutions we find as we only tend to see things in silo, How does the element sit with the rest of the experience they created?
 
 **You can have the best process, but if you content sucks, it will not save the company.**
 

@@ -4,6 +4,7 @@
 * [functional-frontend-architecture](https://github.com/paldepind/functional-frontend-architecture)
 * [Learn You an Elm](http://learnyouanelm.github.io/)
 * [Building a Live-Validated Signup Form in Elm](http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm)
+* [Scalable frontend, with Elm or Redux](https://github.com/slorber/scalable-frontend-with-elm-or-redux)
 
 Immutable and stateless function is the only game in town.
 

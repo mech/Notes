@@ -13,6 +13,8 @@
 * [Vim as Go IDE](http://farazdagi.com/blog/2015/vim-as-golang-ide/)
 * [Flame Graphs](https://medium.com/@calavera/docker-flame-graphs-f9523e98d57d?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57uUtWqC%2BlMI%2F0ER3fOvrPUfGjI4DTMJgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D#.gtiftw5ee)
 * [**Go Training**](https://github.com/ardanlabs/gotraining)
+* [The way of the Gopher - Making the switch from Node.js](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f#.z0p5r3du8)
+* [Handling 1 Million Requests per Minute with Go](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
 
 **Parametric Polymorphism**
 

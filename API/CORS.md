@@ -43,6 +43,10 @@ IE10 does support CORS withCredential but you have to be careful of user setting
 * [A quick look at P3P](http://blogs.msdn.com/b/ieinternals/archive/2013/09/17/simple-introduction-to-p3p-cookie-blocking-frame.aspx)
 * [Craft a P3P policy to make IE behave](http://www.techrepublic.com/blog/software-engineer/craft-a-p3p-policy-to-make-ie-behave/)
 
+### IE9
+
+* [XDomainRequest and CORS on IE9](http://perrymitchell.net/article/xdomainrequest-cors-ie9/)
+
 ## The CORS Request
 
 Firefox 3.5+, Safari 4+, and Chrome all automatically send the `Origin` header when using XHR. When attempting to open a resource on a different origin, this behavior automatically gets triggered without any extra code.

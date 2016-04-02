@@ -98,6 +98,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [Performance issues with a tree structure and shouldComponentUpdate in React / Redux](http://stackoverflow.com/questions/34981924/performance-issues-with-a-tree-structure-and-shouldcomponentupdate-in-react-re)
 * [Top-down vs bottom-up](https://github.com/cyclejs/core/issues/191#issuecomment-162320830)
 * [redux-react-local](https://github.com/threepointone/redux-react-local)
+* [redux-architecture](https://github.com/jarvisaoieong/redux-architecture)
 
 `connect()` does a ton of trickery to be very optimized. Always re-rendering from the top means you're doing a bunch of unnecessary reconciliation.
 
@@ -388,6 +389,7 @@ Intercept action. Middleware transforms async actions before they reach the redu
 * [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
 * [**From actions creators to sagas**](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
 * [Why do we need middleware for async flow in Redux?](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34623840#34623840)
+* [Reducer Composition with Effects in JavaScript???](https://github.com/reactjs/redux/issues/1528)
 
 Async action creators are suboptimal.
 

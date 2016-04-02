@@ -25,18 +25,6 @@ npm i eslint-loader --save-dev
 npm i babel-eslint --save-dev
 
 npm i babel-preset-es2015 babel-preset-react --save-dev
-
-npm i babel-plugin-syntax-class-properties --save-dev
-npm i babel-plugin-syntax-decorators --save-dev
-npm i babel-plugin-syntax-object-rest-spread --save-dev
-
-npm i babel-plugin-transform-class-properties --save-dev
-npm i babel-plugin-transform-decorators-legacy --save-dev
-npm i babel-plugin-transform-object-rest-spread --save-dev
-
-npm i babel-plugin-react-transform --save-dev
-npm i react-transform-hmr --save-dev
-
 npm i babel-preset-react-hmre --save-dev
 
 npm i react react-dom --save
@@ -137,6 +125,20 @@ Loaders and plugins are commonly confused with each other, but they are complete
 Roughly speaking, loaders deal with each source file, one at a time, as they are "loaded" by webpack during the build process. Plugins in the other hand do not operate on individual source files: they influence the build process as a whole.
 
 ## Plugins
+
+Globals?
+
+```js
+// See https://gist.github.com/Couto/b29676dd1ab8714a818f
+plugins: [
+  new webpack.ProvidePlugin({
+    'Promise': 'es6-promise',
+    'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
+  })
+]
+
+// Or should we just use babel-polyfill?
+```
 
 ## webpack.config.js
 
@@ -329,4 +331,3 @@ Use JSON manifest file for production fingerprinting.
 ## Videos
 
 * [Webpack module bundler](https://www.youtube.com/watch?v=qs9TjH7VheA)
-* 

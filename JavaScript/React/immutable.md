@@ -63,9 +63,32 @@ class Address
 end
 ```
 
-## Object.assign - Cheap Immutable Data Structure
+## Object.assign - Expensive Immutable Data Structure
 
-Neither the array's non-destructive methods nor `Object.assign` make **deep copies**.
+Note: Neither the array's non-destructive methods nor `Object.assign` make **deep copies**.
+
+`Object.assign` can be okay way to do immutability for small number of list items. But it is not performant for large lists.
+
+```js
+ toggleActive: function(userId) {
+    // State should never be mutated (changed) directly. You should
+    // always make a copy of the state and replace the original
+    // with the copy. In this case, we're replacing the whole state
+    // which probably doesn't have the best performance for many
+    // records, but it's good enough for this example. We'll talk
+    // more about mutable and immutable state in the third article
+    // on Redux.
+
+    var newState = Object.assign({}, this.state)
+    var user = _.find(newState.users, {id: userId});
+    user.active = !user.active
+
+    // Or
+    var newUser = Object.assign({}, user, {active: !user.active});
+    
+    this.setState(newState)
+  }
+```
 
 ```js
 function getOlder(person) {
@@ -95,7 +118,7 @@ function getOlder({ age, ...other }) {
 }
 ```
 
-```cljs
+```
 (defn get-older [person]
   (assoc person :age (+ 1 (:age person))))
 ```

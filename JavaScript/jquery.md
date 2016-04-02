@@ -10,6 +10,8 @@
 ```js
 jQuery.fn.init
 jQuery.fn = jQuery.prototype
+
+jQuery.fn.jquery // Find version
 ```
 
 ## You don't need jQuery
@@ -22,6 +24,7 @@ jQuery.fn = jQuery.prototype
 
 ## Plugins and Libraries
 
+* [jQuery boilerplate for plugins development](https://jqueryboilerplate.com/)
 * [Fluidbox - Medium-like lightbox](http://terrymun.github.io/Fluidbox/)
 * [Animated sorting and filtering of list](https://mixitup.kunkalabs.com/)
 * [Stripe's credit card payment](https://github.com/stripe/jquery.payment)
@@ -33,6 +36,39 @@ jQuery.fn = jQuery.prototype
 
 ```
 git checkout tags/2.0.3
+```
+
+```js
+$.fn.plugin.defaults.something = false;
+
+$.fn.plugin = function(options) {
+  var settings = $.extend({}, $.fn.plugin.defaults, options);
+  
+  // You can use `this` inside here which refer to
+  // jQuery object
+  
+  // For you loop, you need to use `$(this)`
+  return this.each(function() {
+    $(this).xxx
+  });
+  
+  // If you have callback, it is better to use `call`
+  // and pass in the desired object for `this`
+  settings.onChange.call(this)
+}
+```
+
+Some examples of plugin
+
+```js
+;(function($) {
+  $.fn.removeWhitespace = function() {
+    this.contents().filter(function() {
+      return (this.nodeType === 3 && !/\S/.test(this.nodeValue))
+    }).remove();
+    return this;
+  };
+})(jQuery);
 ```
 
 ## History

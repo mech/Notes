@@ -4,6 +4,7 @@
 * [JavaScript Modules](http://jsmodules.io/)
 * [Scalable maintainable JavaScript](http://www.innoarchitech.com/scalable-maintainable-javascript/)
 * [**Module Best Practices**](https://github.com/mattdesl/module-best-practices)
+* [**Misunderstanding ES6 Modules**](https://medium.com/@kentcdodds/misunderstanding-es6-modules-upgrading-babel-tears-and-a-solution-ad2d5ab93ce0#.vd0gcu741)
 
 ```js
 // There is difference between exports and module.exports

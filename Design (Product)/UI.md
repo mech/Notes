@@ -10,6 +10,12 @@
 
 > All roads lead to a human-centered design approach, where the user is the prime focus. Often considered accessory or secondary, microinteractions actually create a feeling of well-being once they are discovered by users. As a designer, recognizing the invisibility of microinteractions is just as important as designing them. You have to create something that feels human and accomplishes a task.
 
+---
+
+> At this point I have one big problem: I have no idea what's going to happen when I hit share. I was really hesitant to tap the share button at first...what if my photo goes public? Can anyone see this? Sharing to where?
+
+> Those are a lot of high-friction questions this early in the flow.
+
 * [Microinteractions: The Secret of Great App Design](https://uxplanet.org/microinteractions-the-secret-to-great-app-design-4cfe70fbaccf#.mdbktcvp3)
 * [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)
@@ -75,6 +81,8 @@
 * Without contrast, we don't have hierarchy, and without hierarchy, the typography feels indistinguishable and our readers are left without a map.
 * When we first glance at something, we tend to seek patterns; we mentally group similar elements and try to uncover a pecking order.
 * "Keep your user informed about what is going on" - Jakob Nielsen
+* Clean and simple with a bright and inviting color palette
+* UI always reflect the user's current task. Unnecessary options are rarely presented to the user.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

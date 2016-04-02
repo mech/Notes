@@ -178,3 +178,6 @@ var Counter = React.createClass({
 * [What's new in RxJS 5.0 with Ben Lesh](https://www.youtube.com/watch?v=9on6u7pI3vY)
 * [DevChat.tv - RxJS with Matthew Podwysocki](https://devchat.tv/js-jabber/182-jsj-rxjs-with-matthew-podwysocki)
 * [**It was an Observation, I Promise**](https://www.youtube.com/watch?v=XhVyrAFed58)
+* [Channel9 - Brian Beckman and Erik Meijer - Inside the .NET Reactive Framework (Rx)](https://channel9.msdn.com/shows/Going+Deep/Expert-to-Expert-Brian-Beckman-and-Erik-Meijer-Inside-the-NET-Reactive-Framework-Rx/)
+* [Channel9 - Rx: Curing your asynchronous programming blues](https://channel9.msdn.com/Blogs/codefest/DC2010T0100-Keynote-Rx-curing-your-asynchronous-programming-blues)
+* [Channel9 - Reactive Extensions for JavaScript](https://channel9.msdn.com/Blogs/Charles/Introducing-RxJS-Reactive-Extensions-for-JavaScript)

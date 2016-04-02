@@ -16,6 +16,7 @@ Remember, components in React are pretty much like functions, you can spit a fun
 
 By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!
 
+* [**A Modular Approach to UI Problem Solving**](http://davidtheclark.com/modular-approach-to-interface-components/)
 * [**React reconciliation**](http://blog.testdouble.com/posts/2016-02-01-react-reconciliation.html)
 * [**React Components, Elements, and Instances**](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html)
 * [**Component Brick and Mortar**](https://medium.com/making-internets/component-brick-and-mortar-8bde51899b00#.6mnu551fs)
@@ -237,6 +238,8 @@ Re-rendering on every change is impractical unless *all* your component have ver
 
 ## Libraries
 
+See http://davidtheclark.com/modular-approach-to-interface-components/ for a nice way to modularize other libraries.
+
 * [**React Widget**](https://jquense.github.io/react-widgets/docs/#/)
 * [Strand](https://mediamath.github.io/strand/)
 * [React Components](http://react-components.com/)
@@ -277,7 +280,6 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [react-autocomplete](https://github.com/synapsestudios/react-autocomplete)
 * [react-pikaday](https://github.com/thomasboyt/react-pikaday)
 * [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
-* [**Task Calendar**](http://hilary-l.github.io/)
 * [react-select-search](https://github.com/tbleckert/react-select-search)
 * [react-avatr](https://github.com/studiofrenetic/react-avatr)
 * [react-absolute-grid](https://github.com/jrowny/react-absolute-grid)
@@ -288,7 +290,6 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [**Amazing constraint-base grid system**](https://github.com/jxnblk/rgx)
 * [Spectacle - Presentation with good PDF support](https://github.com/FormidableLabs/spectacle)
 * [sliding-window](https://github.com/gre/sliding-window)
-* [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
 * [react-nexus](https://github.com/elierotenberg/react-nexus)
 * [react-popups](https://github.com/Radivarig/react-popups)
 * [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
@@ -316,6 +317,15 @@ Re-rendering on every change is impractical unless *all* your component have ver
 * [React-Spreadsheet-Component](https://github.com/felixrieseberg/React-Spreadsheet-Component)
 * [react-xhr-uploader](https://rma-consulting.github.io/react-xhr-uploader/)
 * [react-infinite](https://github.com/seatgeek/react-infinite)
+
+### Date-picker and Calendar
+
+* [**Task Calendar**](http://hilary-l.github.io/)
+* [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
+
+### Resizable
+
+* [How to make a DIV with draggable](http://stackoverflow.com/questions/17855401/how-do-i-make-a-div-width-draggable)
 
 ### Validation
 

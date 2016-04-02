@@ -1,5 +1,6 @@
 # Pure React
 
+* [What is a pure function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.a8ulhjrj4)
 * [react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter)
 
 > The most brilliant principle behind React is functional composition, not VDOM.

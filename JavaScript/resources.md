@@ -42,6 +42,16 @@ JavaScript dynamic duo (static type is overrated):
 * [Signup autocompletion with Gravatar](https://cloudup.com/blog/signup-autocompletion-with-gravatar)
 * [Global eval. What are the options?](http://perfectionkills.com/global-eval-what-are-the-options/)
 
+## Debugging
+
+* [Useful debugging tips](https://medium.com/@raygunio/useful-javascript-debugging-tips-you-might-not-know-77d6f1d2b93e#.k65uuyvd1)
+
+```js
+console.log( '%c %s %s %s ', 'color: yellow; background-color: black;', ' — ', 'hello', ' — ');
+
+console.trace('debug')
+```
+
 ## Design Patterns
 
 * [JavaScript Design Patterns](https://carldanley.com/javascript-design-patterns/)
