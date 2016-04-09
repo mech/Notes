@@ -35,6 +35,7 @@ Humble systems. Not smart system. Relationship design is the new UX.
 ---
 > The poet always has too many words in his vocabulary, a painter too many colours in his palette, a musician too many notes on his keyboard - Jean Cocteau (Less is More)
 
+* [What the hell is Design Thinking anyway?](http://www.andybudd.com/archives/2016/04/what_the_hell_is_design_thinking_anyway/)
 * [**Good Design**](https://medium.com/the-year-of-the-looking-glass/good-design-a89c15136ba6#.helibco8c)
 * [Why the best modern design is invisible](http://www.slate.com/blogs/the_eye/2014/12/02/facebook_s_julie_zhuo_on_invisible_design_in_make_your_mark_a_business_book.html)
 * [How Apple is giving design a bad name](https://www.fastcodesign.com/3053406/how-apple-is-giving-design-a-bad-name)

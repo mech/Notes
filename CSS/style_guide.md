@@ -171,6 +171,12 @@ grep "info" * -R
 
 ## Naming Convention
 
+* [**From Pages to Patterns**](http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone)
+
+> Name describes its function, not how it looks.
+>
+> There's a lot to be gained from getting away from our screens and focusing first on thinking, language, and approach.
+
 Component vs Page-level naming. We should not use Page-level if possible. Prefer Component-level names. However, Page-level can be used to override generic components in very specific contexts:
 
 ```css
@@ -179,6 +185,11 @@ Component vs Page-level naming. We should not use Page-level if possible. Prefer
     margin-top: 10px; /* Override */
   }
 }
+```
+
+```
+.blue-button vs .button
+.profile-card vs .product-card vs .location-card vs .card
 ```
 
 * [Naming CSS stuff is really hard](http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard)

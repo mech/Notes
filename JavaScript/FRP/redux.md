@@ -39,6 +39,8 @@ const store = createStore(counter);
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
 
+* [Levelling up with React: Redux](https://css-tricks.com/learning-react-redux/)
+* [Server-side rendering with Redux and React-Router](https://www.codementor.io/reactjs/tutorial/redux-server-rendering-react-router-universal-web-app)
 * [Step by step guide to building React Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.1mzij69r2)
 * [fully-reactive-react-example](https://github.com/belfz/fully-reactive-react-example)
 * [**React has no networking/Ajax features**](http://andrewhfarmer.com/react-ajax-best-practices/)

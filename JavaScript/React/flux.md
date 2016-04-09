@@ -22,7 +22,7 @@ Tightly coupled method invocations are transformed into loosely coupled data flo
 
 Similar issues for Ember:
 
-```
+```js
 this.set('controllers.foo.something', 'lol');
 this.set('parentView.something', 'lol');
 
@@ -37,14 +37,14 @@ doSomething: function() {
 
 Like the CSS cascade, if you change some data somewhere in the app, predicting what will happen gets more and more impossible.
 
-```
+```js
 // Using Facebook own Dispatcher library
 var AppDispatcher = new Dispatcher();
 ```
 
 Some example from [London React Meetup](https://www.youtube.com/watch?v=3wcouW5lXto)
 
-```
+```js
 // TopBarComponent.jsx
 SearchActions.search(query, that.state.hdOnly? 'high' : 'any');
 
@@ -261,7 +261,58 @@ Flux opens up a lot of possibilities such as recording and replaying UI state ju
 * `waitFor` is replaced in favour to handle serial and parallel data flows.
 * Action creators not needed.
 
-## Examples
+## Simpler Examples
+
+```js
+class Slide extends Component {
+  componentDidMount() {
+    // Component get its data from Store so you don't
+    // these parent to child, child to parent silly thing
+    Store.addListener('change', function() {
+      this.setState(Store.gimme(this.props.id))
+    });
+  }
+
+  render() {
+    return (
+      <div onClick={Actions.reticulateSplines}>
+        {data.text}
+      </div>
+    )
+  }
+}
+
+// Store can just be a simple object with getter/setter
+// that emit event once done
+var Store = {
+  gimme: function() {},
+  set: function() {
+    // save data, then...
+    this.emit('change');
+  }
+};
+
+mixInEventEmitter(Store);
+
+// Action, again can be a simple object
+// Notice here there is no type
+var Actions = {
+  reticulateSplines: function() {
+    var data = ''; // massage, XHR, etc
+    Store.set(data);
+  }
+}
+
+// The parent view subscribe to the store
+// Acts as controller/container?
+class App extends Component {
+  componentDidMount() {
+    Store.addListener('change', this.forceUpdate);
+  }
+}
+```
+
+## Old Examples
 
 ```js
 var ContactsStore = require('stores/ContactsStore');

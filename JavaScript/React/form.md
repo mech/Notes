@@ -2,6 +2,7 @@
 
 * [**Forms in React and Redux**](http://x-team.com/2016/02/tutorial-forms-in-react-and-redux/)
 * [formsy-react](https://github.com/christianalfoni/formsy-react)
+* [tcomb-form](https://github.com/gcanti/tcomb-form)
 * [newforms](https://github.com/insin/newforms)
 * [Disable submit button when making Ajax requests](https://medium.com/@collardeau/to-react-from-jquery-disable-a-button-f5f6cc0ea885)
 * [react-json](https://github.com/arqex/react-json)
@@ -12,6 +13,9 @@
 * [Form validation tutorial with React](https://html5hive.org/reactjs-form-validation-tutorial/)
 
 Either store the form state within the component or Flux store.
+
+See http://jsbin.com/copiqakisu/1/edit?js,output
+See https://github.com/christianalfoni/formsy-react/issues/120
 
 ## Controlled and Uncontrolled Components
 

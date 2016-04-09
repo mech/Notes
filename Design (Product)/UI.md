@@ -16,6 +16,13 @@
 
 > Those are a lot of high-friction questions this early in the flow.
 
+---
+
+> High-level functions are easier to define if you have the whole UI printed out and intelligible at a glance. It’s also a lot easier to spot any duplications and inconsistencies that way. [The language of modular design](http://alistapart.com/article/language-of-modular-design)
+
+* [Why I love ugly messy UI](https://m.signalvnoise.com/why-i-love-ugly-messy-interfaces-and-you-probably-do-too-edff4a896a83#.3ufmiz586)
+* [IA and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/)
+* [Lazy Users](https://www.nngroup.com/articles/lazy-users/)
 * [Microinteractions: The Secret of Great App Design](https://uxplanet.org/microinteractions-the-secret-to-great-app-design-4cfe70fbaccf#.mdbktcvp3)
 * [**Flat 2.0**](http://articles.dappergentlemen.com/2014/12/03/flat-design-2/)
 * [**Low contrast Text is not the answer**](https://www.nngroup.com/articles/low-contrast/)
@@ -83,10 +90,18 @@
 * "Keep your user informed about what is going on" - Jakob Nielsen
 * Clean and simple with a bright and inviting color palette
 * UI always reflect the user's current task. Unnecessary options are rarely presented to the user.
+* Pay attention to clutter
+* Simplify headlines
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
 > Give user visual rewards. Guide them how to "work the system".
+
+## Conversational UI
+
+> I think of the questions I would need to ask him to get some information, the orders I would give to get something done, the answers I would like to receive.
+> 
+> And I write the whole conversation out, following an order that makes more sense.
 
 ## Zero UI
 

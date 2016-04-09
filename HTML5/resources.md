@@ -104,6 +104,7 @@ With the sectioning content and outline algorithm, you don't have to keep track 
 
 ## Front-end
 
+* [Front-End Dev guidelines](http://tech.tmw.co.uk/code/TMW-frontend-guidelines/)
 * [**Google Developers Updates**](https://developers.google.com/web/updates/?hl=en)
 * [**Forward.js University**](http://forwardjs.com/university)
 * [**Full Stack Radio**](http://www.fullstackradio.com/)

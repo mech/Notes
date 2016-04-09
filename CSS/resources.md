@@ -8,6 +8,7 @@ https://vimeo.com/3493226
 http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 ```
 
+* [**cssguidelin.es**](http://cssguidelin.es/)
 * [**10 commandments of sane style sheets**](https://benfrain.com/the-ten-commandments-of-sane-style-sheets/)
 * [**CSS Variables: Why Should You Care?**](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care)
 * [**Should I Prefix?**](http://shouldiprefix.com/)

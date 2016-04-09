@@ -59,6 +59,7 @@ Things that help you to remember when you start to design:
 
 > If you’re a leader of a team, empower your designers (and your entire team, really) to make these hard decisions and to own the consequences. As much as indecision can damage a project or team, so can constantly asking for permission.
 
+* [5 whys, conversational UI, Comic strip](https://blog.prototypr.io/5-ux-plays-to-start-your-design-on-good-tracks-45d00260909e#.1gbgzw4g1)
 * [**Speed Matters**](http://jsomers.net/blog/speed-matters)
 * [**Designer Checklists**](http://adrien-heury.net/designers-checklists/)
 * [Building habits](http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product)

@@ -1,5 +1,7 @@
 # Graph Databases
 
+Ironically, relational DBs can't handle relationship well.
+
 Vertical after vertical discovers the transformative power of connected data. Without the connections/relationships, there is no point to it. When you have a lot of connected things, you have a graph-based problem.
 
 While we could easily fit the discrete data in relational tables, the connected data was more challenging to store and tremendously slow to query.
@@ -20,6 +22,8 @@ We want to connect data as the domain dictates, allowing structure and schema to
 Ironically, relational databases deal poorly with relationships. Relationships exist only at modeling time for RDBMS, as a means of joining tables.
 
 But friendship isn't always symmetric. What if we'd like to ask "who is friends with Bob?" rather than "Who are Bob's friends?".
+
+## Graphs vs Trees
 
 ## Analysis
 

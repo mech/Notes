@@ -34,6 +34,14 @@ When you follow a candidate, use PubSub to get notify of all his activities!
 
 Use Neo4j for candidate's relationship with each other.
 
+## Installation
+
+If you encounter permission problem on `/usr/local/var/postgres`, you can uninstall Postgres, delete that folder.
+
+```
+▶ initdb -D /usr/local/var/postgres
+```
+
 ## Config files
 
 ```
@@ -121,7 +129,7 @@ UUID being random, you lose locality and your index ends up scattered and fragme
 
 Postgres is case-sensitive for string comparison
 
-## WITH
+## WITH (Recursive query - Good for Graph Database-like query?)
 
 An implementation of UPSERT using Writable CTEs (Common Table Expressions)
 

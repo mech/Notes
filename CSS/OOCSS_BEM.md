@@ -8,6 +8,7 @@ Thinking globally is fine for web document, but not so for web application.
 
 Use `data-attribute` for JavaScript interaction.
 
+* [**The Language of Modular Design**](http://alistapart.com/article/language-of-modular-design)
 * [**eCSS: The problems of CSS at scale**](http://ecss.io/chapter2.html)
 * [**Making sense of atomic design: molecules and organisms**](https://about.futurelearn.com/blog/atomic-design-molecules-organisms/)
 * [**Atomic Classification**](http://trentwalton.com/2016/02/26/atomic-classification/)

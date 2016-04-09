@@ -1,5 +1,11 @@
 # Gems
 
+```
+// How many gems do you have
+▶ grep -c '^\s*gem' Gemfile
+▶ bundle list | grep -c '\*'
+```
+
 * [pHash - Perceptual hash library for detecting duplicate multimedia files](https://github.com/westonplatter/phashion)
 * [Feature switch](https://github.com/pda/flip)
 * [SimpleCalendar](https://gorails.com/blog/simplecalendar-1-1-released)
@@ -22,7 +28,7 @@
 
 ## Required Gems in new project
 
-```Gemfile
+```ruby
 group :development do
   gem 'puma'
 

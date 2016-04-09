@@ -1,5 +1,7 @@
 # Metaprogramming
 
+* [Nice learning](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_1.html)
+
 ## Instance Variables
 
 Instance variables just spring into existence when you assign them a value, so you can have objects of the same class that carry different instance variables.
@@ -58,3 +60,5 @@ String.instance_eval { puts self } # => String
 
 'hello'.class_eval # => NoMethodError
 ```
+
+## 

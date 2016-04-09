@@ -134,3 +134,7 @@ d3.selectAll("circle")
 * [gRaphael](http://g.raphaeljs.com/)
 * [Snap.svg](http://snapsvg.io/)
 * [SVGO GUI](https://github.com/svg/svgo-gui)
+
+## People
+
+* [Sarah Drasner](http://sarahdrasnerdesign.com/)
