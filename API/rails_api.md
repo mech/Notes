@@ -9,6 +9,7 @@ Microservices:
 
 Large software projects stand a slim chance of ever being finished. Build for composability and disposability.
 
+* [Challenges faced in a little larger Rails API project](https://labs.kollegorna.se/blog/2014/11/rails-api/)
 * [**Building a modern bridge between Ember 2 and Rails 5 with JSON API**](http://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/)
 * [Simple Rails APIs with Stitches](http://multithreaded.stitchfix.com/blog/2015/11/04/simple-rails-apis-with-stitches/)
 * [**React + Flux Part 1**](https://fancypixel.github.io/blog/2015/01/28/react-plus-flux-backed-by-rails-api/)

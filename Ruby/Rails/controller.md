@@ -4,7 +4,12 @@
 * [MVC: How to write controllers](http://andrzejonsoftware.blogspot.sg/2008/07/mvc-how-to-write-controllers.html)
 * [A defence of @ivars in Rails controllers](http://naildrivin5.com/blog/2014/02/09/a-defense-of-ivars-in-rails-controllers.html)
 * [See the `Dashboard` facade pattern](https://robots.thoughtbot.com/sandi-metz-rules-for-developers)
-* [H**ow DHH Organizes His Rails Controllers**](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
+* [**How DHH Organizes His Rails Controllers**](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
+* [ActionDispatch::Routing::Mapper::Scoping](http://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html)
+
+## Strong Parameters
+
+* [Strong parameters by example](http://blog.trackets.com/2013/08/17/strong-parameters-by-example.html)
 
 ## Composite Pattern (Delegation)
 

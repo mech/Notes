@@ -90,9 +90,21 @@ animals.each { |animal| puts animal.name }
 * [Working with time zones in Ruby on Rails](http://www.elabs.se/blog/36-working-with-time-zones-in-ruby-on-rails)
 
 ```ruby
+# Okay to use
+2.hours.ago
+1.day.from_now
 Time.zone.now
 Time.zone.now.to_datetime
-DateTime.now # is not TZ-aware
+Time.zone.parse
+Date.current.in_time_zone
+Time.current # In AR query is fine
+Time.strptime(iso8601_time_string, "%Y-%m-%dT%H:%M:%S%z").in_time_zone
+
+# All these are not TZ-aware, don't use it
+DateTime.now
+Date.today.to_time
+Date.today # Bad
+Time.now # Bad also
 ```
 
 ## Arel

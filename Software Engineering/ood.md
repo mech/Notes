@@ -7,6 +7,7 @@
 * OOD metrics cannot identify designs that do the wrong thing in the right way.
 * Arranging code to efficiently accommodate change is a matter of design.
 * Refactor towards patterns instead of implementing a pattern right away.
+* Good design preserves maximum flexibility at minimum cost by putting off decisions at every opportunity, deferring commitments until more specific requirements arrive. When that day comes, refactoring is how you morph the current code structure into one that will accommodate the new requirements.
 
 > Knowing how software should look when it's done does not cause it to build itself; applications come into existence because some programmer applied the tools. The end result, be it a beautiful cabinet or a rickety chair, reflects its programmer's experience with the tools of design.
 

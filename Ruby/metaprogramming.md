@@ -61,4 +61,13 @@ String.instance_eval { puts self } # => String
 'hello'.class_eval # => NoMethodError
 ```
 
-## 
+## Constants
+
+* [Constant Lookup](http://cirw.in/blog/constant-lookup)
+
+Constants you define at the top level end up attached to `Object`. That's why you can use `Comparable` everywhere.
+
+```ruby
+module Comparable; end
+Object::Comparable == Comparable
+```

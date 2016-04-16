@@ -65,20 +65,6 @@ SQL
 
 * [What is the difference between dynamic typing, duck typing and parametric polymorphism?](http://stackoverflow.com/questions/14625654/what-is-the-difference-between-dynamic-typing-duck-typing-and-parametric-polym)
 
-## Service Object
-
-> Service object defines an application boundary that establishes a set of available operations.
-> 
-> Service object encapsulate cross-cutting operations.
-> 
-> Service object is standalone operation. Typically only one instance of each service type within the execution context.
-> 
-> In Rails, is everything that happens in the controller without all the HTTP-related stuff (`params`, `render`, `redirect`).
-> 
-> Service object encapsulates a single process of the business logic.
-> 
-> Service object is also not RESTful API, SOA, or even microservices.
-
 ## Gem Authoring
 
 Short story: `bundle gem gem_name`
@@ -225,11 +211,21 @@ Thing.new.hi()
 
 ## Strange looking code
 
-```
+```ruby
 article = Article.new.tap(&:save!)
+
+# If you need to do some processing after the call to super, but
+# don't want to save the return value in a local
+def save(*)
+  broadcast_to_twitter
+
+  super.tap do
+    # after-super processing
+  end
+end
 ```
 
-```
+```ruby
 def built_in_formatter(key)
   case key.to_s
   when 'd', 'doc', 'documentation'
@@ -244,7 +240,7 @@ def built_in_formatter(key)
 end
 ```
 
-```
+```ruby
 raise ArgumentError, <<-EOS.gsub(/^\s+\|/, '')
   |The message here is inside EOS but its whitespace will
   |be removed to make the code easier to read!
@@ -257,7 +253,7 @@ require 'etc'
 Etc.getlogin
 ```
 
-```
+```ruby
 SleepTimer = Struct.new(:minutes, :notifier) do
   def start
     sleep minutes * 60
@@ -266,11 +262,11 @@ SleepTimer = Struct.new(:minutes, :notifier) do
 end
 ```
 
-```
+```ruby
 ("[%1.3f] %s\n" % [duration, message])
 ```
 
-```
+```ruby
 RUBY_VERSION =~ /([\d]+)\.([\d]+)\.([\d]+)/
 major, minor, revision = $1.to_i, $2.to_i, $3.to_i
 ```

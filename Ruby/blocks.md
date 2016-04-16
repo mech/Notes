@@ -58,3 +58,8 @@ Lambda is evaluated in the scope it's defined in (it's a closure, remember?), wh
 
 ## `UnboundMethod`
 
+## As a Policy/Strategy Pattern
+
+If Policy Pattern is too heavy for you, you can use Ruby block to implement your policies. But it can be confusing and not reusable.
+
+* [Better Ruby Presenters](http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters)

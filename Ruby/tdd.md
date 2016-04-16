@@ -20,6 +20,14 @@ If you have many "When" steps, is the API confusing and hard or awkward to invok
 
 If you have many "Then" steps, then you code is doing too much and is complex.
 
+* Getting good value from tests requires clarity of intention and knowing what, when, and how to test.
+* Write tests as if you expect your future self to have amnesia. Remember that you will forget; write tests that remind you of the story you once have.
+* Novices often write code that is far too coupled; they combine unrelated responsibilities and bind many dependencies into every object.
+* The complex code is usually written by the least qualified person. Novice programmers don't yet have the skills to write simple code.
+* Tests provide documentation about the object under test. They tell a story about how it expects to interact with the world at large.
+* Ignore testing messages sent to self.
+* Ignore outgoing query messages.
+
 ---
 
 In term of doing TDD, look at your Quality Problem. If it is not worth the trouble to up-keep the quality, then it is not worth to write tests as it will definitely slow development.
