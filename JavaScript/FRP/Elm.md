@@ -5,6 +5,7 @@
 * [Learn You an Elm](http://learnyouanelm.github.io/)
 * [Building a Live-Validated Signup Form in Elm](http://tech.noredink.com/post/129641182738/building-a-live-validated-signup-form-in-elm)
 * [Scalable frontend, with Elm or Redux](https://github.com/slorber/scalable-frontend-with-elm-or-redux)
+* [Automatically curried and memoized](https://medium.com/@matthiasak/on-elm-currying-memoization-pragmatism-and-learning-other-languages-1825d6673766#.2l31ybcu0)
 
 Immutable and stateless function is the only game in town.
 

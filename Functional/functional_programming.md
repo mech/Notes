@@ -72,8 +72,14 @@ var concatenation = '';fs.readdir('.', function(err, filenames) {
 * [Don't be scare of FP](https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/)
 * [Julia Lang](http://julialang.org/)
 
+## Side Effects
+
+If you have assignment, you have side effect.
+
 ## Videos
 
+* [Robert C Martin - Functional Programming; What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
+* [Lean and Functional Programming](https://www.youtube.com/watch?v=5s55LA2Renc)
 * [Bret Victor - Inventing on Principle](https://vimeo.com/36579366)
 * [Functional programming design patterns by Scott Wlaschin](https://vimeo.com/113588389)
 * [Hello, declarative world](https://skillsmatter.com/skillscasts/6523-hello-declarative-world)

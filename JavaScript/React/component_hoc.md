@@ -6,8 +6,9 @@
 
 How do you wrap your components? What does wrapping even mean?
 
-A higher-order component is a function that takes an existing component and returns another component that wraps it. The wrapping component will take care to render the wrapped component and also forwards the props to it, but also adds some useful behavior.
+A higher-order component is merely a function that takes an existing component and returns a new component that wraps it with useful functionalities. The wrapping component will take care to render the wrapped component and also forwards the props to it, but also adds some useful behavior.
 
+* [Higher Order React Components](http://natpryce.com/articles/000814.html)
 * [Structuring React Applications: Higher-Order Components](http://jamesknelson.com/structuring-react-applications-higher-order-components/)
 * [Higher-order components?](https://gist.github.com/sebmarkbage/ef0bf1f338a7182b6775)
 * [Mixins are dead. Long live composition.](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)
@@ -22,6 +23,10 @@ React 0.14 switches to [parent-based context](https://github.com/facebook/react/
 Not all lambdas are closures, and not all closures are lambdas. A closure is created when a function references data that is contained outside the function scope. A lambda is a function that is used as a value.
 
 > HoCs are very similar to higher-order functions. In higher-order functions you pass one function to another function which returns a function. How does that help us? Well, with higher-order components, you pass a component (which as we know is just a function) to another function, which returns a component (again, is just a function).
+
+## Examples
+
+* [React loadable component with spinner example](https://gist.github.com/BurntCaramel/a60029d22257291799cd)
 
 ```js
 // This is a higher-order container component accepting

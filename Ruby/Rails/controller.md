@@ -7,6 +7,19 @@
 * [**How DHH Organizes His Rails Controllers**](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
 * [ActionDispatch::Routing::Mapper::Scoping](http://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html)
 
+## Authorization
+
+In a regular (Rails) controller there are 3 steps of authorization (not necessarily in that order):
+
+* You need to authorize the input params (for instance a user might not have the authorization to update the created_at and updated_at fields of a resource).
+* You need authorize the user on the given resource on the given method. Does the user have authorization to update (PUT) the `users/1` resource?
+* You need to filter what the user is authorized to get back. For instance a guest user might only be authorized to see specific attributes of a resource.
+
+
+## Form Objects
+
+* [ActiveModel Form Objects](https://robots.thoughtbot.com/activemodel-form-objects)
+
 ## Strong Parameters
 
 * [Strong parameters by example](http://blog.trackets.com/2013/08/17/strong-parameters-by-example.html)

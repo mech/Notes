@@ -8,6 +8,7 @@ Rather than dealing with discrete events, you can think of streams as a continuo
 
 > The poet always has too many words in his vocabulary, a painter too many colours in his palette, a musician too many notes on his keyboard - Jean Cocteau (Less is More)
 
+* [Small functional problem-solving, event, state-management, and caching utilities.](https://github.com/matthiasak/universal-utils)
 * [**A Birds Eye View of Functional Programming**](https://medium.com/making-internets/a-bird-s-eye-view-of-functional-programming-7325853ff9ad#.qxg9iickc)
 * [Breaking down FRP](https://blogs.janestreet.com/breaking-down-frp/)
 * [**Ember.js - Functional Programming and the Observer Effect**](https://emberway.io/ember-js-functional-programming-and-the-observer-effect-48901c3b84d7#.apqix8835)
@@ -185,3 +186,4 @@ A cursor is a pointer to some data in your tree. The brilliant thing that cursor
 * [Asynchronous JavaScript at Netflix](https://www.youtube.com/watch?v=a8W5VVGO-jA)
 * [Big retail goes reactive](http://www.typesafe.com/resources/video/big-retail-goes-reactive)
 * [Bringing Observable Data to React](https://www.youtube.com/watch?v=wC6BKH4JyO4)
+* [Functional Principles in React](https://www.youtube.com/watch?v=1uRC3hmKQnM)

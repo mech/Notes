@@ -1,5 +1,7 @@
 # Data
 
+**Data tells a story**, and it's our job to look at data within a narrative structure to piece together, extrapolate, troubleshoot, and optimize that story.
+
 Data is your business. Data-informed, not data-driven.
 
 > Don't draw the wrong conclusion even if you have data.
@@ -28,6 +30,12 @@ Not a lot of "predictive patterns" to gain ☹️.
 > Predict what's going to happen, instead of waiting for it to happen (requires lots of data!)
 
 Too many businesses regard data analytics as pertaining mainly to realizing value from some existing data.
+
+## Bots and Conversational Commerce?
+
+* [wit.ai](https://wit.ai/)
+* [2016 - Year of conversational commerce](https://medium.com/chris-messina/2016-will-be-the-year-of-conversational-commerce-1586e85e3991#.5zynhgozf)
+* [Revenge of the clippy](https://medium.com/@saranormous/clippy-s-revenge-39f7387f9aab#.3duuaj5tf)
 
 ## Data Collection - Gather the right data
 

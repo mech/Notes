@@ -1,6 +1,7 @@
 # Development
 
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
+* [Mosh - Mobile shell](https://mosh.mit.edu)
 
 See surrounding lines
 

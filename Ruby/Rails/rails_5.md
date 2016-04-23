@@ -7,6 +7,7 @@
 
 ## Action Cable
 
+* [ActionCable, Redux and React](https://articles.startuprocket.com/rails5-actioncable-redux-and-react-walking-through-an-example-chat-application-84fced7c5d27#.cfg9858ud)
 * [Action Cable - Friend or Foe?](https://www.nateberkopec.com/2015/09/30/action-cable.html)
 
 ## Rails 5 API

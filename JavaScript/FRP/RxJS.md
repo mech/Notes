@@ -1,5 +1,13 @@
 # RxJS
 
+Subscribe is not really addEventListener, it is more like an invoke.
+
+Event-driven and reactive? Are they the same?
+
+Interactive programs work at their own pace and mostly deal with communication, while reactive programs only work in respond to external demands and mostly deal with accurate interrupt handling. Real-time programs are usually reactive.
+
+Real-time is a push-based world.
+
 > Treating events as collections and manipulating sets of events with "operators"
 
 Few applications are completely synchronous, and writing async code is necessary to keep applications responsive.
@@ -8,10 +16,11 @@ Imagine you have a normal array, you can `filter`, `map`, `reduce` all you can. 
 
 Application is all about "data flow".
 
+* [Rx is great so why have I moved on to ClojureScript?](https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3#.mvpwnzl38)
 * [Reactive Programming in JavaScript with RxJS](https://dzone.com/refcardz/rxjs-streams)
 * [**Reactive State Implementation**](https://github.com/ivan-kleshnin/reactive-states)
 * [ECMAScript Observable](https://github.com/zenparsing/es-observable)
-* [Rx-book](http://xgrommx.github.io/rx-book/index.html)
+* [Rx-book](https://xgrommx.github.io/rx-book/index.html)
 * [Reactive course at Coursera](https://www.coursera.org/course/reactive)
 * [How to debug RxJS code](http://staltz.com/how-to-debug-rxjs-code.html)
 * [Thoughts on RxJS: It is overkill?](https://medium.com/@BrianDiPalma/thoughts-on-rxjs-cf3562e20d74#.euhg705ok)
@@ -20,6 +29,8 @@ Application is all about "data flow".
 * [Step](https://github.com/creationix/step)
 * [rxjs-examples](https://github.com/annatomka/rxjs-examples)
 * [React and RxJS](https://github.com/whiteinge/presentations/blob/master/react-rally_2015-08-24_react-rxjs/presentation.rst#rx-)
+* [fluorine - Redux + Rx](https://github.com/philpl/fluorine)
+* [json-api-store](https://github.com/haydn/json-api-store)
 
 We have many PUSH APIs:
 
@@ -51,6 +62,8 @@ Imagine every variable is a stream. To get it, you need to figure out where it c
 No need for external state tracking. No need to cleanup after yourself either.
 
 ## Observables
+
+You can treat observable like arrays, arrays that are without values as yet.
 
 Note: Observables and Event Emitters are just different variations on the Observer design pattern.
 
@@ -171,9 +184,27 @@ var Counter = React.createClass({
 });
 ```
 
+```js
+// Auto-complete example
+var words = Rx.Observable.fromEvent(input, "keyup")
+            .map(function() { return input.value })
+            .throttle(500)
+            .distinctUntilChanged()
+            .flatMapLatest(
+              function(term) { return search(term) }
+            );
+
+words.subscribe(function(word) {});
+```
+
+## Blog
+
+* [Brian Cavalier - most.js](http://blog.briancavalier.com/)
+
 # Videos
 
 * [Ben Lesh Talks RxJS at Modern Web UI](https://www.youtube.com/watch?v=yk_6eU3Hcwo)
+* [RxJS In-Depth - Ben Lesh](https://www.youtube.com/watch?v=KOOT7BArVHQ)
 * [Channel 9 RxJS](https://channel9.msdn.com/Tags/rxjs)
 * [What's new in RxJS 5.0 with Ben Lesh](https://www.youtube.com/watch?v=9on6u7pI3vY)
 * [DevChat.tv - RxJS with Matthew Podwysocki](https://devchat.tv/js-jabber/182-jsj-rxjs-with-matthew-podwysocki)
@@ -181,3 +212,7 @@ var Counter = React.createClass({
 * [Channel9 - Brian Beckman and Erik Meijer - Inside the .NET Reactive Framework (Rx)](https://channel9.msdn.com/shows/Going+Deep/Expert-to-Expert-Brian-Beckman-and-Erik-Meijer-Inside-the-NET-Reactive-Framework-Rx/)
 * [Channel9 - Rx: Curing your asynchronous programming blues](https://channel9.msdn.com/Blogs/codefest/DC2010T0100-Keynote-Rx-curing-your-asynchronous-programming-blues)
 * [Channel9 - Reactive Extensions for JavaScript](https://channel9.msdn.com/Blogs/Charles/Introducing-RxJS-Reactive-Extensions-for-JavaScript)
+* [Taming Asynchronous Workflows with Functional Reactive Programming](https://vimeo.com/100688924)
+* ["Controlling Time and Space: understanding the many formulations of FRP" by Evan Czaplicki](https://www.youtube.com/watch?v=Agu6jipKfYw)
+* [Matthew Podwysocki - Streaming and event-based programming using FRP and RxJS (FutureJS 2014)](https://www.youtube.com/watch?v=zlERo_JMGCw)
+* [Angular 2 Observable Data Flow](https://www.youtube.com/watch?v=JPuqluYYa-o)

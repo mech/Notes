@@ -2,6 +2,7 @@
 
 > Selects are matched against everything in the DOM. You need naming strategies to combat against this and keep things efficient (which are hard to enforce and easy to break) - Chris Coyier
 
+* [Keep your selectors short](http://csswizardry.com/2012/05/keep-your-css-selectors-short/)
 * [Don't use ID in CSS selector?](http://oli.jp/2011/ids/)
 * [CSS 4 Selectors](http://css4-selectors.com/)
 

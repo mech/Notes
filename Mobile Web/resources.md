@@ -4,6 +4,7 @@
 
 > I took a stab at persistent top-level navigation, instead of focusing on the content modules first.
 
+* [Introducing Pokedex.org: a progressive webapp](http://www.pocketjavascript.com/blog/2015/11/23/introducing-pokedex-org)
 * [Why Mobile-First may already be outdated](https://blog.intercom.io/why-mobile-first-may-already-be-outdated/)
 * [**react-container and react-tappable**](https://www.youtube.com/watch?v=ctwmd5L1U_Q)
 * [The state of RWD](http://webdesign.tutsplus.com/articles/the-state-of-responsive-web-design--cms-22878)

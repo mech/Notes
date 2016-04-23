@@ -3,6 +3,7 @@
 * [Making your app faster with high-performance components](https://www.youtube.com/watch?v=KYzlpRvWZ6c&t=1351)
 * [Model Management](https://github.com/facebook/react/wiki/Complementary-Tools#model-management)
 * [React Ajax best practices](http://andrewhfarmer.com/react-ajax-best-practices/)
+* [react-refetch from Heroku](https://github.com/heroku/react-refetch)
 
 ## Data Management Pattern
 

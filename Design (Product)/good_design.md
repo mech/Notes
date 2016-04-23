@@ -1,5 +1,9 @@
 # Good Design
 
+[**Design MUST deliver RESULT**](https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table)
+
+> A "great" design which produces bad outcomes - low engagement, little utility, few downloads, indifference on the part of the target market - should be regarded as a failure.
+
 Design is the ability to envision and communicate a range of options; selecting the best one for specific requirements and constraints.
 
 Visual polish is not important. Design must be enduring, like Wikipedia, Craigslist.
@@ -124,7 +128,8 @@ Humble systems. Not smart system. Relationship design is the new UX.
 34. Good design is vision of the end experience. Clear, high design expectations across organization. Shared understanding of what needs to be done. Priority and commitment.
 35. Technologies enabled, design established.
 36. We are what we repeatedly do. Excellence, therefore, is not an act, but a habit.
-37. Don't try to own the experience. Let the community own it! 
+37. Don't try to own the experience. Let the community own it!
+38. A lot about design is telling a good story.
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

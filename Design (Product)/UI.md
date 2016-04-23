@@ -92,6 +92,11 @@
 * UI always reflect the user's current task. Unnecessary options are rarely presented to the user.
 * Pay attention to clutter
 * Simplify headlines
+* Don't make user stare into the void. Have some CTAs ready. Suggest next steps and highlight features.
+* We shape our tools and thereafter they shape us.
+* On-boarding (first task), proactive suggestions for next steps, and moving the user from training wheels to deeper engagement.
+* Nothing to install, nothing to configure—just **flow**.
+* App's needlessly bespoke interface
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
@@ -99,15 +104,33 @@ When it comes to the design of complex behaviors and interactions, we've found t
 
 ## Conversational UI
 
+* [Crafting a conversational design](http://uxcellence.com/2015/11/01/crafting-a-conversational-design/)
+
+The future of UI is text.
+
 > I think of the questions I would need to ask him to get some information, the orders I would give to get something done, the answers I would like to receive.
 > 
 > And I write the whole conversation out, following an order that makes more sense.
+
+The interface was limiting us. We needed something with no interface.
+
+Picking the right thing to say, and the tone of your dialogue with the user, is crucial.
+
+> Conversational apps are therefore organized around the way I organize my life, rather than the way the app maker might dictate.
 
 ## Zero UI
 
 Get rid of all the stuff in our UI, primarily is visual. Enjoy the content, not adjusting the settings.
 
 Struggle to learn interface.
+
+## Micro and Macro level
+
+> "Individually dumb, but capable of surprisingly intelligent behavior when functioning as a group"
+
+Component, isolated, dumb, simple, micro-level.
+
+Application, parent, smart, complicated, macro-level.
 
 ## Labelling and Language
 

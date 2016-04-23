@@ -17,6 +17,7 @@
 * [Dynamically placed outlets vs Ember portal?](https://twitter.com/ryanflorence/status/572992231239372800)
 * [React Router Overview](https://github.com/rackt/react-router/blob/master/docs/guides/overview.md)
 * [Support React 0.13 GitHub issue](https://github.com/rackt/react-router/issues/638)
+* [Passing props to child components](https://github.com/reactjs/react-router/issues/1857)
 
 In React Router, unlike Ember, nested route do not correspond to nested URL. It gives you complete freedom of what your URL look like. Just because you nest a route doesn't mean you need to append a segment to the URL to match.
 

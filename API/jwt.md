@@ -22,6 +22,10 @@ The most important thing about JWT is that they are signed. This ensures the cla
 
 If you want the claims to be further encrypted, you need to use JSON Web Encryption (JWE).
 
+## With React
+
+* [react-jwt-example](https://github.com/technicallyjosh/react-jwt-example)
+
 ## Vulnerabilities
 
 * [Critical vulnerabilities in JWT libraries](https://www.chosenplaintext.ca/2015/03/31/jwt-algorithm-confusion.html)

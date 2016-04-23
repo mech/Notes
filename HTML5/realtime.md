@@ -6,6 +6,7 @@
 * [Collaborative programming page using the ACE editor, Share.js, and Node.js](https://github.com/ehaughee/collabit)
 * [EmberShare](http://embershare.com/)
 * [WebRTC with React](http://blog.mgechev.com/2014/09/03/webrtc-peer-to-peer-chat-with-react/)
+* [Real time with React.js and Socket.io](http://duncanleung.com/blog/2015/12/31/real-time-react-js-and-socket-io/)
 
 ## WebSocket
 

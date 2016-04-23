@@ -24,7 +24,7 @@ These types of components surprisingly compose a large majority of our applicati
 * [**ES6 classes or stateless functional components?**](http://jamesknelson.com/should-i-use-react-createclass-es6-classes-or-stateless-functional-components/)
 * [Issue#5677 - Stateless functional components and shouldComponentUpdate](https://github.com/facebook/react/issues/5677)
 * [Issue#1176 - Redux + React with only stateless functions](https://github.com/rackt/redux/issues/1176)
-* [thisless-react](https://github.com/jas-chen/thisless-react)
+* [**thisless-react**](https://github.com/jas-chen/thisless-react)
 
 Stateless functions don't have a `this` object. If you need anything defined on `this` other than `props`, you'll need a component class. Meaning no `this.state` or `this.refs`.
 

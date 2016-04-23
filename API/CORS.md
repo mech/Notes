@@ -2,6 +2,7 @@
 
 JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respect the same-origin policy. Can only do GET request. Has security issues. Although JSON-P is useful, it is strictly limited to GET requests. CORS builds on top of XHR to allow developers to make cross-domain requests.
 
+* [Cookies with CORS](https://quickleft.com/blog/cookies-with-my-cors/)
 * [**Test for browser support**](https://test-cors.appspot.com/#technical)
 * [CORS for JSON and Rails](http://www.tsheffler.com/blog/2011/02/22/cross-origin-resource-sharing-for-json-and-rails/)
 * [**CORS on MDN**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
@@ -17,6 +18,8 @@ JSON-P is just a hack to bypass same-origin as the `<script>` tag does not respe
 * [Rails 4, CORS, JWT and Devise](https://www.youtube.com/watch?v=_CAq-F2icp4)
 * [That's so fetch - Some CORS issues](http://jakearchibald.com/2015/thats-so-fetch/)
 * [Same-Origin Policy](https://annevankesteren.nl/2015/02/same-origin-policy)
+
+http://stackoverflow.com/questions/19770359/xmlhttprequest-cors-post-sent-without-cookies
 
 CORS let JavaScript XHR to securely communicate with cross-domain resources.
 

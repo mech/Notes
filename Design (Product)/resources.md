@@ -2,6 +2,8 @@
 
 It's not about the product, it's about your users.
 
+It's much easier to add features and create an illusion that the software is powerful than to actually invest effort, understand the needs of real users, and develop the product accordingly.
+
 **http://warpspire.com/posts/emotional-understanding/**
 
 **http://blog.gardeviance.org/2014/11/how-to-get-to-strategy-in-ten-steps.html**

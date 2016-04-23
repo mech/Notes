@@ -59,6 +59,15 @@ If you're not using the Flux pattern (where the parent widget listens to Stores 
 
 Promises are great to use when a child component needs to wait on a parent component's asynchronous request.
 
+```js
+// Here the owner of <span> is Foo but the parent is the <div>
+class Foo {
+  render() {
+    return <div><span /></div>
+  }
+}
+```
+
 ## Sub-tree and Re-rendering
 
 The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.

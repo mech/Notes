@@ -37,6 +37,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 * [Best data visualization projects of 2014](http://flowingdata.com/2014/12/19/the-best-data-visualization-projects-of-2014-2/)
 * [Some nice examples](http://duhoang.com/)
 * [**Three charts are all I need**](https://signalvnoise.com/posts/3388-three-charts-are-all-i-need)
+* [Guesstimate - Create Fermi Estimates and Perform Monte Carlo Estimates](https://github.com/getguesstimate/guesstimate-app)
 
 ---
 

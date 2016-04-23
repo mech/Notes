@@ -52,6 +52,7 @@ OLD
 ▶ npm install --save camelize
 ```
 
+* [**Webpack the confusing part**](https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.u3mwrb87u)
 * [**Reduce your bundle.js file size**](https://lacke.mn/reduce-your-bundle-js-file-size/)
 * [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
 * [**Very nice component library setup**](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
@@ -101,6 +102,7 @@ The webpack core can be extended with loaders and plugins.
 * [react-slingshot](https://github.com/coryhouse/react-slingshot)
 * [startupslam-workshop](https://github.com/metalabdesign/startupslam-workshop)
 * [react-starter](https://github.com/richardkall/react-starter)
+* [react-cdk](https://github.com/kadirahq/react-cdk)
 
 ## ESLint
 

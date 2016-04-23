@@ -1,5 +1,6 @@
 # React
 
+- [Qiita blog](http://qiita.com/kimagure/items)
 - [**9 things every React beginner should know**](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know)
 - [**React and ES6 - Part 1**](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)
 - [React Cheat Sheet](http://reactcheatsheet.com/)
@@ -83,6 +84,7 @@ class App extends React.Component {
 
 ## Examples to Learn
 
+* [react-baby-steps](https://github.com/RisingStack/react-baby-steps)
 * [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
 * [JWT router example](https://github.com/auth0/react-flux-jwt-authentication-sample/blob/gh-pages/src/app.jsx#L11-L29)
 * [cosmos.js](https://github.com/skidding/cosmos)
@@ -342,6 +344,7 @@ gulp.task('scripts', function() {
 
 ## Component - ReactElement
 
+* [React Component, Elements and Instances](https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca#.bq8rgq5i1)
 * [ReactNode, ReactElement, ReactFragment, ReactComponent](https://facebook.github.io/react/docs/glossary.html)
 * [Understanding the difference between React Elements and Components](https://quickleft.com/blog/understanding-the-difference-between-react-elements-and-components/)
 * [React (Virtual) DOM Terminology](https://gist.github.com/sebmarkbage/fcb1b6ab493b0c77d589#file-react-terminology-md)
@@ -605,6 +608,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 ## Examples
 
+* [react-flux-puzzle](https://github.com/weslleyaraujo/react-flux-puzzle)
 * [**Mattermost**](https://github.com/mattermost/platform/tree/release-1.1.0/web/react/components)
 * [Ryan Florence HYPE](https://github.com/ryanflorence/reactconf-2015-HYPE)
 * [React tutorial](https://github.com/phaedryx/react-tutorial)

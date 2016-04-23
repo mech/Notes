@@ -79,6 +79,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
 
+## Story-First
+
+> A business cannot survive on first-time use and engagement alone. While we were proud of the product we built and the results it was getting, this was just one usage story: the first-time usage story. What about the rest? What might be the next inciting incident to kick off a new story? What would be the next beginning, middle, and end? Then what? What if someone did not return? Cliffhangers can happen during a flow that lasts a few minutes or over a period of days, months, or years. Over time, we developed stories big and small, one-offs and serials, improving the story for both customers and the business. Since we started building story-first, FitCounter has tripled in size and tripled its valuation. It is now a profitable business and recently closed yet another successful round of financing so that it can continue this growth.
+
 ## New feature tour
 
 Help people learn and grow. Proactive notification. Prompt people to take action at the right time.
@@ -258,6 +262,8 @@ FitAgent, Fit4Hire, FitSense
 * Knowledge adjacency - you know what I do, I know what you do.
 * Move to managing boundaries vs tasks! Don't tell people what to do, tell them the boundaries and the whole system views.
 * If I tell you how to do it, the brain cannot scale.
+
+> She's not sure she totally understands what she's getting into, and at this point, has spent so much brain energy on this step that she's just going to bail on this sign-up flow.
 
 ## Data
 
@@ -471,6 +477,10 @@ Map permissions to a specific business function.
 ## Audit Trails
 
 See AWS CloudTrail. Let's have a JoblineTrail also?? Global visibility of the whole system.
+
+## Integration
+
+See [Uber's integration into Facebook Messenger](https://medium.com/chris-messina/2016-will-be-the-year-of-conversational-commerce-1586e85e3991#.5zynhgozf).
 
 ## NRIC
 

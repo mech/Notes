@@ -1,11 +1,14 @@
 # Async
 
+* [Node Hero: Understanding Async Programming in Node.js](https://blog.risingstack.com/node-hero-async-programming-in-node-js/)
+
+---
 * Callbacks
 * Node-style callbacks
 * Promises
 * Generators
 * Async/Await
-* Fibers
+* Fibers??
 * Observables
 
 [**A General Theory of Reactivity**](https://github.com/kriskowal/gtor/blob/master/README.md)
@@ -216,14 +219,42 @@ var searchResultsSets = keyups
 ## Generators
 
 * [Generators vs Callbacks](https://github.com/creationix/js-git#generators-vs-callbacks)
+* [generator-examples](https://github.com/btholt/generator-examples)
 
 Very powerful for infinite list. Can be combined with Promises.
 
 * [Asynchronous I/O with Generators and Promises](https://ponyfoo.com/articles/asynchronous-i-o-with-generators-and-promises)
 * [Generator in Depth](https://ponyfoo.com/articles/es6-generators-in-depth)
 
+```js
+const colors = ['red', 'green', 'blue'];
+
+const colorGenerator = function*() {
+  for (let color of colors) {
+    yield color;
+  }
+}
+
+let generator = colorGenerator();
+
+for (let i = 0; i < 5; i++) {
+  console.log(generator.next());
+}
+```
+
 ## Async Await
 
 > Async/await is still Promises (even if you don't call then() yourself) - @dan_abramov
 
 Async/await is Promises under the hood with synchronous appearance and try/catch works.
+
+```js
+async function() {
+  let [user, actionGenre] = await Promise.all([
+    promiseAjax.get('http://example.com/user/31.json'),
+    promiseAjax.get('http://example.com/movies/action.json')
+  ]);
+  handleUserData(user);
+  populateMovieList(actionGenre);
+}
+```

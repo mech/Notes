@@ -1,6 +1,7 @@
 # Clojure
 
 * [flatmap](http://2014.flatmap.no/)
+* [ClojureScript workshop](https://www.niwi.nz/cljs-workshop/#_more)
 
 Clojure is:
 

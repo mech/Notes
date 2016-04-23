@@ -6,6 +6,7 @@
 
 ---
 
+* [**ES6: New features**](http://es6-features.org/#Constants)
 * [**ES6 Overview in 350 bullet points**](https://ponyfoo.com/articles/es6)
 * [**JavaScript Modules**](http://jsmodules.io/)
 * [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html)
@@ -71,6 +72,10 @@ var _ = {
 This single export make it hard to do tree-shaking and choose only the right amount of modules to bundle to decrease file size.
 
 ## Class
+
+Class, unlike function is not hoisted, so you have to declared it before using it.
+
+You have to call `super` before you can use access `this`.
 
 * [How to use classes and sleep at night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4)
 * [Not Awesome: ES6 Classes](https://github.com/joshburgess/not-awesome-es6-classes/)

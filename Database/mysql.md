@@ -5,6 +5,7 @@
 * [Native JSON data type and binary format](http://mysqlserverteam.com/json-labs-release-native-json-data-type-and-binary-format/)
 * [WebScaleSQL](http://webscalesql.org/)
 * [MySQL vs Postgres](https://news.ycombinator.com/item?id=9586504)
+* [Growing with MySQL](https://nylas.com/blog/growing-up-with-mysql/)
 
 ## Backup
 

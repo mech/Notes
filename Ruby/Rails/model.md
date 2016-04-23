@@ -5,6 +5,11 @@
 * [Normalize whitespace using PSQL](https://wiki.postgresql.org/wiki/Normalize_whitespace)
 * [ActiveModel form objects](https://robots.thoughtbot.com/activemodel-form-objects)
 * [attribute_assignment.rb](https://github.com/rails/rails/blob/master/activemodel/lib/active_model/attribute_assignment.rb)
+* [Making ActiveRecord models thin](http://solnic.eu/2011/08/01/making-activerecord-models-thin.html)
+
+## Repository
+
+* [Working with Repositories](http://hawkins.io/2014/04/working_with_repositories/)
 
 ## Service Object
 

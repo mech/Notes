@@ -314,8 +314,9 @@ numrange(5,15) * numrange(10,20);
 * [Use subqueries to count distinct 50x faster](https://periscope.io/blog/use-subqueries-to-count-distinct-50x-faster.html)
 * [Moving aggregates]()
 
-## SQL Windowing Functions
+## SQL Windowing Functions (Recursive Query)
 
+* [Recursive query](http://www.practiceovertheory.com/blog/2013/07/12/recursive-query-is-recursive/)
 * [SQL Window functions](http://hashrocket.com/blog/posts/sql-window-functions)
 * [Understanding Window Functions](http://tapoueh.org/blog/2013/08/20-Window-Functions)
 * [Month over month using Window Functions](http://www.craigkerstiens.com/2014/02/26/Tracking-MoM-growth-in-SQL/)
@@ -324,6 +325,7 @@ numrange(5,15) * numrange(10,20);
 
 In your `postgresql.conf`, the `default_text_search_config` is set to `pg_catalog.english`.
 
+* [UpStats job search using Postgres FTS](http://blog.garage-coding.com/2015/12/18/postgres-fulltext-search.html)
 * [pg_search Ruby gem](http://isotope11.com/blog/postgres-search-using-pg-search)
 * [PostgreSQL's own FTS](http://www.postgresql.org/docs/current/static/textsearch.html)
 * [FTS examples](http://citusdata.com/blog/57-postgresql-full-text-search)

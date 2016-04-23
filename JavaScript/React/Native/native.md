@@ -1,5 +1,6 @@
 # React Native
 
+* [AMA](https://www.reddit.com/r/IAmA/comments/3wyb3m/we_are_the_team_working_on_react_native_ask_us)
 * [**Handcrafting an iOS app with React Native**](http://stanleycyang.github.io/technology/reactjs/native/ios/2015/10/04/react-native-tutorial-with-navigation-and-animation.html)
 * [**Apps using React Native**](http://facebook.github.io/react-native/showcase.html)
 * [Must-have plugins for React Native](http://www.gajotres.net/must-have-plugins-for-react-native/)
@@ -52,6 +53,7 @@
 * [Nortal TechDay](https://github.com/mikkoj/NortalTechDay)
 * [Den](https://github.com/asamiller/den)
 * [Ziliun article reader app](https://github.com/sonnylazuardi/ziliun-react-native)
+* [react-native-nw-react-calculator](https://github.com/benoitvallon/react-native-nw-react-calculator)
 
 ## Videos
 

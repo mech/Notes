@@ -219,6 +219,10 @@ Data binding is a hack around re-rendering.
 
 When Parent need to re-render, it will also automatically re-render any Child. This is the most basic functionality of React re-rendering logic.
 
+> When `setState` is called, the component rebuilds the virtual DOM for its children. If you call `setState` on the root element, then the entire React app is re-rendered. All the components, even if they didn't change, will have their render method called. This may sound scary and inefficient but in practice, this works fine because we're not touching the actual DOM.
+>
+> Another important point is that when writing React code, you usually don't call `setState` on the root node every time something changes. You call it on the component that received the change event or couple of components above. You very rarely go all the way to the top. This means that changes are localized to where the user interacts
+
 If you do not want Children to be re-render, you have to use Immutable and compare props at `shouldComponentUpdate`.
 
 Note: `forceUpdate` skip `shouldComponentUpdate`, essentially a full hard refresh.
@@ -248,6 +252,7 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [UI Components](https://github.com/facebook/react/wiki/Complementary-Tools#ui-components)
 * [Build your own component libraries](https://medium.com/@yamalight/building-modular-javascript-applications-in-es6-with-react-webpack-and-babel-538189cd485f)
 * [react-component](https://github.com/cd-fe/react-component)
+* [React Toolbox with Material Design](http://react-toolbox.com/#/)
 
 ---
 
@@ -257,7 +262,6 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [**TouchstoneJS**](https://github.com/jedwatson/touchstonejs)
 * [Nuka Carousel](http://kenwheeler.github.io/nuka-carousel)
 * [React DnD](https://github.com/gaearon/react-dnd)
-* [react-draggable](https://github.com/mzabriskie/react-draggable)
 * [React HotKeys](https://github.com/Chrisui/react-hotkeys)
 * [react-aria-menubutton](http://davidtheclark.com/building-react-aria-menubutton/)
 * [Griddle - Data Table](http://griddlegriddle.github.io/Griddle/)
@@ -317,11 +321,18 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [React-Spreadsheet-Component](https://github.com/felixrieseberg/React-Spreadsheet-Component)
 * [react-xhr-uploader](https://rma-consulting.github.io/react-xhr-uploader/)
 * [react-infinite](https://github.com/seatgeek/react-infinite)
+* [react-notification](https://github.com/pburtchaell/react-notification)
 
 ### Date-picker and Calendar
 
 * [**Task Calendar**](http://hilary-l.github.io/)
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
+* [rc-calendar](http://react-component.github.io/calendar/)
+
+### Drag and Drop
+
+* [react-anything-sortable](https://github.com/jasonslyvia/react-anything-sortable)
+* [react-draggable](https://github.com/mzabriskie/react-draggable)
 
 ### Resizable
 

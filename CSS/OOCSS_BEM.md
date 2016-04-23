@@ -8,6 +8,7 @@ Thinking globally is fine for web document, but not so for web application.
 
 Use `data-attribute` for JavaScript interaction.
 
+* [MaintainableCSS??](http://maintainablecss.com/)
 * [**The Language of Modular Design**](http://alistapart.com/article/language-of-modular-design)
 * [**eCSS: The problems of CSS at scale**](http://ecss.io/chapter2.html)
 * [**Making sense of atomic design: molecules and organisms**](https://about.futurelearn.com/blog/atomic-design-molecules-organisms/)
@@ -25,6 +26,7 @@ Use `data-attribute` for JavaScript interaction.
 * [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
 * [**Medium CSS is pretty fucking good**](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06#.mvrfqgqey)
 * [Kickoff - A lightweight front-end framework](https://github.com/TryKickoff/kickoff)
+* [Atomic CSS is ugly? or is it the future?](https://medium.com/techspiration-ideas-making-it-happen/future-css-dbc2cb8f1baf#.y95nwjowx)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	

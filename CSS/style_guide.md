@@ -1,5 +1,6 @@
 # Style Guides
 
+* [Beyond the Style Guide](https://24ways.org/2015/beyond-the-style-guide/)
 * [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
 * [**Atomic Design**](http://atomicdesign.bradfrost.com/chapter-1/)
 * [**Design Machine**](https://louderthanten.com/articles/story/design-machines)
@@ -110,6 +111,7 @@ grep "info" * -R
 * [Github's Primer](http://primercss.io/)
 * [Google Style Guide](https://github.com/google/styleguide)
 * [Brainly](https://github.com/brainly/style-guide)
+* [The Times](http://www.thetimes.co.uk/styleguide)
 
 ## Playbook
 
@@ -263,6 +265,24 @@ The aim of a component/template/object-oriented architecture is to be able to de
   /* Typography */
   --base-font-size: 16px;
 }
+```
+
+More real-world examples:
+
+```css
+/* From Medium */
+.screenContent
+.is-supplementalPostContentLoaded
+.js-metabar
+.metabar--centered
+.u-sizeViewHeightMin100
+.postArticle
+.postArticle--full
+.postArticle--response
+.section--body
+.section--first
+.section--last
+.layoutSingleColumn
 ```
 
 ### Avoid run-on classnames

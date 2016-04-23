@@ -1,5 +1,9 @@
 # Redux
 
+* [**React without undue complications**](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.f8z1106i1)
+* [Step by step guide to building Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.6nk2flafc)
+* [Middlewares and Redux Lifecycle](https://medium.com/@rajaraodv/using-middlewares-in-react-redux-apps-f7c9652610c6#.u1xzqeqm3)
+
 > React is not reactive because it does not observe the data
 
 If you don't have synchronization problem and don't really need single source of truth, you don't need Redux. Local component is perfectly fine for other cases.
@@ -39,6 +43,8 @@ const store = createStore(counter);
 
 Data lives outside of React view hierarchy. I can easily reason about my view layer. How I want to also easily reason about my data. And that is where Redux with single state tree comes in.
 
+* [redux-auth](https://github.com/lynndylanhurley/redux-auth)
+* [The difference between Redux and Rx](http://qiita.com/kimagure/items/a534d149cd9176d34cc1)
 * [Levelling up with React: Redux](https://css-tricks.com/learning-react-redux/)
 * [Server-side rendering with Redux and React-Router](https://www.codementor.io/reactjs/tutorial/redux-server-rendering-react-router-universal-web-app)
 * [Step by step guide to building React Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.1mzij69r2)
@@ -91,6 +97,7 @@ Data lives outside of React view hierarchy. I can easily reason about my view la
 * [react-router-redux](https://github.com/rackt/react-router-redux)
 * [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate)
 * [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
+* [react-redux-universal-hot-example](https://github.com/erikras/react-redux-universal-hot-example)
 
 ## Architectural Discussion
 
@@ -132,12 +139,15 @@ Redux is primarily intended for "application state".
 
 ## Single Store Tree (Root Store?) - Single Source of Truth - Single State Atom
 
+That’s what your Store really is: a function telling the initial state and how the subsequent actions transform it. There is no reason for the Store to actually own that state. It might be held in a single big tree, for example, but it would be an implementation detail of the dispatcher. You don’t have to use the cursors. You can keep the “stores” and “subscriptions” mentality if that’s what you like, because it is easy to understand and feels natural to use. - [First article on Redux](https://medium.com/@dan_abramov/the-evolution-of-flux-frameworks-6c16ad26bb31#.8du8rosdi)
+
 > We don't intend Redux to be used for all state. Just whatever seems significant to the app. I would argue inputs and animation state should be handled by React (or another ephemeral state abstraction). Redux works better for things like fetched data and locally modified models.
 
 ---
 
 > You should do your best to keep the state serializable. Don't put anything inside it that you can't easily turn into JSON.
 
+* [CircleCI - Local State, Global Concerns](https://circleci.com/blog/local-state-global-concerns/)
 * [Issue#140 - Rename store to reducer](https://github.com/rackt/redux/pull/140)
 * [Issue#1385 - What are the disadvantages of storing all your state in a single immutable atom?](https://github.com/reactjs/redux/issues/1385)
 * [**Umbrella: Externalize the State Tree (or alternatives)**](https://github.com/facebook/react/issues/4595)
