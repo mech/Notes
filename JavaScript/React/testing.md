@@ -1,5 +1,6 @@
 # Testing
 
+* [Testing React Application](http://12devsofxmas.co.uk/2015/12/day-2-testing-react-applications/)
 * [**Testing in React**](http://brandonokert.com/2015/08/04/TestingInReact/)
 * [**Essential TDD/BDD React list**](https://github.com/Cmdv/Essential-TDD-BDD-React-list)
 * [**What's the preferred way to test React.js components?**](https://discuss.reactjs.org/t/whats-the-prefered-way-to-test-react-js-components/26)

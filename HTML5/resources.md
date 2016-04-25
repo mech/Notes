@@ -236,6 +236,8 @@ Provides better cross-browser consistency in the default styling of HTML element
 
 ## Form
 
+* [**Designing more efficient: forms structure**](https://uxplanet.org/designing-more-efficient-forms-structure-inputs-labels-and-actions-e3a47007114f#.ama7nvnk4)
+* [**Designing more efficient: Assistance and validation**](https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d#.arayttnwr)
 * [WTF Forms](http://wtfforms.com/)
 * [Placeholders](http://www.nngroup.com/articles/form-design-placeholders/)
 * [Advanced styling for HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)

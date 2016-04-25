@@ -2,6 +2,7 @@
 
 Is JWT just a re-implementation of Rails signed cookie?
 
+* [Implementing JWT in API: Real Use Case Example](https://medium.com/@jetruby/implementing-jwt-in-api-real-use-case-example-438742a7c5df#.104obz390)
 * [**Using JSON Web Tokens to authenticate JavaScript front-ends on Rails**](http://zacstewart.com/2015/05/14/using-json-web-tokens-to-authenticate-javascript-front-ends-on-rails.html)
 * [Authentication with Rails, JWT and ReactJS](http://nebulab.it/blog/authentication-with-rails-jwt-and-react/)
 * [Cookie-free authentication with JWT](http://www.toptal.com/web/cookie-free-authentication-with-json-web-tokens-an-example-in-laravel-and-angularjs)

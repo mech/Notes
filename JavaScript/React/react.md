@@ -651,6 +651,10 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 * [Jest preprocessor](https://github.com/RisingStack/react-way-getting-started/blob/master/tools/preprocessor.js)
 
+## Books
+
+* [React books](http://survivejs.com/blog/react-books/)
+
 ## Blog to follow
 
 * [Sift Science](http://blog.siftscience.com/)

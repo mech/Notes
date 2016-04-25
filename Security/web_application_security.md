@@ -96,6 +96,7 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 >
 > A vulnerability that is so easily prevented can lead to absolute mayhem, particularly when bundled with other attacks. Worse still, identifying the attacker is even more difficult as the attack occurs in the context of the authenticated user.
 
+* [Understanding Rails' `protect_from_forgery`](https://nvisium.com/blog/2014/09/10/understanding-protectfromforgery/)
 * [**BREACH - leaking of information**](http://security.stackexchange.com/questions/43669/with-breach-attack-is-session-based-csrf-token-still-secure)
 * [**Rails issue#22275 - Per-form CSRF Tokens**](https://github.com/rails/rails/pull/22275)
 * [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)

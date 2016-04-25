@@ -16,6 +16,7 @@ Imagine you have a normal array, you can `filter`, `map`, `reduce` all you can. 
 
 Application is all about "data flow".
 
+* [Think of Rx as replacing a Service Singleton. Or replacing event emitter.](https://medium.com/@MertzAlertz/services-with-rxjs-50ff96ee0d2a#.dofokw67f)
 * [Rx is great so why have I moved on to ClojureScript?](https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3#.mvpwnzl38)
 * [Reactive Programming in JavaScript with RxJS](https://dzone.com/refcardz/rxjs-streams)
 * [**Reactive State Implementation**](https://github.com/ivan-kleshnin/reactive-states)

@@ -1,5 +1,6 @@
 # Form
 
+* [Designing more efficient forms structure](https://uxplanet.org/designing-more-efficient-forms-structure-inputs-labels-and-actions-e3a47007114f#.ama7nvnk4)
 * [**Forms in React and Redux**](http://x-team.com/2016/02/tutorial-forms-in-react-and-redux/)
 * [formsy-react](https://github.com/christianalfoni/formsy-react)
 * [tcomb-form](https://github.com/gcanti/tcomb-form)
