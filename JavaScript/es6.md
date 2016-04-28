@@ -179,6 +179,42 @@ n; // { x: 1, y: 2, a: 3, b: 4 }
 * [Merging objects via `Object.assign()`](http://www.2ality.com/2014/01/object-assign.html)
 * [deep-extend](??)
 
+```js
+// If you want to remove irrelevant props
+render() {
+  switch(this.props.size) {
+    // do something with size prop
+  }
+  
+  var attrs = Object.assign({}, this.props); // shallow clone
+  delete attrs.size;
+  
+  return <a {...attrs}>{this.props.children}</a>;
+}
+
+// Or you can use ES7
+render() {
+  var {size, ...attrs} = this.props;
+
+  switch(this.props.size) {
+    // do something with size prop
+  }
+  
+  return <a {...attrs}>{this.props.children}</a>;
+}
+
+// 
+deleteComment(comment) {
+  $.ajax.delete(comment);
+
+  // clone using spread operator  
+  const comments = [...this.state.comments];
+  const commentIndex = comments.indexOf(comment);
+  comments.splice(commentIndex, 1);
+  this.setState({ comments });
+}
+```
+
 ## Reduce
 
 ```js
@@ -239,7 +275,18 @@ class Person extends Component {
   handleClick = (e) => this.setState()
   
   setName(name) {
-    this.setState({ name: name });  }    
+    this.setState({ name: name });  }
+  
+  handleChange(name, e) {
+    var newState = {};
+    newState[name] = e.target.value;
+    this.setState(newState);
+    
+    // Or you can
+    this.setState({
+      [name]: e.target.value
+    });
+  }    
   render() {
     return();  }}
 

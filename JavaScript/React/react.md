@@ -409,6 +409,7 @@ React.initializeTouchEvents(true);
 
 ## JSX
 
+* [HTML entities](https://dev.w3.org/html5/html-author/charref)
 * [Change and Its Detection in JavaScript Frameworks](http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html)
 * [Face-off - Virtual DOM vs Incremental DOM vs Glimmer](https://auth0.com/blog/2015/11/20/face-off-virtual-dom-vs-incremental-dom-vs-glimmer/)
 * [**JSX: The other side of the coin**](https://medium.com/@housecor/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98)
@@ -474,6 +475,27 @@ function HellMessage(initialProps) {
 
 If you use JSX, `displayName` is generated for you.
 
+```js
+// See https://dev.w3.org/html5/html-author/charref
+
+// Won't work as it is encoded
+<h1>{"More info &raquo;"}</h1>
+
+// Use Unicode instead
+<h1>{"More info \u00bb"}</h1>
+```
+
+### Conditionals and Loops in JSX
+
+Using function is the best way to deal with conditionals. Or using variables.
+
+```js
+// double-&&
+<div className={this.state.isComplete && 'is-complete'}></div>
+
+{isCorrect && <span className="response">{'\u2714'}</span>}
+```
+
 ## Props and States
 
 * [Demystifying React Components State](http://www.sitepoint.com/demystifying-react-components-state/)
@@ -520,33 +542,6 @@ Note: Spread operator `{...}` deprecate `this.transferPropsTo`
 * [JSX Spread Attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
 
 > A common pattern is to create several stateless components that just render data, and have a stateful component above them in the hierarchy that passes its state to its children via props. The stateful component encapsulates all of the interaction logic, while the stateless components take care of rendering data in a declarative way.
-
-## Refs
-
-* [How should refs work?](https://github.com/facebook/react/issues/3234)
-
-```
-handleClick: function() {
-  // Wanting to focus is a very example of when to use refs
-  // Unique only in this component the refs `nameInput`
-  this.refs.nameInput.getDOMNode().focus();},
-
-render: function() {
-  return(
-    <div>
-      <input type="text" ref="nameInput" />
-      <button onClick={this.handleClick}>Focus</button>
-    </div>
-  );}
-```
-
-Before using `ref`, exhaust your options of using the reactive data flow approach. `ref` is a way to talk to the "backing instance" of the real DOM element.
-
-Refs are a great way to send a message to a particular child instance in a way that would be inconvenient to do via streaming Reactive `props` and `state`. They should, however, not be your go-to abstraction for flowing data through your application. By default, use the Reactive data flow and save `refs` for use cases that are inherently non-reactive.
-
-Refs are automatically destroyed for you. No worrying about memory leaking unless you do something crazy to retain a reference.
-
-Take a moment and think more critically about where `state` should be owned in the component hierarchy.
 
 ## Composition (Composable)
 

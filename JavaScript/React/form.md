@@ -1,5 +1,9 @@
 # Form
 
+HTML form elements are very stateful!
+
+React helps you move the state out of the DOM into your components. 
+
 * [Designing more efficient forms structure](https://uxplanet.org/designing-more-efficient-forms-structure-inputs-labels-and-actions-e3a47007114f#.ama7nvnk4)
 * [**Forms in React and Redux**](http://x-team.com/2016/02/tutorial-forms-in-react-and-redux/)
 * [formsy-react](https://github.com/christianalfoni/formsy-react)
@@ -18,9 +22,68 @@ Either store the form state within the component or Flux store.
 See http://jsbin.com/copiqakisu/1/edit?js,output
 See https://github.com/christianalfoni/formsy-react/issues/120
 
+```jsx
+<select value={this.state.selected} onChange={this.onChange}>
+  <option value="SG">Singapore</option>
+  <option value="UK">United Kingdom</option>
+</select>
+```
+
 ## Controlled and Uncontrolled Components
 
+Uncontrolled components are rarely good to use. They don't allow you to render based on the current value of inputs, and your code is written in a DOM-centric way rather than in a data-centric way. They also make composition more difficult because there's no standard way to get the value of an input in a composite component.
+
 * [Controllables](https://jquense.github.io/react-widgets/docs/#/controllables)
+
+## Synthetic Event
+
+For elements that have children, you need to use `e.currentTarget`.
+
+To get the underlying event, use `e.nativeEvent`, but it is rarely needed.
+
+## Refs
+
+Refs is an escape hatch for React's declarative nature.
+
+Keep in mind that although `refs` and `findDOMNode` are powerful, they should only be used when there is no other way to achieve the functionality you need. Using them hinders React's ability to optimize performance and increases the complexity of your application, so you should only reach for them when conventional techniques fall short of the capabilities you need.
+
+Works only in `componentDidMount` and any event handlers.
+
+* [How should refs work?](https://github.com/facebook/react/issues/3234)
+
+```js
+handleClick: function() {
+  // Wanting to focus is a very example of when to use refs
+  // Unique only in this component the refs `nameInput`
+  this.refs.nameInput.focus();},
+
+render: function() {
+  return(
+    <div>
+      <input type="text" ref="nameInput" />
+      <button onClick={this.handleClick}>Focus</button>
+    </div>
+  );}
+```
+
+Before using `ref`, exhaust your options of using the reactive data flow approach. `ref` is a way to talk to the "backing instance" of the real DOM element.
+
+Refs are a great way to send a message to a particular child instance in a way that would be inconvenient to do via streaming Reactive `props` and `state`. They should, however, not be your go-to abstraction for flowing data through your application. By default, use the Reactive data flow and save `refs` for use cases that are inherently non-reactive.
+
+Refs are automatically destroyed for you. No worrying about memory leaking unless you do something crazy to retain a reference.
+
+Take a moment and think more critically about where `state` should be owned in the component hierarchy.
+
+```js
+// Other uses
+<input type="text" ref={(input) => this._author = input} />
+
+// On your handler you can use it
+_handleSubmit(e) {
+  let author = this._author;
+  this.props.addComment(author.value);
+}
+```
 
 ## Form State
 

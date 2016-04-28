@@ -155,7 +155,9 @@ Only the following **simple headers** are allowed to to cross domain:
 
 ### Pre-flight Checks
 
-* [Solving the OPTIONS performance issue](http://www.soasta.com/blog/options-web-performance-with-single-page-applications/)
+* [Solving the OPTIONS performance issue](https://www.soasta.com/blog/options-web-performance-with-single-page-applications/)
+* [Killing CORS Preflight Requests on a React SPA](https://m.alphasights.com/killing-cors-preflight-requests-on-a-react-spa-1f9b04aa5730#.9b7fbmlpx)
+* [What is the motivation behind preflight requests?](https://stackoverflow.com/questions/15381105/cors-what-is-the-motivation-behind-introducing-preflight-requests)
 
 Debug with `chrome://net-internals/#events`
 

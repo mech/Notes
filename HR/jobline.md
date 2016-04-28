@@ -395,6 +395,24 @@ If there is only 1 candidate to approve, we can show all the details in the emai
 
 * TS approver did not track reject timestamp.. no history.... Jason need to always get the created_at and approved_at. But there is no rejected_at.
 
+We need to have better S3 upload failure recovery:
+
+```
+S13695 failed to upload timesheet: The request signature we calculated does not match the signature you provided. Check your key and signing method.
+
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/aws-sdk-core-2.1.16/lib/seahorse/client/plugins/raise_response_errors.rb:15:in `call'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/aws-sdk-core-2.1.16/lib/aws-sdk-core/plugins/s3_sse_cpk.rb:18:in `call'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/aws-sdk-core-2.1.16/lib/aws-sdk-core/plugins/param_converter.rb:21:in `call'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/aws-sdk-core-2.1.16/lib/seahorse/client/plugins/response_target.rb:21:in `call'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/aws-sdk-core-2.1.16/lib/seahorse/client/request.rb:70:in `send_request'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/aws-sdk-core-2.1.16/lib/seahorse/client/base.rb:207:in `block (2 levels) in define_operation_methods'
+/Users/administrator/production/jobline.com.sg/app/models/asset_manager.rb:66:in `upload'
+/Users/administrator/production/jobline.com.sg/app/models/timesheet.rb:434:in `save_and_upload_to_s3'
+/Users/administrator/production/jobline.com.sg/app/controllers/timesheets_controller.rb:219:in `upload'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.22/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/administrator/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-
+```
+
 ## Change of Approver
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.

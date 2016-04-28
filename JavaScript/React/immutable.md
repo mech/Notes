@@ -1,5 +1,7 @@
 # Immutable
 
+You lose the convenience of `setState` since it rely on being able to mutate your state. Your only option is `replaceState`.
+
 > The Dao of Immutability: The true constant is change. Mutation hides change. Hidden change creates chaos. - Eric Elliott
 
 Don't use `Array.shift`, use `Array.slice` instead for immutability.

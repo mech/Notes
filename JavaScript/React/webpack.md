@@ -219,6 +219,7 @@ A Node.js express server using `webpack-dev-middleware` to serve webpack bundle.
 
 ## Hot Module Replacement (HMR)
 
+* [Webpack and the Hot Module Replacement](https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07#.wyde1vdcd)
 * [**Live editing**](http://jlongster.com/Backend-Apps-with-Webpack--Part-III)
 * [What exactly is HMR?](http://stackoverflow.com/questions/24581873/what-exactly-is-hot-module-replacement-in-webpack)
 * [React hot loader](https://gaearon.github.io/react-hot-loader/2014/07/23/integrating-jsx-live-reload-into-your-react-workflow/)

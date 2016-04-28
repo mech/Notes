@@ -30,11 +30,15 @@ Array.prototype.slice.call(arguments)
 
 var toString = {}.toString;
 var hasOwn = {}.hasOwnProperty;
+
+// copy the data
+var data = this.state.data.slice();
+Array.from(this.state.data) // Same as slice but in ES6
 ```
 
 ## Sort
 
-`sort()` works very well with strings, but not so well with numbers as it sort lexicographically.
+`sort()` works very well with strings, but not so well with numbers as it sort lexicographically. `sort()` also modify the array which may not be good for React.
 
 ```js
 // The ordering function to sort numerically rather than lexicographically
@@ -42,6 +46,18 @@ function compare(a, b) {
   return a - b;}
 
 a.sort(compare);
+```
+
+```js
+// Sort column from a <table>
+var column = e.target.cellIndex;
+var data = this.state.data.slice();
+data.sort(function(a, b) {
+  return a[column] > b[column];
+});
+this.setState({
+  data: data
+});
 ```
 
 ## reduce

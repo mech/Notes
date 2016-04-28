@@ -1,5 +1,6 @@
 # Router
 
+* [Managing the URL in a Redux app](http://blog.marvelapp.com/managing-the-url-in-a-redux-app/)
 * [On the changes in v2](https://medium.com/rackt-and-roll/on-the-changes-in-react-router-v2-d2f362af5b99#.v84gij651)
 * [**Original router code**](https://gist.github.com/ryanflorence/21ce8cb052eebbe7dac3)
 * [React Router's Future to 2.0](https://medium.com/rackt-and-roll/react-router-s-future-c026c0f2874f#.y0m3xcsbi)

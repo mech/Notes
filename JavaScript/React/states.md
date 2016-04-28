@@ -74,6 +74,14 @@ The performance cost model of React is very simple to understand: every `setStat
 
 ## Props (Immutable)
 
+Properties are a mechanism for the outside world (users of the component) to configure your component. State is your internal data maintenance. So if you consider an analogy with object-oriented programming this.props is like all the arguments passed to a class constructor, while this.state is a bag of your private properties.
+
+Props are a way to configure a component.
+
+```js
+Object.isFrozen(this.props) === true
+```
+
 A component can change its state but its props are immutable, which is good feature because there should ideally be a **single source of truth**.
 
 **Don't feed any data as props to your ROOT component (if you can help it) Have your root component manage state.**
@@ -131,6 +139,15 @@ componentWillUnmount() {
 ```javascript
 model: React.PropTypes.instanceOf(Backbone.Model).isRequired
 children: React.PropTypes.node
+
+PropTypes.arrayOf(PropTypes.string)
+PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.any))
+
+PropTypes.arrayOf(PropTypes.shape({
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  type: PropTypes.string
+}))
 ```
 
 ## Undo / Redo

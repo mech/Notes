@@ -169,12 +169,20 @@ componentWillUpdate(nextProps, nextState) {
 
 * [Scroll position with React](http://blog.vjeux.com/2013/javascript/scroll-position-with-react.html)
 
-Happens every time the element is re-rendered. Good for maintaining scroll position.
+Happens every time the element is re-rendered. Good for maintaining scroll position. You can do paranoid validation here also, but admittedly is not needed (like text length limiting)
 
 ```js
 componentDidUpdate() {
   var node = this.getDOMNode();
   node.scrollTop = node.scrollHeight;}
+
+// Limiting the text should really be done at event handler, but
+// here we are just being paranoid and do additional validation
+componentDidUpdate(oldProps, oldState) {
+  if (this.state.text.length > 3) {
+    this.replaceState(oldState);
+  }
+}
 ```
 
 ## Owner-Ownee and Parent-Child
@@ -195,6 +203,10 @@ It is important to draw a distinction between ownership and parent-child relatio
 
 1. `render` should be idempotent
 2. `render` should not cause side-effects.
+3. `render` must be pure, meaning it does not change the state or modify the DOM output.
+4. You can return `null` or `false` if you do not want to render anything at all.
+
+You must remember that the result returned from `render()` is not the actual DOM or any action being taking place. If you have a `console.log()` in your `render()`, it will be printed on the console, but do not make the mistake of thinking that your `render()` has been completed, it has not! The returned virtual DOM is just sitting there waiting for its chance to truly render on the screen for the next available clock tick (RAF). While waiting for the next clock tick, React will diff the virtual DOM to determine if it even need to update the real DOM or not.
 
 ---
 
@@ -316,6 +328,7 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [react-data-grid](https://github.com/adazzle/react-data-grid)
 * [react-list - Infinite scroll](https://github.com/orgsync/react-list)
 * [react-input-slider](https://github.com/wangzuo/react-input-slider)
+* [react-rangeslider](https://github.com/whoisandie/react-rangeslider)
 * [react-fa - Can study it](https://github.com/andreypopp/react-fa)
 * [react-matchmedia-connect](https://github.com/malte-wessel/react-matchmedia-connect)
 * [React-Spreadsheet-Component](https://github.com/felixrieseberg/React-Spreadsheet-Component)
@@ -328,6 +341,7 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [**Task Calendar**](http://hilary-l.github.io/)
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
 * [rc-calendar](http://react-component.github.io/calendar/)
+* [**DZDateTimePicker**](https://github.com/DZNS/DZDateTimePicker)
 
 ### Drag and Drop
 
@@ -337,6 +351,7 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 ### Resizable
 
 * [How to make a DIV with draggable](http://stackoverflow.com/questions/17855401/how-do-i-make-a-div-width-draggable)
+* [react-sizeme](https://github.com/ctrlplusb/react-sizeme)
 
 ### Validation
 

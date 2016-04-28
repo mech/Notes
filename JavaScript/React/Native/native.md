@@ -1,5 +1,8 @@
 # React Native
 
+http://makeitopen.com/
+
+* [**React Native: A year in review**](https://code.facebook.com/posts/597378980427792/react-native-a-year-in-review)
 * [AMA](https://www.reddit.com/r/IAmA/comments/3wyb3m/we_are_the_team_working_on_react_native_ask_us)
 * [**Handcrafting an iOS app with React Native**](http://stanleycyang.github.io/technology/reactjs/native/ios/2015/10/04/react-native-tutorial-with-navigation-and-animation.html)
 * [**Apps using React Native**](http://facebook.github.io/react-native/showcase.html)
@@ -58,3 +61,4 @@
 ## Videos
 
 * [Reactive 2015 - From React Web to Native Mobile](https://www.youtube.com/watch?v=-XxSCi8TKuk)
+* [Why React Native is different](https://www.youtube.com/watch?v=ZM2NAD__iK4)

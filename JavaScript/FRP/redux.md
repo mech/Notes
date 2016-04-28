@@ -1,5 +1,6 @@
 # Redux
 
+* [Has Redux lost it the API design?](https://youtu.be/lk4M6FoRNgI)
 * [**React without undue complications**](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.f8z1106i1)
 * [Step by step guide to building Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.6nk2flafc)
 * [Middlewares and Redux Lifecycle](https://medium.com/@rajaraodv/using-middlewares-in-react-redux-apps-f7c9652610c6#.u1xzqeqm3)
