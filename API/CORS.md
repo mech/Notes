@@ -87,6 +87,15 @@ $.ajax(url, {
 	headers: { 'X-Requested-With': 'XMLHttpRequest' }});
 ```
 
+```js
+// Using fetch
+fetch(url, {
+  'credentials': 'include',
+  'mode': 'no-cors' // ???
+}).then(function(response) {
+});
+```
+
 POST request include:
 
 ```

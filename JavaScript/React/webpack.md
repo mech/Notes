@@ -52,6 +52,7 @@ OLD
 ▶ npm install --save camelize
 ```
 
+* [Improve React performance with Babel](https://medium.com/doctolib-engineering/improve-react-performance-with-babel-16f1becfaa25#.7fh8llcb1)
 * [**Webpack the confusing part**](https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.u3mwrb87u)
 * [**Reduce your bundle.js file size**](https://lacke.mn/reduce-your-bundle-js-file-size/)
 * [**A modern React starter pack based on webpack**](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
@@ -90,6 +91,7 @@ The webpack core can be extended with loaders and plugins.
 
 ## Starter Kit, Boilerplate
 
+* [starter-project](http://andrewhfarmer.com/starter-project/)
 * [Este.js](https://github.com/este/este)
 * [react-for-hipsters-boilerplate](https://github.com/chicoxyzzy/react-for-hipsters-boilerplate/)
 * [A modern React starter pack based on webpack](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
@@ -334,3 +336,4 @@ Use JSON manifest file for production fingerprinting.
 ## Videos
 
 * [Webpack module bundler](https://www.youtube.com/watch?v=qs9TjH7VheA)
+* [Advanced Webpack](https://youtu.be/MzVFrIAwwS8)

@@ -70,6 +70,7 @@ Prototyping has become an integral part of product design.
 * [Design everything](http://designerfund.com/design-everything)
 * [Framer Code](http://framerco.de/)
 * [Prototyping 3D touch interactions](http://blog.framerjs.com/posts/prototyping-3D-touch-interactions.html)
+* [Automate your UX Design workflow with Framer.js, Gulp and Sketch](https://blog.prototypr.io/automate-your-ux-design-workflow-with-framer-js-gulp-and-sketch-cc2e8484e4b7#.th1jefd23)
 
 ## Analysis
 

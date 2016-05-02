@@ -79,6 +79,7 @@ curl -X POST -H "Authorization: Bearer ???" -H "Content-Type: application/json;c
 
 ## Token Based API
 
+* [10 Things You Should Know about Tokens](https://auth0.com/blog/2014/01/27/ten-things-you-should-know-about-tokens-and-cookies)
 * [**The Problem with Securing SPA**](https://stormpath.com/blog/secure-single-page-app-problem/)
 * [The ins and outs of token based authentication](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication)
 * [Getting to know JSON Web Tokens](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)

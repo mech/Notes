@@ -1,5 +1,9 @@
 # Jobline's Problem
 
+> As a consequence, Taylor says, the customers who really "get" Quip have documents that are completely different than the documents they had in the last generation of products: rather than memos and contracts, they're creating team checklists for project management, spreadsheets to track recruiting candidates and editorial calendars, and year-long documents full of weekly meeting notes.
+
+Checklist for approving?
+
 [**How Hour messed up**](https://medium.com/the-hours-blog/we-messed-up-256e13d2caf5#.454fqitqk)
 
 * [Living Document](https://quip.com/blog/living-document)

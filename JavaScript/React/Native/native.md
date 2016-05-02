@@ -45,6 +45,7 @@ http://makeitopen.com/
 * [react-native-camera](https://github.com/lwansbrough/react-native-camera)
 * [**React Parts**](http://react.parts/native-ios)
 * [Realm](https://realm.io/)
+* [Realm for React Native](https://realm.io/news/introducing-realm-react-native/)
 
 ## Android
 
@@ -60,5 +61,6 @@ http://makeitopen.com/
 
 ## Videos
 
+* [react-native-radio](https://devchat.tv/react-native-radio)
 * [Reactive 2015 - From React Web to Native Mobile](https://www.youtube.com/watch?v=-XxSCi8TKuk)
 * [Why React Native is different](https://www.youtube.com/watch?v=ZM2NAD__iK4)

@@ -52,6 +52,10 @@ https://api.jobline.com.sg/getAccount
 https://api.jobline.com.sg/account
 ```
 
+## Token
+
+* [Token-Based Architecture Design](https://youtu.be/xgkNe6R4Un0)
+
 ## Service-Oriented vs Data-Oriented
 
 Service-oriented API hide data behind operations like `getPerson`, `getProduct`, etc.

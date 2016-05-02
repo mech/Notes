@@ -1,9 +1,11 @@
 # Redux
 
+* [Getting Started with React, Redux and Immutable: a Test-Driven Tutorial](http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/)
+* [**The Anatomy Of A React Redux App**](https://medium.com/@rajaraodv/the-anatomy-of-a-react-redux-app-759282368c5a#.gptl457nd)
 * [Has Redux lost it the API design?](https://youtu.be/lk4M6FoRNgI)
 * [**React without undue complications**](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.f8z1106i1)
 * [Step by step guide to building Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.6nk2flafc)
-* [Middlewares and Redux Lifecycle](https://medium.com/@rajaraodv/using-middlewares-in-react-redux-apps-f7c9652610c6#.u1xzqeqm3)
+* [**Middlewares and Redux Lifecycle**](https://medium.com/@rajaraodv/using-middlewares-in-react-redux-apps-f7c9652610c6#.u1xzqeqm3)
 
 > React is not reactive because it does not observe the data
 
@@ -399,6 +401,7 @@ Intercept action. Middleware transforms async actions before they reach the redu
 
 ## I/O, Effects, Async
 
+* [Issue 1528 - Reducer Composition with Effects in JavaScript](https://github.com/reactjs/redux/issues/1528#issuecomment-198352851)
 * [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
 * [**From actions creators to sagas**](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
 * [Why do we need middleware for async flow in Redux?](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34623840#34623840)

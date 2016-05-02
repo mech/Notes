@@ -155,6 +155,10 @@ Verify the behavior of the system during the test, rather than the state of the 
 
 Avoid stubbing ActiveRecord's `find` method because it's part of an external library. Instead create a model method and stub that. Don't mock what you don't own.
 
+## Example
+
+* [DurationTest](https://github.com/Envek/rails/blob/434df0016e228a7d51f1ad0c3d1f89faeffbed9a/activesupport/test/core_ext/duration_test.rb)
+
 ## Videos
 
 * [Jim Weirich on Decoupling from Rails](https://www.youtube.com/watch?v=tg5RFeSfBM4)

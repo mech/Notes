@@ -52,6 +52,7 @@
 * [Can you code this UI concept?](https://stories.uplabs.io/can-you-code-this-design-concept-efe0132b9744#.sx31zywjf)
 * [How Tabs Should Work](https://24ways.org/2015/how-tabs-should-work/)
 * [Graphical UI Gallery](http://www.guidebookgallery.org/)
+* [Quip blog: How <select> can be difficult](https://quip.com/blog/multiple-windows-in-hybrid-react-desktop-apps)
 * Construct your page with **hierarchy**. Visual weight.
 * Don't present data or information that is disconnected from the user's past experience with your brand or product. No one wants things to happen or appear randomly. Ambiguity will lose users.
 * **Symmetry of interaction**. How you trigger is how you will will reverse the action. Activation and deactivation actions must be symmetrical.

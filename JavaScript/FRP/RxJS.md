@@ -16,6 +16,10 @@ Imagine you have a normal array, you can `filter`, `map`, `reduce` all you can. 
 
 Application is all about "data flow".
 
+* [Will xstream be faster than most.js?](https://github.com/staltz/xstream)
+* [Functional Layout - Updating the DOM at 60FPS](https://youtu.be/biJXpv-6XVY)
+* [Rx-Book](http://xgrommx.github.io/rx-book/index.html)
+* [Create a simple toggle button using reactive programming](https://www.themarketingtechnologist.co/create-a-simple-toggle-button-with-rxjs-using-scan-and-startwith/#.VpEqPQx2fbk.twitter)
 * [Think of Rx as replacing a Service Singleton. Or replacing event emitter.](https://medium.com/@MertzAlertz/services-with-rxjs-50ff96ee0d2a#.dofokw67f)
 * [Rx is great so why have I moved on to ClojureScript?](https://medium.com/@puppybits/rxjs-is-great-so-why-have-i-moved-on-534c513e7af3#.mvpwnzl38)
 * [Reactive Programming in JavaScript with RxJS](https://dzone.com/refcardz/rxjs-streams)
@@ -32,6 +36,8 @@ Application is all about "data flow".
 * [React and RxJS](https://github.com/whiteinge/presentations/blob/master/react-rally_2015-08-24_react-rxjs/presentation.rst#rx-)
 * [fluorine - Redux + Rx](https://github.com/philpl/fluorine)
 * [json-api-store](https://github.com/haydn/json-api-store)
+* [Sitepoint introduction](http://www.sitepoint.com/functional-reactive-programming-rxjs/)
+* [Using RxJS with React](http://michalzalecki.com/use-rxjs-with-react/)
 
 We have many PUSH APIs:
 
@@ -135,6 +141,7 @@ myObservable.subscribe(success, error, complete);
 
 ## Operators
 
+* [**RxJS 5 Operators By Example**](https://gist.github.com/btroncone/d6cf141d6f2c00dc6b35)
 * [Docs for Operators](https://github.com/Reactive-Extensions/RxJS/tree/master/doc/api/core/operators)
 
 Operators are methods on `Observable` that allow you to compose new observables.
@@ -217,3 +224,4 @@ words.subscribe(function(word) {});
 * ["Controlling Time and Space: understanding the many formulations of FRP" by Evan Czaplicki](https://www.youtube.com/watch?v=Agu6jipKfYw)
 * [Matthew Podwysocki - Streaming and event-based programming using FRP and RxJS (FutureJS 2014)](https://www.youtube.com/watch?v=zlERo_JMGCw)
 * [Angular 2 Observable Data Flow](https://www.youtube.com/watch?v=JPuqluYYa-o)
+* [Andre Medeiros - The whole future declared in a var](https://youtu.be/BfZpr0USIi4)

@@ -2,6 +2,7 @@
 
 https://vividcortex.com/pricing/
 
+* [Homebrew and PostgreSQL 9.5](https://kkob.us/2016/01/09/homebrew-and-postgresql-9-5/)
 * [**Using Repository Pattern to Migrate Rails app from MongoDB to Postgres**](https://www.amberbit.com/blog/2015/11/30/using-repository-pattern-to-migrate-rails-app-from-mongodb-to-postgresql/)
 * [**Postgres Guide**](http://www.postgresguide.com/)
 * [**Don't let your data out of the database**](http://patshaughnessy.net/2015/6/18/dont-let-your-data-out-of-the-database)
@@ -129,6 +130,10 @@ UUID being random, you lose locality and your index ends up scattered and fragme
 
 Postgres is case-sensitive for string comparison
 
+## JOIN
+
+* [A Look at How Postgres Executes a Tiny Join](http://patshaughnessy.net/2015/11/24/a-look-at-how-postgres-executes-a-tiny-join)
+
 ## WITH (Recursive query - Good for Graph Database-like query?)
 
 An implementation of UPSERT using Writable CTEs (Common Table Expressions)
@@ -179,6 +184,7 @@ Remember, whenever you apply functions on columns in the `WHERE` clause, the ind
 * [pg_idx_advisor - Give indexing advise](https://github.com/cohenjo/pg_idx_advisor)
 * [Should you index a boolean field?](http://stackoverflow.com/questions/12539772/adding-an-index-on-a-boolean-field)
 * [**How to index concurrently in Rails**](https://robots.thoughtbot.com/how-to-create-postgres-indexes-concurrently-in)
+* [Postgres Index Types](https://robots.thoughtbot.com/postgres-index-types)
 
 In Postgres, you can index certain functions and maintain sargability.
 
@@ -419,6 +425,7 @@ CREATE TYPE question_type AS ENUM(
 
 * [Postgres - The bits you haven't found](https://vimeo.com/61044807)
 * [PGCon 2014](https://www.youtube.com/watch?v=oQ1LSW31Y1A&list=PLWW0CjV-Tafa2jvcjihXwSvZZKsLAsb9Y#t=2492)
+* [dotScale - Databases The Long View](https://youtu.be/8wligryH_gY)
 
 ## Stories
 
@@ -490,6 +497,10 @@ language sql;
 * [How to backup your Postgres to Amazon nightly](http://rob.conery.io/2011/11/01/how-to-backup-your-postgres-db-to-amazon-nightly/)
 * [WAL-E: Backup to S3](https://github.com/wal-e/wal-e)
 * [Encrypting a gzip file](http://blog.ashurex.com/2012/07/17/encrypting-tar-gz-gzip-file-openssl/)
+
+## Messaging
+
+* [Bottled Water: Real-time integration of PostgreSQL and Kafka](http://www.confluent.io/blog/bottled-water-real-time-integration-of-postgresql-and-kafka/)
 
 ## People
 

@@ -130,6 +130,8 @@ Humble systems. Not smart system. Relationship design is the new UX.
 36. We are what we repeatedly do. Excellence, therefore, is not an act, but a habit.
 37. Don't try to own the experience. Let the community own it!
 38. A lot about design is telling a good story.
+39. Don't design in a vacuum
+40. Know your demographic
 
 ---
 1. Some designers will come up with an idea, and maybe at first it will seem a little strange. If there was some top-down review process, it wouldn't survive. But then it will turn out that it's a huge win with users.

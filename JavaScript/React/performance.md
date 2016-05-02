@@ -8,14 +8,24 @@
 
 Virtual DOM (difference algorithm), event delegation, batched DOM updates all contribute to make React fast out of the box. But if rendering many items, it can still lag! To counter that we can use Immutable.js or RxJS observable.
 
+**Example:**
+
+http://binarymuse.github.io/react-primer/build/index.html?6
+
 * [React+Performance=? by Paul Lewis](https://aerotwist.com/blog/react-plus-performance-equals-what/)
 * [Preventing layout thrashing](http://wilsonpage.co.uk/preventing-layout-thrashing/)
 * [**Perf audit for reddit-mobile**](https://github.com/reddit/reddit-mobile/issues/247)
 * [Rendering large datasets with AngularJS and React](http://www.bennadel.com/blog/2864-rendering-large-datasets-with-angularjs-and-reactjs.htm)
 * [Using MOBservable for FRP](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 * [**Optimizing React performance using keys, component lifecycle, and performance tools**](http://jaero.space/blog/react-performance-1/)
+* [Adventures in React Performance Debugging](http://blog.siftscience.com/blog/2016/browser-dgaf-that-you-use-react)
+* [How to Make Your React Apps 15x Faster](https://reactjsnews.com/how-to-make-your-react-apps-10x-faster)
+* [Performance optimisations for React applications](https://medium.com/@alexandereardon/performance-optimisations-for-react-applications-b453c597b191#.km9z9z6nh)
+* [**A DEEP DIVE INTO REACT PERF DEBUGGING**](http://benchling.engineering/deep-dive-react-perf-debugging/)
 
 ## Keys
+
+* [Do not use array index as key!](http://jaero.space/blog/react-performance-1)
 
 Keys are defined in parent components, not in child components.
 

@@ -16,6 +16,7 @@ React helps you move the state out of the DOM into your components.
 * [RESTful forms with React, Part 1](http://blog.littleblimp.com/post/124492420923/restful-forms-with-react-part-1)
 * [Complex, validated JSON-based forms in React](https://github.com/andrewhathaway/Winterfell)
 * [Form validation tutorial with React](https://html5hive.org/reactjs-form-validation-tutorial/)
+* [The current state of web forms](http://codepen.io/kevinSuttle/post/the-current-state-of-web-forms)
 
 Either store the form state within the component or Flux store.
 
@@ -91,6 +92,7 @@ _handleSubmit(e) {
 
 ## Validations
 
+* [**react-superform**](https://github.com/MichalZalecki/react-superform)
 * [Thinking outside the DOM](http://www.sitepoint.com/thinking-outside-dom-concepts-setup/)
 * [Validating children](http://www.mattzabriskie.com/blog/react-validating-children)
 * [blur-input](https://github.com/Khan/react-components/blob/master/js/blur-input.jsx)

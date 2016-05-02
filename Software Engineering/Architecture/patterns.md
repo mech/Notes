@@ -1,5 +1,7 @@
 # Architecture Patterns
 
+Evolutionary architecture and emergent design. Just-in-time architecture? Iterative architecture. Delay until the last responsible moment.
+
 Software development is a creative tasks full of false starts, dead ends, backtracking and experimenting. Constraint by Law of Complexity.
 
 Make decisions in the face of incomplete and uncertain knowledge.

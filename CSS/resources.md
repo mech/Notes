@@ -69,6 +69,16 @@ http://blog.pexels.com/top-5-killer-css-talks-of-2014/
 * [How to center in CSS](http://howtocenterincss.com/)
 * [SRP applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
 
+## Tools
+
+See http://elijahmanor.com/talks/css-for-devs/#/16/3
+
+* [CSS Dig](http://cssdig.com/)
+* [CSS Stats](http://cssstats.com/)
+* [cssstats-core](https://github.com/cssstats/cssstats-core)
+* [css-reporter](https://github.com/springload/css-reporter)
+* [CSS Comb](http://csscomb.com/)
+
 ## People
 
 * [Ben Smithett](http://bensmithett.com/)

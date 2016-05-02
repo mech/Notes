@@ -8,11 +8,17 @@ Cursor-based? Observable-based?
 
 [Patched-based issues](https://github.com/gritzko/swarm/blob/master/doc/ver0.3/patch-based-issues.md)
 
-## Mobservable
+## MobX
 
 * [The 2 Fundamental Laws of Flux, and the Functional Reactive Flux](https://medium.com/@kenneth_chau/the-2-fundamental-laws-of-flux-and-the-functional-reactive-flux-c9368ac008d3#.dpqypfe16)
+* [mobx-reactor](https://github.com/amsb/mobx-reactor)
+* [Kanban app - MobX port](https://github.com/survivejs-demos/mobx-demo)
 
 ## Baobab
+
+## Freezer
+
+* [freezer](https://github.com/arqex/freezer)
 
 ## Cerebral
 

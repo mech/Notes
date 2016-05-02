@@ -95,6 +95,7 @@ The Big 3: SalesForce, Oracle HRMS, Workday
 
 ## Job Search Engine
 
+* [Unicorn Hunt](https://unicornhunt.io/)
 * [Careerjet](http://www.careerjet.sg/)
 * [techjobsin.london](http://www.techjobsin.london/)
 * [Unicorn Hunt](https://unicornhunt.io/)

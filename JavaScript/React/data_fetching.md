@@ -4,6 +4,8 @@
 * [Model Management](https://github.com/facebook/react/wiki/Complementary-Tools#model-management)
 * [React Ajax best practices](http://andrewhfarmer.com/react-ajax-best-practices/)
 * [react-refetch from Heroku](https://github.com/heroku/react-refetch)
+* [dataloader](https://github.com/facebook/dataloader)
+* [DataLoader - Source code walkthrough](https://youtu.be/OQTnXNCDywA)
 
 ## Data Flow
 

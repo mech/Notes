@@ -78,6 +78,8 @@ The master process reads and executes the nginx configuration, binds the necessa
 * [HTTPS Performance Tuning](http://blog.httpwatch.com/2009/01/15/https-performance-tuning/)
 * [SSL Cipher](http://security.stackexchange.com/questions/54639/recommended-ssl-ciphers-for-security-compatibility-perfect-forward-secrecy)
 * [Let's Encrypt](https://letsencrypt.org/)
+* [Automate buying of SSL](https://sslmate.com/)
+* [Deploying HTTPS](https://www.youtube.com/watch?v=9WuP4KcDBpI)
 
 To concatenate primary certificate and intermediate certificate:
 
@@ -88,6 +90,8 @@ ssl on;
 ssl_certificate bundle.crt
 ssl_certificate_key jobline.com.sg.key
 ```
+
+Strict-Transport-Security: max-aga=31536000; includeSubDomains
 
 ## nginx.conf
 

@@ -1,5 +1,7 @@
 # Components
 
+If you go declarative, you have composability.
+
 > Basically treat the app as a game engine, and use a lot of the same techniques.
 > 
 > You can easily build completely isolated, reusable, and composable UI components. Nested views just become a natural extension of the way React works.
@@ -201,6 +203,8 @@ It is important to draw a distinction between ownership and parent-child relatio
 
 ## Render function
 
+* [Rendering with React](https://www.youtube.com/watch?v=7S8v8jfLb1Q)
+
 1. `render` should be idempotent
 2. `render` should not cause side-effects.
 3. `render` must be pure, meaning it does not change the state or modify the DOM output.
@@ -335,9 +339,15 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [react-xhr-uploader](https://rma-consulting.github.io/react-xhr-uploader/)
 * [react-infinite](https://github.com/seatgeek/react-infinite)
 * [react-notification](https://github.com/pburtchaell/react-notification)
+* [react-tabs](https://github.com/reactjs/react-tabs)
+* [react-tab-panel](https://github.com/zippyui/react-tab-panel)
+* [react-swipe-views](https://github.com/damusnet/react-swipe-views)
+* [kendo-react-inputs](https://github.com/telerik/kendo-react-inputs)
+* [simple-react-button](https://github.com/cdrpro/simple-react-button)
 
 ### Date-picker and Calendar
 
+* [A very nice time picker](http://dapperdeveloper.com/2015/10/19/tutorial-build-a-time-picker-with-react-js/)
 * [**Task Calendar**](http://hilary-l.github.io/)
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
 * [rc-calendar](http://react-component.github.io/calendar/)
@@ -359,17 +369,23 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [Joi - Validation](https://github.com/hapijs/joi)
 * [Format.js](http://formatjs.io/react/)
 
-### Pagination
+### Pagination & Infinite scroll
 
+* [react-ingrid](https://github.com/babotech/react-ingrid)
 * [react-paginator-box](https://github.com/abaddonGIT/react-paginator-box)
 * [react-paginate](https://github.com/Mosho1/react-paginate)
 * [react-pagify](http://bebraw.github.io/react-pagify/)
 * [react-paginate](https://github.com/eliseumds/react-paginate)
 
+## Text editor
+
+* [react-rte](https://github.com/sstur/react-rte)
+
 ### D3 or just Victory.js
 
 Just use Victory.js for new project.
 
+* [react-vis from Uber](https://github.com/uber/react-vis)
 * [**Victory.js**](https://github.com/FormidableLabs/victory)
 * [Recharts = React + Charts](http://recharts.org/)
 * [d-Threeact](http://blog.siftscience.com/blog/2015/4/6/d-threeact-how-sift-science-made-d3-react-besties)

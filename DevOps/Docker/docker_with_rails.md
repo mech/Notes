@@ -25,6 +25,7 @@ Regular applications like MySQL, Nginx, Postgres, Redis, etc. never need any kin
 
 Mounting configuration files.
 
+* [Rails 5 and Docker](http://blog.kontena.io/rails-5-and-docker/?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57uUtWqC%2BlMI%2F0ER3fOvrPUfGjI4DRMBqI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D)
 * [**12 factor apps with Docker**](https://medium.com/@nzoschke/modern-twelve-factor-apps-with-docker-55dd92c832b3)
 * [**Deploying a Web App, Redis, Postgres and Nginx with Docker**](http://vinceyuan.blogspot.sg/2015/05/deploying-web-app-redis-postgres-and.html)
 * [Google/ruby?](https://registry.hub.docker.com/u/google/ruby/)

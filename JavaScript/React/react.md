@@ -1,5 +1,7 @@
 # React
 
+- [**Future: React Basic**](https://github.com/reactjs/react-basic)
+- [React in re-implemented in jQuery](https://medium.com/javascript-inside/learning-react-without-using-react-part-2-703621a89432#.9mvg7uoda)
 - [Qiita blog](http://qiita.com/kimagure/items)
 - [**9 things every React beginner should know**](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know)
 - [**React and ES6 - Part 1**](http://egorsmirnov.me/2015/05/22/react-and-es6-part1.html)
@@ -565,6 +567,7 @@ Dirty-checking model can be slow. Virtual DOM is using tree, as we all know, tre
 
 DOM operation is very expensive! Because modifying the DOM will also apply and calculate CSS styles, layouts, etc.
 
+* [FRZR](https://freezer.js.org/minimum-viable-view-library/)
 * [React-less Virtual DOM with Snabbdom](https://medium.com/@yelouafi/react-less-virtual-dom-with-snabbdom-functions-everywhere-53b672cb2fe3#.q046lbm2b)
 * [Snabbdom](https://github.com/paldepind/snabbdom)
 * [virtual-dom](https://github.com/Matt-Esch/virtual-dom)

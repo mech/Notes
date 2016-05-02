@@ -18,6 +18,7 @@ Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
 * [How to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 * [Atlassian has nice doc](https://www.atlassian.com/git/tutorials/undoing-changes)
 * [Read about the Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
+* [19 git tips for everyday use](http://www.alexkras.com/19-git-tips-for-everyday-use/)
 
 ```
 ▶ git add -u
