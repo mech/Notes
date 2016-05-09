@@ -4,6 +4,11 @@ Don't confuse Domain Model with ActiveRecord. Data-oriented vs Behavior-oriented
 
 Coupling all of your business logic to your persistence objects can have weird side-effects.
 
+```ruby
+query = collection.select("COUNT(*) AS size", "MAX(#{column}) AS timestamp")
+result = connection.select_one(query)
+```
+
 * [**ActiveRecord is reinventing Sequel**](http://twin.github.io/activerecord-is-reinventing-sequel/)
 * [**Ode to Sequel**](http://twin.github.io/ode-to-sequel/)
 * [20,000 Leagues under ActiveRecord](http://patshaughnessy.net/2014/9/17/20000-leagues-under-activerecord)
@@ -42,6 +47,10 @@ end
 
 * [Rails authorization](http://railsapps.github.io/rails-authorization.html)
 * [Advanced Rails 4 authorization with Pundit](http://through-voidness.blogspot.sg/2013/10/advanced-rails-4-authorization-with.html)
+
+## Joins
+
+* [Left Outer Joins in Rails 5](http://blog.bigbinary.com/2016/03/24/support-for-left-outer-joins-in-rails-5.html)
 
 ## ActiveRecord::Querying
 

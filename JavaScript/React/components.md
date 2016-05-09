@@ -344,6 +344,8 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [react-swipe-views](https://github.com/damusnet/react-swipe-views)
 * [kendo-react-inputs](https://github.com/telerik/kendo-react-inputs)
 * [simple-react-button](https://github.com/cdrpro/simple-react-button)
+* [react-hoverbox](https://github.com/wix/react-hoverbox)
+* [react-autosuggest](https://github.com/moroshko/react-autosuggest)
 
 ### Date-picker and Calendar
 

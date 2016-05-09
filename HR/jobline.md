@@ -381,6 +381,10 @@ INR accrual can only have all same `work_year`.
 
 ## Timesheet
 
+Submit timesheet will have a lock to indicate it can't be amended.
+
+When submit timesheet, we will send email of the summary to CA. Like total time, any strange timing like time-in during Public Holiday. Just a prompt to prevent them from submitting the wrong time-in.
+
 Have option that allow CA to indicate that TS should follow the previous month values. Sort of like how IRAS file your income tax. It will be automatic if you do not have any new things to add/change.
 
 Send an email that says "We noticed for the past 3 months your TS hours are the same, we can auto-submit for you if you are sure you never change your TS."

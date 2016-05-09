@@ -1,5 +1,7 @@
 # Rails 5
 
+* [**Container-Ready Rails 5**](https://blog.heroku.com/archives/2016/5/2/container_ready_rails_5)
+* [BigBinary Rails 5 features](http://blog.bigbinary.com/categories/Rails%205)
 * [`protect_from_forgery`](https://github.com/rails/rails/issues/18329)
 * [The end of `alias_method_chain`](http://www.justinweiss.com/articles/rails-5-module-number-prepend-and-the-end-of-alias-method-chain/)
 * [What's new in Rails 5](http://www.rubyexperiments.com/rails-5-release-date-whats-new-resources/)

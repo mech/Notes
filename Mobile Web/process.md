@@ -1,5 +1,7 @@
 # RWD Process
 
+> To think about the web responsively is to think in proportions, not pixels. I traded the control I had in Photoshop for a new kind of control—using flexible grids, flexible images, and media queries to build not a page, but a network of content that can be rearranged at any screen size to best convey a message. - Trent Walton
+
 * Fluid Grid
 * Flexible Images
 * Media Queries
@@ -13,6 +15,10 @@ Let go of your need to control the width and height of your layouts. design for 
 > Meet our users wherever they happen to be.
 
 Start with markup that is valid, accessible, and functional on almost any device, and layer enhancements from there.
+
+## Hierarchy
+
+> Did I dismiss hierarchy? No, but "squishy" was the unflattering term I initially used to describe responsive sites. For me, websites take on an increasingly familiar skeletal form as I **mentally map content in proportion to specific areas**. When working with clients that's how we address content. Elements are sized & placed purposefully to create order. I was worried that fluid content would have no visual impact and spinelessly reflow, breaking the established hierarchy. However, I soon found that didn’t have to be the case. While working on our first few responsive projects at Paravel, we used fluid-width images, videos, and even text headlines when appropriate, along with proper planning (content choreography) to maintain strong visual presence. The hierarchy, and thus the message, can be preserved at any view.
 
 ## Content
 

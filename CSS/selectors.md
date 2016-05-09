@@ -111,6 +111,8 @@ a[href^="http" i] {}
 
 ## Pseudo-classes
 
+* [An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
+
 Pseudo-classes/elements remove the need for you to created non-semantic elements to act as hooks to hang your styles on.
 
 Pseudo-classes are a way to select a whole piece of your HTML element.

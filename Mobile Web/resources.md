@@ -4,13 +4,14 @@
 
 > I took a stab at persistent top-level navigation, instead of focusing on the content modules first.
 
+* [Apple could not be clearer: don’t use hamburgers menus on iOS.](http://blog.manbolo.com/2014/06/30/apple-on-hamburger-menus)
 * [Introducing Pokedex.org: a progressive webapp](http://www.pocketjavascript.com/blog/2015/11/23/introducing-pokedex-org)
 * [Why Mobile-First may already be outdated](https://blog.intercom.io/why-mobile-first-may-already-be-outdated/)
 * [**react-container and react-tappable**](https://www.youtube.com/watch?v=ctwmd5L1U_Q)
 * [The state of RWD](http://webdesign.tutsplus.com/articles/the-state-of-responsive-web-design--cms-22878)
 * [**9 principles of RWD**](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
 * [**Touch event micro library - See hammer.js also**](http://quojs.tapquo.com/)
-* [Mobile HTML 5 by Maximiliano Firtman](http://mobilehtml5.org/)
+* [Mobile HTML 5 by Maximiliano](http://mobilehtml5.org/)
 * [**Google Web Starter Kit for multi-device development**](https://developers.google.com/web/starter-kit/)
 * [**Mobile web checklist**](http://www.luster.io/blog/9-29-14-mobile-web-checklist.html)
 * [Brad Frost responsive pattern library](http://bradfrost.github.io/this-is-responsive/patterns.html)
@@ -40,12 +41,17 @@
 * [Why RWD looks like RWD?](http://timkadlec.com/2014/03/why-rwd-looks-like-rwd/)
 * [**Responsive sidebar**](http://codyhouse.co/gem/responsive-sidebar-navigation/)
 
+## Libraries
+
+* [`overflow: auto`](https://github.com/filamentgroup/Overthrow/)
+
 ## People
 
 * [Dave Rupert](http://daverupert.com/)
 * [Luke Wroblewski](http://www.lukew.com/ff/)
 * [Tim Kadlec](https://timkadlec.com/)
 * [Trent Walton](http://trentwalton.com/)
+* [Anna Debenham](http://www.maban.co.uk/)
 
 ## List of screen resolution
 
@@ -210,6 +216,7 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
 * [Adaptive Images](http://adaptive-images.com/)
 * [When responsive images get ugly](http://codepen.io/Tigt/blog/when-responsive-images-get-ugly)
 * [Responsive image polyfill](https://github.com/aFarkas/respimage)
+* [focal-point](https://github.com/adamdbradley/focal-point)
 
 ## Favicon
 

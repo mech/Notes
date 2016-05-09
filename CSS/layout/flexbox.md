@@ -13,6 +13,7 @@ Global = 92%, Unprefixed = 72%
 
 IE9, Opera 12 don't support flexbox.
 
+* [5 flexbox techniques you need to know about](http://tutorialzine.com/2016/04/5-flexbox-techniques-you-need-to-know-about/)
 * [Flexbox React](http://nachoalvarez.me/flexbox-react/)
 * [**flexbox.webflow**](https://flexbox.webflow.com)
 * [Flexbox without flexbox](http://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox)
@@ -36,6 +37,7 @@ IE9, Opera 12 don't support flexbox.
 * [Flexbox reference](http://tympanus.net/codrops/css_reference/flexbox/)
 * [Create the perfect website layout system](http://www.creativebloq.com/web-design/create-perfect-website-layout-system-121518553)
 * [Designing a product page layout with Flexbox](https://css-tricks.com/designing-a-product-page-layout-with-flexbox/)
+* [flexibility - Polyfill for IE8/9??](https://github.com/10up/flexibility/)
 
 Playground
 

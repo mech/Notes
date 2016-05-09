@@ -1,5 +1,9 @@
 # Nginx
 
+* [For Apache, good to know for Snow Leopard?](https://ninebark.net/2014/10/21/SSLConfig.html)
+* [Apple don't even support TLS 1.2](http://apple.stackexchange.com/questions/211183/how-to-update-server-5-to-tls-1-2)
+* [Quite a mess for Apple's Apache](https://codedmemes.com/lib/disable-sslv3-on-os-x-server-defeat-poodle/)
+
 What can Nginx do:
 
 * Proxy to Rails, Node application

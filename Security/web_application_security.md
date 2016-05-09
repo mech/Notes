@@ -43,6 +43,7 @@ XSS happen when you have comment box that accept input from others but you did n
 
 Fixing XSS once and for all - Using CSP
 
+* [XSS and Rails](http://blog.bigbinary.com/2012/05/10/xss-and-rails.html)
 * [AN Introduction to CSP](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)
 * [Towards a Post-XSS world](http://2013.jsconf.eu/speakers/mike-west-towards-a-postxss-world.html)
 * [Postcards from the post-XSS world](http://lcamtuf.coredump.cx/postxss/)
@@ -96,9 +97,11 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 >
 > A vulnerability that is so easily prevented can lead to absolute mayhem, particularly when bundled with other attacks. Worse still, identifying the attacker is even more difficult as the attack occurs in the context of the authenticated user.
 
+* [Per form token in Rails 5 and nested `<form>`](http://blog.bigbinary.com/2016/01/11/per-form-csrf-token-in-rails-5.html)
+* [**Rails issue#22275 - Per-form CSRF Tokens**](https://github.com/rails/rails/pull/22275)
+* [CSRF and Rails](http://blog.bigbinary.com/2012/05/10/csrf-and-rails.html)
 * [Understanding Rails' `protect_from_forgery`](https://nvisium.com/blog/2014/09/10/understanding-protectfromforgery/)
 * [**BREACH - leaking of information**](http://security.stackexchange.com/questions/43669/with-breach-attack-is-session-based-csrf-token-still-secure)
-* [**Rails issue#22275 - Per-form CSRF Tokens**](https://github.com/rails/rails/pull/22275)
 * [CSRF Demystified](http://www.gnucitizen.org/blog/csrf-demystified/)
 * [Anatomy of a CSRF Attack](http://haacked.com/archive/2009/04/02/anatomy-of-csrf-attack.aspx/)
 * [DEFCON 17: CSRF! Yeah, It Still Works](https://www.youtube.com/watch?v=5Np8PrSctuM)
@@ -249,6 +252,7 @@ Will fall back to Same Origin Policy if browsers don't support CSP.
 
 Note: Best to set `default-src` to `none`!
 
+* [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/)
 * [**CSP 2015: CSP bypass in a Twitter bug**](https://blog.innerht.ml/csp-2015/)
 * [**CSP The Reality**](https://embedthis.com/blog/posts/content-security-policy/)
 * [CSP Level 2: July 2015](http://www.w3.org/TR/CSP11/)

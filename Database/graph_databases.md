@@ -1,5 +1,7 @@
 # Graph Databases
 
+* [Analyzing the Panama Papers with Neo4j: Data Models, Queries & More](http://neo4j.com/blog/analyzing-panama-papers-neo4j/)
+
 Ironically, relational DBs can't handle relationship well.
 
 Vertical after vertical discovers the transformative power of connected data. Without the connections/relationships, there is no point to it. When you have a lot of connected things, you have a graph-based problem.

@@ -271,6 +271,10 @@ RUBY_VERSION =~ /([\d]+)\.([\d]+)\.([\d]+)/
 major, minor, revision = $1.to_i, $2.to_i, $3.to_i
 ```
 
+## Errorsq
+
+* [No more errors](http://idiosyncratic-ruby.com/32-no-more-errors.html)
+
 ## Security
 
 * [Is It Vulnerable?](https://isitvulnerable.com/)

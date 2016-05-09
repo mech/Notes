@@ -20,6 +20,7 @@
 
 > High-level functions are easier to define if you have the whole UI printed out and intelligible at a glance. It’s also a lot easier to spot any duplications and inconsistencies that way. [The language of modular design](http://alistapart.com/article/language-of-modular-design)
 
+* [**5 Mistakes to Avoid When Designing Micro-interactions**](https://medium.com/@ux_in_motion/5-mistakes-to-avoid-when-designing-micro-interactions-a6f638ee6a86#.aum00y53i)
 * [Why I love ugly messy UI](https://m.signalvnoise.com/why-i-love-ugly-messy-interfaces-and-you-probably-do-too-edff4a896a83#.3ufmiz586)
 * [IA and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/)
 * [Lazy Users](https://www.nngroup.com/articles/lazy-users/)
@@ -262,6 +263,10 @@ Anytime you have a list, you need to think about categorisation, grouping, filte
 ## Menu Buttons (Muttons)
 
 * You have a default action, but alternate actions are still fairly frequent
+
+## Pagination
+
+* [Infinite scrolling vs pagination](https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1#.y3k6noa5p)
 
 # Videos
 

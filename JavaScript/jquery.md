@@ -1,5 +1,7 @@
 # jQuery
 
+* [**You don't need jQuery for Ajax**](http://blog.garstasio.com/you-dont-need-jquery/ajax/)
+* [Beyond jQuery](https://leanpub.com/beyondjquery)
 * [Don't download the full version of jQuery](http://www.jqueryconfig.com/)
 * [jQuery's browser bug workarounds](https://docs.google.com/document/d/1LPaPA30bLUB_publLIMF0RlhdnPx_ePXm7oW02iiT6o/edit)
 * [129 fixes](https://gist.github.com/rwaldron/8720084#file-reasons-md)

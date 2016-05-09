@@ -44,26 +44,34 @@ Routing is just data: `location.hash.substr(1)`
 
 1. You declare your view hierarchy with nested `<Route />`
 2. React Router will match the deepest route against the URL and activate the entire tree of routes on that branch, nesting all the UI.
-3. You simply use the `<RouteHandler />` component and it will render the active child route.
+3. You simply use the `this.props.children` and it will render the active child route.
 
-```
-<Router>
-  <Route name="app" path="/" component={App}>
-    <Route name="inbox" component={Inbox} />
-    <Route name="calendar" component={Calendar} />
-    <DefaultRoute component={Dashboard} />
+```js
+const routes = (
+  <Route path="/" component={App}>
+    <IndexRoute component={Dashboard} />
+    <Route path="/inbox" component={Inbox} />
+    <Route path="calendar" component={Calendar} />
   </Route>
-</Router>
+)
 
-Router.run(routes, function(Handler) {
-  React.render(<Handler />, document.body);});
+ReactDOM.render(
+  <Router history={browserHistory}>{routes}</Router>,
+  document.getElementById('app')
+)
 ```
 
 Whenever a hash change, a callback will be called. This callback is being registered and setup at `Router.run()`. It just pass in a `Handler` to be inserted into the view's `<RouteHandler />`.
 
-It is just like the `{{outlet}}` in Ember. Can we have multiple `<RouteHandler />`?
+It is just like the `{{outlet}}` in Ember. You can have multiple `this.props.children` or even named components?
 
 Think of Router as describing your interface rather than a URL structure. Routes are completely independent from the URL of API resources. Even if your API URLs are nested, it does not necessarily mean that your React routes should be.
+
+`<Router>` and `<Route>` are 2 different things, even though they are technically React components, but they don't actually create DOM themselves.
+
+It may help to think of a `<Route>` as an "entry point" into your UI. You don't need a route for every component in your component hierarchy, only for those places where your UI differs based on the URL.
+
+If a route uses a relative path, it builds upon the accumulated path of its ancestors. Nested routes may opt-out of this behavior by using an absolute path.
 
 ## Dynamic Segments
 
@@ -78,6 +86,26 @@ transition.abort();
 ```
 
 ## Link
+
+```js
+<Link to="/home" activeClassName="active" onlyActiveOnIndex>Home</Link>
+
+<IndexLink activeStyle={{color: blue}}>Home</IndexLink>
+
+<Link to={{
+  pathname: '/jobs',
+  query: { page: '12' }
+}}>Page 1</Link>
+```
+
+```js
+this.props.params
+this.props.location.query
+
+// e.g.
+this.props.params.address
+this.props.location.query.page
+```
 
 ## Code Splitting and Partial Application Loading
 

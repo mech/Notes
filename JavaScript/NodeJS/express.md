@@ -198,6 +198,21 @@ app.all('*', function(req, res, next) {
 });
 ```
 
+```js
+router.route('/rooms/edit/:id')
+  .all(function(req, res, next) {
+    var roomId = req.params.id;
+    var room = _.find(rooms, r => r.id === roomId);
+    res.locals.room = room;
+    next()
+  })
+  .get(function(req, res) {
+    res.render('edit', { room: res.locals.room })
+  })
+  .post(function(req, res) {
+  })
+```
+
 Name your function:
 
 ```js

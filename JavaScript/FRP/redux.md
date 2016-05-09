@@ -386,7 +386,6 @@ const visibilityFilter = (state = 'SHOW_ALL', action) => {
 * [Transducer Protocol](https://github.com/cognitect-labs/transducers-js)
 * [Issue#176 - Transducers in Redux](https://github.com/rackt/redux/issues/176)
 * [Issue#569 - Proposal: API for explicit side effects](https://github.com/rackt/redux/pull/569)
-* [Issue#1139 - An alternative side effect model based on Generators and Sagas](https://github.com/rackt/redux/issues/1139)
 
 ## Middleware
 
@@ -403,7 +402,6 @@ Intercept action. Middleware transforms async actions before they reach the redu
 
 * [Issue 1528 - Reducer Composition with Effects in JavaScript](https://github.com/reactjs/redux/issues/1528#issuecomment-198352851)
 * [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
-* [**From actions creators to sagas**](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
 * [Why do we need middleware for async flow in Redux?](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34623840#34623840)
 * [Reducer Composition with Effects in JavaScript???](https://github.com/reactjs/redux/issues/1528)
 
@@ -413,8 +411,13 @@ Sync state transition??
 
 ## Sagas
 
+* [**Confusion about Saga pattern**](https://medium.com/@roman01la/confusion-about-saga-pattern-bbaac56e622#.biu0lp9iy)
 * [Handling async in Redux with Sagas](http://wecodetheweb.com/2016/01/23/handling-async-in-redux-with-sagas/)
 * [Master complex Redux Workflows with Sagas](http://konkle.us/master-complex-redux-workflows-with-sagas/)
+* [From actions creators to sagas](http://riadbenguella.com/from-actions-creators-to-sagas-redux-upgraded/)
+* [Issue#1139 - An alternative side effect model based on Generators and Sagas](https://github.com/rackt/redux/issues/1139)
+* [Alternatives Async/side effect models](https://github.com/paldepind/functional-frontend-architecture/issues/20)
+
 
 ## Thunk
 

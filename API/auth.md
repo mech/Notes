@@ -9,6 +9,7 @@
 * [How to do auth with a REST API right?](http://stackoverflow.com/questions/15051712/how-to-do-authentication-with-a-rest-api-right-browser-native-clients)
 * [Building a Stateless Rails API with React](http://fredguest.com/2015/03/06/building-a-stateless-rails-api-with-react-and-twitter-oauth/)
 * [**See the shortcoming part!**](http://emberigniter.com/implementing-authentication-with-ember-services/)
+* [Reflux: Authentication Flow - Some useful JWT examples](https://preact.gitbooks.io/react-book/content/flux/auth.html)
 
 Provider is at https://api.jobline.com.sg/v1. Consumer will be:
 

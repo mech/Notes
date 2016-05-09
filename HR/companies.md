@@ -2,6 +2,7 @@
 
 Notable companies in HR domain.
 
+* [How Hired.com compete with Indeed Prime](https://www.quora.com/How-will-Hired-com-compete-with-Indeed-Prime-which-is-essentially-an-exact-copy-of-Hireds-recruiting-process-Indeed-has-more-than-60M-uniques-and-tens-of-thousands-of-employers)
 * [**How we designed the new Salesforce at scale**](https://medium.com/salesforce-ux/how-we-designed-the-new-salesforce-at-scale-6d3607fd92e5)
 * [List of staffing companies 2014](https://www.bestofstaffing.com/best-of-staffing-list/2014/client)
 * [#hrwins HR companies to watch](http://www.larocqueinc.com/2014/03/11/2014-hrwins-hr-companies-to-watch/)
@@ -15,6 +16,9 @@ Notable companies in HR domain.
 * [Team Grid](http://www.teamgridapp.com/en/)
 * [**10x - A talent company in Silicon Valley**](http://www.10xmanagement.com/)
 * [Authentic Jobs](http://www.authenticjobs.com/pricing/)
+* [Why hiring is broken](https://medium.freecodecamp.com/why-is-hiring-broken-it-starts-at-the-whiteboard-34b088e5a5db#.vi4blkpvh)
+
+https://www.hackerrank.com/
 
 ## Metrics
 
@@ -34,6 +38,8 @@ Notable companies in HR domain.
 
 The Big 3: SalesForce, Oracle HRMS, Workday
 
+* [IBM and SAP Alliance](http://www-935.ibm.com/services/us/en/sap/)
+* [SAP and Apple](https://hcp.sap.com/index1.html)
 * [How Authentic Job redesign their new job board](https://medium.com/@authenticjobs/a-radically-new-experience-for-job-seekers-employers-a014da572c44?goal=0_df65b6d7c8-7f28d3384a-58965341&mc_cid=7f28d3384a&mc_eid=b0c1856bac#.ln3xsq13k)
 * [Just Login](https://www.justlogin.com)
 * [**Namely - HR for Humans**](http://www.namely.com/)
