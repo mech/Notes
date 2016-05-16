@@ -2,7 +2,7 @@
 
 # Multiple Columns
 
-```scss
+```css
 img {
   width: 100%;}
 

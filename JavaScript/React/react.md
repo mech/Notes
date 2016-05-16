@@ -127,6 +127,7 @@ class App extends React.Component {
 * Think in Elements. Think about the `<img>` element. It has `src`, `width`, `height` properties. It dispatches `load` event when it is fully loaded.
 * Domain-specific components are "containers" and atomic components are "components"
 * [**CSS Modules**](http://glenmaddern.com/articles/css-modules)
+* [CSS Modules by example](http://andrewhfarmer.com/css-modules-by-example/)
 
 ```js
 { this.state.show && 'This is Shown' }

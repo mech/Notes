@@ -109,7 +109,7 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 * [CSRF Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29_Prevention_Cheat_Sheet)
 * [Rails API design without disabling CSRF protection](http://stackoverflow.com/questions/7600347/rails-api-design-without-disabling-csrf-protection)
 * [Flaw in CSRF Handling in Django and Rails](https://www.djangoproject.com/weblog/2011/feb/08/security/)
-* [Is exposing a session's CSRF-protection token safe?](http://stackoverflow.com/questions/144696/is-exposing-a-sessions-csrf-protection-token-safe)
+* [**Is exposing a session's CSRF-protection token safe?**](http://stackoverflow.com/questions/144696/is-exposing-a-sessions-csrf-protection-token-safe)
 * [Caching the uncacheable: CSRF Security](https://www.fastly.com/blog/Caching-the-Uncacheable-CSRF-security)
 
 Any tags which fires a request to an external resource can be used to perform a hidden CSRF attack: `<img>`, `<link>`, `<meta>`, `<embed>`, `<object>`, etc.
@@ -318,3 +318,4 @@ content-security-policy: default-src https: data:; report-uri https://twitter.co
 * [blog.innerht.ml](https://blog.innerht.ml)
 * [Patrick Toomey](http://biasedcoin.com/)
 * [Egor Homakov](http://homakov.blogspot.sg/)
+* [WhiteHat Sec](https://www.whitehatsec.com/blog/)

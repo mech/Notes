@@ -9,7 +9,7 @@ Basically 4 rules:
 3. Order
 4. Flexibility
 
-Global = 92%, Unprefixed = 72%
+Global = 92%, Un-prefixed = 72%
 
 IE9, Opera 12 don't support flexbox.
 

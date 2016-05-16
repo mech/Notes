@@ -47,7 +47,7 @@ For Web app, you got 2 options:
 
 To safely use Web Storage, you must 100% ensure your web app is immune to XSS attacks. That is you sanitize all user inputs and all your `params` are checked. However, this is harder for modern web apps nowadays as many rely on third-party libraries. What happen if those JS libraries are compromised?
 
-[OWASP do not recommend Web Storage to store JWT](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet#Local_Storage) and so is [this advice](https://blog.whitehatsec.com/web-storage-security/).
+[OWASP do not recommend Web Storage to store JWT](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet#Local_Storage) and so is [this advice](https://www.whitehatsec.com/blog/web-storage-security/).
 
 This left HTTPS cookies with HttpOnly flag as the only viable secured way to store token and transport them across to your API server.
 

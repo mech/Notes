@@ -13,6 +13,7 @@
 
 ## Service Object
 
+* [Improving Large Rails Apps with Service Objects](http://aaronlasseigne.com/2016/04/27/improving-large-rails-apps-with-service-objects/)
 * [Service objects in Rails will help you design clean and maintainable code](https://www.netguru.co/blog/service-objects-in-rails-will-help)
 * [Gourmet Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
 

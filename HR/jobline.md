@@ -403,7 +403,7 @@ If there is only 1 candidate to approve, we can show all the details in the emai
 
 * TS approver did not track reject timestamp.. no history.... Jason need to always get the created_at and approved_at. But there is no rejected_at.
 
-We need to have better S3 upload failure recovery:
+We need to have better S3 upload failure recovery. Sometime it is caused by unicode in filename like a Chinese character.
 
 ```
 S13695 failed to upload timesheet: The request signature we calculated does not match the signature you provided. Check your key and signing method.
@@ -424,6 +424,12 @@ S13695 failed to upload timesheet: The request signature we calculated does not 
 ## Change of Approver
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
+
+## Resignation
+
+Eve can submit resignation repeatedly!! This may result in multiple `RCAID2131`, `RCAID2132`, etc. We need to prevent this!
+
+This happen when Eve is on the phone guiding CA to submit resignation, but CA's network is too slow and he press the submit button multiple time.
 
 ## Notification
 
