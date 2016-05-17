@@ -5,6 +5,10 @@
 * [Devise and Rfm?](http://stackoverflow.com/questions/16061134/devise-on-ginjo-rfm)
 * [Official documentation](http://www.filemaker.com/support/product/documentation.html)
 
+## Operators
+
+* [Refining find requests using operators](http://help.filemaker.com/app/answers/detail/a_id/13715/~/refining-find-requests-in-filemaker-pro-using-find-operators)
+
 ## Node (JavaScript??)
 
 * [fmxj](https://github.com/seedcode/fmxj)

@@ -1,6 +1,5 @@
 # Ubuntu
 
-* [**Harden Ubuntu**](http://hardenubuntu.com/)
 * [Basic setup for a new Linux server](http://devo.ps/blog/basic-setup-for-a-new-linux-server/)
 * [Bootable USB](http://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-pc-on-a-mac--cms-21187)
 * [Lightweight server GUI](http://www.htpcbeginner.com/lightweight-desktop-environment-for-ubuntu-server/)
@@ -8,6 +7,49 @@
 * [Disable IPv6](http://askubuntu.com/questions/440649/how-to-disable-ipv6-in-ubuntu-14-04)
 * [How to add and delete users on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
 * [Enter SSH passphrase once](http://askubuntu.com/questions/362280/enter-ssh-passphrase-once)
+
+## Supermicro
+
+Press `<Ctrl>+R` to enter MegaRAID BIOS.
+
+Press `<Del>` to enter AMI BIOS setup.
+
+Drive Group 0 has 2 Virtual Drives in RAID Level 1.
+
+* Restore on AC Power Loss
+* 
+
+## Brand New
+
+```
+▶ sudo bash -c 'echo "deploy ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'
+```
+
+## Firewall UFW
+
+* [Digital Ocean tutorial on UFW](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+
+```
+// Before enabling UFW, allow SSH first
+▶ sudo ufw allow ssh_port/tcp
+
+▶ sudo ufw enable
+▶ sudo ufw status verbose
+▶ sudo ufw show added
+
+// For 14.04
+▶ sudo grep '^### tuple' /lib/ufw/user*.rules
+
+// For 16.04
+// User defined rules are stored in /etc/ufw/user.rules
+▶ sudo grep '^### tuple' /etc/ufw/user*.rules
+```
+
+## Hardening Ubuntu
+
+* [**Harden Ubuntu**](http://hardenubuntu.com/)
+* [Hardening the security of Ubuntu 14.04](https://blog.mattbrock.co.uk/hardening-the-security-on-ubuntu-server-14-04/)
+* []()
 
 ```
 ▶ grep processor /proc/cpuinfo | wc -l
@@ -19,6 +61,10 @@
 
 // Choose startup services like ntsysv
 ▶ apt-get install sysv-rc-conf
+
+// Find what filesystem you using
+▶ df -h -T
+▶ lsblk -f
 ```
 
 ## Create Bootable USB for PC and Mac
@@ -32,6 +78,8 @@
 ▶ diskutil unmountDisk /dev/diskN
 
 ▶ sudo dd if=/Users/mech/Desktop/Ubuntu/ubuntu-14.04.3-server-amd64.dmg of=/dev/rdiskN bs=1m
+
+// Mac OS-X will display a prompt to ask you to reject, if not do the following
 ▶ diskutil eject /dev/diskN
 ```
 
@@ -50,6 +98,7 @@ net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
 net.ipv6.conf.lo.disable_ipv6 = 1
 
+// Reload configuration
 ▶ sudo sysctl -p
 
 // Should see "1"
@@ -75,7 +124,10 @@ Go to `/etc/update-motd.d`
 
 ## SSH
 
+* [Protect multiple authentication errors using fail2ban](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
+
 ```
+// 1st: backup your existing config
 ▶ sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.factory-defaults
 ▶ sudo chmod a-w /etc/ssh/sshd_config.factory-defaults
 ```
@@ -103,7 +155,6 @@ Then restart by `sudo service ssh restart`
 ```
 ▶ ssh-agent bash
 ▶ ssh-add /home/username/.ssh/id_rsa
-▶ 
 ```
 
 ## sysctl.conf
@@ -162,6 +213,7 @@ Restart using `sudo service procps start`
 
 64-bit is called `amd64` and 32-bit is called `i386`. It is called `amd64` because AMD developed the 64-bit instruction extensions. Athlon 64 was the first to release 64-bit x86(x86-64) CPUs.
 
+* 16.04 - Xenial Xerus (4.4.0-21)
 * 14.04.3 - 3.19.0-26
 * 14.10 - Utopic (3.16.0-23-generic)
 * 14.04.2 - (3.16.0-30-generic)
@@ -173,6 +225,8 @@ Restart using `sudo service procps start`
 * 10.04 - Lucid
 
 ```
+▶ lsb_release -r -c -d
+
 // Check how many packages you have
 ▶ dpkg -l | wc -l
 
@@ -244,8 +298,10 @@ iface eth0 inet static
 
 ## APT
 
+Differences between `sudo apt-get install htop` and `sudo apt install htop`?
+
 ```
-▶ apt-cache search ??
+▶ apt search ??
 ▶ aptitude search "?name(^bind)"
 ```
 
@@ -321,6 +377,43 @@ Remember to enable "Memory and Swap Accounting".
 * [Upgrading Docker](http://blog.thestateofme.com/2015/06/23/upgrading-docker/)
 
 We need to use the Docker team's DEB packages.
+
+**New way for 16.04**
+
+```
+▶ sudo apt-get update
+
+▶ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+
+▶ sudo vi /etc/apt/sources.list.d/docker.list
+
+deb https://apt.dockerproject.org/repo ubuntu-xenial main
+
+▶ sudo apt-get purge lxc-docker
+▶ apt-cache policy docker-engine
+▶ sudo apt-get install linux-image-extra-$(uname -r)
+▶ sudo apt-get install docker-engine
+▶ sudo service docker start
+
+▶ sudo groupadd docker
+▶ sudo usermod -aG docker deploy
+▶ // log out and in again
+
+// Adjust memory and swap accounting
+▶ sudo vi /etc/default/grub
+
+GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
+
+▶ sudo update-grub
+▶ sudo shutdown -r now
+
+// Enable UFW forwarding
+▶ 
+▶ 
+```
+
+
+**Old way**
 
 ```
 ▶ apt-get update
