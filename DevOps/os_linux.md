@@ -55,6 +55,7 @@ BOOT_IMAGE=/boot/vmlinuz-3.16.0-31-generic root=UUID=f9868a3d-1a9c-4161-9f88-326
 
 ```
 ▶ mount
+▶ df -h
 ▶ sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
 ▶ lspci | grep RAID
 ```
@@ -122,8 +123,7 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 ```
 // Find public IP address - http://askubuntu.com/questions/95910/command-for-determining-my-public-ip
 ▶ curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
-▶ curl ifconfig.me
-▶ curl ifconfig.me/host
+▶ curl ifconfig.co
 
 // Change IP address, but not persisted!
 ▶ sudo ifconfig eth0 192.168.0.201 net mask 255.255.255.0 broadcast 192.168.0.255

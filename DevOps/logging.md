@@ -120,3 +120,6 @@ Best practice is to send your container logs to syslog with `--log-driver=syslog
 * [Docker-mon - Console monitoring](https://github.com/icecrime/docker-mon)
 * [Statsd, Dogslow](http://engineering.instagram.com/posts/1469070313405892/keeping-instagram-up-with-over-a-million-new-users-in-twelve-hours/)
 * [Tracking slow requests with Dogslow](http://blog.bitbucket.org/2011/05/17/tracking-slow-requests-with-dogslow/)
+
+## Logwatch
+

@@ -49,7 +49,7 @@ Drive Group 0 has 2 Virtual Drives in RAID Level 1.
 
 * [**Harden Ubuntu**](http://hardenubuntu.com/)
 * [Hardening the security of Ubuntu 14.04](https://blog.mattbrock.co.uk/hardening-the-security-on-ubuntu-server-14-04/)
-* []()
+* [What I learned while securing Ubuntu](https://major.io/2015/10/14/what-i-learned-while-securing-ubuntu/)
 
 ```
 ▶ grep processor /proc/cpuinfo | wc -l
@@ -124,8 +124,6 @@ Go to `/etc/update-motd.d`
 
 ## SSH
 
-* [Protect multiple authentication errors using fail2ban](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
-
 ```
 // 1st: backup your existing config
 ▶ sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.factory-defaults
@@ -143,6 +141,7 @@ Edit your `/etc/ssh/sshd_config`:
 
 ```
 PasswordAuthentication no
+LoginGraceTime 10
 PermitRootLogin no
 LogLevel VERBOSE
 Port ??
@@ -155,6 +154,54 @@ Then restart by `sudo service ssh restart`
 ```
 ▶ ssh-agent bash
 ▶ ssh-add /home/username/.ssh/id_rsa
+```
+
+To list current aging for password:
+
+```
+▶ chage -l deploy
+```
+
+## fail2ban
+
+* [Protect multiple authentication errors using fail2ban](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
+* [How fail2ban works](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server)
+* [Reading fail2ban log](http://www.the-art-of-web.com/system/fail2ban-log/)
+
+Postfix is needed to sendmail.
+
+```
+▶ sudo apt install postfix
+▶ sudo apt install fail2ban
+
+// Copy the file to a safe place
+▶ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+
+▶ sudo vi /etc/fail2ban/jail.local
+
+bantime=3600
+findtime = 600
+maxretry = 3
+destemail = tech1@jobline.com.sg
+
+action = %(action_mwl)s
+
+[sshd]
+enabled = true
+port    = ssh
+
+
+▶ sudo service fail2ban stop
+▶ sudo service fail2ban start
+
+// Log is at
+▶ cat /var/log/fail2ban.log
+
+// Generating IP reports
+▶ awk '($(NF-1) = /Ban/){print $NF}' /var/log/fail2ban.log | sort | uniq -c | sort -n
+
+// Since UFW is using iptables anyway
+▶ sudo iptables -S
 ```
 
 ## sysctl.conf
@@ -242,6 +289,9 @@ Restart using `sudo service procps start`
 ```
 ▶ apt-get clean
 ▶ apt-get update
+
+▶ apt list --upgradable
+
 ▶ apt-get upgrade
 ▶ apt-get dist-upgrade
 
@@ -395,6 +445,9 @@ deb https://apt.dockerproject.org/repo ubuntu-xenial main
 ▶ sudo apt-get install docker-engine
 ▶ sudo service docker start
 
+// Start Docker on boot!
+▶ sudo systemctl enable docker
+
 ▶ sudo groupadd docker
 ▶ sudo usermod -aG docker deploy
 ▶ // log out and in again
@@ -408,42 +461,51 @@ GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
 ▶ sudo shutdown -r now
 
 // Enable UFW forwarding
-▶ 
-▶ 
-```
+▶ sudo vim /etc/default/ufw
 
-
-**Old way**
-
-```
-▶ apt-get update
-
-// Most easy way, install + upgrade
-▶ curl -sSL https://get.docker.com/ | sh
-
-// lxc-docker - Old way
-▶ curl -s https://get.docker.com/gpg | sudo apt-key add -
-▶ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
-▶ sudo apt-get update
-▶ sudo apt-get install -y -q lxc-docker
-
-// Edit UFW
-
-▶ vim /etc/default/ufw
 DEFAULT_FORWARD_POLICY="ACCEPT"
+
 ▶ sudo ufw reload
 
-// Upgrading is easy
-▶ apt-get update
-▶ apt-get install lxc-docker
+▶ sudo reboot
+
+//
+// Change log-driver and DNS
+//
+// All .conf files in /etc/systemd/system/docker.service.d
+// overrule the settings from the /usr/lib/systemd/system docker.service file...
+// See http://stackoverflow.com/questions/33784295/setting-dns-for-docker-daemon-on-os-with-systemd
+//
+▶ sudo mkdir /etc/systemd/system/docker.service.d
+▶ sudo vi mydocker.conf
+
+[Service]
+ExecStart=
+ExecStart=/usr/bin/docker daemon --dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog -H fd://
+
+▶ sudo systemctl daemon-reload
+▶ sudo systemctl restart docker
+▶ systemctl status docker.service
+```
+
+**Note: The following may not work for systemd system**
+
+```
+// Edit Docker config, does not seems to be working for systemd 16.04
+▶ sudo vim /etc/default/docker
+
+DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog"
+```
+
+**Old way: Don't use it**
+
+```
+// Most easy way, install + upgrade
+▶ curl -sSL https://get.docker.com/ | sh
 
 // Give your user non-root docker access
 ▶ sudo groupadd docker
 ▶ sudo gpasswd -a ${USER} docker
 ▶ sudo service docker restart
 ▶ exit // Need to logout
-```
-
-```
-▶ sudo usermod -aG docker deploy
 ```
