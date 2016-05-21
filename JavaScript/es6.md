@@ -6,6 +6,7 @@
 
 ---
 
+* [Code styleguide](https://github.com/netshoes/styleguide)
 * [**ES6: New features**](http://es6-features.org/#Constants)
 * [**ES6 Overview in 350 bullet points**](https://ponyfoo.com/articles/es6)
 * [**JavaScript Modules**](http://jsmodules.io/)
@@ -213,6 +214,14 @@ deleteComment(comment) {
   comments.splice(commentIndex, 1);
   this.setState({ comments });
 }
+```
+
+```js
+<Something {...propsA} propB="B" />
+
+// Spread attributes actually use Object.assign
+
+React.createElement(Something, Object.assign({}, propsA, {propB: 'B'}))
 ```
 
 ## Reduce

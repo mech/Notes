@@ -236,6 +236,8 @@ Provides better cross-browser consistency in the default styling of HTML element
 
 ## Form
 
+* [**A Form Was Never Just a Sheet of Paper**](https://medium.com/life-learning/a-form-was-never-just-a-sheet-of-paper-161cc98d6ce2#.pj3qhseox)
+* [**7 Things Every Designer Needs to Know about Accessibility**](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b#.eynhvw4fv)
 * [**Designing more efficient: forms structure**](https://uxplanet.org/designing-more-efficient-forms-structure-inputs-labels-and-actions-e3a47007114f#.ama7nvnk4)
 * [**Designing more efficient: Assistance and validation**](https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d#.arayttnwr)
 * [WTF Forms](http://wtfforms.com/)

@@ -8,6 +8,14 @@
 * [How to add and delete users on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
 * [Enter SSH passphrase once](http://askubuntu.com/questions/362280/enter-ssh-passphrase-once)
 
+## Useful status commands
+
+```
+▶ netstat -tupln
+▶ sudo netstat watch -anlp
+▶ service --status-all | grep "[ + ]"
+```
+
 ## Supermicro
 
 Press `<Ctrl>+R` to enter MegaRAID BIOS.
@@ -17,12 +25,21 @@ Press `<Del>` to enter AMI BIOS setup.
 Drive Group 0 has 2 Virtual Drives in RAID Level 1.
 
 * Restore on AC Power Loss
-* 
 
 ## Brand New
 
 ```
 ▶ sudo bash -c 'echo "deploy ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'
+
+▶ sudo dpkg-statoverride --update --add root sudo 4750 /bin/su
+
+// Check your swap file is on during installation
+▶ cat /etc/fstab
+
+// Also shared memory?
+▶ sudo vi /etc/fstab
+
+tmpfs		/run/shm	tmpfs	defaults,noexec,nosuid	0	0
 ```
 
 ## Firewall UFW
@@ -83,28 +100,6 @@ Drive Group 0 has 2 Virtual Drives in RAID Level 1.
 ▶ diskutil eject /dev/diskN
 ```
 
-## Install GUI on Server
-
-```
-▶ 
-```
-
-## Disable IPv6
-
-```
-▶ sudo vi /etc/sysctl.conf
-
-net.ipv6.conf.all.disable_ipv6 = 1
-net.ipv6.conf.default.disable_ipv6 = 1
-net.ipv6.conf.lo.disable_ipv6 = 1
-
-// Reload configuration
-▶ sudo sysctl -p
-
-// Should see "1"
-▶ cat /proc/sys/net/ipv6/conf/all/disable_ipv6
-```
-
 ## Landscape and MOTD
 
 Remove the annoying landscape motd:
@@ -119,8 +114,6 @@ exclude_sysinfo_plugins = LandscapeLink
 ```
 
 Go to `/etc/update-motd.d`
-
-
 
 ## SSH
 
@@ -143,8 +136,12 @@ Edit your `/etc/ssh/sshd_config`:
 PasswordAuthentication no
 LoginGraceTime 10
 PermitRootLogin no
+PermitEmptyPasswords no
+DenyUsers root
+DenyGroups root
+AllowUsers <accountName>
 LogLevel VERBOSE
-Port ??
+Port <sshPort>
 ```
 
 Then restart by `sudo service ssh restart`
@@ -219,9 +216,14 @@ Typical thing to tweak here is increase open files limit, increase queue for lis
 
 ## Harden Network
 
-Edit `/etc/sysctl.d/10-network-security.conf`
+Edit both `/etc/sysctl.conf` and `/etc/sysctl.d/10-network-security.conf` to include the same information:
 
 ```
+# Disable IPv6
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+
 # Ignore ICMP broadcast requests
 net.ipv4.icmp_echo_ignore_broadcasts = 1
 
@@ -254,7 +256,21 @@ net.ipv4.conf.default.accept_source_route = 0
 net.ipv6.conf.default.accept_source_route = 0
 ```
 
-Restart using `sudo service procps start`
+```
+// Reload configuration
+▶ sudo service procps start
+▶ sudo sysctl -p
+
+// Should see "1"
+▶ cat /proc/sys/net/ipv6/conf/all/disable_ipv6
+```
+
+Include these only at `/etc/sysctl.conf`
+
+```
+vm.panic_on_oom = 1
+kernel.panic = 10
+```
 
 ## Releases
 

@@ -62,6 +62,10 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [How Sketch took over 200GB](https://medium.com/@thomasdegry/how-sketch-took-over-200gb-of-our-macbooks-cb7dd10c8163)
 * [Color mismatch when exporting?](https://www.designernews.co/stories/55640-color-saturation-on-sketch-exports)
 
+## Symbols, nested symbols, re-usable UI
+
+* [Sketch Workflow - Atomic Symbols](https://medium.com/sketch-app-sources/sketch-workflow-atomic-symbols-2b3c67babf08#.ckp4kw37k)
+
 ## Tutorials
 
 * [Vector Boom](http://vectorboom.com/)

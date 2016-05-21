@@ -1,5 +1,7 @@
 # React
 
+- [Hacking with React](http://www.hackingwithreact.com/)
+- [React Demystified](http://blog.reverberate.org/2014/02/react-demystified.html)
 - [**Future: React Basic**](https://github.com/reactjs/react-basic)
 - [React in re-implemented in jQuery](https://medium.com/javascript-inside/learning-react-without-using-react-part-2-703621a89432#.9mvg7uoda)
 - [Qiita blog](http://qiita.com/kimagure/items)

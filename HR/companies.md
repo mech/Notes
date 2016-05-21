@@ -9,7 +9,7 @@ Notable companies in HR domain.
 * [The CSI Companies](http://thecsicompanies.com/)
 * [Staffing Industry Analysts](http://www.staffingindustry.com/)
 * [Advantage Resourcing](http://www.advantageresourcing.com/services/default/opcoid/25230/)
-* [Smart Recruiters](https://www.smartrecruiters.com/)
+* [**Smart Recruiters**](https://www.smartrecruiters.com/)
 * [HIRED](https://hired.com/)
 * [Applicant Insight - Background checker](https://www.applicantinsight.com/)
 * [Health-care, but worth checking out their Kanban](http://www.carecloud.com/ehr/)

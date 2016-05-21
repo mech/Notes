@@ -1,5 +1,6 @@
 # Router
 
+* [How the best frontend router should look like?](http://us5.campaign-archive1.com/?u=1bb42b52984bfa86e2ce35215&id=4f1340ac7c&e=62063811bd)
 * [Managing the URL in a Redux app](http://blog.marvelapp.com/managing-the-url-in-a-redux-app/)
 * [On the changes in v2](https://medium.com/rackt-and-roll/on-the-changes-in-react-router-v2-d2f362af5b99#.v84gij651)
 * [**Original router code**](https://gist.github.com/ryanflorence/21ce8cb052eebbe7dac3)

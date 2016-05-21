@@ -13,6 +13,7 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 data_source.methods.grep(/^get_(.*)_info$/) { Computer.define_component $1 }
 ```
 
+* [Lessons learned from some of the best Ruby codebases](http://blacklane.github.io/2016/04/23/lessons-learned-from-some-of-the-best-ruby-codebases-part-1/)
 * [**Ruby Web Dev The Other Way**](http://rwdtow.stdout.in/)
 * [Prefer duplication over the wrong abstraction](http://us3.campaign-archive2.com/?u=1090565ccff48ac602d0a84b4&id=92902a19e4&e=6dbbf45b40)
 * [Ruby 2.3 features](http://nithinbekal.com/posts/ruby-2-3-features/)

@@ -77,6 +77,14 @@ The master process reads and executes the nginx configuration, binds the necessa
 * [Some nginx example](http://tech.yunojuno.com/trifecta-part-2-docker)
 * [Nginx + Passenger](https://gist.github.com/mikhailov/711913)
 
+## fail2ban and ModSecurity
+
+Can docker provide these 2 functionality also?
+
+Or we send container nginx log to syslog and let host's fail2ban to process that?
+
+See http://stackoverflow.com/questions/36180792/how-to-make-fail2ban-read-json-docker-logs
+
 ## SSL
 
 * [HTTPS Performance Tuning](http://blog.httpwatch.com/2009/01/15/https-performance-tuning/)

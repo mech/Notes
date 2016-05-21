@@ -99,6 +99,16 @@ grep "info" * -R
 * [The Standard Manual](http://thestandardsmanual.com/)
 * [Creating styleguides](http://alistapart.com/article/creating-style-guides)
 
+## Design System
+
+More than just a style guide
+
+* [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
+* [Google Color](https://www.google.com/design/spec/style/color.html#)
+* [Google Motion](https://www.google.com/design/spec/motion/material-motion.html#)
+* [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)
+
+
 ## Companies' CSS
 
 * [Github CSS](http://markdotto.com/2014/07/23/githubs-css/)
