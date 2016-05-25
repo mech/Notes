@@ -10,6 +10,7 @@ It's much easier to add features and create an illusion that the software is pow
 
 **https://medium.com/@hvost/designer-news-most-popular-stories-of-2014-547e0e89865b**
 
+* [How we cut our MVP in half to launch KIDLY](https://medium.com/simple-human/how-we-cut-our-mvp-in-half-to-launch-kidly-12282caa08ae#.2wu9pvok6)
 * [**What I learned about product design**](https://medium.com/@maximebneteau/what-i-learned-about-product-design-from-307217889d9a#.swzlnkov0)
 * [**Facebook Business Design Principles**](https://medium.com/elegant-tools/facebook-s-four-business-design-principles-for-crafting-elegant-tools-581a7055dee8#.mtpdbunz9)
 * [**Design Thinking come of age**](https://hbr.org/2015/09/design-thinking-comes-of-age)

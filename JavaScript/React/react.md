@@ -1,5 +1,6 @@
 # React
 
+- [Reverse Engineering React](https://vimeo.com/album/3930691)
 - [Hacking with React](http://www.hackingwithreact.com/)
 - [React Demystified](http://blog.reverberate.org/2014/02/react-demystified.html)
 - [**Future: React Basic**](https://github.com/reactjs/react-basic)
@@ -349,6 +350,7 @@ gulp.task('scripts', function() {
 
 ## Component - ReactElement
 
+* [React Elements vs React Components vs Component Backing Instances](https://medium.com/@fay_jai/react-elements-vs-react-components-vs-component-backing-instances-14d42729f62#.d825s6a90)
 * [React Component, Elements and Instances](https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca#.bq8rgq5i1)
 * [ReactNode, ReactElement, ReactFragment, ReactComponent](https://facebook.github.io/react/docs/glossary.html)
 * [Understanding the difference between React Elements and Components](https://quickleft.com/blog/understanding-the-difference-between-react-elements-and-components/)

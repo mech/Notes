@@ -159,6 +159,7 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 
 ---
 
+* [BEM advice from developers](https://www.sitepoint.com/bem-smacss-advice-from-developers/)
 * [CSSWizardry introducing BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 * [multiple classes vs `@extend`](http://bensmithett.com/bem-modifiers-multiple-classes-vs-extend/)
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)

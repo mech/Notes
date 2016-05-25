@@ -1,11 +1,13 @@
 # Redux
 
+* [**Why does the Elm Architecture matter to Redux developers?**](http://salsita.github.io/redux-elm/)
 * [Getting Started with React, Redux and Immutable: a Test-Driven Tutorial](http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/)
 * [**The Anatomy Of A React Redux App**](https://medium.com/@rajaraodv/the-anatomy-of-a-react-redux-app-759282368c5a#.gptl457nd)
 * [Has Redux lost it the API design?](https://youtu.be/lk4M6FoRNgI)
 * [**React without undue complications**](https://medium.com/@davidvlsea/react-without-undue-complications-f3490403fdc0#.f8z1106i1)
 * [Step by step guide to building Redux apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.6nk2flafc)
 * [**Middlewares and Redux Lifecycle**](https://medium.com/@rajaraodv/using-middlewares-in-react-redux-apps-f7c9652610c6#.u1xzqeqm3)
+* [React Redux Best Practices](http://nalwaya.com/javascript/2016/05/02/react-js-best-practices.html)
 
 > React is not reactive because it does not observe the data
 
@@ -307,6 +309,10 @@ export function login(email, password) {
 ```
 
 ## Reducer
+
+> Reducers return Objects. Combine reducers adds up these Objects. Provider gives this Combined Object to all Components.
+
+---
 
 > Normally we suggest you to only run a single reducer on any state slice.
 >

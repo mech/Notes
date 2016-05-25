@@ -219,6 +219,7 @@ var searchResultsSets = keyups
 
 ## Generators
 
+* [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435#.h0ry57a0g)
 * [Generators vs Callbacks](https://github.com/creationix/js-git#generators-vs-callbacks)
 * [generator-examples](https://github.com/btholt/generator-examples)
 

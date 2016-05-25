@@ -107,7 +107,11 @@ More than just a style guide
 * [Google Color](https://www.google.com/design/spec/style/color.html#)
 * [Google Motion](https://www.google.com/design/spec/motion/material-motion.html#)
 * [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)
+* [How to be more organized while designing UI](https://medium.com/sketch-app-sources/how-to-be-more-organized-while-designing-ui-90d2d69cfb4f#.luq47e4du)
 
+> It's easier to put together a page from some objects than starting with a blank page. It's also easier to assemble new designs a long time after you haven't worked on the project or if you have to hand it down to another designer.
+>
+> Using a basic set of objects and parameters forces you to use a lesser amount of types of paragraphs, headers, footers, modals, buttons, or list items that you would use if you made something from scratch. Use something from your library first and if it doesn't work, create a new object. This makes your work more consistent. You will never have 6 types of almost the same text color again.
 
 ## Companies' CSS
 

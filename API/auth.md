@@ -1,5 +1,6 @@
 # Authentication
 
+* [Rails Tutorial - Chapter 8 - Log in, log out](https://www.railstutorial.org/book/log_in_log_out)
 * [**How to do stateless & cookie-less authentication**](http://stackoverflow.com/questions/20588467/how-to-do-stateless-session-less-cookie-less-authentication)
 * [MailChimp API v3.0 OAuth2](http://kb.mailchimp.com/api/article/about-oauth2)
 * [Gems you might not need! AdminController and Forbid pattern](https://vimeo.com/39498553)
@@ -20,6 +21,10 @@ Provider is at https://api.jobline.com.sg/v1. Consumer will be:
 * Candidates? Maybe not!
 
 The de-facto practice for API authentication is to provide an API Key/Secret combination to the consumer of your API and have them submit as the `Authorization` header on every request.
+
+## Re-login with a Modal
+
+* [Implementing a smart Login Modal with Redux, reselect and ReactJS](https://medium.com/@dorsha/implement-login-modal-with-redux-reselect-and-reactjs-668c468bcbe3#.10s6j3h97)
 
 ```
 Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==

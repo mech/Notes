@@ -83,6 +83,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
 
+## Xero
+
+* [How to integrate Node.JS/React App with Xero](https://nodevision.com.au/blog/post/how-to-integrate-nodejsreact-app-with-xero)
+
 ## Story-First
 
 > A business cannot survive on first-time use and engagement alone. While we were proud of the product we built and the results it was getting, this was just one usage story: the first-time usage story. What about the rest? What might be the next inciting incident to kick off a new story? What would be the next beginning, middle, and end? Then what? What if someone did not return? Cliffhangers can happen during a flow that lasts a few minutes or over a period of days, months, or years. Over time, we developed stories big and small, one-offs and serials, improving the story for both customers and the business. Since we started building story-first, FitCounter has tripled in size and tripled its valuation. It is now a profitable business and recently closed yet another successful round of financing so that it can continue this growth.
@@ -422,6 +426,8 @@ S13695 failed to upload timesheet: The request signature we calculated does not 
 ```
 
 ## Change of Approver
+
+* [See Zoho approval process](https://www.zoho.com/people/help/approval-process.html)
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
 

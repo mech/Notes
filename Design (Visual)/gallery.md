@@ -56,6 +56,12 @@
 * [First-time UX](http://firsttimeux.tumblr.com/)
 * [UI Movement](http://uimovement.com/)
 * [UI Garage](http://uigarage.net/)
+* [Designers List](http://www.designerslist.info/)
+* [Lapa](http://lapa.ninja/)
+* [Color - Design Seeds](http://www.design-seeds.com/)
+* [Color - Color Lisa](http://colorlisa.com/)
+* [Code My UI](http://codemyui.tumblr.com/)
+* [UX/UI Research](http://ux-ui-research.tumblr.com/)
 
 ---
 

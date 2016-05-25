@@ -13,6 +13,8 @@ Global = 92%, Un-prefixed = 72%
 
 IE9, Opera 12 don't support flexbox.
 
+* [**Flexbox Patterns**](http://www.flexboxpatterns.com/home)
+* [20 examples of UI components built using flexbox](http://bashooka.com/coding/20-examples-of-ui-components-built-using-css-flexbox/)
 * [5 flexbox techniques you need to know about](http://tutorialzine.com/2016/04/5-flexbox-techniques-you-need-to-know-about/)
 * [Flexbox React](http://nachoalvarez.me/flexbox-react/)
 * [**flexbox.webflow**](https://flexbox.webflow.com)
