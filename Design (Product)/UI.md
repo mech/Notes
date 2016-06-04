@@ -100,6 +100,8 @@
 * On-boarding (first task), proactive suggestions for next steps, and moving the user from training wheels to deeper engagement.
 * Nothing to install, nothing to configure—just **flow**.
 * App's needlessly bespoke interface
+* **Instant gratification!**
+* 
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

@@ -427,7 +427,7 @@ S13695 failed to upload timesheet: The request signature we calculated does not 
 
 ## Change of Approver
 
-* [See Zoho approval process](https://www.zoho.com/people/help/approval-process.html)
+* [See ZOHO approval process](https://www.zoho.com/people/help/approval-process.html)
 
 If approver for a certain SRID or project has been made, all pending leaves, timesheet, etc need to be updated to the new approver. Any email for the pending items need to be resend so the "new" approver will know to act on it.
 

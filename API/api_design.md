@@ -1,5 +1,7 @@
 # Design
 
+REST and CRUD are two very different paradigms for two very different worlds. Even though Rails routes provide HTTP verbs and map nicely to CRUD operations, you shouldn't fixated your resources too much on CRUD.
+
 API [Platform](http://platformed.info/) -> Ecosystem
 
 1. Model around business domain. See DDD. Bounded context and sub-domain.
@@ -51,6 +53,12 @@ https://api.jobline.com.sg/getAccount
 // Better and make use of HTTP method instead
 https://api.jobline.com.sg/account
 ```
+
+## URL Design
+
+A straightforward base URL will encourage early adopters to just try simple operations with your API, thus creating a sense of instant gratification.
+
+Avoid verbs in a resource URL. Instead, use HTTP verbs to operate on collections and elements, and avoid putting verbs in your base URLs.
 
 ## Token
 

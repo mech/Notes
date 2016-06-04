@@ -13,6 +13,12 @@ PUNCT = ASCII.grep(/[[:punct:]]/)
 data_source.methods.grep(/^get_(.*)_info$/) { Computer.define_component $1 }
 ```
 
+```ruby
+%i(alpha bravo) # => [:alpha, :bravo]
+
+%w(foo bar baz).grep_v(/ba/) #=> ['foo']
+```
+
 * [Lessons learned from some of the best Ruby codebases](http://blacklane.github.io/2016/04/23/lessons-learned-from-some-of-the-best-ruby-codebases-part-1/)
 * [**Ruby Web Dev The Other Way**](http://rwdtow.stdout.in/)
 * [Prefer duplication over the wrong abstraction](http://us3.campaign-archive2.com/?u=1090565ccff48ac602d0a84b4&id=92902a19e4&e=6dbbf45b40)
@@ -104,7 +110,7 @@ end
 
 In Ruby 2.3, you can `dig` through nested hash.
 
-```
+```ruby
 def method_missing(name, *args, &block)
   profile.fetch(name.to_s) { super }
   
@@ -123,7 +129,7 @@ end
 
 ## Module
 
-```
+```ruby
 module FmStore
   module Configurable
     attr_accessor :hostname, :account_name, :password
@@ -147,7 +153,7 @@ FmStore.hostname # Notice the use of include in this way is equivalent to extend
 
 See http://stackoverflow.com/questions/10039039/why-self-method-of-module-cannot-become-a-singleton-method-of-class
 
-```
+```ruby
 module Faraday
   # These are all utility class methods
   class << self
@@ -163,7 +169,7 @@ Prefer `module_function` over `extend self`.
 
 ### `module_eval and module_exec`
 
-```
+```ruby
 class Thing; end
 Thing.module_exec do
   def hi; "Hi"; end

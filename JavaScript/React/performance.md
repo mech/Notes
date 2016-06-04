@@ -12,6 +12,8 @@ Virtual DOM (difference algorithm), event delegation, batched DOM updates all co
 
 http://binarymuse.github.io/react-primer/build/index.html?6
 
+* [Optimize ES6 Code For Output Minification (Ninja Tricks Included)](https://medium.com/modus-create-front-end-development/optimize-es6-output-size-performance-ninja-tricks-included-d4fc2d313f66#.d51n5pchx)
+* [**why-did-you-update**](https://github.com/garbles/why-did-you-update)
 * [React+Performance=? by Paul Lewis](https://aerotwist.com/blog/react-plus-performance-equals-what/)
 * [Preventing layout thrashing](http://wilsonpage.co.uk/preventing-layout-thrashing/)
 * [**Perf audit for reddit-mobile**](https://github.com/reddit/reddit-mobile/issues/247)

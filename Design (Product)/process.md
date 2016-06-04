@@ -1,5 +1,7 @@
 # Process
 
+* [**Rapid iteration in Sketch**](https://medium.com/sketch-app-sources/rapid-iteration-in-sketch-b183346d4707#.ntzuxo5nl)
+
 > "A sculptor may sit down to sculpt something without a clear idea of the exact form it will take."
 
 ---

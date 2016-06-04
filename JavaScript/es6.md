@@ -80,6 +80,7 @@ You have to call `super` before you can use access `this`.
 
 * [How to use classes and sleep at night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4)
 * [Not Awesome: ES6 Classes](https://github.com/joshburgess/not-awesome-es6-classes/)
+* [JavaScript Factory Functions vs Constructor Functions vs Classes](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e#.xiackfspp)
 
 ## Template String
 

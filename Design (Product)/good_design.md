@@ -1,5 +1,9 @@
 # Good Design
 
+> Experience is the brand.
+> 
+> Take your work seriously but not yourself.
+
 [**Design MUST deliver RESULT**](https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table)
 
 > A "great" design which produces bad outcomes - low engagement, little utility, few downloads, indifference on the part of the target market - should be regarded as a failure.

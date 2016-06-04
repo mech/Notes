@@ -137,6 +137,15 @@ Redux is primarily intended for "application state".
 
 > The way I think about it, if you create an app with Redux, embrace the single state tree. Put UI state there as well. However if it gets tedious and frustrating don’t be afraid to put state into the components. My point is that use single state tree unless it is awkward, and only do this when it simplifies things for you rather than complicates them. That’s the only guideline.
 
+Flux is about application states, using Flux for component states is an anti-pattern!
+
+> One problem we suffered from when we first started using Redux was an over-eagerness to extract state into our Redux store. In some cases, this led to using Redux in places where component state was a better fit.
+>
+> Problems can arise when a component unmounts but its "state" is left over inside the store, or when two different components are attempting to read and modify the same slice of state. It also involves splitting logic over multiple files. By contrast, component state has the enormous benefit of being confined to a single component. Redux works best for concerns that are more global — or app level — in nature.
+> 
+> Once we realized our error, we found it was harder to refactor Redux reducers back to normal component state than it would have been to refactor component state into a Redux reducer.
+> Now, our approach is to implement features using component state first, and only move things into Redux once it becomes necessary.
+
 ## Redux and Forms
 
 * [Using debounce to save state upstream?](https://gist.github.com/markerikson/554cab15d83fd994dfab)
@@ -406,6 +415,7 @@ Intercept action. Middleware transforms async actions before they reach the redu
 
 ## I/O, Effects, Async
 
+* [**Redux-Elm: The problem with Redux and how to fix it**](http://blog.javascripting.com/2016/05/21/the-problem-with-redux-and-how-to-fix-it/)
 * [Issue 1528 - Reducer Composition with Effects in JavaScript](https://github.com/reactjs/redux/issues/1528#issuecomment-198352851)
 * [redux-saga, redux-effects, redux-side-effects, redux-loop](https://twitter.com/dan_abramov/status/689639582120415232)
 * [Why do we need middleware for async flow in Redux?](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34623840#34623840)

@@ -109,6 +109,8 @@ end
 
 ## HTTP Status Code
 
+* [httpstatuses](https://httpstatuses.com/)
+
 * **201 - :created**
 * 202 - :accepted
 * **204 - :no_content**

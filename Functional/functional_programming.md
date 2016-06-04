@@ -16,6 +16,8 @@ We're still stuck with mostly "von Neumann" style languages that talk about stat
 
 ## Recursion and Loop
 
+* [Recursion Explained with the Flood Fill Algorithm (and Zombies and Cats)](http://inventwithpython.com/blog/2011/08/11/recursion-explained-with-the-flood-fill-algorithm-and-zombies-and-cats/)
+
 If we are not allowed to use for-loop, how are we going to access every item in a list. Say hello to your new friend, recursion!
 
 ```js

@@ -18,3 +18,4 @@ To deal with external world with side effects, use a driver.
 ## Videos
 
 * [What if the user was a function?](https://www.youtube.com/watch?v=1zj7M1LnJV4)
+* [Learning how to ride: An introduction to Cycle.js](https://www.youtube.com/watch?v=31URmaeNHSs)

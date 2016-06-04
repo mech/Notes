@@ -331,6 +331,8 @@ numrange(5,15) * numrange(10,20);
 
 In your `postgresql.conf`, the `default_text_search_config` is set to `pg_catalog.english`.
 
+* [Materialized View](https://github.com/thoughtbot/scenic)
+* [**Video: Multi-table Full Text Search with Postgres**](https://www.youtube.com/watch?v=OzHhJPlgZaw)
 * [UpStats job search using Postgres FTS](http://blog.garage-coding.com/2015/12/18/postgres-fulltext-search.html)
 * [pg_search Ruby gem](http://isotope11.com/blog/postgres-search-using-pg-search)
 * [PostgreSQL's own FTS](http://www.postgresql.org/docs/current/static/textsearch.html)
@@ -421,12 +423,6 @@ CREATE TYPE question_type AS ENUM(
 );
 ```
 
-## Videos
-
-* [Postgres - The bits you haven't found](https://vimeo.com/61044807)
-* [PGCon 2014](https://www.youtube.com/watch?v=oQ1LSW31Y1A&list=PLWW0CjV-Tafa2jvcjihXwSvZZKsLAsb9Y#t=2492)
-* [dotScale - Databases The Long View](https://youtu.be/8wligryH_gY)
-
 ## Stories
 
 * [Scaling PostgreSQL at Braintree](https://www.braintreepayments.com/braintrust/scaling-postgresql-at-braintree-four-years-of-evolution)
@@ -511,3 +507,10 @@ language sql;
 ## Blog
 
 * [the build](http://thebuild.com/blog/)
+
+## Videos
+
+* [Postgres - The bits you haven't found](https://vimeo.com/61044807)
+* [PGCon 2014](https://www.youtube.com/watch?v=oQ1LSW31Y1A&list=PLWW0CjV-Tafa2jvcjihXwSvZZKsLAsb9Y#t=2492)
+* [dotScale - Databases The Long View](https://youtu.be/8wligryH_gY)
+* [Postgres present and future - PyCon 2016](https://www.youtube.com/watch?v=rYSSX8mdbMk)

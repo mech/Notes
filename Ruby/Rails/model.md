@@ -66,3 +66,7 @@ class Exhibit < SimpleDelegator
   end
 end
 ```
+
+## Enum
+
+* [Ruby on Enums, Queries and Rails 4.1](https://hackhands.com/ruby-on-enums-queries-and-rails-4-1/)

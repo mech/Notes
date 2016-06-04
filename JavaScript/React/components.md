@@ -463,6 +463,8 @@ $('body').react(TodoList, {items: ['Get milk']});
 
 ## Examples
 
+* [Create auto-complete component](http://hackingbeauty.com/create-a-reactjs-component-part1/)
+
 ```js
 class link { // No need extends?
   render() {
