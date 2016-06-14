@@ -1,5 +1,9 @@
 ## UI
 
+> The little things matter
+
+---
+
 > The UI is part of user's digital body language - [How UI twist your words](https://medium.com/user-experience-design-1/facebook-and-how-uis-twist-your-words-4ceedc5fd93#.838m03i70)
 
 > You have to zoom in and out between the general and the specific.
@@ -123,6 +127,10 @@ The interface was limiting us. We needed something with no interface.
 Picking the right thing to say, and the tone of your dialogue with the user, is crucial.
 
 > Conversational apps are therefore organized around the way I organize my life, rather than the way the app maker might dictate.
+
+## Color Blindness
+
+Do not only use color. Go for contrasts and shapes.
 
 ## Zero UI
 
@@ -276,3 +284,4 @@ Anytime you have a list, you need to think about categorisation, grouping, filte
 
 * [User Interface (UX) Techniques](https://www.youtube.com/watch?v=7OSkB4BCx00)
 * [Why you're over-thinking your UI/UX](https://www.youtube.com/watch?v=Is2O666qDPs)
+* [Small Details, Big Impact By Yehuda Katz and Liz Baillie](https://www.youtube.com/watch?v=533rIdxPF10)

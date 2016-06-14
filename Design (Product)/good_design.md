@@ -1,5 +1,9 @@
 # Good Design
 
+> "Here's what our product can do for you". "Here's what you can do with our product".
+
+---
+
 > Experience is the brand.
 > 
 > Take your work seriously but not yourself.

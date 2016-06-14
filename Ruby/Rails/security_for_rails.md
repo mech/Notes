@@ -1,5 +1,7 @@
 # Security for Rails
 
+> TRUST NO ONE, ESPECIALLY THE CLIENT!
+
 * [Ruby on Rails Security Guide](http://guides.rubyonrails.org/security.html)
 * [OWASP's cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
 * [Sakurity Blog](http://sakurity.com/blog)
@@ -10,6 +12,27 @@
 * [Open Redirect Vulnerability](http://homakov.blogspot.sg/2014/01/evolution-of-open-redirect-vulnerability.html)
 * [Encrypt fields like NRIC and still make it searchable?](http://blog.iempire.ru/2015/12/18/simple-rails-encryption/)
 * [With new features come new vulnerability](http://homakov.blogspot.sg/2012/06/saferweb-with-new-features-come-new.html)
+* [**OWASP Proactive Controls**](https://www.owasp.org/index.php/OWASP_Proactive_Controls)
+
+```ruby
+# Danger - un-scoped
+PaymentMethod.find(params[:id]).delete
+
+# More secured
+current_user.payment_methods.find(params[:id]).delete
+```
+
+* Insecure Direct Object Reference - "Un-scoped Find"
+
+## Checklist
+
+- [ ] Make sure `current_user` can access data/perform action
+- [ ] Never trust the client
+- [ ] Rate limit important actions
+
+## SQL Injection
+
+* [Rails SQL Injection](http://rails-sqli.org/)
 
 ## Basic Tools
 
@@ -64,3 +87,9 @@ Capital `A` and `Z`.
 
 * [rack-attack](https://github.com/kickstarter/rack-attack)
 * [secureheaders](https://github.com/twitter/secureheaders)
+
+## Videos
+
+* [Sec Casts](https://seccasts.com/)
+* [But Doesn't Rails Take Care of Security for Me?](https://www.youtube.com/watch?v=3P9naxOfUC4)
+* [The State of Web Security](https://www.youtube.com/watch?v=UoiCylwUoq4)

@@ -219,6 +219,7 @@ window.addEventListener('scroll', onScroll, false);
 
 ## HTML Boilerplate
 
+* [A list of everything that could go in the `<head>` of your document](https://github.com/joshbuchea/HEAD)
 * [HTML5 Bones](http://html5bones.com/)
 * [Initializr](http://www.initializr.com/)
 * [Use `<!doctype html>` and not <!DOCTYPE html> as it compresses better](http://encode.ru/threads/1889-gzthermal-pseudo-thermal-view-of-Gzip-Deflate-compression-efficiency)

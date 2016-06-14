@@ -29,6 +29,8 @@ Service object encapsulates a single process of the business logic.
 
 Service object is also not RESTful API, SOA, or even microservices.
 
+Services is functional, they don't store any states. Services get input and produce output.
+
 ## Presenter
 
 You can think of presenter as a display/screen data structure with no HTML.

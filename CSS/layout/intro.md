@@ -1,5 +1,7 @@
 # Introduction to Layout in CSS
 
+* [IBM Design Language - Layout](http://www.ibm.com/design/language/framework/visual/layout)
+
 ## Box Model
 
 HTML elements generate rectangular box called the *element box*.

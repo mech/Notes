@@ -1,6 +1,14 @@
 # Data
 
+Having metric does not mean you understand anything. Seeing metric data varying does not mean you understand any situation.
+
+Averages (Bell Curve, Normal Distribution) mask problems. Graph the median instead, or 95th or even 99th percentile.
+
+[Lognormal](https://www.youtube.com/watch?v=533rIdxPF10)
+
 > NBA Final - TNT - Give them stats papers!
+
+Can you visualize your hiring process (ATS) with Network Analysis, Clustering... Modular and Combinatorial.
 
 * [Geckoboard](https://www.geckoboard.com/learn/kpi-examples/sales-kpis/#.Vzw6YpN94UF)
 
@@ -34,6 +42,10 @@ Not a lot of "predictive patterns" to gain ☹️.
 > Predict what's going to happen, instead of waiting for it to happen (requires lots of data!)
 
 Too many businesses regard data analytics as pertaining mainly to realizing value from some existing data.
+
+## Multidimensional Filtering
+
+https://bugsnag.com/pricing
 
 ## Bots and Conversational Commerce?
 

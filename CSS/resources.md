@@ -1,6 +1,6 @@
 # Resources
 
-**CSS is hard — because it is global**
+**CSS is hard — because it is global** Cascading and inheritance issues, source order problems, etc.
 
 ```
 https://smacss.com/signin

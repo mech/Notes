@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+Emergent behaviors? Abstraction can emerge useful behaviors? Builder build things to be used in different way. Lego blocks. Modular pieces of functions.
+
 > As a consequence, Taylor says, the customers who really "get" Quip have documents that are completely different than the documents they had in the last generation of products: rather than memos and contracts, they're creating team checklists for project management, spreadsheets to track recruiting candidates and editorial calendars, and year-long documents full of weekly meeting notes.
 
 Checklist for approving?
@@ -82,6 +84,10 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 > Genetic programming is the process of simulating nature’s evolution system by producing populations of candidate programs and filtering out the programs that don’t pass the tests. The candidates that do pass the tests survive and form the basis of the next generation.
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
+
+## Marketability, Bias, Level the Playing Field
+
+* [Hacked and Hired](https://www.youtube.com/watch?v=rktRuNfmW9I)
 
 ## Xero
 
@@ -309,6 +315,8 @@ Exit Survey, longitudinal study, Attitudinal data
 Treat recruiters as **marketers**, where they have to perform data-driven campaigns. Recruiters need to sell a product (Job Order) to potential customers (candidates) and a well-run campaign supported by data-driven system is the way to go.
 
 ## Pipelines
+
+Pipeline Scrubbing - Is it useful. See Spotify scrubbing experiments. See interesting peaks and spots.
 
 Pipeline lifecycle. Timesheet lifecycle, etc.
 

@@ -316,6 +316,17 @@ curl -X PUT \
   -H "X-CP-REST-API-Key: ABC" \
   -d '{"score":123}' \
   https://host/api/score
+  
+curl -X POST \
+  -H "Content-Type: application/vnd.api+json" \
+  -H "Accept: application/vnd.api+json" \
+  -d '{
+    "data": {
+      "type": "member",
+      "attributes": { "name": "Tom" }
+    }
+  }' \
+  "https://api.jobline.com.sg/a"
 ```
 
 ## Faraday

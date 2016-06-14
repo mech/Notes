@@ -287,6 +287,11 @@ major, minor, revision = $1.to_i, $2.to_i, $3.to_i
 
 * [Is It Vulnerable?](https://isitvulnerable.com/)
 
+## Garbage Collection
+
+* [Ruby 2.1: RGenGC](http://tmm1.net/ruby21-rgengc/)
+* [Tweaking Ruby GC Parameters](https://www.youtube.com/watch?v=0nUV9MXlcwo)
+
 ## People
 
 * [BIGBinary](http://blog.bigbinary.com/archive.html)

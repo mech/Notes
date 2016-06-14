@@ -19,6 +19,11 @@ https://www.railsspeed.com/
 
 * [Improvements to error responses in Rails 5 API mode](https://wyeworks.com/blog/2016/1/12/improvements-to-error-responses-in-rails-5-api-mode)
 
+## Attributes API
+
+* [Using Rails 5 Atributes API today](https://nvisium.com/blog/2015/06/22/using-rails-5-attributes-api-today-in/)
+* [Virtual attributes and Rails 5 Attributes API](https://gorails.com/episodes/virtual-attributes-and-rails-5-attribute-api)
+
 ## Middlewares
 
 * `ActionDispatch::ParamsParser` is replaced by `ActionDispatch::Request`. See https://github.com/rails/rails/commit/38d2bf5fd1f3e014f2397898d371c339baa627b1

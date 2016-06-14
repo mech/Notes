@@ -99,6 +99,10 @@ grep "info" * -R
 * [The Standard Manual](http://thestandardsmanual.com/)
 * [Creating styleguides](http://alistapart.com/article/creating-style-guides)
 
+## Content - Tone, Voice and editorial style
+
+* [Your style guide is missing something and it's big](https://medium.com/@johnamwill/your-style-guides-missing-something-and-it-s-big-263a6124f6d2#.ue02977gl)
+
 ## Design System
 
 More than just a style guide
@@ -108,6 +112,7 @@ More than just a style guide
 * [Google Motion](https://www.google.com/design/spec/motion/material-motion.html#)
 * [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)
 * [How to be more organized while designing UI](https://medium.com/sketch-app-sources/how-to-be-more-organized-while-designing-ui-90d2d69cfb4f#.luq47e4du)
+* [BBC GEL - Global Experience Language](http://www.bbc.co.uk/blogs/internet/entries/c7c8cbe9-fe4e-478b-8048-e15d7c2cd138)
 
 > It's easier to put together a page from some objects than starting with a blank page. It's also easier to assemble new designs a long time after you haven't worked on the project or if you have to hand it down to another designer.
 >
@@ -126,6 +131,8 @@ More than just a style guide
 * [Google Style Guide](https://github.com/google/styleguide)
 * [Brainly](https://github.com/brainly/style-guide)
 * [The Times](http://www.thetimes.co.uk/styleguide)
+* [CSS at BBC](https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66#.5mca5f4pm)
+* [BBC Grandstand](http://bbc.github.io/bbc-grandstand/)
 
 ## Playbook
 

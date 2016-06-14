@@ -1,4 +1,4 @@
-# OOCSS, SMACSS, BEM, SUIT, CSS Modules
+# OOCSS, SMACSS, BEM, SUIT, ITCSS, CSS Modules
 
 > Yes, in some ways, everything is just a component if you look at it the right way.
 
@@ -95,6 +95,10 @@ Don't build page specific CSS.
 
 Namespacing should be done at the component-level, never at the page-level. Namespacing should be made at a descriptive, functional level, not at a page location level.
 
+## ITCSS
+
+* [Harry Roberts - Managing CSS Projects with ITCSS](https://www.youtube.com/watch?v=1OKZOV-iLj4)
+
 ## SUIT CSS
 
 * [Medium styles](https://gist.github.com/fat/a47b882eb5f84293c4ed)
@@ -159,8 +163,9 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 
 ---
 
+* [BEMantic: DRY Like You Mean It](https://medium.com/@stowball/bemantic-dry-like-you-mean-it-133ea3843d98#.ncebrtjhh)
 * [BEM advice from developers](https://www.sitepoint.com/bem-smacss-advice-from-developers/)
-* [CSSWizardry introducing BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+* [**CSSWizardry introducing BEM**](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 * [multiple classes vs `@extend`](http://bensmithett.com/bem-modifiers-multiple-classes-vs-extend/)
 * [A BEM syntax with UX in mind](http://simurai.com/blog/2013/10/24/BEM-syntax-with-ux-in-mind/)
 * [**More transparent UI code with namespaces**](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
