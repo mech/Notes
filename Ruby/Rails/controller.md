@@ -7,6 +7,38 @@
 * [**How DHH Organizes His Rails Controllers**](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
 * [ActionDispatch::Routing::Mapper::Scoping](http://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html)
 
+## Break up your controller
+
+* [Zen and the art of the controller](https://www.youtube.com/watch?v=KVkQ9UEQk0Y)
+
+---
+
+1. Static/View Controllers
+2. Composite Controllers - A controller that works with ephemeral resources like Sessions or Jobs
+3. Aggregate Controllers - Used to control data represented by several models or computed values
+
+```ruby
+# View of an app
+class TimesheetsApprovalController < ApplicationController
+  before_action :authenticate!
+  before_action :find_timesheet
+  
+  def approve
+    @timesheet.approve
+  end
+  
+  def reject
+    @timesheet.reject
+  end
+  
+  protected
+  
+  def find_timesheet
+    @timesheet = current_user.timesheets.find(params[:id])
+  end
+end
+```
+
 ## Authorization
 
 In a regular (Rails) controller there are 3 steps of authorization (not necessarily in that order):

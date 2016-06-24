@@ -66,6 +66,7 @@
 * [Rich Text Editor from Basecamp](https://github.com/basecamp/trix)
 * [Asynchronous flow control with a functional taste to it](https://github.com/bevacqua/contra)
 * [Twitter Emoji](https://github.com/twitter/twemoji)
+* [NProgress - Progress bar on top](http://ricostacruz.com/nprogress/)
 
 ## Fuzzy Search
 

@@ -1,5 +1,7 @@
 # Data
 
+> It is easy to see how queries built in the query expression style can be composed - you simply add new constraints to your pipeline. 
+
 Having metric does not mean you understand anything. Seeing metric data varying does not mean you understand any situation.
 
 Averages (Bell Curve, Normal Distribution) mask problems. Graph the median instead, or 95th or even 99th percentile.

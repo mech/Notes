@@ -26,6 +26,7 @@
 * [**Queue using NSQ**](https://github.com/wistia/nsq-ruby)
 * [Facets](https://github.com/rubyworks/facets)
 * [simple_command](https://github.com/nebulab/simple_command)
+* [multi_zip](https://github.com/xunker/multi_zip)
 
 ## Required Gems in new project
 

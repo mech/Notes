@@ -211,5 +211,6 @@ Docker 1.7 has native multi-host networking.
 
 * [First post on libnetwork](http://blog.docker.com/2015/04/docker-networking-takes-a-step-in-the-right-direction-2/)
 * [Proposal: Network Drivers](https://github.com/docker/docker/issues/9983)
+* [Container Network Interface - CNI](https://github.com/containernetworking/cni)
 
 SDN, micro-segmentation, VXLAN, etc.

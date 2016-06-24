@@ -39,6 +39,17 @@ See [Issue #486](https://github.com/javan/whenever/issues/486)
 
 ## SSL
 
+```
+// Do it production.rb
+config.force_ssl = true
+
+// Or higher up the Nginx
+server {
+  listen 80;
+  return 301 https://$host$request_uri;
+}
+```
+
 * [Setting up SSL for your Rails app](https://intercityup.com/blog/setting-up-ssl-for-your-rails-app.html)
 
 ## Continuous Integration (CI)

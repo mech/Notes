@@ -2,6 +2,7 @@
 
 Swift makes your code SAFE, MODERN, and POWER.
 
+* [Swift Evolution](https://github.com/apple/swift-evolution)
 * [Hacking with Swift](https://www.hackingwithswift.com/swift3)
 * [**Learn Swift**](http://books.aidanf.net/learn-swift)
 * [Swift for Ruby developers](http://www.aidanf.net/posts/an-introduction-to-swift-for-ruby-developers)

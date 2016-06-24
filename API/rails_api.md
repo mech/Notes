@@ -43,6 +43,7 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [Ruby API wrapper using Virtus](http://www.nickdesteffen.com/blog/ruby-api-wrapper-using-virtus-and-typhoeus)
 * [transit-ruby - Better than JSON. From Cognitect.](https://github.com/cognitect/transit-ruby)
 * [MessagePack - It's like JSON but fast and small](http://msgpack.org/)
+* [Ruby HTTP Clients Comparison](https://www.youtube.com/watch?v=x6CeB75aMwc)
 
 
 ## Rails ORM/ActiveModel attributes
@@ -154,6 +155,10 @@ end
 
 ## API Tests
 
+Controller tests may be removed in Rails 5. Use integration test instead. Integration test spans multiple controller and actions.
+
+* [Integration testing for Rails APIs - Part 1](https://lnikki.la/articles/rails-api-integration-tests-1/)
+
 API is not the time nor place to test business logic. You should leave that for Unit Tests.
 
 Test only these 3 things for API:
@@ -185,3 +190,4 @@ end
 
 * [Creating RESTful, Hypermedia-based Microservices](https://www.youtube.com/watch?v=zbeMDM-zDNI)
 * [RailsConf 2015 - AMS, API, Rails and a developer, a love story](https://www.youtube.com/watch?v=PqgQNgWdUB8)
+* [RailsConf 2016 - From Zero to API Hero](https://www.youtube.com/watch?v=Af5HDgvGuXk)

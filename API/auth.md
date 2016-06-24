@@ -123,8 +123,12 @@ Without the browser to automatically attach cookie, there will be no CSRF attack
 
 Using `has_secure_password` and `has_secure_token`
 
-```
+```ruby
 BCrypt::Engine::DEFAULT_COST = 10
+BCrypt::Engine::MIN_COST = 4
+
+# Useful for testing
+BCrypt::Password.create('password', cost: 4)
 ```
 
 `has_secure_password` already checks for existence and confirmation on create.

@@ -1,5 +1,7 @@
 # Animation
 
+Why animation? Transition, focus and for fun.
+
 UX: Spatial reasoning.
 
 > Don't use standard `ease-in` and `ease-out`. Always use custom ease in.
