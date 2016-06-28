@@ -1,5 +1,7 @@
 # Docker
 
+https://github.com/rumpkernel/wiki/wiki/Info%3A-Publications-and-Talks
+
 The fundamental architecture of Docker is a simple client/server model. Underneath this simple exterior, Docker heavily leverages kernel mechanisms like:
 
 * Iptables

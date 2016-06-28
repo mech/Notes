@@ -17,6 +17,7 @@
 
 ---
 
+* [postcss-fixes - Less aggressive than cssnext](https://github.com/MattDiMu/postcss-fixes)
 * [postcss-simple-vars - Sass-like variables if you hate `var(--)`](https://github.com/postcss/postcss-simple-vars)
 * [postcss-vertical-rhythm - `vr(2)`](https://github.com/markgoodyear/postcss-vertical-rhythm)
 * [postcss-nested](https://github.com/postcss/postcss-nested)
@@ -28,6 +29,7 @@
 * [**rucksack**](https://github.com/simplaio/rucksack)
 * [postcss-sprites](https://github.com/2createStudio/postcss-sprites)
 * [postcss-flexbugs-fixes](https://github.com/luisrudge/postcss-flexbugs-fixes)
+* [precss uses several plugins](https://github.com/jonathantneal/precss#plugins)
 
 **Media Queries**
 

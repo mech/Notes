@@ -41,6 +41,8 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [JSON Graph](http://applicative.acm.org/speaker-JafarHusain.html)
 * [React videos](http://codewinds.com/blog/2015-05-29-jsconf-reactjs.html)
 * [Invisionapp](http://blog.invisionapp.com/category/video/)
+* [Hashrocket](https://www.youtube.com/user/Hashrocket/videos)
+* [Render 2016](https://vimeo.com/166790294)
 
 ---
 

@@ -1,5 +1,11 @@
 # Jobline's Problem
 
+Very nice study of ATS from Hired.com: https://hired.com/blog/highlights/announcing-newest-ats-integration-lever/
+
+See https://github.com/hired open source projects. Very inspiring!
+
+---
+
 Emergent behaviors? Abstraction can emerge useful behaviors? Builder build things to be used in different way. Lego blocks. Modular pieces of functions.
 
 > As a consequence, Taylor says, the customers who really "get" Quip have documents that are completely different than the documents they had in the last generation of products: rather than memos and contracts, they're creating team checklists for project management, spreadsheets to track recruiting candidates and editorial calendars, and year-long documents full of weekly meeting notes.

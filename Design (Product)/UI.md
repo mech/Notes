@@ -90,7 +90,7 @@
 * Be accurate and predictable
 * Use progressive disclosure (esp. for expert user)
 * Always think about your intent - the things you want a visitor to do. What is the "main" JTBD.
-* Anchor a layout
+* **Anchor** a layout
 * If you want someone to watch a video or register for an account, focus on making those elements shine. They don’t need to be the biggest items on the page, but they should have enough heft and visual prominence through placement and color to draw attention.
 * Without contrast, we don't have hierarchy, and without hierarchy, the typography feels indistinguishable and our readers are left without a map.
 * When we first glance at something, we tend to seek patterns; we mentally group similar elements and try to uncover a pecking order.
@@ -110,6 +110,11 @@
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
 > Give user visual rewards. Guide them how to "work the system".
+
+## UI is 90% Typography
+
+* [Typography for UI](https://viljamis.com/2016/typography-for-user-interfaces/)
+* [Web design is 95% typography](https://ia.net/know-how/the-web-is-all-about-typography-period)
 
 ## Conversational UI
 

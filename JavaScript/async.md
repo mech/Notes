@@ -246,6 +246,8 @@ for (let i = 0; i < 5; i++) {
 
 ## Async Await
 
+* [async/await: It’s Good and Bad](https://medium.com/@benlesh/async-await-it-s-good-and-bad-15cf121ade40#.2mvds11fa)
+
 > Async/await is still Promises (even if you don't call then() yourself) - @dan_abramov
 
 Async/await is Promises under the hood with synchronous appearance and try/catch works.

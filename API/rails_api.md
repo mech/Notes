@@ -45,6 +45,13 @@ Large software projects stand a slim chance of ever being finished. Build for co
 * [MessagePack - It's like JSON but fast and small](http://msgpack.org/)
 * [Ruby HTTP Clients Comparison](https://www.youtube.com/watch?v=x6CeB75aMwc)
 
+---
+
+### Libraries
+
+* [**active_model_serializers**](https://github.com/rails-api/active_model_serializers)
+* [jsonapi-serializers](https://github.com/fotinakis/jsonapi-serializers)
+* [jsonapi-resources](https://github.com/cerebris/jsonapi-resources)
 
 ## Rails ORM/ActiveModel attributes
 
@@ -79,7 +86,6 @@ With a collapsed single request optimized for client, we pay the price of WAN la
 ## ActiveModel::Serializer
 
 * [Serializer with array](http://stackoverflow.com/questions/17542793/how-do-you-initialize-an-activemodelserializer-class-with-an-activerecordrel)
-* [**jsonapi-resources**](https://github.com/cerebris/jsonapi-resources)
 * [**WIP - Deserializer implementation**](https://github.com/rails-api/active_model_serializers/pull/950)
 
 > Right now AMS can serialize JSON API but can't deserialize it so it won't work correctly. AMS is making progress on that regard and we should be seeing a new version supporting JSON API in both directions soon. - Santiago Pastorino

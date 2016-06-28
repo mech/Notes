@@ -92,6 +92,8 @@ See http://stackoverflow.com/questions/36180792/how-to-make-fail2ban-read-json-d
 * [Let's Encrypt](https://letsencrypt.org/)
 * [Automate buying of SSL](https://sslmate.com/)
 * [Deploying HTTPS](https://www.youtube.com/watch?v=9WuP4KcDBpI)
+* [Is TLS fast yet?](https://istlsfastyet.com/)
+* [No excuses to not use HTTPS](https://ayesh.me/no-excuses-https)
 
 To concatenate primary certificate and intermediate certificate:
 
@@ -355,7 +357,6 @@ server {
 
 * [Hardening Nginx](https://www.acunetix.com/blog/articles/nginx-server-security-hardening-configuration-1/)
 * [Gist for self-signed cert](https://gist.github.com/hansode/1121067)
-* [Is TLS fast yet?](https://istlsfastyet.com/)
 
 ```
 // Remove passphrase
