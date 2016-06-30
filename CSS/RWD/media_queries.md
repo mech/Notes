@@ -46,7 +46,7 @@ Most of us started working with `@media` was adding blocks of them at the bottom
 
 * [Responsive typography with chained media queries](https://bugsnag.com/blog/responsive-typography-with-chained-media-queries)
 
-```
+```scss
 $default-browser-context: 16px !default;
 
 @function em($target, $context: $default-browser-context) {
@@ -66,7 +66,7 @@ $bp-medium: em(690px);
     width: percentage(400px / 1280px);  }}
 ```
 	
-```
+```scss
 @mixin hidpi($media: all) {
   @media
     only #{$media} and (min--moz-device-pixel-ratio: 1.5),

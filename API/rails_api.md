@@ -9,6 +9,7 @@ Microservices:
 
 Large software projects stand a slim chance of ever being finished. Build for composability and disposability.
 
+* [**Creating Rails 5 API only application following JSON:API specification**](https://www.simplify.ba/articles/2016/06/18/creating-rails5-api-only-application-following-jsonapi-specification/)
 * [Challenges faced in a little larger Rails API project](https://labs.kollegorna.se/blog/2014/11/rails-api/)
 * [**Building a modern bridge between Ember 2 and Rails 5 with JSON API**](http://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/)
 * [Simple Rails APIs with Stitches](http://multithreaded.stitchfix.com/blog/2015/11/04/simple-rails-apis-with-stitches/)
@@ -96,6 +97,15 @@ class PostSerializer < ActiveModel::Serializer
   cache key: 'post', expires_in: 3.hours, only: [:title]
   attributes :title, :body
 end
+```
+
+## JSON API Errors
+
+* [AMS's JSON errors](https://github.com/rails-api/active_model_serializers/blob/master/docs/jsonapi/errors.md)
+* [How to handle JSON API errors](http://jsonapi.org/format/#errors)
+
+```ruby
+ActiveModel::Serializer::ErrorSerializer
 ```
 
 ## ParamsParser

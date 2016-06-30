@@ -6,6 +6,7 @@
 * [PostCSS](http://seattleladiesjs.github.io/postcss)
 * [An Introduction to PostCSS](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
 * [It's Time for Everyone to Learn About PostCSS](http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/)
+* [Nesting with `&` and `@nest`](http://tabatkins.github.io/specs/css-nesting/)
 
 ## Against PostCSS
 
@@ -17,6 +18,7 @@
 
 ---
 
+* [postcss-use](https://github.com/postcss/postcss-use)
 * [postcss-fixes - Less aggressive than cssnext](https://github.com/MattDiMu/postcss-fixes)
 * [postcss-simple-vars - Sass-like variables if you hate `var(--)`](https://github.com/postcss/postcss-simple-vars)
 * [postcss-vertical-rhythm - `vr(2)`](https://github.com/markgoodyear/postcss-vertical-rhythm)
@@ -30,10 +32,12 @@
 * [postcss-sprites](https://github.com/2createStudio/postcss-sprites)
 * [postcss-flexbugs-fixes](https://github.com/luisrudge/postcss-flexbugs-fixes)
 * [precss uses several plugins](https://github.com/jonathantneal/precss#plugins)
+* [postcss-discard-comments](https://github.com/ben-eb/postcss-discard-comments)
 
 **Media Queries**
 
 * [postcss-if-media](https://github.com/arccoza/postcss-if-media)
+* [Container queries (aka element queries)](https://github.com/ausi/cq-prolyfill)
 
 ## Linter
 
@@ -62,16 +66,23 @@ Prevent code from gradually degrading in quality.
     @media (max-width: 500px) {
       width: auto;
     }
-
-    /* body.is_dark .phone_title */
-    body.is_dark & {
-      color: white;
-    }
+  }
+  
+  /* .phone.urgent {} <div class="phone urgent"></div> */
+  &.urgent {
+    color: red;
   }
 
-  /* .phone img */
-  img {
+  /* .phone .pad {} <div class="phone"><span class="pad"></span></div> */
+  & .pad {
     display: block;
+  }
+  
+  /* Failed! No nested selector */
+  img {}
+  
+  /* .latest .phone {}  */
+  @nest .latest & {
   }
 }
 ```

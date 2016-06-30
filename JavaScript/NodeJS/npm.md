@@ -33,4 +33,10 @@ A: In that case, each dependency with a conflicting version on the same dependen
 ```
 ▶ npm config ls -l
 ▶ npm info nodemon
+▶ npm list --depth=0
+▶ npm list -g --depth=0
+▶ npm view eslint dependencies
+▶ 
+▶ 
+▶ 
 ```

@@ -9,6 +9,33 @@ https://www.railsspeed.com/
 * [What's new in Rails 5](http://www.rubyexperiments.com/rails-5-release-date-whats-new-resources/)
 * [Rails 5: What's new](https://medium.com/evil-martians/the-rails-5-post-9c76dbac8fc#.378zs9gi8)
 * [Ruby Web Dev The Other Way](http://rwdtow.stdout.in/)
+* [How Do I Know Whether My Rails App Is Thread-safe or Not?](https://bearmetal.eu/theden/how-do-i-know-whether-my-rails-app-is-thread-safe-or-not/)
+
+## Releases
+
+* [Rails 5.0.0.rc2](http://weblog.rubyonrails.org/2016/6/22/Rails-5-0-rc2/)
+
+## Active Job
+
+* [How to handle failures, errors, and timeouts](https://www.sitepoint.com/dont-get-activejob/)
+
+We need to design our jobs to handle failure. Usually this involve checkpoint and bookkeeping like an additional `Transaction` object.
+
+```ruby
+def perform(customer, amount)
+  transaction = Transaction.where(
+    customer: customer,
+    amount: amount,
+    complete: false
+  ).first
+end
+
+# Ignore failed jobs
+Transaction.incomplete.find_each do |transaction|
+end
+```
+
+We can also decompose jobs into multiple independent and idempotent jobs that can be reused.
 
 ## Action Cable
 

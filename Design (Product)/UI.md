@@ -111,6 +111,12 @@ When it comes to the design of complex behaviors and interactions, we've found t
 
 > Give user visual rewards. Guide them how to "work the system".
 
+## Bounded Context
+
+* [Bounded Context](http://martinfowler.com/bliki/BoundedContext.html)
+
+> Various factors draw boundaries between contexts. Usually the dominant one is human culture, since models act as Ubiquitous Language, you need a different model when the language changes. You also find multiple contexts within the same domain context...
+
 ## UI is 90% Typography
 
 * [Typography for UI](https://viljamis.com/2016/typography-for-user-interfaces/)

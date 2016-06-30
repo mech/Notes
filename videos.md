@@ -43,6 +43,9 @@ Read more at http://www.whathifi.com/sony/kd-65x9005b/review#YxOM43hJRgpX5bbl.99
 * [Invisionapp](http://blog.invisionapp.com/category/video/)
 * [Hashrocket](https://www.youtube.com/user/Hashrocket/videos)
 * [Render 2016](https://vimeo.com/166790294)
+* [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/videos)
+* [LearnCode.academy](https://www.youtube.com/user/learncodeacademy/videos)
+* [DevTips](https://www.youtube.com/user/DevTipsForDesigners/playlists)
 
 ---
 

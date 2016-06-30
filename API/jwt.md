@@ -14,6 +14,7 @@ Is JWT just a re-implementation of Rails signed cookie?
 * [Use JWT the Right Way](https://stormpath.com/blog/jwt-the-right-way/)
 * [Discuss JWT at Auth0 Forum](https://ask.auth0.com/c/jwt)
 * [rails-angular-jwt-example](https://github.com/Foxandxss/rails-angular-jwt-example)
+* [**A Redux Pattern for Expired JWT**](https://medium.com/@grales/a-redux-pattern-for-expired-jwts-f6e130e612f#.tpq5sacd8)
 
 JWT give you a structured and stateless way to declare a user and what they can access (their scope).
 

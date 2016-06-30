@@ -27,6 +27,7 @@ Use `data-attribute` for JavaScript interaction.
 * [**Medium CSS is pretty fucking good**](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06#.mvrfqgqey)
 * [Kickoff - A lightweight front-end framework](https://github.com/TryKickoff/kickoff)
 * [Atomic CSS is ugly? or is it the future?](https://medium.com/techspiration-ideas-making-it-happen/future-css-dbc2cb8f1baf#.y95nwjowx)
+* [CSS Architectures: Scalable and Modular Approaches](https://www.sitepoint.com/css-architectures-scalable-and-modular-approaches/)
 
 Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 	
@@ -39,7 +40,6 @@ Naming convention (BEM, SUIT) really come into their own when viewed in HTML.
 * `.primary-button` is better than `.btn-login`
 * `.btn--positive` is even better
 * `.component-title` instead of `.component .title`
-
 
 **Visual pattern vs Content**
 
@@ -63,7 +63,7 @@ HTML semantics differs from *developer* semantics. We should write classes that 
 * [OOSASS](http://thesassway.com/intermediate/using-object-oriented-css-with-sass)
 * [**Stop the cascade**](http://markdotto.com/2012/03/02/stop-the-cascade/)
 
-```
+```html
 <div class="media media--large" data-ui-component="mini-bio"></div>
 
 <div class="box box--promo"></div>
@@ -71,13 +71,50 @@ HTML semantics differs from *developer* semantics. We should write classes that 
 
 To debug, we can:
 
-```
+```css
 [data-ui-component] {
   outline: 5px solid yellow;
 }
 ```
 
 Ensure any objects or abstractions are very vaguely named to allow for greater reuse. Like `.ui-list` or `.media`. Extensions of objects should be much more explicitly named like `.user-avatar-link`.
+
+## TL;DR
+
+* Use semantic CSS - Writing semantic CSS means choosing class names that convey structural meaning and function.
+* Strive for Single Responsibility Principle
+
+## Structural and Cosmetic Responsibilities
+
+* [Parker for SRP](http://csswizardry.com/2016/06/improving-your-css-with-parker/)
+* [SRP](http://drewbarontini.com/articles/single-responsibility/)
+* [The single responsibility principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+
+Don't mix up structural and cosmetic responsibilities in your CSS.
+
+```css
+/* Already this login button is very structural as well as cosmetic! */
+.btn-login {
+  display: inline-block;
+  padding: 2em;
+  background-color: green;
+  color: white;
+}
+
+/* Try to separate it structurally first */
+.btn {
+  display: inline-block;
+}
+
+.btn--large {
+  padding: 2em;
+}
+
+.btn--positive {
+  background-color: green;
+  color: white;
+}
+```
 
 ## Component-level vs Page-level
 
@@ -90,7 +127,6 @@ Don't build page specific CSS.
 .nav-bar {
   width: 100%;
 }
-
 ```
 
 Namespacing should be done at the component-level, never at the page-level. Namespacing should be made at a descriptive, functional level, not at a page location level.
@@ -98,6 +134,7 @@ Namespacing should be done at the component-level, never at the page-level. Name
 ## ITCSS
 
 * [Harry Roberts - Managing CSS Projects with ITCSS](https://www.youtube.com/watch?v=1OKZOV-iLj4)
+* [ITCSS: Scalable and maintainable CSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 
 ## SUIT CSS
 

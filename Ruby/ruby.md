@@ -40,6 +40,7 @@ data_source.methods.grep(/^get_(.*)_info$/) { Computer.define_component $1 }
 * [Ruby - #tap that!](http://seejohncode.com/2012/01/02/ruby-tap-that/)
 * [Tempfile](https://viget.com/extend/make-remote-files-local-with-ruby-tempfile)
 * [Class comparison in Ruby](http://taylor.fausak.me/2014/05/24/class-comparison-in-ruby/)
+* [Nobody understands the GIL](http://www.jstorimer.com/blogs/workingwithcode/8085491-nobody-understands-the-gil), [Part 2](http://www.jstorimer.com/blogs/workingwithcode/8100871-nobody-understands-the-gil-part-2-implementation) and [Part 3](http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html)
 
 ## String
 
@@ -178,7 +179,6 @@ end
 Thing.new.hi()
 ```
 
-
 ## Service
 
 * [Gourmet Service Objects](http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html)
@@ -279,7 +279,7 @@ RUBY_VERSION =~ /([\d]+)\.([\d]+)\.([\d]+)/
 major, minor, revision = $1.to_i, $2.to_i, $3.to_i
 ```
 
-## Errorsq
+## Errors
 
 * [No more errors](http://idiosyncratic-ruby.com/32-no-more-errors.html)
 

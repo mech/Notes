@@ -273,7 +273,7 @@ If you can identify with that kernel of success - which is a user or customer su
 11. Solving the right problem first.
 12. Make great things. Fast.
 13. Customer journey for XXX
-14. Paper prototype (you always forget this!)
+14. **Paper prototype** (you always forget this!). Don't ever go to the screen first.
 15. Small chunk of risk. An app that do 1 thing. Then learn and grow.
 16. Time-box. You know you're done when you run out of time.
 
