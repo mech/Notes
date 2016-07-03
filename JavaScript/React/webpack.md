@@ -1,5 +1,7 @@
 # Webpack
 
+[Webpack 2.0 is getting real](https://medium.com/webpack/webpack-its-getting-real-92c60fca1db1#.at5v6zadm)
+
 We want to write modular code. But browsers cannot run modularised code, so we need a module bundler. UIs aren't just JavaScript though. Our UI components can also depend on images, fonts, and CSS. Webpack recognises that and with the help of loaders, supercharges the `require` function so you can explicitly require all of your dependencies.
 
 Webpack uses "loaders" to preprocess files while browserify uses "transforms".

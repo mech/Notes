@@ -1,6 +1,7 @@
 # Functional Programming (FP)
 
 * [Effective Concurrency with Algebraic Effects](http://kcsrk.info/ocaml/multicore/2015/05/20/effects-multicore/)
+* [Good slide on using pure functions and some curry examples](http://slides.com/bahmutov/oscon)
 
 > The whole OOP paradigm is based on sending messages to objects as the only means to interact with their state, therefore making state **distributed**.
 

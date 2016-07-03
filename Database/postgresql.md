@@ -40,7 +40,10 @@ Use Neo4j for candidate's relationship with each other.
 If you encounter permission problem on `/usr/local/var/postgres`, you can uninstall Postgres, delete that folder.
 
 ```
+▶ sudo rm -rf postgres
 ▶ initdb -D /usr/local/var/postgres
+
+pg_ctl -D /usr/local/var/postgres -l logfile start
 ```
 
 ## Config files

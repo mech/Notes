@@ -2,6 +2,8 @@
 
 Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, RelativeWave's Form, Affinity Designer, etc.
 
+Sketch change the way we design for screens.
+
 * [Exporting UI assets with Sketch: simplifying your workflow](https://www.ckl.io/blog/exporting-ui-assets-with-sketch/)
 * [Saving time in Sketch](https://medium.com/sketch-app-sources/saving-time-in-sketch-7042142c8a8e#.p6kt6z53c)
 * [Designing at 1x](https://medium.com/sketch-app-sources/designing-at-1x-33240842180c)
@@ -62,6 +64,10 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 * [Sketch color preset](https://github.com/RayPS/my-sketch-colors)
 * [How Sketch took over 200GB](https://medium.com/@thomasdegry/how-sketch-took-over-200gb-of-our-macbooks-cb7dd10c8163)
 * [Color mismatch when exporting?](https://www.designernews.co/stories/55640-color-saturation-on-sketch-exports)
+
+## Smart Guides
+
+## Shared Styles
 
 ## Symbols, nested symbols, re-usable UI
 

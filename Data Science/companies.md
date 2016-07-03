@@ -9,3 +9,4 @@
 * [Tableau](http://www.tableau.com/)
 * [H2O.ai](http://www.h2o.ai/)
 * [Dato](https://dato.com/)
+* [Nervana](https://www.nervanasys.com)
