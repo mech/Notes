@@ -111,6 +111,7 @@ Injecting JavaScript into pages viewed by other users. DDOS, bitcoin mining.
 * [Flaw in CSRF Handling in Django and Rails](https://www.djangoproject.com/weblog/2011/feb/08/security/)
 * [**Is exposing a session's CSRF-protection token safe?**](http://stackoverflow.com/questions/144696/is-exposing-a-sessions-csrf-protection-token-safe)
 * [Caching the uncacheable: CSRF Security](https://www.fastly.com/blog/Caching-the-Uncacheable-CSRF-security)
+* 
 
 Any tags which fires a request to an external resource can be used to perform a hidden CSRF attack: `<img>`, `<link>`, `<meta>`, `<embed>`, `<object>`, etc.
 
@@ -183,7 +184,7 @@ if ( !s.crossDomain && !headers["X-Requested-With"] ) {
 Some implementation of CSRF Token can use the same token multiple times in multiple request/response cycle. We can call this session-based CSRF Token. This may be a problem when it comes to such attacks like BREACH. It is recommended to have crypto-nonce to establish token per request/response.
 
 * [Rails adds the token to the session cookie under the `_csrf_token` key](https://github.com/rails/rails/blob/0450642c27af3af35b449208b21695fd55c30f90/actionpack/lib/action_controller/metal/request_forgery_protection.rb#L322)
-* [Learn more about Rails CSRF implementation here](https://github.com/rails/rails/issues/21948)
+* [**Learn more about Rails CSRF implementation here - AKA 'the change you wanted was rejected' problem**](https://github.com/rails/rails/issues/21948)
 
 ## TLS
 

@@ -381,6 +381,11 @@ server {
 
 Kernel flags set with `sysctl` tool will be lost upon reboot. In order to persist them, you must add them to `/etc/sysctl.conf` or `/etc/sysctl.d/`.
 
+## Monitoring
+
+You don't have need to have only 1 access.log or error.log. You can nest them into different contexts.
+
+See New Relic Nginx monitoring solution.
 
 ## Videos
 

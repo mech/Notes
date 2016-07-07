@@ -1,7 +1,7 @@
 # Videos
 
 ```
-document.getElementsByTagName('video')[0].playbackRate = 1.5;
+document.getElementsByTagName('video')[0].playbackRate = 1.4;
 ```
 
 * [Inspire Conference](https://vimeo.com/whoooz/videos)

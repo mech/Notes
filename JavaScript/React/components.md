@@ -144,9 +144,13 @@ Container component separates data-fetching and rendering concerns. Or component
 
 `defaultProps`
 
+### componentWillMount
+
+Invoked once, **both on the client and server**, immediately before the initial rendering occurs.
+
 ### componentDidMount
 
-Great for setting up interval
+**Invoked only on the client!** Great for setting up interval.
 
 ```js
 componentDidMount() {

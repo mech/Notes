@@ -1,5 +1,9 @@
 # Data
 
+http://www.cnet.com/how-to/reset-bypass-password-mac-macbook/
+
+http://www.cnet.com/how-to/prevent-your-mac-password-from-being-bypassed/
+
 > It is easy to see how queries built in the query expression style can be composed - you simply add new constraints to your pipeline. 
 
 Having metric does not mean you understand anything. Seeing metric data varying does not mean you understand any situation.

@@ -61,6 +61,7 @@ Things that help you to remember when you start to design:
 
 > If you’re a leader of a team, empower your designers (and your entire team, really) to make these hard decisions and to own the consequences. As much as indecision can damage a project or team, so can constantly asking for permission.
 
+* [**6 Patterns for Modeling Concepts**](https://medium.com/eightshapes-llc/six-patterns-for-modeling-concepts-df7eda15dc5#.6pqhgzu93)
 * [**Let's Stop Doing Research**](https://medium.com/research-things/lets-stop-doing-research-48efcd7118c9#.4fgxihwfr)
 * [5 whys, conversational UI, Comic strip](https://blog.prototypr.io/5-ux-plays-to-start-your-design-on-good-tracks-45d00260909e#.1gbgzw4g1)
 * [**Speed Matters**](http://jsomers.net/blog/speed-matters)
@@ -248,6 +249,8 @@ Change in behavior = Our KPI
 
 ## Mech's Process
 
+See Dan Brown's [Concept Model](http://boxesandarrows.com/how-to-make-a-concept-model/)
+
 Product managers are constantly balancing the demands of speed and quality.
 
 If you can identify with that kernel of success - which is a user or customer succeeding with your product and feeling really good about it - and then figure out how to design a product that ensures that success among many users, that's when you've really nailed it.
@@ -257,6 +260,8 @@ If you can identify with that kernel of success - which is a user or customer su
 * Workshop - you present by testing. Show stakeholders what you've learned. Get them to "echo" back to you. Invite them to amend.
 * Don't try to define *objects*. Think in association and relation instead. Actions are cheap, vocabulary is expensive.
 * Iterate until DONE. Not 100%. Close enough is close enough. Don't get caught in an endless loop.
+
+> Start with a list of ideas that go together, and see what emerges after moving them around the page a bit. After an iteration or two, I start to see the essential themes, what I call the central story, what I want people to take away from the model. The final product may not look like the original template, yet the template is crucial for me to wrap my head around the system, and find that story.
 
 ---
 

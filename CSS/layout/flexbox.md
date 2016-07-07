@@ -1,6 +1,12 @@
 # Flexbox
 
+**Don't always think you need to use media queries. Most of the time a default flexbox can make the site very responsive already.**
+
 > Flexbox let the DOM know that elements on the page have a relationship (or relationships).
+
+**Don't force flexbox to be a grid system, it was not designed for that!**
+
+A flex container expands items to fill available space, or shrinks them to prevent overflow.
 
 Basically 4 rules:
 
@@ -82,7 +88,7 @@ Flexbox will override floats, table-cell and inline-block. It will not override 
 
 * [Understanding how grow and shrink are calculated](http://madebymike.com.au/writing/understanding-flexbox/)
 
-`flex-basis` determines how the other 2 properties behave. It is the "basis" on which the flex item know how much it can grow or shrink to fill missing space. It is the initial size of each flex item, and can be restricted to be the only amount by specifying `0` on grow and shrink.
+`flex-basis` determines how the other 2 properties behave. It is the "basis" on which the flex item know how much it can grow or shrink to fill missing space. It is the initial size of each flex item, and can be restricted to be the only amount by specifying `0` on grow and shrink. It is an optimal width for the items.
 
 ```scss
 flex: 0 0 150px; // Not allowed to grow, stay at 150px (flex-basis)
@@ -96,10 +102,13 @@ If the sum of the main sizes of all flex items is greater than the main size of 
 ```scss
 // `flex` property
 flex: flex-grow flex-shrink flex-basis
-flex: 0 1 auto;
+flex: 0 1 auto; // auto will just take the width value
 flex: 1 0 auto;
-flex: none; // Same as `0 0 auto`
+flex: auto; // equal to `flex: 1 1 auto`
+flex: none; // Same as `flex: 0 0 auto`, an inflexible item
 flex: 1; // Never do this, IE10/11 bugs
+flex: 1; // Fully flexible, equal to `flex: 1 1 0%`
+flex: 1 1 0; // Let the items grow and shrink evenly
 ```
 
 > I use grow if I want something to fill the space of a missing item, I use shrink if I want items to collapse to make way for new items.
@@ -117,11 +126,19 @@ If you switch axis `flex-direction` from `row` to `column`, you need to be aware
 * `justify-content` aligns flex items along the **main axis** of the current flex line of the flex container.
 * `align-items` aligns flex items in the **cross-axis**.
 
+## Wrap
+
+By default, flexbox will not wrap and will try to fit on one line, even if their width exceeds the parent element's.
+
 ## Ordering
 
 Use cases:
 
 * News site where you want featured news to maybe not be the most up-to-date news piece.
+
+## Align Self
+
+This allows the default alignment (or the one specified by `align-items`) to be overridden for individual flex items.
 
 ## Examples
 

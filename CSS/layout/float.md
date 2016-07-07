@@ -52,6 +52,17 @@ However you can get unexpected behaviour such as content being cut off (if you u
 
 * [An `inline-block` intervention. Do not use it for layout as removing whitespace is too much work.](https://medium.com/@drewisthe/an-inline-block-intervention-6ce18a3f7edf)
 
+`inline-block` also cannot stretch to the height of the tallest adjacent elements. You need flexbox for equal height implementation. You can just create a `.wrapper` that surround the elements as a flex container:
+
+```css
+.wrapper {
+  width: 660px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
 2008 as part of CSS 2.1
 
 Float does not give you equal height. You can use `display: inline-block` to achieve the Pinterest effect, but beware of whitespace as any spaces between elements will appear in your layout.

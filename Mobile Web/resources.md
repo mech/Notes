@@ -132,6 +132,10 @@ if (window.matchMedia("(min-width: 40em)").matches) {
 
 ### Mobile-first
 
+> My favoured way to work is what is termed "mobile first". This means that you start with the view of your site as it will be served to mobile device users, and work up from there, changing the layout to make best use of the additional screen real estate of tablet and desktop users. A benefit of working mobile first is that it forces you to consider the content hierarchy in order to give someone scrolling through your content the best reading experience. This can then inform your decisions on desktop - helping you and the people you work with to have clarity in terms of which elements should take visual priority in the design.
+
+---
+
 > To me, mobile first simply means forced prioritization. It means think about layout later. Start with a single column “design” (also known as a list), and force yourself to prioritize content and functionality with sequential ranking.
 
 ```

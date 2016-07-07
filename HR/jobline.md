@@ -474,6 +474,7 @@ Publish conclusion.
 
 ## PDF
 
+* [easyInvoice](https://github.com/smhutch/easyInvoice)
 * [jsPDF](https://parall.ax/products/jspdf)
 * [PanDoc](http://johnmacfarlane.net/pandoc/)
 * [PDF Viewing in GitHub](https://github.com/blog/1974-pdf-viewing)

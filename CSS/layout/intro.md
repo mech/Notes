@@ -26,6 +26,10 @@ Length value
 
 For inline non-replaced element like normal text, `padding-left/right` and `margin-left/right` can have effect whilst `top/bottom` have no effect whatsoever.
 
+## Block Formatting Context
+
+* [Everything you Know about Clearfix is Wrong](http://www.cssmojo.com/clearfix_block-formatting-context_and_hasLayout/)
+
 ## Margin Collapsing
 
 Two or more margins that interact collapse to the largest of the interacting margins.
