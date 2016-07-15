@@ -1,5 +1,7 @@
 # Web Application Security
 
+* [**w3c/webappsec**](https://github.com/w3c/webappsec)
+
 Internet of thing security can kill people. Like insulin injection from a blue-booth device.
 
 * Exposure of user information (email, password, identity theft)
@@ -245,14 +247,20 @@ X-Frame-Options: DENY
 
 ## Content-Security Policy
 
+CSP purpose is to mitigate content injection.
+
+Proposed by Robert Hanson.
+
 Real world security is usually provided in layers and CSP intends to be only one layer. It is nothing by a declarative policy operating on browsers that whitelists content sources. CSP is a mitigation or defence-in-depth, not a solution.
 
-CSRF is not the primary focus of CSP, but XSS is!
+CSRF is not the primary focus of CSP, but XSS is! Because XSS attacks are unable to control the HTTP header in the absence of 3rd-party plugins, this measure is feasible.
 
-Will fall back to Same Origin Policy if browsers don't support CSP.
+Will fall back to Same Origin Policy or supported CORS if browsers don't support CSP.
 
 Note: Best to set `default-src` to `none`!
 
+* [**GitHub's CSP journey**](http://githubengineering.com/githubs-csp-journey/)
+* [**Safari doesn't like CSP with no URL scheme**](https://scotthelme.co.uk/safari-doesnt-like-csp/)
 * [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/)
 * [**CSP 2015: CSP bypass in a Twitter bug**](https://blog.innerht.ml/csp-2015/)
 * [**CSP The Reality**](https://embedthis.com/blog/posts/content-security-policy/)
@@ -306,7 +314,15 @@ content-security-policy: default-src https: data:; report-uri https://twitter.co
 content-security-policy: default-src https: data:; report-uri https://twitter.com/i/csp_report?a=M5QXUZLCN4%3D%3D%3D%3D%3D%3D&ro=false; img-src https: data: ; script-src https://*.twitter.com https://*.twimg.com https://*.vine.co https://ssl.google-analytics.com https://bat.bing.com 'unsafe-eval' ; font-src https: data: ; frame-src https://* chrome-extension: about: javascript: ; connect-src https: ; media-src https: ; object-src https: ; style-src 'unsafe-inline' https:
 ```
 
-## Subresource Integrity
+## Subresource Integrity (SRI)
+
+Not a lot of browser support. Edge is under consideration only.
+
+* [GitHub's implementation](http://githubengineering.com/subresource-integrity/)
+
+```html
+<script src="/assets/application.js" integrity="sha256-TvVUHzSfftWg1rcfL6TIJ0XKEGrgLyEq6lEpcmrG9qs="></script>
+```
 
 ## Entry Point Regulation
 

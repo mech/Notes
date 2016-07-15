@@ -195,6 +195,10 @@ Predict behaviour - not a literal sense. But with enough data to predict. Predic
 >
 > The bottom-line is you have to build a lens to allow users to see a new world rather than features to help them see an old world better.
 
+---
+
+> As technology gets more accessibility, especially in developing economies, have you ever wondered what is the real struggle in creating meaningful experiences for those the users in low income countries with no education? It is not only a struggle in creating simple and amazing experiences, rather in creating trustworthy ties with the user. My focus has been on financial credits, mortgages, and insurances. I got a tumbling start thinking 'how can they trust your financial webpage, when they have even trouble in trusting their banks online'. In latin american countries, where there is so much insecurity in the country overall (crime rates, economic strife, etc.), they trust family and friends rather than experts. In order to create a solution, I had to turn to emotional design. Through transparency, empathy, friendliness, and a simple learning process for the users you can create the trust needed for the users to use the financial products. Join me through my rocky journey of creating a meaningful product in México.
+
 * [The Novelty Effect](https://medium.com/message/the-novelty-effect-cf606715ae62)
 * [Asking users to adopt new behaviors or even modify their existing behaviors is very hard](http://www.subtraction.com/2014/06/12/designing-products-for-existing-behaviors/)
 * [Persuasion: Applying the elaboration likelihood model to design](http://alistapart.com/article/persuasion-applying-the-elaboration-likelihood-model-to-design)
@@ -273,6 +277,7 @@ Predict behaviour - not a literal sense. But with enough data to predict. Predic
 
 ## Design Studio with Case Studies
 
+* [FocusLab Udacity](http://focuslabllc.com/our-work/udacity)
 * [**What are some of the best case studies you've read?**](https://www.designernews.co/stories/55428-what-are-some-of-the-best-case-studies-youve-read)
 * [**Design Details Series**](http://blog.brianlovin.com/)
 * [Focus Lab](http://focuslabllc.com/)

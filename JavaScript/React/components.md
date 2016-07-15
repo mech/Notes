@@ -152,6 +152,8 @@ Invoked once, **both on the client and server**, immediately before the initial 
 
 **Invoked only on the client!** Great for setting up interval.
 
+**Warning:** Be careful that once it has mounted and if the `props` is going to change, this lifecycle methods won't be invoked again, please see `componentWillReceiveProps`
+
 ```js
 componentDidMount() {
   this.interval = setInterval(this.tick, 1000);}

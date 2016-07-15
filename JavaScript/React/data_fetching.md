@@ -8,6 +8,17 @@ Where should you do data fetching? At the component lifecycle hooks or at the ro
 * [react-refetch from Heroku](https://github.com/heroku/react-refetch)
 * [dataloader](https://github.com/facebook/dataloader)
 * [DataLoader - Source code walkthrough](https://youtu.be/OQTnXNCDywA)
+* [**orbit.js**](https://github.com/orbitjs/orbit.js)
+
+## componentDidMount
+
+Always do Ajax fetching at `componentDidMount` instead of constructor or `componentWillMount`.
+
+This is because if your Ajax call return faster than your rendering code (it can happen especially if your render code is complex), then the Ajax callback will have no DOM to perform side effect to. This is one of the reason why only do Ajax call on `componentDidMount`.
+
+Another reason is related to server-side rendering.
+
+See http://stackoverflow.com/questions/27139366/why-do-the-react-docs-recommend-doing-ajax-in-componentdidmount-not-componentwi
 
 ## Data Flow
 

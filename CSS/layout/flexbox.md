@@ -69,6 +69,12 @@ Flexbox layout algorithm is direction-based unlike the block or inline layout wh
 
 Flexbox will override floats, table-cell and inline-block. It will not override absolute positioning.
 
+## Solve by Flexbox
+
+* Equal height columns
+* Vertical centering
+* 
+
 ## MISTAKES
 
 * In EVA, `main-container` has `flex-direction: row` which is very limiting. What happen if for the next screen you need to style it in column?
@@ -100,7 +106,13 @@ flex: 0 0 150px; // Not allowed to grow, stay at 150px (flex-basis)
 If the sum of the main sizes of all flex items is greater than the main size of the flex container, you can specify just by how much you want to shrink the flex items. Shrinking only take effect when you have negative free space.
 
 ```scss
+// Default
+flex-grow: 0   // By default is 0, so item can't expand
+flex-shrink: 1 // By default is 1, so item can shrink as much as it has to to fit into its container
+flex-basis: 0  // By default is 0
+
 // `flex` property
+// Remember the value is unitless and represent proportion
 flex: flex-grow flex-shrink flex-basis
 flex: 0 1 auto; // auto will just take the width value
 flex: 1 0 auto;
@@ -108,12 +120,19 @@ flex: auto; // equal to `flex: 1 1 auto`
 flex: none; // Same as `flex: 0 0 auto`, an inflexible item
 flex: 1; // Never do this, IE10/11 bugs
 flex: 1; // Fully flexible, equal to `flex: 1 1 0%`
-flex: 1 1 0; // Let the items grow and shrink evenly
+flex: 1 1 0%; // Let the items grow and shrink evenly
+flex: 0 0 0%; // Don't want them to grow and shrink
+
+// It is good to set flex-basis to auto and set the width and height manually to satisfy IE bugs
+flex-basis: auto;
+width: 33.333%;
 ```
 
 > I use grow if I want something to fill the space of a missing item, I use shrink if I want items to collapse to make way for new items.
 
 **Important**: When an element is a flex item, `flex` is used instead of the `width` and `height` properties to determine the main size of the element. (citation needed)
+
+But grow and shrink compared to what? That's where `flex-basis` comes in. The `flex-basis` is the initial starting dimension before free space is added or taken away from the item.
 
 ## Grid
 

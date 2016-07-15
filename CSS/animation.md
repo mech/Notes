@@ -73,6 +73,11 @@ It's important not to go overboard. Too much movement can scatter focus, and dis
 * [**Motion UI**](http://zurb.com/playground/motion-ui)
 * [Grab-bag easing equations](https://github.com/mattdesl/eases)
 
+## RAF
+
+* [requestAnimationFrame Scheduling For Nerds](https://medium.com/@paul_irish/requestanimationframe-scheduling-for-nerds-9c57f7438ef4#.i1x9yej7p)
+
+
 ## Videos
 
 * [**Val Head on All the Right Moves: Putting UIs in Motion**](https://vimeo.com/125545020)

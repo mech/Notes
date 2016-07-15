@@ -1,4 +1,4 @@
-# Style Guides
+# Style Guides, Style Tiles, Element Collage
 
 * [Beyond the Style Guide](https://24ways.org/2015/beyond-the-style-guide/)
 * [**Contextual Styling**](http://csswizardry.com/2015/06/contextual-styling-ui-components-nesting-and-implementation-detail/)
@@ -52,6 +52,7 @@ grep "info" * -R
 * [**Style Guide Resources**](http://styleguides.io/)
 * [**Interface Inventory**](http://bradfrost.com/blog/post/interface-inventory/)
 * [**Pattern Lab resources**](http://patternlab.io/resources.html)
+* [Pattern Index - Some nice pattern names to consider](http://www.patternindex.org/)
 * [**Atomic Design**](https://vimeo.com/109130093)
 * [**Front-end Dev Guidelines**](http://tech.tmw.co.uk/code/TMW-frontend-guidelines/)
 * [**What we would change about Rizzo**](http://ianfeather.co.uk/what-we-would-change-about-rizzo/)
@@ -98,6 +99,7 @@ grep "info" * -R
 * [CSS namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 * [The Standard Manual](http://thestandardsmanual.com/)
 * [Creating styleguides](http://alistapart.com/article/creating-style-guides)
+* [**CSS Guidelines**](https://github.com/chris-pearce/css-guidelines)
 
 ## Content - Tone, Voice and editorial style
 
@@ -107,12 +109,22 @@ grep "info" * -R
 
 More than just a style guide
 
+* [**Designing modular UI systems via Style Guide Driven Development**](https://www.smashingmagazine.com/2016/06/designing-modular-ui-systems-via-style-guide-driven-development/)
 * [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
 * [Google Color](https://www.google.com/design/spec/style/color.html#)
 * [Google Motion](https://www.google.com/design/spec/motion/material-motion.html#)
 * [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)
 * [How to be more organized while designing UI](https://medium.com/sketch-app-sources/how-to-be-more-organized-while-designing-ui-90d2d69cfb4f#.luq47e4du)
 * [BBC GEL - Global Experience Language](http://www.bbc.co.uk/blogs/internet/entries/c7c8cbe9-fe4e-478b-8048-e15d7c2cd138)
+* [The design tools we really need](https://medium.com/shyp-design/the-design-tools-we-really-need-67c79f835ca9#.57j1feja2)
+
+> In general, when we design responsive websites today, in practice it makes more sense to move away from designing standalone pages towards designing flexible and sophisticated design systems. **So, we focus on the components first, and then combine them to build larger components that eventually make up a page.** It’s easier to comprehend the complexity of multi-screen experiences this way. But even then, we tend to see responsive design merely as a collection of slightly differently sized rectangles, with a slightly different layout, sometimes with slightly different content poured into them.
+
+---
+
+> Complex interfaces can be broken down into simpler components and reshuffled to better fit various screens. Mega dropdown menus could be transformed into a set of tabs or into grouped navigation areas for narrow views. With complex content mosaics, we could turn content blocks into sliders and allow users to switch between views. For maps and complex infographics, users could select multiple countries at once and specify their selection in the second step. Responsive art direction isn’t easy, but it could dramatically improve landing pages and any project involving storytelling. - [Smart Responsive Design Patterns, Or When Off-Canvas Isn’t Good Enough](https://www.smashingmagazine.com/2016/05/smart-responsive-design-patterns-or-when-off-canvas-isnt-good-enough/)
+
+---
 
 > It's easier to put together a page from some objects than starting with a blank page. It's also easier to assemble new designs a long time after you haven't worked on the project or if you have to hand it down to another designer.
 >
@@ -133,6 +145,7 @@ More than just a style guide
 * [The Times](http://www.thetimes.co.uk/styleguide)
 * [CSS at BBC](https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66#.5mca5f4pm)
 * [BBC Grandstand](http://bbc.github.io/bbc-grandstand/)
+* [AirBnB - Building a Visual Language](http://airbnb.design/building-a-visual-language/)
 
 ## Playbook
 

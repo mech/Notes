@@ -4,6 +4,7 @@ HTML 2, HTML 4.01, XHTML 1.0, XHTML 1.1, XHTML 2.0, HTML5
 
 HTML5 is a living standard.
 
+* [**HTML5Test**](https://html5test.com)
 * [HTML5 Boilerplate](https://html5boilerplate.com/)
 * [Google Web Starter Kit](https://github.com/google/web-starter-kit)
 
@@ -52,6 +53,31 @@ HTML5 is a living standard.
 * [Modern web development](http://jtaby.com/blog/2012/04/23/modern-web-development-part-1)
 * [The history of the HTML5Shiv](http://www.paulirish.com/2011/the-history-of-the-html5-shiv/)
 * [The new favicon](http://blog.iconfactory.com/2015/11/the-new-favicon/)
+
+## Feature detection and cutting the mustard
+
+* [The problem with feature detection](http://blog.html5test.com/2015/08/the-problems-with-feature-detection/)
+
+```js
+if ('querySelector' in document
+  && 'localStorage' in window
+  && 'addEventListener' in window) {
+  // Boot the JavaScript app
+}
+
+// Test for file upload
+var field = document.createElement('input');
+field.type = 'file';
+
+var supported = field.type === 'file' &&
+  field.files && field.files instanceof FileList &&
+  'FileReader' in window = true;
+
+if (supported) {
+  // Enable upload functionality
+}
+```
+
 
 ## Elements
 

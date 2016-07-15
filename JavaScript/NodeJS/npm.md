@@ -1,5 +1,7 @@
 # NPM
 
+NPM is a CLI, a Registry, a Community and a Company.
+
 * [NPM documentation](https://docs.npmjs.com/folders)
 * [How to build and public ES6 NPM module today](https://booker.codes/how-to-build-and-publish-es6-npm-modules-today-with-babel/)
 * [How to use npm as a build tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
@@ -36,7 +38,10 @@ A: In that case, each dependency with a conflicting version on the same dependen
 ▶ npm list --depth=0
 ▶ npm list -g --depth=0
 ▶ npm view eslint dependencies
-▶ 
-▶ 
-▶ 
+
+▶ npm init
+▶ npm init auto // detect your code
+▶ ~/.npm-init.js
+
+▶ npm install --save --save-bundle
 ```

@@ -88,6 +88,8 @@ transition.abort();
 
 ## Link
 
+Normal HTML link will cause a refresh. Use <Link> instead.
+
 ```js
 <Link to="/home" activeClassName="active" onlyActiveOnIndex>Home</Link>
 

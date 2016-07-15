@@ -105,7 +105,20 @@
 * Nothing to install, nothing to configure—just **flow**.
 * App's needlessly bespoke interface
 * **Instant gratification!**
-* 
+* Defer to content. Deference. Give content center stage. Design for experiences that are unobtrusive and reduce distraction to lend focus to the work at hand.
+* Let your layout breathe
+* Dominance - Lead the eye where to look first. Dominant, subdominant and subordinate. See [IBM Design: Layout](http://www.ibm.com/design/language/framework/visual/layout)
+* Make the application frame/design modular so that it can accommodate different engagement/purposes in life.
+* Keep elements that work the same looking the same to avoid distracting users with inconsistencies. Don't venture into cuteness.
+* Don't make your UI so fatigue that user skip doing it
+* Offer an opinion on your UI
+* Making decision has a cost
+* Use motion, not more content to show relationships. See Apple iOS motion.
+* Design for flow, instead of screens. Too often we design for screens instead of study the exact flow. The unit of design is not screen. Think more in time-based manner. See Netflix UI.
+* Create a language of time for your product. See Google Material Design.
+* Design for time by designing with time-based tools.
+* Give people perspective by orienting them in time. Everything is changing too fast. Let user has perception of passage of time. See Facebook Memory.
+* Design product that last, and products that die.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
@@ -138,6 +151,17 @@ The interface was limiting us. We needed something with no interface.
 Picking the right thing to say, and the tone of your dialogue with the user, is crucial.
 
 > Conversational apps are therefore organized around the way I organize my life, rather than the way the app maker might dictate.
+
+## Navigation
+
+Always present less navigation links/options to user in order to stress focus. But metric should determine if more links/sections should be added.
+
+* [The Obvious, the Easy, and the Possible](https://signalvnoise.com/posts/3047-the-obvious-the-easy-and-the-possible)
+* [Smart RWD when off-canvas isn't good enough](https://www.smashingmagazine.com/2016/05/smart-responsive-design-patterns-or-when-off-canvas-isnt-good-enough/)
+
+* Obvious - The obvious is all about features and navigation items that should always be within reach of the user. It reflects the essence of the website, and it is expensive because it requires pixels on the screen. Think about the most important sections or features of your website; if they belong to the obvious group, they should always remain visible.
+* Easy - Beyond obvious, you'll find easy. The things that should be easy are the things that people do frequently, but not always. It all depends on your product, and your customer, but when you build a product you should know the difference between the things people do all the time and the things they do often. This can be hard, and will often lead to the most internal debates, but it's important to think deeply about the difference between always and often so you get this right.
+* Possible - And finally are the things that are possible. These are things people do sometimes. Rarely, even. So they don't need to be front and center, but they need to be possible.
 
 ## Color Blindness
 
@@ -191,6 +215,9 @@ Editor
 NumericTextBox
 DropDownList
 AutoComplete
+
+EventList
+TabularList
 
 <Pagination>
 <DataTable>
@@ -296,3 +323,4 @@ Anytime you have a list, you need to think about categorisation, grouping, filte
 * [User Interface (UX) Techniques](https://www.youtube.com/watch?v=7OSkB4BCx00)
 * [Why you're over-thinking your UI/UX](https://www.youtube.com/watch?v=Is2O666qDPs)
 * [Small Details, Big Impact By Yehuda Katz and Liz Baillie](https://www.youtube.com/watch?v=533rIdxPF10)
+* [Interaction Design in the Age of Hyperrealtime](https://vimeo.com/161169767)

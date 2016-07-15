@@ -49,6 +49,10 @@ Not a lot of "predictive patterns" to gain ☹️.
 
 Too many businesses regard data analytics as pertaining mainly to realizing value from some existing data.
 
+## Tags
+
+* [Organizing Screens in Zeplin](https://medium.com/zeplin-gazette/organizing-screens-in-zeplin-with-tags-128dc3ed0749#.izjifd18v)
+
 ## Multidimensional Filtering
 
 https://bugsnag.com/pricing
@@ -97,6 +101,10 @@ Predictive model abstracts away the complexity of the world, focusing in on a pa
 * [Jupyter](http://jupyter.org/)
 * [IPython Notebook](http://ipython.org/notebook.html)
 * [IRuby??](https://github.com/SciRuby/iruby)
+
+## Videos
+
+* [Interaction designers vs algorithms](https://vimeo.com/161177402)
 
 ## Questions
 

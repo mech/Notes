@@ -180,6 +180,18 @@ Single entry or multiple entries for code splitting.
 
 Webpack is mainly a JavaScript-bundler. Its "native" language is JavaScript and every other source requires a loader which transforms it to JavaScript.
 
+## Alias
+
+```js
+// npm install backbone jquery underscore
+resolve: {
+  alias: {
+    jquery: 'lib/jquery-3',
+    underscore: 'lib/lodash'
+  }
+}
+```
+
 ## CSS in Webpack
 
 * [**Smart CSS build with Webpack**](http://bensmithett.com/smarter-css-builds-with-webpack/)

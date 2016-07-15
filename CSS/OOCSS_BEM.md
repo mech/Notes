@@ -200,6 +200,7 @@ OOCSS avoids IDs and especially descendant selectors, which tightly couple HTML 
 
 ---
 
+* [Battling BEM: 10 Common Problems And How To Avoid Them](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/)
 * [BEMantic: DRY Like You Mean It](https://medium.com/@stowball/bemantic-dry-like-you-mean-it-133ea3843d98#.ncebrtjhh)
 * [BEM advice from developers](https://www.sitepoint.com/bem-smacss-advice-from-developers/)
 * [**CSSWizardry introducing BEM**](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
@@ -246,7 +247,7 @@ The trick with BEM is knowing when something falls into a relevant category. One
 .sub-links {}
 ```
 
-```
+```css
 .room {}
 .room__door {}
 	
@@ -265,7 +266,7 @@ It is important to know when BEM scope starts and stops. As a rule, BEM applies 
 
 You can use `avatar` elsewhere, but `profile__image` belongs to the `profile` component. You may not use `profile__image` elsewhere but you can use `avatar` at other places.
 
-```
+```html
 <div class="box profile">
   <img class="avatar profile__image" />
 </div>

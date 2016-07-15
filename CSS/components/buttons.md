@@ -2,6 +2,7 @@
 
 Functional CSS and not visual CSS!
 
+* [Links vs Buttons in modern web applications](https://marcysutton.com/links-vs-buttons-in-modern-web-applications/)
 * [CSS Buttons](http://cssbuttons.tumblr.com/)
 * [How our CSS framework enforce accessibility](http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/)
 
