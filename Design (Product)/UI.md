@@ -119,6 +119,8 @@
 * Design for time by designing with time-based tools.
 * Give people perspective by orienting them in time. Everything is changing too fast. Let user has perception of passage of time. See Facebook Memory.
 * Design product that last, and products that die.
+* Recognition is easier than recall.
+* Fewer border lines and background colors.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

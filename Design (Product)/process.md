@@ -1,5 +1,6 @@
 # Process
 
+* [**Talent Code**](http://thetalentcode.com/)
 * [**Rapid iteration in Sketch**](https://medium.com/sketch-app-sources/rapid-iteration-in-sketch-b183346d4707#.ntzuxo5nl)
 
 > "A sculptor may sit down to sculpt something without a clear idea of the exact form it will take."
@@ -185,6 +186,7 @@ Users of your app are there to get things done. They build behavior patterns and
 * [Design Sprint Case Study](http://robots.thoughtbot.com/design-sprint-case-study-merck-development-portal)
 * [Merck design sprint](http://robots.thoughtbot.com/merck-design-sprint-part-deux)
 * [Design sprint for real estate website](https://medium.com/@loucaspapa/design-sprint-for-a-real-estate-website-1f720ad8d88b)
+* [Eight common dysfunctions of design teams](https://library.gv.com/eight-common-dysfunctions-of-design-teams-and-what-to-do-about-them-8d9d0511346#.sb4zoax6i)
 
 ---
 > Learn early and often rather than launch early and often - [What fuels great design](http://www.gv.com/lib/what-fuels-great-design-and-why-most-startups-dont-do-it)

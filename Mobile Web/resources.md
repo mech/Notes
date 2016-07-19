@@ -108,6 +108,7 @@ If your line lengths grow longer at larger breakpoints, your type size should in
 
 Style sheets with media queries attached to their `<link>` tags will still download even if it evaluate to `false`.
 
+* [**enquire.js - Working with MQ with JavaScript**](http://wicky.nillia.ms/enquire.js/)
 * [**Approaches to Media Queries in Sass**](http://css-tricks.com/approaches-media-queries-sass/)
 * [Good resource for knowing the logical operators of media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 * [Responsive JavaScript](http://www.csskarma.com/blog/responsive-javascript/)

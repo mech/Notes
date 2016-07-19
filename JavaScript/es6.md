@@ -8,7 +8,7 @@
 
 * [Code styleguide](https://github.com/netshoes/styleguide)
 * [**ES6: New features**](http://es6-features.org/#Constants)
-* [**ES6 Overview in 350 bullet points**](https://ponyfoo.com/articles/es6)
+* [**ES6 Overview in 350 bullet points!!!**](https://ponyfoo.com/articles/es6)
 * [**JavaScript Modules**](http://jsmodules.io/)
 * [ES6 Modules: The Final Syntax](http://www.2ality.com/2014/09/es6-modules-final.html)
 * [**CoreJS**](https://github.com/zloirock/core-js)
@@ -105,6 +105,7 @@ console.log(tmp === x); // ReferenceError: tmp is not defined
 ## Destructuring
 
 * [ES6 Destructuring in depth](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/)
+* [ES6 JavaScript Destructuring in Depth](https://ponyfoo.com/articles/es6-destructuring-in-depth)
 
 **Extract data** from <u>arrays</u> or <u>objects</u> using syntax that "mirrors" the construction of array and object literals.
 
@@ -124,6 +125,11 @@ var {p, q} = o; // Means o.p and o.q
 
 const { visible, className, tag } = this.props
 let { city: c, state: s } = getAddress(); //=> c will be obj.city
+
+// Can also used in function with default value
+function random({ min=1, max=200 } = {}) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 
 // Rest Properties
 let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
@@ -148,12 +154,21 @@ function makeRequest(url, method, params) {
 
 A better `apply` and a better `push`.
 
+```js
+// Easier concatenation
+[1, 2, ...[3, 4, 5], 6, 7]
+```
+
 * [ecmascript-rest-spread](https://github.com/sebmarkbage/ecmascript-rest-spread)
 
 Can be used for destructuring also.
 
 ```js
 [..."abc"] // Will become [ 'a', 'b', 'c' ]
+[...document.querySelectorAll('div')] // Same, will give you [<div>, <div>, <div>]
+
+// Which is a better apply, because console.log() function take in argument with comma
+console.log(...[1, 2, 3])
 
 var a = [1, 2, 3];
 var b = [...a, 4, 5];
@@ -174,6 +189,14 @@ function bar(a, ...params) {}
 // Spread Properties
 let n = { x, y, ...z }
 n; // { x: 1, y: 2, a: 3, b: 4 }
+
+// Unknown props example
+// See https://facebook.github.io/react/warnings/unknown-prop.html
+function MyDiv(props) {
+  // We filter out the layout property
+  const { layout, ...rest } = props;
+  return <div {...rest} style="demo">Test</div>
+}
 ```
 
 ## Object.assign, Cloning, Extending
@@ -252,6 +275,9 @@ Mixin application should create a new class (metaclass) by composing existing on
 
 ## Iterators
 
+## forEach, for-in, for-of and iterators
+
+* [for-of and Iterators](https://hacks.mozilla.org/2015/04/es6-in-depth-iterators-and-the-for-of-loop/)
 
 
 

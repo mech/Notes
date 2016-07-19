@@ -171,6 +171,7 @@ More than just a style guide
 
 ## CSS Frameworks
 
+* [Blaze CS](http://blazecss.com/)
 * [SUIT CSS](http://suitcss.github.io/)
 * [Topcoat](http://topcoat.io/)
 * [Pure](http://purecss.io/)

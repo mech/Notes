@@ -7,6 +7,14 @@
 * [**How DHH Organizes His Rails Controllers**](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)
 * [ActionDispatch::Routing::Mapper::Scoping](http://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html)
 
+## Hexagonal Architecture
+
+* [Hexagonal architecture for Rails](https://medium.com/@vsavkin/hexagonal-architecture-for-rails-developers-8b1fee64a613#.3ysx5pyud)
+
+Think of your Rails controller as an "Adapter". It is not part of your application and they cannot contain any business logic.
+
+A "Use Case Service" is responsible for the coordination of logic we tend to put into our controllers.
+
 ## Break up your controller
 
 * [Zen and the art of the controller](https://www.youtube.com/watch?v=KVkQ9UEQk0Y)

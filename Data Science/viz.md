@@ -6,6 +6,7 @@ From tables to graphs. From CSV to plot. Numbers are central to our understandin
 
 Numbers have an important story to tell, and it is up to us to help them tell it.
 
+* [Data Visualization 2016 book](http://book.visualisingdata.com/chapter/chapter-2)
 * [**Polygraph**](http://polygraph.cool/)
 * [**Designing data-driven interfaces**](https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631)
 * [The Data Visualisation Catalogue](http://www.datavizcatalogue.com/)

@@ -1,5 +1,9 @@
 # Resources
 
+https://eager.io/blog/the-history-of-the-url-domain-and-protocol/
+
+http://coderesponsibly.org/
+
 HTML 2, HTML 4.01, XHTML 1.0, XHTML 1.1, XHTML 2.0, HTML5
 
 HTML5 is a living standard.

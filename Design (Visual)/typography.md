@@ -5,6 +5,7 @@ Allow the "content" to speak for themselves. Think about the "word associations"
 A typographic system establishes hierarchy, meaning it helps us prioritize content based on individual elements and relationships between them.
 
 * [Typi??](http://zellwk.com/blog/typi/)
+* [Best of Google Fonts - 2016](https://www.typewolf.com/google-fonts)
 * [**Google Style - Typography**](https://www.google.com/design/spec/style/typography.html#)
 * [Seriously, don't use icon font](http://blog.cloudfour.com/seriously-dont-use-icon-fonts/)
 * [Seriously, use icon font](http://benfrain.com/seriously-use-icon-fonts/)

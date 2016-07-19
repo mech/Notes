@@ -228,3 +228,4 @@ In IE 10-11, flex items ignore their parent container's height if it's set via t
 
 * [Zoe Mickley Gillenwater](http://zomigi.com/blog/)
 * [Rachel Andrew](https://rachelandrew.co.uk/)
+* [Jen Simmons](http://labs.jensimmons.com/)

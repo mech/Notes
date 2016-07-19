@@ -6,6 +6,10 @@
 
 > An instance of the Go's `Board` class has several attributes that describe what a game of Go looks like at a particular moment in time. This is a common paradigm in React: get familiar with the snapshot concept.
 
+---
+
+> There is an internal joke in the team that React should have been called "Schedule" because React does not want to be fully "reactive".
+
 Every serious applications need to represent states *over time*. Root of all evil is state changing over time.
 
 Human mind is not good at keeping track of state changing over time.

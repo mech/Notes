@@ -20,6 +20,10 @@ Notable companies in HR domain.
 
 https://www.hackerrank.com/
 
+## Conference
+
+* [HR Technology Conference](http://www.hrtechnologyconference.com/)
+
 ## Metrics
 
 * [Customer.io](https://customer.io/)

@@ -118,6 +118,7 @@ It's much easier to add features and create an illusion that the software is pow
 * [Google Design](https://design.google.com/)
 * [AirBnB Designairs](http://designairs.com/)
 * [Uber design](https://www.uber.com/design)
+* [Vox Media](http://product.voxmedia.com/)
 
 ## Data-Driven Design
 

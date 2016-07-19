@@ -1,5 +1,6 @@
 # Accessibility
 
+* [Vox Media Accessibility Guidelines](http://accessibility.voxmedia.com/)
 * [**7 Things Every Designer Needs to Know about Accessibility**](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b#.e8aub5twv)
 * [Accessibility and Developers](http://www.paulirish.com/2012/accessibility-and-developers/)
 * [The accessibility cheatsheet](http://bitsofco.de/2015/the-accessibility-cheatsheet/)

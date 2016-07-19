@@ -44,6 +44,9 @@ We want to use **distributed events**, where a single incident can trigger react
 
 ##  Promises
 
+* [Conformant Implementations](https://github.com/promises-aplus/promises-spec/blob/master/implementations.md)
+* [6 things you might not know about Promises](https://www.sitepoint.com/six-things-might-know-promises/)
+
 Can't be abort. But standard want to change this. Not easy though.
 
 Event target???
@@ -86,7 +89,7 @@ The point of promises:
 * [Cancellable Promises](https://annevankesteren.nl/2015/02/cancelable-promises)
 * [Returning a FetchPromise from fetch()](https://github.com/slightlyoff/ServiceWorker/issues/625)
 * [Generators are like Arrays](https://gist.github.com/jkrems/04a2b34fb9893e4c2b5c)
-* [**We have a problem with Promises**](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
+* [**We have a problem with Promises**](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 * [Asynchronous control flow in JavaScript](http://dparise.svbtle.com/asynchronous-control-flow-in-javascript)
 * [Debugging async callbacks](http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/)
 
