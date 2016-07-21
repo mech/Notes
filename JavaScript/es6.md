@@ -287,16 +287,21 @@ Mixin application should create a new class (metaclass) by composing existing on
 
 ```js
 import React from 'react';
+import autobind from 'autobind-decorator';
 
 let { PropTypes, Component } = React;
 
+@autobind
 class Person extends Component {
   // Use constructor instead of componentWillMount()
   constructor(...args) {
     super(...args);
     // No more getInitialState
     this.state = {      name: props.name
-    };  }
+    };
+    
+    // If you do not want to use ES8 to bind event
+    this.handleClick = this.handleClick.bind(this)  }
   
   // ES7 property initializers
   state = { isEditing: false };
@@ -305,7 +310,8 @@ class Person extends Component {
   static propTypes = {
     user: React.PropTypes.object.isRequired  }
   
-  // ES7 - Good for event handler and callback which need binding  change = env => this.setState({isEditing: true});
+  // ES8 - Good for event handler and callback which need binding
+  // See https://daveceddia.com/avoid-bind-when-passing-props/  change = env => this.setState({isEditing: true});
   
   // Combining 2 features: Arrow function + property initializers
   handleClick = (e) => this.setState()

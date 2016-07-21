@@ -151,6 +151,7 @@ Grids exist in relation to the content. We never start with a grid. We start wit
 
 > "What drives me insane in modern web design is grids. What's important is a page that moves. Now, as news flows in, editors can very quickly reshuffle what we're doing on the page, because every module is moveable. Instead of rigid grids, the site is built from these building blocks so we can snap them together like Lego. The news becomes intent driven, rather than layout driven." - Josh Topolsky, editor of Bloomberg Digital
 
+* [LostGrid - Flexible grid based on PostCSS](http://lostgrid.org/)
 * [**Simple Grid**](http://simplegrid.io/)
 * [**Specifics 001: The 8-Point Grid**](http://spec.fm/specifics/8-pt-grid)
 * [Invisible lines](http://school.readymag.com/grid/2/)

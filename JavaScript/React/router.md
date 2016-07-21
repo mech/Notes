@@ -32,6 +32,17 @@ Routing is just data: `location.hash.substr(1)`
 * [Server-side rendering landed in React Router](https://github.com/rackt/react-router/commit/1b1a62b04b73f01eb64b3a0983c9c6781e65b6b9?diff=unified)
 * [react-router vs react-router-component](https://groups.google.com/forum/#!msg/reactjs/WFwti82PWx4/GEPXdS_FvBsJ)
 
+## Alternatives
+
+* [You might not need react-router](https://medium.freecodecamp.com/you-might-not-need-react-router-38673620f3d#.ec2ur2mfe)
+* [You Don’t Need React-Router](https://medium.com/@shuoink/you-don-t-need-react-router-3f04a8381be2#.3t6nq8imw)
+* [crossroads.js](https://github.com/millermedeiros/crossroads.js)
+* [sheet-router](https://github.com/yoshuawuyts/sheet-router/)
+* [wayfarer](https://github.com/yoshuawuyts/wayfarer)
+* [page.js](https://github.com/visionmedia/page.js)
+* [history.js](https://github.com/browserstate/history.js)
+* [path-to-regexp](https://github.com/pillarjs/path-to-regexp)
+
 ## Examples
 
 * [Kitematic routes](https://github.com/kitematic/kitematic/blob/master/src/Routes.js)

@@ -8,6 +8,8 @@ How do you wrap your components? What does wrapping even mean?
 
 A higher-order component is merely a function that takes an existing component and returns a new component that wraps it with useful functionalities. The wrapping component will take care to render the wrapped component and also forwards the props to it, but also adds some useful behavior.
 
+* [**Mixins Considered Harmful**](https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html)
+* [Real World Examples of Higher-Order Components](http://rea.tech/reactjs-real-world-examples-of-higher-order-components/)
 * [**HOC in depth**](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.ofucbtu54)
 * [Higher Order React Components](http://natpryce.com/articles/000814.html)
 * [Structuring React Applications: Higher-Order Components](http://jamesknelson.com/structuring-react-applications-higher-order-components/)

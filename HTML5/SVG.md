@@ -65,6 +65,7 @@ The act of "drawing" in an SVG is optical trick caused by manipulating 2 SVG `pa
 
 Make the `stroke-dasharray` as long as the path to make it visually invisible. Then use `stroke-dashoffset` to gradually reveal it.
 
+* [Implement SVG animation using Web Animations](https://github.com/ericwilligers/svg-animation)
 * [Snap.svg](http://snapsvg.io/)
 * [Lazy line painter](http://lazylinepainter.info/)
 * [**Animated SVGs: Custom easing and timing**](http://oak.is/thinking/animated-svgs/)

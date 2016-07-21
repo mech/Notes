@@ -1,5 +1,6 @@
 # React
 
+- [Avoid binding when passing props](https://daveceddia.com/avoid-bind-when-passing-props/)
 - [Reverse Engineering React](https://vimeo.com/album/3930691)
 - [**Hacking with React**](http://www.hackingwithreact.com/)
 - [React Demystified](http://blog.reverberate.org/2014/02/react-demystified.html)
@@ -89,6 +90,7 @@ class App extends React.Component {
 
 ## Examples to Learn
 
+* [Hackable UI builder for designers & developers](https://github.com/crcn/saffron)
 * [react-baby-steps](https://github.com/RisingStack/react-baby-steps)
 * [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
 * [JWT router example](https://github.com/auth0/react-flux-jwt-authentication-sample/blob/gh-pages/src/app.jsx#L11-L29)

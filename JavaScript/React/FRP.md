@@ -115,8 +115,9 @@ Observables are a pattern to:
 
 Observable is a concept from the world of Functional Reactive Programming. They are used in other UI framework like Ember and Knockout.
 
-## Mobservable
+## MobX
 
+* [RFX Stack](https://github.com/foxhound87/rfx-stack)
 * [Making React reactive: the pursuit of high performing, easily maintainable React apps](https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/)
 * [Silent subscriptions](https://discuss.reactjs.org/t/reactjs-mobservable-as-the-easiest-and-fastest-way-to-propagate-changes-to-the-ui/811)
 * [Becoming fully reactive: An in-depth explanation of Mobservable](https://medium.com/@mweststrate/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254#.pdvu7he6y)

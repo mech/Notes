@@ -49,6 +49,10 @@ Not a lot of "predictive patterns" to gain ☹️.
 
 Too many businesses regard data analytics as pertaining mainly to realizing value from some existing data.
 
+## Search Filter + Review
+
+Yelp-like
+
 ## Tags
 
 * [Organizing Screens in Zeplin](https://medium.com/zeplin-gazette/organizing-screens-in-zeplin-with-tags-128dc3ed0749#.izjifd18v)

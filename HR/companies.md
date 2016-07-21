@@ -17,6 +17,7 @@ Notable companies in HR domain.
 * [**10x - A talent company in Silicon Valley**](http://www.10xmanagement.com/)
 * [Authentic Jobs](http://www.authenticjobs.com/pricing/)
 * [Why hiring is broken](https://medium.freecodecamp.com/why-is-hiring-broken-it-starts-at-the-whiteboard-34b088e5a5db#.vi4blkpvh)
+* [Will Microsoft help LinkedIn go enterprise?](http://platformed.info/will-microsoft-help-linkedin-go-enterprise/)
 
 https://www.hackerrank.com/
 

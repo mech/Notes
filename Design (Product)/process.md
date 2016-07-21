@@ -1,6 +1,7 @@
 # Process
 
 * [**Talent Code**](http://thetalentcode.com/)
+* [The Last Responsible Moment](https://blog.codinghorror.com/the-last-responsible-moment/)
 * [**Rapid iteration in Sketch**](https://medium.com/sketch-app-sources/rapid-iteration-in-sketch-b183346d4707#.ntzuxo5nl)
 
 > "A sculptor may sit down to sculpt something without a clear idea of the exact form it will take."
@@ -138,6 +139,11 @@ Something to break the ICE:
 * If you have a magic wand, what will you do? Pretend you have infinite resources and time, how would we do this?
 * Stay in sketch mode, much longer than you think. Longer than you're probably used to. As soon as you go into Photoshop you're slowing yourself down and walling yourself off. In the beginning of the process, when **alignment** and problem solving are paramount, you need to stay in sketch mode as long as possible.
 * Tons of artboards and layers, but no clear story or point of view. No pitch.
+
+## Product Story
+
+* [Telling story, not designing screens (Lazy Rectangle)](https://medium.com/user-defenders/the-perfect-design-tool-54e64428f2b#.f39n4mpia)
+* [People don’t buy what you do; they buy why you do it.](http://99u.com/articles/54098/why-every-artist-should-be-a-great-storyteller)
 
 ## Jobs to be done (JTDB)
 

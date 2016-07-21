@@ -24,6 +24,7 @@
 
 > High-level functions are easier to define if you have the whole UI printed out and intelligible at a glance. It’s also a lot easier to spot any duplications and inconsistencies that way. [The language of modular design](http://alistapart.com/article/language-of-modular-design)
 
+* [Bret Victor - The Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)
 * [**Material design is different, not better**](https://medium.com/android-news/material-design-is-different-not-better-87909af6ffe1#.i4ey1wym6)
 * [**5 Mistakes to Avoid When Designing Micro-interactions**](https://medium.com/@ux_in_motion/5-mistakes-to-avoid-when-designing-micro-interactions-a6f638ee6a86#.aum00y53i)
 * [Why I love ugly messy UI](https://m.signalvnoise.com/why-i-love-ugly-messy-interfaces-and-you-probably-do-too-edff4a896a83#.3ufmiz586)
@@ -121,6 +122,13 @@
 * Design product that last, and products that die.
 * Recognition is easier than recall.
 * Fewer border lines and background colors.
+* Provide minimum user inputs
+* Getting the right questions out is vastly more effective than trying to find the right answer.
+* Sometimes the idea needs to be improved before the visual polish can be attacked.
+* A tool addresses human needs by amplifying human capabilities. That is, a tool converts what we can do into what we want to do. A great tool is designed to fit both sides.
+* Tell story, you are not designing screens or "lazy rectangles" - [The Perfect Design Tool](https://medium.com/user-defenders/the-perfect-design-tool-54e64428f2b#.f39n4mpia)
+* The focus of the solution circles around human beings, rather than interfaces or apps.
+* Adding a new feature doesn't just mean sticking it on top of the UI — you have to blend it with the existing design, with the user in mind. A feature needs to be added in a way that feels natural to the user. It can't be forced.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

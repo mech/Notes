@@ -332,6 +332,7 @@ Predict behaviour - not a literal sense. But with enough data to predict. Predic
 * [**Redesigning ActiveCollab**](https://blog.activecollab.com/redesigning-active-collab-393608cb019b)
 * [The Inside Story of Uber's Radical Rebranding](http://www.wired.com/2016/02/the-inside-story-behind-ubers-colorful-redesign/)
 * [**Design Details**](http://www.brianlovin.com/design-details/shorts-for-ios)
+* [Peek inside a Facebook design critique](https://medium.com/facebook-design/peek-inside-a-facebook-design-critique-c4833efda26e#.tombo9uxw)
 
 ## Product News
 

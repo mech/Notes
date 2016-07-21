@@ -91,6 +91,11 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
 
+## Slogan
+
+* Fit factors
+* 
+
 ## Marketability, Bias, Level the Playing Field
 
 * [Hacked and Hired](https://www.youtube.com/watch?v=rktRuNfmW9I)

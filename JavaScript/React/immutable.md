@@ -8,6 +8,7 @@ Don't use `Array.shift`, use `Array.slice` instead for immutability.
 
 Immutable data structure with structure sharing.
 
+* [Painless immutability with Timm](http://guigrpa.github.io/2016/06/16/painless-immutability/)
 * [Great example of using Immutable](http://jaero.space/blog/react-performance-2)
 * [**Immutable as React state**](https://github.com/facebook/immutable-js/wiki/Immutable-as-React-state)
 * [ECMAScript proposal](https://github.com/sebmarkbage/ecmascript-immutable-data-structures)

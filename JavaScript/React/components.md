@@ -140,14 +140,19 @@ Container component separates data-fetching and rendering concerns. Or component
 ## Lifecycle
 
 * [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
+* [React component's lifecycle](https://medium.com/react-ecosystem/react-components-lifecycle-ce09239010df#.98x6ggnzq)
 
 ### Initialization
 
 `defaultProps`
 
-### componentWillMount
+### componentWillMount or constructor
 
 Invoked once, **both on the client and server**, immediately before the initial rendering occurs.
+
+It's important to note that calling `this.setState` within this method will not trigger a re-render. So , don't do any data fetching here.
+
+**Do not call `this.setState` here**
 
 ### componentDidMount
 
@@ -163,9 +168,13 @@ componentWillUnmount() {
   clearInterval(this.interval);}
 ```
 
-### componentWillUpdate
+## componentWillReceiveProps(newProps)
 
-Great for triggering animation. You cannot use `this.setState()` here!
+Use this to react to props transition before `render()` is called. Calling `this.setState` will not trigger an additional re-render and we can access old props via `this.props`.
+
+### componentWillUpdate(nextProps, nextState)
+
+Call immediately before rendering. Great for triggering animation. You cannot use `this.setState()` here!
 
 ```js
 componentWillUpdate(nextProps, nextState) {
@@ -174,11 +183,15 @@ componentWillUpdate(nextProps, nextState) {
     $(??).velocity('reverse');  }}
 ```
 
-### componentDidUpdate
+**Do not call `this.setState` here**
+
+### componentDidUpdate(prevProps, prevState)
 
 * [Scroll position with React](http://blog.vjeux.com/2013/javascript/scroll-position-with-react.html)
 
 Happens every time the element is re-rendered. Good for maintaining scroll position. You can do paranoid validation here also, but admittedly is not needed (like text length limiting)
+
+Also good when you need to update 3rd-party JavaScript library like Select2.
 
 ```js
 componentDidUpdate() {
@@ -187,12 +200,27 @@ componentDidUpdate() {
 
 // Limiting the text should really be done at event handler, but
 // here we are just being paranoid and do additional validation
-componentDidUpdate(oldProps, oldState) {
+componentDidUpdate(prevProps, prevState) {
   if (this.state.text.length > 3) {
-    this.replaceState(oldState);
+    this.replaceState(prevState);
   }
 }
 ```
+
+```js
+// Good for doing input focus
+componentDidUpdate(prevPros) {
+  const value = this.props.value;
+  const prevValue = prevProps.value;
+  
+  if (this.isMounted && value.errors && value.errors != prevValue.errors) {
+    if (value.errors.email) {
+      this.refs.email.focus();
+    }
+  }
+}
+```
+
 
 ## Owner-Ownee and Parent-Child
 

@@ -22,6 +22,7 @@ Properties can't be changed because they are inherited every time the component 
 
 There's a deeper reason why it's so important to make data flow clear and simple: it encourages you to keep state in as few places as possible and make most of your components stateless.
 
+* [How to handle state in React. You might not need Redux or MobX.](https://medium.com/react-ecosystem/how-to-handle-state-in-react-6f2d3cd73a0c#.u8lexd1cy)
 * [**Dive into React codebase: Handling state changes**](http://reactkungfu.com/2016/03/dive-into-react-codebase-handling-state-changes/)
 * [**Change and its detection in JavaScript Frameworks**](http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html)
 * [**State is an anti-pattern**](https://www.reddit.com/r/reactjs/comments/3bjdoe/state_is_an_antipattern/)
