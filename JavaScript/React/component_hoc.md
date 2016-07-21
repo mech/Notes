@@ -81,5 +81,25 @@ const App = React.createClass({
 });
 ```
 
+Another example of HOC for implementing PureRenderMxin:
+
+```js
+import shallowCompare from 'react-addons-shallow-compare'
+
+const pure = Component => class PureComponent extends React.Component {
+  shouldComponentUpdate(nextProps, nextState) {
+    return shallowCompare(this, nextProps, nextState)
+  }
+  
+  render() {
+    // You can see that at this component's render() method,
+    // we output the wrapped component, essentially having
+    // 2 components, but the higher one up control some
+    // lifecycle methods.
+    <Component {...this.props} />
+  }
+}
+```
+
 ## Decorators
 

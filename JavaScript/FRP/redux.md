@@ -508,6 +508,8 @@ export default connect(App);
 
 ### Connect
 
+* [Implementation - connect.js](https://github.com/reactjs/react-redux/blob/master/src/components/connect.js)
+
 Sort of like subscription. You wrap the component. When you do the wrapping, you need to "connect" the single state tree to props for your component to consume, thus `connect(stateToProps)`.
 
 Or just do your own `store.subscribe()`.
