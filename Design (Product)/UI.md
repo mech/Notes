@@ -2,6 +2,8 @@
 
 > The little things matter
 
+https://medium.com/google-design/i-o-2016-our-definitive-guide-to-design-4d64d2db7150#.y8anp5jpk
+
 ---
 
 > The UI is part of user's digital body language - [How UI twist your words](https://medium.com/user-experience-design-1/facebook-and-how-uis-twist-your-words-4ceedc5fd93#.838m03i70)
@@ -115,6 +117,7 @@
 * Offer an opinion on your UI
 * Making decision has a cost
 * Use motion, not more content to show relationships. See Apple iOS motion.
+* Use motion to tell micro-story.
 * Design for flow, instead of screens. Too often we design for screens instead of study the exact flow. The unit of design is not screen. Think more in time-based manner. See Netflix UI.
 * Create a language of time for your product. See Google Material Design.
 * Design for time by designing with time-based tools.
@@ -129,6 +132,7 @@
 * Tell story, you are not designing screens or "lazy rectangles" - [The Perfect Design Tool](https://medium.com/user-defenders/the-perfect-design-tool-54e64428f2b#.f39n4mpia)
 * The focus of the solution circles around human beings, rather than interfaces or apps.
 * Adding a new feature doesn't just mean sticking it on top of the UI — you have to blend it with the existing design, with the user in mind. A feature needs to be added in a way that feels natural to the user. It can't be forced.
+* Demonstrating value before asking for something - Value proposition.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 
@@ -297,6 +301,8 @@ There are a number of individual states at which interaction is possible. We cal
 
 ### Drop-down Editor
 
+* [**You Know What? Fuck Dropdowns**](https://www.youtube.com/watch?v=hcYAHix-riY)
+
 > Drop downs should be the UI of last resort - @lukew
 
 * [**Tether**](http://github.hubspot.com/tether/docs/welcome/)
@@ -328,9 +334,14 @@ Anytime you have a list, you need to think about categorisation, grouping, filte
 
 * [Infinite scrolling vs pagination](https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1#.y3k6noa5p)
 
+## Multimodal
+
+Modality? Human is very good at multimodalities. They switches modalities rapidly in order to multi-task and survive.
+
 # Videos
 
 * [User Interface (UX) Techniques](https://www.youtube.com/watch?v=7OSkB4BCx00)
 * [Why you're over-thinking your UI/UX](https://www.youtube.com/watch?v=Is2O666qDPs)
 * [Small Details, Big Impact By Yehuda Katz and Liz Baillie](https://www.youtube.com/watch?v=533rIdxPF10)
 * [Interaction Design in the Age of Hyperrealtime](https://vimeo.com/161169767)
+* [Learning to speak Designer - Google I/O 2016](https://www.youtube.com/watch?v=80hrknwD74Q)

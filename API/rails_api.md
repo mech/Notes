@@ -37,6 +37,10 @@ Large software projects stand a slim chance of ever being finished. Build for co
 ▶ curl -H "Content-Type: application/json; charset=utf-8" -d '{"user": {"name":"mech"}}' http://localhost:3000/users
 
 ▶ curl -H "Accept: application/json" -H "Content-Type: application/json" 'http://localhost:3000/users' -d '{??}'
+
+▶ echo 'day=AM' | http --form http://localhost/leaves -v
+
+▶ echo '{"day":"AM"}' | http --json http://localhost/leaves -v
 ```
 
 ## API Wrapper and Serialisation

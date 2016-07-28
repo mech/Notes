@@ -1,5 +1,6 @@
 # Isomorphic
 
+* [hypernova from AirBnb](https://github.com/airbnb/hypernova)
 * [Server-Side Rendering](https://github.com/dimaip/server-side-rendering)
 * [Handcrafting an Isomorphic Redux Application ](https://medium.com/front-end-developers/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4#.72n7y1odt)
 * [Universal React](https://24ways.org/2015/universal-react/)

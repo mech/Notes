@@ -1,5 +1,9 @@
 # Jobline's Problem
 
+For survivability, we need to re-inventing and re-architecting the whole Jobline platform multiple times. How to continuously rebuild a system that never stop.
+
+---
+
 Very nice study of ATS from Hired.com: https://hired.com/blog/highlights/announcing-newest-ats-integration-lever/
 
 See https://github.com/hired open source projects. Very inspiring!

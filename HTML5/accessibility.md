@@ -6,6 +6,7 @@
 * [The accessibility cheatsheet](http://bitsofco.de/2015/the-accessibility-cheatsheet/)
 * [What even is a table?](https://speakerdeck.com/edds/what-even-is-a-table-a-quick-look-at-accessibility-apis)
 * [How our CSS framework enforce accessibility](http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/)
+* [**Accessible UI Components For The Web - Addy Osmani**](https://medium.com/@addyosmani/accessible-ui-components-for-the-web-39e727101a67#.gutv6gmzt)
 
 ```html
 <input type="checkbox" aria-checked="true" tabindex="0" />

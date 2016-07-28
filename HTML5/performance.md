@@ -7,6 +7,7 @@ Don't look at code, measure it! It is very hard to tell from code where the perf
 ▶ npm install -g psi
 ```
 
+* [**perfschool**](https://github.com/bevacqua/perfschool)
 * [**Sitespeed**](https://www.sitespeed.io/)
 * [**Performance Calendar**](http://calendar.perfplanet.com/2014/)
 * [**Rendering Performance**](https://developers.google.com/web/fundamentals/performance/rendering/)

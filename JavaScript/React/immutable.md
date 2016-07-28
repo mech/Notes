@@ -8,6 +8,9 @@ Don't use `Array.shift`, use `Array.slice` instead for immutability.
 
 Immutable data structure with structure sharing.
 
+* [**Immutability Helpers**](https://medium.com/pro-react/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c#.olqenbq13)
+* [Using Immutable.Record to represent a typed model](https://medium.com/azendoo-team/immutable-record-react-redux-99f389ed676#.2svopbsv2)
+* [React.js pure render performance anti-pattern](https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f#.bjv0o7xnn)
 * [Painless immutability with Timm](http://guigrpa.github.io/2016/06/16/painless-immutability/)
 * [Great example of using Immutable](http://jaero.space/blog/react-performance-2)
 * [**Immutable as React state**](https://github.com/facebook/immutable-js/wiki/Immutable-as-React-state)

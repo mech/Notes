@@ -1,5 +1,9 @@
 # _jobline
 
+Runbooks and Playbooks
+
+http://nickjanetakis.com/blog/dockerize-a-rails-5-postgres-redis-sidekiq-action-cable-app-with-docker-compose
+
 ## Amazon S3
 
 * [Bucket policy?](https://forums.aws.amazon.com/thread.jspa?messageID=188183)

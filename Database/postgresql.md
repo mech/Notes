@@ -217,6 +217,9 @@ GIN is just a B-tree, with efficient storage of duplicates. If you have need for
 
 ## JSONB
 
+* [When to use unstructured datatypes in Postgres–Hstore vs. JSON vs. JSONB](https://www.citusdata.com/blog/2016/07/14/choosing-nosql-hstore-json-jsonb/)
+* [Aggregating indeterminate JSON structures in Postgres](https://blog.steve.ly/aggregating-indeterminate-json-structures-in-postgres/)
+
 JSONB does not store duplicate keys. It also clear whitespace. JSONB is stored as binary.
 
 **Note**: JSONB will always perform a Seq Scan if you use the `->>` operator on a path that have no expression index. So if you don't know beforehand which keys you'll query, or if you can query any path, make sure you define an GIN index and use the `@>` that benefits from that index.
@@ -398,6 +401,7 @@ FROM payment;
 
 ## Performance
 
+* [Reading a Postgres EXPLAIN ANALYZE Query Plan](https://robots.thoughtbot.com/reading-an-explain-analyze-query-plan)
 * [More on Postgres performance](http://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/)
 * [Handling growth with Postgres from Instagram](http://instagram-engineering.tumblr.com/post/40781627982/handling-growth-with-postgres-5-tips-from-instagram)
 * [Performance Tuning Queries in PostgreSQL](http://www.geekytidbits.com/performance-tuning-postgres/)
@@ -517,3 +521,4 @@ language sql;
 * [PGCon 2014](https://www.youtube.com/watch?v=oQ1LSW31Y1A&list=PLWW0CjV-Tafa2jvcjihXwSvZZKsLAsb9Y#t=2492)
 * [dotScale - Databases The Long View](https://youtu.be/8wligryH_gY)
 * [Postgres present and future - PyCon 2016](https://www.youtube.com/watch?v=rYSSX8mdbMk)
+* [Postgres in Production at GoCardless](https://www.youtube.com/watch?v=Tu-cf-Jki60)

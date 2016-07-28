@@ -19,3 +19,7 @@
 * [Why I use Tap instead of Mocha](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
 * [React testing with Webpack + Tape](https://github.com/Cmdv/React-Testing-Webpack-Tape)
 * [Unit testing React components and Redux reducers](http://pebblecode.com/blog/react-redux-unit-testing/)
+
+## Videos
+
+* [Unit Testing React Applications with Mocha, Chai and Enzyme Talk](http://blog.tomduncalf.com/posts/react-unit-testing-with-mocha-chai-enzyme-talk/)

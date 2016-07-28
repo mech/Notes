@@ -1,5 +1,6 @@
 # Animation
 
+* [velocity-react](https://github.com/twitter-fabric/velocity-react)
 * [Text animation using react-flip-move](https://medium.com/@joshuawcomeau/beautiful-animations-in-the-dom-f3228c7f9a16#.iecv30chu)
 * [Animating the unanimatable](https://medium.com/developers-writing/animating-the-unanimatable-1346a5aab3cd#.kepbuy5yo)
 * [Applying transitions on initial render](https://web-design-weekly.com/2015/02/05/applying-react-js-css-transitions-initial-render/)

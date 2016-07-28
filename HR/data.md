@@ -53,6 +53,12 @@ Too many businesses regard data analytics as pertaining mainly to realizing valu
 
 Yelp-like
 
+```
+Focus - Narrow down
+Filter - Tune out noise
+Shift
+```
+
 ## Tags
 
 * [Organizing Screens in Zeplin](https://medium.com/zeplin-gazette/organizing-screens-in-zeplin-with-tags-128dc3ed0749#.izjifd18v)

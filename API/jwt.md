@@ -2,7 +2,7 @@
 
 Is JWT just a re-implementation of Rails signed cookie?
 
-* [Securing React Redux Apps With JWT Tokens](https://medium.com/@rajaraodv/securing-react-redux-apps-with-jwt-tokens-fcfe81356ea0#.8e8z55ik0)
+* [**Securing React Redux Apps With JWT Tokens**](https://medium.com/@rajaraodv/securing-react-redux-apps-with-jwt-tokens-fcfe81356ea0#.8e8z55ik0)
 * [JWT with Redux](https://auth0.com/blog/2016/01/04/secure-your-react-and-redux-app-with-jwt-authentication/)
 * [Implementing JWT in API: Real Use Case Example](https://medium.com/@jetruby/implementing-jwt-in-api-real-use-case-example-438742a7c5df#.104obz390)
 * [**Using JSON Web Tokens to authenticate JavaScript front-ends on Rails**](http://zacstewart.com/2015/05/14/using-json-web-tokens-to-authenticate-javascript-front-ends-on-rails.html)

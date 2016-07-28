@@ -45,6 +45,17 @@ Objects in JavaScript have reference equality.
 {error: error} === {error}
 ```
 
+## String
+
+```js
+String.prototype.includes
+String.prototype.startsWith(txt, start)
+String.prototype.endsWith(txt, end)
+String.prototype.repeat(count)
+String.prototype.trim()
+```
+
+
 ## Import and Export
 
 ```js

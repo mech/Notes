@@ -94,6 +94,7 @@ The webpack core can be extended with loaders and plugins.
 
 ## Starter Kit, Boilerplate
 
+* [react-universal-starter](https://github.com/lonelyplanet/react-universal-starter)
 * [starter-project](http://andrewhfarmer.com/starter-project/)
 * [Este.js](https://github.com/este/este)
 * [react-for-hipsters-boilerplate](https://github.com/chicoxyzzy/react-for-hipsters-boilerplate/)
@@ -104,7 +105,7 @@ The webpack core can be extended with loaders and plugins.
 * [react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
 * [webpack-express-boilerplate](https://github.com/christianalfoni/webpack-express-boilerplate)
 * [front-stack-boilerplate](http://engineering.blogfoster.com/jumpstart-to-react-redux-development/)
-* [react-slingshot](https://github.com/coryhouse/react-slingshot)
+* [**react-slingshot**](https://github.com/coryhouse/react-slingshot)
 * [startupslam-workshop](https://github.com/metalabdesign/startupslam-workshop)
 * [react-starter](https://github.com/richardkall/react-starter)
 * [react-cdk](https://github.com/kadirahq/react-cdk)

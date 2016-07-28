@@ -141,6 +141,9 @@ Container component separates data-fetching and rendering concerns. Or component
 
 * [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
 * [React component's lifecycle](https://medium.com/react-ecosystem/react-components-lifecycle-ce09239010df#.98x6ggnzq)
+* [**React In-depth Book - The React Life Cycle**](https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/introduction.html)
+
+`componentWillMount` and `componentDidMount` will get called whenever state or props changed, so if you only want to respond to state change, you need to use the callback at `this.setState({}, callback)`.
 
 ### Initialization
 
@@ -191,7 +194,7 @@ componentWillUpdate(nextProps, nextState) {
 
 Happens every time the element is re-rendered. Good for maintaining scroll position. You can do paranoid validation here also, but admittedly is not needed (like text length limiting)
 
-Also good when you need to update 3rd-party JavaScript library like Select2.
+Also good when you need to update 3rd-party JavaScript library like Select2/[Chosen](https://harvesthq.github.io/chosen/).
 
 ```js
 componentDidUpdate() {
@@ -330,11 +333,9 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [react-list-view](https://github.com/Morhaus/react-list-view)
 * [react-text-filter](https://github.com/nkbt/react-text-filter)
 * [react-popup](https://github.com/minutemailer/react-popup)
-* [react-date-picker](http://zippyui.com/react-date-picker/)
 * [react-springs](https://github.com/threepointone/react-springs)
 * [react-autocomplete](https://github.com/synapsestudios/react-autocomplete)
 * [react-pikaday](https://github.com/thomasboyt/react-pikaday)
-* [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
 * [react-select-search](https://github.com/tbleckert/react-select-search)
 * [react-avatr](https://github.com/studiofrenetic/react-avatr)
 * [react-absolute-grid](https://github.com/jrowny/react-absolute-grid)
@@ -381,9 +382,12 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [simple-react-button](https://github.com/cdrpro/simple-react-button)
 * [react-hoverbox](https://github.com/wix/react-hoverbox)
 * [react-autosuggest](https://github.com/moroshko/react-autosuggest)
+* [Uber - react-map-gl](https://github.com/uber/react-map-gl)
 
 ### Date-picker and Calendar
 
+* [**react-day-picker**](http://www.gpbl.org/react-day-picker/)
+* [react-date-picker](http://zippyui.com/react-date-picker/)
 * [A very nice time picker](http://dapperdeveloper.com/2015/10/19/tutorial-build-a-time-picker-with-react-js/)
 * [**Task Calendar**](http://hilary-l.github.io/)
 * [hv-react-calendar](https://github.com/HireVue/hv-react-calendar)
@@ -394,6 +398,8 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 
 * [react-anything-sortable](https://github.com/jasonslyvia/react-anything-sortable)
 * [react-draggable](https://github.com/mzabriskie/react-draggable)
+* [**react-sortable-hoc**](http://clauderic.github.io/react-sortable-hoc)
+* [Sortable lists with react-sortable](https://themeteorchef.com/snippets/sortable-lists-with-react-sortable/)
 
 ### Resizable
 
@@ -413,6 +419,7 @@ See http://davidtheclark.com/modular-approach-to-interface-components/ for a nic
 * [react-paginate](https://github.com/Mosho1/react-paginate)
 * [react-pagify](http://bebraw.github.io/react-pagify/)
 * [react-paginate](https://github.com/eliseumds/react-paginate)
+* [react-custom-scroll](https://github.com/rommguy/react-custom-scroll)
 
 ## Text editor
 
@@ -469,6 +476,15 @@ export default class Sparkline extends Component {
   }
 }
 ```
+
+## Refs
+
+> Q: Curious why string refs look to be deprecated in a future version of React. Is it simply that callbacks can already handle basic references / are more versatile? Subtle way to discourage the use of ref's as an escape hatch for component communication? - BradColthurst
+> 
+A: not to discourage people, though that could be a nice side-effect? a handful of reasons reasons: (1) string refs make it less clear that there's a timing aspect involved and that the ref only becomes available at a certain point in the mount cycle, whereas function refs make it a little clearer, (2) function refs are more flexible and you could read some property from or call a method on the node without storing it, (3) if you have a helper function outside your class that returns a component with a string ref, it's unclear where that ref will be attached, and (4) we track which component is the "owner" to attach refs to using a stateful module within the 'react' package, which is intellectually gross but can also complicate things in a practical sense and means you it's harder to use multiple versions of the 'react' package (which should otherwise work correctly)
+
+https://github.com/reactiflux/q-and-a/blob/master/ben-alpert_react-core.md
+
 ## Integrate with jQuery
 
 ```js

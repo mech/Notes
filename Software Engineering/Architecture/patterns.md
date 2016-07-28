@@ -1,4 +1,6 @@
-# Architecture Patterns
+# Architecture Patterns 
+
+> Good architecture support change.
 
 Evolutionary architecture and emergent design. Just-in-time architecture? Iterative architecture. Delay until the last responsible moment.
 

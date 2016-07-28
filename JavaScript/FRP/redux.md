@@ -1,5 +1,18 @@
 # Redux
 
+Short overview of Redux:
+
+1. You spend time to write your reducers to do the work of converting state to new state. You can have multiple reducers that ultimately will need to be -->
+2. `combineReducers`
+3. At your new main new page component (it can be your route component), you need to setup the store: `const store = createStore(reducer)`
+4. If something happen, you just `store.dispatch(ACTION)` away.
+5. Rest assure all your 'connected' or subscribed React components will `store.getState()` and re-render.
+
+---
+
+* [**Good video series**](http://remzolotykh.net/category/react-and-redux)
+* [**Learning Redux with Reducks**](http://www.aaron-powell.com/posts/2016-06-06-learning-redux-with-reducks-intro.html)
+* [3 simple steps to improve your React Redux code](https://www.ckl.io/blog/3-simple-steps-to-improve-react-redux-code/)
 * [**Why does the Elm Architecture matter to Redux developers?**](http://salsita.github.io/redux-elm/)
 * [Getting Started with React, Redux and Immutable: a Test-Driven Tutorial](http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/)
 * [**The Anatomy Of A React Redux App**](https://medium.com/@rajaraodv/the-anatomy-of-a-react-redux-app-759282368c5a#.gptl457nd)
@@ -237,7 +250,7 @@ Action creators are just function that create action.
 
 ```js
 // This is a simple synchronous dispatch. The UI will render immediately!!
-dispatch({
+store.dispatch({
   type: ADD_ITEM,
   status: 'start',
   name: 'James'
@@ -318,6 +331,17 @@ export function login(email, password) {
 ```
 
 ## Reducer
+
+Do the grunt work of your data flow. Taking information from action and produce a brand new state.
+
+```js
+// A mutable noop reducer
+const reducer = (state, action) => state;
+
+// A immutable noop reducer
+const reducer = (state, action) => {...state};
+const reducer = (state, action) => Object.assign({}, state, {});
+```
 
 > Reducers return Objects. Combine reducers adds up these Objects. Provider gives this Combined Object to all Components.
 

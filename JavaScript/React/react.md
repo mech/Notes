@@ -1,5 +1,6 @@
 # React
 
+- [**React in depth - Good gitbook to learn**](https://developmentarc.gitbooks.io/react-indepth/content/)
 - [Avoid binding when passing props](https://daveceddia.com/avoid-bind-when-passing-props/)
 - [Reverse Engineering React](https://vimeo.com/album/3930691)
 - [**Hacking with React**](http://www.hackingwithreact.com/)
@@ -90,6 +91,7 @@ class App extends React.Component {
 
 ## Examples to Learn
 
+* [**ReactiveTraderCloud**](https://github.com/AdaptiveConsulting/ReactiveTraderCloud)
 * [Hackable UI builder for designers & developers](https://github.com/crcn/saffron)
 * [react-baby-steps](https://github.com/RisingStack/react-baby-steps)
 * [Percolate Studio's router](https://github.com/percolatestudio/percolatestudio.com/blob/master/app/components/Routes.jsx)
@@ -574,6 +576,7 @@ Dirty-checking model can be slow. Virtual DOM is using tree, as we all know, tre
 
 DOM operation is very expensive! Because modifying the DOM will also apply and calculate CSS styles, layouts, etc.
 
+* [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060#.kipyrww3i)
 * [FRZR](https://freezer.js.org/minimum-viable-view-library/)
 * [React-less Virtual DOM with Snabbdom](https://medium.com/@yelouafi/react-less-virtual-dom-with-snabbdom-functions-everywhere-53b672cb2fe3#.q046lbm2b)
 * [Snabbdom](https://github.com/paldepind/snabbdom)
@@ -613,6 +616,7 @@ Cross-cutting concern like Logger, Subscribing? Just mix in methods.
 
 ## Examples
 
+* [Create auto-complete search box](http://hackingbeauty.com/create-a-reactjs-component-part1/)
 * [react-flux-puzzle](https://github.com/weslleyaraujo/react-flux-puzzle)
 * [**Mattermost**](https://github.com/mattermost/platform/tree/release-1.1.0/web/react/components)
 * [Ryan Florence HYPE](https://github.com/ryanflorence/reactconf-2015-HYPE)

@@ -172,6 +172,11 @@ Users of your app are there to get things done. They build behavior patterns and
 
 ## Google Ventures (Design Sprints)
 
+Sprint master - Read the room well, can pivot at any moment.
+
+Time-boxing (Session)
+
+* [**How design sprints are flexing for success - Google I/O 2016**](https://youtu.be/awKVQUcku4A?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC)
 * [**Sprint Stories**](https://sprintstories.com/)
 * [Why good storytelling helps you design great products](http://www.gv.com/lib/why-good-storytelling-helps-you-design-great-products)
 * [Google Ventures - How to set up your war room](http://www.fastcodesign.com/3028471/google-ventures-your-design-team-needs-a-war-room-heres-how-to-set-one-up)
