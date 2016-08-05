@@ -2,6 +2,9 @@
 
 https://vividcortex.com/pricing/
 
+* [How MVCC works](https://devcenter.heroku.com/articles/postgresql-concurrency)
+* [**An unexpected journey, a DBA's tale - XID wraparound**](https://engineering.semantics3.com/2016/07/20/an-unexpected-dba-journey/)
+* [Building a Data Pipeline with Airflow](http://tech.marksblogg.com/airflow-postgres-redis-forex.html)
 * [Homebrew and PostgreSQL 9.5](https://kkob.us/2016/01/09/homebrew-and-postgresql-9-5/)
 * [**Using Repository Pattern to Migrate Rails app from MongoDB to Postgres**](https://www.amberbit.com/blog/2015/11/30/using-repository-pattern-to-migrate-rails-app-from-mongodb-to-postgresql/)
 * [**Postgres Guide**](http://www.postgresguide.com/)
@@ -34,6 +37,8 @@ Activity stream goes to MongoDB.
 When you follow a candidate, use PubSub to get notify of all his activities!
 
 Use Neo4j for candidate's relationship with each other.
+
+> The primary key will be a SERIAL field which is an auto-incrementing integer that will run till 2,147,483,647. If we collect 172 exchange rates per hour, 24 hours a day, 5 days a week, 52 weeks a year we won't hit this 2.1 billion limit for 2,000 years.
 
 ## Installation
 
@@ -74,6 +79,8 @@ pg_ctl -D /usr/local/var/postgres -l logfile start
 ▶ psql -l
 ▶ createdb demo
 
+▶ \x  # Expanded display
+▶ \x auto
 ▶ \dx # List of installed extensions
 ▶ \dt # List of relations
 ▶ \d users
@@ -97,6 +104,8 @@ pg_ctl -D /usr/local/var/postgres -l logfile start
 ▶ select name,setting from pg_settings;
 
 ▶ select * from pg_stat_archiver;
+
+▶ table users; # instead of select * from users;
 ```
 
 ## UUID
@@ -139,6 +148,8 @@ Postgres is case-sensitive for string comparison
 
 ## WITH (Recursive query - Good for Graph Database-like query?)
 
+* [Insert/Update CTEs](https://www.coderedux.com/on-postgresql/insert-update-cte)
+
 An implementation of UPSERT using Writable CTEs (Common Table Expressions)
 
 ```
@@ -166,11 +177,23 @@ CREATE TABLE events (
 
 Creating a foreign key does not automatically create an index for it. You still have to create an index separately.
 
+Use Partial Index!!
+
 ```
 ▶ \di+
 
 -- Check the size of the index
 SELECT pg_size_pretty(pg_relation_size('index_name'::regales)) as big_index;
+```
+
+```sql
+-- Check how many of your indexes are within the cache (Cache hit rate)
+SELECT 
+  sum(idx_blks_read) as idx_read,
+  sum(idx_blks_hit)  as idx_hit,
+  (sum(idx_blks_hit) - sum(idx_blks_read)) / sum(idx_blks_hit) as ratio
+FROM 
+  pg_statio_user_indexes;
 ```
 
 Don't use expression on your `WHERE` clause. Make sure you don't use function like `YEAR(date_column)`, `WHERE actor_id + 1 = 5`, `UPPER(name_column)`, `TRIM(name_column)`, etc.
@@ -219,6 +242,7 @@ GIN is just a B-tree, with efficient storage of duplicates. If you have need for
 
 * [When to use unstructured datatypes in Postgres–Hstore vs. JSON vs. JSONB](https://www.citusdata.com/blog/2016/07/14/choosing-nosql-hstore-json-jsonb/)
 * [Aggregating indeterminate JSON structures in Postgres](https://blog.steve.ly/aggregating-indeterminate-json-structures-in-postgres/)
+* [Sharding Postgres with semi-structured data and its performance implications](https://www.citusdata.com/blog/2016/07/25/sharding-json-in-postgres-and-performance/)
 
 JSONB does not store duplicate keys. It also clear whitespace. JSONB is stored as binary.
 
@@ -238,6 +262,9 @@ CREATE INDEX preferences_interests_on_users ON users USING GIN ((preferences->'i
 * [What I think of jsonb](http://pgeoghegan.blogspot.in/2014/03/what-i-think-of-jsonb.html)
 * [**Unleash the power of storing JSON in Postgres**](http://blog.codeship.com/unleash-the-power-of-storing-json-in-postgres/)
 * [**Query array of objects in JSONB field**](http://stackoverflow.com/questions/28486192/postgresql-query-array-of-objects-in-jsonb-field)
+* [Query Array of Objects in Postgres](http://dustinmartin.net/query-json-array-of-objects-in-postgres-2)
+
+Storing data in JSON column is handy but a bit tricky to query. The trick is to use `jsonb_array_elements` to expand the array into row for every object (`[{}, {}, {}]`). Then each object can be queried individually using the `->>` operator.
 
 ```sql
 -- Last array
@@ -337,6 +364,7 @@ numrange(5,15) * numrange(10,20);
 
 In your `postgresql.conf`, the `default_text_search_config` is set to `pg_catalog.english`.
 
+* [**Postgres full-text search is Good Enough!**](http://rachbelaid.com/postgres-full-text-search-is-good-enough/)
 * [Materialized View](https://github.com/thoughtbot/scenic)
 * [**Video: Multi-table Full Text Search with Postgres**](https://www.youtube.com/watch?v=OzHhJPlgZaw)
 * [UpStats job search using Postgres FTS](http://blog.garage-coding.com/2015/12/18/postgres-fulltext-search.html)
@@ -401,6 +429,9 @@ FROM payment;
 
 ## Performance
 
+* [Postgres Explain Viewer - PEV](http://tatiyants.com/pev/#/plans/new)
+* [**Advanced Postgres Performance Tips**](https://robots.thoughtbot.com/advanced-postgres-performance-tips)
+* [**Performance low hanging fruits**](https://robots.thoughtbot.com/postgresql-performance-considerations)
 * [Reading a Postgres EXPLAIN ANALYZE Query Plan](https://robots.thoughtbot.com/reading-an-explain-analyze-query-plan)
 * [More on Postgres performance](http://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/)
 * [Handling growth with Postgres from Instagram](http://instagram-engineering.tumblr.com/post/40781627982/handling-growth-with-postgres-5-tips-from-instagram)

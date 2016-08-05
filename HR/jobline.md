@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+[Contract of service vs. contract for service](http://www.mom.gov.sg/employment-practices/contract-of-service)
+
 For survivability, we need to re-inventing and re-architecting the whole Jobline platform multiple times. How to continuously rebuild a system that never stop.
 
 ---
@@ -480,6 +482,10 @@ Trackers, notifiers,
 If someone is interested in some event, we can broadcast to them.
 
 Publish conclusion.
+
+When job page is being view, we need to notify subscribers to do their processing like:
+
+> The event-driven style provides an approach to simplifying this. The job display page now just shows a job and records the fact that a job was shown along with the relevant attributes of the job, the viewer, and any other useful facts about the display of the job. Each of the other interested systems—the recommendation system, the security system, the job poster analytics system, and the data warehouse—all just sub‐ scribe to the feed and do their processing. The display code does not need to be aware of these other systems or changed if a new data consumer is added.
 
 ## PDF
 

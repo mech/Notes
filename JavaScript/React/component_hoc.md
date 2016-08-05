@@ -1,5 +1,7 @@
 # Higher-order Components
 
+Useful when you want to attach new **functionalities** or **properties** to it.
+
 > You can use HOC in various situations like authentication: `requireAuth({ role: 'admin' })(MyComponent)` (check for a user in higher component and redirect if the user is not logged in) or connecting your component with Flux/Redux store.
 > 
 > You can also separate data fetching and controller-like logic to higher order components and keep our views as simple as possible.
@@ -8,6 +10,7 @@ How do you wrap your components? What does wrapping even mean?
 
 A higher-order component is merely a function that takes an existing component and returns a new component that wraps it with useful functionalities. The wrapping component will take care to render the wrapped component and also forwards the props to it, but also adds some useful behavior.
 
+* [Higher Order Components: A React Application Design Pattern](https://www.sitepoint.com/react-higher-order-components/)
 * [**Mixins Considered Harmful**](https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html)
 * [Real World Examples of Higher-Order Components](http://rea.tech/reactjs-real-world-examples-of-higher-order-components/)
 * [**HOC in depth**](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.ofucbtu54)
@@ -30,6 +33,7 @@ Not all lambdas are closures, and not all closures are lambdas. A closure is cre
 ## Examples
 
 * [React loadable component with spinner example](https://gist.github.com/BurntCaramel/a60029d22257291799cd)
+* [hoc-badging](https://github.com/jschimmoeller/hoc-badging)
 
 ```js
 // This is a higher-order container component accepting

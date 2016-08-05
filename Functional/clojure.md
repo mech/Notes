@@ -2,6 +2,7 @@
 
 * [flatmap](http://2014.flatmap.no/)
 * [ClojureScript workshop](https://www.niwi.nz/cljs-workshop/#_more)
+* [The Unofficial Guide to Rich Hickey's Brain](http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/)
 
 Clojure is:
 

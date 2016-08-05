@@ -1,5 +1,7 @@
 # Data Warehouse
 
+* [Druid vs Redshift](http://druid.io/docs/latest/comparisons/druid-vs-redshift.html)
+
 > BigQuery and/or Redshift are more targeted towards analytics workloads, but you could use them to saw the data into another system that you use for OLAP -- MySQL or Postgres probably.
 
 Operational system users almost always deal with one record at a time. Data warehouse users almost never deal with on record at a time.
@@ -18,6 +20,12 @@ Evolving warehouse - Agile's iterative and incremental.
 
 The resulting dimensions and fact tables are not arbitrary collections of denormalized data but the 7Ws that describe the full details of each individual business event worth measuring.
 
+## Star Schema vs Snowflake
+
+## Data Cube
+
+> Most data warehouses therefore try to keep as much raw data as possible, and use aggregates such as data cubes only as a performance boost for certain queries.
+
 ## Think Dimensionally
 
 Who, what, when, where, why and how question combinations that measure the business.
@@ -32,11 +40,15 @@ Serve as a buffer. Snapshot of the data. Often loaded daily.
 
 Mirror operational data.
 
-## Facts
+## Facts, Events
 
 Fact is a measurement of the performance of a business. Examples are sales, budget, revenue, profit, inventory, etc.
 
 ## Dimension
+
+* [OLAP concepts](http://druid.io/docs/latest/design/index.html)
+
+Dimensions are attributes of an event, and the columns most commonly used in filtering the data
 
 Dimension is a concept or thing with intrinsic meaning for a business. Examples are Date, customer, location, product, account, supplier, etc.
 

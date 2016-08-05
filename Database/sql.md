@@ -1,5 +1,6 @@
 # SQL
 
+* [Good guide on SQL generally](https://community.modeanalytics.com/sql/tutorial/sql-aggregate-functions/)
 * [**SQL Style Guide**](http://www.sqlstyle.guide/)
 * [4 ways to join only the first row in SQL](https://www.periscope.io/blog/4-ways-to-join-only-the-first-row-in-sql.html)
 * [Correlated subquery](https://en.wikipedia.org/wiki/Correlated_subquery)

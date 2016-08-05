@@ -1,5 +1,7 @@
 # React
 
+- [7 strengths of React every programmer should know](https://vacuumlabs.com/blog/7-strengths-of-react-every-programmer-should-know-about)
+- [**React.js in Patterns**](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)
 - [**React in depth - Good gitbook to learn**](https://developmentarc.gitbooks.io/react-indepth/content/)
 - [Avoid binding when passing props](https://daveceddia.com/avoid-bind-when-passing-props/)
 - [Reverse Engineering React](https://vimeo.com/album/3930691)

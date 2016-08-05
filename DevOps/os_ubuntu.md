@@ -399,7 +399,7 @@ The following packages have been kept back:
 // We can do a dist-upgrade also
 
 ▶ apt-get upgrade
-▶ apt-get dist-upgrade  
+▶ apt-get dist-upgrade
 
 // Following may not be performed
 
@@ -446,8 +446,15 @@ We need to use the Docker team's DEB packages.
 
 **New way for 16.04**
 
+You will also see this if you come from earlier version:
+
 ```
-▶ sudo apt-get update
+New release '16.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+```
+
+```
+▶ sudo apt update // Same: sudo apt-get update
 
 ▶ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 

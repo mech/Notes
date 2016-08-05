@@ -1,5 +1,7 @@
 # Data
 
+* [How LinkedIn Recommendation System Work](https://www.quora.com/How-does-LinkedIns-recommendation-system-work)
+
 http://www.cnet.com/how-to/reset-bypass-password-mac-macbook/
 
 http://www.cnet.com/how-to/prevent-your-mac-password-from-being-bypassed/
@@ -57,6 +59,23 @@ Yelp-like
 Focus - Narrow down
 Filter - Tune out noise
 Shift
+```
+
+## Aggregation? Rollups??
+
+> And assuming you have an index on url_params you could easily do various rollups on it… Such as find the campaigns that have driven the most traffic to you over the past 30 days and which pages received the most benefit:
+
+```sql
+SELECT url_params ->> 'utm_campaign',
+       page,
+       count(*)
+FROM visits
+WHERE url_params ? 'utm_campaign'
+  AND visited_at >= now() - '30 days'::interval
+  AND site_id = 'foo'
+GROUP BY url_params ->> 'utm_campaign',
+         page
+ORDER BY 3 DESC;
 ```
 
 ## Tags

@@ -4,6 +4,7 @@ Tools that are worth watching: Sketch, UXPin, FramerJS, Pixate, Flinto, Marvel, 
 
 Sketch change the way we design for screens.
 
+* [5 Ways to Keep Your Sketch Kitchen Clean](https://medium.com/ux-power-tools/5-ways-to-keep-your-sketch-kitchen-clean-ea45ef547dfb#.gb06nk9jp)
 * [Exporting UI assets with Sketch: simplifying your workflow](https://www.ckl.io/blog/exporting-ui-assets-with-sketch/)
 * [Saving time in Sketch](https://medium.com/sketch-app-sources/saving-time-in-sketch-7042142c8a8e#.p6kt6z53c)
 * [Designing at 1x](https://medium.com/sketch-app-sources/designing-at-1x-33240842180c)

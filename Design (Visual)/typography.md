@@ -1,5 +1,7 @@
 # Typography
 
+Quick start - [**Beautiful Google type**](http://hellohappy.org/beautiful-web-type/?1)
+
 Allow the "content" to speak for themselves. Think about the "word associations" you're trying to make.
 
 A typographic system establishes hierarchy, meaning it helps us prioritize content based on individual elements and relationships between them.
@@ -114,7 +116,7 @@ A true ideal `line-height` doesn't exist, because every typeface is different. A
 * [Some fonts](http://www.webdesignerdepot.com/2014/05/typecache-reveals-the-best-typefaces-of-2013/)
 * [Urban Grotesk](http://www.myfonts.com/fonts/suitcase/urban-grotesk/)
 * [Some great choices](http://www.typeandgrids.com/blog/the-best-typography-based-sites-of-june-2014)
-* [Beautiful Google type](http://hellohappy.org/beautiful-web-type/?1)
+* [**Beautiful Google type**](http://hellohappy.org/beautiful-web-type/?1)
 * [Noto](http://www.google.com/get/noto/#/)
 * [FF Franziska](http://fffranziska.com/)
 * [Independent type foundries](http://www.typewolf.com/blog/independent-type-foundries)

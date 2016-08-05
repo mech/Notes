@@ -1,5 +1,7 @@
 # Immutable
 
+Git is a Persistent Data Structure with Directed Acyclic Graph. Persistent Bit-Partitioned Vector Trie.
+
 You lose the convenience of `setState` since it rely on being able to mutate your state. Your only option is `replaceState`.
 
 > The Dao of Immutability: The true constant is change. Mutation hides change. Hidden change creates chaos. - Eric Elliott
@@ -29,9 +31,10 @@ Immutable data structure with structure sharing.
 * [Why should I care about immutable data?](http://www.bennadel.com/blog/2903-why-should-i-care-about-immutable-data-in-reactjs.htm)
 * [Immutability in JavaScript](http://www.sitepoint.com/immutability-javascript/)
 * [Immutability in React](http://www.sitepoint.com/immutability-react/)
-* [Understanding Clojure's Persistent Vectors](http://hypirion.com/musings/understanding-persistent-vector-pt-1)
+* [**Understanding Clojure's Persistent Vectors**](http://hypirion.com/musings/understanding-persistent-vector-pt-1)
 * [Immutability in Ruby - Part 1](http://blog.deveo.com/immutability-in-ruby-part-1-data-structures/)
 * [Immutability in Ruby - Part 2](http://blog.deveo.com/immutability-in-ruby-part-2-domain-models/)
+* [functional-javascript](https://github.com/bradurani/functional-javascript)
 
 ---
 
@@ -167,3 +170,4 @@ this.setState({ ticket: updatedTicket })
 ## Video
 
 * [Immutability: Putting the Dream Machine to work](https://www.youtube.com/watch?v=J-bC20aAat8)
+* [Using Immutable js With React](https://www.youtube.com/watch?v=YFP8lbdZ0cs)
