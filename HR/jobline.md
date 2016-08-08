@@ -1,5 +1,11 @@
 # Jobline's Problem
 
+Key HR functions:
+
+* Recruitment
+* Retention
+* Compensation
+
 [Contract of service vs. contract for service](http://www.mom.gov.sg/employment-practices/contract-of-service)
 
 For survivability, we need to re-inventing and re-architecting the whole Jobline platform multiple times. How to continuously rebuild a system that never stop.
@@ -408,7 +414,7 @@ INR accrual can only have all same `work_year`.
 * Take leave screen should have some helpful tips, recovery, approval process info.
 * Show whole year public holidays.
 
-## Timesheet
+## Timesheet (Time and Attendance)
 
 Submit timesheet will have a lock to indicate it can't be amended.
 

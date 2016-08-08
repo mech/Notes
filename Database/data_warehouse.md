@@ -20,6 +20,10 @@ Evolving warehouse - Agile's iterative and incremental.
 
 The resulting dimensions and fact tables are not arbitrary collections of denormalized data but the 7Ws that describe the full details of each individual business event worth measuring.
 
+## Column-Store
+
+* [One Size Fits None](http://slideshot.epfl.ch/play/suri_stonebraker)
+
 ## Star Schema vs Snowflake
 
 ## Data Cube

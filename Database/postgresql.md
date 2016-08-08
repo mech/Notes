@@ -528,6 +528,7 @@ language sql;
 
 ## Backup
 
+* [**PostgreSQL, Backups and everything you need to know**](https://www.compose.com/articles/postgresql-backups-and-everything-you-need-to-know/)
 * [How to backup your Postgres to Amazon nightly](http://rob.conery.io/2011/11/01/how-to-backup-your-postgres-db-to-amazon-nightly/)
 * [WAL-E: Backup to S3](https://github.com/wal-e/wal-e)
 * [Encrypting a gzip file](http://blog.ashurex.com/2012/07/17/encrypting-tar-gz-gzip-file-openssl/)

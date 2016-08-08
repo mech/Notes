@@ -178,6 +178,7 @@ curl -XGET 'localhost:9200/products/_search' -d '{
 ## Lucene
 
 * [Visualizing Lucene's segment merges](http://blog.mikemccandless.com/2011/02/visualizing-lucenes-segment-merges.html)
+* [What is in a Lucene index?](http://www.slideshare.net/lucenerevolution/what-is-inaluceneagrandfinal)
 
 ## Terms
 

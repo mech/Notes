@@ -59,6 +59,42 @@ S3 is not a filesystem. It is a key-value store.
 2. Bucket policies
 3. ACLs - Legacy!
 
+## Choose your object name (key) carefully
+
+* [**Request Rate and Performance Considerations**](http://docs.aws.amazon.com/AmazonS3/latest/dev/request-rate-perf-considerations.html)
+* [Amazon S3 Performance Tips & Tricks](https://aws.amazon.com/blogs/aws/amazon-s3-performance-tips-tricks-seattle-hiring-event/)
+
+The object names you choose actually dictate how S3 manage the keymap.
+
+Keys are all represented in S3 as strings like this:
+
+```
+bucketname/keyname
+```
+
+Keys in S3 are **partitioned by prefix**. S3 has automation that continually looks for areas of the keyspace that need splitting. Partitions are split either due to sustained high request rates, or because they contain a large number of keys (which would slow down lookups within the partition).
+
+Smart naming of keys can have performance implications. But only if you have more than 100 request/second.
+
+```
+// Bad
+examplebucket/2013-26-05-15-00-00/cust1234234/photo1.jpg
+examplebucket/2013-26-05-15-00-00/cust3857422/photo2.jpg
+examplebucket/2013-26-05-15-00-00/cust1248473/photo2.jpg
+
+// Good
+examplebucket/232a-2013-26-05-15-00-00/cust1234234/photo1.jpg
+examplebucket/7b54-2013-26-05-15-00-00/cust3857422/photo2.jpg
+examplebucket/921c-2013-26-05-15-00-00/cust1248473/photo2.jpg
+```
+
+For non-CDN objects, you want to introduce randomness in order not to overwhelm the **single index partition**.
+
+**Note:**
+
+For Jobline avatar or any assets to be downloaded by client, using Amazon CloudFront CDN is a much better option. It will reduce cost also since it send fewer requests directly to S3.
+
+
 ## s3cmd and aws-cli
 
 ```

@@ -86,3 +86,7 @@ Don't let people "gain metric" through over-reaction.
 ## API Design
 
 * [API design principles](http://qt-project.org/wiki/API-Design-Principles)
+
+## Videos
+
+* [Three flaws in software design - Code Simplicity](https://www.youtube.com/watch?v=JOAq3YN45YE)

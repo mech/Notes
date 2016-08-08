@@ -3,6 +3,7 @@
 If your database is within 100GB, it can still be served comfortably on a single instance.
 
 * [Uber's switch to MySQL](https://eng.uber.com/mysql-migration/)
+* [On Uber's Choice of Databases](http://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases)
 
 ## Tools
 

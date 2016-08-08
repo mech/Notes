@@ -26,6 +26,15 @@ http://binarymuse.github.io/react-primer/build/index.html?6
 * [Performance optimisations for React applications](https://medium.com/@alexandereardon/performance-optimisations-for-react-applications-b453c597b191#.km9z9z6nh)
 * [**A DEEP DIVE INTO REACT PERF DEBUGGING**](http://benchling.engineering/deep-dive-react-perf-debugging/)
 
+## How to determine if you have a performance bottleneck?
+
+* [PERFORMANCE ENGINEERING WITH REACT](http://benchling.engineering/performance-engineering-with-react/)
+
+---
+
+1. Browser should render at 60fps which give you 16ms to work with.
+2. [Forced synchronous layouts](https://developers.google.com/web/tools/chrome-devtools/profile/rendering-tools/forced-synchronous-layouts)
+
 ## Keys
 
 * [Do not use array index as key!](http://jaero.space/blog/react-performance-1)
@@ -82,6 +91,11 @@ shouldComponentUpdate(nextProps, nextState) {
 ```
 
 `shallowEqual` compare the value of the key on first-level only. Deeply nested object cannot use this equality check. Better to Immutable.js for that.
+
+Be mindful of these 2 things:
+
+1. Callback handlers that are bound in `render()` will always fail `shallowEqual`. Define your callback in the constructor instead.
+2. In addition to event handlers bound in `render()`, it is probably also worth mentioning that any component which takes jsx children will also always fail `shallowEqual`, since the children elements will be re-created for every render.
 
 ## Videos
 

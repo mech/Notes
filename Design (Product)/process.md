@@ -262,6 +262,15 @@ Change in behavior = Our KPI
 
 ## Mech's Process
 
+1. **Discovery** Phase. Do research, framing problem, setting direction, filling knowledge gap. By trying to understand the problem, I am also trying to find a solution. Each feed to each other and back and forth. You don't just define problem and find solution later. You do it "at the same time".
+2. What is the desired impact. What change do we want to make the world. What is the actual impact later.
+3. Find the intention.
+4. The who, the how, and the what
+5. What is your current state? Your current context? Your current expectation? What is the new desired state you want to move to?
+6. Objectives - **What** to accomplish, for **Whom**, and **Why** they need it.
+7. Find the context. Business Context, Technical Context, User Context
+8. 
+
 See Dan Brown's [Concept Model](http://boxesandarrows.com/how-to-make-a-concept-model/)
 
 Product managers are constantly balancing the demands of speed and quality.

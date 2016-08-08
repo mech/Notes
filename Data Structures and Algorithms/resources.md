@@ -1,5 +1,6 @@
 # Resources
 
+* [**Computer Algorithms - A series**](http://www.stoimen.com/blog/category/algorithms//)
 * [Quora: How do I learn Data Structures and Algorithms](http://www.quora.com/How-do-I-learn-Data-Structures-and-Algorithms-2)
 * [Timus Online Judge](http://acm.timus.ru/problemset.aspx?space=1&page=all&sort=difficulty)
 * [**Visual Algo by NUS Singapore**](http://visualgo.net/)
