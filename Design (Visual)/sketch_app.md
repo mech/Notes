@@ -66,6 +66,10 @@ Sketch change the way we design for screens.
 * [How Sketch took over 200GB](https://medium.com/@thomasdegry/how-sketch-took-over-200gb-of-our-macbooks-cb7dd10c8163)
 * [Color mismatch when exporting?](https://www.designernews.co/stories/55640-color-saturation-on-sketch-exports)
 
+## SVG
+
+* [Exploring ways to export clean SVG icons with Sketch](https://medium.com/sketch-app-sources/exploring-ways-to-export-clean-svg-icons-with-sketch-the-correct-way-752e73ec4694#.pozbfantr)
+
 ## Smart Guides
 
 ## Shared Styles

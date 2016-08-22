@@ -94,6 +94,7 @@ See http://stackoverflow.com/questions/36180792/how-to-make-fail2ban-read-json-d
 * [Deploying HTTPS](https://www.youtube.com/watch?v=9WuP4KcDBpI)
 * [Is TLS fast yet?](https://istlsfastyet.com/)
 * [No excuses to not use HTTPS](https://ayesh.me/no-excuses-https)
+* [**Setting up automated SSL for Rails with Let's Encrypt**](http://beyondscheme.com/2016/setting-up-automated-ssl-for-rails-app-with-lets-encrypt)
 
 To concatenate primary certificate and intermediate certificate:
 

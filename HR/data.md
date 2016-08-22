@@ -6,6 +6,10 @@ http://www.cnet.com/how-to/reset-bypass-password-mac-macbook/
 
 http://www.cnet.com/how-to/prevent-your-mac-password-from-being-bypassed/
 
+> All this data can be really powerful, and because digital interfaces have made data collection so easy, we have to make sure we don’t fool ourselves into thinking the collection of good quality data and its interpretation is easier than it actually is. There is a danger that the ease in gathering data also makes it easer to make erroneous conclusions if the data quality is low or the data analysis is flawed. - [Data Aware Approach vs Data-Driven Approach](https://www.oreilly.com/ideas/embrace-a-data-aware-approach-to-designing-great-ux)
+
+---
+
 > It is easy to see how queries built in the query expression style can be composed - you simply add new constraints to your pipeline. 
 
 Having metric does not mean you understand anything. Seeing metric data varying does not mean you understand any situation.

@@ -10,6 +10,7 @@ Short overview of Redux:
 
 ---
 
+* [**State of React - How Redux came to be**](http://jamesknelson.com/state-react-2-inception-redux/)
 * [**Good video series**](http://remzolotykh.net/category/react-and-redux)
 * [**Learning Redux with Reducks**](http://www.aaron-powell.com/posts/2016-06-06-learning-redux-with-reducks-intro.html)
 * [3 simple steps to improve your React Redux code](https://www.ckl.io/blog/3-simple-steps-to-improve-react-redux-code/)
@@ -409,6 +410,23 @@ const todos = (state = [], action) => {
 const visibilityFilter = (state = 'SHOW_ALL', action) => {
   // This is another part of the reducer that deal with filtering.
   // Notice that its default state is a string
+}
+```
+
+**More examples**
+
+We always get ready a brand `newState`. We also want to retain the old `state` by putting it through the `Object.assign` with any new state.
+
+```js
+const reducer = (state, action) => {
+  switch (action.type) {
+    case SET_SEARCH_TERM:
+      const newState = {}
+      Object.assign(newState, state, { searchTerm: action.value })
+      return newState
+    default:
+      return state
+  }
 }
 ```
 

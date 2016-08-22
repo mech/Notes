@@ -26,6 +26,13 @@ https://medium.com/google-design/i-o-2016-our-definitive-guide-to-design-4d64d2d
 
 > High-level functions are easier to define if you have the whole UI printed out and intelligible at a glance. It’s also a lot easier to spot any duplications and inconsistencies that way. [The language of modular design](http://alistapart.com/article/language-of-modular-design)
 
+---
+
+> Having answers to these posed questions is an excellent place to start. Being a good designer—being a good visual designer — requires intentionality. That means that you're thinking through these questions and answering them as you're making design decisions, not only when someone asks you the question after the fact.
+> 
+The next thing to work on as you answer these questions with intentionality, is to ensure that intentionality is based on solid design principles and research and attention to detail, and yes, sometimes things like style and preference. This can be tricky, because not every designer has these sensibilities or well-founded opinions yet. And that's okay, because the path to improving this begins by understanding that your work isn't quite there yet. - [Intentionality](https://medium.com/facebook-design/how-to-make-your-not-so-great-visual-design-better-67972eee3825#.av1p86o44)
+
+* [**How to fix a bad user interface**](http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack)
 * [Bret Victor - The Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)
 * [**Material design is different, not better**](https://medium.com/android-news/material-design-is-different-not-better-87909af6ffe1#.i4ey1wym6)
 * [**5 Mistakes to Avoid When Designing Micro-interactions**](https://medium.com/@ux_in_motion/5-mistakes-to-avoid-when-designing-micro-interactions-a6f638ee6a86#.aum00y53i)
@@ -133,6 +140,9 @@ https://medium.com/google-design/i-o-2016-our-definitive-guide-to-design-4d64d2d
 * The focus of the solution circles around human beings, rather than interfaces or apps.
 * Adding a new feature doesn't just mean sticking it on top of the UI — you have to blend it with the existing design, with the user in mind. A feature needs to be added in a way that feels natural to the user. It can't be forced.
 * Demonstrating value before asking for something - Value proposition.
+* Human think in flow - See the UI Stack (Ideal State, Blank State, Partial State, Error State)
+* How does the flow of the page "read"?
+* Being a good designer - being a good visual designer - requires intentionality.
 
 When it comes to the design of complex behaviors and interactions, we've found that focusing too early on pixel pushing, widget design, and specific interactions can get in the way of effectively designing a comprehensive framework in which all the product's behaviors can fit. Instead, we need to consider the big picture first and rendering our solutions in low-fidelity manner.
 

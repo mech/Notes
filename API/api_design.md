@@ -1,5 +1,9 @@
 # Design
 
+```js
+JSON.stringify(json, null, 4)
+```
+
 REST and CRUD are two very different paradigms for two very different worlds. Even though Rails routes provide HTTP verbs and map nicely to CRUD operations, you shouldn't fixated your resources too much on CRUD.
 
 API [Platform](http://platformed.info/) -> Ecosystem

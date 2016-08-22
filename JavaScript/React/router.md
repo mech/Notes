@@ -42,6 +42,7 @@ Routing is just data: `location.hash.substr(1)`
 * [page.js](https://github.com/visionmedia/page.js)
 * [history.js](https://github.com/browserstate/history.js)
 * [path-to-regexp](https://github.com/pillarjs/path-to-regexp)
+* [navigation - the data-first JavaScript router](https://github.com/grahammendick/navigation)
 
 ## Examples
 

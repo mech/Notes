@@ -481,6 +481,8 @@ Trackers, notifiers,
 
 ## Interview
 
+If there is timeout error, we need to prevent retrying fro m sending multiple emails to client.
+
 * Do we need separate interviewers table besides looking at the `JobPrivilege`?
 
 ## Pub/Sub

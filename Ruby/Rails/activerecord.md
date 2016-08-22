@@ -101,6 +101,7 @@ animals.each { |animal| puts animal.name }
 ## Timezone
 
 * [Working with time zones in Ruby on Rails](http://www.elabs.se/blog/36-working-with-time-zones-in-ruby-on-rails)
+* [ISO8601 Dates in Ruby](http://www.virtuouscode.com/2009/10/25/iso8601-dates-in-ruby/)
 
 ```ruby
 # Okay to use

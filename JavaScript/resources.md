@@ -1,5 +1,9 @@
 # Resources
 
+http://regexr.com/
+
+https://jex.im/regulex/#!embed=false&flags=&re=%5E(a%7Cb)*%3F%24
+
 V8 performance rival that of JVM and CLR. Let that sink in a bit.
 
 If you're creating constructor functions and inheriting from them, you haven't learned JavaScript. You're failing to take advantage of JavaScript's most powerful capabilities: Prototypal Inheritance.

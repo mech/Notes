@@ -18,6 +18,7 @@ Remember, components in React are pretty much like functions, you can spit a fun
 
 By having taken the data out and put all actions elsewhere, your components should be pure function to take in props and render HTML output. That's it!
 
+* [**Composable components**](http://hugobessa.com.br/2016/07/20/composable-components/)
 * [**A Modular Approach to UI Problem Solving**](http://davidtheclark.com/modular-approach-to-interface-components/)
 * [**React reconciliation**](http://blog.testdouble.com/posts/2016-02-01-react-reconciliation.html)
 * [**React Components, Elements, and Instances**](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html)
@@ -87,6 +88,10 @@ Unintentional side effects are the bane of code reuse. They occur when multiple 
 A state machine always have initial state as model by `getInitialState`.
 
 ## Mistakes and Best Practices
+
+* [**Functional React Series — Part 1: Get your App outta my Component**](https://medium.com/@adamterlson/functional-react-series-part-1-get-your-app-outta-my-component-92656ae13e25#.olnvr8c1a)
+
+Do not use **platform** components, always use `<PrimaryButton>` instead of plain platform `<button>` component. For iOS, don't use `<View>`, use your own abstracted components.
 
 For EVA mistake, the `<Editor>` is too heavy and we did not break it down into even smaller components. The `<Editor>` itself is the DnD container which should not be the case. Whenever there is a drag event, the whole `<Editor>` will be affected and the `<AddPreview>` will be unnecessarily wasted in its rendering effort.
 
@@ -240,6 +245,8 @@ It is important to draw a distinction between ownership and parent-child relatio
 * [react-heatpack: Quick React development with webpack hot reloading](https://github.com/insin/react-heatpack)
 
 ## Render function
+
+Think of React as a snapshot in time, not "over" time. You only think of the "now".
 
 * [Rendering with React](https://www.youtube.com/watch?v=7S8v8jfLb1Q)
 

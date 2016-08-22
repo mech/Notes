@@ -47,3 +47,23 @@ web:
   ports:
     - "80:80"
 ```
+
+Newer?? Aug 2016
+
+```
+version: '2'
+services:
+  wordpress_db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+  wordpress:
+    depends_on:
+      - wordpress_db
+    image: wordpress
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: wordpress_db
+      WORDPRESS_DB_PASSWORD: password
+```

@@ -78,6 +78,10 @@ class Foo {
 
 The performance cost model of React is very simple to understand: every `setState` re-renders the whole sub-tree. If you want to squeeze out performance, call `setState` as low as possible and use `shouldComponentUpdate` to prevent re-rendering an large sub-tree.
 
+## Single Source of Truth
+
+Parent is always the source of truth for all its children. Data pass down, never up.
+
 ## Props (Immutable)
 
 Properties are a mechanism for the outside world (users of the component) to configure your component. State is your internal data maintenance. So if you consider an analogy with object-oriented programming this.props is like all the arguments passed to a class constructor, while this.state is a bag of your private properties.

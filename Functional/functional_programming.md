@@ -1,5 +1,6 @@
 # Functional Programming (FP)
 
+* [Intro to function programming concepts in JavaScript](https://medium.com/@collardeau/intro-to-functional-programming-concepts-in-javascript-b0650773139c#.t8y9a3iy1)
 * [Effective Concurrency with Algebraic Effects](http://kcsrk.info/ocaml/multicore/2015/05/20/effects-multicore/)
 * [Good slide on using pure functions and some curry examples](http://slides.com/bahmutov/oscon)
 

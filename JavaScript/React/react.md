@@ -1,5 +1,7 @@
 # React
 
+[**22 Amazing open source React projects**](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f#.9m1p3fe3g)
+
 - [7 strengths of React every programmer should know](https://vacuumlabs.com/blog/7-strengths-of-react-every-programmer-should-know-about)
 - [**React.js in Patterns**](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)
 - [**React in depth - Good gitbook to learn**](https://developmentarc.gitbooks.io/react-indepth/content/)

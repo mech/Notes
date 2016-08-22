@@ -31,6 +31,15 @@ Design decisions don't live independently of business or engineering goals - the
 
 ## Prototyping
 
+> Interactive prototypes allowed me to express micro-interactions and workflows in a way that made sense to stakeholders, which improved my ability to communicate design tremendously.
+
+Prototyping benefits:
+
+1. Design solutions are truly holistic - designers are required to think through edge cases or microinteractions that don't necessarily present themselves when developing statics.
+2. Communication is clearer
+3. Clarity is achieved faster - A prototype is worth a thousand meetings.
+4. Help designers become better storyteller and better communicators.
+
 Rule of Optimization: Prototype before polishing. Get it working before you optimize it.
 
 **Prototype is the cheapest and easiest way to get an idea out of your head and into a testable form**
@@ -41,6 +50,7 @@ Rule of Optimization: Prototype before polishing. Get it working before you opti
 
 Prototyping has become an integral part of product design.
 
+* [**How tools have shaped the role of the designer**](https://uxdesign.cc/how-tools-have-shaped-the-role-of-the-designer-c7cb16d26c9c#.h77giqgjg)
 * [The Hungry Designer](https://medium.com/@we_are_atomic/the-hungry-designer-b295459b29ec#.ucbsjpqqx)
 * [**Prototyping with Framer**](http://nlevin.com/whitespace/)
 * [Rule of optimization](http://www.faqs.org/docs/artu/ch01s06.html#id2879078)
