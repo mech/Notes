@@ -19,6 +19,7 @@ data_source.methods.grep(/^get_(.*)_info$/) { Computer.define_component $1 }
 %w(foo bar baz).grep_v(/ba/) #=> ['foo']
 ```
 
+* [Design Patterns in Ruby Vs. Practical Object-Oriented Design in Ruby](http://sam-koblenski.blogspot.sg/2016/08/tech-book-face-off-design-patterns-in.html)
 * [Lessons learned from some of the best Ruby codebases](http://blacklane.github.io/2016/04/23/lessons-learned-from-some-of-the-best-ruby-codebases-part-1/)
 * [**Ruby Web Dev The Other Way**](http://rwdtow.stdout.in/)
 * [Prefer duplication over the wrong abstraction](http://us3.campaign-archive2.com/?u=1090565ccff48ac602d0a84b4&id=92902a19e4&e=6dbbf45b40)
@@ -45,6 +46,7 @@ data_source.methods.grep(/^get_(.*)_info$/) { Computer.define_component $1 }
 ## String
 
 * [Immutable String in Ruby 2.3](https://wyeworks.com/blog/2015/12/1/immutable-strings-in-ruby-2-dot-3/)
+* [Commanding Objects Towards Immutability](http://www.saturnflyer.com/blog/jim/2015/08/19/commanding-objects-toward-immutability/)
 
 ```ruby
 AVATAR_URL = 'http://www.gravatar.com/avatar/%{hash}'

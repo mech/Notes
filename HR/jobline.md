@@ -2,6 +2,7 @@
 
 Key HR functions:
 
+* [Job Requisition](http://www.hr.ucdavis.edu/recruitment/requisition/jobrequisition.html)
 * Recruitment
 * Retention
 * Compensation

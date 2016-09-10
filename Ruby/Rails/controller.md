@@ -59,6 +59,12 @@ In a regular (Rails) controller there are 3 steps of authorization (not necessar
 ## Form Objects
 
 * [ActiveModel Form Objects](https://robots.thoughtbot.com/activemodel-form-objects)
+* [On Rails Presenters and Form Objects](https://apotonick.wordpress.com/2015/05/21/on-rails5-presenters-and-form-objects/)
+* [Reform](https://github.com/apotonick/reform)
+
+One job of Form Object is validating an object graph (e.g. an album composed of songs and artists) and collect validation errors in the top object.
+
+The other job is the deserialization of the incoming hash. And this is completely underestimated by Rails core. Deserialization is the actual problem of forms. Validating and bubbling up errors is easy.
 
 ## Strong Parameters
 

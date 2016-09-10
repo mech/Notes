@@ -58,3 +58,7 @@ Far from being static, search is an interactive, iterative process in which the 
 > What we find changes what we seek
 
 Search is not a quest for the perfect document but a conversation that helps us understand the right questions to ask.
+
+## Case Studies
+
+* [Death to Complexity: How we Simplified Advanced Search](https://medium.com/@alitorbati/death-to-complexity-how-we-simplified-advanced-search-a9ab2940acf0#.q8cp1e11x)

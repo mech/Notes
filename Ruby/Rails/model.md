@@ -33,6 +33,8 @@ Services is functional, they don't store any states. Services get input and prod
 
 ## Presenter
 
+* [Better Ruby Presenters](http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters)
+
 You can think of presenter as a display/screen data structure with no HTML.
 
 Or you can think of presenter as a convenient place to aggregate several different models for reporting or summarising feature.
