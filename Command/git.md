@@ -192,6 +192,14 @@ git bisect reset
 
 ## Pull Request
 
+If you cloned a while ago, get the latest changes from upstream:
+
+```
+git checkout master
+git pull upstream master
+git pull --rebase upstream master
+```
+
 ## Fork
 
 * [Syncing a fork](https://help.github.com/articles/syncing-a-fork)

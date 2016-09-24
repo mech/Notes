@@ -6,6 +6,10 @@ https://medium.com/google-design/i-o-2016-our-definitive-guide-to-design-4d64d2d
 
 ---
 
+> Quick pulls are a way to very easily go from editing a file to launch into a pull request. It is a nice simple flow thing that we've done to remove friction for your development.
+
+---
+
 > The UI is part of user's digital body language - [How UI twist your words](https://medium.com/user-experience-design-1/facebook-and-how-uis-twist-your-words-4ceedc5fd93#.838m03i70)
 
 > You have to zoom in and out between the general and the specific.
