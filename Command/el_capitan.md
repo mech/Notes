@@ -41,7 +41,7 @@ For rbenv, put:
 **Install databases**
 
 ```
-▶ brew install mysql
+▶ brew install homebrew/versions/mysql56
 ▶ brew install postgres
 ▶ brew install redis
 
