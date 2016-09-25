@@ -25,7 +25,7 @@ export LANG=en_US.UTF-8
 ▶ brew install wget tree httpie
 ▶ brew install rbenv ruby-build
 
-▶ brew install vim --override-system-vi
+▶ brew install vim --with-override-system-vim
 
 ▶ rbenv install 2.3
 ▶ rbenv rehash
