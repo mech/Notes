@@ -54,6 +54,8 @@ For rbenv, put:
 
 **Configure and restore databases**
 
+If MySQL is fresh install, you can use `mysql_secure_installation` to set root password.
+
 ```
 ▶ mysqladmin -u root password PASSWORD
 
