@@ -74,8 +74,17 @@ gem "smbglobal-sms", git: "https://github.com/mech/smbglobal-sms.git"
 
 If we cannot installed Mongo 2.6 due to "SCons Error", you can use [Docker for Mac](https://www.docker.com/products/docker#/mac) for Mongo.
 
+With Docker for Mac installed, you can run an instance of the container using:
+
 ```bash
-docker run -d -v ~/Desktop/backup:/backup -p 27017:27017 mongo:2.6
+▶ docker run -d -v ~/Desktop/backup:/backup -p 27017:27017 mongo:2.6
+```
+
+With that container, you need to restore the backup, you can:
+
+```bash
+▶ docker ps
+▶ docker exec -it <container-id> bash -l
 ```
 
 **Configure and restore databases**
