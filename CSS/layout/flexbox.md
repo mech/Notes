@@ -73,7 +73,6 @@ Flexbox will override floats, table-cell and inline-block. It will not override 
 
 * Equal height columns
 * Vertical centering
-* 
 
 ## MISTAKES
 

@@ -52,7 +52,7 @@ form {
   div {
     &:last-child {
       p {
-        margin-bottom: 0; /* killer nesting, heard to grep to maintain */
+        margin-bottom: 0; /* killer nesting, hard to grep to maintain */
       }
     }
   }

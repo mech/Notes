@@ -4,6 +4,7 @@
 
 * [10 essential add-ons](http://www.sitepoint.com/10-essential-atom-add-ons/)
 * [How to use code snippets in Atom](http://www.sitepoint.com/use-code-snippets-atom/)
+* [Enable tab completion for JSX with Emmet in Atom](https://gist.github.com/mxstbr/361ddb22057f0a01762240be209321f0)
 
 Open your keymap:
 

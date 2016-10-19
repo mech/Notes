@@ -18,6 +18,7 @@ Notable companies in HR domain.
 * [Authentic Jobs](http://www.authenticjobs.com/pricing/)
 * [Why hiring is broken](https://medium.freecodecamp.com/why-is-hiring-broken-it-starts-at-the-whiteboard-34b088e5a5db#.vi4blkpvh)
 * [Will Microsoft help LinkedIn go enterprise?](http://platformed.info/will-microsoft-help-linkedin-go-enterprise/)
+* [Presumi](https://presumi.com/)
 
 https://www.hackerrank.com/
 

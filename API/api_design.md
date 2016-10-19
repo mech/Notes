@@ -25,6 +25,7 @@ Document-driven development. Test-driven also! Code style-guide. Code review. Pa
 
 One of the central notions of the Web is that we separate the identity of a resource from its representation and implementation.
 
+* [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/index.html)
 * [Humane Registry](http://martinfowler.com/bliki/HumaneRegistry.html)
 * [Distributed Systems and the End of the API](http://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-the-api/)
 * [**Caring doesn't scale**](https://www.oreilly.com/ideas/caring-doesnt-scale)

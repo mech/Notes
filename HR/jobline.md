@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+Think of Jobline as providing several **Services**. Don't think of it as modules. Think in terms of services and how you can help other people.
+
 Key HR functions:
 
 * [Job Requisition](http://www.hr.ucdavis.edu/recruitment/requisition/jobrequisition.html)
@@ -470,6 +472,8 @@ Eve can submit resignation repeatedly!! This may result in multiple `RCAID2131`,
 This happen when Eve is on the phone guiding CA to submit resignation, but CA's network is too slow and he press the submit button multiple time.
 
 ## Notification
+
+Just-in-time notification. Approver do not need to check when there is new leaves or claims to approve. We will notify them and remind them.
 
 * [Designing smart notifications](https://medium.com/@intercom/designing-smart-notifications-36336b9c58fb#.mm8t4z3za)
 

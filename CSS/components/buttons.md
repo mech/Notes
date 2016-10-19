@@ -31,7 +31,7 @@ If you have solid and outline button, you need to think of positive and negative
 
 ## .btn
 
-```
+```css
 button,
 .btn {
   display: inline-block;      // Side by side
