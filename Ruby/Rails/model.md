@@ -31,6 +31,48 @@ Service object is also not RESTful API, SOA, or even microservices.
 
 Services is functional, they don't store any states. Services get input and produce output.
 
+```ruby
+class UpdateComment # Notice it is a verb and not a noun
+  def initialize(comment)
+    @comment = comment
+  end
+  
+  def call
+    Comment.transaction do
+      @comment.save!
+      update_article_counter
+      update_come_other_thing
+    end
+  end
+  
+  private
+  
+  def update_article_counter
+    @comment.article.update_comment_count
+  end
+  
+  def update_come_other_thing
+    # ...
+  end
+end
+
+# Not SRP
+class CommentManager?
+end
+
+class CommentLifeCycle
+  def initialize(comment)
+    @comment = comment
+  end
+  
+  def update
+  end
+  
+  def destroy
+  end
+end
+```
+
 ## Presenter
 
 * [Better Ruby Presenters](http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters)

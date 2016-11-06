@@ -204,6 +204,17 @@ Expires: Mon, 1 Jan 2014 00:00:00 GMT
 * [Fast JSON APIs in Rails](http://robots.thoughtbot.com/fast-json-apis-in-rails-with-key-based-caches-and)
 * [Evaluate your JSON API for performance improvements](http://robots.thoughtbot.com/how-to-evaluate-your-rails-json-api-for-performance-improvements)
 
+```ruby
+def show
+  @menu = Menu.find(params[:id])
+  expires_in(5.minutes, "must-revalidate": true, public: false)
+  # responds with 304 if not stale
+  if stale?(@menu, public: false)
+    render json: MenuSerializer.new(@menu)
+  end
+end
+```
+
 ## Hypermedia
 
 * Application state

@@ -554,6 +554,7 @@ Map permissions to a specific business function.
 
 * Your JSON data cannot be Google searchable. See robot.txt
 * [RBAC](http://csrc.nist.gov/groups/SNS/rbac/)
+* [Policy Decision Points & Policy Enforcement Points](https://ccskguide.org/policy-decision-points-policy-enforcement-points/)
 
 ## Audit Trails
 

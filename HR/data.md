@@ -1,5 +1,16 @@
 # Data
 
+What are some of our key performance metrics?
+
+- Number of prospective profiled.
+- Timeliness of dishing out payroll.
+
+---
+
+> Find structure in data
+
+http://blog.interviewing.io/
+
 * [How LinkedIn Recommendation System Work](https://www.quora.com/How-does-LinkedIns-recommendation-system-work)
 
 http://www.cnet.com/how-to/reset-bypass-password-mac-macbook/
@@ -95,6 +106,8 @@ https://bugsnag.com/pricing
 * [wit.ai](https://wit.ai/)
 * [2016 - Year of conversational commerce](https://medium.com/chris-messina/2016-will-be-the-year-of-conversational-commerce-1586e85e3991#.5zynhgozf)
 * [Revenge of the clippy](https://medium.com/@saranormous/clippy-s-revenge-39f7387f9aab#.3duuaj5tf)
+* [New in Basecamp 3: Chatbots!](https://m.signalvnoise.com/new-in-basecamp-3-chatbots-8526618c0c7d#.pjar8hdr4)
+* [BC3 chatbot](https://github.com/basecamp/bc3-api/blob/master/sections/chatbots.md#chatbots)
 
 ## Data Collection - Gather the right data
 

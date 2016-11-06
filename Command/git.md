@@ -19,6 +19,7 @@ Git is a 3-stage thinking: Working -> Staging (`git add`) -> Repo (`git commit`)
 * [Atlassian has nice doc](https://www.atlassian.com/git/tutorials/undoing-changes)
 * [Read about the Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 * [19 git tips for everyday use](http://www.alexkras.com/19-git-tips-for-everyday-use/)
+* [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 
 ```
 ▶ git add -u
@@ -43,6 +44,9 @@ Porcelain is the set of useful commands. SHA hash is the implementation details.
 # Get back things you have lost
 ▶ git reflog
 ▶ git reset --hard HEAD@{1}
+
+# Show who is to blame for this line of code
+▶ git show $(git blame example.js -L 4,4 | awk '{print $1}')
 ```
 
 ## HEAD
