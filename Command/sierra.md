@@ -64,6 +64,7 @@ gem "smbglobal-sms", git: "https://github.com/mech/smbglobal-sms.git"
 ▶ brew install postgres
 ▶ brew install redis
 
+// BEWARE! Use the Docker option to install MongoDB instead of Homebrew since SCons Error is persistent
 ▶ brew search mongodb
 ▶ brew install homebrew/versions/mongodb26
 
@@ -77,6 +78,10 @@ If we cannot installed Mongo 2.6 due to "SCons Error", you can use [Docker for M
 With Docker for Mac installed, you can run an instance of the container using:
 
 ```bash
+// To start a mongodb server
+▶ docker run -d -p 27017:27017 mongo:2.6
+
+// To restore backup
 ▶ docker run -d -v ~/Desktop/backup:/backup -p 27017:27017 mongo:2.6
 ```
 
