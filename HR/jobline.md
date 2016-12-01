@@ -509,6 +509,7 @@ When job page is being view, we need to notify subscribers to do their processin
 * [**PDF.js**](https://github.com/mozilla/pdf.js)
 * [HTML to PDF](https://www.designernews.co/stories/51286-html-to-pdf)
 * [Generating complex PDF with Prawn](http://www.yoniweisbrod.com/generating-complex-pdf-documents-in-rails-with-prawn/)
+* [PDF Object Representation in HexaPDF](https://gettalong.org/blog/2016/pdf-object-representation-in-hexapdf.html)
 
 ## Email
 

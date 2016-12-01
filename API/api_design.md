@@ -1,5 +1,7 @@
 # Design
 
+> APIs should expose workflows, not expose your database tables.
+
 ```js
 JSON.stringify(json, null, 4)
 ```
@@ -18,6 +20,7 @@ API [Platform](http://platformed.info/) -> Ecosystem
 8. Highly observable
 9. Good API should be Scalable, Reusable, Evolvable, Performant, Easy to learn, use, Hard to misuse, and with good documentation.
 10. API must be FAST (Use caching and short circuiting)
+11. Do not expose your internal models and methods. Use HTTP verbs to operate on collections and elements, and avoid putting verbs in your base URLs.
 
 > Always separate thinking about real-world things from the documents which describe those things. Resource before representation. - Mike Atherton
 
@@ -25,6 +28,7 @@ Document-driven development. Test-driven also! Code style-guide. Code review. Pa
 
 One of the central notions of the Web is that we separate the identity of a resource from its representation and implementation.
 
+* [REST APIs must be hypertext-driven](http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
 * [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/index.html)
 * [Humane Registry](http://martinfowler.com/bliki/HumaneRegistry.html)
 * [Distributed Systems and the End of the API](http://writings.quilt.org/2014/05/12/distributed-systems-and-the-end-of-the-api/)

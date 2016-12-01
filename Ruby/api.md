@@ -390,7 +390,7 @@ API is all about data. It is essential data sharing. Think of your data first.
 * [Dribbble API](http://dribbble.com/api)
 * [Basecamp API](https://github.com/basecamp/bcx-api/)
 * [Xero API](http://developer.xero.com/documentation/api/)
-* [GitHub API v3](http://developer.github.cnom/v3/)
+* [GitHub API v3](https://developer.github.com/v3/)
 * [Smart Recruiters API - Good for HR](http://dev.smartrecruiters.com/)
 * [Trello API](https://trello.com/docs/)
 * [Uploadcare](https://uploadcare.com/documentation/rest/)
