@@ -22,6 +22,7 @@ By having taken the data out and put all actions elsewhere, your components shou
 * [**A Modular Approach to UI Problem Solving**](http://davidtheclark.com/modular-approach-to-interface-components/)
 * [**React reconciliation**](http://blog.testdouble.com/posts/2016-02-01-react-reconciliation.html)
 * [**React Components, Elements, and Instances**](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html)
+* [React Elements vs React Components](https://tylermcginnis.com/react-elements-vs-react-components/)
 * [React (Virtual) DOM Terminology](https://gist.github.com/sebmarkbage/fcb1b6ab493b0c77d589#file-react-terminology-md)
 * [**Component Brick and Mortar**](https://medium.com/making-internets/component-brick-and-mortar-8bde51899b00#.6mnu551fs)
 * [JavaScript Application Architecture on the road to 2015](https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b#.5tt9t7j05)

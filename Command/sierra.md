@@ -45,6 +45,17 @@ For rbenv, put the following on the last line:
 eval "$(rbenv init -)"
 ```
 
+**Git**
+
+macOS Sierra 10.12.2 require UseKeychain. Edit `~/.ssh/config` file:
+
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+```
+
 **How to make Jobline Legacy work**
 
 If you are using Bundler v1.13.1, you will encounter "git source which transmits data without encryption". Please see https://github.com/bundler/bundler/pull/2569
