@@ -65,6 +65,7 @@ Numbers have an important story to tell, and it is up to us to help them tell it
 
 ## d3.js
 
+* [Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 * [**Metrics Graphics - Based on D3**](http://metricsgraphicsjs.org/)
 * [**Bl.ocks.org**](http://bl.ocks.org/)
 * [**Square intro to D3**](http://square.github.io/intro-to-d3/)

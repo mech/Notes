@@ -212,8 +212,26 @@ function MyDiv(props) {
 
 ## Object.assign, Cloning, Extending
 
-* [Merging objects via `Object.assign()`](http://www.2ality.com/2014/01/object-assign.html)
+* [Merging objects via `Object.assign()` or object spread](http://www.2ality.com/2014/01/object-assign.html)
 * [deep-extend](??)
+
+```js
+// Making a shallow copy
+let copy = { ...original }
+
+// Merge several different objects
+let merged = { ...foo, ...bar, ...baz }
+
+// Add new properties in the process of merging
+let newObj = {
+  title: 'hello',
+  ...foo,
+  world: 200,
+  ...bar
+}
+```
+
+Object rests are the dual of object spreads, in that they can extract any extra properties that don't get picked up when destructuring an element.
 
 ```js
 // If you want to remove irrelevant props

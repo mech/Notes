@@ -1,5 +1,7 @@
 # Elasticsearch
 
+Dedicated masters is a MUST. 3 nodes at least. Keep your indices balanced, not balanced cluster can lead to instability. When in AWS, spread between availability zones.
+
 * Full-text search + Analytics + Distributed = Elasticsearch
 * Near real-time GET request
 * Not just good at search engine. Also a powerful analytics engine.

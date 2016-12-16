@@ -8,7 +8,7 @@
 
 **Setup `locale`**
 
-In your `.zshrc`
+In your `.zshrc` or your bash profile:
 
 ```bash
 export EDITOR=vi
@@ -28,9 +28,9 @@ export LANG=en_US.UTF-8
 ▶ brew install vim --with-override-system-vim
 
 ▶ rbenv install -l
-▶ rbenv install 2.3.1
+▶ rbenv install 2.4
 ▶ rbenv rehash
-▶ rbenv global 2.3.1
+▶ rbenv global 2.4
 
 ▶ rbenv install 1.9.3-p551
 
@@ -68,10 +68,12 @@ gem "smbglobal-sms", git: "https://github.com/mech/smbglobal-sms.git"
 ▶ brew search mongodb
 ▶ brew install homebrew/versions/mongodb26
 
-// For eventmachine
-// See https://github.com/eventmachine/eventmachine/pull/668 and https://github.com/eventmachine/eventmachine/issues/643
-▶ brew link openssl --force
+// For eventmachine, edit the Gemfile to v1.0.9
+// See https://github.com/eventmachine/eventmachine/pull/668
+// See https://github.com/eventmachine/eventmachine/issues/643
 ```
+
+You can see [this article for problem with OpenSSL](http://stackoverflow.com/questions/38670295/brew-refusing-to-link-openssl)
 
 If we cannot installed Mongo 2.6 due to "SCons Error", you can use [Docker for Mac](https://www.docker.com/products/docker#/mac) for Mongo.
 

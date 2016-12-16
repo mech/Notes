@@ -2,6 +2,10 @@
 
 > APIs should expose workflows, not expose your database tables.
 
+---
+
+> That's the reality of scaling a RESTful API, we just add custom endpoints to efficiently satisfy the growing clients needs. Managing custom endpoints like these is hard.
+
 ```js
 JSON.stringify(json, null, 4)
 ```

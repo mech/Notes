@@ -176,6 +176,8 @@ Sprint master - Read the room well, can pivot at any moment.
 
 Time-boxing (Session)
 
+* [How to ideate for the next big thing](https://blog.ginetta.net/how-to-ideate-for-the-next-big-thing-32d68d252e3c#.b703ub88h)
+* [I've run my first design sprint and it's been awesome: this is what I learned](https://medium.com/life-in-belka/ive-run-my-first-design-sprint-and-it-s-been-awesome-this-is-what-i-learned-a8392226cfed#.v4hknao6q)
 * [**How design sprints are flexing for success - Google I/O 2016**](https://youtu.be/awKVQUcku4A?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC)
 * [**Sprint Stories**](https://sprintstories.com/)
 * [Why good storytelling helps you design great products](http://www.gv.com/lib/why-good-storytelling-helps-you-design-great-products)

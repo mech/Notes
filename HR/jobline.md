@@ -13,6 +13,8 @@ Key HR functions:
 
 For survivability, we need to re-inventing and re-architecting the whole Jobline platform multiple times. How to continuously rebuild a system that never stop.
 
+> Hiring through a template is a bad idea - Astrid Atkinson (Google)
+
 ---
 
 Very nice study of ATS from Hired.com: https://hired.com/blog/highlights/announcing-newest-ats-integration-lever/
@@ -105,6 +107,19 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 > Genetic programming is the process of simulating nature’s evolution system by producing populations of candidate programs and filtering out the programs that don’t pass the tests. The candidates that do pass the tests survive and form the basis of the next generation.
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
+
+## Logic Programming
+
+Constraint solver, Rule enforcement
+
+https://www.youtube.com/watch?v=f5Bi6_GOIB8
+
+http://sentient-lang.org/
+
+## Problem with Software
+
+- Subtle interaction
+- Subtle and not obvious
 
 ## Slogan
 
@@ -418,6 +433,8 @@ INR accrual can only have all same `work_year`.
 * Show whole year public holidays.
 
 ## Timesheet (Time and Attendance)
+
+https://codyhouse.co/gem/schedule-template/
 
 Submit timesheet will have a lock to indicate it can't be amended.
 

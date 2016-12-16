@@ -10,6 +10,9 @@ Relay is a GraphQL client library for React.
 
 ## GraphQL
 
+* [Learn GraphQL](https://learngraphql.com/)
+* [Apollo Blog](https://dev-blog.apollodata.com/)
+* [GraphQL: The next generation of API design](https://dev-blog.apollodata.com/graphql-the-next-generation-of-api-design-f24b1689756a#.yu0wy14q3)
 * [GraphQL on Rails](https://medium.com/@khor/relay-facebook-on-rails-8b4af2057152#.l4mw5w6uz)
 * [**Awesome Graphql**](https://github.com/chentsulin/awesome-graphql)
 * [GraphQL in the age of REST APIs](https://medium.com/chute-engineering/graphql-in-the-age-of-rest-apis-b10f2bf09bba)

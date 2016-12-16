@@ -5,6 +5,8 @@ What are some of our key performance metrics?
 - Number of prospective profiled.
 - Timeliness of dishing out payroll.
 
+> Product Metrics - What your customer is trying to do, and are they succeeding. Very product specific. Hard to find, easy to capture.
+
 ---
 
 > Find structure in data
@@ -65,6 +67,23 @@ Not a lot of "predictive patterns" to gain ☹️.
 > Predict what's going to happen, instead of waiting for it to happen (requires lots of data!)
 
 Too many businesses regard data analytics as pertaining mainly to realizing value from some existing data.
+
+## Types of Values
+
+* **Nominal** - Categorical or identity sets, distinct/disjoint. Most basic value you can have and is distinct. e.g. the value 3 is distinct from the value 5. Production is different from Staging. Cat is different from Dog, etc. hostname="vga1", etc. Mode.
+* **Ordinal** - Nominal + Relative ordering. Take a normal value and give it a relative order, a ranking. 43rd > 20th, version=2.4 > version=1.5, etc. Median, Percentile.
+* **Interval** - Ordinal + Equality of spacing. The value has ordinality (order) and the space between them has meaning. Something in 15 mins, 1 hours, days, etc. Mean, Standard Deviation, Multivariate Regression, linear correlation math.
+* **Ratio** - Interval + Correlation factor. Often computed from interval numbers via simple math. 75% < 85%. Geometric Mean, Logarithmic, Coefficient of Variation.
+
+Do you have a meaningful "zero" points?
+
+Metric collected can be multi-dimensional.
+
+> Your sampling threshold dictates what kind of lies your service tells you.
+
+## Time Series and Autocorrelation
+
+https://onlinecourses.science.psu.edu/stat501/node/357
 
 ## Search Filter + Review
 
