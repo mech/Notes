@@ -1,5 +1,7 @@
 # Lists
 
+* [Hash table implementation in Ruby 2.4](https://bugs.ruby-lang.org/issues/12142)
+
 ## Arrays
 
 ## Sets

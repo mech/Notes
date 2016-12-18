@@ -48,7 +48,7 @@ We can also decompose jobs into multiple independent and idempotent jobs that ca
 
 ## Attributes API
 
-* [Using Rails 5 Atributes API today](https://nvisium.com/blog/2015/06/22/using-rails-5-attributes-api-today-in/)
+* [Using Rails 5 Attributes API today](https://nvisium.com/blog/2015/06/22/using-rails-5-attributes-api-today-in/)
 * [Virtual attributes and Rails 5 Attributes API](https://gorails.com/episodes/virtual-attributes-and-rails-5-attribute-api)
 
 ## Middlewares
