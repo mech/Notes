@@ -91,11 +91,11 @@ If we cannot installed Mongo 2.6 due to "SCons Error", you can use [Docker for M
 With Docker for Mac installed, you can run an instance of the container using:
 
 ```bash
-// To start a mongodb server
-▶ docker run -d -p 27017:27017 mongo:2.6
-
-// To restore backup
+// To restore backup as well as having an instance
 ▶ docker run -d -v ~/Desktop/backup:/backup -p 27017:27017 mongo:2.6
+
+// Don't do this! Just for reference!
+▶ docker run -d -p 27017:27017 mongo:2.6
 ```
 
 With that container, you need to restore the backup, you can:
@@ -123,4 +123,9 @@ select email from users where type='Candidate' limit 10;
 update users set email=CONCAT("sample_", email) where type='Candidate';
 select email from users where type='Employer' limit 10;
 update users set email=CONCAT("jlxyz_", email) where type='Employer';
+```
+
+```ruby
+Candidate.all.each { |ca| ca.password='password'; ca.save 
+Employer.all.each { |emp| emp.password='password'; emp.save }
 ```
