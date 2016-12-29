@@ -71,11 +71,12 @@ gem "smbglobal-sms", git: "https://github.com/mech/smbglobal-sms.git"
 **Install databases**
 
 ```bash
-▶ brew install homebrew/versions/mysql56
+▶ brew install mysql@5.6
 ▶ brew install postgres
 ▶ brew install redis
 
 // BEWARE! Use the Docker option to install MongoDB instead of Homebrew since SCons Error is persistent
+// As of Dec 2016, Homebrew no longer provide mongodb26
 ▶ brew search mongodb
 ▶ brew install homebrew/versions/mongodb26
 
@@ -110,7 +111,7 @@ With that container, you need to restore the backup, you can:
 If MySQL is fresh install, you can use `mysql_secure_installation` to set root password.
 
 ```bash
-// You are better off using mysql_secure_installation to reset root password
+// Don't do this! You are better off using mysql_secure_installation to reset root password
 ▶ mysqladmin -u root password PASSWORD
 
 ▶ mysql -u root -p jobline_dev < backup.sql
