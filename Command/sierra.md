@@ -48,8 +48,8 @@ eval "$(rbenv init -)"
 **Git**
 
 ```
-git config --global user.name "mech"
-git config --global user.email "mech@me.com"
+git config --global user.name "<your-name>"
+git config --global user.email "<your-email>"
 git config --global alias.co checkout
 git config --global alias.st "status -sb"
 git config --global alias.br branch
@@ -59,7 +59,7 @@ git config --global color.diff auto
 git config --global color.interactive auto
 git config --global color.status auto
 git config --global core.editor "vim"
-git config --global core.excludesfile "/Users/mech/.gitignore"
+git config --global core.excludesfile "/Users/<name>/.gitignore"
 git config --global credential.helper osxkeychain
 ```
 
@@ -76,7 +76,7 @@ Host *
 
 .gemrc
 
-```
+```yaml
 ---
 :verbose: true
 :update_sources: true
@@ -90,7 +90,7 @@ gem: --no-rdoc --no-ri
 
 .irbrc
 
-```
+```ruby
 require 'rubygems'
 require 'awesome_print'
 require 'irb/completion'
@@ -112,7 +112,7 @@ alias q exit
 
 .pryrc
 
-```
+```ruby
 Pry.commands.alias_command 'q', 'exit'
 ```
 
@@ -173,6 +173,12 @@ With that container, you need to restore the backup, you can:
 ▶ docker exec -it <container-id> bash -l
 ```
 
+After you're inside the mongo container, you can restore it by:
+
+```bash
+▶ mongorestore --db jobline_dev --drop /backup/jobline_pro
+```
+
 **Configure and restore databases**
 
 If MySQL is fresh install, you can use `mysql_secure_installation` to set root password.
@@ -182,8 +188,6 @@ If MySQL is fresh install, you can use `mysql_secure_installation` to set root p
 ▶ mysqladmin -u root password PASSWORD
 
 ▶ mysql -u root -p jobline_dev < backup.sql
-
-▶ mongorestore --db jobline_dev --drop ~/Desktop/mongodb_bak_with_timestamp/jobline_pro
 ```
 
 ```sql
