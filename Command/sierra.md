@@ -47,6 +47,22 @@ eval "$(rbenv init -)"
 
 **Git**
 
+```
+git config --global user.name "mech"
+git config --global user.email "mech@me.com"
+git config --global alias.co checkout
+git config --global alias.st "status -sb"
+git config --global alias.br branch
+git config --global apply.whitespace nowarn
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto
+git config --global core.editor "vim"
+git config --global core.excludesfile "/Users/mech/.gitignore"
+git config --global credential.helper osxkeychain
+```
+
 macOS Sierra 10.12.2 require UseKeychain. Edit `~/.ssh/config` file:
 
 ```
@@ -54,6 +70,50 @@ Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa
+```
+
+**.gemrc, .irbrc, .pryrc**
+
+.gemrc
+
+```
+---
+:verbose: true
+:update_sources: true
+:sources:
+- https://rubygems.org
+gem: --no-rdoc --no-ri
+:bulk_threshold: 1000
+:backtrace: false
+:benchmark: false
+```
+
+.irbrc
+
+```
+require 'rubygems'
+require 'awesome_print'
+require 'irb/completion'
+
+AwesomePrint.irb!
+
+IRB.conf[:AUTO_INDENT] = true
+IRB.conf[:SAVE_HISTORY] = 1000
+IRB.conf[:EVAL_HISTORY] = 200
+
+class Object
+  def local_methods
+    (methods - Object.instance_methods).sort
+  end
+end
+
+alias q exit
+```
+
+.pryrc
+
+```
+Pry.commands.alias_command 'q', 'exit'
 ```
 
 **How to make Jobline Legacy work**
@@ -65,8 +125,15 @@ gem "mysql2", "~> 0.3.20"
 gem "eventmachine", "1.0.9"
 
 gem "will_paginate", git: "https://github.com/mech/will_paginate.git"
+
+# You can delete this
 gem "smbglobal-sms", git: "https://github.com/mech/smbglobal-sms.git"
+
+# Not sure why need this one
+gem "public_suffix", "1.4.6"
 ```
+
+Note: You may need to `rm Gemfile.lock` first. (Probably not)
 
 **Install databases**
 
