@@ -47,6 +47,8 @@ eval "$(rbenv init -)"
 
 **Git**
 
+Cloning using [HTTPS](https://help.github.com/articles/which-remote-url-should-i-use/) is preferred than using SSH. `osxkeychain` is a helper to remember your username and password when using HTTPS.
+
 ```
 git config --global user.name "<your-name>"
 git config --global user.email "<your-email>"
