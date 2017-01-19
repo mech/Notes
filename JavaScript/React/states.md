@@ -102,6 +102,8 @@ A very hard to maintain mistake is to have the root/top component passing props 
 
 Think of React's state as data changes over time. Props are immutable whilst states can change over time and is bad enough.
 
+Local-mutable data is stateful.
+
 * [**Why local component state is a trap - Richard Feldman**](https://www.safaribooksonline.com/blog/2015/10/29/react-local-component-state/)
 * [Persistent Data Structures and Managed References - Rich Hickey](http://www.infoq.com/presentations/Value-Identity-State-Rich-Hickey)
 

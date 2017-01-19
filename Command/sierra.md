@@ -200,6 +200,6 @@ update users set email=CONCAT("jlxyz_", email) where type='Employer';
 ```
 
 ```ruby
-Candidate.all.each { |ca| ca.password='password'; ca.save 
+Candidate.all.each { |ca| ca.password='password'; ca.save }
 Employer.all.each { |emp| emp.password='password'; emp.save }
 ```
