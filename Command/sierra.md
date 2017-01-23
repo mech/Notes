@@ -162,24 +162,14 @@ If we cannot installed Mongo 2.6 due to "SCons Error", you can use [Docker for M
 With Docker for Mac installed, you can run an instance of the container using:
 
 ```bash
-// To restore backup as well as having an instance
-▶ docker run -d -v ~/Desktop/backup:/backup -p 27017:27017 mongo:2.6
+// Run a named instance
+▶ docker run -d --name mongo26 -p 27017:27017 mongo:2.6
 
-// Don't do this! Just for reference!
-▶ docker run -d -p 27017:27017 mongo:2.6
-```
+// Then run another temporary instance just to connect to the previous named instance
+▶ docker run --rm -it -v $(pwd):/backup --link mongo26 mongo:2.6 bash -l
 
-With that container, you need to restore the backup, you can:
-
-```bash
-▶ docker ps
-▶ docker exec -it <container-id> bash -l
-```
-
-After you're inside the mongo container, you can restore it by:
-
-```bash
-▶ mongorestore --db jobline_dev --drop /backup/jobline_pro
+// Inside that second instance, do the restore
+mongorestore --host mongo26 --db jobline_dev --drop /backup/Mongo/jobline_pro
 ```
 
 **Configure and restore databases**
