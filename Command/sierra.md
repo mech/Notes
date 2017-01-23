@@ -127,6 +127,7 @@ gem "mysql2", "~> 0.3.20"
 gem "eventmachine", "1.0.9"
 
 gem "will_paginate", git: "https://github.com/mech/will_paginate.git"
+gem "xeroizer", git: "https://github.com/mech/xeroizer.git", branch: "bank_transfers"
 
 # You can delete this
 gem "smbglobal-sms", git: "https://github.com/mech/smbglobal-sms.git"
