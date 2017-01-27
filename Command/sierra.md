@@ -74,6 +74,12 @@ Host *
   IdentityFile ~/.ssh/id_rsa
 ```
 
+Copy SSH file to remote
+
+```
+▶ ssh-copy-id -p PORT USER@IP
+```
+
 **.gemrc, .irbrc, .pryrc**
 
 .gemrc
