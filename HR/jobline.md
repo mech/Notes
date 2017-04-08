@@ -1,5 +1,7 @@
 # Jobline's Problem
 
+http://www.businesstimes.com.sg/government-economy/wsg-ropes-in-foreign-recruitment-firms-to-help-jobless-pmets
+
 Think of Jobline as providing several **Services**. Don't think of it as modules. Think in terms of services and how you can help other people.
 
 Key HR functions:
