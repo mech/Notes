@@ -110,6 +110,18 @@ Enterprise system is a complex, adaptive system. It cannot be understood by redu
 
 > Genetic programming offers the possibility of continual, automated improvement on hot code and critical algorithms. There is real potential to point a genetic programming algorithm at a git repository and automatically push new generations of software to production when the population improves on prior deployed versions.
 
+## Software influence behavior
+
+**Hospital case study**
+
+Due to safety and validation concern, all patient form has to be validated before submission. This is a very noble approach, but it failed to take into account nurses are on time constraint and something lack detailed information of patient and must wait for data to come in after a while. The system prevent the nurses from doing their job efficiently just because of database validation.
+
+**POS Cashier**
+
+Developer get design spec from manager who have safety in mind and want to prevent cashier from doing any price adjustment. Any price adjustment require manager's approval.
+
+This has performance issues because cashier will be slow to adjust price for a dozen products. So the new spec is modified to allow 10% allowance on price adjustment. This unfortunately lead to the behavior where all price are just adjusted forever at 10% because nobody want to go over the limit and bother the manager's approval.
+
 ## Logic Programming
 
 Constraint solver, Rule enforcement
