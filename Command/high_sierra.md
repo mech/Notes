@@ -48,6 +48,15 @@ Create `~/.config/fish/config.fish` if it does not exist
 ▶ funcsave q
 ```
 
+Setup rbenv:
+
+```
+set PATH $HOME/.rbenv/shims $PATH
+rbenv rehash >/dev/null ^&1
+status --is-interactive; and . (rbenv init -|psub)
+```
+
+
 ## Git
 
 Cloning using [HTTPS](https://help.github.com/articles/which-remote-url-should-i-use/) is preferred than using SSH. `osxkeychain` is a helper to remember your username and password when using HTTPS.
@@ -185,3 +194,5 @@ Note: You may need to `rm Gemfile.lock` first. (Probably not)
 
 ▶ mongorestore --db jobline_dev --drop /backup/Mongo/jobline_pro
 ```
+
+

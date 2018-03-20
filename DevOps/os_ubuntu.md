@@ -94,6 +94,7 @@ tmpfs		/run/shm	tmpfs	defaults,noexec,nosuid	0	0
 
 ▶ diskutil unmountDisk /dev/diskN
 
+// Notice that it is rdiskN
 ▶ sudo dd if=/Users/mech/Desktop/Ubuntu/ubuntu-14.04.3-server-amd64.dmg of=/dev/rdiskN bs=1m
 
 // Mac OS-X will display a prompt to ask you to reject, if not do the following
@@ -532,3 +533,5 @@ DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog"
 ▶ sudo service docker restart
 ▶ exit // Need to logout
 ```
+
+
