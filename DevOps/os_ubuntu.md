@@ -8,6 +8,25 @@
 * [How to add and delete users on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
 * [Enter SSH passphrase once](http://askubuntu.com/questions/362280/enter-ssh-passphrase-once)
 
+## Sudo
+
+By default, Ubuntu disabled `root` account, so you can't su into it.
+
+```
+// If you want a root shell like you get with su
+▶ sudo -s
+
+// If you want a root shell like you get with su -
+▶ sudo -i
+```
+
+## VMware Fusion
+
+```
+▶ sudo apt install open-vm-tools-desktop
+▶ vmhgfs-fuse -o auto_unmount .host:/ $HOME/Shared
+```
+
 ## Useful status commands
 
 ```
@@ -173,6 +192,7 @@ Postfix is needed to sendmail.
 ▶ sudo apt install fail2ban
 
 // Copy the file to a safe place
+// Since jail.conf can get replaced by upgrade, we use jail.local instead
 ▶ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 
 ▶ sudo vi /etc/fail2ban/jail.local
@@ -182,6 +202,7 @@ findtime = 600
 maxretry = 3
 destemail = tech1@jobline.com.sg
 
+# Must setup this action or else it won't send email
 action = %(action_mwl)s
 
 [sshd]
@@ -334,11 +355,16 @@ kernel.panic = 10
 * [IP command examples](http://www.tecmint.com/ip-command-examples/)
 
 ```
+▶ ip link show
+▶ ip addr show eth0
+
 // Will be lost after reboot
 ▶ sudo ip address add 172.16.100.17/24 dev eth0
 ▶ ip address show eth0
 ▶ sudo ip address del 172.16.100.17/24 dev eth0
+```
 
+```
 // To make it permanent, edit
 ▶ vi /etc/network/interfaces
 
@@ -357,7 +383,9 @@ iface eth0 inet static
   dns-nameservers 10.1.2.3 10.1.2.3
   dns-search example.com
   gateway ...
+```
   
+```
 // Activate these settings without reboot
 // Must be in one line or else your SSH session will not survive
 ▶ sudo ifdown eth0 && sudo ifup eth0
@@ -505,7 +533,7 @@ DEFAULT_FORWARD_POLICY="ACCEPT"
 
 [Service]
 ExecStart=
-ExecStart=/usr/bin/docker daemon --dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog -H fd://
+ExecStart=/usr/bin/dockerd --icc=false --dns 8.8.8.8 --dns 8.8.4.4 --log-driver=syslog -H fd://
 
 ▶ sudo systemctl daemon-reload
 ▶ sudo systemctl restart docker

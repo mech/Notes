@@ -158,6 +158,13 @@ Address Resolution Protocol (ARP) maps layer 3 IP addresses to layer 2 MAC addre
 ### Ports
 
 ```
+▶ ping google.com.sg -c 2
+▶ sudo netstat -plunt
+
+// Display routing table
+▶ netstat -rn
+▶ ip route show
+
 // See who is using port=5000
 ▶ netstat -tupln | grep 5000
 
@@ -266,3 +273,5 @@ Compressing (tar.gz) and uploading to Amazon S3
 ▶ tar -tzf etc.tar.gz
 ▶ tar -xzf etc.tar.gz
 ```
+
+

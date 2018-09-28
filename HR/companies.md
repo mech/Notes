@@ -19,6 +19,7 @@ Notable companies in HR domain.
 * [Why hiring is broken](https://medium.freecodecamp.com/why-is-hiring-broken-it-starts-at-the-whiteboard-34b088e5a5db#.vi4blkpvh)
 * [Will Microsoft help LinkedIn go enterprise?](http://platformed.info/will-microsoft-help-linkedin-go-enterprise/)
 * [Presumi](https://presumi.com/)
+* [Wipro](https://www.wipro.com/)
 
 https://www.hackerrank.com/
 
@@ -77,11 +78,9 @@ The Big 3: SalesForce, Oracle HRMS, Workday
 * [Local cloud HR](http://www.globalhrcloud.com/)
 * [BetterWorks](http://www.betterworks.com/)
 * [remoteinterview.io](https://www.remoteinterview.io/)
-* [A very big UK payroll company - Sage](http://www.sage.co.uk/)
 * [VMS?](http://www.taulia.com/en/products/supplier-information-management)
 * [Your professional portfolio, reimagined](https://kredo.com/)
 * [Protege (local)](http://www.protegehub.com/)
-* [Pay Asia - Payroll service](http://www.payasia.asia/)
 * [myEdu - Connecting students with companies](https://www.myedu.com/)
 * [SAP Scouting](http://awards.ixda.org/entry/2014/sap-scouting/)
 * [**Gild**](http://www.gild.com/)
@@ -99,6 +98,12 @@ The Big 3: SalesForce, Oracle HRMS, Workday
 * [Resume builder](http://resumator.qwilr.com/)
 * [Jazz](https://jazz.co/product)
 * [interviewing.io](http://interviewing.io/)
+
+## Payroll
+
+* [SimplePay - Local with Xero and IRAS integration](https://www.simplepay.com.sg/)
+* [A very big UK payroll company - Sage](http://www.sage.co.uk/)
+* [Pay Asia - Payroll service](http://www.payasia.asia/)
 
 ## Executive Search
 
@@ -134,3 +139,5 @@ The Big 3: SalesForce, Oracle HRMS, Workday
 ## Future Jobs
 
 * [Mini Theory](http://minitheory.com/)
+
+
