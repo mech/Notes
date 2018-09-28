@@ -16,16 +16,6 @@ After installing Xcode, launched Xcode to install some software first. Then we n
 ▶ brew install git
 ▶ brew install fish
 ▶ brew install wget tree httpie diff-so-fancy
-▶ brew install rbenv ruby-build
-
-▶ rbenv install -l
-▶ rbenv install 2.5.1
-▶ rbenv rehash
-▶ rbenv global 2.5.1
-
-▶ gem update --system
-▶ gem install bundler
-▶ rbenv rehash
 ```
 
 ## Install fish shell
@@ -38,14 +28,6 @@ Create `~/.config/fish/config.fish` if it does not exist
   end
 
 ▶ funcsave q
-```
-
-Setup rbenv:
-
-```
-set PATH $HOME/.rbenv/shims $PATH
-rbenv rehash >/dev/null ^&1
-status --is-interactive; and . (rbenv init -|psub)
 ```
 
 ## Locale
@@ -128,6 +110,28 @@ Copy SSH file to remote
 Do not install Java 11. Use JDK 8.
 
 ## Ruby
+
+Do this only after setting up fish.
+
+```
+▶ brew install rbenv ruby-build
+
+▶ rbenv install -l
+▶ rbenv install 2.5.1
+▶ rbenv rehash
+▶ rbenv global 2.5.1
+
+▶ gem update --system
+▶ rbenv rehash
+```
+
+Setup rbenv:
+
+```
+set PATH $HOME/.rbenv/shims $PATH
+rbenv rehash >/dev/null ^&1
+status --is-interactive; and . (rbenv init -|psub)
+```
 
 ~/.gemrc
 
