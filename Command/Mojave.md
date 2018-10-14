@@ -1,8 +1,10 @@
 # Mojave
 
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+
 ## Install Xcode
 
-After installing Xcode, launched Xcode to install some software first. Then we need to install Command Line Tools to make Homebrew work:
+After installing Xcode, launch Xcode to install some software first. Then we need to install Command Line Tools to make Homebrew work:
 
 ```
 ▶ xcode-select --install
@@ -18,16 +20,16 @@ After installing Xcode, launched Xcode to install some software first. Then we n
 ▶ brew install wget tree httpie diff-so-fancy
 ```
 
+We need to install Git first since it will give us osxkeychain helper.
+
 ## Install fish shell
 
-Create `~/.config/fish/config.fish` if it does not exist
+Create `~/.config/fish/config.fish` and write your aliases. Create `functions` folder. 
 
 ```
-▶ function q
-    exit
-  end
-
-▶ funcsave q
+function q
+  exit
+end
 ```
 
 ## Locale
@@ -209,3 +211,6 @@ If you can't install mysql2 gem for MySQL@5.7
 ▶ bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include"
 ```
 
+## Apps
+
+* [MWeb for Markdown writing - Use External mode](https://www.mweb.im)
