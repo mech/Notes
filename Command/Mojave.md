@@ -208,7 +208,17 @@ If you can't install mysql2 gem for MySQL@5.7
 * [#1005](https://github.com/brianmario/mysql2/issues/1005)
 
 ```
+// This works on Ruby 2.5.1 only
 ▶ bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include"
+
+// For Ruby 2.5.3
+▶ brew install openssl
+
+// For bash shell
+▶ gem install mysql2 -- --with-opt-dir="$(brew --prefix openssl)"
+
+// or for fish shell
+▶ gem install mysql2 -- --with-opt-dir="(brew --prefix openssl)"
 ```
 
 ## Apps
