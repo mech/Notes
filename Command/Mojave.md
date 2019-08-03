@@ -203,6 +203,18 @@ Pry.commands.alias_command 'q', 'exit'
 
 ## mysql2
 
+Use this as of Aug 2019 with Mojave 10.14.6:
+
+```
+// This works on Aug 2019, with Mojave 10.14.6
+▶ bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib"
+```
+
+See: https://github.com/brianmario/mysql2/issues/1045
+See: 
+
+<span style="color:red">BELOW ARE OUT-OF-DATE</span>
+
 If you can't install mysql2 gem for MySQL@5.7
 
 * [#1005](https://github.com/brianmario/mysql2/issues/1005)
