@@ -1,4 +1,4 @@
-# Mojave
+# Catalina (work with Mojave)
 
 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 
@@ -22,7 +22,12 @@ After installing Xcode, launch Xcode to install some software first. Then we nee
 
 We need to install Git first since it will give us osxkeychain helper.
 
-## Install fish shell
+## Setup fish shell
+
+```
+▶ sudo bash -c 'echo /usr/local/bin/fish >> /etc/shells'
+▶ chsh -s /usr/local/bin/fish
+```
 
 Create `~/.config/fish/config.fish` and write your aliases. Create `functions` folder. 
 
@@ -32,12 +37,18 @@ function q
 end
 ```
 
-## Locale
+## Locale and others ENV
 
 In your `~/.config/fish/config.fish` or your bash profile:
 
 ```
 set -gx LANG en_US.UTF-8
+set -gx EDITOR vi
+set -gx DEVELOPMENT_IP http://(ipconfig getifaddr en0)
+
+set -gx FILEMAKER_HOST XXX
+
+set -gx AWS_REGION ap-southeast-1
 ```
 
 ## Git
@@ -186,6 +197,7 @@ Pry.commands.alias_command 'q', 'exit'
 ▶ brew install mysql@5.7
 ▶ brew services start mysql@5.7
 ▶ brew link mysql@5.7 --force
+▶ mysql_secure_installation
 
 ▶ brew install postgres
 ▶ brew install redis
@@ -193,6 +205,8 @@ Pry.commands.alias_command 'q', 'exit'
 // See what services you have
 ▶ brew services list
 ```
+
+Note that you must install MySQL, Postgres, Redis services before attempting to bundle install for jobline-six.
 
 ### Configure and restore databases
 
@@ -203,7 +217,7 @@ Pry.commands.alias_command 'q', 'exit'
 
 ## mysql2
 
-Use this as of Aug 2019 with Mojave 10.14.6:
+Use this as of Aug 2019 with Mojave 10.14.6 (also tested working on Catalina on Feb 2020):
 
 ```
 // This works on Aug 2019, with Mojave 10.14.6
@@ -211,9 +225,8 @@ Use this as of Aug 2019 with Mojave 10.14.6:
 ```
 
 See: https://github.com/brianmario/mysql2/issues/1045
-See: 
 
-<span style="color:red">BELOW ARE OUT-OF-DATE</span>
+<span style="color:red">BELOW ARE OUT-OF-DATE (for informational purposes only)</span>
 
 If you can't install mysql2 gem for MySQL@5.7
 
@@ -222,9 +235,6 @@ If you can't install mysql2 gem for MySQL@5.7
 ```
 // This works on Ruby 2.5.1 only
 ▶ bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include"
-
-// For Ruby 2.5.3
-▶ brew install openssl
 
 // For bash shell
 ▶ gem install mysql2 -- --with-opt-dir="$(brew --prefix openssl)"

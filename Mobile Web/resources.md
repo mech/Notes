@@ -228,3 +228,4 @@ Notice the `background-size` is set to `100%` for both width and height. This ma
 16px for standard screens and 32px for retina screens.
 
 * [Retina version](http://xiconeditor.com/)
+* [How to Create Retina-Caliber Favicons](https://daringfireball.net/2013/01/retina_favicons)
