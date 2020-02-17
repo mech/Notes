@@ -1,7 +1,5 @@
 # Catalina (work with Mojave)
 
-defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
-
 ## Install Xcode
 
 After installing Xcode, launch Xcode to install some software first. Then we need to install Command Line Tools to make Homebrew work:
@@ -241,6 +239,16 @@ If you can't install mysql2 gem for MySQL@5.7
 
 // or for fish shell
 ▶ gem install mysql2 -- --with-opt-dir="(brew --prefix openssl)"
+```
+
+## Acrobat Reader
+
+Due to Prawn and ttfunk issues, we need to download Adobe Acrobat reader to test for all PDF that is being generated.
+
+Delete the plugins in order to use Preview for FileMaker client.
+
+```
+▶ cd /Library/Internet Plug-Ins
 ```
 
 ## Apps
